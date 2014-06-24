@@ -1,0 +1,54 @@
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+	address 94.23.58.68
+	netmask 255.255.255.0
+	network 94.23.58.0
+	broadcast 94.23.58.255
+	gateway 94.23.58.254
+
+iface eth0 inet6 static
+	address 2001:41D0:2:3B44::1
+	netmask 128
+	post-up /sbin/ip -f inet6 route add 2001:41D0:2:3Bff:ff:ff:ff:ff dev eth0
+	post-up /sbin/ip -f inet6 route add default via 2001:41D0:2:3Bff:ff:ff:ff:ff
+#
+	pre-down /sbin/ip -f inet6 route del default via 2001:41D0:2:3Bff:ff:ff:ff:ff
+	pre-down /sbin/ip -f inet6 route del 2001:41D0:2:3Bff:ff:ff:ff:ff dev eth0
+
+auto mainzBR
+iface mainzBR inet static
+	bridge-ports none
+	address 10.37.254.5
+	netmask 255.255.0.0
+	post-up		/sbin/ip rule add iif $IFACE table 37 
+#	post-up 	/sbin/ip route add unreachable 10.37.0.0/16 metric 200 table 37
+#
+	pre-down	/sbin/ip rule del iif $IFACE table 37
+#	pre-down	/sbin/ip route del unreachable 10.37.0.0/16 metric 200 table 37
+
+iface mainzBR inet6 static
+	address fd37:b4dc:4b1e::0a25:fe05
+	netmask 64
+
+
+allow-hotplug bat0
+iface bat0 inet6 manual
+	pre-up		/sbin/modprobe batman-adv
+	pre-up		/usr/sbin/batctl if add mainz_meshVPN
+	up		/sbin/ip link set $IFACE up
+	post-up		/sbin/brctl addif mainzBR $IFACE
+	post-up 	/usr/sbin/batctl it 10000
+#	post-up		/sbin/ip rule add from all fwmark 0x1 table 37
+#
+	pre-down	/sbin/brctl delif mainzBR $iface || true
+	down		/sbin/ip link set $IFACE down
+
+
+
