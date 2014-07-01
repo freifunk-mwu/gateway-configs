@@ -8,30 +8,30 @@
 zone "local.ffmz.org." {
         type slave;
         file "/etc/bind/ffmz/local.ffmz.db";
-	masters { 10.37.254.5; };
+	masters { 10.37.0.5; };
 };
 
 zone "37.10.in-addr.arpa" {
 	type slave;
 	file "/etc/bind/ffmz/37.10.in-addr.arpa.db";
-	masters { 10.37.254.5; };
+	masters { 10.37.0.5; };
 };
 
 zone "e.1.b.4.c.d.4.b.7.3.d.f.ip6.arpa" {
 	type slave;
 	file "/etc/bind/ffmz/fd37:b4dc:4b1e_48.ip6.arpa.db";
-	masters { 10.37.254.5; };
+	masters { 10.37.0.5; };
 };
 
 zone "56.10.in-addr.arpa" {
         type slave;
         file "/etc/bind/ffwi/56.10.in-addr.arpa.db";
-        masters { 10.37.254.5; };
+        masters { 10.37.0.5; };
 };
 
 zone "e.1.b.4.c.d.4.b.6.5.d.f.ip6.arpa" {
         type slave;
         file "/etc/bind/ffwi/fd56:b4dc:4b1e_48.ip6.arpa.db";
-        masters { 10.37.254.5; };
+        masters { 10.37.0.5; };
 };
 
