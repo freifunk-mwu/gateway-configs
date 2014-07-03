@@ -12,6 +12,7 @@ iface eth0 inet static
 	netmask 255.255.255.255
 	gateway 176.9.64.143
 	pointopoint 176.9.64.143
+	dns-nameservers 213.73.91.35
 
 iface eth0 inet6 static
 	address 2a01:4f8:150:8570::2
@@ -22,12 +23,9 @@ auto mainzBR
 iface mainzBR inet static
 	bridge-ports none
 	address 10.37.0.23
-	netmask 255.255.0.0
+	netmask 255.255.192.0
 	post-up		/sbin/ip rule add iif $IFACE table 37 
-#	post-up 	/sbin/ip route add unreachable 10.37.0.0/16 metric 200 table 37
-#
 	pre-down	/sbin/ip rule del iif $IFACE table 37
-#	pre-down	/sbin/ip route del unreachable 10.37.0.0/16 metric 200 table 37
 
 iface mainzBR inet6 static
 	address fd37:b4dc:4b1e::0a25:0017
@@ -37,12 +35,9 @@ auto wiesbadenBR
 iface wiesbadenBR inet static
         bridge-ports none
         address 10.56.0.23
-        netmask 255.255.0.0
+        netmask 255.255.192.0
         post-up         /sbin/ip rule add iif $IFACE table 56
-#       post-up         /sbin/ip route add unreachable 10.37.0.0/16 metric 200 table 56
-#
         pre-down        /sbin/ip rule del iif $IFACE table 56
-#       pre-down        /sbin/ip route del unreachable 10.37.0.0/16 metric 200 table 56
 
 iface wiesbadenBR inet6 static
         address fd56:b4dc:4b1e::0a38:0017

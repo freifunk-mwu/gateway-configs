@@ -5,10 +5,40 @@
 // Zones for Freifunk
 //
 
+zone "ffmz.org." {
+        type slave;
+        file "/etc/bind/ffmz/ffmz.db";
+        masters { 10.37.0.5; };
+};
+
 zone "local.ffmz.org." {
         type slave;
         file "/etc/bind/ffmz/local.ffmz.db";
 	masters { 10.37.0.5; };
+};
+
+zone "user.ffmz.org." {
+        type slave;
+        file "/etc/bind/ffmz/user.ffmz.db";
+        masters { 10.37.0.5; };
+};
+
+zone "ffwi.org." {
+        type slave;
+        file "/etc/bind/ffwi/ffwi.db";
+        masters { 10.37.0.5; };
+};
+
+zone "local.ffwi.org." {
+        type slave;
+        file "/etc/bind/ffwi/local.ffwi.db";
+        masters { 10.37.0.5; };
+};
+
+zone "user.ffwi.org." {
+        type slave;
+        file "/etc/bind/ffwi/user.ffwi.db";
+        masters { 10.37.0.5; };
 };
 
 zone "37.10.in-addr.arpa" {
