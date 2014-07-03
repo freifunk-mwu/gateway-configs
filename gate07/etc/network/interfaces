@@ -9,28 +9,59 @@ iface lo inet loopback
 auto eth0
 iface eth0 inet dhcp
 
-
 auto mainzBR
 iface mainzBR inet static
         bridge-ports none
-        address 10.37.254.7
-        netmask 255.255.0.0
+        address 10.37.0.7
+        netmask 255.255.192.0
         post-up         /sbin/ip rule add iif $IFACE table 37
         pre-down        /sbin/ip rule del iif $IFACE table 37
 
 iface mainzBR inet6 static
-        address fd37:b4dc:4b1e::0a25:fe07
+        address fd37:b4dc:4b1e::0a25:0007
         netmask 64
 
+auto wiesbadenBR
+iface wiesbadenBR inet static
+        bridge-ports none
+        address 10.56.0.7
+        netmask 255.255.192.0
+        post-up         /sbin/ip rule add iif $IFACE table 56 
+        pre-down        /sbin/ip rule del iif $IFACE table 56
 
-allow-hotplug bat0
-iface bat0 inet6 manual
+iface wiesbadneBR inet6 static
+        address fd37:b4dc:4b1e::0a38:0007
+        netmask 64
+
+allow-hotplug mainzVPN
+iface mainzVPN inet6 manual
+        pre-up          /sbin/modprobe batman_adv
+        pre-up          /sbin/ip link set address 02:00:0a:25:00:07 dev $IFACE
+        post-up         /usr/sbin/batctl -m mainzBAT if add $IFACE
+        post-up         /sbin/ip link set dev mainzBAT up
+allow-hotplug wiesbadenVPN
+iface wiesbadenVPN inet6 manual
+        pre-up          /sbin/modprobe batman_adv
+        pre-up          /sbin/ip link set address 02:00:0a:38:00:07 dev $IFACE
+        post-up         /usr/sbin/batctl -m wiesbadenBAT if add $IFACE
+        post-up         /sbin/ip link set dev wiesadenBAT up
+
+
+allow-hotplug mainzBAT
+iface mainzBAT inet6 manual
         pre-up          /sbin/modprobe batman-adv
-        pre-up          /usr/sbin/batctl if add mainz_meshVPN
-        up              /sbin/ip link set $IFACE up
         post-up         /sbin/brctl addif mainzBR $IFACE
-        post-up         /usr/sbin/batctl it 10000
-        pre-down        /sbin/brctl delif mainzBR $iface || true
-        down            /sbin/ip link set $IFACE down
+        post-up         /usr/sbin/batctl -m $IFACE it 10000
+        post-up         /usr/sbin/batctl -m $IFACE vm server
+        post-up         /usr/sbin/batctl -m $IFACE gw server 64mbit/64mbit
+        pre-down        /sbin/brctl delif mainzBR $IFACE || true
 
+allow-hotplug wiesbadenBAT
+iface wiesbadenBAT inet6 manual
+        pre-up          /sbin/modprobe batman-adv
+        post-up         /sbin/brctl addif wiesbadenBR $IFACE
+        post-up         /usr/sbin/batctl -m $IFACE it 10000
+        post-up         /usr/sbin/batctl -m $IFACE vm server
+        post-up         /usr/sbin/batctl -m $IFACE gw server 64mbit/64mbit
+        pre-down        /sbin/brctl delif wiesbadenBR $IFACE || true
 
