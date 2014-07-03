@@ -10,6 +10,16 @@ zone "local.ffmz.org." {
         file "/etc/bind/ffmz/local.ffmz.db";
 };
 
+zone "users.ffmz.org." {
+        type master;
+        file "/etc/bind/ffmz/users.ffmz.db";
+};
+
+zone "ffmz.org." {
+        type master;
+        file "/etc/bind/ffmz/ffmz.db";
+};
+
 zone "37.10.in-addr.arpa" {
 	type master;
 	file "/etc/bind/ffmz/37.10.in-addr.arpa.db";

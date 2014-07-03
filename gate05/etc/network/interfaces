@@ -45,7 +45,7 @@ iface wiesbadenBR inet static
         pre-down        /sbin/ip rule del iif $IFACE table 56
 
 iface wiesbadenBR inet6 static
-        address fd37:b4dc:4b1e::0a38:0005
+        address fd56:b4dc:4b1e::0a38:0005
         netmask 64
 
 
