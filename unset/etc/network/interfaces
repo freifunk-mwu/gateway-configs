@@ -1,0 +1,36 @@
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# The primary network interface
+auto eth0
+iface eth0 inet dhcp
+
+
+auto mainzBR
+iface mainzBR inet static
+        bridge-ports none
+        address 10.37.254.7
+        netmask 255.255.0.0
+        post-up         /sbin/ip rule add iif $IFACE table 37
+        pre-down        /sbin/ip rule del iif $IFACE table 37
+
+iface mainzBR inet6 static
+        address fd37:b4dc:4b1e::0a25:fe07
+        netmask 64
+
+
+allow-hotplug bat0
+iface bat0 inet6 manual
+        pre-up          /sbin/modprobe batman-adv
+        pre-up          /usr/sbin/batctl if add mainz_meshVPN
+        up              /sbin/ip link set $IFACE up
+        post-up         /sbin/brctl addif mainzBR $IFACE
+        post-up         /usr/sbin/batctl it 10000
+        pre-down        /sbin/brctl delif mainzBR $iface || true
+        down            /sbin/ip link set $IFACE down
+
+
