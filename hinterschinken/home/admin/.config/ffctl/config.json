@@ -11,7 +11,7 @@
   "ffctl_loglevel": 20,
   "ffctl_logskeep": 23,
   "ffctl_verbose": true,
-  "ffctl_version": 1404732050,
+  "ffctl_version": 1404732132,
   "io_encoding": "utf-8",
   "peersync_data": {
     "mainz": {
