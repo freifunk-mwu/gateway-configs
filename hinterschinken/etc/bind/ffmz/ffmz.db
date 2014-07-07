@@ -1,0 +1,31 @@
+$ORIGIN ffmz.org.
+; BIND data file for zone ffmz.org.
+;
+$TTL	604800
+@	IN	SOA	gate05.ffmz.org. hostmaster.ffmz.org. (
+			      2		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+
+; unsere drei dnsserver (master und slaves)
+@	IN	NS	gate05.ffmz.org. 
+@	IN	NS	gate07.ffmz.org.
+@	IN	NS	gate23.ffmz.org.
+
+; ffmz.org zeigt auf webhost lacerta
+@	IN	A	95.143.172.211
+@	IN	AAAA	2001:1a50:11:0:5f:8f:acd3:1
+
+; ffmz org
+hinterschinken	IN	A	94.23.58.68
+hinterschinken	IN	AAAA	2001:41d0:2:3b44::1
+spinat		IN	CNAME	gateway.ffmz.crazyhaze.de
+lotuswurzel	IN	A	176.9.204.70
+lotuswurzel	IN	AAAA	2a01:4f8:150:8570::2
+
+gate05	IN	CNAME	hinterschinken
+gate07	IN	CNAME	spinat
+gate23	IN	CNAME	lotuswurzel
+
