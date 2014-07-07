@@ -11,12 +11,12 @@
   "ffctl_loglevel": 20,
   "ffctl_logskeep": 23,
   "ffctl_verbose": true,
-  "ffctl_version": 1404727056,
+  "ffctl_version": 1404730456,
   "io_encoding": "utf-8",
   "peersync_data": {
     "mainz": {
       "remote": "ssh://github_ffctl/Freifunk-Mainz/peers-ffmz.git",
-      "target": "/etc/fastd/mainzPVN/peers"
+      "target": "/etc/fastd/mainzVPN/peers"
     },
     "wiesbaden": {
       "remote": "ssh://github_ffctl/Freifunk-Mainz/peers-ffwi.git",
