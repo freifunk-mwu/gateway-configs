@@ -11,10 +11,10 @@
   "ffctl_loglevel": 20,
   "ffctl_logskeep": 23,
   "ffctl_mailalert": true,
+  "ffctl_mailprefix": "freifunk-mainz.de",
   "ffctl_mailrcpt": "admin@freifunk-mainz.de",
-  "ffctl_mailsubj": "ffctl hinterschinken",
   "ffctl_verbose": true,
-  "ffctl_version": 1404800644,
+  "ffctl_version": 1404800778,
   "io_encoding": "utf-8",
   "peersync_data": {
     "mainz": {
