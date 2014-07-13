@@ -14,7 +14,7 @@
   "ffctl_mailprefix": "freifunk-mainz.de",
   "ffctl_mailrcpt": "admin@freifunk-mainz.de",
   "ffctl_verbose": true,
-  "ffctl_version": 1404800778,
+  "ffctl_version": 1404813329,
   "io_encoding": "utf-8",
   "peersync_data": {
     "mainz": {
