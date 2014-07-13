@@ -25,5 +25,7 @@
   "/etc/network/interfaces",
   "/etc/openvpn/mullvad.conf",
   "/etc/openvpn/mullvad-up",
-  "/etc/radvd.conf"
+  "/etc/openvpn/openvpn-up",
+  "/etc/radvd.conf",
+  "/etc/resolvconf/resolv.conf.d/tail"
 ]
