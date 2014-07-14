@@ -1,0 +1,45 @@
+{
+  "configbackup_branch": "master",
+  "configbackup_queuefile": "queue.json",
+  "configbackup_remote": "ssh://github_ffctl/Freifunk-Mainz/gateway-configs.git",
+  "configbackup_subfolder": "gateway-configs.git",
+  "ffctl_datadir": "/home/admin/.local/share/ffctl",
+  "ffctl_githubident": "github_ffctl",
+  "ffctl_hostname": "spinat",
+  "ffctl_ident": "ffctl",
+  "ffctl_loglen": 1048576,
+  "ffctl_loglevel": 20,
+  "ffctl_logskeep": 23,
+  "ffctl_mailalert": true,
+  "ffctl_mailprefix": "freifunk-mainz.de",
+  "ffctl_mailrcpt": "admin@freifunk-mainz.de",
+  "ffctl_verbose": true,
+  "ffctl_version": 1405297287,
+  "io_encoding": "utf-8",
+  "peersync_data": {
+    "mainz": {
+      "remote": "ssh://github_ffctl/Freifunk-Mainz/peers-ffmz.git",
+      "target": "/etc/fastd/mainzVPN/peers"
+    },
+    "wiesbaden": {
+      "remote": "ssh://github_ffctl/Freifunk-Mainz/peers-ffwi.git",
+      "target": "/etc/fastd/wiesbadenVPN/peers"
+    }
+  },
+  "ping_batifs": [
+    "mainzBAT",
+    "wiesbadenBAT"
+  ],
+  "ping_batserverbw": 64,
+  "ping_count": 5,
+  "ping_exitif": "exitVPN",
+  "ping_hosts": [
+    "freifunk-mainz.de",
+    "freifunk-wiesbaden.de",
+    "ffmz.org",
+    "ffwi.org",
+    "freifunk.net",
+    "penisland.net"
+  ],
+  "ping_percreq": 60
+}
