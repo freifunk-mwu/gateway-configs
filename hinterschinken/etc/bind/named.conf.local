@@ -18,8 +18,8 @@ zone "users.ffmz.org." {
 zone "ffmz.org." {
         type master;
         file "/etc/bind/ffmz/ffmz.db";
+	allow-transfer { 84.200.43.97/32; 78.47.49.189/32; 10.37.0.0/24; };
 	notify explicit;
-	allow-transfer { 84.200.43.97; 78.47.49.189; };
 	also-notify { 10.37.0.7; 10.37.0.23; 84.200.43.97; 78.47.49.189; };
 };
 
