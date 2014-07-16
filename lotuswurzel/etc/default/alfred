@@ -14,4 +14,4 @@ INTERFACE=mainzBR
 
 # Specify the batman-adv interface configured on the system (default: bat0).
 # Use 'none' to disable the batman-adv based best server selection.
-#BATMANIF=bat0
+BATMANIF=mainzBAT
