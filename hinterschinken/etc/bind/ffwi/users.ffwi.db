@@ -1,0 +1,16 @@
+$ORIGIN users.ffwi.org.
+; BIND data file for zone ffwi.org.
+;
+$TTL	604800
+@	IN	SOA	gate05.ffwi.org. hostmaster.ffwi.org. (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+
+; unsere drei dnsserver (master und slaves)
+@	IN	NS	gate05.ffwi.org. 
+@	IN	NS	gate07.ffwi.org.
+@	IN	NS	gate23.ffwi.org.
+
