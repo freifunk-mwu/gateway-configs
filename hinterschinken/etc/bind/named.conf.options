@@ -21,9 +21,11 @@ options {
 	dnssec-validation auto;
 
 	auth-nxdomain no;    # conform to RFC1035
-	listen-on { 127.0.0.1; 10.37.0.5; 10.56.0.5; 94.23.58.68; };
-	listen-on-v6 { ::1; fd37:badc:ab1e::0a25:5; fd56:b4dc:4b1e::0a25:5; };
+	listen-on { 127.0.0.1; 10.37.0.5; 10.56.0.5; 94.23.58.68; 2001:41d0:2:3b44::1; };
+	listen-on-v6 { ::1; fd37:badc:ab1e::0a25:5; fd56:b4dc:4b1e::0a38:5; };
 
-	allow-recursion { ::1; fd37:b4dc:4b1e::/64; fd56:b4dc:4b1e::/64; 127.0.0.1; 10.37.0.0/18; 10.56.0.0/18; };
+	allow-transfer { ns-public-tobias; ns-slaves-mz; ns-slaves-wi; };
+	allow-query { ::1; 127.0.0.1; intern-mz;  intern-wi; ns-public-tobias; };
+	allow-recursion { ::1; 127.0.0.1; intern-mz; intern-wi;};
 };
 

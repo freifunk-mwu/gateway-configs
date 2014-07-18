@@ -1,9 +1,9 @@
 $ORIGIN 37.10.in-addr.arpa.
 ; BIND data file for zone .ffmz.org 
 ;
-$TTL	604800
+$TTL	600
 @	IN	SOA	gate05.ffmz.org. hostmaster.ffmz.org. (
-			      2		; Serial
+			      3		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
@@ -11,4 +11,6 @@ $TTL	604800
 ;
 @	IN	NS	gate05.ffmz.org.
 
-1.254	PTR	gate05.ffmz.org.
+0.5	PTR	gate05.ffmz.org.
+0.7	PTR	gate07.ffmz.org.
+0.23	PTR	gate23.ffmz.org.

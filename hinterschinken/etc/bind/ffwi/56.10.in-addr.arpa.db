@@ -1,0 +1,18 @@
+$ORIGIN 56.10.in-addr.arpa.
+; BIND data file for zone .ffwi.org 
+;
+$TTL	600
+@	IN	SOA	gate05.ffwi.org. hostmaster.ffwi.org. (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	gate05.ffwi.org.
+@	IN	NS	gate07.ffwi.org.
+@	IN	NS	gate23.ffwi.org.
+
+5.0	PTR	gate05.ffwi.org.
+7.0	PTR	gate07.ffwi.org.
+23.0	PTR	gate23.ffwi.org.
