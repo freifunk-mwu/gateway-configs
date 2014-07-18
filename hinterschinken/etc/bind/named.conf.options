@@ -26,6 +26,6 @@ options {
 
 	allow-transfer { ns-public-tobias; ns-slaves-mz; ns-slaves-wi; };
 	allow-query { ::1; 127.0.0.1; intern-mz;  intern-wi; ns-public-tobias; };
-	allow-recursion { ::1; 127.0.0.1; intern-mz; intern-wi; ns-public-tobias; };
+	allow-recursion { ::1; 127.0.0.1; intern-mz; intern-wi;};
 };
 
