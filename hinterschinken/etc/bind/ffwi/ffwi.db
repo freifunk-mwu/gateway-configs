@@ -3,7 +3,7 @@ $ORIGIN ffwi.org.
 ;
 $TTL	600
 @	IN	SOA	hinterschinken.ffwi.org. hostmaster.ffwi.org. (
-			      4		; Serial
+			      6		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
@@ -11,7 +11,7 @@ $TTL	600
 
 ; unsere drei dnsserver (master und slaves)
 @	IN	NS	hinterschinken.ffwi.org.
-@	IN	NS	spinat.ffwi.org.
+;@	IN	NS	spinat.ffwi.org.
 @	IN	NS	lotuswurzel.ffwi.org.
 
 ; ffwi.org zeigt auf webhost lacerta
@@ -20,11 +20,11 @@ $TTL	600
 
 ; ffwi org
 hinterschinken  IN      A       10.56.0.5
-hinterschinken  IN      AAAA    fd56:badc:ab1e::0a25:0005
+hinterschinken  IN      AAAA    fd56:badc:ab1e::0a38:0005
 spinat          IN      A       10.56.0.7
-spinat          IN      AAAA    fd56:badc:ab1e::0a25:0007
+spinat          IN      AAAA    fd56:badc:ab1e::0a38:0007
 lotuswurzel     IN      A       10.56.0.23
-lotuswurzel     IN      AAAA    fd56:badc:ab1e::0a25:0023
+lotuswurzel     IN      AAAA    fd56:badc:ab1e::0a38:0017
 
 gate05	IN	CNAME	hinterschinken
 gate07	IN	CNAME	spinat

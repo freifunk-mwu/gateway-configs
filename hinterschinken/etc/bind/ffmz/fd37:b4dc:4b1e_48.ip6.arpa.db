@@ -2,15 +2,17 @@ $ORIGIN e.1.b.4.c.d.4.b.7.3.d.f.ip6.arpa.
 ; BIND data file for zone .ffmz.org 
 ;
 $TTL	600
-@	IN	SOA	gate05.ffmz.org. hostmaster.ffmz.org. (
-			      3		; Serial
+@	IN	SOA	hinterschinken.ffmz.org. hostmaster.ffmz.org. (
+			      4		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
 			 604800 )	; Negative Cache TTL
 ;
-@	IN	NS	gate05.ffmz.org.
+@       IN      NS      hinterschinken.ffmz.org.
+;@       IN      NS      spinat.ffmz.org.
+@       IN      NS      lotuswurzel.ffmz.org.
 
-5.0.e.f.5.2.a.0.0.0.0.0.0.0.0.0.0.0.0.0	PTR	gate05.ffmz.org.
-7.0.e.f.5.2.a.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR     gate07.ffmz.org.
-7.1.e.f.5.2.a.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR     gate23.ffmz.org.
+5.0.e.f.5.2.a.0.0.0.0.0.0.0.0.0.0.0.0.0	PTR	hinterschinken.ffmz.org.
+7.0.e.f.5.2.a.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR     spinat.ffmz.org.
+7.1.e.f.5.2.a.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR     lotuswurzel.ffmz.org.
