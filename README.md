@@ -1,4 +1,7 @@
-gateway-configs
-===============
+#gateway-configs.git
 
-Freifunk Mainz Gluon Gateway Configs (as a Backup)
+Gluon Gateway Configuration for [Freifunk Mainz]("http://mainz.freifunk.net/") & [Freifunk Wiesbaden]("http://wiesbaden.freifunk.net/").
+
+**Beware**: In contrast to the name, this is not a real backup!
+
+We synchronise this repository using [FFctl]("http://github.com/Freifunk-Mainz/ffctl") on our Gateway-Servers ([documentation](https://ffctl.readthedocs.org/)).
