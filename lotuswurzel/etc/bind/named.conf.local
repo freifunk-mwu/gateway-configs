@@ -2,66 +2,91 @@
 // Do any local configuration here
 //
 
-// Zones for Freifunk
-//
+// ACLs
+
+masters "ns-master-mz" {
+        94.23.58.68;
+};
+
+masters "ns-master-wi" {
+	94.23.58.68;
+};
+
+acl "intern-mz" {
+        10.37.0.0/16;
+	fd37:b4dc:4b1e::/48;
+};
+
+acl "intern-wi" {
+        10.56.0.0/16;
+	fd56:b4dc:4b1e::/48;
+};
+
+// Public Zones for Freifunk
+
+//zone "freifunk-mainz.de." {
+//        type slave;
+//        file "/etc/bind/freifunk-mainz/freifunk-mainz.de.db";
+//        masters { ns-master-mz; };
+//	  notify no; 
+//};
+
+zone "freifunk-wiesbaden.de." {
+        type slave;
+        file "/etc/bind/freifunk-wiesbaden/freifunk-wiesbaden.de.db";
+        masters { ns-master-wi; };
+	notify no;
+};
+
+// Intern Zones for Freifunk
 
 zone "ffmz.org." {
         type slave;
         file "/etc/bind/ffmz/ffmz.db";
-        masters { 10.37.0.5; };
-};
-
-zone "local.ffmz.org." {
-        type slave;
-        file "/etc/bind/ffmz/local.ffmz.db";
-	masters { 10.37.0.5; };
+        masters { ns-master-mz; };
 };
 
 zone "user.ffmz.org." {
         type slave;
         file "/etc/bind/ffmz/user.ffmz.db";
-        masters { 10.37.0.5; };
+        masters { ns-master-mz; };
 };
 
 zone "ffwi.org." {
         type slave;
         file "/etc/bind/ffwi/ffwi.db";
-        masters { 10.37.0.5; };
-};
-
-zone "local.ffwi.org." {
-        type slave;
-        file "/etc/bind/ffwi/local.ffwi.db";
-        masters { 10.37.0.5; };
+        masters { ns-master-wi; };
 };
 
 zone "user.ffwi.org." {
         type slave;
         file "/etc/bind/ffwi/user.ffwi.db";
-        masters { 10.37.0.5; };
+        masters { ns-master-wi; };
 };
+
+// Reverse Zones
 
 zone "37.10.in-addr.arpa" {
 	type slave;
 	file "/etc/bind/ffmz/37.10.in-addr.arpa.db";
-	masters { 10.37.0.5; };
+	masters { ns-master-mz; };
 };
 
 zone "e.1.b.4.c.d.4.b.7.3.d.f.ip6.arpa" {
 	type slave;
 	file "/etc/bind/ffmz/fd37:b4dc:4b1e_48.ip6.arpa.db";
-	masters { 10.37.0.5; };
+	masters { ns-master-mz; };
 };
 
 zone "56.10.in-addr.arpa" {
         type slave;
         file "/etc/bind/ffwi/56.10.in-addr.arpa.db";
-        masters { 10.37.0.5; };
+        masters { ns-master-wi; };
 };
 
 zone "e.1.b.4.c.d.4.b.6.5.d.f.ip6.arpa" {
         type slave;
         file "/etc/bind/ffwi/fd56:b4dc:4b1e_48.ip6.arpa.db";
-        masters { 10.37.0.5; };
+        masters { ns-master-wi; };
 };
 

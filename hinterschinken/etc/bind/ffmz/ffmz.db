@@ -1,18 +1,18 @@
 $ORIGIN ffmz.org.
 ; BIND data file for zone ffmz.org.
 ;
-$TTL	604800
-@	IN	SOA	tantedroll.kokelnet.de. hostmaster.ffmz.org. (
-			      5		; Serial
+$TTL	600
+@	IN	SOA	hinterschinken.ffmz.org. hostmaster.ffmz.org. (
+			      10		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
 			 604800 )	; Negative Cache TTL
 
 ; unsere drei dnsserver (master und slaves)
-@	IN	NS	tantedroll.kokelnet.de. 
-; @	IN	NS	spinat.ffmz.org.
-@	IN	NS	dn1.kokelnet.de.
+@	IN	NS	hinterschinken.ffmz.org.
+;@	IN	NS	spinat.ffmz.org.
+@	IN	NS	lotuswurzel.ffmz.org.
 
 ; ffmz.org zeigt auf webhost lacerta
 @	IN	A	95.143.172.211
@@ -29,3 +29,5 @@ gate05	IN	CNAME	hinterschinken
 gate07	IN	CNAME	spinat
 gate23	IN	CNAME	lotuswurzel
 
+ic-mainz1	IN	CNAME	hinterschinken
+ic-mainz2	IN	CNAME	spinat
