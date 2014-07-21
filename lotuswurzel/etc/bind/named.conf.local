@@ -5,11 +5,11 @@
 // ACLs
 
 masters "ns-master-mz" {
-        94.23.58.68;
+        10.37.0.5;
 };
 
 masters "ns-master-wi" {
-	94.23.58.68;
+	10.56.0.5;
 };
 
 acl "intern-mz" {
@@ -22,21 +22,6 @@ acl "intern-wi" {
 	fd56:b4dc:4b1e::/48;
 };
 
-// Public Zones for Freifunk
-
-//zone "freifunk-mainz.de." {
-//        type slave;
-//        file "/etc/bind/freifunk-mainz/freifunk-mainz.de.db";
-//        masters { ns-master-mz; };
-//	  notify no; 
-//};
-
-zone "freifunk-wiesbaden.de." {
-        type slave;
-        file "/etc/bind/freifunk-wiesbaden/freifunk-wiesbaden.de.db";
-        masters { ns-master-wi; };
-	notify no;
-};
 
 // Intern Zones for Freifunk
 
@@ -63,6 +48,7 @@ zone "user.ffwi.org." {
         file "/etc/bind/ffwi/user.ffwi.db";
         masters { ns-master-wi; };
 };
+
 
 // Reverse Zones
 
