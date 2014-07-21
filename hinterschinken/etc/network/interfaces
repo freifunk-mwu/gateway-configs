@@ -27,27 +27,56 @@ iface mzBR inet static
 	bridge-ports none
 	address 10.37.0.5
 	netmask 255.255.192.0
-	post-up		/sbin/ip rule add iif $IFACE table 37 
-#
-	pre-down	/sbin/ip rule del iif $IFACE table 37
+	# ip rules to add all traffic entering the bridge to the appropriate rt_table
+	post-up		/sbin/ip rule add iif $IFACE table mz
+	pre-down	/sbin/ip rule del iif $IFACE table mz
+        # local reachable subnet
+        post-up         /sbin/ip route add 10.37.0.0/18 dev $IFACE table mz
+        post-down       /sbin/ip route del 10.37.0.0/18 dev $IFACE table mz
+	# insert ic-vpn light route for mz network into rt_table wi
+        post-up         /sbin/ip route add 10.37.0.0/18 table wi src 10.37.0.5 dev $IFACE
+        post-down       /sbin/ip route del 10.37.0.0/18 table wi src 10.37.0.5 dev $IFACE
 
 iface mzBR inet6 static
-	address fd37:b4dc:4b1e::0a25:0005
+	address fd37:b4dc:4b1e::a25:5
 	netmask 64
+	# ip rules to add all traffic entering the bridge to the appropriate rt_table
+	post-up         /sbin/ip -6 rule add iif $IFACE table mz
+	pre-down        /sbin/ip -6 rule del iif $IFACE table mz
+        # link-local subnet
+        post-up         /sbin/ip -6 route add fe80::/64 dev $IFACE table mz proto kernel metric 256
+        post-down       /sbin/ip -6 route del fe80::/64 dev $IFACE table mz proto kernel metric 256
+	# insert ic-vpn light route for mz network into rt_table wi
+        post-up         /sbin/ip -6 route add fd37:b4dc:4b1e::/64 table wi src fe80::dc4f:e3ff:fea4:a63a dev $IFACE
+        post-down       /sbin/ip -6 route del fd37:b4dc:4b1e::/64 table wi src fe80::dc4f:e3ff:fea4:a63a dev $IFACE
 
 auto wiBR
 iface wiBR inet static
         bridge-ports none
         address 10.56.0.5
         netmask 255.255.192.0
-        post-up         /sbin/ip rule add iif $IFACE table 56
-#
-        pre-down        /sbin/ip rule del iif $IFACE table 56
+	# ip rules to add all traffic entering the bridge to the appropriate rt_table
+        post-up         /sbin/ip rule add iif $IFACE table wi
+        pre-down        /sbin/ip rule del iif $IFACE table wi
+        # local reachable subnet
+        post-up         /sbin/ip route add 10.56.0.0/18 dev $IFACE table wi
+        post-down       /sbin/ip route del 10.56.0.0/18 dev $IFACE table wi
+        # insert ic-vpn light route for mz network into rt_table mz
+        post-up         /sbin/ip route add 10.56.0.0/18 table mz src 10.56.0.5 dev $IFACE
+        post-down       /sbin/ip route del 10.56.0.0/18 table mz src 10.56.0.5 dev $IFACE
 
 iface wiBR inet6 static
-        address fd56:b4dc:4b1e::0a38:0005
+        address fd56:b4dc:4b1e::a38:5
         netmask 64
-
+	# ip rules to add all traffic entering the bridge to the appropriate rt_table
+	post-up         /sbin/ip -6 rule add iif $IFACE table wi
+	pre-down        /sbin/ip -6 rule del iif $IFACE table wi
+        # link-local subnet
+        post-up         /sbin/ip -6 route add fe80::/64 dev $IFACE table wi proto kernel metric 256
+        post-down       /sbin/ip -6 route del fe80::/64 dev $IFACE table wi proto kernel metric 256
+        # insert ic-vpn light route for mz network into rt_table mz
+        post-up         /sbin/ip -6 route add fd56:b4dc:4b1e::/64 table mz src fe80::a83d:9aff:fe0e:adcf dev $IFACE
+        post-down       /sbin/ip -6 route del fd56:b4dc:4b1e::/64 table mz src fe80::a83d:9aff:fe0e:adcf dev $IFACE
 
 allow-hotplug mzVPN
 iface mzVPN inet6 manual
@@ -71,7 +100,7 @@ iface mzBAT inet6 manual
 	post-up		/sbin/brctl addif mzBR $IFACE
 	post-up 	/usr/sbin/batctl -m $IFACE it 10000
 	post-up 	/usr/sbin/batctl -m $IFACE vm server
-	post-up 	/usr/sbin/batctl -m $IFACE gw server 54mbit/54mbit
+	post-up 	/usr/sbin/batctl -m $IFACE gw server 96mbit/96mbit
 #
 	pre-down	/sbin/brctl delif mzBR $IFACE || true
 
@@ -82,7 +111,7 @@ iface wiBAT inet6 manual
         post-up         /sbin/brctl addif wiBR $IFACE
 	post-up 	/usr/sbin/batctl -m $IFACE it 10000
 	post-up 	/usr/sbin/batctl -m $IFACE vm server
-	post-up 	/usr/sbin/batctl -m $IFACE gw server 54mbit/54mbit
+	post-up 	/usr/sbin/batctl -m $IFACE gw server 96mbit/96mbit
 #
         pre-down        /sbin/brctl delif wiBR $IFACE || true
 

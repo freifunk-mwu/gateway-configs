@@ -2,8 +2,8 @@
 
 # http://manpages.ubuntu.com/manpages/maverick/en/man8/openvpn.8.html#contenttoc5
 
-ip route add default via $route_vpn_gateway dev $dev table 37
+ip route add default via $route_vpn_gateway dev $dev table mz
 
-ip route add default via $route_vpn_gateway dev $dev table 56
+ip route add default via $route_vpn_gateway dev $dev table wi
 
 exit 0

@@ -3,7 +3,7 @@ $ORIGIN ffwi.org.
 ;
 $TTL	600
 @	IN	SOA	hinterschinken.ffwi.org. hostmaster.ffwi.org. (
-			      6		; Serial
+			      7		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
@@ -29,3 +29,7 @@ lotuswurzel     IN      AAAA    fd56:badc:ab1e::0a38:0017
 gate05	IN	CNAME	hinterschinken
 gate07	IN	CNAME	spinat
 gate23	IN	CNAME	lotuswurzel
+
+5.ntp           IN      CNAME   hinterschinken
+7.ntp           IN      CNAME   spinat
+23.ntp          IN      CNAME   lotuswurzel
