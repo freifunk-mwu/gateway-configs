@@ -1,4 +1,27 @@
 {
+  "builder_autosignkey": "/home/admin/.ecdsa/hinterschinken.prv",
+  "builder_branches": [
+    "nightly",
+    "beta",
+    "stable"
+  ],
+  "builder_branchtarget": "stable",
+  "builder_builddir": "/home/admin/gluon_builder/",
+  "builder_communities": [
+    "wi",
+    "mz"
+  ],
+  "builder_gluonremote": "git://github.com/freifunk-gluon/gluon.git",
+  "builder_ident": "null",
+  "builder_libdir": "_library/",
+  "builder_makecmd": "make -j7 V=sss",
+  "builder_metafile": "meta.json",
+  "builder_serverdir": "/var/www/gluon/.bobby/",
+  "builder_sitebranch": "autobuild",
+  "builder_siteremote": "git://github.com/Freifunk-Mainz/site-ffmz",
+  "builder_siteswitch": "mkwi.py write",
+  "builder_siteswitchcommunity": "wi",
+  "builder_stagedir": "/var/www/gluon/.bobby/_stage/",
   "configbackup_branch": "master",
   "configbackup_queuefile": "queue.json",
   "configbackup_remote": "ssh://github_ffctl/Freifunk-Mainz/gateway-configs.git",
@@ -15,7 +38,7 @@
   "ffctl_mailrcpt": "admin@freifunk-mainz.de",
   "ffctl_pycmd": "python3",
   "ffctl_verbose": true,
-  "ffctl_version": 1404813329,
+  "ffctl_version": 1406110052,
   "io_encoding": "utf-8",
   "peersync_data": {
     "mzVPN": {
@@ -36,11 +59,13 @@
   "ping_exitif": "exitVPN",
   "ping_hosts": [
     "freifunk-mainz.de",
+    "95.143.172.211",
     "freifunk-wiesbaden.de",
-    "ffmz.org",
-    "ffwi.org",
+    "95.143.172.219",
     "freifunk.net",
-    "penisland.net"
+    "217.197.80.240",
+    "penisland.net",
+    "66.96.160.128"
   ],
   "ping_percreq": 60
 }
