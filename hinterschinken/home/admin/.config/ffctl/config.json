@@ -5,8 +5,8 @@
     "beta",
     "stable"
   ],
-  "builder_branchtarget": "stable",
   "builder_builddir": "/home/admin/gluon_builder/",
+  "builder_checksumcmd": "sha512sum",
   "builder_communities": [
     "wi",
     "mz"
@@ -21,7 +21,8 @@
   "builder_siteremote": "git://github.com/Freifunk-Mainz/site-ffmz",
   "builder_siteswitch": "mkwi.py write",
   "builder_siteswitchcommunity": "wi",
-  "builder_stagedir": "/var/www/gluon/.bobby/_stage/",
+  "builder_targetbranch": "stable",
+  "builder_targetpriority": 0.1,
   "configbackup_branch": "master",
   "configbackup_queuefile": "queue.json",
   "configbackup_remote": "ssh://github_ffctl/Freifunk-Mainz/gateway-configs.git",
@@ -38,8 +39,12 @@
   "ffctl_mailrcpt": "admin@freifunk-mainz.de",
   "ffctl_pycmd": "python3",
   "ffctl_verbose": true,
-  "ffctl_version": 1406110052,
+  "ffctl_version": "eddd559",
   "io_encoding": "utf-8",
+  "meta_import_json": "json import",
+  "meta_import_meta": "previous meta import",
+  "meta_switch_stage_in": "switched into stage",
+  "meta_switch_stage_out": "switched out of stage",
   "peersync_data": {
     "mzVPN": {
       "remote": "ssh://github_ffctl/Freifunk-Mainz/peers-ffmz.git",
