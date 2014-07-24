@@ -1,77 +1,63 @@
 {
-  "builder_autosignkey": "/home/admin/.ecdsa/hinterschinken.prv",
-  "builder_branches": [
-    "nightly",
-    "beta",
-    "stable"
-  ],
-  "builder_builddir": "/home/admin/gluon_builder/",
-  "builder_checksumcmd": "sha512sum",
-  "builder_communities": [
-    "wi",
-    "mz"
-  ],
-  "builder_gluonremote": "git://github.com/freifunk-gluon/gluon.git",
-  "builder_ident": "null.1406139454",
-  "builder_libdir": "_library/",
-  "builder_makecmd": "make -j7 V=sss",
-  "builder_metafile": "meta.json",
-  "builder_serverdir": "/Users/spky/gluon_builder/SERV0R/",
-  "builder_sitebranch": "autobuild",
-  "builder_siteremote": "git://github.com/Freifunk-Mainz/site-ffmz",
-  "builder_siteswitch": "mkwi.py write",
-  "builder_siteswitchcommunity": "wi",
-  "builder_targetbranch": "stable",
-  "builder_targetpriority": 0.1,
-  "configbackup_branch": "master",
-  "configbackup_queuefile": "queue.json",
-  "configbackup_remote": "ssh://github_ffctl/Freifunk-Mainz/gateway-configs.git",
-  "configbackup_subfolder": "gateway-configs.git",
-  "ffctl_basedir": "/home/admin/clones/ffctl",
-  "ffctl_githubident": "github_ffctl",
-  "ffctl_hostname": "hinterschinken",
+  "basedir": "/home/admin/clones/ffctl",
+  "ecdsakey": "/home/admin/.ecdsa/hinterschinken.prv",
   "ffctl_ident": "ffctl",
-  "ffctl_loglen": 1048576,
-  "ffctl_loglevel": 20,
-  "ffctl_logskeep": 23,
-  "ffctl_mailalert": true,
-  "ffctl_mailprefix": "freifunk-mainz.de",
-  "ffctl_mailrcpt": "admin@freifunk-mainz.de",
-  "ffctl_pycmd": "python3",
-  "ffctl_verbose": true,
-  "ffctl_version": "b52e64b",
+  "ffctl_version": "25e264d",
+  "githubident": "github_ffctl",
+  "hostname": "hinterschinken",
   "io_encoding": "utf-8",
-  "meta_import_json": "json import",
-  "meta_import_meta": "meta import",
-  "meta_new_stage": "opened new stage. please applaud",
-  "meta_switch_stage_in": "switched into stage",
-  "meta_switch_stage_out": "switched out of stage",
-  "peersync_data": {
-    "mzVPN": {
-      "remote": "ssh://github_ffctl/Freifunk-Mainz/peers-ffmz.git",
-      "target": "/etc/fastd/mzVPN/peers"
-    },
-    "wiVPN": {
-      "remote": "ssh://github_ffctl/Freifunk-Mainz/peers-ffwi.git",
-      "target": "/etc/fastd/wiVPN/peers"
-    }
+  "loglen": 1048576,
+  "loglevel": 20,
+  "logskeep": 23,
+  "mailalert": true,
+  "mailprefix": "freifunk-mainz.de",
+  "mailrcpt": "admin@freifunk-mainz.de",
+  "meta": {
+    "configb_copy": "copied backup of config",
+    "git_mergeconflict": "merge conflicts",
+    "git_publish": "published all changes",
+    "git_save": "synchronized all changes",
+    "git_setup": "prepared new git repo",
+    "import_json": "json import",
+    "import_meta": "meta import",
+    "stage_new": "opened new stage. please applaud",
+    "stage_switch_in": "switched into stage",
+    "stage_switch_out": "switched out of stage"
   },
-  "ping_batifs": [
-    "mzBAT",
-    "wiBAT"
-  ],
-  "ping_batserverbw": 64,
-  "ping_count": 5,
-  "ping_exitif": "exitVPN",
-  "ping_hosts": [
-    "freifunk-mainz.de",
-    "95.143.172.211",
-    "freifunk-wiesbaden.de",
-    "95.143.172.219",
-    "freifunk.net",
-    "217.197.80.240",
-    "penisland.net",
-    "66.96.160.128"
-  ],
-  "ping_percreq": 60
+  "mod": {
+    "confb_queuefile": "queue.json",
+    "confb_remote": "ssh://github_ffctl/Freifunk-Mainz/gateway-configs.git",
+    "confb_subfolder": "gateway-configs.git"
+  },
+  "pycmd": "python3",
+  "reg": {
+    "mz": {
+      "bat": {
+        "gw": "64MBit/64MBit",
+        "if": "mzBAT"
+      },
+      "exit": {
+        "if": "exitVPN"
+      },
+      "fastd": {
+        "if": "mzVPN",
+        "peers": "/etc/fastd/mzVPN/peers",
+        "remote": "ssh://github_ffctl/Freifunk-Mainz/peers-ffmz.git"
+      }
+    },
+    "wi": {
+      "bat": {
+        "gw": "64MBit/64MBit",
+        "if": "wiBAT"
+      },
+      "exit": {
+        "if": "exitVPN"
+      },
+      "fastd": {
+        "if": "wiVPN",
+        "peers": "/etc/fastd/wiVPN/peers",
+        "remote": "ssh://github_ffctl/Freifunk-Mainz/peers-ffwi.git"
+      }
+    }
+  }
 }
