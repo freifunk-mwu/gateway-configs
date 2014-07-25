@@ -30,5 +30,5 @@
   "/etc/openvpn/openvpn-up",
   "/etc/radvd.conf",
   "/etc/resolvconf/resolv.conf.d/tail",
-  "~/.ssh/#ffctl_hostname#_rsa.pub"
+  "~/.ssh/#hostname#_rsa.pub"
 ]
