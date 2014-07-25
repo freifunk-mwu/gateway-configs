@@ -30,5 +30,6 @@
   "/etc/openvpn/openvpn-up",
   "/etc/radvd.conf",
   "/etc/resolvconf/resolv.conf.d/tail",
+  "/etc/tinc/icVPN/tinc.conf",
   "~/.ssh/#hostname#_rsa.pub"
 ]
