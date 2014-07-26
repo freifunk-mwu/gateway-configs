@@ -3,7 +3,7 @@
   "ecdsakey": "/home/admin/.ecdsa/hinterschinken.prv",
   "exitif": "exitVPN",
   "ffctl_ident": "ffctl",
-  "ffctl_version": "0e2ceb4",
+  "ffctl_version": "508c471",
   "githubident": "github_ffctl",
   "hostname": "hinterschinken",
   "io_encoding": "utf-8",
