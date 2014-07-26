@@ -1,0 +1,6 @@
+#!/bin/sh
+
+ip route add default via $5 table 37
+ip route add default via $5 table 56
+
+exit 0
