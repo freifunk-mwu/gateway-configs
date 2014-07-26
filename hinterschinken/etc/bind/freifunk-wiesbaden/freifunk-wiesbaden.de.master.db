@@ -42,9 +42,12 @@ pudding	IN	CNAME	morgo.igeh.me.
 www	IN	A	95.143.172.219
 www	IN	AAAA	2001:1a50:11:0:5f:8f:acdb:13b
 
+blog	IN	CNAME	www
+ffapi	IN	CNAME	www
+gatestats	IN	CNAME	www
+mirror	IN	CNAME	www
 nodegame    IN	CNAME	www
 stats    IN	CNAME	www
-blog	IN	CNAME	www
 
 ; IC-VPN
 ic-wiesbaden1	IN	CNAME	lotuswurzel
