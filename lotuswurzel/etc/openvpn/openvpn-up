@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ip route add default via $5 table 37
-ip route add default via $5 table 56
+ip route add default via $5 table mz
+ip route add default via $5 table wi
 
 exit 0

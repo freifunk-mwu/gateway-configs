@@ -1,11 +1,13 @@
 {
   "basedir": "/home/admin/clones/ffctl",
+  "baseif": "eth0",
   "ecdsakey": "/home/admin/.ecdsa/lotuswurzel.prv",
   "exitif": "exitVPN",
   "ffctl_ident": "ffctl",
-  "ffctl_version": "508c471",
+  "ffctl_version": "9f1039b",
   "githubident": "github_ffctl",
   "hostname": "lotuswurzel",
+  "icif": "icVPN",
   "io_encoding": "utf-8",
   "loglen": 1048576,
   "loglevel": 20,
@@ -16,12 +18,15 @@
   "meta": {
     "builder_building": "building",
     "builder_count": "counting number of images",
+    "builder_detatched": "detatched previous release",
     "builder_empty": "prepared all directories",
     "builder_failed": "builder_failed",
     "builder_finished": "build finished",
     "builder_librarian": "sorted build into endlager",
     "builder_prepared": "prepared gluon and siteconf",
+    "builder_released": "released a new version into the wild",
     "configb_copy": "copied backup of config",
+    "draw_done": "updated all graphs",
     "git_mergeconflict": "merge conflict",
     "git_publish": "published all changes",
     "git_save": "synchronized all changes",
@@ -63,6 +68,29 @@
     "confb_queuefile": "queue.json",
     "confb_remote": "ssh://github_ffctl/Freifunk-Mainz/gateway-configs.git",
     "confb_subfolder": "gateway-configs.git",
+    "draw_flags": [
+      [
+        "s",
+        "summary"
+      ],
+      [
+        "m",
+        "monthly"
+      ],
+      [
+        "d",
+        "daily"
+      ],
+      [
+        "h",
+        "hourly"
+      ],
+      [
+        "t",
+        "top10"
+      ]
+    ],
+    "draw_serverdir": "/var/www/html/traffic",
     "ping_batserverbw": 64,
     "ping_count": 5,
     "ping_hosts": [

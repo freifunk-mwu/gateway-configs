@@ -67,7 +67,7 @@ iface wiBR inet static
         # local reachable subnet
         post-up         /sbin/ip route add 10.56.0.0/18 dev $IFACE table wi
         post-down       /sbin/ip route del 10.56.0.0/18 dev $IFACE table wi
-	# insert ic-vpn light route for mz network into rt_table mz
+	# insert ic-vpn light route for wi network into rt_table mz
 	post-up		/sbin/ip route add 10.56.0.0/18 table mz src 10.56.0.23 dev $IFACE
 	post-down	/sbin/ip route del 10.56.0.0/18 table mz src 10.56.0.23 dev $IFACE
 
@@ -80,7 +80,7 @@ iface wiBR inet6 static
 	# link-local subnet
         post-up         /sbin/ip -6 route add fe80::/64 dev $IFACE table wi proto kernel metric 256
         post-down       /sbin/ip -6 route del fe80::/64 dev $IFACE table wi proto kernel metric 256
-	# insert ic-vpn light route for mz network into rt_table mz
+	# insert ic-vpn light route for wi network into rt_table mz
         post-up         /sbin/ip -6 route add fd56:b4dc:4b1e::/64 table mz src fd56:b4dc:4b1e::a38:17 dev $IFACE
         post-down       /sbin/ip -6 route del fd56:b4dc:4b1e::/64 table mz src fd56:b4dc:4b1e::a38:17 dev $IFACE
 
