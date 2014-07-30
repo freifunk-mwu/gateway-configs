@@ -3,7 +3,7 @@ $ORIGIN freifunk-wiesbaden.de.
 ;
 $TTL	3600
 @	IN	SOA	hinterschinken.freifunk-wiesbaden.de. hostmaster.freifunk-wiesbaden.de. (
-			     10		; Serial
+			     11		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
@@ -46,7 +46,6 @@ www	IN	AAAA	2001:1a50:11:0:5f:8f:acdb:13b
 
 blog	IN	CNAME	www
 ffapi	IN	CNAME	www
-gatestats	IN	CNAME	www
 mirror	IN	CNAME	www
 nodegame    IN	CNAME	www
 stats    IN	CNAME	www
