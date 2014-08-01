@@ -1,0 +1,136 @@
+{
+  "basedir": "/home/admin/clones/ffctl",
+  "baseif": "eth0",
+  "ecdsakey": "/home/admin/.ecdsa/pudding.prv",
+  "exitif": "exitVPN",
+  "ffctl_ident": "ffctl",
+  "ffctl_version": "f94a134",
+  "githubident": "github_ffctl",
+  "hostname": "pudding",
+  "icif": "icVPN",
+  "io_encoding": "utf-8",
+  "loglen": 1048576,
+  "loglevel": 20,
+  "logskeep": 23,
+  "mailalert": true,
+  "mailprefix": "freifunk-mainz.de",
+  "mailrcpt": "admin@freifunk-mainz.de",
+  "meta": {
+    "builder_count": "counting number of images",
+    "builder_detatched": "detatched previous release",
+    "builder_empty": "prepared all directories",
+    "builder_failed": "build failed",
+    "builder_finished": "build finished",
+    "builder_librarian": "sorted build into endlager",
+    "builder_passing": "builder passed over to gluon_builder.sh",
+    "builder_prepared": "prepared gluon and siteconf",
+    "builder_released": "released a new version into the wild",
+    "configb_copy": "copied backup of config",
+    "draw_done": "updated all graphs",
+    "git_mergeconflict": "merge conflict",
+    "git_publish": "published all changes",
+    "git_save": "synchronized all changes",
+    "git_setup": "prepared new git repo",
+    "import_json": "json import",
+    "import_meta": "meta import",
+    "peersync_sync": "peers folder for fastd synchronized",
+    "ping_mesh_down": "removed server mode from batman",
+    "ping_mesh_up": "set server mode to batman",
+    "ping_status": "testing for connection",
+    "setup_ecdsa": "configured ecdsa keys",
+    "setup_gituser": "configured git username and mail",
+    "setup_install": "installed script",
+    "setup_ssh": "configured ssh keys and configuration",
+    "stage_new": "opened new stage. please applaud",
+    "stage_switch_in": "switched into stage",
+    "stage_switch_out": "switched out of stage"
+  },
+  "metafile": "meta.json",
+  "mod": {
+    "builder_branches": [
+      "nightly",
+      "beta",
+      "stable"
+    ],
+    "builder_checksumcmd": "sha512sum",
+    "builder_endlager": "images_",
+    "builder_gluonremote": "git://github.com/freifunk-gluon/gluon.git",
+    "builder_library": "_library",
+    "builder_makecmd": "make -j7 V=sss",
+    "builder_serverdir": "/var/www/gluon",
+    "builder_sitebranch": "autobuild",
+    "builder_siteremote": "git://github.com/Freifunk-Mainz/site-ffmz",
+    "builder_siteswitch": "mkwi.py write",
+    "builder_siteswitchcommunity": "wi",
+    "builder_stage": "_stage",
+    "builder_targetbranch": "stable",
+    "builder_targetpriority": 0.1,
+    "builder_targetversion": "0.1+0",
+    "confb_queuefile": "queue.json",
+    "confb_remote": "ssh://github_ffctl/Freifunk-Mainz/gateway-configs.git",
+    "confb_subfolder": "gateway-configs.git",
+    "draw_flags": [
+      [
+        "s",
+        "summary"
+      ],
+      [
+        "m",
+        "monthly"
+      ],
+      [
+        "d",
+        "daily"
+      ],
+      [
+        "h",
+        "hourly"
+      ],
+      [
+        "t",
+        "top10"
+      ]
+    ],
+    "draw_serverdir": "/var/www/html/traffic",
+    "ping_batserverbw": 64,
+    "ping_count": 5,
+    "ping_hosts": [
+      "freifunk-mainz.de",
+      "95.143.172.211",
+      "freifunk-wiesbaden.de",
+      "95.143.172.219",
+      "freifunk.net",
+      "217.197.80.240",
+      "penisland.net",
+      "66.96.160.128"
+    ],
+    "ping_percreq": 60
+  },
+  "pipcmd": "pip3",
+  "pycmd": "python3",
+  "reg": {
+    "mz": {
+      "bat": {
+        "gw": "64MBit/64MBit",
+        "if": "mzBAT"
+      },
+      "fastd": {
+        "if": "mzVPN",
+        "peers": "/etc/fastd/mzVPN/peers",
+        "remote": "ssh://github_ffctl/Freifunk-Mainz/peers-ffmz.git"
+      }
+    },
+    "wi": {
+      "bat": {
+        "gw": "64MBit/64MBit",
+        "if": "wiBAT"
+      },
+      "fastd": {
+        "if": "wiVPN",
+        "peers": "/etc/fastd/wiVPN/peers",
+        "remote": "ssh://github_ffctl/Freifunk-Mainz/peers-ffwi.git"
+      }
+    }
+  },
+  "templatedir": "/home/admin/clones/ffctl/templates"
+}

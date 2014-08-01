@@ -1,0 +1,24 @@
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# The primary network interface
+auto eth0
+iface eth0 inet static
+	address 10.10.10.2
+	netmask 255.255.255.0
+	network 10.10.10.0
+	broadcast 10.10.10.255
+	gateway 10.10.10.1
+	# dns-* options are implemented by the resolvconf package, if installed
+	dns-nameservers 208.67.222.222
+	dns-search igeh.me
+iface eth0 inet6 static
+	address 2a01:4f8:100:63ca:2000::2
+	netmask 68
+	gateway 2a01:4f8:100:63ca:2000::1
+#
+#	pre-down /sbin/ip -f inet6 route del default via 2a01:4f8:100:63ca::1
