@@ -24,5 +24,6 @@
   "/etc/radvd.conf",
   "/etc/resolvconf/resolv.conf.d/tail",
   "/etc/tinc/icVPN/tinc.conf",
+  "~/.ecdsa/#hostname#.pub",
   "~/.ssh/#hostname#_rsa.pub"
 ]
