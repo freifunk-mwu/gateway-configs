@@ -4,7 +4,7 @@
   "ecdsakey": "/home/admin/.ecdsa/lotuswurzel.prv",
   "exitif": "exitVPN",
   "ffctl_ident": "ffctl",
-  "ffctl_version": "e8a97bb",
+  "ffctl_version": "d5cc59e",
   "githubident": "github_ffctl",
   "hostname": "lotuswurzel",
   "icif": "icVPN",
@@ -106,6 +106,7 @@
     ],
     "ping_percreq": 60
   },
+  "pipcmd": "pip3",
   "pycmd": "python3",
   "reg": {
     "mz": {
@@ -130,5 +131,6 @@
         "remote": "ssh://github_ffctl/Freifunk-Mainz/peers-ffwi.git"
       }
     }
-  }
+  },
+  "templatedir": "/home/admin/clones/ffctl/templates"
 }
