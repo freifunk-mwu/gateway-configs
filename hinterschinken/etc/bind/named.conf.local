@@ -55,22 +55,22 @@ zone "freifunk-wiesbaden.de." {
 
 zone "ffmz.org." {
 	type master;
-	file "/etc/bind/ffmz/ffmz.master.db";
+	file "/etc/bind/ffmz/ffmz.org.master.db";
 };
 
 zone "user.ffmz.org." {
 	type master;
-	file "/etc/bind/ffmz/user.ffmz.master.db";
+	file "/etc/bind/ffmz/user.ffmz.org.master.db";
 };
 
 zone "ffwi.org." {
 	type master;
-	file "/etc/bind/ffwi/ffwi.master.db";
+	file "/etc/bind/ffwi/ffwi.org.master.db";
 };
 
 zone "user.ffwi.org." {
 	type master;
-	file "/etc/bind/ffwi/user.ffwi.master.db";
+	file "/etc/bind/ffwi/user.ffwi.org.master.db";
 };
 
 
