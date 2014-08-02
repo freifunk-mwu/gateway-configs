@@ -27,25 +27,25 @@ acl "intern-wi" {
 
 zone "ffmz.org." {
         type slave;
-        file "/etc/bind/ffmz/ffmz.db";
+        file "/etc/bind/ffmz/ffmz.org.db";
         masters { ns-master-mz; };
 };
 
 zone "user.ffmz.org." {
         type slave;
-        file "/etc/bind/ffmz/user.ffmz.db";
+        file "/etc/bind/ffmz/user.ffmz.org.db";
         masters { ns-master-mz; };
 };
 
 zone "ffwi.org." {
         type slave;
-        file "/etc/bind/ffwi/ffwi.db";
+        file "/etc/bind/ffwi/ffwi.org.db";
         masters { ns-master-wi; };
 };
 
 zone "user.ffwi.org." {
         type slave;
-        file "/etc/bind/ffwi/user.ffwi.db";
+        file "/etc/bind/ffwi/user.ffwi.org.db";
         masters { ns-master-wi; };
 };
 
