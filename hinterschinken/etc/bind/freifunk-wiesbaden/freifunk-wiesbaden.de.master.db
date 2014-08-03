@@ -3,7 +3,7 @@ $ORIGIN freifunk-wiesbaden.de.
 ;
 $TTL	3600
 @	IN	SOA	hinterschinken.freifunk-wiesbaden.de. hostmaster.freifunk-wiesbaden.de. (
-			     11		; Serial
+			     12		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
@@ -11,7 +11,7 @@ $TTL	3600
 
 ; public ns server
 @	IN	NS	tantedroll.kokelnet.de. 
-@	IN	NS	dn1.kokelnet.de.
+@	IN	NS	hobblefrank.kokelnet.de.
 
 @	IN	A	95.143.172.219
 @	IN	AAAA	2001:1a50:11:0:5f:8f:acdb:13b
