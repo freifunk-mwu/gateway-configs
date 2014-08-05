@@ -1,0 +1,36 @@
+$ORIGIN freifunk-mainz.de.
+; BIND data file for zone freifunk-mainz.de
+;
+$TTL	3600
+@	IN	SOA	hinterschinken.freifunk-mainz.de. hostmaster.freifunk-mainz.de. (
+		     2014080500		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+
+; public ns server
+@	IN	NS	ns1.treck.de. 
+@	IN	NS	ns2.treck.de.
+@	IN	NS	ns3.treck.de.
+
+@	IN	A	95.143.172.219
+@	IN	AAAA	2001:1a50:11:0:5f:8f:acdb:13b
+
+@	MX	10	octans.uberspace.de.
+
+; gateways
+hinterschinken	IN	A	94.23.58.68
+hinterschinken	IN	AAAA	2001:41d0:2:3b44::1
+
+spinat		IN	CNAME	gateway.ffmz.crazyhaze.de.
+
+lotuswurzel	IN	A	176.9.204.70
+lotuswurzel	IN	AAAA	2a01:4f8:150:8570::2
+
+gate05	IN	CNAME	hinterschinken
+gate07	IN	CNAME	spinat
+gate23	IN	CNAME	lotuswurzel
+
+; etc
+map	IN	CNAME	hinterschinken
