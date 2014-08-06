@@ -3,7 +3,7 @@ $ORIGIN freifunk-wiesbaden.de.
 ;
 $TTL	3600
 @	IN	SOA	hinterschinken.freifunk-wiesbaden.de. hostmaster.freifunk-wiesbaden.de. (
-			     12		; Serial
+		     2014080600		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
@@ -33,22 +33,22 @@ spinat		IN	CNAME	gateway.ffmz.crazyhaze.de.
 lotuswurzel	IN	A	176.9.204.70
 lotuswurzel	IN	AAAA	2a01:4f8:150:8570::2
 
-gate05	IN	CNAME	hinterschinken
-gate07	IN	CNAME	spinat
-gate23	IN	CNAME	lotuswurzel
+gate05		IN	CNAME	hinterschinken
+gate07		IN	CNAME	spinat
+gate23		IN	CNAME	lotuswurzel
 
 ; etc
-map	IN	CNAME	hinterschinken
-pudding	IN	CNAME	morgo.igeh.me.
+map		IN	CNAME	hinterschinken
+pudding		IN	CNAME	morgo.igeh.me.
 
-www	IN	A	95.143.172.219
-www	IN	AAAA	2001:1a50:11:0:5f:8f:acdb:13b
+www		IN	A	95.143.172.219
+www		IN	AAAA	2001:1a50:11:0:5f:8f:acdb:13b
 
-blog	IN	CNAME	www
-ffapi	IN	CNAME	www
-mirror	IN	CNAME	www
-nodegame    IN	CNAME	www
-stats    IN	CNAME	www
+blog		IN	CNAME	www
+ffapi		IN	CNAME	www
+mirror		IN	CNAME	www
+nodegame	IN	CNAME	www
+stats		IN	CNAME	www
 
 ; IC-VPN
 ic-wiesbaden1	IN	CNAME	lotuswurzel
