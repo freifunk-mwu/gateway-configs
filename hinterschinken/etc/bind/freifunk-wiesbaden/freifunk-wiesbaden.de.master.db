@@ -3,7 +3,7 @@ $ORIGIN	freifunk-wiesbaden.de.
 ;
 $TTL	3600
 @	IN	SOA	hinterschinken.freifunk-wiesbaden.de. hostmaster.freifunk-wiesbaden.de. (
-		     2014080701		; Serial
+		     2014080704		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
@@ -39,6 +39,7 @@ gate23		IN	CNAME	lotuswurzel
 
 ; services and stuff
 map		IN	CNAME	hinterschinken
+mapmz		IN	CNAME	hinterschinken
 pudding		IN	CNAME	morgo.igeh.me.
 
 www		IN	A	95.143.172.219

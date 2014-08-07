@@ -3,7 +3,7 @@ $ORIGIN freifunk-mainz.de.
 ;
 $TTL	3600
 @	IN	SOA	hinterschinken.freifunk-mainz.de. hostmaster.freifunk-mainz.de. (
-		     2014080701		; Serial
+		     2014080703		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
@@ -37,6 +37,15 @@ gate2		IN	A	89.237.78.70
 mettigel	IN	A	5.45.106.31
 
 ; services and stuff
+www		IN	A	95.143.172.211
+www		IN	AAAA	2001:1a50:11:0:5f:8f:acd3:1cc
+
+wiki		IN	CNAME	www
+pad		IN	CNAME	www
+blog		IN	CNAME	www
+ffapi		IN	CNAME	www
+images		IN	CNAME	www
+stats		IN	CNAME	www
 map		IN	CNAME	gate2
 
 ; IC-VPN

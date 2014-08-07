@@ -54,7 +54,7 @@ zone "freifunk-wiesbaden.de." {
 	type master;
 	file "/etc/bind/freifunk-wiesbaden/freifunk-wiesbaden.de.master.db";
 	allow-transfer { ns-public-mathias; ns-public-tobias; ns-slaves-mz; ns-slaves-wi; };
-	also-notify { fd56:b4dc:4b1e::a38:7; fd56:b4dc:4b1e::a38:17; };
+	also-notify { 46.4.168.77; 78.46.87.3; 109.75.177.23; fd56:b4dc:4b1e::a38:7; fd56:b4dc:4b1e::a38:17; };
 };
 
 // Intern Zones for Freifunk
