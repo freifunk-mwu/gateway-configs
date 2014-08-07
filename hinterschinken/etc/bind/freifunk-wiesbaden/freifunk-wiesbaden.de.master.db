@@ -1,9 +1,9 @@
-$ORIGIN freifunk-wiesbaden.de.
+$ORIGIN	freifunk-wiesbaden.de.
 ; BIND data file for zone freifunk-wiesbaden.de
 ;
 $TTL	3600
 @	IN	SOA	hinterschinken.freifunk-wiesbaden.de. hostmaster.freifunk-wiesbaden.de. (
-		     2014080600		; Serial
+		     2014080701		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
@@ -13,10 +13,11 @@ $TTL	3600
 @	IN	NS	tantedroll.kokelnet.de. 
 @	IN	NS	hobblefrank.kokelnet.de.
 
+; mx records
+@	MX	10	octans.uberspace.de.
+
 @	IN	A	95.143.172.219
 @	IN	AAAA	2001:1a50:11:0:5f:8f:acdb:13b
-
-@	MX	10	octans.uberspace.de.
 
 autoconfig	IN	A	95.143.172.219
 autoconfig	IN	AAAA	2001:1a50:11:0:5f:8f:acdb:13b
@@ -24,20 +25,19 @@ autoconfig	IN	AAAA	2001:1a50:11:0:5f:8f:acdb:13b
 autodiscover	IN 	A	95.143.172.219
 autdiscover	IN	AAAA	2001:1a50:11:0:5f:8f:acdb:13b
 
-; gateways
+; gluon gateways
 hinterschinken	IN	A	94.23.58.68
 hinterschinken	IN	AAAA	2001:41d0:2:3b44::1
+gate05		IN	CNAME	hinterschinken
 
 spinat		IN	CNAME	gateway.ffmz.crazyhaze.de.
+gate07		IN	CNAME	spinat
 
 lotuswurzel	IN	A	176.9.204.70
 lotuswurzel	IN	AAAA	2a01:4f8:150:8570::2
-
-gate05		IN	CNAME	hinterschinken
-gate07		IN	CNAME	spinat
 gate23		IN	CNAME	lotuswurzel
 
-; etc
+; services and stuff
 map		IN	CNAME	hinterschinken
 pudding		IN	CNAME	morgo.igeh.me.
 

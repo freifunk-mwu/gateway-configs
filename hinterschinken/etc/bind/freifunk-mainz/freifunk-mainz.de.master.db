@@ -3,34 +3,46 @@ $ORIGIN freifunk-mainz.de.
 ;
 $TTL	3600
 @	IN	SOA	hinterschinken.freifunk-mainz.de. hostmaster.freifunk-mainz.de. (
-		     2014080500		; Serial
+		     2014080701		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
 			 604800 )	; Negative Cache TTL
 
 ; public ns server
-@	IN	NS	ns1.treck.de. 
-@	IN	NS	ns2.treck.de.
-@	IN	NS	ns3.treck.de.
+@		IN	NS	ns1.treck.de.
+@		IN	NS	ns2.treck.de.
+@		IN	NS	ns3.treck.de.
 
-@	IN	A	95.143.172.219
-@	IN	AAAA	2001:1a50:11:0:5f:8f:acdb:13b
+; mx records
+@		MX	10	lacerta.uberspace.de.
 
-@	MX	10	octans.uberspace.de.
+@		IN	A	95.143.172.211
+@		IN	AAAA	2001:1a50:11:0:5f:8f:acd3:1cc
 
-; gateways
+; gluon gateways
 hinterschinken	IN	A	94.23.58.68
 hinterschinken	IN	AAAA	2001:41d0:2:3b44::1
+gate05		IN	CNAME	hinterschinken
 
 spinat		IN	CNAME	gateway.ffmz.crazyhaze.de.
+gate07		IN	CNAME	spinat
 
 lotuswurzel	IN	A	176.9.204.70
 lotuswurzel	IN	AAAA	2a01:4f8:150:8570::2
+gate23		IN	CNAME	lotuswurzel
 
-gate05	IN	CNAME	hinterschinken
-gate07	IN	CNAME	spinat
-gate23	IN	CNAME	lotuswurzel
+; legacy gateways
+gate2		IN	A	89.237.78.70
+mettigel	IN	A	5.45.106.31
 
-; etc
-map	IN	CNAME	hinterschinken
+; services and stuff
+map		IN	CNAME	gate2
+
+; IC-VPN
+ic-mainz1	IN	CNAME	hinterschinken
+ic-mainz2	IN	CNAME	spinat
+
+; wildcard catchall for all undefined hosts - TODO: get rid of this!
+*		IN	A	95.143.172.211
+*		IN	AAAA	2001:1a50:11:0:5f:8f:acd3:1cc
