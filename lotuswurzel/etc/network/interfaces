@@ -40,8 +40,8 @@ iface mzBR inet static
 	post-up		/sbin/ip route add 10.37.0.0/18 dev $IFACE table mz
 	post-down	/sbin/ip route del 10.37.0.0/18 dev $IFACE table mz
 	# insert ic-vpn light route for mz network into rt_table wi
-	post-up		/sbin/ip route add 10.37.0.0/18 table wi src 10.37.0.23 dev $IFACE
-	post-down	/sbin/ip route del 10.37.0.0/18 table wi src 10.37.0.23 dev $IFACE
+	post-up		/sbin/ip route add 10.37.0.0/18 table wi dev $IFACE
+	post-down	/sbin/ip route del 10.37.0.0/18 table wi dev $IFACE
 
 iface mzBR inet6 static
 	address fd37:b4dc:4b1e::a25:17
@@ -52,9 +52,11 @@ iface mzBR inet6 static
 	# link-local subnet
 	post-up		/sbin/ip -6 route add fe80::/64 dev $IFACE table mz proto kernel metric 256
 	post-down       /sbin/ip -6 route del fe80::/64 dev $IFACE table mz proto kernel metric 256
+	post-up		/sbin/ip -6 route add fd37:b4dc:4b1e::/64 dev $IFACE table mz proto kernel metric 256
+	post-down	/sbin/ip -6 route del fd37:b4dc:4b1e::/64 dev $IFACE table mz proto kernel metric 256
 	# insert ic-vpn light route for mz network into rt_table wi
-	post-up		/sbin/ip -6 route add fd37:b4dc:4b1e::/64 table wi src fd37:b4dc:4b1e::a25:17 dev $IFACE
-	post-down	/sbin/ip -6 route del fd37:b4dc:4b1e::/64 table wi src fd37:b4dc:4b1e::a25:17 dev $IFACE
+	post-up		/sbin/ip -6 route add fd37:b4dc:4b1e::/64 table wi dev $IFACE
+	post-down	/sbin/ip -6 route del fd37:b4dc:4b1e::/64 table wi dev $IFACE
 
 auto wiBR
 iface wiBR inet static
@@ -68,8 +70,8 @@ iface wiBR inet static
         post-up         /sbin/ip route add 10.56.0.0/18 dev $IFACE table wi
         post-down       /sbin/ip route del 10.56.0.0/18 dev $IFACE table wi
 	# insert ic-vpn light route for wi network into rt_table mz
-	post-up		/sbin/ip route add 10.56.0.0/18 table mz src 10.56.0.23 dev $IFACE
-	post-down	/sbin/ip route del 10.56.0.0/18 table mz src 10.56.0.23 dev $IFACE
+	post-up		/sbin/ip route add 10.56.0.0/18 table mz dev $IFACE
+	post-down	/sbin/ip route del 10.56.0.0/18 table mz dev $IFACE
 
 iface wiBR inet6 static
         address fd56:b4dc:4b1e::a38:17
@@ -80,9 +82,11 @@ iface wiBR inet6 static
 	# link-local subnet
         post-up         /sbin/ip -6 route add fe80::/64 dev $IFACE table wi proto kernel metric 256
         post-down       /sbin/ip -6 route del fe80::/64 dev $IFACE table wi proto kernel metric 256
+	post-up		/sbin/ip -6 route add fd56:b4dc:4b1e::/64 dev $IFACE table wi proto kernel metric 256
+	post-down	/sbin/ip -6 route del fd56:b4dc:4b1e::/64 dev $IFACE table wi proto kernel metric 256
 	# insert ic-vpn light route for wi network into rt_table mz
-        post-up         /sbin/ip -6 route add fd56:b4dc:4b1e::/64 table mz src fd56:b4dc:4b1e::a38:17 dev $IFACE
-        post-down       /sbin/ip -6 route del fd56:b4dc:4b1e::/64 table mz src fd56:b4dc:4b1e::a38:17 dev $IFACE
+        post-up         /sbin/ip -6 route add fd56:b4dc:4b1e::/64 table mz dev $IFACE
+        post-down       /sbin/ip -6 route del fd56:b4dc:4b1e::/64 table mz dev $IFACE
 
 allow-hotplug mzVPN
 iface mzVPN inet6 manual
