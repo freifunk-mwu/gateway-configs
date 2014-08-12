@@ -31,11 +31,11 @@ iface mzBR inet static
 	post-up		/sbin/ip rule add iif $IFACE table mz
 	pre-down	/sbin/ip rule del iif $IFACE table mz
         # local reachable subnet
-        post-up         /sbin/ip route add 10.37.0.0/18 dev $IFACE table mz
-        post-down       /sbin/ip route del 10.37.0.0/18 dev $IFACE table mz
+#        post-up         /sbin/ip route add 10.37.0.0/18 dev $IFACE table mz
+#        post-down       /sbin/ip route del 10.37.0.0/18 dev $IFACE table mz
 	# insert ic-vpn light route for mz network into rt_table wi
-        post-up         /sbin/ip route add 10.37.0.0/18 table wi dev $IFACE
-        post-down       /sbin/ip route del 10.37.0.0/18 table wi dev $IFACE
+        post-up         /sbin/ip route add 10.37.0.0/18 dev $IFACE table wi
+        post-down       /sbin/ip route del 10.37.0.0/18 dev $IFACE table wi
 
 iface mzBR inet6 static
 	address fd37:b4dc:4b1e::a25:5
@@ -44,13 +44,13 @@ iface mzBR inet6 static
 	post-up         /sbin/ip -6 rule add iif $IFACE table mz
 	pre-down        /sbin/ip -6 rule del iif $IFACE table mz
         # link-local subnet
-        post-up         /sbin/ip -6 route add fe80::/64 dev $IFACE table mz proto kernel metric 256
-        post-down       /sbin/ip -6 route del fe80::/64 dev $IFACE table mz proto kernel metric 256
-	post-up		/sbin/ip -6 route add fd37:b4dc:4b1e::/64 dev $IFACE table mz proto kernel metric 256
-	post-down	/sbin/ip -6 route del fd37:b4dc:4b1e::/64 dev $IFACE table mz proto kernel metric 256
+ #       post-up         /sbin/ip -6 route add fe80::/64 dev $IFACE table mz proto kernel metric 256
+ #       post-down       /sbin/ip -6 route del fe80::/64 dev $IFACE table mz proto kernel metric 256
+#	post-up		/sbin/ip -6 route add fd37:b4dc:4b1e::/64 dev $IFACE table mz proto kernel metric 256
+#	post-down	/sbin/ip -6 route del fd37:b4dc:4b1e::/64 dev $IFACE table mz proto kernel metric 256
 	# insert ic-vpn light route for mz network into rt_table wi
-        post-up         /sbin/ip -6 route add fd37:b4dc:4b1e::/64 table wi dev $IFACE
-        post-down       /sbin/ip -6 route del fd37:b4dc:4b1e::/64 table wi dev $IFACE
+        post-up         /sbin/ip -6 route add fd37:b4dc:4b1e::/64 dev $IFACE table wi
+        post-down       /sbin/ip -6 route del fd37:b4dc:4b1e::/64 dev $IFACE table wi
 
 auto wiBR
 iface wiBR inet static
@@ -61,11 +61,11 @@ iface wiBR inet static
         post-up         /sbin/ip rule add iif $IFACE table wi
         pre-down        /sbin/ip rule del iif $IFACE table wi
         # local reachable subnet
-        post-up         /sbin/ip route add 10.56.0.0/18 dev $IFACE table wi
-        post-down       /sbin/ip route del 10.56.0.0/18 dev $IFACE table wi
+ #       post-up         /sbin/ip route add 10.56.0.0/18 dev $IFACE table wi
+ #       post-down       /sbin/ip route del 10.56.0.0/18 dev $IFACE table wi
         # insert ic-vpn light route for mz network into rt_table mz
-        post-up         /sbin/ip route add 10.56.0.0/18 table mz dev $IFACE
-        post-down       /sbin/ip route del 10.56.0.0/18 table mz dev $IFACE
+        post-up         /sbin/ip route add 10.56.0.0/18 dev $IFACE table mz
+        post-down       /sbin/ip route del 10.56.0.0/18 dev $IFACE table mz
 
 iface wiBR inet6 static
         address fd56:b4dc:4b1e::a38:5
@@ -74,13 +74,13 @@ iface wiBR inet6 static
 	post-up         /sbin/ip -6 rule add iif $IFACE table wi
 	pre-down        /sbin/ip -6 rule del iif $IFACE table wi
         # link-local subnet
-        post-up         /sbin/ip -6 route add fe80::/64 dev $IFACE table wi proto kernel metric 256
-        post-down       /sbin/ip -6 route del fe80::/64 dev $IFACE table wi proto kernel metric 256
-	post-up		/sbin/ip -6 route add fd56:b4dc:4b1e::/64 dev $IFACE table wi proto kernel metric 256
-	post-down	/sbin/ip -6 route del fd56:b4dc:4b1e::/64 dev $IFACE table wi proto kernel metric 256
+ #       post-up         /sbin/ip -6 route add fe80::/64 dev $IFACE table wi proto kernel metric 256
+ #       post-down       /sbin/ip -6 route del fe80::/64 dev $IFACE table wi proto kernel metric 256
+#	post-up		/sbin/ip -6 route add fd56:b4dc:4b1e::/64 dev $IFACE table wi proto kernel metric 256
+#	post-down	/sbin/ip -6 route del fd56:b4dc:4b1e::/64 dev $IFACE table wi proto kernel metric 256
         # insert ic-vpn light route for mz network into rt_table mz
-        post-up         /sbin/ip -6 route add fd56:b4dc:4b1e::/64 table mz dev $IFACE
-        post-down       /sbin/ip -6 route del fd56:b4dc:4b1e::/64 table mz dev $IFACE
+        post-up         /sbin/ip -6 route add fd56:b4dc:4b1e::/64 dev $IFACE table mz
+        post-down       /sbin/ip -6 route del fd56:b4dc:4b1e::/64 dev $IFACE table mz
 
 allow-hotplug mzVPN
 iface mzVPN inet6 manual
