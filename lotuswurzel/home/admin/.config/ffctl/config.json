@@ -4,7 +4,7 @@
   "ecdsakey": "/home/admin/.ecdsa/lotuswurzel.prv",
   "exitif": "exitVPN",
   "ffctl_ident": "ffctl",
-  "ffctl_version": "4d08bb1",
+  "ffctl_version": "ad66453",
   "githubident": "github_ffctl",
   "hostname": "lotuswurzel",
   "icif": "icVPN",
@@ -52,7 +52,6 @@
       "beta",
       "stable"
     ],
-    "builder_checksumcmd": "sha512sum",
     "builder_endlager": "images_",
     "builder_gluonremote": "git://github.com/freifunk-gluon/gluon.git",
     "builder_library": "_library",
