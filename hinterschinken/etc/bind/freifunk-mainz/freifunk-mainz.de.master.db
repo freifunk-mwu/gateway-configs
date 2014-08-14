@@ -3,7 +3,7 @@ $ORIGIN freifunk-mainz.de.
 ;
 $TTL	3600
 @	IN	SOA	hinterschinken.freifunk-mainz.de. hostmaster.freifunk-mainz.de. (
-		     2014080703		; Serial
+		     2014081401		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
