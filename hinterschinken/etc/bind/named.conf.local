@@ -4,19 +4,6 @@
 
 // ACLs
 
-acl "ns-public-mathias" {
-	46.4.168.77; // ns1.treck.de
-	109.75.177.23; // ns2.treck.de
-	78.46.87.3; // ns3.treck.de
-};
-
-acl "ns-public-tobias" {
-	84.200.43.97/32;
-	78.47.49.189/32;
-	2001:1608:19:f1::4c1d:c0de/128;
-	2a01:4f8:d15:1680::bee2:c0de/128;
-};
-
 acl "ns-slaves-mz" {
 	10.37.0.7/32;
 	10.37.0.23/32;
@@ -41,21 +28,6 @@ acl "intern-wi" {
 	fd56:b4dc:4b1e::/48;
 };
 
-// Public Zones for Freifunk
-
-zone "freifunk-mainz.de." {
-        type master;
-        file "/etc/bind/freifunk-mainz/freifunk-mainz.de.master.db";
-        allow-transfer { ns-public-mathias; ns-public-tobias; ns-slaves-mz; ns-slaves-wi; };
-        also-notify { fd37:b4dc:4b1e::a25:7; fd37:b4dc:4b1e::a25:17; };
-};
-
-zone "freifunk-wiesbaden.de." {
-	type master;
-	file "/etc/bind/freifunk-wiesbaden/freifunk-wiesbaden.de.master.db";
-	allow-transfer { ns-public-mathias; ns-public-tobias; ns-slaves-mz; ns-slaves-wi; };
-	also-notify { 46.4.168.77; 78.46.87.3; 109.75.177.23; fd56:b4dc:4b1e::a38:7; fd56:b4dc:4b1e::a38:17; };
-};
 
 // Intern Zones for Freifunk
 
