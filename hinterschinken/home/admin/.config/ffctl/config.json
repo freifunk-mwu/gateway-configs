@@ -4,7 +4,7 @@
   "ecdsakey": "/home/admin/.ecdsa/hinterschinken.prv",
   "exitif": "exitVPN",
   "ffctl_ident": "ffctl",
-  "ffctl_version": "80da72f",
+  "ffctl_version": "860e33a",
   "githubident": "github_ffctl",
   "hostname": "hinterschinken",
   "icif": "icVPN",
@@ -110,7 +110,7 @@
   "reg": {
     "mz": {
       "bat": {
-        "gw": "64MBit/64MBit",
+        "gw": "96MBit/96MBit",
         "if": "mzBAT"
       },
       "fastd": {
@@ -121,7 +121,7 @@
     },
     "wi": {
       "bat": {
-        "gw": "64MBit/64MBit",
+        "gw": "96MBit/96MBit",
         "if": "wiBAT"
       },
       "fastd": {
