@@ -4,7 +4,7 @@
   "ecdsakey": "/home/admin/.ecdsa/lotuswurzel.prv",
   "exitif": "exitVPN",
   "ffctl_ident": "ffctl",
-  "ffctl_version": "ad66453",
+  "ffctl_version": "80da72f",
   "githubident": "github_ffctl",
   "hostname": "lotuswurzel",
   "icif": "icVPN",
@@ -66,7 +66,7 @@
     "builder_targetpriority": 0.1,
     "builder_targetversion": "0.1+0",
     "confb_queuefile": "queue.json",
-    "confb_remote": "ssh://github_ffctl/Freifunk-Mainz/gateway-configs.git",
+    "confb_remote": "ssh://github_ffctl/ffrm/gateway-configs.git",
     "confb_subfolder": "gateway-configs.git",
     "draw_flags": [
       [
@@ -127,7 +127,7 @@
       "fastd": {
         "if": "wiVPN",
         "peers": "/etc/fastd/wiVPN/peers",
-        "remote": "ssh://github_ffctl/Freifunk-Mainz/peers-ffwi.git"
+        "remote": "ssh://github_ffctl/ffrm/peers-ffwi.git"
       }
     }
   },

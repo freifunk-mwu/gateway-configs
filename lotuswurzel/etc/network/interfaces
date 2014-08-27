@@ -12,81 +12,84 @@ iface eth0 inet static
 	netmask 255.255.255.255
 	gateway 176.9.64.143
 	pointopoint 176.9.64.143
-	dns-nameservers 213.73.91.35
+	dns-nameservers 127.0.0.1
 
 iface eth0 inet6 static
 	address 2a01:4f8:150:8570::2
 	netmask 64
 	gateway 2a01:4f8:150:8570::1
 
-# hurricane electric 6in4 tunnel
-#auto he-ipv6
-#iface he-ipv6 inet6 v4tunnel
-#        address 2001:470:1f0a:f3d::2
-#        netmask 64
-#        endpoint 216.66.80.30
-#        local 176.9.204.70
-#        ttl 255
-
 auto mzBR
 iface mzBR inet static
 	bridge-ports none
 	address 10.37.0.23
 	netmask 255.255.192.0
+	# ip rules for icvpn traffic
+	post-up		/sbin/ip rule add from all table icvpn-mz priority 370
+	post-down	/sbin/ip rule del from all table icvpn-mz priority 370
 	# ip rules to add all traffic entering the bridge to the appropriate rt_table
-	post-up		/sbin/ip rule add iif $IFACE table mz 
-	pre-down	/sbin/ip rule del iif $IFACE table mz
+	post-up		/sbin/ip rule add iif $IFACE table mz priority 3700 
+	pre-down	/sbin/ip rule del iif $IFACE table mz priority 3700
 	# local reachable subnet
-	post-up		/sbin/ip route add 10.37.0.0/18 dev $IFACE scope link table mz
-	post-down	/sbin/ip route del 10.37.0.0/18 dev $IFACE scope link table mz
+	post-up		/sbin/ip route add 10.37.0.0/18 dev $IFACE table mz
+	post-down	/sbin/ip route del 10.37.0.0/18 dev $IFACE table mz
 	# insert ic-vpn light route for mz network into rt_table wi
-	post-up		/sbin/ip route add 10.37.0.0/18 dev $IFACE scope link table wi
-	post-down	/sbin/ip route del 10.37.0.0/18 dev $IFACE scope link table wi
+	post-up		/sbin/ip route add 10.37.0.0/18 dev $IFACE src 10.37.0.23 proto kernel scope link table wi
+	post-down	/sbin/ip route del 10.37.0.0/18 dev $IFACE src 10.37.0.23 proto kernel scope link table wi
 
 iface mzBR inet6 static
 	address fd37:b4dc:4b1e::a25:17
 	netmask 64
+	# ip rules for icvpn traffic
+	post-up		/sbin/ip -6 rule add from all table icvpn-mz priority 370
+	post-down	/sbin/ip -6 rule del from all table icvpn-mz priority 370
 	# ip rules to add all traffic entering the bridge to the appropriate rt_table
-        post-up         /sbin/ip -6 rule add iif $IFACE table mz
-        pre-down        /sbin/ip -6 rule del iif $IFACE table mz
+	post-up		/sbin/ip -6 rule add iif $IFACE table mz priority 3700
+	pre-down	/sbin/ip -6 rule del iif $IFACE table mz priority 3700
 	# link-local subnet
 	post-up		/sbin/ip -6 route add fe80::/64 dev $IFACE table mz
-	post-down       /sbin/ip -6 route del fe80::/64 dev $IFACE table mz
+	post-down	/sbin/ip -6 route del fe80::/64 dev $IFACE table mz
 	post-up		/sbin/ip -6 route add fd37:b4dc:4b1e::/64 dev $IFACE table mz
 	post-down	/sbin/ip -6 route del fd37:b4dc:4b1e::/64 dev $IFACE table mz
 	# insert ic-vpn light route for mz network into rt_table wi
-	post-up		/sbin/ip -6 route add fd37:b4dc:4b1e::/64 dev $IFACE table wi
-	post-down	/sbin/ip -6 route del fd37:b4dc:4b1e::/64 dev $IFACE table wi
+	post-up		/sbin/ip -6 route add fd37:b4dc:4b1e::/64 dev $IFACE proto kernel scope link table wi
+	post-down	/sbin/ip -6 route del fd37:b4dc:4b1e::/64 dev $IFACE proto kernel scope link table wi
 
 auto wiBR
 iface wiBR inet static
         bridge-ports none
         address 10.56.0.23
         netmask 255.255.192.0
+	# ip rules for icvpn traffic
+	post-up		/sbin/ip rule add from all table icvpn-wi priority 560
+	post-down	/sbin/ip rule del from all table icvpn-wi priority 560
 	# ip rules to add all traffic entering the bridge to the appropriate rt_table
-        post-up         /sbin/ip rule add iif $IFACE table wi
-        pre-down        /sbin/ip rule del iif $IFACE table wi
-        # local reachable subnet
-	post-up         /sbin/ip route add 10.56.0.0/18 dev $IFACE scope link table wi
-	post-down       /sbin/ip route del 10.56.0.0/18 dev $IFACE scope link table wi
+	post-up		/sbin/ip rule add iif $IFACE table wi priority 5600
+	pre-down	/sbin/ip rule del iif $IFACE table wi priority 5600
+	# local reachable subnet
+	post-up		/sbin/ip route add 10.56.0.0/18 dev $IFACE table wi
+	post-down	/sbin/ip route del 10.56.0.0/18 dev $IFACE table wi
 	# insert ic-vpn light route for wi network into rt_table mz
-	post-up		/sbin/ip route add 10.56.0.0/18 dev $IFACE scope link table mz
-	post-down	/sbin/ip route del 10.56.0.0/18 dev $IFACE scope link table mz
+	post-up		/sbin/ip route add 10.56.0.0/18 dev $IFACE src 10.56.0.23 table mz
+	post-down	/sbin/ip route del 10.56.0.0/18 dev $IFACE src 10.56.0.23 table mz
 
 iface wiBR inet6 static
         address fd56:b4dc:4b1e::a38:17
         netmask 64
+	# ip rules for icvpn traffic
+	post-up		/sbin/ip -6 rule add from all table icvpn-wi priority 560
+	post-down	/sbin/ip -6 rule del from all table icvpn-wi priority 560
 	# ip rules to add all traffic entering the bridge to the appropriate rt_table
-        post-up         /sbin/ip -6 rule add iif $IFACE table wi
-        pre-down        /sbin/ip -6 rule del iif $IFACE table wi
+	post-up		/sbin/ip -6 rule add iif $IFACE table wi priority 5600
+	pre-down	/sbin/ip -6 rule del iif $IFACE table wi priority 5600
 	# link-local subnet
-	post-up         /sbin/ip -6 route add fe80::/64 dev $IFACE table wi
-	post-down       /sbin/ip -6 route del fe80::/64 dev $IFACE table wi
+	post-up		/sbin/ip -6 route add fe80::/64 dev $IFACE table wi
+	post-down	/sbin/ip -6 route del fe80::/64 dev $IFACE table wi
 	post-up		/sbin/ip -6 route add fd56:b4dc:4b1e::/64 dev $IFACE table wi
 	post-down	/sbin/ip -6 route del fd56:b4dc:4b1e::/64 dev $IFACE table wi
 	# insert ic-vpn light route for wi network into rt_table mz
-        post-up         /sbin/ip -6 route add fd56:b4dc:4b1e::/64 dev $IFACE table mz
-        post-down       /sbin/ip -6 route del fd56:b4dc:4b1e::/64 dev $IFACE table mz
+	post-up		/sbin/ip -6 route add fd56:b4dc:4b1e::/64 dev $IFACE table mz
+	post-down	/sbin/ip -6 route del fd56:b4dc:4b1e::/64 dev $IFACE table mz
 
 allow-hotplug mzVPN
 iface mzVPN inet6 manual
