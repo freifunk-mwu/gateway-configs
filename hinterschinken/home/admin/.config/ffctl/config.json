@@ -4,7 +4,7 @@
   "ecdsakey": "/home/admin/.ecdsa/hinterschinken.prv",
   "exitif": "exitVPN",
   "ffctl_ident": "ffctl",
-  "ffctl_version": "160be3f",
+  "ffctl_version": "860e33a",
   "githubident": "github_ffctl",
   "hostname": "hinterschinken",
   "icif": "icVPN",
@@ -66,7 +66,7 @@
     "builder_targetpriority": 0.1,
     "builder_targetversion": "0.1+0",
     "confb_queuefile": "queue.json",
-    "confb_remote": "ssh://github_ffctl/Freifunk-Mainz/gateway-configs.git",
+    "confb_remote": "ssh://github_ffctl/ffrm/gateway-configs.git",
     "confb_subfolder": "gateway-configs.git",
     "draw_flags": [
       [
@@ -110,7 +110,7 @@
   "reg": {
     "mz": {
       "bat": {
-        "gw": "64MBit/64MBit",
+        "gw": "96MBit/96MBit",
         "if": "mzBAT"
       },
       "fastd": {
@@ -121,13 +121,13 @@
     },
     "wi": {
       "bat": {
-        "gw": "64MBit/64MBit",
+        "gw": "96MBit/96MBit",
         "if": "wiBAT"
       },
       "fastd": {
         "if": "wiVPN",
         "peers": "/etc/fastd/wiVPN/peers",
-        "remote": "ssh://github_ffctl/Freifunk-Mainz/peers-ffwi.git"
+        "remote": "ssh://github_ffctl/ffrm/peers-ffwi.git"
       }
     }
   },
