@@ -4,7 +4,7 @@
   "ecdsakey": "/home/admin/.ecdsa/hinterschinken.prv",
   "exitif": "exitVPN",
   "ffctl_ident": "ffctl",
-  "ffctl_version": "860e33a",
+  "ffctl_version": "30b03b1",
   "githubident": "github_ffctl",
   "hostname": "hinterschinken",
   "icif": "icVPN",
@@ -34,6 +34,8 @@
     "import_json": "json import",
     "import_meta": "meta import",
     "peersync_sync": "peers folder for fastd synchronized",
+    "ping_dhcpd_down": "stopped dhcpd",
+    "ping_dhcpd_up": "started dhcpd",
     "ping_mesh_down": "removed server mode from batman",
     "ping_mesh_up": "set server mode to batman",
     "ping_status": "testing for connection",
@@ -58,7 +60,7 @@
     "builder_makecmd": "make -j7 V=sss",
     "builder_serverdir": "/var/www/gluon",
     "builder_sitebranch": "autobuild",
-    "builder_siteremote": "git://github.com/Freifunk-Mainz/site-ffmz",
+    "builder_siteremote": "git://github.com/freifunk-mwu/site-ffmz",
     "builder_siteswitch": "mkwi.py write",
     "builder_siteswitchcommunity": "wi",
     "builder_stage": "_stage",
@@ -66,7 +68,7 @@
     "builder_targetpriority": 0.1,
     "builder_targetversion": "0.1+0",
     "confb_queuefile": "queue.json",
-    "confb_remote": "ssh://github_ffctl/ffrm/gateway-configs.git",
+    "confb_remote": "ssh://github_ffctl/freifunk-mwu/gateway-configs.git",
     "confb_subfolder": "gateway-configs.git",
     "draw_flags": [
       [
@@ -116,7 +118,7 @@
       "fastd": {
         "if": "mzVPN",
         "peers": "/etc/fastd/mzVPN/peers",
-        "remote": "ssh://github_ffctl/Freifunk-Mainz/peers-ffmz.git"
+        "remote": "ssh://github_ffctl/freifunk-mwu/peers-ffmz.git"
       }
     },
     "wi": {
@@ -127,7 +129,7 @@
       "fastd": {
         "if": "wiVPN",
         "peers": "/etc/fastd/wiVPN/peers",
-        "remote": "ssh://github_ffctl/ffrm/peers-ffwi.git"
+        "remote": "ssh://github_ffctl/freifunk-mwu/peers-ffwi.git"
       }
     }
   },
