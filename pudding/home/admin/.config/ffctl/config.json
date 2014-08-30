@@ -4,7 +4,7 @@
   "ecdsakey": "/home/admin/.ecdsa/pudding.prv",
   "exitif": "exitVPN",
   "ffctl_ident": "ffctl",
-  "ffctl_version": "f52bbe8",
+  "ffctl_version": "e7674c9",
   "githubident": "github_ffctl",
   "hostname": "pudding",
   "icif": "icVPN",
@@ -16,31 +16,10 @@
   "mailprefix": "freifunk-mainz.de",
   "mailrcpt": "admin@freifunk-mainz.de",
   "meta": {
-    "builder_count": "counting number of images",
-    "builder_detatched": "detatched previous release",
-    "builder_empty": "prepared all directories",
-    "builder_failed": "build failed",
-    "builder_finished": "build finished",
-    "builder_librarian": "sorted build into endlager",
-    "builder_passing": "builder passed over to gluon_builder.sh",
-    "builder_prepared": "prepared gluon and siteconf",
-    "builder_released": "released a new version into the wild",
-    "configb_copy": "copied backup of config",
-    "draw_done": "updated all graphs",
+    "git_action": "git action",
     "git_mergeconflict": "merge conflict",
-    "git_publish": "published all changes",
-    "git_save": "synchronized all changes",
-    "git_setup": "prepared new git repo",
     "import_json": "json import",
     "import_meta": "meta import",
-    "peersync_sync": "peers folder for fastd synchronized",
-    "ping_mesh_down": "removed server mode from batman",
-    "ping_mesh_up": "set server mode to batman",
-    "ping_status": "testing for connection",
-    "setup_ecdsa": "configured ecdsa keys",
-    "setup_gituser": "configured git username and mail",
-    "setup_install": "installed script",
-    "setup_ssh": "configured ssh keys and configuration",
     "stage_new": "opened new stage. please applaud",
     "stage_switch_in": "switched into stage",
     "stage_switch_out": "switched out of stage"
@@ -52,22 +31,21 @@
       "beta",
       "stable"
     ],
-    "builder_checksumcmd": "sha512sum",
     "builder_endlager": "images_",
     "builder_gluonremote": "git://github.com/freifunk-gluon/gluon.git",
     "builder_library": "_library",
     "builder_makecmd": "make -j7 V=sss",
     "builder_serverdir": "/var/www/gluon",
     "builder_sitebranch": "autobuild",
-    "builder_siteremote": "git://github.com/Freifunk-Mainz/site-ffmz",
+    "builder_siteremote": "git://github.com/freifunk-mwu/site-ffmz.git",
     "builder_siteswitch": "mkwi.py write",
     "builder_siteswitchcommunity": "wi",
     "builder_stage": "_stage",
     "builder_targetbranch": "stable",
-    "builder_targetpriority": 0.1,
+    "builder_targetpriority": 0.5,
     "builder_targetversion": "0.1+0",
     "confb_queuefile": "queue.json",
-    "confb_remote": "ssh://github_ffctl/Freifunk-Mainz/gateway-configs.git",
+    "confb_remote": "ssh://github_ffctl/freifunk-mwu/gateway-configs.git",
     "confb_subfolder": "gateway-configs.git",
     "draw_flags": [
       [
@@ -92,7 +70,9 @@
       ]
     ],
     "draw_serverdir": "/var/www/html/traffic",
-    "ping_batserverbw": 64,
+    "imagesync_rsync_url": "rsync://pudding.freifunk-wiesbaden.de:2873/gluon",
+    "imagesync_serverdir": "/var/www/html/gluon",
+    "ping_batserverbw": 96,
     "ping_count": 5,
     "ping_hosts": [
       "freifunk-mainz.de",
@@ -111,24 +91,24 @@
   "reg": {
     "mz": {
       "bat": {
-        "gw": "64MBit/64MBit",
+        "gw": "96MBit/96MBit",
         "if": "mzBAT"
       },
       "fastd": {
         "if": "mzVPN",
         "peers": "/etc/fastd/mzVPN/peers",
-        "remote": "ssh://github_ffctl/Freifunk-Mainz/peers-ffmz.git"
+        "remote": "ssh://github_ffctl/freifunk-mwu/peers-ffmz.git"
       }
     },
     "wi": {
       "bat": {
-        "gw": "64MBit/64MBit",
+        "gw": "96MBit/96MBit",
         "if": "wiBAT"
       },
       "fastd": {
         "if": "wiVPN",
         "peers": "/etc/fastd/wiVPN/peers",
-        "remote": "ssh://github_ffctl/Freifunk-Mainz/peers-ffwi.git"
+        "remote": "ssh://github_ffctl/freifunk-mwu/peers-ffwi.git"
       }
     }
   },
