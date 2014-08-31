@@ -4,7 +4,7 @@
   "ecdsakey": "/home/admin/.ecdsa/pudding.prv",
   "exitif": "exitVPN",
   "ffctl_ident": "ffctl",
-  "ffctl_version": "e7674c9",
+  "ffctl_version": "8e18e84",
   "githubident": "github_ffctl",
   "hostname": "pudding",
   "icif": "icVPN",
