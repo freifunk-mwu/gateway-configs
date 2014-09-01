@@ -25,32 +25,24 @@ iface mzBR inet static
 	address 10.37.0.23
 	netmask 255.255.192.0
 	# add all mz traffic to the appropriate rt_table
-	post-up		/sbin/ip rule add iif $IFACE table mz priority 3700 
-	pre-down	/sbin/ip rule del iif $IFACE table mz priority 3700
-	post-up		/sbin/ip rule add from 10.37.0.0/18 table mz priority 3701
-	pre-down	/sbin/ip rule del from 10.37.0.0/18 table mz priority 3701
-	post-up		/sbin/ip rule add to 10.37.0.0/18 table mz priority 3702
-	pre-down	/sbin/ip rule del to 10.37.0.0/18 table mz priority 3702
+	post-up		/sbin/ip rule add iif $IFACE table mz priority 3701 
+	pre-down	/sbin/ip rule del iif $IFACE table mz priority 3701
 	# default route is unreachable
 	post-up		/sbin/ip route add unreachable default table mz
 	post-down	/sbin/ip route del unreachable default table mz
 	# local reachable subnet
-	post-up		/sbin/ip route add 10.37.0.0/18 src 10.37.0.23 dev $IFACE table mz
-	post-down	/sbin/ip route del 10.37.0.0/18 src 10.37.0.23 dev $IFACE table mz
+	post-up		/sbin/ip route add 10.37.0.0/18 src 10.37.0.23 scope link proto static dev $IFACE table mz
+	post-down	/sbin/ip route del 10.37.0.0/18 src 10.37.0.23 scope link proto static dev $IFACE table mz
 	# insert ic-vpn light route for mz network into rt_table wi
-	post-up		/sbin/ip route add 10.37.0.0/18 src 10.37.0.23 dev $IFACE table wi
-	post-down	/sbin/ip route del 10.37.0.0/18 src 10.37.0.23 dev $IFACE table wi
+	post-up		/sbin/ip route add 10.37.0.0/18 src 10.37.0.23 scope link proto static dev $IFACE table wi
+	post-down	/sbin/ip route del 10.37.0.0/18 src 10.37.0.23 scope link proto static dev $IFACE table wi
 
 iface mzBR inet6 static
 	address fd37:b4dc:4b1e::a25:17
 	netmask 64
 	# add all mz traffic to the appropriate rt_table
-	post-up		/sbin/ip -6 rule add iif $IFACE table mz priority 3700
-	pre-down	/sbin/ip -6 rule del iif $IFACE table mz priority 3700
-	post-up		/sbin/ip -6 rule add from fd37:b4dc:4b1e::/64 table mz priority 3701
-	pre-down	/sbin/ip -6 rule del from fd37:b4dc:4b1e::/64 table mz priority 3701
-	post-up		/sbin/ip -6 rule add to fd37:b4dc:4b1e::/64 table mz priority 3702
-	pre-down	/sbin/ip -6 rule del to fd37:b4dc:4b1e::/64 table mz priority 3702
+	post-up		/sbin/ip -6 rule add iif $IFACE table mz priority 3701
+	pre-down	/sbin/ip -6 rule del iif $IFACE table mz priority 3701
 	# default route is unreachable
 	#post-up		/sbin/ip -6 route add unreachable default table mz
 	#post-down	/sbin/ip -6 route del unreachable default table mz
@@ -69,32 +61,24 @@ iface wiBR inet static
         address 10.56.0.23
         netmask 255.255.192.0
 	# add all wi traffic to the appropriate rt_table
-	post-up		/sbin/ip rule add iif $IFACE table wi priority 5600
-	pre-down	/sbin/ip rule del iif $IFACE table wi priority 5600
-	post-up		/sbin/ip rule add from 10.56.0.0/18 table wi priority 5601
-	pre-down	/sbin/ip rule del from 10.56.0.0/18 table wi priority 5601
-	post-up		/sbin/ip rule add to 10.56.0.0/18 table wi priority 5602
-	pre-down	/sbin/ip rule del to 10.56.0.0/18 table wi priority 5602
+	post-up		/sbin/ip rule add iif $IFACE table wi priority 5601
+	pre-down	/sbin/ip rule del iif $IFACE table wi priority 5601
 	# default route is unreachable
 	post-up		/sbin/ip route add unreachable default table wi
 	post-down	/sbin/ip route del unreachable default table wi
 	# local reachable subnet
-	post-up		/sbin/ip route add 10.56.0.0/18 src 10.56.0.23 dev $IFACE table wi
-	post-down	/sbin/ip route del 10.56.0.0/18 src 10.56.0.23 dev $IFACE table wi
+	post-up		/sbin/ip route add 10.56.0.0/18 src 10.56.0.23 scope link proto static dev $IFACE table wi
+	post-down	/sbin/ip route del 10.56.0.0/18 src 10.56.0.23 scope link proto static dev $IFACE table wi
 	# insert ic-vpn light route for wi network into rt_table mz
-	post-up		/sbin/ip route add 10.56.0.0/18 src 10.56.0.23 dev $IFACE table mz
-	post-down	/sbin/ip route del 10.56.0.0/18 src 10.56.0.23 dev $IFACE table mz
+	post-up		/sbin/ip route add 10.56.0.0/18 src 10.56.0.23 scope link proto static dev $IFACE table mz
+	post-down	/sbin/ip route del 10.56.0.0/18 src 10.56.0.23 scope link proto static dev $IFACE table mz
 
 iface wiBR inet6 static
         address fd56:b4dc:4b1e::a38:17
         netmask 64
 	# add all wi traffic to the appropriate rt_table
-	post-up		/sbin/ip -6 rule add iif $IFACE table wi priority 5600
-	pre-down	/sbin/ip -6 rule del iif $IFACE table wi priority 5600
-	post-up		/sbin/ip -6 rule add from fd56:b4dc:4b1e::/64 table wi priority 5601
-	pre-down	/sbin/ip -6 rule del from fd56:b4dc:4b1e::/64 table wi priority 5601
-	post-up		/sbin/ip -6 rule add to fd56:b4dc:4b1e::/64 table wi priority 5602
-	pre-down	/sbin/ip -6 rule del to fd56:b4dc:4b1e::/64 table wi priority 5602
+	post-up		/sbin/ip -6 rule add iif $IFACE table wi priority 5601
+	pre-down	/sbin/ip -6 rule del iif $IFACE table wi priority 5601
 	# default route is unreachable
 	#post-up		/sbin/ip -6 route add unreachable default table wi
 	#post-down	/sbin/ip -6 route del unreachable default table wi
