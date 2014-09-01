@@ -2,10 +2,6 @@
 # /etc/default/alfred
 #
 
-#
-# This is a POSIX shell fragment
-#
-
 # Additional command line options
 DAEMON_OPTS=""
 
@@ -16,5 +12,6 @@ INTERFACE=mzBR
 # Use 'none' to disable the batman-adv based best server selection.
 BATMANIF=mzBAT
 
-# Unix socket to use
+# Specify the unix socket to use. It is possible to run multiple alfred daemons.
+# For this to work the unix socket has to be distinct, also.
 UNIX_SOCKET="/var/run/alfred-mz.sock"
