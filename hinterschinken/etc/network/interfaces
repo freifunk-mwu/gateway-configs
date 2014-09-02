@@ -28,6 +28,8 @@ iface mzBR inet static
 	address 10.37.0.5
 	netmask 255.255.192.0
 	# add all mz traffic to the appropriate rt_table
+	post-up		/sbin/ip rule add from 10.37.0.0/18 table mz priority 3700
+	pre-down	/sbin/ip rule del from 10.37.0.0/18 table mz priority 3700
 	post-up		/sbin/ip rule add iif $IFACE table mz priority 3701
 	pre-down	/sbin/ip rule del iif $IFACE table mz priority 3701
 	# default route is unreachable
@@ -44,6 +46,8 @@ iface mzBR inet6 static
 	address fd37:b4dc:4b1e::a25:5
 	netmask 64
 	# add all mz traffic to the appropriate rt_table
+	post-up		/sbin/ip -6 rule add from fd37:b4dc:4b1e::/64 table mz priority 3700
+	pre-down	/sbin/ip -6 rule del from fd37:b4dc:4b1e::/64 table mz priority 3700
 	post-up		/sbin/ip -6 rule add iif $IFACE table mz priority 3701
 	pre-down	/sbin/ip -6 rule del iif $IFACE table mz priority 3701
 	# default route is unreachable
@@ -52,11 +56,11 @@ iface mzBR inet6 static
 	# link-local subnet
 	post-up		/sbin/ip -6 route add fe80::/64 scope link proto static dev $IFACE table mz
 	post-down	/sbin/ip -6 route del fe80::/64 scope link proto static dev $IFACE table mz
-	post-up		/sbin/ip -6 route add fd37:b4dc:4b1e::/64 scope link proto static dev $IFACE table mz
-	post-down	/sbin/ip -6 route del fd37:b4dc:4b1e::/64 scope link proto static dev $IFACE table mz
+	post-up		/sbin/ip -6 route add fd37:b4dc:4b1e::/64 src fd37:b4dc:4b1e::a25:5 scope link proto static dev $IFACE table mz
+	post-down	/sbin/ip -6 route del fd37:b4dc:4b1e::/64 src fd37:b4dc:4b1e::a25:5 scope link proto static dev $IFACE table mz
 	# insert ic-vpn light route for mz network into rt_table wi
-	post-up		/sbin/ip -6 route add fd37:b4dc:4b1e::/64 scope link proto static dev $IFACE table wi
-	post-down	/sbin/ip -6 route del fd37:b4dc:4b1e::/64 scope link proto static dev $IFACE table wi
+	post-up		/sbin/ip -6 route add fd37:b4dc:4b1e::/64 src fd37:b4dc:4b1e::a25:5 scope link proto static dev $IFACE table wi
+	post-down	/sbin/ip -6 route del fd37:b4dc:4b1e::/64 src fd37:b4dc:4b1e::a25:5 scope link proto static dev $IFACE table wi
 
 auto wiBR
 iface wiBR inet static
@@ -64,6 +68,8 @@ iface wiBR inet static
         address 10.56.0.5
         netmask 255.255.192.0
 	# add all wi traffic to the appropriate rt_table
+	post-up		/sbin/ip rule add from 10.56.0.0/18 table wi priority 5600
+	pre-down	/sbin/ip rule del from 10.56.0.0/18 table wi priority 5600
 	post-up		/sbin/ip rule add iif $IFACE table wi priority 5601
 	pre-down	/sbin/ip rule del iif $IFACE table wi priority 5601
 	# default route is unreachable
@@ -80,6 +86,8 @@ iface wiBR inet6 static
         address fd56:b4dc:4b1e::a38:5
         netmask 64
 	# add all wi traffic to the appropriate rt_table
+	post-up		/sbin/ip -6 rule add from fd56:b4dc:4b1e::/64 table wi priority 5600
+	pre-down	/sbin/ip -6 rule del from fd56:b4dc:4b1e::/64 table wi priority 5600
 	post-up		/sbin/ip -6 rule add iif $IFACE table wi priority 5601
 	pre-down	/sbin/ip -6 rule del iif $IFACE table wi priority 5601
 	# default route is unreachable
@@ -88,11 +96,11 @@ iface wiBR inet6 static
 	# link-local subnet
 	post-up		/sbin/ip -6 route add fe80::/64 scope link proto static dev $IFACE table wi
 	post-down	/sbin/ip -6 route del fe80::/64 scope link proto static dev $IFACE table wi
-	post-up		/sbin/ip -6 route add fd56:b4dc:4b1e::/64 scope link proto static dev $IFACE table wi
-	post-down	/sbin/ip -6 route del fd56:b4dc:4b1e::/64 scope link proto static dev $IFACE table wi
+	post-up		/sbin/ip -6 route add fd56:b4dc:4b1e::/64 src fd56:b4dc:4b1e::a38:5 scope link proto static dev $IFACE table wi
+	post-down	/sbin/ip -6 route del fd56:b4dc:4b1e::/64 src fd56:b4dc:4b1e::a38:5 scope link proto static dev $IFACE table wi
 	# insert ic-vpn light route for mz network into rt_table mz
-	post-up		/sbin/ip -6 route add fd56:b4dc:4b1e::/64 scope link proto static dev $IFACE table mz
-	post-down	/sbin/ip -6 route del fd56:b4dc:4b1e::/64 scope link proto static dev $IFACE table mz
+	post-up		/sbin/ip -6 route add fd56:b4dc:4b1e::/64 src fd56:b4dc:4b1e::a38:5 scope link proto static dev $IFACE table mz
+	post-down	/sbin/ip -6 route del fd56:b4dc:4b1e::/64 src fd56:b4dc:4b1e::a38:5 scope link proto static dev $IFACE table mz
 
 allow-hotplug mzVPN
 iface mzVPN inet6 manual
