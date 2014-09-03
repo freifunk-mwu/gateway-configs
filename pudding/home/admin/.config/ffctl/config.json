@@ -4,7 +4,7 @@
   "ecdsakey": "/home/admin/.ecdsa/pudding.prv",
   "exitif": "exitVPN",
   "ffctl_ident": "ffctl",
-  "ffctl_version": "8e18e84",
+  "ffctl_version": "9605278",
   "githubident": "github_ffctl",
   "hostname": "pudding",
   "icif": "icVPN",
@@ -15,15 +15,6 @@
   "mailalert": true,
   "mailprefix": "freifunk-mainz.de",
   "mailrcpt": "admin@freifunk-mainz.de",
-  "meta": {
-    "git_action": "git action",
-    "git_mergeconflict": "merge conflict",
-    "import_json": "json import",
-    "import_meta": "meta import",
-    "stage_new": "opened new stage. please applaud",
-    "stage_switch_in": "switched into stage",
-    "stage_switch_out": "switched out of stage"
-  },
   "metafile": "meta.json",
   "mod": {
     "builder_branches": [
@@ -36,7 +27,6 @@
     "builder_library": "_library",
     "builder_makecmd": "make -j7 V=sss",
     "builder_serverdir": "/var/www/gluon",
-    "builder_sitebranch": "autobuild",
     "builder_siteremote": "git://github.com/freifunk-mwu/site-ffmz.git",
     "builder_siteswitch": "mkwi.py write",
     "builder_siteswitchcommunity": "wi",
