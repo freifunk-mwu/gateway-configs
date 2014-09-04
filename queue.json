@@ -29,6 +29,7 @@
   "/etc/radvd.conf",
   "/etc/resolvconf/resolv.conf.d/tail",
   "/etc/rsyncd.conf",
+  "/etc/sysctl.conf",
   "/etc/tinc/icVPN/tinc.conf",
   "~/.ecdsa/#hostname#.pub",
   "~/.ssh/#hostname#_rsa.pub"
