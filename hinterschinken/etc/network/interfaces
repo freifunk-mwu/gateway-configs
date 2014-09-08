@@ -45,8 +45,8 @@ iface mzBR inet6 static
 	address fd37:b4dc:4b1e::a25:5
 	netmask 64
 	# be sure all incoming traffic is handled by the appropriate rt_table
-	#post-up		/sbin/ip -6 rule add iif $IFACE table mz priority 3700
-	#pre-down	/sbin/ip -6 rule del iif $IFACE table mz priority 3700
+	post-up		/sbin/ip -6 rule add iif $IFACE table mz priority 3700
+	pre-down	/sbin/ip -6 rule del iif $IFACE table mz priority 3700
 	#post-up		/sbin/ip -6 rule add fwmark 37 table mz priority 3701
 	#pre-down	/sbin/ip -6 rule del fwmark 37 table mz priority 3701
 	# default route is unreachable
@@ -83,8 +83,8 @@ iface wiBR inet6 static
         address fd56:b4dc:4b1e::a38:5
         netmask 64
 	# be sure all incoming traffic is handled by the appropriate rt_table
-	#post-up		/sbin/ip -6 rule add iif $IFACE table wi priority 5600
-	#pre-down	/sbin/ip -6 rule del iif $IFACE table wi priority 5600
+	post-up		/sbin/ip -6 rule add iif $IFACE table wi priority 5600
+	pre-down	/sbin/ip -6 rule del iif $IFACE table wi priority 5600
 	#post-up		/sbin/ip -6 rule add fwmark 56 table wi priority 5601
 	#pre-down	/sbin/ip -6 rule del fwmark 56 table wi priority 5601
 	# default route is unreachable
