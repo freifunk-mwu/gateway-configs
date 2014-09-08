@@ -29,8 +29,8 @@ iface mzBR inet static
 	# be sure all incoming traffic is handled by the appropriate rt_table
 	post-up		/sbin/ip rule add iif $IFACE table mz priority 3700 
 	pre-down	/sbin/ip rule del iif $IFACE table mz priority 3700
-	#post-up		/sbin/ip rule add fwmark 37 table mz priority 3701
-	#pre-down	/sbin/ip rule del fwmark 37 table mz priority 3701
+	post-up		/sbin/ip rule add from all fwmark 0x25 table mz priority 3701
+	pre-down	/sbin/ip rule del from all fwmark 0x25 table mz priority 3701
 	# default route is unreachable
 	post-up		/sbin/ip route add unreachable default table mz
 	post-down	/sbin/ip route del unreachable default table mz
@@ -44,8 +44,8 @@ iface mzBR inet6 static
 	# be sure all incoming traffic is handled by the appropriate rt_table
 	post-up		/sbin/ip -6 rule add iif $IFACE table mz priority 3700
 	pre-down	/sbin/ip -6 rule del iif $IFACE table mz priority 3700
-	#post-up		/sbin/ip -6 rule add fwmark 37 table mz priority 3701
-	#pre-down	/sbin/ip -6 rule del fwmark 37 table mz priority 3701
+	post-up		/sbin/ip -6 rule add from all fwmark 0x25 table mz priority 3701
+	pre-down	/sbin/ip -6 rule del from all fwmark 0x25 table mz priority 3701
 	# default route is unreachable
 	#post-up		/sbin/ip -6 route add unreachable default table mz
 	#post-down	/sbin/ip -6 route del unreachable default table mz
@@ -67,8 +67,8 @@ iface wiBR inet static
 	# be sure all incoming traffic is handled by the appropriate rt_table
 	post-up		/sbin/ip rule add iif $IFACE table wi priority 5600
 	pre-down	/sbin/ip rule del iif $IFACE table wi priority 5600
-	#post-up		/sbin/ip rule add fwmark 56 table wi priority 5601
-	#pre-down	/sbin/ip rule del fwmark 56 table wi priority 5601
+	post-up		/sbin/ip rule add from all fwmark 0x38 table wi priority 5601
+	pre-down	/sbin/ip rule del from all fwmark 0x38 table wi priority 5601
 	# default route is unreachable
 	#post-up		/sbin/ip route add unreachable default table wi
 	#post-down	/sbin/ip route del unreachable default table wi
@@ -82,8 +82,8 @@ iface wiBR inet6 static
 	# be sure all incoming traffic is handled by the appropriate rt_table
 	post-up		/sbin/ip -6 rule add iif $IFACE table wi priority 5600
 	pre-down	/sbin/ip -6 rule del iif $IFACE table wi priority 5600
-	#post-up		/sbin/ip -6 rule add fwmark 56 table wi priority 5600
-	#pre-down	/sbin/ip -6 rule add fwmark 56 table wi priority 5600
+	post-up		/sbin/ip -6 rule add from all fwmark 0x38 table wi priority 5601
+	pre-down	/sbin/ip -6 rule del from all fwmark 0x38 table wi priority 5601
 	# default route is unreachable
 	#post-up		/sbin/ip -6 route add unreachable default table wi
 	##post-down	/sbin/ip -6 route del unreachable default table wi
