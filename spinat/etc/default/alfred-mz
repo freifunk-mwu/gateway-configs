@@ -1,0 +1,20 @@
+#
+# /etc/default/alfred
+#
+
+#
+# This is a POSIX shell fragment
+#
+
+# Additional command line options
+DAEMON_OPTS=""
+
+# Interface for A.L.F.R.E.D. to listen on. Has to be specified.
+INTERFACE=mzBR
+
+# Specify the batman-adv interface configured on the system (default: bat0).
+# Use 'none' to disable the batman-adv based best server selection.
+BATMANIF=mzBAT
+
+# Unix socket to use
+UNIX_SOCKET="/var/run/alfred-mz.sock"
