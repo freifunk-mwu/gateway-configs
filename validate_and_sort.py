@@ -3,32 +3,28 @@
 
 from os import path
 from sys import argv
-from json import loads, dumps
+from yaml import load, dump
+from pprint import pprint
 BASEDIR = path.abspath(path.dirname(__file__))
-qfile = 'queue.json'
+qfile = 'queue.yaml'
 QUEUE = SITECONF = path.join(BASEDIR, qfile)
 
-def readjson(filename):
+def readyaml(filename):
     if path.exists(filename):
         with open(filename, 'r') as f:
             content = f.read()
-            return loads(content, strict=False)
+            return load(content)
 
-def writejson(filename, content):
+def writeyaml(filename, content):
     with open(filename, 'w') as f:
-        f.write(dumps(content, sort_keys=True, indent=2))
+        f.write(dump(content, indent=4, default_flow_style=False))
     print('#written: %s' %(filename))
 
 if __name__ == '__main__':
-    queuec = readjson(QUEUE)
+    queuec = readyaml(QUEUE)
+    pprint(queuec)
 
     if len(argv) > 1:
-        writejson(QUEUE, list(sorted(queuec)))
+        writeyaml(QUEUE, queuec)
 
-    print(
-        '''
-%s\n%s\n\n%s\n\n
-        ''' %(
-            qfile, '=' * len(qfile) , queuec
-            )
-        )
+
