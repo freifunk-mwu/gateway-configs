@@ -1,0 +1,16 @@
+$ORIGIN user.ffwi.org.
+; BIND data file for zone ffwi.org.
+;
+$TTL	600
+@	IN	SOA	hinterschinken.ffwi.org. hostmaster.ffwi.org. (
+			      2		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+
+; unsere drei dnsserver (master und slaves)
+@	IN	NS	hinterschinken.ffwi.org. 
+@	IN	NS	spinat.ffwi.org.
+@	IN	NS	lotuswurzel.ffwi.org.
+

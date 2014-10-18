@@ -1,0 +1,33 @@
+$ORIGIN ffmz.org.
+; BIND data file for zone ffmz.org.
+;
+$TTL	600
+@	IN	SOA	hinterschinken.ffmz.org. hostmaster.ffmz.org. (
+		     2014080701		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+
+; internal ns server
+@	IN	NS	hinterschinken.ffmz.org.
+;@	IN	NS	spinat.ffmz.org.
+@	IN	NS	lotuswurzel.ffmz.org.
+
+; gluon gateways
+hinterschinken	IN	A	10.37.0.5
+hinterschinken	IN	AAAA	fd37:b4dc:4b1e::a25:5
+gate05		IN	CNAME	hinterschinken
+
+spinat		IN	A	10.37.0.7
+spinat		IN	AAAA	fd37:b4dc:4b1e::a25:7
+gate07		IN	CNAME	spinat
+
+lotuswurzel	IN	A	10.37.0.23
+lotuswurzel	IN	AAAA	fd37:b4dc:4b1e::a25:23
+gate23		IN	CNAME	lotuswurzel
+
+; internal services and stuff
+5.ntp		IN	CNAME	hinterschinken
+7.ntp		IN	CNAME	spinat
+23.ntp		IN 	CNAME	lotuswurzel

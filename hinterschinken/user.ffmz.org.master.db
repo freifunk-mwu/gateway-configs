@@ -1,0 +1,20 @@
+$ORIGIN user.ffmz.org.
+; BIND data file for zone ffmz.org.
+;
+$TTL	600
+@	IN	SOA	hinterschinken.ffmz.org. hostmaster.ffmz.org. (
+			      3		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+
+; unsere drei dnsserver (master und slaves)
+@       IN      NS      hinterschinken.ffmz.org.
+@       IN      NS      spinat.ffmz.org.
+@       IN      NS      lotuswurzel.ffmz.org.
+
+; ffmz.org zeigt auf webhost lacerta
+@	IN	A	95.143.172.211
+@	IN	AAAA	2001:1a50:11:0:5f:8f:acd3:1
+

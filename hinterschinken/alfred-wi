@@ -1,0 +1,17 @@
+#
+# /etc/default/alfred
+#
+
+# Additional command line options
+DAEMON_OPTS=""
+
+# Interface for A.L.F.R.E.D. to listen on. Has to be specified.
+INTERFACE=wiBR
+
+# Specify the batman-adv interface configured on the system (default: bat0).
+# Use 'none' to disable the batman-adv based best server selection.
+BATMANIF=wiBAT
+
+# Specify the unix socket to use. It is possible to run multiple alfred daemons.
+# For this to work the unix socket has to be distinct, also.
+UNIX_SOCKET="/var/run/alfred-wi.sock"

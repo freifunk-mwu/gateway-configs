@@ -1,0 +1,18 @@
+$ORIGIN 56.10.in-addr.arpa.
+; BIND data file for zone .ffwi.org 
+;
+$TTL	600
+@	IN	SOA	hinterschinken.ffwi.org. hostmaster.ffwi.org. (
+			      3		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	hinterschinken.ffwi.org.
+;@	IN	NS	spinat.ffwi.org.
+@	IN	NS	lotuswurzel.ffwi.org.
+
+5.0	PTR	hinterschinken.ffwi.org.
+7.0	PTR	spinat.ffwi.org.
+23.0	PTR	lotuswurzel.ffwi.org.
