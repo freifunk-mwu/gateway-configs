@@ -4,18 +4,12 @@
 
 // ACLs
 
-acl "ns-slaves-mz" {
-	10.37.0.7/32;
-	10.37.0.23/32;
-	fd37:b4dc:4b1e::a25:7/128;
-	fd37:b4dc:4b1e::a25:17/128;
+masters "ns-master-mz" {
+        fd37:b4dc:4b1e::a25:7;
 };
 
-acl "ns-slaves-wi" {
-	10.56.0.7/32;
-	10.56.0.23/32;
-	fd56:b4dc:4b1e::a38:7/128;
-	fd56:b4dc:4b1e::a38:17/128;
+masters "ns-master-wi" {
+        fd56:b4dc:4b1e::a38:7;
 };
 
 acl "intern-mz" {
@@ -32,45 +26,53 @@ acl "intern-wi" {
 // Intern Zones for Freifunk
 
 zone "ffmz.org." {
-	type master;
-	file "/etc/bind/ffmz/ffmz.org.master.db";
+	type slave;
+	file "/var/cache/bind/ffmz.org.db";
+	masters { ns-master-mz; };
 };
 
 zone "user.ffmz.org." {
-	type master;
-	file "/etc/bind/ffmz/user.ffmz.org.master.db";
+	type slave;
+	file "/var/cache/bind/user.ffmz.org.db";
+	masters { ns-master-mz; };
 };
 
 zone "ffwi.org." {
-	type master;
-	file "/etc/bind/ffwi/ffwi.org.master.db";
+	type slave;
+	file "/var/cache/bind/ffwi.org.db";
+	masters { ns-master-wi; };
 };
 
 zone "user.ffwi.org." {
-	type master;
-	file "/etc/bind/ffwi/user.ffwi.org.master.db";
+	type slave;
+	file "/var/cache/bind/user.ffwi.org.db";
+	masters { ns-master-wi; };
 };
 
 
 // Reverse Zones
 
 zone "37.10.in-addr.arpa" {
-	type master;
-	file "/etc/bind/ffmz/37.10.in-addr.arpa.master.db";
+	type slave;
+	file "/var/cache/bind/37.10.in-addr.arpa.db";
+	masters { ns-master-mz; };
 };
 
 zone "56.10.in-addr.arpa" {
-	type master;
-	file "/etc/bind/ffwi/56.10.in-addr.arpa.master.db";
+	type slave;
+	file "/var/cache/bind/56.10.in-addr.arpa.db";
+	masters { ns-master-wi; };
 };
 
 zone "e.1.b.4.c.d.4.b.7.3.d.f.ip6.arpa" {
-	type master;
-	file "/etc/bind/ffmz/fd37:b4dc:4b1e_48.ip6.arpa.master.db";
+	type slave;
+	file "/var/cache/bind/fd37:b4dc:4b1e_48.ip6.arpa.db";
+	masters { ns-master-mz; };
 };
 
 zone "e.1.b.4.c.d.4.b.6.5.d.f.ip6.arpa" {
-	type master;
-	file "/etc/bind/ffwi/fd56:b4dc:4b1e_48.ip6.arpa.master.db";
+	type slave;
+	file "/var/cache/bind/fd56:b4dc:4b1e_48.ip6.arpa.db";
+	masters { ns-master-wi; };
 };
 
