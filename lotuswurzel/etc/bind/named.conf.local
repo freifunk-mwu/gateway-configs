@@ -2,14 +2,16 @@
 // Do any local configuration here
 //
 
+include "/etc/bind/named.conf.icvpn";
+
 // ACLs
 
 masters "ns-master-mz" {
-        10.37.0.5;
+        fd37:b4dc:4b1e::a25:7;
 };
 
 masters "ns-master-wi" {
-	10.56.0.5;
+	fd56:b4dc:4b1e::a38:7;
 };
 
 acl "intern-mz" {
@@ -27,25 +29,25 @@ acl "intern-wi" {
 
 zone "ffmz.org." {
         type slave;
-        file "/etc/bind/ffmz/ffmz.org.db";
+        file "ffmz.org.db";
         masters { ns-master-mz; };
 };
 
 zone "user.ffmz.org." {
         type slave;
-        file "/etc/bind/ffmz/user.ffmz.org.db";
+        file "user.ffmz.org.db";
         masters { ns-master-mz; };
 };
 
 zone "ffwi.org." {
         type slave;
-        file "/etc/bind/ffwi/ffwi.org.db";
+        file "ffwi.org.db";
         masters { ns-master-wi; };
 };
 
 zone "user.ffwi.org." {
         type slave;
-        file "/etc/bind/ffwi/user.ffwi.org.db";
+        file "user.ffwi.org.db";
         masters { ns-master-wi; };
 };
 
@@ -54,25 +56,25 @@ zone "user.ffwi.org." {
 
 zone "37.10.in-addr.arpa" {
 	type slave;
-	file "/etc/bind/ffmz/37.10.in-addr.arpa.db";
+	file "37.10.in-addr.arpa.db";
 	masters { ns-master-mz; };
 };
 
 zone "e.1.b.4.c.d.4.b.7.3.d.f.ip6.arpa" {
 	type slave;
-	file "/etc/bind/ffmz/fd37:b4dc:4b1e_48.ip6.arpa.db";
+	file "fd37:b4dc:4b1e_48.ip6.arpa.db";
 	masters { ns-master-mz; };
 };
 
 zone "56.10.in-addr.arpa" {
         type slave;
-        file "/etc/bind/ffwi/56.10.in-addr.arpa.db";
+        file "56.10.in-addr.arpa.db";
         masters { ns-master-wi; };
 };
 
 zone "e.1.b.4.c.d.4.b.6.5.d.f.ip6.arpa" {
         type slave;
-        file "/etc/bind/ffwi/fd56:b4dc:4b1e_48.ip6.arpa.db";
+        file "fd56:b4dc:4b1e_48.ip6.arpa.db";
         masters { ns-master-wi; };
 };
 
