@@ -4,16 +4,11 @@
 
 // ACLs
 
-masters "ns-master-mz" {
-        10.37.0.5;
-};
-masters "ns-master-wi" {
-        10.56.0.5;
-};
 acl "intern-mz" {
         10.37.0.0/16;
         fd37:b4dc:4b1e::/48;
 };
+
 acl "intern-wi" {
         10.56.0.0/16;
         fd56:b4dc:4b1e::/48;
@@ -23,52 +18,44 @@ acl "intern-wi" {
 // Intern Zones for Freifunk
 
 zone "ffmz.org." {
-        type slave;
-        file "/etc/bind/ffmz/ffmz.org.db";
-        masters { ns-master-mz; };
+        type master;
+        file "/etc/bind/ffmz/ffmz.org.master.db";
 };
 
 zone "user.ffmz.org." {
-        type slave;
-        file "/etc/bind/ffmz/user.ffmz.org.db";
-        masters { ns-master-mz; };
+        type master;
+        file "/etc/bind/ffmz/user.ffmz.org.master.db";
 };
 
 zone "ffwi.org." {
-        type slave;
-        file "/etc/bind/ffwi/ffwi.org.db";
-        masters { ns-master-wi; };
+        type master;
+        file "/etc/bind/ffwi/ffwi.org.master.db";
 };
 
 zone "user.ffwi.org." {
-        type slave;
-        file "/etc/bind/ffwi/user.ffwi.org.db";
-        masters { ns-master-wi; };
+        type master;
+        file "/etc/bind/ffwi/user.ffwi.org.master.db";
 };
 
 
 // Reverse Zones
 
 zone "37.10.in-addr.arpa" {
-        type slave;
-        file "/etc/bind/ffmz/37.10.in-addr.arpa.db";
-        masters { ns-master-mz; };
+        type master;
+        file "/etc/bind/ffmz/37.10.in-addr.arpa.master.db";
 };
 
 zone "e.1.b.4.c.d.4.b.7.3.d.f.ip6.arpa" {
-        type slave;
-        file "/etc/bind/ffmz/fd37:b4dc:4b1e_48.ip6.arpa.db";
-        masters { ns-master-mz; };
+        type master;
+        file "/etc/bind/ffmz/fd37:b4dc:4b1e_48.ip6.arpa.master.db";
 };
 
 zone "56.10.in-addr.arpa" {
-        type slave;
-        file "/etc/bind/ffwi/56.10.in-addr.arpa.db";
-        masters { ns-master-wi; };
+        type master;
+        file "/etc/bind/ffwi/56.10.in-addr.arpa.master.db";
 };
 
 zone "e.1.b.4.c.d.4.b.6.5.d.f.ip6.arpa" {
-        type slave;
-        file "/etc/bind/ffwi/fd56:b4dc:4b1e_48.ip6.arpa.db";
-        masters { ns-master-wi; };
+        type master;
+        file "/etc/bind/ffwi/fd56:b4dc:4b1e_48.ip6.arpa.master.db";
 };
