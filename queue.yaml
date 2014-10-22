@@ -5,6 +5,7 @@ locations:
 - /etc/bind/named.conf
 - /etc/bind/named.conf.default-zones
 - /etc/bind/named.conf.local
+- /etc/bind/named.conf.logging
 - /etc/bind/named.conf.options
 - /etc/bird/bird.conf
 - /etc/bird/bird6.conf
@@ -28,5 +29,6 @@ locations:
 - /etc/radvd.conf
 - /etc/resolvconf/resolv.conf.d/tail
 - /etc/rsyncd.conf
+- /etc/rsyslog.d
 - /etc/sysctl.conf
 - /etc/tinc/icVPN/tinc.conf
