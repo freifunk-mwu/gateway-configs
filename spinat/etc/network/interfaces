@@ -9,8 +9,8 @@ iface lo inet loopback
 #auto eth0
 #iface eth0 inet dhcp
 
-auto ifext
-iface ifext inet static
+auto eth0
+iface eth0 inet static
         address 89.238.67.196
         netmask 255.255.255.0
         network 89.238.67.0
@@ -19,7 +19,7 @@ iface ifext inet static
         # dns-* options are implemented by the resolvconf package, if installed
         dns-nameservers 217.11.48.200 217.11.49.200
 
-iface ifext inet6 static
+iface eth0 inet6 static
 	address 2a00:1828:2000:182::2
 	netmask 64
 	gateway 2a00:1828:2000:182::1
