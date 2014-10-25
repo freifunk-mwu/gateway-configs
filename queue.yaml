@@ -32,3 +32,5 @@ locations:
 - /etc/rsyslog.d
 - /etc/sysctl.conf
 - /etc/tinc/icVPN/tinc.conf
+- /etc/tinc/icVPN/tinc-up
+- /etc/tinc/icVPN/tinc-down
