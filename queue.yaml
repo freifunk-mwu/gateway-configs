@@ -8,7 +8,9 @@ locations:
 - /etc/bind/named.conf.logging
 - /etc/bind/named.conf.options
 - /etc/bird/bird.conf
+- /etc/bird/ebgp_peers_v4.inc
 - /etc/bird/bird6.conf
+- /etc/bird/ebgp_peers_v6.inc
 - /etc/default/alfred-mz
 - /etc/default/alfred-wi
 - /etc/default/isc-dhcp-server
