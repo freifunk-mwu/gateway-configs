@@ -3,7 +3,7 @@ $ORIGIN ffmz.org.
 ;
 $TTL    600
 @       IN      SOA     spinat.ffmz.org. hostmaster.ffmz.org. (
-                     2014102604         ; Serial
+                     2014102601         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -34,8 +34,6 @@ gate23          IN      CNAME   lotuswurzel
 
 ; firmware mirrors
 firmware	IN	A	10.37.0.5
-firmware	IN	A	10.37.0.7
 firmware	IN	A	10.37.0.23
 firmware	IN	AAAA	fd37:b4dc:4b1e::a25:5
-firmware	IN	AAAA	fd37:b4dc:4b1e::a25:7
 firmware	IN	AAAA	fd37:b4dc:4b1e::a25:17
