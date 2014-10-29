@@ -3,7 +3,7 @@ $ORIGIN ffwi.org.
 ;
 $TTL    600
 @       IN      SOA     spinat.ffwi.org. hostmaster.ffwi.org. (
-                     2014102601         ; Serial
+                     2014102701         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -34,8 +34,6 @@ gate23          IN      CNAME   lotuswurzel
 
 ; firmware mirrors
 firmware	IN	A	10.56.0.5
-firmware	IN	A	10.56.0.7
 firmware	IN	A	10.56.0.23
 firmware	IN	AAAA	fd56:b4dc:4b1e::a38:5
-firmware	IN	AAAA	fd56:b4dc:4b1e::a38:7
 firmware	IN	AAAA	fd56:b4dc:4b1e::a38:17
