@@ -1,0 +1,36 @@
+# Edit this file to introduce tasks to be run by cron.
+# 
+# Each task to run has to be defined through a single line
+# indicating with different fields when the task will be run
+# and what command to run for the task
+# 
+# To define the time you can provide concrete values for
+# minute (m), hour (h), day of month (dom), month (mon),
+# and day of week (dow) or use '*' in these fields (for 'any').# 
+# Notice that tasks will be started based on the cron's system
+# daemon's notion of time and timezones.
+# 
+# Output of the crontab jobs (including errors) is sent through
+# email to the user the crontab file belongs to (unless redirected).
+# 
+# For example, you can run a backup of all your user accounts
+# at 5 a.m every week with:
+# 0 5 * * 1 tar -zcf /var/backups/home.tgz /home/
+# 
+# For more information see the manual pages of crontab(5) and cron(8)
+#
+PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+# m h  dom mon dow   command
+*/5 * * * * /var/www/html/icvpn/ic_topo_updt.sh
+# ffmap
+* * * * * /home/admin/clones/ffmap-backend-mz/mkmap.sh /var/www/mapmz/build
+* * * * * /home/admin/clones/ffmap-backend-wi/mkmap.sh /var/www/mapwi/build
+* * * * * /home/admin/clones/ffmap-backend-mz/mkmap-mwu.sh
+# alfred announce
+* * * * * /home/admin/clones/ffnord-alfred-gateway-mz/announce.sh -i mzBR -b mzBAT -u /var/run/alfred-mz.sock
+* * * * * /home/admin/clones/ffnord-alfred-gateway-wi/announce.sh -i wiBR -b wiBAT -u /var/run/alfred-wi.sock
+# backend-scripts
+*/5 * * * * /usr/bin/python3 $HOME/clones/backend-scripts/draw_traffic_gw.py > $HOME/.cronlog/draw_traffic.log
+*/5 * * * * /usr/bin/python3 $HOME/clones/backend-scripts/check_exitvpn_gw.py > $HOME/.cronlog/check_exitvpn.log 
+42 * * * * /usr/bin/python3 $HOME/clones/backend-scripts/sync_meshkeys_gw.py > $HOME/.cronlog/sync_meshkeys.log 
+42 23 * * * /usr/bin/python3 $HOME/clones/backend-scripts/snapshot_configs_all.py > $HOME/.cronlog/snapshot_configs.log
