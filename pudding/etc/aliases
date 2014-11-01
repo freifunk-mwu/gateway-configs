@@ -1,0 +1,5 @@
+# See man 5 aliases for format
+postmaster:    root
+admin:         root
+# root:         admin+pudding@freifunk-mwu.de
+root:          admin+pudding@freifunk-mainz.de
