@@ -2,8 +2,6 @@
 // Do any local configuration here
 //
 
-include "/etc/bind/named.conf.icvpn";
-
 // ACLs
 
 masters "ns-master-mz" {
