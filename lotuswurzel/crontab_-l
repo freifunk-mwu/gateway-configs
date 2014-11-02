@@ -23,12 +23,12 @@ PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bi
 # m h  dom mon dow   command
 */5 * * * * /var/www/html/icvpn/ic_topo_updt.sh
 # ffmap
-* * * * * /home/admin/clones/ffmap-backend-mz/mkmap.sh /var/www/mapmz/build
-* * * * * /home/admin/clones/ffmap-backend-wi/mkmap.sh /var/www/mapwi/build
+* * * * * /home/admin/clones/ffmap-backend-mz/mkmap.sh /var/www/mapmz/build 0.1
+* * * * * /home/admin/clones/ffmap-backend-wi/mkmap.sh /var/www/mapwi/build 0.1
 * * * * * /home/admin/clones/ffmap-backend-mz/mkmap-mwu.sh
 # alfred announce
-* * * * * /home/admin/clones/ffnord-alfred-gateway-mz/announce.sh -i mzBR -b mzBAT -u /var/run/alfred-mz.sock
-* * * * * /home/admin/clones/ffnord-alfred-gateway-wi/announce.sh -i wiBR -b wiBAT -u /var/run/alfred-wi.sock
+* * * * * /home/admin/clones/ffnord-alfred-announce-mz/announce.sh -i mzBR -b mzBAT -u /var/run/alfred-mz.sock
+* * * * * /home/admin/clones/ffnord-alfred-announce-wi/announce.sh -i wiBR -b wiBAT -u /var/run/alfred-wi.sock
 # backend-scripts
 */5 * * * * /usr/bin/python3 $HOME/clones/backend-scripts/draw_traffic_gw.py > $HOME/.cronlog/draw_traffic.log
 */5 * * * * /usr/bin/python3 $HOME/clones/backend-scripts/check_exitvpn_gw.py > $HOME/.cronlog/check_exitvpn.log 
