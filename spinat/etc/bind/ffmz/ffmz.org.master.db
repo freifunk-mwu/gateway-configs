@@ -3,7 +3,7 @@ $ORIGIN ffmz.org.
 ;
 $TTL    600
 @       IN      SOA     spinat.ffmz.org. hostmaster.ffmz.org. (
-                     2014110101         ; Serial
+                     2014110301         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -13,6 +13,10 @@ $TTL    600
 @       IN      NS      hinterschinken.ffmz.org.
 @       IN      NS      spinat.ffmz.org.
 @       IN      NS      lotuswurzel.ffmz.org.
+
+; next-node
+nextnode	IN	A	10.37.0.1
+nextnode	IN	AAAA	fd37:b4dc:4b1e::1
 
 ; gluon gateways
 hinterschinken  IN      A       10.37.0.5
