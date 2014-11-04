@@ -7,9 +7,19 @@ accounts:
         login: '1085642134165'
         provider: 'mullvad'
         until: '04.12.2014'
-
+    test: &T
+        login: '0123456789abcdef'
+        provider: 'xyz'
+        until: '15.11.2014'
+conf:
+    warndays: 10
+    digestday: 1
+    # Monday is 0 and Sunday is 6
+    date_format: '%d.%m.%Y'
+    # http://strftime.org/
 gateways:
     Hinterschinken: *A
     Spinat: *A
     Lotuswurzel: *A
     Mettigel: *B
+    Test: *T
