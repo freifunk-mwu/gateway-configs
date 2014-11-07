@@ -25,7 +25,7 @@ PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bi
 # ffmap
 * * * * * /home/admin/clones/ffmap-backend-mz/mkmap.sh /var/www/mapmz/build 0.1
 * * * * * /home/admin/clones/ffmap-backend-wi/mkmap.sh /var/www/mapwi/build 0.1
-* * * * * /home/admin/clones/ffmap-backend-mz/mkmap-mwu.sh
+* * * * * /home/admin/clones/ffmap-backend-mwu/mkmap.sh /var/www/mapmwu/build 0.1
 # alfred announce
 * * * * * /home/admin/clones/ffnord-alfred-announce-mz/announce.sh -i mzBR -b mzBAT -u /var/run/alfred-mz.sock
 * * * * * /home/admin/clones/ffnord-alfred-announce-wi/announce.sh -i wiBR -b wiBAT -u /var/run/alfred-wi.sock
