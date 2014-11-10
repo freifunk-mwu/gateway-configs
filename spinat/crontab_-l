@@ -24,9 +24,9 @@ PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bi
 * * * * * /home/admin/clones/ffnord-alfred-announce-mz/announce.sh -i mzBR -b mzBAT -u /var/run/alfred-mz.sock
 * * * * * /home/admin/clones/ffnord-alfred-announce-wi/announce.sh -i wiBR -b wiBAT -u /var/run/alfred-wi.sock
 # ffmap
-* * * * * /home/admin/clones/ffmap-backend-mz/mkmap.sh /var/www/mapmz/build 0.1
-* * * * * /home/admin/clones/ffmap-backend-wi/mkmap.sh /var/www/mapwi/build 0.1
-* * * * * /home/admin/clones/ffmap-backend-mz/mkmap-mwu.sh
+* * * * * /home/admin/clones/ffmap-backend/mkmap-mz.sh /var/www/mapmz/build 0.1
+* * * * * /home/admin/clones/ffmap-backend/mkmap-wi.sh /var/www/mapwi/build 0.1
+* * * * * /home/admin/clones/ffmap-backend/mkmap-mwu.sh /var/www/mapmwu/build 0.1
 # backend-scripts
 */5 * * * * /usr/bin/python3 $HOME/clones/backend-scripts/draw_traffic_gw.py > $HOME/.cronlog/draw_traffic.log
 */5 * * * * /usr/bin/python3 $HOME/clones/backend-scripts/check_exitvpn_gw.py > $HOME/.cronlog/check_exitvpn.log
