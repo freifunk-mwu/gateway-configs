@@ -34,3 +34,6 @@ PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bi
 42 * * * * /usr/bin/python3 $HOME/clones/backend-scripts/sync_meshkeys_gw.py > $HOME/.cronlog/sync_meshkeys.log 
 42 23 * * * /usr/bin/python3 $HOME/clones/backend-scripts/snapshot_configs_all.py > $HOME/.cronlog/snapshot_configs.log 
 42 17 * * 2 /usr/local/bin/photon-dangerous-selfupgrade.py --sudo --repos $HOME/clones/backend-scripts
+# backend-scripts icvpn prototypes
+0 4 * * Tue,Fri /home/admin/bin/upd_bird_conf.sh > $HOME/.cronlog/upd_bird_conf.log
+0 3 * * Tue,Fri /home/admin/bin/upd_tinc_conf.sh > $HOME/.cronlog/upd_tinc_conf.log
