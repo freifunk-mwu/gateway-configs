@@ -267,6 +267,11 @@ protocol bgp muenchen1 from ebgp_ic {
 }
 
 
+protocol bgp muenchen4 from ebgp_ic {
+    neighbor 10.207.4.80 as 65080;
+}
+
+
 protocol bgp oldenburg1 from ebgp_ic {
     neighbor 10.207.0.27 as 65513;
 }
