@@ -142,11 +142,6 @@ protocol bgp kiel0 from ebgp_ic {
 }
 
 
-protocol bgp kiel3 from ebgp_ic {
-    neighbor fec0::a:cf:0:3b as 65525;
-}
-
-
 protocol bgp leipzig2 from ebgp_ic {
     neighbor fec0::a:cf:0:2 as 65041;
 }
