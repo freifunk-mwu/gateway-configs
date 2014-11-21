@@ -1,0 +1,47 @@
+//
+// Do any local configuration here
+//
+
+// ACLs
+acl "ns-slaves-mathias" {
+	46.4.168.77/32;		// ns1.treck.de
+	109.75.177.23/32;	// ns2.treck.de
+	78.46.87.3/32;		// ns3.treck.de
+};
+
+// Public Zones for Freifunk
+
+zone "freifunk-mainz.de." {
+	type master;
+	file "/etc/bind/zones/freifunk-mainz.de.master.db";
+};
+
+zone "freifunk-wiesbaden.de." {
+	type master;
+	file "/etc/bind/zones/freifunk-wiesbaden.de.master.db";
+};
+
+zone "freifunk-mwu.de." {
+        type master;
+        file "/etc/bind/zones/freifunk-mwu.de.master.db";
+};
+
+zone "ffmz.org." {
+	type master;
+	file "/etc/bind/zones/freifunk-mainz.de.master.db";
+};
+
+zone "ffwi.org." {
+	type master;
+	file "/etc/bind/zones/freifunk-wiesbaden.de.master.db";
+};
+
+zone "wiesbaden.freifunk.net." {
+        type master;
+        file "/etc/bind/zones/wiesbaden.freifunk.net.master.db";
+};
+
+zone "mainz.freifunk.net." {
+        type master;
+        file "/etc/bind/zones/mainz.freifunk.net.master.db";
+};
