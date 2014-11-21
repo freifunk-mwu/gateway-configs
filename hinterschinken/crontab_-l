@@ -27,6 +27,8 @@ PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bi
 * * * * * /home/admin/clones/ffmap-backend/mkmap-mz.sh /var/www/mapmz/build 0.0.1
 * * * * * /home/admin/clones/ffmap-backend/mkmap-wi.sh /var/www/mapwi/build 0.0.1
 * * * * * /home/admin/clones/ffmap-backend/mkmap-mwu.sh /var/www/mapmwu/build 0.0.1
+# firmware sync
+23 */8 * * * /usr/bin/rsync -avh --delete rsync://pudding.freifunk-mwu.de:2873/firmware /var/www/html/firmware > $HOME/.cronlog/firmware_rsync.log
 # backend scripts
 */5 * * * * /usr/bin/python3 $HOME/clones/backend-scripts/draw_traffic_gw.py > $HOME/.cronlog/draw_traffic.log
 */5 * * * * /usr/bin/python3 $HOME/clones/backend-scripts/check_exitvpn_gw.py > $HOME/.cronlog/check_exitvpn.log 
