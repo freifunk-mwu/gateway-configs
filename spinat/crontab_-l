@@ -1,32 +1,25 @@
-# Edit this file to introduce tasks to be run by cron.
-# 
-# Each task to run has to be defined through a single line
-# indicating with different fields when the task will be run
-# and what command to run for the task
-# 
-# To define the time you can provide concrete values for
-# minute (m), hour (h), day of month (dom), month (mon),
-# and day of week (dow) or use '*' in these fields (for 'any').# 
-# Notice that tasks will be started based on the cron's system
-# daemon's notion of time and timezones.
-# 
-# Output of the crontab jobs (including errors) is sent through
-# email to the user the crontab file belongs to (unless redirected).
-# 
-# For example, you can run a backup of all your user accounts
-# at 5 a.m every week with:
-# 0 5 * * 1 tar -zcf /var/backups/home.tgz /home/
-# 
-# For more information see the manual pages of crontab(5) and cron(8)
 #
-PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin 
+#
+#                                                       I8                ,dPYb,
+#                                                       I8                IP'`Yb
+#                                                    88888888             I8  8I
+#                                                       I8                I8  8'
+#       ,gggg,   ,gggggg,    ,ggggg,     ,ggg,,ggg,     I8      ,gggg,gg  I8 dP
+#      dP"  "Yb  dP""""8I   dP"  "Y8ggg ,8" "8P" "8,    I8     dP"  "Y8I  I8dP   88gg
+#     i8'       ,8'    8I  i8'    ,8I   I8   8I   8I   ,I8,   i8'    ,8I  I8P    8I
+#    ,d8,_    _,dP     Y8,,d8,   ,d8'  ,dP   8I   Yb, ,d88b, ,d8,   ,d8b,,d8b,  ,8I
+#    P""Y8888PP8P      `Y8P"Y8888P"    8P'   8I   `Y888P""Y88P"Y8888P"`Y88P'"Y88P"'
+#
+#
+PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 # m h  dom mon dow   command
-* * * * * /home/admin/clones/ffnord-alfred-announce-mz/announce.sh -i mzBR -b mzBAT -u /var/run/alfred-mz.sock
-* * * * * /home/admin/clones/ffnord-alfred-announce-wi/announce.sh -i wiBR -b wiBAT -u /var/run/alfred-wi.sock
+# alfred announce
+* * * * * $HOME/clones/ffnord-alfred-announce-mz/announce.sh -i mzBR -b mzBAT -u /var/run/alfred-mz.sock
+* * * * * $HOME/clones/ffnord-alfred-announce-wi/announce.sh -i wiBR -b wiBAT -u /var/run/alfred-wi.sock
 # ffmap
-* * * * * /home/admin/clones/ffmap-backend/mkmap-mz.sh /var/www/mapmz/build 0.0.1
-* * * * * /home/admin/clones/ffmap-backend/mkmap-wi.sh /var/www/mapwi/build 0.0.1
-* * * * * /home/admin/clones/ffmap-backend/mkmap-mwu.sh /var/www/mapmwu/build 0.0.1
+* * * * * $HOME/clones/ffmap-backend/mkmap-mz.sh /var/www/mapmz/build 0.0.1
+* * * * * $HOME/clones/ffmap-backend/mkmap-wi.sh /var/www/mapwi/build 0.0.1
+* * * * * $HOME/clones/ffmap-backend/mkmap-mwu.sh /var/www/mapmwu/build 0.0.1
 # firmware sync
 23 */8 * * * /usr/bin/rsync -avh --delete rsync://pudding.freifunk-mwu.de:2873/firmware /var/www/html/firmware > $HOME/.cronlog/firmware_rsync.log
 # backend-scripts
@@ -34,7 +27,8 @@ PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bi
 */5 * * * * /usr/bin/python3 $HOME/clones/backend-scripts/check_exitvpn_gw.py > $HOME/.cronlog/check_exitvpn.log
 23 * * * * /usr/bin/python3 $HOME/clones/backend-scripts/gen_website_all.py > $HOME/.cronlog/gen_website.log
 */15 * * * * /usr/bin/python3 $HOME/clones/backend-scripts/sync_meshkeys_gw.py > $HOME/.cronlog/sync_meshkeys.log
-42 23 * * * /usr/bin/python3 $HOME/clones/backend-scripts/snapshot_configs_all.py > $HOME/.cronlog/snapshot_configs.log
-# backend-scripts icvpn prototypes
-#0 4 * * Mon,Thu /home/admin/bin/upd_bird_conf.sh > $HOME/.cronlog/upd_bird_conf.log
-0 3 * * Mon,Thu /home/admin/bin/upd_tinc_conf.sh > $HOME/.cronlog/upd_tinc_conf.log
+42 5,23 * * * /usr/bin/python3 $HOME/clones/backend-scripts/snapshot_configs_all.py > $HOME/.cronlog/snapshot_configs.log
+42 17 * * 2 /usr/local/bin/photon-dangerous-selfupgrade.py --sudo --repos $HOME/clones/backend-scripts
+# icvpn prototypes
+#0 4 * * Mon,Thu $HOME/bin/upd_bird_conf.sh > $HOME/.cronlog/upd_bird_conf.log
+0 3 * * Mon,Thu $HOME/bin/upd_tinc_conf.sh > $HOME/.cronlog/upd_tinc_conf.log
