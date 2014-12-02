@@ -1,13 +1,12 @@
 locations:
 - /etc/aliases
 - /etc/apache2/sites-enabled
-- /etc/bind/ffmz
-- /etc/bind/ffwi
 - /etc/bind/named.conf
 - /etc/bind/named.conf.default-zones
 - /etc/bind/named.conf.local
 - /etc/bind/named.conf.logging
 - /etc/bind/named.conf.options
+- /etc/bind/zones
 - /etc/bird/bird.conf
 - /etc/bird/ebgp_peers_v4.inc
 - /etc/bird/bird6.conf
