@@ -182,6 +182,11 @@ protocol bgp hamburg01 from ebgp_ic {
 }
 
 
+protocol bgp hamburg02 from ebgp_ic {
+    neighbor 10.207.0.64 as 65112;
+}
+
+
 protocol bgp hamburg05 from ebgp_ic {
     neighbor 10.207.0.65 as 65112;
 }
@@ -277,13 +282,18 @@ protocol bgp muenchen4 from ebgp_ic {
 }
 
 
-protocol bgp oldenburg1 from ebgp_ic {
+protocol bgp nordwest1 from ebgp_ic {
     neighbor 10.207.0.27 as 65513;
 }
 
 
-protocol bgp oldenburg2 from ebgp_ic {
+protocol bgp nordwest2 from ebgp_ic {
     neighbor 10.207.0.38 as 65513;
+}
+
+
+protocol bgp nordwest3 from ebgp_ic {
+    neighbor 10.207.0.39 as 65513;
 }
 
 
