@@ -147,11 +147,6 @@ protocol bgp gronau2 from ebgp_ic {
 }
 
 
-protocol bgp grossdraxdorf from ebgp_ic {
-    neighbor 10.207.0.25 as 65025;
-}
-
-
 protocol bgp guetersloh1 from ebgp_ic {
     neighbor 10.207.0.132 as 65533;
 }
