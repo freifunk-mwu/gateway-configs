@@ -1,0 +1,17 @@
+; BIND data file for zone freifunk-mainz.de
+;
+$TTL	3600
+@	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
+		     2014120201		; Serial
+			     2h		; Refresh
+			     1h		; Retry
+			    41d		; Expire
+			     1h )	; Negative Cache TTL
+
+; public ns server
+@		IN	NS	ns1.treck.de.
+@		IN	NS	ns2.treck.de.
+@		IN	NS	ns3.treck.de.
+
+@		IN	A	95.143.172.211
+@		IN	AAAA	2001:1a50:11:0:5f:8f:acd3:1cc
