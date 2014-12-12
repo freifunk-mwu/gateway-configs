@@ -17,7 +17,7 @@ iface eth0 inet static
         broadcast 89.238.67.255
         gateway 89.238.67.1
         # dns-* options are implemented by the resolvconf package, if installed
-        dns-nameservers 217.11.48.200 217.11.49.200
+        dns-nameservers 127.0.0.1
 
 iface eth0 inet6 static
 	address 2a00:1828:2000:182::2
