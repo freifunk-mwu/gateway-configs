@@ -25,6 +25,8 @@ PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bi
 * * * * * $HOME/clones/ffmap-backend/mkmap-mz.sh /var/www/mapmz/build 0.0.2
 * * * * * $HOME/clones/ffmap-backend/mkmap-wi.sh /var/www/mapwi/build 0.0.2
 * * * * * $HOME/clones/ffmap-backend/mkmap-mwu.sh /var/www/mapmwu/build 0.0.2
+# cleanup nodes with nulldata
+*/60 * * * * /usr/bin/python3 $HOME/clones/ffmap-backend/cleanupstates.py -s $HOME/clones/ffmap-backend/state_mainz.json $HOME/clones/ffmap-backend/state_wiesbaden.json $HOME/clones/ffmap-backend/state_mwu.json
 # firmware sync
 23 */8 * * * /usr/bin/rsync -avh --delete rsync://pudding.freifunk-mwu.de:2873/firmware /var/www/html/firmware > $HOME/.cronlog/firmware_rsync.log
 # backend scripts
