@@ -30,6 +30,8 @@ PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bi
 42 5,23 * * * /usr/bin/python3 $HOME/clones/backend-scripts/snapshot_configs_all.py > $HOME/.cronlog/snapshot_configs.log
 42 17 * * 2 /usr/local/bin/photon-dangerous-selfupgrade.py --sudo --repos $HOME/clones/backend-scripts
 # icvpn prototypes
-0 4 * * Sun,Wed,Sat $HOME/bin/upd_bird_conf.sh > $HOME/.cronlog/upd_bird_conf.log
-0 3 * * Sun,Wed,Sat $HOME/bin/upd_tinc_conf.sh > $HOME/.cronlog/upd_tinc_conf.log
+0 3 * * Sun,Wed,Sat /usr/bin/python3 $HOME/clones/backend-scripts/update_tinc_conf_gw.py > $HOME/.cronlog/update_tinc_conf.log
+0 4 * * Sun,Wed,Sat /usr/bin/python3 $HOME/clones/backend-scripts/update_bird_conf_gw.py > $HOME/.cronlog/update_bird_conf.log
+0 5 * * Sun,Wed,Sat /usr/bin/python3 $HOME/clones/backend-scripts/update_icdns_conf_gw.py > $HOME/.cronlog/update_icdns_conf.log
+# experimental icvpn tinc map update
 */5 * * * * /var/www/html/icvpn/ic_topo_updt.sh
