@@ -1,0 +1,76 @@
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# The primary network interface
+auto eth0
+iface eth0 inet static
+	address 144.76.209.103
+	netmask 255.255.255.255
+	gateway 144.76.78.19
+	pointopoint 144.76.78.19
+	# dns-* options are implemented by the resolvconf package, if installed
+	dns-nameservers ::1
+
+iface eth0 inet6 static
+	address 2a01:4f8:192:523::b4dc:4b1e
+	netmask 64
+	post-up		/sbin/ip -6 route add 2000::/3 via 2a01:4f8:192:523::1
+	post-down	/sbin/ip -6 route del 2000::/3 via 2a01:4f8:192:523::1
+
+auto mzBR
+iface mzBR inet static
+    bridge_ports none
+    bridge_fd 0
+    bridge_maxwait 0
+    address 10.37.1.3
+    netmask 255.255.192.0
+
+iface mzBR inet6 static
+    address fd37:b4dc:4b1e::a25:103
+    netmask 64
+
+auto wiBR
+iface wiBR inet static
+    bridge_ports none
+    bridge_fd 0
+    bridge_maxwait 0
+    address 10.56.1.3
+    netmask 255.255.192.0
+
+iface wiBR inet6 static
+    address fd56:b4dc:4b1e::a38:103
+    netmask 64
+
+allow-hotplug mzVPN
+iface mzVPN inet6 manual
+    hwaddress 02:00:0a:25:01:03
+    pre-up          /sbin/modprobe batman_adv
+    post-up         /usr/sbin/batctl -m mzBAT if add $IFACE
+    post-up         /sbin/ip link set dev mzBAT up
+
+allow-hotplug wiVPN
+iface wiVPN inet6 manual
+    hwaddress 02:00:0a:38:01:03
+    pre-up          /sbin/modprobe batman_adv
+    post-up         /usr/sbin/batctl -m wiBAT if add $IFACE
+    post-up         /sbin/ip link set dev wiBAT up
+
+allow-hotplug mzBAT
+iface mzBAT inet6 manual
+    pre-up          /sbin/modprobe batman-adv
+    post-up         /sbin/brctl addif mzBR $IFACE
+    post-up         /usr/sbin/batctl -m $IFACE it 10000
+    post-up         /usr/sbin/batctl -m $IFACE gw off
+    pre-down        /sbin/brctl delif mzBR $IFACE || true
+
+allow-hotplug wiBAT
+iface wiBAT inet6 manual
+    pre-up          /sbin/modprobe batman-adv
+    post-up         /sbin/brctl addif wiBR $IFACE
+    post-up         /usr/sbin/batctl -m $IFACE it 10000
+    post-up         /usr/sbin/batctl -m $IFACE gw off
+    pre-down        /sbin/brctl delif wiBR $IFACE || true
