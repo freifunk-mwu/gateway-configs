@@ -49,6 +49,9 @@ protocol bgp dresden1 from ebgp_ic {
 protocol bgp dresden2 from ebgp_ic {
     neighbor fec0::a:cf:dd:2 as 65051;
 }
+protocol bgp ehingen1 from ebgp_ic {
+    neighbor fec0::a:cf:0:45 as 65535;
+}
 protocol bgp flensburg1 from ebgp_ic {
     neighbor fec0::a:cf:0:10 as 65056;
 }
@@ -57,12 +60,6 @@ protocol bgp flensburg2 from ebgp_ic {
 }
 protocol bgp freiburg1 from ebgp_ic {
     neighbor fec0::a:cf:0:21 as 65060;
-}
-protocol bgp gronau1 from ebgp_ic {
-    neighbor fec0::a:cf:0:50 as 65526;
-}
-protocol bgp gronau2 from ebgp_ic {
-    neighbor fec0::a:cf:0:51 as 65526;
 }
 protocol bgp guetersloh1 from ebgp_ic {
     neighbor fec0::a:cf:0:84 as 65533;
@@ -133,17 +130,17 @@ protocol bgp rheinland1 from ebgp_ic {
 protocol bgp ruhrgebiet1 from ebgp_ic {
     neighbor fec0::a:cf:0:9 as 65079;
 }
+protocol bgp nrw2 from ebgp_ic {
+    neighbor fec0::a:cf:0:8 as 65530;
+}
+protocol bgp nrw3 from ebgp_ic {
+    neighbor fec0::a:cf:0:55 as 65530;
+}
 protocol bgp weimar1 from ebgp_ic {
     neighbor fec0::a:cf:0:3 as 65042;
 }
 protocol bgp weimar2 from ebgp_ic {
     neighbor fec0::a:cf:0:4 as 65042;
-}
-protocol bgp wermelskirchen1 from ebgp_ic {
-    neighbor fec0::a:cf:0:7 as 65530;
-}
-protocol bgp wermelskirchen2 from ebgp_ic {
-    neighbor fec0::a:cf:0:8 as 65530;
 }
 protocol bgp westpfalz1 from ebgp_ic {
     neighbor fec0::a:cf:0:55 as 65242;

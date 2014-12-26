@@ -61,6 +61,9 @@ protocol bgp dresden1 from ebgp_ic {
 protocol bgp dresden2 from ebgp_ic {
     neighbor 10.207.0.20 as 65051;
 }
+protocol bgp ehingen1 from ebgp_ic {
+    neighbor 10.207.0.45 as 65535;
+}
 protocol bgp flensburg1 from ebgp_ic {
     neighbor 10.207.0.129 as 65056;
 }
@@ -81,12 +84,6 @@ protocol bgp graz1 from ebgp_ic {
 }
 protocol bgp graz2 from ebgp_ic {
     neighbor 10.207.1.3 as 65048;
-}
-protocol bgp gronau1 from ebgp_ic {
-    neighbor 10.207.0.55 as 65526;
-}
-protocol bgp gronau2 from ebgp_ic {
-    neighbor 10.207.0.60 as 65526;
 }
 protocol bgp guetersloh1 from ebgp_ic {
     neighbor 10.207.0.132 as 65533;
@@ -199,17 +196,17 @@ protocol bgp stuttgart from ebgp_ic {
 protocol bgp treuenbrietzen from ebgp_ic {
     neighbor 10.207.0.18 as 65045;
 }
+protocol bgp nrw2 from ebgp_ic {
+    neighbor 10.207.0.8 as 65530;
+}
+protocol bgp nrw3 from ebgp_ic {
+    neighbor 10.207.0.55 as 65530;
+}
 protocol bgp weimar1 from ebgp_ic {
     neighbor 10.207.0.3 as 65042;
 }
 protocol bgp weimar2 from ebgp_ic {
     neighbor 10.207.0.4 as 65042;
-}
-protocol bgp wermelskirchen1 from ebgp_ic {
-    neighbor 10.207.0.7 as 65530;
-}
-protocol bgp wermelskirchen2 from ebgp_ic {
-    neighbor 10.207.0.8 as 65530;
 }
 protocol bgp westpfalz1 from ebgp_ic {
     neighbor 10.207.0.85 as 65242;
