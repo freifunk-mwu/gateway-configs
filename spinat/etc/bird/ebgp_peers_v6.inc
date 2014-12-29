@@ -61,6 +61,9 @@ protocol bgp flensburg2 from ebgp_ic {
 protocol bgp freiburg1 from ebgp_ic {
     neighbor fec0::a:cf:0:21 as 65060;
 }
+protocol bgp goettingen1 from ebgp_ic {
+    neighbor fec0::a:cf:ab:01 as 65535;
+}
 protocol bgp guetersloh1 from ebgp_ic {
     neighbor fec0::a:cf:0:84 as 65533;
 }
@@ -70,17 +73,11 @@ protocol bgp guetersloh2 from ebgp_ic {
 protocol bgp guetersloh4 from ebgp_ic {
     neighbor fec0::a:cf:0:86 as 65533;
 }
-protocol bgp hamburg01 from ebgp_ic {
-    neighbor fec0::a:cf:0:3e as 65112;
-}
 protocol bgp hamburg02 from ebgp_ic {
-    neighbor fec0::a:cf:0:40 as 65112;
+    neighbor fec0::a:cf:0:40 as 49009;
 }
 protocol bgp hamburg03 from ebgp_ic {
-    neighbor fec0::a:cf:0:3f as 65112;
-}
-protocol bgp hamburg05 from ebgp_ic {
-    neighbor fec0::a:cf:0:41 as 65112;
+    neighbor fec0::a:cf:0:3f as 49009;
 }
 protocol bgp karlsruhe1 from ebgp_ic {
     neighbor fec0::a:cf:0:d6 as 65081;
@@ -118,13 +115,19 @@ protocol bgp moehne1 from ebgp_ic {
 protocol bgp ostholstein1 from ebgp_ic {
     neighbor fec0::a:cf:0:87 as 65152;
 }
+protocol bgp paderborn01 from ebgp_ic {
+    neighbor fec0::a:cf:0:e7 as 65132;
+}
+protocol bgp paderborn02 from ebgp_ic {
+    neighbor fec0::a:cf:0:e8 as 65132;
+}
 protocol bgp rhein_neckar from ebgp_ic {
     neighbor fec0::a:cf:0:142 as 76118;
 }
-protocol bgp rheinland0 from ebgp_ic {
-    neighbor fec0::a:cf:0:4e as 65078;
+protocol bgp rheinufer1 from ebgp_ic {
+    neighbor fec0::a:cf:0:4c as 65078;
 }
-protocol bgp rheinland1 from ebgp_ic {
+protocol bgp rheinufer3 from ebgp_ic {
     neighbor fec0::a:cf:0:4d as 65078;
 }
 protocol bgp ruhrgebiet1 from ebgp_ic {
