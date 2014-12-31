@@ -1,20 +1,15 @@
 #
 #
-#                                                         I8                ,dPYb,
-#                                                         I8                IP'`Yb
-#                                                      88888888             I8  8I
-#                                                         I8                I8  8'
-#     gg,gggg,     ,gggggg,    ,ggggg,     ,ggg,,ggg,     I8      ,gggg,gg  I8 dP
-#     I8P"  "Yb    dP""""8I   dP"  "Y8ggg ,8" "8P" "8,    I8     dP"  "Y8I  I8dP   88gg
-#     I8'    ,8i  ,8'    8I  i8'    ,8I   I8   8I   8I   ,I8,   i8'    ,8I  I8P    8I
-#    ,I8 _  ,d8' ,dP     Y8,,d8,   ,d8'  ,dP   8I   Yb, ,d88b, ,d8,   ,d8b,,d8b,  ,8I
-#    PI8 YY88888P8P      `Y8P"Y8888P"    8P'   8I   `Y888P""Y88P"Y8888P"`Y88P'"Y88P"'
-#     I8
-#     I8
-#     I8
-#     I8
-#     I8
-#     I8
+#                                                       I8                ,dPYb,
+#                                                       I8                IP'`Yb
+#                                                    88888888             I8  8I
+#                                                       I8                I8  8'
+#       ,gggg,   ,gggggg,    ,ggggg,     ,ggg,,ggg,     I8      ,gggg,gg  I8 dP
+#      dP"  "Yb  dP""""8I   dP"  "Y8ggg ,8" "8P" "8,    I8     dP"  "Y8I  I8dP   88gg
+#     i8'       ,8'    8I  i8'    ,8I   I8   8I   8I   ,I8,   i8'    ,8I  I8P    8I
+#    ,d8,_    _,dP     Y8,,d8,   ,d8'  ,dP   8I   Yb, ,d88b, ,d8,   ,d8b,,d8b,  ,8I
+#    P""Y8888PP8P      `Y8P"Y8888P"    8P'   8I   `Y888P""Y88P"Y8888P"`Y88P'"Y88P"'
+#
 #
 PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 # m h  dom mon dow   command
@@ -23,7 +18,7 @@ PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bi
 * * * * * $HOME/clones/ffnord-alfred-announce-wi/announce.sh -i wiBR -b wiBAT -u /var/run/alfred-wi.sock > /dev/null 2>&1
 # firmware sync
 23 */8 * * * /usr/bin/rsync -avh --delete rsync://pudding.freifunk-mwu.de:2873/firmware /var/www/html/firmware > $HOME/.cronlog/firmware_rsync.log
-# backend scripts
+# backend-scripts
 */5 * * * * /usr/bin/python3 $HOME/clones/backend-scripts/draw_traffic_gw.py > $HOME/.cronlog/draw_traffic.log
 */5 * * * * /usr/bin/python3 $HOME/clones/backend-scripts/check_exitvpn_gw.py > $HOME/.cronlog/check_exitvpn.log
 23 * * * * /usr/bin/python3 $HOME/clones/backend-scripts/gen_website_all.py > $HOME/.cronlog/gen_website.log
@@ -31,6 +26,8 @@ PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bi
 42 5,23 * * * /usr/bin/python3 $HOME/clones/backend-scripts/snapshot_configs_all.py > $HOME/.cronlog/snapshot_configs.log
 42 17 * * 2 /usr/local/bin/photon-dangerous-selfupgrade.py --sudo --repos $HOME/clones/backend-scripts
 # icvpn prototypes
-0 3 * * Tue,Fri /usr/bin/python3 $HOME/clones/backend-scripts/update_tinc_conf_gw.py > $HOME/.cronlog/update_tinc_conf.log
-0 4 * * Tue,Fri /usr/bin/python3 $HOME/clones/backend-scripts/update_bird_conf_gw.py > $HOME/.cronlog/update_bird_conf.log
-0 5 * * Tue,Fri /usr/bin/python3 $HOME/clones/backend-scripts/update_icdns_conf_gw.py > $HOME/.cronlog/update_icdns_conf.log
+0 3 * * 3,6,7 /usr/bin/python3 $HOME/clones/backend-scripts/update_tinc_conf_gw.py > $HOME/.cronlog/update_tinc_conf.log
+0 4 * * 3,6,7 /usr/bin/python3 $HOME/clones/backend-scripts/update_bird_conf_gw.py > $HOME/.cronlog/update_bird_conf.log
+0 5 * * 3,6,7 /usr/bin/python3 $HOME/clones/backend-scripts/update_bind_conf_gw.py > $HOME/.cronlog/update_bind_conf.log
+# experimental icvpn tinc map update
+*/5 * * * * /var/www/html/icvpn/ic_topo_updt.sh
