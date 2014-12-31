@@ -79,6 +79,9 @@ protocol bgp frankfurt1 from ebgp_ic {
 protocol bgp freiburg1 from ebgp_ic {
     neighbor 10.207.0.21 as 65060;
 }
+protocol bgp goettingen1 from ebgp_ic {
+    neighbor 10.207.0.65 as 65527;
+}
 protocol bgp graz1 from ebgp_ic {
     neighbor 10.207.1.2 as 65048;
 }
@@ -118,7 +121,7 @@ protocol bgp jena2 from ebgp_ic {
 protocol bgp karlsruhe1 from ebgp_ic {
     neighbor 10.207.0.214 as 65081;
 }
-protocol bgp kbu from ebgp_ic {
+protocol bgp koeln1 from ebgp_ic {
     neighbor 10.207.0.57 as 65528;
 }
 protocol bgp koblenz from ebgp_ic {
@@ -181,10 +184,10 @@ protocol bgp paderborn02 from ebgp_ic {
 protocol bgp rhein_neckar from ebgp_ic {
     neighbor 10.207.0.142 as 76118;
 }
-protocol bgp rheinland0 from ebgp_ic {
-    neighbor 10.207.0.78 as 65078;
+protocol bgp rheinufer1 from ebgp_ic {
+    neighbor 10.207.0.76 as 65078;
 }
-protocol bgp rheinland1 from ebgp_ic {
+protocol bgp rheinufer3 from ebgp_ic {
     neighbor 10.207.0.77 as 65078;
 }
 protocol bgp ruhrgebiet1 from ebgp_ic {
