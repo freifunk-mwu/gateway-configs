@@ -62,7 +62,7 @@ protocol bgp freiburg1 from ebgp_ic {
     neighbor fec0::a:cf:0:21 as 65060;
 }
 protocol bgp goettingen1 from ebgp_ic {
-    neighbor fec0::a:cf:ab:01 as 65535;
+    neighbor fec0::a:cf:ab:01 as 65527;
 }
 protocol bgp guetersloh1 from ebgp_ic {
     neighbor fec0::a:cf:0:84 as 65533;
@@ -82,7 +82,7 @@ protocol bgp hamburg03 from ebgp_ic {
 protocol bgp karlsruhe1 from ebgp_ic {
     neighbor fec0::a:cf:0:d6 as 65081;
 }
-protocol bgp kbu from ebgp_ic {
+protocol bgp koeln1 from ebgp_ic {
     neighbor fec0::a:cf:0:57 as 65528;
 }
 protocol bgp kiel0 from ebgp_ic {
