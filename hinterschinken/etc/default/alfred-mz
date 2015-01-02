@@ -3,7 +3,7 @@
 #
 
 # Additional command line options
-DAEMON_OPTS=""
+DAEMON_ARGS=""
 
 # Interface for A.L.F.R.E.D. to listen on. Has to be specified.
 INTERFACE=mzBR
