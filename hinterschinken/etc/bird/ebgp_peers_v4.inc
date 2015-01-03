@@ -181,9 +181,6 @@ protocol bgp paderborn01 from ebgp_ic {
 protocol bgp paderborn02 from ebgp_ic {
     neighbor 10.207.0.232 as 65132;
 }
-protocol bgp rhein_neckar from ebgp_ic {
-    neighbor 10.207.0.142 as 76118;
-}
 protocol bgp rheinufer1 from ebgp_ic {
     neighbor 10.207.0.76 as 65078;
 }
