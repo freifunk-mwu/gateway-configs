@@ -7,9 +7,6 @@ protocol bgp augsburg1 from ebgp_ic {
 protocol bgp augsburg2 from ebgp_ic {
     neighbor 10.207.0.68 as 65050;
 }
-protocol bgp bad_zwischenahn from ebgp_ic {
-    neighbor 10.207.0.26 as 65025;
-}
 protocol bgp basel1 from ebgp_ic {
     neighbor 10.207.5.1 as 65090;
 }
@@ -163,6 +160,9 @@ protocol bgp muenchen1 from ebgp_ic {
 protocol bgp muenchen4 from ebgp_ic {
     neighbor 10.207.4.80 as 65080;
 }
+protocol bgp muenster1 from ebgp_ic {
+    neighbor 10.207.0.43 as 65251;
+}
 protocol bgp nordwest1 from ebgp_ic {
     neighbor 10.207.0.27 as 65513;
 }
@@ -192,9 +192,6 @@ protocol bgp rheinufer3 from ebgp_ic {
 }
 protocol bgp ruhrgebiet1 from ebgp_ic {
     neighbor 10.207.0.79 as 65079;
-}
-protocol bgp stuttgart from ebgp_ic {
-    neighbor 10.207.0.11 as 65045;
 }
 protocol bgp treuenbrietzen from ebgp_ic {
     neighbor 10.207.0.18 as 65045;
