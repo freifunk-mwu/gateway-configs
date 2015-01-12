@@ -34,6 +34,9 @@ protocol bgp darmstadt1 from ebgp_ic {
 protocol bgp darmstadt2 from ebgp_ic {
     neighbor fec0::a:cf:0:219 as 65038;
 }
+protocol bgp diepholz1 from ebgp_ic {
+    neighbor fec0::a:cf:0:1a as 65501;
+}
 protocol bgp dreilaendereck1 from ebgp_ic {
     neighbor fec0::a:cf:0:be as 65043;
 }

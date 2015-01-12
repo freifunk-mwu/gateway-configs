@@ -43,6 +43,9 @@ protocol bgp darmstadt1 from ebgp_ic {
 protocol bgp darmstadt2 from ebgp_ic {
     neighbor 10.207.0.219 as 65038;
 }
+protocol bgp diepholz1 from ebgp_ic {
+    neighbor 10.207.1.12 as 65501;
+}
 protocol bgp dreilaendereck1 from ebgp_ic {
     neighbor 10.207.0.75 as 65043;
 }
