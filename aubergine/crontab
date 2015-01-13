@@ -29,4 +29,5 @@ PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bi
 23 * * * * /usr/bin/python3 $HOME/clones/backend-scripts/gen_website_all.py > $HOME/.cronlog/gen_website.log
 42 5,23 * * * /usr/bin/python3 $HOME/clones/backend-scripts/snapshot_configs_all.py > $HOME/.cronlog/snapshot_configs.log
 23 19 * * * /usr/bin/python3 $HOME/clones/backend-scripts/nagg_exitvpn_accouts_all.py > $HOME/.cronlog/nagg_exitvpn_accouts.log
+19 1 * * * /usr/bin/python3 $HOME/clones/backend-scripts/mirror_openwrt_repo_srv.py > $HOME/.cronlog/mirror_openwrt_repo.log
 42 17 * * 2 /usr/local/bin/photon-dangerous-selfupgrade.py --sudo --repos $HOME/clones/backend-scripts
