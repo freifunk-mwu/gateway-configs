@@ -25,14 +25,20 @@ protocol bgp braunschweig1 from ebgp_ic {
 protocol bgp braunschweig2 from ebgp_ic {
     neighbor fec0::a:cf:0:29 as 65380;
 }
+protocol bgp bremen1 from ebgp_ic {
+    neighbor fec0::a:cf:1:c4 as 65196;
+}
 protocol bgp bremen2 from ebgp_ic {
     neighbor fec0::a:cf:0:c4 as 65196;
 }
 protocol bgp darmstadt1 from ebgp_ic {
-    neighbor fec0::a:cf:0:218 as 65038;
+    neighbor fec0::a:cf:0:da as 65038;
 }
 protocol bgp darmstadt2 from ebgp_ic {
-    neighbor fec0::a:cf:0:219 as 65038;
+    neighbor fec0::a:cf:0:db as 65038;
+}
+protocol bgp diepholz1 from ebgp_ic {
+    neighbor fec0::a:cf:0:1a as 65501;
 }
 protocol bgp dreilaendereck1 from ebgp_ic {
     neighbor fec0::a:cf:0:be as 65043;
@@ -115,6 +121,9 @@ protocol bgp moehne1 from ebgp_ic {
 protocol bgp muenster1 from ebgp_ic {
     neighbor fec0::a:cf:0:43 as 65251;
 }
+protocol bgp mueritz_bgp1 from ebgp_ic {
+    neighbor fec0::a:cf:0:8a as 65534;
+}
 protocol bgp ostholstein1 from ebgp_ic {
     neighbor fec0::a:cf:0:87 as 65152;
 }
@@ -135,6 +144,12 @@ protocol bgp rheinufer3 from ebgp_ic {
 }
 protocol bgp ruhrgebiet1 from ebgp_ic {
     neighbor fec0::a:cf:0:9 as 65079;
+}
+protocol bgp trier1 from ebgp_ic {
+    neighbor fec0::a:cf:0:dc as 65022;
+}
+protocol bgp trier2 from ebgp_ic {
+    neighbor fec0::a:cf:0:dd as 65022;
 }
 protocol bgp nrw2 from ebgp_ic {
     neighbor fec0::a:cf:0:8 as 65530;
