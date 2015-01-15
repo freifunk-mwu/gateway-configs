@@ -31,6 +31,9 @@ protocol bgp braunschweig1 from ebgp_ic {
 protocol bgp braunschweig2 from ebgp_ic {
     neighbor 10.207.0.41 as 65380;
 }
+protocol bgp bremen1 from ebgp_ic {
+    neighbor 10.207.1.196 as 65196;
+}
 protocol bgp bremen2 from ebgp_ic {
     neighbor 10.207.0.196 as 65196;
 }
@@ -166,6 +169,9 @@ protocol bgp muenchen4 from ebgp_ic {
 protocol bgp muenster1 from ebgp_ic {
     neighbor 10.207.0.43 as 65251;
 }
+protocol bgp mueritz_bgp1 from ebgp_ic {
+    neighbor 10.207.0.138 as 65534;
+}
 protocol bgp nordwest1 from ebgp_ic {
     neighbor 10.207.0.27 as 65513;
 }
@@ -198,6 +204,12 @@ protocol bgp ruhrgebiet1 from ebgp_ic {
 }
 protocol bgp treuenbrietzen from ebgp_ic {
     neighbor 10.207.0.18 as 65045;
+}
+protocol bgp trier1 from ebgp_ic {
+    neighbor 10.207.0.220 as 65022;
+}
+protocol bgp trier2 from ebgp_ic {
+    neighbor 10.207.0.221 as 65022;
 }
 protocol bgp nrw2 from ebgp_ic {
     neighbor 10.207.0.8 as 65530;
