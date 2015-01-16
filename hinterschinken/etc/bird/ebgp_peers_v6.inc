@@ -121,6 +121,9 @@ protocol bgp moehne1 from ebgp_ic {
 protocol bgp muenster1 from ebgp_ic {
     neighbor fec0::a:cf:0:43 as 65251;
 }
+protocol bgp mueritz_bgp1 from ebgp_ic {
+    neighbor fec0::a:cf:0:8a as 65534;
+}
 protocol bgp ostholstein1 from ebgp_ic {
     neighbor fec0::a:cf:0:87 as 65152;
 }
@@ -152,7 +155,7 @@ protocol bgp nrw2 from ebgp_ic {
     neighbor fec0::a:cf:0:8 as 65530;
 }
 protocol bgp nrw3 from ebgp_ic {
-    neighbor fec0::a:cf:0:55 as 65530;
+    neighbor fec0::a:cf:0:37 as 65530;
 }
 protocol bgp weimar1 from ebgp_ic {
     neighbor fec0::a:cf:0:3 as 65042;

@@ -169,6 +169,9 @@ protocol bgp muenchen4 from ebgp_ic {
 protocol bgp muenster1 from ebgp_ic {
     neighbor 10.207.0.43 as 65251;
 }
+protocol bgp mueritz_bgp1 from ebgp_ic {
+    neighbor 10.207.0.138 as 65534;
+}
 protocol bgp nordwest1 from ebgp_ic {
     neighbor 10.207.0.27 as 65513;
 }
