@@ -17,9 +17,9 @@ PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bi
 * * * * * $HOME/clones/ffnord-alfred-announce-mz/announce.sh -i mzBR -b mzBAT -u /var/run/alfred-mz.sock > /dev/null 2>&1
 * * * * * $HOME/clones/ffnord-alfred-announce-wi/announce.sh -i wiBR -b wiBAT -u /var/run/alfred-wi.sock > /dev/null 2>&1
 # ffmap
-* * * * * $HOME/clones/ffmap-backend/mkmap-mz.sh /var/www/mapmz/build 0.0.2 > /dev/null 2>&1
-* * * * * $HOME/clones/ffmap-backend/mkmap-wi.sh /var/www/mapwi/build 0.0.2 > /dev/null 2>&1
-* * * * * $HOME/clones/ffmap-backend/mkmap-mwu.sh /var/www/mapmwu/build 0.0.2 > /dev/null 2>&1
+* * * * * $HOME/clones/ffmap-backend/mkmap-mz.sh /var/www/mapmz/build 0.0.3 > /dev/null 2>&1
+* * * * * $HOME/clones/ffmap-backend/mkmap-wi.sh /var/www/mapwi/build 0.0.3 > /dev/null 2>&1
+* * * * * $HOME/clones/ffmap-backend/mkmap-mwu.sh /var/www/mapmwu/build 0.0.3 > /dev/null 2>&1
 # cleanup nodes with nulldata
 */60 * * * * /usr/bin/python3 $HOME/clones/ffmap-backend/cleanupstates.py -s $HOME/clones/ffmap-backend/state_mainz.json > /dev/null 2>&1
 */60 * * * * /usr/bin/python3 $HOME/clones/ffmap-backend/cleanupstates.py -s $HOME/clones/ffmap-backend/state_wiesbaden.json > /dev/null 2>&1
