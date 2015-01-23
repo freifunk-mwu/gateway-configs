@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2015010315		; Serial
+		     2015012301		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -41,6 +41,7 @@ www		IN	A	95.143.172.211
 www		IN	AAAA	2001:1a50:11:0:5f:8f:acd3:1cc
 
 wiki		IN	CNAME	www
+event		IN	CNAME	www
 pad		IN	CNAME	www
 blog		IN	CNAME	www
 ffapi		IN	CNAME	www
