@@ -2,7 +2,7 @@ accounts:
     a: &A
         login: '734176605863'
         provider: 'mullvad'
-        until: '27.01.2015'
+        until: '26.02.2015'
     b: &B
         login: '1085642134165'
         provider: 'mullvad'
