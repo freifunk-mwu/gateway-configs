@@ -88,6 +88,9 @@ protocol bgp hamburg03 from ebgp_ic {
 protocol bgp karlsruhe1 from ebgp_ic {
     neighbor fec0::a:cf:0:d6 as 65081;
 }
+protocol bgp karlsruhe2 from ebgp_ic {
+    neighbor fec0::a:cf:1:d6 as 65081;
+}
 protocol bgp koeln1 from ebgp_ic {
     neighbor fec0::a:cf:0:57 as 65528;
 }
