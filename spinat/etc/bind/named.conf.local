@@ -37,6 +37,15 @@ zone "user.ffwi.org." {
         file "/etc/bind/ffwi/user.ffwi.org.master.db";
 };
 
+zone "nodes.ffwi.org." {
+        type master;
+        file "/var/lib/bind/ffwi/nodes.ffwi.org.master.db";
+};
+
+zone "nodes.ffmz.org." {
+        type master;
+        file "/var/lib/bind/ffmz/nodes.ffmz.org.master.db";
+};
 
 // Reverse Zones
 
