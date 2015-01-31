@@ -49,6 +49,17 @@ zone "user.ffwi.org." {
 	masters { ns-master-wi; };
 };
 
+zone "nodes.ffwi.org." {
+	type slave;
+	file "/var/cache/bind/nodes.ffwi.org.db";
+	masters { ns-master-wi; };
+};
+
+zone "nodes.ffmz.org." {
+	type slave;
+	file "/var/cache/bind/nodes.ffmz.org.db";
+	masters { ns-master-wi; };
+};
 
 // Reverse Zones
 
