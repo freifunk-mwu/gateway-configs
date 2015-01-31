@@ -124,6 +124,9 @@ protocol bgp jena2 from ebgp_ic {
 protocol bgp karlsruhe1 from ebgp_ic {
     neighbor 10.207.0.214 as 65081;
 }
+protocol bgp karlsruhe2 from ebgp_ic {
+    neighbor 10.207.1.214 as 65081;
+}
 protocol bgp koeln1 from ebgp_ic {
     neighbor 10.207.0.57 as 65528;
 }
