@@ -3,10 +3,14 @@ accounts:
         login: '734176605863'
         provider: 'mullvad'
         until: '26.02.2015'
-    b: &B
-        login: '1085642134165'
-        provider: 'mullvad'
-        until: '04.12.2014'
+    b: &C
+        login: 'ffmz'
+        provider: 'ipredator'
+        until: '06.03.2015'
+    c: &C
+        login: 'vorstand2'
+        provider: 'hide.me'
+        until: '27.02.2015'        
 conf:
     warndays: 10
     digestday: 1
@@ -15,6 +19,6 @@ conf:
     # http://strftime.org/
 gateways:
     Hinterschinken: *A
-    Spinat: *A
+    Spinat: *C
     Lotuswurzel: *A
-    Mettigel: *B
+    Gate2: *B
