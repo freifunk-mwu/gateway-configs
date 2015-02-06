@@ -160,8 +160,14 @@ protocol bgp magdeburg1 from ebgp_ic {
 protocol bgp magdeburg2 from ebgp_ic {
     neighbor 10.207.39.2 as 65039;
 }
+protocol bgp moehne003 from ebgp_ic {
+    neighbor 10.207.0.121 as 65057;
+}
 protocol bgp moehne1 from ebgp_ic {
     neighbor 10.207.0.120 as 65057;
+}
+protocol bgp moehne103 from ebgp_ic {
+    neighbor 10.207.0.122 as 65057;
 }
 protocol bgp muenchen1 from ebgp_ic {
     neighbor 10.207.0.80 as 65080;
