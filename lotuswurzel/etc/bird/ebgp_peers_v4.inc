@@ -67,6 +67,12 @@ protocol bgp dresden2 from ebgp_ic {
 protocol bgp ehingen1 from ebgp_ic {
     neighbor 10.207.0.45 as 65535;
 }
+protocol bgp erfurt1 from ebgp_ic {
+    neighbor 10.207.0.9 as 65099;
+}
+protocol bgp erfurt2 from ebgp_ic {
+    neighbor 10.207.0.10 as 65099;
+}
 protocol bgp flensburg1 from ebgp_ic {
     neighbor 10.207.0.129 as 65056;
 }
