@@ -40,6 +40,8 @@ locations:
 - /etc/rsyncd.conf
 - /etc/rsyslog.d
 - /etc/sysctl.conf
+- /etc/sysfs.conf
+- /etc/sysfs.d
 - /etc/tinc/icVPN/tinc-down
 - /etc/tinc/icVPN/tinc-up
 - /etc/tinc/icVPN/tinc.conf
