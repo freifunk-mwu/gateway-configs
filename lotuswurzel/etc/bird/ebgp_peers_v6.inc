@@ -79,6 +79,9 @@ protocol bgp guetersloh2 from ebgp_ic {
 protocol bgp guetersloh4 from ebgp_ic {
     neighbor fec0::a:cf:0:86 as 65533;
 }
+protocol bgp hamburg01 from ebgp_ic {
+    neighbor fec0::a:cf:0:3d as 49009;
+}
 protocol bgp hamburg02 from ebgp_ic {
     neighbor fec0::a:cf:0:40 as 49009;
 }
