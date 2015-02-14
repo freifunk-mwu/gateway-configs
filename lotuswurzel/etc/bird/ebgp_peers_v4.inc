@@ -121,9 +121,6 @@ protocol bgp hamburg02 from ebgp_ic {
 protocol bgp hamburg03 from ebgp_ic {
     neighbor 10.207.0.63 as 49009;
 }
-protocol bgp hannover1 from ebgp_ic {
-    neighbor 10.207.0.22 as 65511;
-}
 protocol bgp jena1 from ebgp_ic {
     neighbor 10.207.0.33 as 65055;
 }
@@ -139,20 +136,11 @@ protocol bgp karlsruhe2 from ebgp_ic {
 protocol bgp koeln1 from ebgp_ic {
     neighbor 10.207.0.57 as 65528;
 }
-protocol bgp koblenz from ebgp_ic {
-    neighbor 10.207.0.32 as 65032;
-}
 protocol bgp leipzig1 from ebgp_ic {
     neighbor 10.207.0.1 as 65041;
 }
 protocol bgp leipzig2 from ebgp_ic {
     neighbor 10.207.0.2 as 65041;
-}
-protocol bgp ljubljana1 from ebgp_ic {
-    neighbor 10.207.3.23 as 65023;
-}
-protocol bgp ljubljana2 from ebgp_ic {
-    neighbor 10.207.3.30 as 65023;
 }
 protocol bgp luebeck1 from ebgp_ic {
     neighbor 10.207.0.130 as 65052;
@@ -219,9 +207,6 @@ protocol bgp rheinufer3 from ebgp_ic {
 }
 protocol bgp ruhrgebiet1 from ebgp_ic {
     neighbor 10.207.0.79 as 65079;
-}
-protocol bgp treuenbrietzen from ebgp_ic {
-    neighbor 10.207.0.18 as 65045;
 }
 protocol bgp trier1 from ebgp_ic {
     neighbor 10.207.0.220 as 65022;
