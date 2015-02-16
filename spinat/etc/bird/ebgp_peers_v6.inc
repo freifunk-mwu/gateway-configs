@@ -103,17 +103,11 @@ protocol bgp kiel0 from ebgp_ic {
 protocol bgp leipzig2 from ebgp_ic {
     neighbor fec0::a:cf:0:2 as 65041;
 }
-protocol bgp ljubljana1 from ebgp_ic {
-    neighbor fec0::a:cf:3:23 as 65023;
-}
-protocol bgp ljubljana2 from ebgp_ic {
-    neighbor fec0::a:cf:3:30 as 65023;
-}
 protocol bgp luebeck1 from ebgp_ic {
-    neighbor fec0::a:cf:0:82 as 65052;
+    neighbor fec0::a:cf:0:82 as 201173;
 }
 protocol bgp luebeck2 from ebgp_ic {
-    neighbor fec0::a:cf:0:83 as 65052;
+    neighbor fec0::a:cf:0:83 as 201173;
 }
 protocol bgp magdeburg1 from ebgp_ic {
     neighbor fec0::a:cf:39:1 as 65039;
