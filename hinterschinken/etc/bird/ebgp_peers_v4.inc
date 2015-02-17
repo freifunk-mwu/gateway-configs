@@ -143,10 +143,10 @@ protocol bgp leipzig2 from ebgp_ic {
     neighbor 10.207.0.2 as 65041;
 }
 protocol bgp luebeck1 from ebgp_ic {
-    neighbor 10.207.0.130 as 65052;
+    neighbor 10.207.0.130 as 201173;
 }
 protocol bgp luebeck2 from ebgp_ic {
-    neighbor 10.207.0.131 as 65052;
+    neighbor 10.207.0.131 as 201173;
 }
 protocol bgp luenen from ebgp_ic {
     neighbor 10.207.0.34 as 65034;
