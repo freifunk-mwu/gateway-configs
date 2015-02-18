@@ -27,6 +27,7 @@ locations:
 - /etc/iptables/rules.v6
 - /etc/network/interfaces
 - /etc/ntp.conf
+- /etc/openvpn/hideme.conf
 - /etc/openvpn/mullvad.conf
 - /etc/openvpn/openvpn-down
 - /etc/openvpn/openvpn-up
