@@ -104,10 +104,10 @@ protocol bgp leipzig2 from ebgp_ic {
     neighbor fec0::a:cf:0:2 as 65041;
 }
 protocol bgp luebeck1 from ebgp_ic {
-    neighbor fec0::a:cf:0:82 as 65052;
+    neighbor fec0::a:cf:0:82 as 201173;
 }
 protocol bgp luebeck2 from ebgp_ic {
-    neighbor fec0::a:cf:0:83 as 65052;
+    neighbor fec0::a:cf:0:83 as 201173;
 }
 protocol bgp magdeburg1 from ebgp_ic {
     neighbor fec0::a:cf:39:1 as 65039;
