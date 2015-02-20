@@ -22,7 +22,7 @@
 # m h  dom mon dow   command
 PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 * * * * * /home/admin/clones/ffnord-alfred-announce-mz/announce.sh -i mzBR -b mzBAT -u /var/run/alfred-mz.sock > /dev/null 2>&1
-* * * * * /home/admin/clones/ffnord-alfred-announce-wi/announce.sh -i wiBR -b wiBAT -u /var/run/alfred-wi.sock > /dev/null 2>&1
+#* * * * * /home/admin/clones/ffnord-alfred-announce-wi/announce.sh -i wiBR -b wiBAT -u /var/run/alfred-wi.sock > /dev/null 2>&1
 # backend-scripts
 */5 * * * * /usr/bin/python3 $HOME/clones/backend-scripts/draw_traffic_all.py > $HOME/.cronlog/draw_traffic.log
 */5 * * * * /usr/bin/python3 $HOME/clones/backend-scripts/check_bind_gw.py > $HOME/.cronlog/check_bind.log
