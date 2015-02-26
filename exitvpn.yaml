@@ -2,15 +2,15 @@ accounts:
     a: &A
         login: '734176605863'
         provider: 'mullvad'
-        until: '26.02.2015'
+        until: '29.03.2015'
     b: &B
         login: 'ffmz'
         provider: 'ipredator'
         until: '06.03.2015'
     c: &C
-        login: 'vorstand2'
+        login: 'kasperle'
         provider: 'hide.me'
-        until: '27.02.2015'
+        until: '29.03.2015'
 conf:
     warndays: 10
     digestday: 1
