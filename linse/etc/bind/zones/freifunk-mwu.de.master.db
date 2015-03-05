@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2014123001		; Serial
+		     2015030401		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -37,6 +37,8 @@ gate23		IN	CNAME	lotuswurzel
 ; aubergine
 map		IN	A	144.76.209.103
 map		IN	AAAA	2a01:4f8:192:523::b4dc:4b1e
+testmap		IN	CNAME	map
+devmap		IN	CNAME	map
 
 ; freifunk-mwu.de mail
 aubergine	IN	A	144.76.209.103
