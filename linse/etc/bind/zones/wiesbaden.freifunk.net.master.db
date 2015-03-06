@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2015030505		; Serial
+		     2015030603		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -16,27 +16,8 @@ $TTL	3600
 @		IN	A	95.143.172.219
 @		IN	AAAA	2001:1a50:11:0:5f:8f:acdb:13b
 
-www		IN	A	95.143.172.219
-www		IN	AAAA	2001:1a50:11:0:5f:8f:acdb:13b
-
-api		IN	CNAME	www
-danke		IN	CNAME	www
-yeah		IN	CNAME	www
-stats		IN	CNAME	www
-test		IN	CNAME	www
-
-; nodemap
-; aubergine
-map		IN	A	144.76.209.103
-map		IN	AAAA	2a01:4f8:192:523::b4dc:4b1e
-
-; firmware
-; hinterschinken
-firmware	IN	A	94.23.58.68
-firmware	IN	AAAA	2001:41d0:2:3b44::1
-; spinat
-firmware	IN	A	89.238.67.196
-firmware	IN	AAAA	2a00:1828:2000:182::2
-; lotuswurzel
-firmware	IN	A	144.76.209.100
-firmware	IN	AAAA	2a01:4f8:192:520::b4dc:4b1e
+; services and stuff
+www		IN	CNAME	octans.uberspace.de.
+danke		IN	CNAME	octans.uberspace.de.
+firmware	IN	CNAME	firmware.freifunk-mwu.de.
+map		IN	CNAME	aubergine.freifunk-mwu.de.
