@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2015012301		; Serial
+		     2015030602		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -17,61 +17,41 @@ $TTL	3600
 @		MX	10	lacerta.uberspace.de.
 
 @		IN	A	95.143.172.211
-@		IN	AAAA	2001:1a50:11:0:5f:8f:acd3:1cc
+@		IN	AAAA	2001:1a50:11:0:5f:8f:ac:d3
 
 ; gluon gateways
-hinterschinken	IN	A	94.23.58.68
-hinterschinken	IN	AAAA	2001:41d0:2:3b44::1
-gate05		IN	CNAME	hinterschinken
-
-spinat          IN      A       89.238.67.196
-spinat          IN      AAAA    2a00:1828:2000:182::2
-gate07          IN      CNAME   spinat
-
-lotuswurzel	IN	A	144.76.209.100
-lotuswurzel	IN	AAAA	2a01:4f8:192:520::b4dc:4b1e
-gate23		IN	CNAME	lotuswurzel
+hinterschinken	IN	CNAME	hinterschinken.freifunk-mwu.de.
+gate05		IN	CNAME	hinterschinken.freifunk-mwu.de.
+spinat          IN      CNAME	spinat.freifunk-mwu.de.
+gate07          IN      CNAME   spinat.freifunk-mwu.de.
+lotuswurzel	IN	CNAME	lotuswurzel.freifunk-mwu.de.
+gate23		IN	CNAME	lotuswurzel.freifunk-mwu.de.
 
 ; legacy gateways
 gate2		IN	A	89.238.78.70
 mettigel	IN	A	5.45.106.31
 
 ; services and stuff
-www		IN	A	95.143.172.211
-www		IN	AAAA	2001:1a50:11:0:5f:8f:acd3:1cc
-
-wiki		IN	CNAME	www
-event		IN	CNAME	www
-pad		IN	CNAME	www
-blog		IN	CNAME	www
-ffapi		IN	CNAME	www
-images		IN	CNAME	www
-media		IN	CNAME	www
-s		IN	CNAME	www
+www		IN	CNAME	lacerta.uberspace.de.
+wiki		IN	CNAME	lacerta.uberspace.de.
+event		IN	CNAME	lacerta.uberspace.de.
+pad		IN	CNAME	lacerta.uberspace.de.
+blog		IN	CNAME	lacerta.uberspace.de.
+ffapi		IN	CNAME	lacerta.uberspace.de.
+api		IN	CNAME	lacerta.uberspace.de.
+media		IN	CNAME	lacerta.uberspace.de.
+s		IN	CNAME	lacerta.uberspace.de.
 map		IN	CNAME	gate2
+; legacymap		IN	CNAME	gate2
 
 ; gluon map
-; aubergine
-gluonmap	IN	A	144.76.209.103
-gluonmap	IN	AAAA	2a01:4f8:192:523::b4dc:4b1e
+gluonmap	IN	CNAME	aubergine.freifunk-mwu.de.
+;map		IN	CNAME	aubergine.freifunk-mwu.de.
 
 ; firmware
-; hinterschinken
-firmware	IN	A	94.23.58.68
-firmware	IN	AAAA	2001:41d0:2:3b44::1
-; spinat
-firmware	IN	A	89.238.67.196
-firmware	IN	AAAA	2a00:1828:2000:182::2
-; lotuswurzel
-firmware	IN	A	144.76.209.100
-firmware	IN	AAAA	2a01:4f8:192:520::b4dc:4b1e
-
-pudding		IN	CNAME	morgo.igeh.me.
+firmware	IN	CNAME	firmware.freifunk-mwu.de.
+images		IN	CNAME	lacerta.uberspace.de.
 
 ; IC-VPN
-ic-mainz1	IN	CNAME	hinterschinken
-ic-mainz2	IN	CNAME	spinat
-
-; wildcard catchall for all undefined hosts - TODO: get rid of this!
-;*		IN	A	95.143.172.211
-;*		IN	AAAA	2001:1a50:11:0:5f:8f:acd3:1cc
+ic-mainz1	IN	CNAME	hinterschinken.freifunk-mwu.de.
+ic-mainz2	IN	CNAME	spinat.freifunk-mwu.de.
