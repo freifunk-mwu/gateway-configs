@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2015030602		; Serial
+		     2015030603		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -41,12 +41,10 @@ ffapi		IN	CNAME	lacerta.uberspace.de.
 api		IN	CNAME	lacerta.uberspace.de.
 media		IN	CNAME	lacerta.uberspace.de.
 s		IN	CNAME	lacerta.uberspace.de.
-map		IN	CNAME	gate2
-; legacymap		IN	CNAME	gate2
+legacymap	IN	CNAME	gate2
 
 ; gluon map
-gluonmap	IN	CNAME	aubergine.freifunk-mwu.de.
-;map		IN	CNAME	aubergine.freifunk-mwu.de.
+map		IN	CNAME	aubergine.freifunk-mwu.de.
 
 ; firmware
 firmware	IN	CNAME	firmware.freifunk-mwu.de.
