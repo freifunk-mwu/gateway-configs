@@ -32,7 +32,6 @@ www		IN	CNAME	octans.uberspace.de.
 ffapi		IN	CNAME	octans.uberspace.de.
 api		IN	CNAME	octans.uberspace.de.
 stats		IN	CNAME	octans.uberspace.de.
-yeah		IN	CNAME	octans.uberspace.de.
 test		IN	CNAME	octans.uberspace.de.
 
 ; IC-VPN
