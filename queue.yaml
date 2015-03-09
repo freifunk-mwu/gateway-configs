@@ -1,8 +1,11 @@
 locations:
 - /etc/aliases
 - /etc/apache2/sites-enabled
+- /etc/bind/ffmz
+- /etc/bind/ffwi
 - /etc/bind/named.conf
 - /etc/bind/named.conf.default-zones
+- /etc/bind/named.conf.icvpn
 - /etc/bind/named.conf.local
 - /etc/bind/named.conf.logging
 - /etc/bind/named.conf.options
