@@ -3,7 +3,7 @@ $ORIGIN 56.10.in-addr.arpa.
 ;
 $TTL    600
 @       IN      SOA     spinat.ffwi.org. hostmaster.ffwi.org. (
-                     2015021801         ; Serial
+                     2015030901         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -19,3 +19,8 @@ $TTL    600
 23.0    PTR     lotuswurzel.ffwi.org.
 42.0    PTR     parmesan.ffwi.org.
 3.1	PTR	aubergine.ffwi.org.
+
+; user services
+1.4	PTR	antigua.user.ffwi.org.
+99.4	PTR	piratebox.user.ffwi.org.
+100.4	PTR	vdr.user.ffwi.org.
