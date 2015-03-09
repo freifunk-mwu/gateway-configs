@@ -1,0 +1,22 @@
+$ORIGIN user.ffwi.org.
+; BIND data file for zone ffwi.org.
+;
+$TTL    600
+@       IN      SOA     spinat.ffwi.org. hostmaster.ffwi.org. (
+                     2015022201         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+
+; ns servers
+@       IN      NS      hinterschinken.ffwi.org. 
+@       IN      NS      spinat.ffwi.org.
+@       IN      NS      lotuswurzel.ffwi.org.
+
+ipam	IN	A	10.56.4.100
+ipam	IN	AAAA	fd56:b4dc:4b1e::a38:04:64
+vdr	IN	A	10.56.4.100
+vdr	IN	AAAA	fd56:b4dc:4b1e::a38:04:64
+
+antigua	IN	A	10.56.4.1

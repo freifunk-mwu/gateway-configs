@@ -1,0 +1,21 @@
+$ORIGIN 37.10.in-addr.arpa.
+; BIND data file for zone .ffmz.org 
+;
+$TTL    600
+@       IN      SOA     spinat.ffmz.org. hostmaster.ffmz.org. (
+                     2015021801         ; Serial
+                             2h         ; Refresh
+                             1h         ; Retry
+                            41d         ; Expire
+                            300 )       ; Negative Cache TTL
+;
+@       IN      NS      hinterschinken.ffmz.org.
+@       IN      NS      spinat.ffmz.org.
+@       IN      NS      lotuswurzel.ffmz.org.
+
+1.0	PTR	nextnode.ffmz.org.
+5.0     PTR     hinterschinken.ffmz.org.
+7.0     PTR     spinat.ffmz.org.
+23.0    PTR     lotuswurzel.ffmz.org.
+42.0    PTR     parmesan.ffmz.org.
+3.1	PTR	aubergine.ffmz.org.
