@@ -178,15 +178,11 @@ zone "5.8.9.c.c.f.6.3.6.e.d.f.ip6.arpa" {
 # 
 zone "ffhh" {
     type static-stub;
-    server-addresses { 10.112.1.1; fd51:2bb2:fd0d::101; };
+    server-addresses { 10.112.1.1; 2a03:2267::101; };
 };
 zone "112.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.112.1.1; fd51:2bb2:fd0d::101; };
-};
-zone "d.0.d.f.2.b.b.2.1.5.d.f.ip6.arpa" {
-    type static-stub;
-    server-addresses { 10.112.1.1; fd51:2bb2:fd0d::101; };
+    server-addresses { 10.112.1.1; 2a03:2267::101; };
 };
 # 
 # jena
