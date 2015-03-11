@@ -140,8 +140,8 @@ smtpd_helo_restrictions =
 smtpd_sender_restrictions =
         check_sender_access btree:/etc/postfix/access_sender
         check_sender_access cidr:/etc/postfix/bogus_mx
-        check_sender_mx_access cidr:/etc/postfix/reject_bogus_ip.cidr
-        check_sender_ns_access cidr:/etc/postfix/reject_bogus_ip.cidr
+#        check_sender_mx_access cidr:/etc/postfix/reject_bogus_ip.cidr
+#        check_sender_ns_access cidr:/etc/postfix/reject_bogus_ip.cidr
         reject_non_fqdn_sender
         reject_unknown_sender_domain
 
