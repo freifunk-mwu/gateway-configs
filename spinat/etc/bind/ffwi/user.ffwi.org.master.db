@@ -3,7 +3,7 @@ $ORIGIN user.ffwi.org.
 ;
 $TTL    600
 @       IN      SOA     spinat.ffwi.org. hostmaster.ffwi.org. (
-                     2015031103         ; Serial
+                     2015031301         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -19,5 +19,4 @@ piratebox	IN	A	10.56.4.99
 piratebox	IN	AAAA	fd56:b4dc:4b1e::53:9ff:fe02:c0b5
 ipam		IN	AAAA	fd56:b4dc:4b1e::5054:ff:fe79:fded
 vdr		IN	AAAA	fd56:b4dc:4b1e::5054:ff:fe79:fded
-discourse	IN	A	10.56.4.100
-discourse	IN	AAAA	fd56:b4dc:4b1e::5054:ff:feb9:cc67
+vdr		IN	A	10.56.4.100

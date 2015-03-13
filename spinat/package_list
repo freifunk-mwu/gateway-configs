@@ -6,9 +6,9 @@ Desired=Unknown/Install/Remove/Purge/Hold
 ii  adduser                             3.113+nmu3ubuntu3                    all          add and remove users and groups
 ii  alfred                              2014.4.0-0ffmwu1~trusty              amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
 ii  alfred-json                         0.3.1-0ffmwu0~trusty                 amd64        A.L.F.R.E.D client supporting GZIP decompression and JSON, string and binary output
-ii  apache2                             2.4.7-1ubuntu4.1                     amd64        Apache HTTP Server
-ii  apache2-bin                         2.4.7-1ubuntu4.1                     amd64        Apache HTTP Server (binary files and modules)
-ii  apache2-data                        2.4.7-1ubuntu4.1                     all          Apache HTTP Server (common files)
+ii  apache2                             2.4.7-1ubuntu4.4                     amd64        Apache HTTP Server
+ii  apache2-bin                         2.4.7-1ubuntu4.4                     amd64        Apache HTTP Server (binary files and modules)
+ii  apache2-data                        2.4.7-1ubuntu4.4                     all          Apache HTTP Server (common files)
 ii  apt                                 1.0.1ubuntu2.6                       amd64        commandline package manager
 ii  apt-utils                           1.0.1ubuntu2.6                       amd64        package management related utility programs
 ii  apt-xapian-index                    0.45ubuntu4                          all          maintenance and search tools for a Xapian index of Debian packages
@@ -370,8 +370,8 @@ ii  linux-headers-3.13.0-40             3.13.0-40.69                         all
 ii  linux-headers-3.13.0-40-generic     3.13.0-40.69                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-45             3.13.0-45.74                         all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-45-generic     3.13.0-45.74                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-46             3.13.0-46.77                         all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-46-generic     3.13.0-46.77                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-3.13.0-46             3.13.0-46.79                         all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-46-generic     3.13.0-46.79                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-generic               3.13.0.46.53                         amd64        Generic Linux kernel headers
 ii  linux-headers-server                3.13.0.46.53                         amd64        Transitional package.
 rc  linux-image-3.13.0-24-generic       3.13.0-24.47                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -382,7 +382,7 @@ rc  linux-image-3.13.0-40-generic       3.13.0-40.69                         amd
 rc  linux-image-3.13.0-43-generic       3.13.0-43.72                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-44-generic       3.13.0-44.73                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-45-generic       3.13.0-45.74                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-46-generic       3.13.0-46.77                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-3.13.0-46-generic       3.13.0-46.79                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-24-generic 3.13.0-24.47                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-35-generic 3.13.0-35.62                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-37-generic 3.13.0-37.64                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
@@ -391,11 +391,11 @@ rc  linux-image-extra-3.13.0-40-generic 3.13.0-40.69                         amd
 rc  linux-image-extra-3.13.0-43-generic 3.13.0-43.72                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-44-generic 3.13.0-44.73                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-45-generic 3.13.0-45.74                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-46-generic 3.13.0-46.77                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-extra-3.13.0-46-generic 3.13.0-46.79                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-generic                 3.13.0.46.53                         amd64        Generic Linux kernel image
-ii  linux-libc-dev:amd64                3.13.0-46.77                         amd64        Linux Kernel Headers for development
+ii  linux-libc-dev:amd64                3.13.0-46.79                         amd64        Linux Kernel Headers for development
 ii  linux-source                        3.13.0.46.53                         all          Linux kernel source with Ubuntu patches
-ii  linux-source-3.13.0                 3.13.0-46.77                         all          Linux kernel source for version 3.13.0 with Ubuntu patches
+ii  linux-source-3.13.0                 3.13.0-46.79                         all          Linux kernel source for version 3.13.0 with Ubuntu patches
 ii  locales                             2.13+git20120306-12.1                all          common files for locale support
 ii  lockfile-progs                      0.1.17                               amd64        Programs for locking and unlocking files and mailboxes
 ii  login                               1:4.1.5.1-1ubuntu9                   amd64        system login tools
