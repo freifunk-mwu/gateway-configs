@@ -358,7 +358,7 @@ ii  libnih-dbus1:amd64                  1.0.3-4ubuntu25                      amd
 ii  libnih1:amd64                       1.0.3-4ubuntu25                      amd64        NIH Utility Library
 ii  libnl-3-200:amd64                   3.2.21-1                             amd64        library for dealing with netlink sockets
 ii  libnl-genl-3-200:amd64              3.2.21-1                             amd64        library for dealing with netlink sockets - generic netlink
-ii  libnuma1:amd64                      2.0.9~rc5-1ubuntu2                   amd64        Libraries for controlling NUMA policy
+ii  libnuma1:amd64                      2.0.9~rc5-1ubuntu3                   amd64        Libraries for controlling NUMA policy
 ii  libopenexr6:amd64                   1.6.1-7ubuntu1                       amd64        runtime files for the OpenEXR image library
 ii  libopts25:amd64                     1:5.18-2ubuntu2                      amd64        automated option processing library based on autogen
 ii  libp11-kit0:amd64                   0.20.2-2ubuntu2                      amd64        Library for loading and coordinating access to PKCS#11 modules - runtime
