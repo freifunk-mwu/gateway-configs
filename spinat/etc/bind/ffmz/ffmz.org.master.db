@@ -3,7 +3,7 @@ $ORIGIN ffmz.org.
 ;
 $TTL    600
 @       IN      SOA     spinat.ffmz.org. hostmaster.ffmz.org. (
-                     2015030801         ; Serial
+                     2015031401         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -60,6 +60,9 @@ firmware		IN	AAAA	fd37:b4dc:4b1e::a25:17
 ; freifunk services
 stats                   IN      A       10.37.1.5
 ostats                  IN      A       10.37.1.5
+yellowpages             IN      A       10.37.1.7
+yp                      IN      A       10.37.1.7
+suche                   IN      A       10.37.1.7
 wackelpeter		IN	A	10.37.4.23
 
 ; freifunk backbone
