@@ -16,8 +16,8 @@ protocol bgp berlin2 from ebgp_ic {
 protocol bgp bielefeld1 from ebgp_ic {
     neighbor fec0::a:cf:0:59 as 65529;
 }
-protocol bgp bielefeld2 from ebgp_ic {
-    neighbor fec0::a:cf:0:60 as 65529;
+protocol bgp bielefeld4 from ebgp_ic {
+    neighbor fec0::a:cf:0:42 as 65529;
 }
 protocol bgp braunschweig1 from ebgp_ic {
     neighbor fec0::a:cf:0:28 as 65380;
