@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2015030901		; Serial
+		     2015031601		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -29,6 +29,7 @@ gate23		IN	CNAME	lotuswurzel.freifunk-mwu.de.
 
 ; services and stuff
 www		IN	CNAME	octans.uberspace.de.
+blog		IN	CNAME	octans.uberspace.de.
 ffapi		IN	CNAME	octans.uberspace.de.
 api		IN	CNAME	octans.uberspace.de.
 stats		IN	CNAME	octans.uberspace.de.
