@@ -74,15 +74,15 @@ zone "8.10.in-addr.arpa" {
 # 
 zone "ffda" {
     type static-stub;
-    server-addresses { 10.223.0.1; 10.223.0.2; fdca:ffee:ffda::1; fdca:ffee:ffda::2; };
+    server-addresses { 10.223.0.1; 10.223.0.2; 10.223.0.3; 10.223.0.4; fdca:ffee:ffda::1; fdca:ffee:ffda::2; fdca:ffee:ffda::3; fdca:ffee:ffda::4; };
 };
 zone "a.d.f.f.e.e.f.f.a.c.d.f.ip6.arpa" {
     type static-stub;
-    server-addresses { 10.223.0.1; 10.223.0.2; fdca:ffee:ffda::1; fdca:ffee:ffda::2; };
+    server-addresses { 10.223.0.1; 10.223.0.2; 10.223.0.3; 10.223.0.4; fdca:ffee:ffda::1; fdca:ffee:ffda::2; fdca:ffee:ffda::3; fdca:ffee:ffda::4; };
 };
 zone "223.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.223.0.1; 10.223.0.2; fdca:ffee:ffda::1; fdca:ffee:ffda::2; };
+    server-addresses { 10.223.0.1; 10.223.0.2; 10.223.0.3; 10.223.0.4; fdca:ffee:ffda::1; fdca:ffee:ffda::2; fdca:ffee:ffda::3; fdca:ffee:ffda::4; };
 };
 # 
 # diepholz
@@ -226,15 +226,15 @@ zone "116.10.in-addr.arpa" {
 # 
 zone "ffhl" {
     type static-stub;
-    server-addresses { fdef:ffc0:3dd7::a01; fdef:ffc0:3dd7::c01; fdef:ffc0:3dd7::e01; 10.130.0.253; 10.130.0.254; 10.130.0.255; };
+    server-addresses { fdef:ffc0:3dd7::801; fdef:ffc0:3dd7::a01; fdef:ffc0:3dd7::c01; fdef:ffc0:3dd7::e01; 10.130.0.252; 10.130.0.253; 10.130.0.254; 10.130.0.255; };
 };
 zone "7.d.d.3.0.c.f.f.f.e.d.f.ip6.arpa" {
     type static-stub;
-    server-addresses { fdef:ffc0:3dd7::a01; fdef:ffc0:3dd7::c01; fdef:ffc0:3dd7::e01; 10.130.0.253; 10.130.0.254; 10.130.0.255; };
+    server-addresses { fdef:ffc0:3dd7::801; fdef:ffc0:3dd7::a01; fdef:ffc0:3dd7::c01; fdef:ffc0:3dd7::e01; 10.130.0.252; 10.130.0.253; 10.130.0.254; 10.130.0.255; };
 };
 zone "130.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { fdef:ffc0:3dd7::a01; fdef:ffc0:3dd7::c01; fdef:ffc0:3dd7::e01; 10.130.0.253; 10.130.0.254; 10.130.0.255; };
+    server-addresses { fdef:ffc0:3dd7::801; fdef:ffc0:3dd7::a01; fdef:ffc0:3dd7::c01; fdef:ffc0:3dd7::e01; 10.130.0.252; 10.130.0.253; 10.130.0.254; 10.130.0.255; };
 };
 # 
 # nordwest
