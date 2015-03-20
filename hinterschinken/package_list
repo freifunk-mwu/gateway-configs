@@ -189,7 +189,7 @@ ii  libapt-pkg4.12:amd64                1.0.1ubuntu2.6                       amd
 ii  libarchive-extract-perl             0.70-1                               all          generic archive extracting module
 ii  libarchive13:amd64                  3.1.2-7ubuntu2                       amd64        Multi-format archive and compression library (shared library)
 ii  libasan0:amd64                      4.8.2-19ubuntu1                      amd64        AddressSanitizer -- a fast memory error detector
-ii  libasn1-8-heimdal:amd64             1.6~git20131207+dfsg-1ubuntu1        amd64        Heimdal Kerberos - ASN.1 library
+ii  libasn1-8-heimdal:amd64             1.6~git20131207+dfsg-1ubuntu1.1      amd64        Heimdal Kerberos - ASN.1 library
 ii  libasprintf0c2:amd64                0.18.3.1-1ubuntu3                    amd64        GNU library to use fprintf and friends in C++
 ii  libatomic1:amd64                    4.8.2-19ubuntu1                      amd64        support library providing __atomic built-in functions
 ii  libattr1:amd64                      1:2.4.47-1ubuntu1                    amd64        Extended attribute shared library
@@ -283,12 +283,12 @@ ii  libgraphite2-3:amd64                1.2.4-1ubuntu1                       amd
 ii  libgs9                              9.10~dfsg-0ubuntu10.2                amd64        interpreter for the PostScript language and for PDF - Library
 ii  libgs9-common                       9.10~dfsg-0ubuntu10.2                all          interpreter for the PostScript language and for PDF - common files
 ii  libgssapi-krb5-2:amd64              1.12+dfsg-2ubuntu5.1                 amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
-ii  libgssapi3-heimdal:amd64            1.6~git20131207+dfsg-1ubuntu1        amd64        Heimdal Kerberos - GSSAPI support library
+ii  libgssapi3-heimdal:amd64            1.6~git20131207+dfsg-1ubuntu1.1      amd64        Heimdal Kerberos - GSSAPI support library
 ii  libharfbuzz0b:amd64                 0.9.27-1ubuntu1                      amd64        OpenType text shaping engine (shared library)
-ii  libhcrypto4-heimdal:amd64           1.6~git20131207+dfsg-1ubuntu1        amd64        Heimdal Kerberos - crypto library
-ii  libheimbase1-heimdal:amd64          1.6~git20131207+dfsg-1ubuntu1        amd64        Heimdal Kerberos - Base library
-ii  libheimntlm0-heimdal:amd64          1.6~git20131207+dfsg-1ubuntu1        amd64        Heimdal Kerberos - NTLM support library
-ii  libhx509-5-heimdal:amd64            1.6~git20131207+dfsg-1ubuntu1        amd64        Heimdal Kerberos - X509 support library
+ii  libhcrypto4-heimdal:amd64           1.6~git20131207+dfsg-1ubuntu1.1      amd64        Heimdal Kerberos - crypto library
+ii  libheimbase1-heimdal:amd64          1.6~git20131207+dfsg-1ubuntu1.1      amd64        Heimdal Kerberos - Base library
+ii  libheimntlm0-heimdal:amd64          1.6~git20131207+dfsg-1ubuntu1.1      amd64        Heimdal Kerberos - NTLM support library
+ii  libhx509-5-heimdal:amd64            1.6~git20131207+dfsg-1ubuntu1.1      amd64        Heimdal Kerberos - X509 support library
 ii  libice6:amd64                       2:1.0.8-2                            amd64        X11 Inter-Client Exchange library
 ii  libidn11:amd64                      1.28-1ubuntu2                        amd64        GNU Libidn library, implementation of IETF IDN specifications
 ii  libijs-0.35                         0.35-8build1                         amd64        IJS raster image transport protocol: shared library
@@ -314,7 +314,7 @@ ii  libk5crypto3:amd64                  1.12+dfsg-2ubuntu5.1                 amd
 ii  libkeyutils1:amd64                  1.5.6-1                              amd64        Linux Key Management Utilities (library)
 ii  libklibc                            2.0.3-0ubuntu1                       amd64        minimal libc subset for use with initramfs
 ii  libkmod2:amd64                      15-0ubuntu6                          amd64        libkmod shared library
-ii  libkrb5-26-heimdal:amd64            1.6~git20131207+dfsg-1ubuntu1        amd64        Heimdal Kerberos - libraries
+ii  libkrb5-26-heimdal:amd64            1.6~git20131207+dfsg-1ubuntu1.1      amd64        Heimdal Kerberos - libraries
 ii  libkrb5-3:amd64                     1.12+dfsg-2ubuntu5.1                 amd64        MIT Kerberos runtime libraries
 ii  libkrb5support0:amd64               1.12+dfsg-2ubuntu5.1                 amd64        MIT Kerberos runtime libraries - Support library
 ii  liblcms2-2:amd64                    2.5-0ubuntu4                         amd64        Little CMS 2 color management library
@@ -407,7 +407,7 @@ ii  libquadmath0:amd64                  4.8.2-19ubuntu1                      amd
 ii  libreadline5:amd64                  5.2+dfsg-2                           amd64        GNU readline and history libraries, run-time libraries
 ii  libreadline6:amd64                  6.3-4ubuntu2                         amd64        GNU readline and history libraries, run-time libraries
 ii  librecode0:amd64                    3.6-21                               amd64        Shared library on which recode is based
-ii  libroken18-heimdal:amd64            1.6~git20131207+dfsg-1ubuntu1        amd64        Heimdal Kerberos - roken support library
+ii  libroken18-heimdal:amd64            1.6~git20131207+dfsg-1ubuntu1.1      amd64        Heimdal Kerberos - roken support library
 ii  librrd4                             1.4.7-2ubuntu5                       amd64        time-series data storage and display system (runtime library)
 ii  librsvg2-2:amd64                    2.40.2-1                             amd64        SAX-based renderer library for SVG files (runtime)
 ii  librsvg2-common:amd64               2.40.2-1                             amd64        SAX-based renderer library for SVG files (extra runtime)
@@ -427,9 +427,9 @@ ii  libslang2:amd64                     2.2.4-15ubuntu1                      amd
 ii  libsm6:amd64                        2:1.2.1-2                            amd64        X11 Session Management library
 ii  libsqlite3-0:amd64                  3.8.2-1ubuntu2                       amd64        SQLite 3 shared library
 ii  libss2:amd64                        1.42.9-3ubuntu1.2                    amd64        command-line interface parsing library
-ii  libssl-dev:amd64                    1.0.1f-1ubuntu2.8                    amd64        Secure Sockets Layer toolkit - development files
-ii  libssl-doc                          1.0.1f-1ubuntu2.8                    all          Secure Sockets Layer toolkit - development documentation
-ii  libssl1.0.0:amd64                   1.0.1f-1ubuntu2.8                    amd64        Secure Sockets Layer toolkit - shared libraries
+ii  libssl-dev:amd64                    1.0.1f-1ubuntu2.11                   amd64        Secure Sockets Layer toolkit - development files
+ii  libssl-doc                          1.0.1f-1ubuntu2.11                   all          Secure Sockets Layer toolkit - development documentation
+ii  libssl1.0.0:amd64                   1.0.1f-1ubuntu2.11                   amd64        Secure Sockets Layer toolkit - shared libraries
 ii  libstdc++-4.8-dev:amd64             4.8.2-19ubuntu1                      amd64        GNU Standard C++ Library v3 (development files)
 ii  libstdc++6:amd64                    4.8.2-19ubuntu1                      amd64        GNU Standard C++ Library v3
 ii  libsub-name-perl                    0.05-1build4                         amd64        module for assigning a new name to referenced sub
@@ -463,7 +463,7 @@ ii  libuuid1:amd64                      2.20.1-5.1ubuntu20.4                 amd
 ii  libv8-3.14-dev                      3.14.5.8-5ubuntu2                    amd64        V8 JavaScript engine - development files for 3.14 branch
 ii  libv8-3.14.5                        3.14.5.8-5ubuntu2                    amd64        V8 JavaScript engine - runtime library
 ii  libvpx1:amd64                       1.3.0-2                              amd64        VP8 video codec (shared library)
-ii  libwind0-heimdal:amd64              1.6~git20131207+dfsg-1ubuntu1        amd64        Heimdal Kerberos - stringprep implementation
+ii  libwind0-heimdal:amd64              1.6~git20131207+dfsg-1ubuntu1.1      amd64        Heimdal Kerberos - stringprep implementation
 ii  libwmf0.2-7:amd64                   0.2.8.4-10.3ubuntu1                  amd64        Windows metafile conversion library
 ii  libwrap0:amd64                      7.6.q-25                             amd64        Wietse Venema's TCP wrappers library
 ii  libx11-6:amd64                      2:1.6.2-1ubuntu2                     amd64        X11 client-side library
@@ -588,7 +588,7 @@ ii  ntpdate                             1:4.2.6.p5+dfsg-3ubuntu2.14.04.2     amd
 ii  openssh-client                      1:6.6p1-2ubuntu2                     amd64        secure shell (SSH) client, for secure access to remote machines
 ii  openssh-server                      1:6.6p1-2ubuntu2                     amd64        secure shell (SSH) server, for secure access from remote machines
 ii  openssh-sftp-server                 1:6.6p1-2ubuntu2                     amd64        secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii  openssl                             1.0.1f-1ubuntu2.8                    amd64        Secure Sockets Layer toolkit - cryptographic utility
+ii  openssl                             1.0.1f-1ubuntu2.11                   amd64        Secure Sockets Layer toolkit - cryptographic utility
 ii  openvpn                             2.3.2-7ubuntu3.1                     amd64        virtual private network daemon
 ii  os-prober                           1.63ubuntu1                          amd64        utility to detect other OSes on a set of drives
 ii  parted                              2.3-19ubuntu1                        amd64        disk partition manipulator
