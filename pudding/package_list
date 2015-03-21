@@ -178,7 +178,7 @@ ii  libapt-pkg4.12:amd64                1.0.1ubuntu2.6                       amd
 ii  libarchive-extract-perl             0.70-1                               all          generic archive extracting module
 ii  libarchive13:amd64                  3.1.2-7ubuntu2                       amd64        Multi-format archive and compression library (shared library)
 ii  libasan0:amd64                      4.8.2-19ubuntu1                      amd64        AddressSanitizer -- a fast memory error detector
-ii  libasn1-8-heimdal:amd64             1.6~git20131207+dfsg-1ubuntu1        amd64        Heimdal Kerberos - ASN.1 library
+ii  libasn1-8-heimdal:amd64             1.6~git20131207+dfsg-1ubuntu1.1      amd64        Heimdal Kerberos - ASN.1 library
 ii  libasprintf-dev:amd64               0.18.3.1-1ubuntu3                    amd64        GNU Internationalization library development files
 ii  libasprintf0c2:amd64                0.18.3.1-1ubuntu3                    amd64        GNU library to use fprintf and friends in C++
 ii  libatomic1:amd64                    4.8.2-19ubuntu1                      amd64        support library providing __atomic built-in functions
@@ -280,12 +280,12 @@ ii  libgpg-error0:amd64                 1.12-0.2ubuntu1                      amd
 ii  libgpm2:amd64                       1.20.4-6.1                           amd64        General Purpose Mouse - shared library
 ii  libgraphite2-3:amd64                1.2.4-1ubuntu1                       amd64        Font rendering engine for Complex Scripts -- library
 ii  libgssapi-krb5-2:amd64              1.12+dfsg-2ubuntu5.1                 amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
-ii  libgssapi3-heimdal:amd64            1.6~git20131207+dfsg-1ubuntu1        amd64        Heimdal Kerberos - GSSAPI support library
+ii  libgssapi3-heimdal:amd64            1.6~git20131207+dfsg-1ubuntu1.1      amd64        Heimdal Kerberos - GSSAPI support library
 ii  libgssrpc4:amd64                    1.12+dfsg-2ubuntu5.1                 amd64        MIT Kerberos runtime libraries - GSS enabled ONCRPC
 ii  libharfbuzz0b:amd64                 0.9.27-1ubuntu1                      amd64        OpenType text shaping engine (shared library)
-ii  libhcrypto4-heimdal:amd64           1.6~git20131207+dfsg-1ubuntu1        amd64        Heimdal Kerberos - crypto library
-ii  libheimbase1-heimdal:amd64          1.6~git20131207+dfsg-1ubuntu1        amd64        Heimdal Kerberos - Base library
-ii  libheimntlm0-heimdal:amd64          1.6~git20131207+dfsg-1ubuntu1        amd64        Heimdal Kerberos - NTLM support library
+ii  libhcrypto4-heimdal:amd64           1.6~git20131207+dfsg-1ubuntu1.1      amd64        Heimdal Kerberos - crypto library
+ii  libheimbase1-heimdal:amd64          1.6~git20131207+dfsg-1ubuntu1.1      amd64        Heimdal Kerberos - Base library
+ii  libheimntlm0-heimdal:amd64          1.6~git20131207+dfsg-1ubuntu1.1      amd64        Heimdal Kerberos - NTLM support library
 ii  libhtml-form-perl                   6.03-1                               all          module that represents an HTML form element
 ii  libhtml-format-perl                 2.11-1                               all          module for transforming HTML into various formats
 ii  libhtml-parser-perl                 3.71-1build1                         amd64        collection of modules that parse HTML text documents
@@ -298,7 +298,7 @@ ii  libhttp-date-perl                   6.02-1                               all
 ii  libhttp-message-perl                6.06-1                               all          perl interface to HTTP style messages
 ii  libhttp-negotiate-perl              6.00-2                               all          implementation of content negotiation
 ii  libhttp-server-simple-perl          0.44-1                               all          simple stand-alone HTTP server
-ii  libhx509-5-heimdal:amd64            1.6~git20131207+dfsg-1ubuntu1        amd64        Heimdal Kerberos - X509 support library
+ii  libhx509-5-heimdal:amd64            1.6~git20131207+dfsg-1ubuntu1.1      amd64        Heimdal Kerberos - X509 support library
 ii  libidn11:amd64                      1.28-1ubuntu2                        amd64        GNU Libidn library, implementation of IETF IDN specifications
 ii  libidn11-dev                        1.28-1ubuntu2                        amd64        Development files for GNU Libidn, an IDN library
 rc  libiksemel3                         1.2-4.2                              amd64        C library for the Jabber IM platform
@@ -325,7 +325,7 @@ ii  libkdb5-7:amd64                     1.12+dfsg-2ubuntu5.1                 amd
 ii  libkeyutils1:amd64                  1.5.6-1                              amd64        Linux Key Management Utilities (library)
 ii  libklibc                            2.0.3-0ubuntu1                       amd64        minimal libc subset for use with initramfs
 ii  libkmod2:amd64                      15-0ubuntu6                          amd64        libkmod shared library
-ii  libkrb5-26-heimdal:amd64            1.6~git20131207+dfsg-1ubuntu1        amd64        Heimdal Kerberos - libraries
+ii  libkrb5-26-heimdal:amd64            1.6~git20131207+dfsg-1ubuntu1.1      amd64        Heimdal Kerberos - libraries
 ii  libkrb5-3:amd64                     1.12+dfsg-2ubuntu5.1                 amd64        MIT Kerberos runtime libraries
 ii  libkrb5-dev                         1.12+dfsg-2ubuntu5.1                 amd64        Headers and development libraries for MIT Kerberos
 ii  libkrb5support0:amd64               1.12+dfsg-2ubuntu5.1                 amd64        MIT Kerberos runtime libraries - Support library
@@ -419,7 +419,7 @@ ii  libquadmath0:amd64                  4.8.2-19ubuntu1                      amd
 ii  libreadline5:amd64                  5.2+dfsg-2                           amd64        GNU readline and history libraries, run-time libraries
 ii  libreadline6:amd64                  6.3-4ubuntu2                         amd64        GNU readline and history libraries, run-time libraries
 ii  libreadline6-dev:amd64              6.3-4ubuntu2                         amd64        GNU readline and history libraries, development files
-ii  libroken18-heimdal:amd64            1.6~git20131207+dfsg-1ubuntu1        amd64        Heimdal Kerberos - roken support library
+ii  libroken18-heimdal:amd64            1.6~git20131207+dfsg-1ubuntu1.1      amd64        Heimdal Kerberos - roken support library
 ii  librrd4                             1.4.7-2ubuntu5                       amd64        time-series data storage and display system (runtime library)
 ii  librrds-perl                        1.4.7-2ubuntu5                       amd64        time-series data storage and display system (Perl interface, shared)
 ii  librtmp-dev                         2.4+20121230.gitdf6c518-1            amd64        toolkit for RTMP streams (development files)
@@ -446,8 +446,8 @@ ii  libsqlite3-0:amd64                  3.8.2-1ubuntu2                       amd
 ii  libsqlite3-dev:amd64                3.8.2-1ubuntu2                       amd64        SQLite 3 development files
 ii  libss2:amd64                        1.42.9-3ubuntu1.2                    amd64        command-line interface parsing library
 rc  libssh2-1:amd64                     1.4.3-2                              amd64        SSH2 client-side library
-ii  libssl-dev:amd64                    1.0.1f-1ubuntu2.8                    amd64        Secure Sockets Layer toolkit - development files
-ii  libssl1.0.0:amd64                   1.0.1f-1ubuntu2.8                    amd64        Secure Sockets Layer toolkit - shared libraries
+ii  libssl-dev:amd64                    1.0.1f-1ubuntu2.11                   amd64        Secure Sockets Layer toolkit - development files
+ii  libssl1.0.0:amd64                   1.0.1f-1ubuntu2.11                   amd64        Secure Sockets Layer toolkit - shared libraries
 ii  libstdc++-4.8-dev:amd64             4.8.2-19ubuntu1                      amd64        GNU Standard C++ Library v3 (development files)
 ii  libstdc++6:amd64                    4.8.2-19ubuntu1                      amd64        GNU Standard C++ Library v3
 ii  libsub-name-perl                    0.05-1build4                         amd64        module for assigning a new name to referenced sub
@@ -483,7 +483,7 @@ ii  libustr-1.0-1:amd64                 1.0.4-3ubuntu2                       amd
 ii  libutempter0                        1.1.5-4build1                        amd64        A privileged helper for utmp/wtmp updates (runtime)
 ii  libuuid1:amd64                      2.20.1-5.1ubuntu20.4                 amd64        Universally Unique ID library
 ii  libvpx1:amd64                       1.3.0-2                              amd64        VP8 video codec (shared library)
-ii  libwind0-heimdal:amd64              1.6~git20131207+dfsg-1ubuntu1        amd64        Heimdal Kerberos - stringprep implementation
+ii  libwind0-heimdal:amd64              1.6~git20131207+dfsg-1ubuntu1.1      amd64        Heimdal Kerberos - stringprep implementation
 ii  libwrap0:amd64                      7.6.q-25                             amd64        Wietse Venema's TCP wrappers library
 ii  libwww-perl                         6.05-2                               all          simple and consistent interface to the world-wide web
 ii  libwww-robotrules-perl              6.01-1                               all          database of robots.txt-derived permissions
@@ -531,6 +531,8 @@ ii  linux-headers-3.13.0-40             3.13.0-40.69                         all
 ii  linux-headers-3.13.0-40-generic     3.13.0-40.69                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-43             3.13.0-43.72                         all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-43-generic     3.13.0-43.72                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-3.13.0-44             3.13.0-44.73                         all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-44-generic     3.13.0-44.73                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-45             3.13.0-45.74                         all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-45-generic     3.13.0-45.74                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-46             3.13.0-46.79                         all          Header files related to Linux kernel version 3.13.0
@@ -565,6 +567,8 @@ ii  linux-tools-3.13.0-40               3.13.0-40.69                         amd
 ii  linux-tools-3.13.0-40-generic       3.13.0-40.69                         amd64        Linux kernel version specific tools for version 3.13.0-40
 ii  linux-tools-3.13.0-43               3.13.0-43.72                         amd64        Linux kernel version specific tools for version 3.13.0-43
 ii  linux-tools-3.13.0-43-generic       3.13.0-43.72                         amd64        Linux kernel version specific tools for version 3.13.0-43
+ii  linux-tools-3.13.0-44               3.13.0-44.73                         amd64        Linux kernel version specific tools for version 3.13.0-44
+ii  linux-tools-3.13.0-44-generic       3.13.0-44.73                         amd64        Linux kernel version specific tools for version 3.13.0-44
 ii  linux-tools-3.13.0-45               3.13.0-45.74                         amd64        Linux kernel version specific tools for version 3.13.0-45
 ii  linux-tools-3.13.0-45-generic       3.13.0-45.74                         amd64        Linux kernel version specific tools for version 3.13.0-45
 ii  linux-tools-3.13.0-46               3.13.0-46.79                         amd64        Linux kernel version specific tools for version 3.13.0-46
@@ -597,7 +601,7 @@ ii  memtest86+                          4.20-1.1ubuntu8                      amd
 ii  mime-support                        3.54ubuntu1.1                        all          MIME files 'mime.types' & 'mailcap', and support programs
 ii  mlocate                             0.26-1ubuntu1                        amd64        quickly find files on the filesystem based on their name
 ii  module-init-tools                   15-0ubuntu6                          all          transitional dummy package (module-init-tools to kmod)
-ii  monitorix                           3.6.0-izzy1                          all          Monitorix is a system monitoring tool
+ii  monitorix                           3.7.0-izzy1                          all          Monitorix is a system monitoring tool
 ii  mosh                                1.2.4a-1ubuntu1                      amd64        Mobile shell that supports roaming and intelligent local echo
 ii  mount                               2.20.1-5.1ubuntu20.4                 amd64        Tools for mounting and manipulating filesystems
 ii  mountall                            2.53                                 amd64        filesystem mounting tool
@@ -619,7 +623,7 @@ ii  ntpdate                             1:4.2.6.p5+dfsg-3ubuntu2.14.04.2     amd
 ii  openssh-client                      1:6.6p1-2ubuntu2                     amd64        secure shell (SSH) client, for secure access to remote machines
 ii  openssh-server                      1:6.6p1-2ubuntu2                     amd64        secure shell (SSH) server, for secure access from remote machines
 ii  openssh-sftp-server                 1:6.6p1-2ubuntu2                     amd64        secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii  openssl                             1.0.1f-1ubuntu2.8                    amd64        Secure Sockets Layer toolkit - cryptographic utility
+ii  openssl                             1.0.1f-1ubuntu2.11                   amd64        Secure Sockets Layer toolkit - cryptographic utility
 ii  os-prober                           1.63ubuntu1                          amd64        utility to detect other OSes on a set of drives
 ii  parted                              2.3-19ubuntu1                        amd64        disk partition manipulator
 ii  passwd                              1:4.1.5.1-1ubuntu9                   amd64        change and administer password and group data
