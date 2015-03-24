@@ -29,7 +29,10 @@ protocol bgp bremen1 from ebgp_ic {
     neighbor fec0::a:cf:1:c4 as 65196;
 }
 protocol bgp bremen2 from ebgp_ic {
-    neighbor fec0::a:cf:0:c4 as 65196;
+    neighbor fec0::a:cf:2:c4 as 65196;
+}
+protocol bgp bremen3 from ebgp_ic {
+    neighbor fec0::a:cf:3:c4 as 65196;
 }
 protocol bgp darmstadt1 from ebgp_ic {
     neighbor fec0::a:cf:0:da as 65038;
@@ -174,6 +177,9 @@ protocol bgp weimar2 from ebgp_ic {
 }
 protocol bgp westpfalz1 from ebgp_ic {
     neighbor fec0::a:cf:0:55 as 65242;
+}
+protocol bgp westpfalz2 from ebgp_ic {
+    neighbor fec0::a:cf:0:56 as 65242;
 }
 protocol bgp wuppertal1 from ebgp_ic {
     neighbor fec0::a:cf:0:71 as 65523;
