@@ -21,8 +21,8 @@ PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bi
 * * * * * $HOME/clones/ffmap-backend/mkmap-wi.sh /var/www/mapwi/build 0.1 > /dev/null 2>&1
 * * * * * $HOME/clones/ffmap-backend/mkmap-mwu.sh /var/www/mapmwu/build 0.1 > /dev/null 2>&1
 # new ffmap only internal
-* * * * * $HOME/clones/ffmap-backend-intern-mz/mkmap.sh /var/www/intern-mapmz/data > /dev/null 2>&1
-* * * * * $HOME/clones/ffmap-backend-intern-wi/mkmap.sh /var/www/intern-mapwi/data > /dev/null 2>&1
+#* * * * * $HOME/clones/ffmap-backend-intern-mz/mkmap.sh /var/www/intern-mapmz/data > /dev/null 2>&1
+#* * * * * $HOME/clones/ffmap-backend-intern-wi/mkmap.sh /var/www/intern-mapwi/data > /dev/null 2>&1
 # cleanup nodes with nulldata
 */15 * * * * /usr/bin/python3 $HOME/clones/ffmap-backend/cleanupstates.py -s $HOME/clones/ffmap-backend/state_mainz.json $HOME/clones/ffmap-backend/state_wiesbaden.json $HOME/clones/ffmap-backend/state_mwu.json > /dev/null 2>&1
 # backend scripts
