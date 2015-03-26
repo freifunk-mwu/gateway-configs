@@ -3,7 +3,7 @@ $ORIGIN ffwi.org.
 ;
 $TTL    600
 @       IN      SOA     spinat.ffwi.org. hostmaster.ffwi.org. (
-                     2015032001         ; Serial
+                     2015032601         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -51,6 +51,7 @@ aubergine		IN	AAAA	fd56:b4dc:4b1e::a38:103
 
 map			IN	CNAME	aubergine
 internmap		IN	CNAME	aubergine
+mwumap			IN	CNAME	aubergine
 openwrt			IN	CNAME	aubergine
 
 ; firmware mirrors
