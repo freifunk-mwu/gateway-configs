@@ -103,8 +103,8 @@ ii  geoip-database                      20140313-1                           all
 ii  gettext                             0.18.3.1-1ubuntu3                    amd64        GNU Internationalization utilities
 ii  gettext-base                        0.18.3.1-1ubuntu3                    amd64        GNU Internationalization utilities for the base system
 ii  gir1.2-glib-2.0                     1.40.0-1ubuntu0.2                    amd64        Introspection data for GLib, GObject, Gio and GModule
-ii  git                                 1:2.3.2-0ppa1~ubuntu14.04.1          amd64        fast, scalable, distributed revision control system
-ii  git-man                             1:2.3.2-0ppa1~ubuntu14.04.1          all          fast, scalable, distributed revision control system (manual pages)
+ii  git                                 1:1.9.1-1ubuntu0.1                   amd64        fast, scalable, distributed revision control system
+ii  git-man                             1:1.9.1-1ubuntu0.1                   all          fast, scalable, distributed revision control system (manual pages)
 ii  gnupg                               1.4.16-1ubuntu2.1                    amd64        GNU privacy guard - a free PGP replacement
 ii  gpgv                                1.4.16-1ubuntu2.1                    amd64        GNU privacy guard - signature verification tool
 ii  grep                                2.16-1                               amd64        GNU grep, egrep and fgrep
@@ -646,6 +646,7 @@ ii  policykit-1                         0.105-4ubuntu2                       amd
 ii  popularity-contest                  1.57ubuntu1                          all          Vote for your favourite packages automatically
 ii  postfix                             2.11.0-1ubuntu1                      amd64        High-performance mail transport agent
 ii  powermgmt-base                      1.31build1                           amd64        Common utils and configs for power management
+ii  ppa-purge                           0.2.8+bzr57                          all          disables a PPA and reverts to official packages
 ii  ppp                                 2.4.5-5.1ubuntu2.1                   amd64        Point-to-Point Protocol (PPP) - daemon
 ii  pppconfig                           2.3.19ubuntu1                        all          A text menu based utility for configuring ppp
 ii  pppoeconf                           1.20ubuntu1                          all          configures PPPoE/ADSL connections
@@ -791,6 +792,7 @@ ii  xinetd                              1:2.3.15-3ubuntu1                    amd
 ii  xkb-data                            2.10.1-1ubuntu1                      all          X Keyboard Extension (XKB) configuration data
 ii  xml-core                            0.13+nmu2                            all          XML infrastructure and XML catalog file support
 ii  xz-utils                            5.1.1alpha+20120614-2ubuntu2         amd64        XZ-format compression utilities
+ii  zip                                 3.0-8                                amd64        Archiver for .zip files
 ii  zlib1g:amd64                        1:1.2.8.dfsg-1ubuntu1                amd64        compression library - runtime
 ii  zlib1g-dev:amd64                    1:1.2.8.dfsg-1ubuntu1                amd64        compression library - development
 ii  zsh                                 5.0.2-3ubuntu6                       amd64        shell with lots of features
