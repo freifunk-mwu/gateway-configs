@@ -12,7 +12,7 @@ ii  apache2-bin                      2.4.7-1ubuntu4.4                 amd64     
 ii  apache2-data                     2.4.7-1ubuntu4.4                 all          Apache HTTP Server (common files)
 ii  apache2-doc                      2.4.7-1ubuntu4.4                 all          Apache HTTP Server (on-site documentation)
 ii  apache2-utils                    2.4.7-1ubuntu4.4                 amd64        Apache HTTP Server (utility programs for web servers)
-ii  apport                           2.14.1-0ubuntu3.7                all          automatically generate crash reports for debugging
+ii  apport                           2.14.1-0ubuntu3.8                all          automatically generate crash reports for debugging
 ii  apport-symptoms                  0.20                             all          symptom scripts for apport
 ii  apt                              1.0.1ubuntu2.6                   amd64        commandline package manager
 ii  apt-utils                        1.0.1ubuntu2.6                   amd64        package management related utility programs
@@ -107,7 +107,7 @@ ii  ifupdown                         0.7.47.2ubuntu4.1                amd64     
 ii  init-system-helpers              1.14                             all          helper tools for all init systems
 ii  initramfs-tools                  0.103ubuntu4.2                   all          tools for generating an initramfs
 ii  initramfs-tools-bin              0.103ubuntu4.2                   amd64        binaries used by initramfs-tools
-ii  initscripts                      2.88dsf-41ubuntu6                amd64        scripts for initializing and shutting down the system
+ii  initscripts                      2.88dsf-41ubuntu6.1              amd64        scripts for initializing and shutting down the system
 ii  insserv                          1.14.0-5ubuntu2                  amd64        boot sequence organizer using LSB init.d script dependency information
 ii  installation-report              2.54ubuntu1                      all          system installation report
 ii  iproute2                         3.12.0-2                         amd64        networking and traffic control tools
@@ -427,8 +427,6 @@ ii  libxslt1.1:amd64                 1.1.28-2build1                   amd64     
 ii  libxss1:amd64                    1:1.2.2-1                        amd64        X11 Screen Saver extension library
 ii  libxt6:amd64                     1:1.1.4-1                        amd64        X11 toolkit intrinsics library
 ii  libyaml-0-2:amd64                0.1.4-3ubuntu3.1                 amd64        Fast YAML 1.1 parser and emitter library
-ii  linux-headers-3.13.0-45          3.13.0-45.74                     all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-45-generic  3.13.0-45.74                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-46          3.13.0-46.79                     all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-46-generic  3.13.0-46.79                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-48          3.13.0-48.80                     all          Header files related to Linux kernel version 3.13.0
@@ -439,7 +437,7 @@ rc  linux-image-3.13.0-32-generic    3.13.0-32.57                     amd64     
 rc  linux-image-3.13.0-40-generic    3.13.0-40.69                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-43-generic    3.13.0-43.72                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-44-generic    3.13.0-44.73                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-45-generic    3.13.0-45.74                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-45-generic    3.13.0-45.74                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-46-generic    3.13.0-46.79                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-48-generic    3.13.0-48.80                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-virtual              3.13.0.48.55                     amd64        This package will always depend on the latest minimal generic kernel image.
@@ -585,7 +583,7 @@ ii  python-zope.interface            4.0.5-1ubuntu4                   amd64     
 ii  python2.7                        2.7.6-8                          amd64        Interactive high-level object-oriented language (version 2.7)
 ii  python2.7-minimal                2.7.6-8                          amd64        Minimal subset of the Python language (version 2.7)
 ii  python3                          3.4.0-0ubuntu2                   amd64        interactive high-level object-oriented language (default python3 version)
-ii  python3-apport                   2.14.1-0ubuntu3.7                all          Python 3 library for Apport crash report handling
+ii  python3-apport                   2.14.1-0ubuntu3.8                all          Python 3 library for Apport crash report handling
 ii  python3-apt                      0.9.3.5ubuntu1                   amd64        Python 3 interface to libapt-pkg
 ii  python3-chardet                  2.0.1-1                          all          universal encoding detector
 ii  python3-colorama                 0.2.5-0.1ubuntu1                 all          Cross-platform colored terminal text in Python - Python 3.x
@@ -600,7 +598,7 @@ ii  python3-networkx                 1.8.1-0ubuntu3                   all       
 ii  python3-newt                     0.52.15-2ubuntu5                 amd64        NEWT module for Python3
 ii  python3-pip                      1.5.4-1                          all          alternative Python package installer - Python 3 version of the package
 ii  python3-pkg-resources            3.3-1ubuntu1                     all          Package Discovery and Resource Access using pkg_resources
-ii  python3-problem-report           2.14.1-0ubuntu3.7                all          Python 3 library to handle problem reports
+ii  python3-problem-report           2.14.1-0ubuntu3.8                all          Python 3 library to handle problem reports
 ii  python3-pycurl                   7.19.3-0ubuntu3                  amd64        Python 3 bindings to libcurl
 ii  python3-requests                 2.2.1-1ubuntu0.2                 all          elegant and simple HTTP library for Python3, built for human beings
 ii  python3-setuptools               3.3-1ubuntu1                     all          Python3 Distutils Enhancements (setuptools compatibility)
@@ -656,8 +654,8 @@ ii  sudo                             1.8.9p5-1ubuntu1.1               amd64     
 ii  sysstat                          10.2.0-1                         amd64        system performance tools for Linux
 ii  systemd-services                 204-5ubuntu20.10                 amd64        systemd runtime services
 ii  systemd-shim                     6-2bzr1                          amd64        shim for systemd
-ii  sysv-rc                          2.88dsf-41ubuntu6                all          System-V-like runlevel change mechanism
-ii  sysvinit-utils                   2.88dsf-41ubuntu6                amd64        System-V-like utilities
+ii  sysv-rc                          2.88dsf-41ubuntu6.1              all          System-V-like runlevel change mechanism
+ii  sysvinit-utils                   2.88dsf-41ubuntu6.1              amd64        System-V-like utilities
 ii  tar                              1.27.1-1                         amd64        GNU version of the tar archiving utility
 ii  tasksel                          2.88ubuntu15                     all          Tool for selecting tasks for installation on Debian systems
 ii  tasksel-data                     2.88ubuntu15                     all          Official tasks used for installation of Debian systems
@@ -672,7 +670,7 @@ ii  ubuntu-keyring                   2012.05.19                       all       
 ii  ubuntu-minimal                   1.325                            amd64        Minimal core of Ubuntu
 ii  ucf                              3.0027+nmu1                      all          Update Configuration File(s): preserve user changes to config files
 ii  udev                             204-5ubuntu20.10                 amd64        /dev/ and hotplug management daemon
-ii  unattended-upgrades              0.82.1ubuntu2.1                  all          automatic installation of security upgrades
+ii  unattended-upgrades              0.82.1ubuntu2.2                  all          automatic installation of security upgrades
 ii  unbound                          1.4.22-1ubuntu4.14.04.1          amd64        validating, recursive, caching DNS resolver
 ii  unbound-anchor                   1.4.22-1ubuntu4.14.04.1          amd64        utility to securely fetch the root DNS trust anchor
 ii  update-notifier-common           0.154.1ubuntu1                   all          Files shared between update-notifier and other packages
