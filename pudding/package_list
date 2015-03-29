@@ -613,6 +613,7 @@ ii  multiarch-support                   2.19-0ubuntu6.6                      amd
 ii  mysql-common                        5.5.41-0ubuntu0.14.04.1              all          MySQL database common files, e.g. /etc/mysql/my.cnf
 rc  mysql-server-5.5                    5.5.37-0ubuntu0.14.04.1              amd64        MySQL database server binaries and system database setup
 ii  nano                                2.2.6-1ubuntu1                       amd64        small, friendly text editor inspired by Pico
+ii  ncdu                                1.10-1                               amd64        ncurses disk usage viewer
 ii  ncurses-base                        5.9+20140118-1ubuntu1                all          basic terminal type definitions
 ii  ncurses-bin                         5.9+20140118-1ubuntu1                amd64        terminal-related programs and man pages
 ii  ncurses-term                        5.9+20140118-1ubuntu1                all          additional terminal type definitions
