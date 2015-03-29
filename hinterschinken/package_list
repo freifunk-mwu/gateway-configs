@@ -578,6 +578,7 @@ ii  mountall                            2.53                                 amd
 ii  mtr-tiny                            0.85-2                               amd64        Full screen ncurses traceroute tool
 ii  multiarch-support                   2.19-0ubuntu6.6                      amd64        Transitional package to ensure multiarch compatibility
 ii  nano                                2.2.6-1ubuntu1                       amd64        small, friendly text editor inspired by Pico
+ii  ncdu                                1.10-1                               amd64        ncurses disk usage viewer
 ii  ncurses-base                        5.9+20140118-1ubuntu1                all          basic terminal type definitions
 ii  ncurses-bin                         5.9+20140118-1ubuntu1                amd64        terminal-related programs and man pages
 ii  ncurses-term                        5.9+20140118-1ubuntu1                all          additional terminal type definitions
@@ -748,6 +749,7 @@ ii  xfsprogs                            3.1.9ubuntu2                         amd
 ii  xkb-data                            2.10.1-1ubuntu1                      all          X Keyboard Extension (XKB) configuration data
 ii  xml-core                            0.13+nmu2                            all          XML infrastructure and XML catalog file support
 ii  xz-utils                            5.1.1alpha+20120614-2ubuntu2         amd64        XZ-format compression utilities
+ii  zip                                 3.0-8                                amd64        Archiver for .zip files
 ii  zlib1g:amd64                        1:1.2.8.dfsg-1ubuntu1                amd64        compression library - runtime
 ii  zlib1g-dev:amd64                    1:1.2.8.dfsg-1ubuntu1                amd64        compression library - development
 ii  zsh                                 5.0.2-3ubuntu6                       amd64        shell with lots of features
