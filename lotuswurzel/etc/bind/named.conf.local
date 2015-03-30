@@ -31,6 +31,12 @@ zone "ffmz.org." {
         masters { ns-master-mz; };
 };
 
+zone "bb.ffmz.org." {
+        type slave;
+        file "bb.ffmz.org.db";
+        masters { ns-master-mz; };
+};
+
 zone "user.ffmz.org." {
         type slave;
         file "user.ffmz.org.db";
@@ -69,9 +75,9 @@ zone "37.10.in-addr.arpa" {
 	masters { ns-master-mz; };
 };
 
-zone "e.1.b.4.c.d.4.b.7.3.d.f.ip6.arpa" {
+zone "0.0.0.0.e.1.b.4.c.d.4.b.7.3.d.f.ip6.arpa" {
 	type slave;
-	file "fd37:b4dc:4b1e_48.ip6.arpa.db";
+	file "fd37:b4dc:4b1e:0000_64.ip6.arpa.db";
 	masters { ns-master-mz; };
 };
 
@@ -81,9 +87,9 @@ zone "56.10.in-addr.arpa" {
         masters { ns-master-wi; };
 };
 
-zone "e.1.b.4.c.d.4.b.6.5.d.f.ip6.arpa" {
+zone "0.0.0.0.e.1.b.4.c.d.4.b.6.5.d.f.ip6.arpa" {
         type slave;
-        file "fd56:b4dc:4b1e_48.ip6.arpa.db";
+        file "fd56:b4dc:4b1e:0000_64.ip6.arpa.db";
         masters { ns-master-wi; };
 };
 
