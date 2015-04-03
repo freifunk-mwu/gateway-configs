@@ -112,8 +112,8 @@ ii  insserv                          1.14.0-5ubuntu2                  amd64     
 ii  installation-report              2.54ubuntu1                      all          system installation report
 ii  iproute2                         3.12.0-2                         amd64        networking and traffic control tools
 ii  iputils-ping                     3:20121221-4ubuntu1.1            amd64        Tools to test the reachability of network hosts
-ii  isc-dhcp-client                  4.2.4-7ubuntu12                  amd64        ISC DHCP client
-ii  isc-dhcp-common                  4.2.4-7ubuntu12                  amd64        common files used by all the isc-dhcp* packages
+ii  isc-dhcp-client                  4.2.4-8ffmwu0                    amd64        ISC DHCP client
+ii  isc-dhcp-common                  4.2.4-8ffmwu0                    amd64        common files used by all the isc-dhcp* packages
 ii  iso-codes                        3.52-1                           all          ISO language, territory, currency, script codes and their translations
 ii  javascript-common                11                               all          Base support for JavaScript library packages
 ii  jekyll                           0.11.2-1                         all          Simple, blog aware, static site generator
@@ -125,6 +125,7 @@ ii  kmod                             15-0ubuntu6                      amd64     
 ii  krb5-locales                     1.12+dfsg-2ubuntu5.1             all          Internationalization support for MIT Kerberos
 ii  landscape-common                 14.12-0ubuntu0.14.04             amd64        The Landscape administration system client - Common files
 ii  laptop-detect                    0.13.7ubuntu2                    amd64        attempt to detect a laptop
+ii  ldap-utils                       2.4.31-1+nmu2ubuntu8             amd64        OpenLDAP utilities
 ii  less                             458-2                            amd64        pager program similar to more
 ii  lftp                             4.4.13-1                         amd64        Sophisticated command-line FTP/HTTP client programs
 ii  libacl1:amd64                    2.2.52-1                         amd64        Access control list shared library
@@ -275,7 +276,7 @@ ii  liblocale-gettext-perl           1.05-7build3                     amd64     
 ii  liblockfile-bin                  1.09-6ubuntu1                    amd64        support binaries for and cli utilities based on liblockfile
 ii  liblockfile1:amd64               1.09-6ubuntu1                    amd64        NFS-safe locking library
 ii  liblog-message-simple-perl       0.10-1                           all          simplified interface to Log::Message
-rc  libltdl7:amd64                   2.4.2-1.7ubuntu1                 amd64        A system independent dlopen wrapper for GNU libtool
+ii  libltdl7:amd64                   2.4.2-1.7ubuntu1                 amd64        A system independent dlopen wrapper for GNU libtool
 rc  liblua5.2-0:amd64                5.2.3-1                          amd64        Shared library for the Lua interpreter version 5.2
 ii  liblwp-mediatypes-perl           6.02-1                           all          module to guess media type for a file or a URL
 ii  liblwp-protocol-https-perl       6.04-2ubuntu0.1                  all          HTTPS driver for LWP::UserAgent
@@ -303,6 +304,7 @@ ii  libnl-3-200:amd64                3.2.21-1                         amd64     
 ii  libnl-genl-3-200:amd64           3.2.21-1                         amd64        library for dealing with netlink sockets - generic netlink
 rc  libnspr4:amd64                   2:4.10.7-0ubuntu0.14.04.1        amd64        NetScape Portable Runtime Library
 rc  libnss3:amd64                    2:3.17.1-0ubuntu0.14.04.1        amd64        Network Security Service libraries
+ii  libodbc1:amd64                   2.2.14p2-5ubuntu5                amd64        ODBC library for Unix
 ii  libopts25:amd64                  1:5.18-2ubuntu2                  amd64        automated option processing library based on autogen
 ii  libp11-kit0:amd64                0.20.2-2ubuntu2                  amd64        Library for loading and coordinating access to PKCS#11 modules - runtime
 ii  libpam-cap:amd64                 1:2.24-0ubuntu2                  amd64        PAM module for implementing capabilities
@@ -318,6 +320,7 @@ ii  libparse-debianchangelog-perl    1.2.0-1ubuntu1                   all       
 ii  libpci3:amd64                    1:3.2.1-1ubuntu5                 amd64        Linux PCI Utilities (shared library)
 ii  libpcre3:amd64                   1:8.31-2ubuntu2                  amd64        Perl 5 Compatible Regular Expression Library - runtime files
 ii  libpcsclite1:amd64               1.8.10-1ubuntu1                  amd64        Middleware to access a smart card using PC/SC (library)
+ii  libperl5.18                      5.18.2-2ubuntu1                  amd64        shared Perl library
 ii  libpipeline1:amd64               1.3.0-1                          amd64        pipeline manipulation library
 ii  libpixman-1-0:amd64              0.30.2-2ubuntu1                  amd64        pixel-manipulation library for X and cairo
 ii  libplot2c2                       2.6-3ubuntu1                     amd64        GNU plotutils libraries
@@ -364,6 +367,7 @@ ii  libsepol1:amd64                  2.2-1ubuntu0.1                   amd64     
 ii  libsigc++-2.0-0c2a:amd64         2.2.10-0.2ubuntu2                amd64        type-safe Signal Framework for C++ - runtime
 ii  libsigsegv2:amd64                2.10-2                           amd64        Library for handling page faults in a portable way
 ii  libslang2:amd64                  2.2.4-15ubuntu1                  amd64        S-Lang programming library - runtime version
+ii  libslp1                          1.2.1-9                          amd64        OpenSLP libraries
 ii  libsm6:amd64                     2:1.2.1-2                        amd64        X11 Session Management library
 ii  libsocket6-perl                  0.25-1                           amd64        Perl extensions for IPv6
 ii  libsqlite3-0:amd64               3.8.2-1ubuntu2                   amd64        SQLite 3 shared library
@@ -648,6 +652,7 @@ ii  sed                              4.2.2-4ubuntu1                   amd64     
 ii  sensible-utils                   0.0.9                            all          Utilities for sensible alternative selection
 ii  sgml-base                        1.26+nmu4ubuntu1                 all          SGML infrastructure and SGML catalog file support
 ii  shared-mime-info                 1.2-0ubuntu3                     amd64        FreeDesktop.org shared MIME database and spec
+ii  slapd                            2.4.31-1+nmu2ubuntu8             amd64        OpenLDAP server (slapd)
 ii  software-properties-common       0.92.37.3                        all          manage the repositories that you install software from (common)
 ii  ssh-import-id                    3.21-0ubuntu1                    all          securely retrieve an SSH public key and install it locally
 ii  ssl-cert                         1.0.33                           all          simple debconf wrapper for OpenSSL

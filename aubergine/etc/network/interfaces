@@ -13,7 +13,7 @@ iface eth0 inet static
 	gateway 144.76.78.19
 	pointopoint 144.76.78.19
 	# dns-* options are implemented by the resolvconf package, if installed
-	dns-nameservers ::1
+	dns-nameservers fd56:b4dc:4b1e::a38:5 fd56:b4dc:4b1e::a38:7 fd56:b4dc:4b1e::a38:17 fd37:b4dc:4b1e::a25:5 fd37:b4dc:4b1e::a25:7 fd37:b4dc:4b1e::a25:17
 
 iface eth0 inet6 static
 	address 2a01:4f8:192:523::b4dc:4b1e
