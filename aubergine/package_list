@@ -134,6 +134,7 @@ ii  libalgorithm-diff-perl           1.19.02-3                        all       
 ii  libalgorithm-diff-xs-perl        0.04-2build4                     amd64        module to find differences between files (XS accelerated)
 ii  libalgorithm-merge-perl          0.08-2                           all          Perl module for three-way merge of textual data
 ii  libapache2-mod-php5              5.5.9+dfsg-1ubuntu4.7            amd64        server-side, HTML-embedded scripting language (Apache 2 module)
+ii  libapache2-mod-wsgi              3.4-4ubuntu2.1.14.04.2           amd64        Python WSGI adapter module for Apache
 ii  libapparmor1:amd64               2.8.95~2430-0ubuntu5.1           amd64        changehat AppArmor library
 ii  libapr1:amd64                    1.5.0-1                          amd64        Apache Portable Runtime Library
 ii  libaprutil1:amd64                1.5.3-1                          amd64        Apache Portable Runtime Utility Library
@@ -245,6 +246,7 @@ ii  libhttp-message-perl             6.06-1                           all       
 ii  libhttp-negotiate-perl           6.00-2                           all          implementation of content negotiation
 ii  libhx509-5-heimdal:amd64         1.6~git20131207+dfsg-1ubuntu1.1  amd64        Heimdal Kerberos - X509 support library
 ii  libice6:amd64                    2:1.0.8-2                        amd64        X11 Inter-Client Exchange library
+ii  libicu52:amd64                   52.1-3ubuntu0.2                  amd64        International Components for Unicode
 ii  libidn11:amd64                   1.28-1ubuntu2                    amd64        GNU Libidn library, implementation of IETF IDN specifications
 ii  libio-html-perl                  1.00-1                           all          open an HTML file with automatic charset detection
 ii  libio-socket-inet6-perl          2.71-1                           all          object interface for AF_INET6 domain sockets
@@ -567,15 +569,22 @@ ii  python-apt                       0.9.3.5ubuntu1                   amd64     
 ii  python-apt-common                0.9.3.5ubuntu1                   all          Python interface to libapt-pkg (locales)
 ii  python-chardet                   2.0.1-2build2                    all          universal character encoding detector
 ii  python-configobj                 4.7.2+ds-5build1                 all          simple but powerful config file reader and writer for Python
+ii  python-crypto                    2.6.1-4build1                    amd64        cryptographic algorithms and protocols for Python
 ii  python-debian                    0.1.21+nmu2ubuntu2               all          Python modules to work with Debian-related data formats
 ii  python-gdbm                      2.7.5-1ubuntu1                   amd64        GNU dbm database support for Python
 ii  python-genshi                    0.7-3                            amd64        Python XML-based template engine - Python 2.x
 ii  python-lxml                      3.3.3-1ubuntu0.1                 amd64        pythonic binding for the libxml2 and libxslt libraries
 ii  python-minimal                   2.7.5-5ubuntu3                   amd64        minimal subset of the Python language (default version)
+ii  python-moinmoin                  1.9.7-1ubuntu2                   all          Python clone of WikiWiki - library
 ii  python-openssl                   0.13-2ubuntu6                    amd64        Python 2 wrapper around the OpenSSL library
 ii  python-pam                       0.4.2-13.1ubuntu3                amd64        Python interface to the PAM library
+ii  python-parsedatetime             1.1.2-0ubuntu1                   all          Python module to parse human-readable date/time expressions
+ii  python-passlib                   1.5.3-0ubuntu3                   all          comprehensive password hashing framework
 ii  python-pkg-resources             3.3-1ubuntu1                     all          Package Discovery and Resource Access using pkg_resources
 ii  python-pygments                  1.6+dfsg-1ubuntu1                all          syntax highlighting package written in Python
+ii  python-pyicu                     1.5-2ubuntu4                     amd64        Python extension wrapping the ICU C++ API
+ii  python-pyinotify                 0.9.4-1build1                    all          simple Linux inotify Python bindings
+ii  python-recaptcha                 1.0.6-1build1                    all          client library for reCAPTCHA and Mailhide
 ii  python-requests                  2.2.1-1ubuntu0.2                 all          elegant and simple HTTP library for Python, built for human beings
 ii  python-serial                    2.6-1build1                      all          pyserial - module encapsulating access for the serial port
 ii  python-six                       1.5.2-1                          all          Python 2 and 3 compatibility library (Python 2 interface)
@@ -583,7 +592,9 @@ rc  python-support                   1.0.15                           all       
 ii  python-twisted-bin               13.2.0-1ubuntu1                  amd64        Event-based framework for internet applications
 ii  python-twisted-core              13.2.0-1ubuntu1                  all          Event-based framework for internet applications
 ii  python-urllib3                   1.7.1-1ubuntu0.1                 all          HTTP library with thread-safe connection pooling for Python
+ii  python-werkzeug                  0.9.4+dfsg-1.1ubuntu2            all          collection of utilities for WSGI applications
 ii  python-xapian                    1.2.16-2ubuntu1                  amd64        Xapian search engine interface for Python
+ii  python-xappy                     0.5-5                            all          easy-to-use interface to the Xapian search engine
 ii  python-zope.interface            4.0.5-1ubuntu4                   amd64        Interfaces for Python
 ii  python2.7                        2.7.6-8                          amd64        Interactive high-level object-oriented language (version 2.7)
 ii  python2.7-minimal                2.7.6-8                          amd64        Minimal subset of the Python language (version 2.7)
