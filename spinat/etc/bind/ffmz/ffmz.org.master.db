@@ -3,7 +3,7 @@ $ORIGIN ffmz.org.
 ;
 $TTL    600
 @       IN      SOA     spinat.ffmz.org. hostmaster.ffmz.org. (
-                     2015033101         ; Serial
+                     2015040501         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -49,6 +49,7 @@ aubergine		IN	AAAA	fd37:b4dc:4b1e::a25:103
 map			IN	CNAME	aubergine
 internmap		IN	CNAME	aubergine
 openwrt			IN	CNAME	aubergine
+experiment		IN	CNAME	aubergine
 
 ; firmware mirrors
 firmware		IN	A	10.37.0.5
