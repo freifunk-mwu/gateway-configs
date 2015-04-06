@@ -23,6 +23,7 @@ ii  bash                                4.3-7ubuntu1.5                       amd
 ii  batadv-vis                          2014.4.0-0ffmwu1~trusty              amd64        batadv-vis - visualize your batman-adv mesh network
 ii  batctl                              2014.4.0-0ffmwu0~trusty              amd64        B.A.T.M.A.N. advanced control and management tool
 ii  batman-adv-dkms                     2014.4.0-0ffmwu0~trusty              all          DKMS Source for the batman-advanced kernel module
+ii  bc                                  1.06.95-8ubuntu1                     amd64        GNU bc arbitrary precision calculator language
 ii  bind9                               1:9.9.5.dfsg-3ubuntu0.2              amd64        Internet Domain Name Server
 ii  bind9-host                          1:9.9.5.dfsg-3ubuntu0.2              amd64        Version of 'host' bundled with BIND 9.X
 ii  bind9utils                          1:9.9.5.dfsg-3ubuntu0.2              amd64        Utilities for BIND
