@@ -133,21 +133,6 @@ zone "2.7.2.a.9.8.8.b.d.9.c.3.7.c.d.f.ip6.arpa" {
     server-addresses { 10.119.0.2; 10.119.0.3; 10.119.0.4; fdc7:3c9d:b889:a272::2; fdc7:3c9d:b889:a272::3; fdc7:3c9d:b889:a272::4; };
 };
 # 
-# ehingen
-# 
-zone "ffeh" {
-    type static-stub;
-    server-addresses { 10.252.0.2; fd71:0b56:9f72:855e::2; };
-};
-zone "252.10.in-addr.arpa" {
-    type static-stub;
-    server-addresses { 10.252.0.2; fd71:0b56:9f72:855e::2; };
-};
-zone "e.5.5.8.2.7.f.9.6.5.b.0.1.7.d.f.ip6.arpa" {
-    type static-stub;
-    server-addresses { 10.252.0.2; fd71:0b56:9f72:855e::2; };
-};
-# 
 # flensburg
 # 
 zone "fffl" {
