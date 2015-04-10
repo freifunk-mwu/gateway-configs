@@ -70,9 +70,6 @@ protocol bgp dresden1 from ebgp_ic {
 protocol bgp dresden2 from ebgp_ic {
     neighbor 10.207.0.20 as 65051;
 }
-protocol bgp ehingen1 from ebgp_ic {
-    neighbor 10.207.0.45 as 65535;
-}
 protocol bgp erfurt1 from ebgp_ic {
     neighbor 10.207.0.9 as 65099;
 }
