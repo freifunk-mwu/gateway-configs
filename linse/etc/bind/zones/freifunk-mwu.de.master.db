@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2015040301		; Serial
+		     2015040902		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -57,4 +57,35 @@ firmware	IN	AAAA	2a00:1828:2000:182::2
 ; lotuswurzel
 firmware	IN	A	144.76.209.100
 firmware	IN	AAAA	2a01:4f8:192:520::b4dc:4b1e
+
+; dkim tests
+mail201504._domainkey.mate     3600 TXT (
+  "v=DKIM1; p="
+  "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu16eMdr5jYYfKv8fAS3O"
+  "Oj5x+VEgru31ZtQDap8TkYYd72df2jn66m8tm+ombooYszizXE6Ok3khmcDNV9bO"
+  "lmtrSnFFCtS7FYzMKrlB363KFKuspO3MAnwss8MnERWaLmOr3kKW+YsQBYZudfSk"
+  "n3y2QYkjZAdGXlg4/vkri48ZtDAjPgrHTQMtpJavgC+3zkYaTkXHObDmFG8tIjpv"
+  "gEKz10pX+BNM5UjEIJ+Z8XeN2F/adOlvs5l9vIDDFV5Vv14F+aACmqHssL14Mr/A"
+  "xwI/nAWi2GdRMRvsiPNbOUzGQ7o4cFsDkwOfmCAUzeeFIaXfgS20Ikoqbr1/Ut1Y"
+  "wwIDAQAB")
+
+mail201504._domainkey.cola     3600 TXT (
+  "v=DKIM1; p="
+  "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnxd9wW6KUBS7t27CvvVP"
+  "I2r8HFDGZmMtHUl4JHNya2W3Wvlg+yX1tFiFaMS6d4/Bdck3n2ReHG2scSfgvgp2"
+  "CRw3veKCSzHx2M58ulmZ48JyU3uQPhZqxPPzC4c7qVjqZrG+ZYTGbkkNfr8XK0VC"
+  "lAEMAvzFyJJFVF5RdtsX3rR5E75c9o4P95AkT60xbm6pdnQ8es3jg5556U0zJnti"
+  "O7WRj5KC5+8NSRQwVHYO/A4RfroZzPKPj++E9QnDzO/YERrM5qQoYPw8ndlMvp9g"
+  "kv61oRVZD4Km3zAdoCYOFVbrougeKwyzmG1GivBm9QUc0EqOOyL9zVSJvXtM+JnM"
+  "pQIDAQAB")
+
+mail201504._domainkey.lists    3600 TXT (
+  "v=DKIM1; p="
+  "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs2CRyWYsP8kP+M8LsjOO"
+  "i4jdXu2Xq8cm4kYr2bWH6rTgVgo9eer3hANVazJJzeaZuBE0HXqobpbus9U9HUae"
+  "ab1aEeHHps6G6bgJakxAIZgEmeYQz6Mi6DXYHSio6mHF3MxPpKZrwRU19a+ZBnGS"
+  "S9OyEzpjCSrdhUEn49rrspyoZ4ZKe8vanJG1not8+86ul2y9rk9+DgU7PaV8gzxe"
+  "I0w8jr3dECwSLQE3Jm8t90l5DpCROBE/G+QtRIdPwh9+a+6MSenzEGOsZ19NTwvj"
+  "JP8/8R/ZUArtgpPHUbC3gVtx7MXJTseurAKcoE66Sov4PaQ3v/aFug13g3O4E27+"
+  "dwIDAQAB")
 
