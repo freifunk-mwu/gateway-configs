@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2015040902		; Serial
+		     2015041002		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -15,6 +15,9 @@ $TTL	3600
 
 ; mx
 @		MX	10	aubergine
+lists		MX	10	ladyfinger
+mz		MX	10	ladyfinger
+wi		MX	10	ladyfinger
 
 ; master dns
 linse		IN	A	144.76.209.101
