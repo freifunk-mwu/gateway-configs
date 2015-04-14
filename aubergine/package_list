@@ -423,13 +423,13 @@ ii  libxcb-render0:amd64             1.10-2ubuntu1                    amd64     
 ii  libxcb-shm0:amd64                1.10-2ubuntu1                    amd64        X C Binding, shm extension
 ii  libxcb1:amd64                    1.10-2ubuntu1                    amd64        X C Binding
 ii  libxdmcp6:amd64                  1:1.1.1-1                        amd64        X11 Display Manager Control Protocol library
-ii  libxext6:amd64                   2:1.3.2-1                        amd64        X11 miscellaneous extension library
+ii  libxext6:amd64                   2:1.3.2-1ubuntu0.0.14.04.1       amd64        X11 miscellaneous extension library
 ii  libxft2:amd64                    2.3.1-2                          amd64        FreeType-based font drawing library for X
 ii  libxml2:amd64                    2.9.1+dfsg1-3ubuntu4.4           amd64        GNOME XML library
 ii  libxmu6:amd64                    2:1.1.1-1                        amd64        X11 miscellaneous utility library
 ii  libxmuu1:amd64                   2:1.1.1-1                        amd64        X11 miscellaneous micro-utility library
 ii  libxpm4:amd64                    1:3.5.10-1                       amd64        X11 pixmap library
-ii  libxrender1:amd64                1:0.9.8-1                        amd64        X Rendering Extension client library
+ii  libxrender1:amd64                1:0.9.8-1build0.14.04.1          amd64        X Rendering Extension client library
 ii  libxslt1.1:amd64                 1.1.28-2build1                   amd64        XSLT 1.0 processing library - runtime library
 ii  libxss1:amd64                    1:1.2.2-1                        amd64        X11 Screen Saver extension library
 ii  libxt6:amd64                     1:1.1.4-1                        amd64        X11 toolkit intrinsics library
@@ -438,8 +438,8 @@ ii  linux-headers-3.13.0-46          3.13.0-46.79                     all       
 ii  linux-headers-3.13.0-46-generic  3.13.0-46.79                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-48          3.13.0-48.80                     all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-48-generic  3.13.0-48.80                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-49          3.13.0-49.81                     all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-49-generic  3.13.0-49.81                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-3.13.0-49          3.13.0-49.83                     all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-49-generic  3.13.0-49.83                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-generic            3.13.0.49.56                     amd64        Generic Linux kernel headers
 ii  linux-headers-virtual            3.13.0.49.56                     amd64        Transitional package.
 rc  linux-image-3.13.0-32-generic    3.13.0-32.57                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -449,9 +449,9 @@ rc  linux-image-3.13.0-44-generic    3.13.0-44.73                     amd64     
 rc  linux-image-3.13.0-45-generic    3.13.0-45.74                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-46-generic    3.13.0-46.79                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-48-generic    3.13.0-48.80                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-49-generic    3.13.0-49.81                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-3.13.0-49-generic    3.13.0-49.83                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-virtual              3.13.0.49.56                     amd64        This package will always depend on the latest minimal generic kernel image.
-ii  linux-libc-dev:amd64             3.13.0-49.81                     amd64        Linux Kernel Headers for development
+ii  linux-libc-dev:amd64             3.13.0-49.83                     amd64        Linux Kernel Headers for development
 ii  linux-virtual                    3.13.0.49.56                     amd64        Minimal Generic Linux kernel and headers
 ii  locales                          2.13+git20120306-12.1            all          common files for locale support
 ii  locate                           4.4.2-7                          amd64        maintain and query an index of a directory tree
@@ -537,8 +537,8 @@ ii  node-which                       1.0.5-2                          all       
 ii  nodejs                           0.10.25~dfsg2-2ubuntu1           amd64        evented I/O for V8 javascript
 ii  nodejs-dev                       0.10.25~dfsg2-2ubuntu1           amd64        evented I/O for V8 javascript (development files)
 ii  npm                              1.3.10~dfsg-1                    all          package manager for Node.js
-ii  ntp                              1:4.2.6.p5+dfsg-3ubuntu2.14.04.2 amd64        Network Time Protocol daemon and utility programs
-ii  ntpdate                          1:4.2.6.p5+dfsg-3ubuntu2.14.04.2 amd64        client for setting system time from NTP servers
+ii  ntp                              1:4.2.6.p5+dfsg-3ubuntu2.14.04.3 amd64        Network Time Protocol daemon and utility programs
+ii  ntpdate                          1:4.2.6.p5+dfsg-3ubuntu2.14.04.3 amd64        client for setting system time from NTP servers
 ii  openssh-client                   1:6.6p1-2ubuntu2                 amd64        secure shell (SSH) client, for secure access to remote machines
 ii  openssh-server                   1:6.6p1-2ubuntu2                 amd64        secure shell (SSH) server, for secure access from remote machines
 ii  openssh-sftp-server              1:6.6p1-2ubuntu2                 amd64        secure shell (SSH) sftp server module, for SFTP access from remote machines
