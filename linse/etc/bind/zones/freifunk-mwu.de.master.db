@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2015041201		; Serial
+		     2015041301		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -14,10 +14,10 @@ $TTL	3600
 @		IN	NS	ns3.treck.de.
 
 ; mx
-@		MX	10	aubergine
-lists		MX	10	ladyfinger
-mz		MX	10	ladyfinger
-wi		MX	10	ladyfinger
+@		IN	MX	10	aubergine
+lists		IN	MX	10	ladyfinger
+mz		IN	MX	10	ladyfinger
+wi		IN	MX	10	ladyfinger
 
 ; master dns
 linse		IN	A	144.76.209.101
@@ -46,7 +46,8 @@ aubergine	IN	A	144.76.209.103
 aubergine	IN	AAAA	2a01:4f8:192:523::b4dc:4b1e
 ladyfinger	IN	A	46.4.106.170
 ladyfinger	IN	AAAA	2a01:4f8:140:64d9::b4dc:4b1e
-lists		IN	CNAME	ladyfinger
+lists		IN	A	46.4.106.170
+lists		IN	AAAA	2a01:4f8:140:64d9::b4dc:4b1e
 
 ; services and stuff
 pudding		IN	CNAME	morgo.igeh.me.
