@@ -293,7 +293,7 @@ ii  libxapian22                      1.2.16-2ubuntu1                  amd64     
 ii  libxau6:amd64                    1:1.0.8-1                        amd64        X11 authorisation library
 ii  libxcb1:amd64                    1.10-2ubuntu1                    amd64        X C Binding
 ii  libxdmcp6:amd64                  1:1.1.1-1                        amd64        X11 Display Manager Control Protocol library
-ii  libxext6:amd64                   2:1.3.2-1                        amd64        X11 miscellaneous extension library
+ii  libxext6:amd64                   2:1.3.2-1ubuntu0.0.14.04.1       amd64        X11 miscellaneous extension library
 ii  libxml2:amd64                    2.9.1+dfsg1-3ubuntu4.4           amd64        GNOME XML library
 ii  libxmuu1:amd64                   2:1.1.1-1                        amd64        X11 miscellaneous micro-utility library
 ii  libxtables10                     1.4.21-1ubuntu1                  amd64        netfilter xtables library
@@ -301,8 +301,8 @@ ii  linux-headers-3.13.0-46          3.13.0-46.79                     all       
 ii  linux-headers-3.13.0-46-generic  3.13.0-46.79                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-48          3.13.0-48.80                     all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-48-generic  3.13.0-48.80                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-49          3.13.0-49.81                     all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-49-generic  3.13.0-49.81                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-3.13.0-49          3.13.0-49.83                     all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-49-generic  3.13.0-49.83                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-generic            3.13.0.49.56                     amd64        Generic Linux kernel headers
 ii  linux-headers-virtual            3.13.0.49.56                     amd64        Transitional package.
 rc  linux-image-3.13.0-34-generic    3.13.0-34.60                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -317,9 +317,9 @@ rc  linux-image-3.13.0-44-generic    3.13.0-44.73                     amd64     
 rc  linux-image-3.13.0-45-generic    3.13.0-45.74                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-46-generic    3.13.0-46.79                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-48-generic    3.13.0-48.80                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-49-generic    3.13.0-49.81                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-3.13.0-49-generic    3.13.0-49.83                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-virtual              3.13.0.49.56                     amd64        This package will always depend on the latest minimal generic kernel image.
-ii  linux-libc-dev:amd64             3.13.0-49.81                     amd64        Linux Kernel Headers for development
+ii  linux-libc-dev:amd64             3.13.0-49.83                     amd64        Linux Kernel Headers for development
 ii  linux-virtual                    3.13.0.49.56                     amd64        Minimal Generic Linux kernel and headers
 ii  locales                          2.13+git20120306-12.1            all          common files for locale support
 ii  lockfile-progs                   0.1.17                           amd64        Programs for locking and unlocking files and mailboxes
@@ -347,8 +347,8 @@ ii  ncurses-term                     5.9+20140118-1ubuntu1            all       
 ii  net-tools                        1.60-25ubuntu2.1                 amd64        The NET-3 networking toolkit
 ii  netbase                          5.2                              all          Basic TCP/IP networking system
 ii  netcat-openbsd                   1.105-7ubuntu1                   amd64        TCP/IP swiss army knife
-ii  ntp                              1:4.2.6.p5+dfsg-3ubuntu2.14.04.2 amd64        Network Time Protocol daemon and utility programs
-ii  ntpdate                          1:4.2.6.p5+dfsg-3ubuntu2.14.04.2 amd64        client for setting system time from NTP servers
+ii  ntp                              1:4.2.6.p5+dfsg-3ubuntu2.14.04.3 amd64        Network Time Protocol daemon and utility programs
+ii  ntpdate                          1:4.2.6.p5+dfsg-3ubuntu2.14.04.3 amd64        client for setting system time from NTP servers
 ii  openssh-client                   1:6.6p1-2ubuntu2                 amd64        secure shell (SSH) client, for secure access to remote machines
 ii  openssh-server                   1:6.6p1-2ubuntu2                 amd64        secure shell (SSH) server, for secure access from remote machines
 ii  openssh-sftp-server              1:6.6p1-2ubuntu2                 amd64        secure shell (SSH) sftp server module, for SFTP access from remote machines
