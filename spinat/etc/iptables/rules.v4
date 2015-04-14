@@ -12,9 +12,9 @@ COMMIT
 :INPUT ACCEPT [12:1896]
 :FORWARD ACCEPT [0:0]
 :OUTPUT ACCEPT [11:1298]
--A INPUT -i mzBR -p tcp -m tcp --tcp-flags SYN,RST SYN -j TCPMSS --set-mss 1366
--A INPUT -i wiBR -p tcp -m tcp --tcp-flags SYN,RST SYN -j TCPMSS --set-mss 1366
--A FORWARD -i mzBR -p tcp -m tcp --tcp-flags SYN,RST SYN -j TCPMSS --set-mss 1366
--A FORWARD -i wiBR -p tcp -m tcp --tcp-flags SYN,RST SYN -j TCPMSS --set-mss 1366
+#-A INPUT -i mzBR -p tcp -m tcp --tcp-flags SYN,RST SYN -j TCPMSS --set-mss 1366
+#-A INPUT -i wiBR -p tcp -m tcp --tcp-flags SYN,RST SYN -j TCPMSS --set-mss 1366
+#-A FORWARD -i mzBR -p tcp -m tcp --tcp-flags SYN,RST SYN -j TCPMSS --set-mss 1366
+#-A FORWARD -i wiBR -p tcp -m tcp --tcp-flags SYN,RST SYN -j TCPMSS --set-mss 1366
 COMMIT
 # Completed on Wed Feb 25 08:03:35 2015
