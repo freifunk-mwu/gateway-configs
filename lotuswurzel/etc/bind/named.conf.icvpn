@@ -4,9 +4,17 @@
 # 
 # amsterdam
 # 
-zone "16" {
+zone "020" {
     type static-stub;
-    server-addresses { 10.205.253.1; };
+    server-addresses { 10.205.253.1; 10.205.253.2; };
+};
+zone "adm" {
+    type static-stub;
+    server-addresses { 10.205.253.1; 10.205.253.2; };
+};
+zone "205.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.205.253.1; 10.205.253.2; };
 };
 # 
 # augsburg
@@ -149,6 +157,21 @@ zone "ffffm" {
 zone "126.10.in-addr.arpa" {
     type static-stub;
     server-addresses { 10.126.255.14; };
+};
+# 
+# gera-greiz
+# 
+zone "ffggrz" {
+    type static-stub;
+    server-addresses { 10.181.0.11; fdb5:78b:64cc::11; };
+};
+zone "181.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.181.0.11; fdb5:78b:64cc::11; };
+};
+zone "c.c.4.6.b.8.7.0.5.b.d.f.ip6.arpa" {
+    type static-stub;
+    server-addresses { 10.181.0.11; fdb5:78b:64cc::11; };
 };
 # 
 # goettingen
