@@ -91,6 +91,9 @@ protocol bgp frankfurt1 from ebgp_ic {
 protocol bgp freiburg1 from ebgp_ic {
     neighbor 10.207.0.21 as 65060;
 }
+protocol bgp gera_greiz1 from ebgp_ic {
+    neighbor 10.207.0.181 as 65181;
+}
 protocol bgp goettingen1 from ebgp_ic {
     neighbor 10.207.0.65 as 65527;
 }
