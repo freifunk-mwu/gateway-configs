@@ -4,9 +4,17 @@
 # 
 # amsterdam
 # 
-zone "16" {
+zone "020" {
     type static-stub;
-    server-addresses { 10.205.253.1; };
+    server-addresses { 10.205.253.1; 10.205.253.2; };
+};
+zone "adm" {
+    type static-stub;
+    server-addresses { 10.205.253.1; 10.205.253.2; };
+};
+zone "205.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.205.253.1; 10.205.253.2; };
 };
 # 
 # augsburg
@@ -305,7 +313,11 @@ zone "fftr" {
     type static-stub;
     server-addresses { 10.172.0.11; };
 };
-zone "f.0.c.f.e.e.f.f.a.c.d.f.ip6.arpa" {
+zone "0.0.0.0.f.0.c.f.e.e.f.f.a.c.d.f.ip6.arpa" {
+    type static-stub;
+    server-addresses { 10.172.0.11; };
+};
+zone "0.c.f.7.f.b.0.1.0.0.2.ip6.arpa" {
     type static-stub;
     server-addresses { 10.172.0.11; };
 };
