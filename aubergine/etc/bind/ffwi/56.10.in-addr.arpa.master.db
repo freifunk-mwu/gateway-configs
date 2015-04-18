@@ -1,0 +1,26 @@
+$ORIGIN 56.10.in-addr.arpa.
+; BIND data file for zone .ffwi.org 
+;
+$TTL    600
+@       IN      SOA     aubergine.ffwi.org. hostmaster.ffwi.org. (
+                     2015041801         ; Serial
+                             2h         ; Refresh
+                             1h         ; Retry
+                            41d         ; Expire
+                            300 )       ; Negative Cache TTL
+;
+@       IN      NS      hinterschinken.ffwi.org.
+@       IN      NS      spinat.ffwi.org.
+@       IN      NS      lotuswurzel.ffwi.org.
+
+1.0	PTR	nextnode.ffwi.org.
+5.0     PTR     hinterschinken.ffwi.org.
+7.0     PTR     spinat.ffwi.org.
+23.0    PTR     lotuswurzel.ffwi.org.
+42.0    PTR     parmesan.ffwi.org.
+3.1	PTR	aubergine.ffwi.org.
+
+; user services
+1.4	PTR	antigua.user.ffwi.org.
+99.4	PTR	piratebox.user.ffwi.org.
+100.4	PTR	vdr.user.ffwi.org.
