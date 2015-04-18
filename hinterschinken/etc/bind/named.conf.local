@@ -5,11 +5,11 @@
 // ACLs
 
 masters "ns-master-mz" {
-        fd37:b4dc:4b1e::a25:7;
+        fd37:b4dc:4b1e::a25:103;
 };
 
 masters "ns-master-wi" {
-        fd56:b4dc:4b1e::a38:7;
+        fd56:b4dc:4b1e::a38:103;
 };
 
 acl "intern-mz" {
