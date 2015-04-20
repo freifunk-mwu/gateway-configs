@@ -435,7 +435,7 @@ ii  tasksel                          2.88ubuntu15                     all       
 ii  tasksel-data                     2.88ubuntu15                     all          Official tasks used for installation of Debian systems
 ii  tcpd                             7.6.q-25                         amd64        Wietse Venema's TCP wrapper utilities
 ii  tmux                             1.8-5                            amd64        terminal multiplexer
-ii  tzdata                           2015b-0ubuntu0.14.04             all          time zone and daylight-saving time data
+ii  tzdata                           2015c-0ubuntu0.14.04             all          time zone and daylight-saving time data
 ii  ubuntu-keyring                   2012.05.19                       all          GnuPG keys of the Ubuntu archive
 ii  ubuntu-minimal                   1.325                            amd64        Minimal core of Ubuntu
 ii  ucf                              3.0027+nmu1                      all          Update Configuration File(s): preserve user changes to config files
