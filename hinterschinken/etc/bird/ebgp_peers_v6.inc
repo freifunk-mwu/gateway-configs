@@ -71,7 +71,7 @@ protocol bgp gera_greiz1 from ebgp_ic {
     neighbor fec0::a:cf:0:b5 as 65181;
 }
 protocol bgp goettingen1 from ebgp_ic {
-    neighbor fec0::a:cf:ab:01 as 65527;
+    neighbor fec0::a:cf:ab:41 as 65527;
 }
 protocol bgp guetersloh1 from ebgp_ic {
     neighbor fec0::a:cf:0:84 as 65533;
