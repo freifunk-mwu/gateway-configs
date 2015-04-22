@@ -130,15 +130,15 @@ zone "23.172.in-addr.arpa" {
 # 
 zone "ff3l" {
     type static-stub;
-    server-addresses { 10.119.0.2; 10.119.0.3; 10.119.0.4; fdc7:3c9d:b889:a272::2; fdc7:3c9d:b889:a272::3; fdc7:3c9d:b889:a272::4; };
+    server-addresses { 10.119.0.2; 10.119.0.3; 10.119.0.4; 2001:bf7:20::2; 2001:bf7:20::3; 2001:bf7:20::4; };
 };
 zone "119.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.119.0.2; 10.119.0.3; 10.119.0.4; fdc7:3c9d:b889:a272::2; fdc7:3c9d:b889:a272::3; fdc7:3c9d:b889:a272::4; };
+    server-addresses { 10.119.0.2; 10.119.0.3; 10.119.0.4; 2001:bf7:20::2; 2001:bf7:20::3; 2001:bf7:20::4; };
 };
-zone "2.7.2.a.9.8.8.b.d.9.c.3.7.c.d.f.ip6.arpa" {
+zone "2.0.0.7.f.b.0.1.0.0.2.ip6.arpa" {
     type static-stub;
-    server-addresses { 10.119.0.2; 10.119.0.3; 10.119.0.4; fdc7:3c9d:b889:a272::2; fdc7:3c9d:b889:a272::3; fdc7:3c9d:b889:a272::4; };
+    server-addresses { 10.119.0.2; 10.119.0.3; 10.119.0.4; 2001:bf7:20::2; 2001:bf7:20::3; 2001:bf7:20::4; };
 };
 # 
 # flensburg
@@ -313,7 +313,11 @@ zone "fftr" {
     type static-stub;
     server-addresses { 10.172.0.11; };
 };
-zone "f.0.c.f.e.e.f.f.a.c.d.f.ip6.arpa" {
+zone "0.0.0.0.f.0.c.f.e.e.f.f.a.c.d.f.ip6.arpa" {
+    type static-stub;
+    server-addresses { 10.172.0.11; };
+};
+zone "0.c.f.7.f.b.0.1.0.0.2.ip6.arpa" {
     type static-stub;
     server-addresses { 10.172.0.11; };
 };
