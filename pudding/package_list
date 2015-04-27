@@ -762,7 +762,7 @@ ii  ttf-baekmuk                         2.2-9                                all
 ii  ttf-dejavu                          2.34-1ubuntu1                        all          transitional dummy package
 ii  ttf-dejavu-core                     2.34-1ubuntu1                        all          transitional dummy package
 ii  ttf-dejavu-extra                    2.34-1ubuntu1                        all          transitional dummy package
-ii  tzdata                              2015c-0ubuntu0.14.04                 all          time zone and daylight-saving time data
+ii  tzdata                              2015d-0ubuntu0.14.04                 all          time zone and daylight-saving time data
 ii  ubuntu-keyring                      2012.05.19                           all          GnuPG keys of the Ubuntu archive
 ii  ubuntu-minimal                      1.325                                amd64        Minimal core of Ubuntu
 ii  ubuntu-release-upgrader-core        1:0.220.7                            all          manage release upgrades
