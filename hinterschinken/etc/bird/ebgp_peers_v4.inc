@@ -220,6 +220,9 @@ protocol bgp trier1 from ebgp_ic {
 protocol bgp trier2 from ebgp_ic {
     neighbor 10.207.0.221 as 65022;
 }
+protocol bgp nrw1 from ebgp_ic {
+    neighbor 10.207.0.7 as 65530;
+}
 protocol bgp nrw2 from ebgp_ic {
     neighbor 10.207.0.8 as 65530;
 }
