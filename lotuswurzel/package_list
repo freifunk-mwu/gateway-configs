@@ -583,14 +583,14 @@ ii  tar                                  1.27.1-1                             am
 ii  tasksel                              2.88ubuntu15                         all          Tool for selecting tasks for installation on Debian systems
 ii  tasksel-data                         2.88ubuntu15                         all          Official tasks used for installation of Debian systems
 ii  tcpd                                 7.6.q-25                             amd64        Wietse Venema's TCP wrapper utilities
-ii  tcpdump                              4.5.1-2ubuntu1.1                     amd64        command-line network traffic analyzer
+ii  tcpdump                              4.5.1-2ubuntu1.2                     amd64        command-line network traffic analyzer
 ii  telnet                               0.17-36build2                        amd64        The telnet client
 ii  tinc                                 1.0.25-0ffmwu0~trusty                amd64        Virtual Private Network daemon
 ii  tmux                                 1.8-5                                amd64        terminal multiplexer
 ii  ttf-dejavu                           2.34-1ubuntu1                        all          transitional dummy package
 ii  ttf-dejavu-core                      2.34-1ubuntu1                        all          transitional dummy package
 ii  ttf-dejavu-extra                     2.34-1ubuntu1                        all          transitional dummy package
-ii  tzdata                               2015c-0ubuntu0.14.04                 all          time zone and daylight-saving time data
+ii  tzdata                               2015d-0ubuntu0.14.04                 all          time zone and daylight-saving time data
 ii  ubuntu-keyring                       2012.05.19                           all          GnuPG keys of the Ubuntu archive
 ii  ubuntu-minimal                       1.325                                amd64        Minimal core of Ubuntu
 ii  ucf                                  3.0027+nmu1                          all          Update Configuration File(s): preserve user changes to config files
