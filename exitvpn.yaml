@@ -1,8 +1,8 @@
 accounts:
     a: &A
-        login: '734176605863'
+        login: '115732338712'
         provider: 'mullvad'
-        until: '27.04.2015'
+        until: '28.05.2015'
     b: &B
         login: 'ffmz'
         provider: 'ipredator'

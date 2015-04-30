@@ -18,9 +18,9 @@ ii  apache2-utils                       2.4.7-1ubuntu4.4                     amd
 ii  apparmor                            2.8.95~2430-0ubuntu5.1               amd64        User-space parser utility for AppArmor
 ii  apport                              2.14.1-0ubuntu3.10                   all          automatically generate crash reports for debugging
 ii  apport-symptoms                     0.20                                 all          symptom scripts for apport
-ii  apt                                 1.0.1ubuntu2.6                       amd64        commandline package manager
-ii  apt-transport-https                 1.0.1ubuntu2.6                       amd64        https download transport for APT
-ii  apt-utils                           1.0.1ubuntu2.6                       amd64        package management related utility programs
+ii  apt                                 1.0.1ubuntu2.7                       amd64        commandline package manager
+ii  apt-transport-https                 1.0.1ubuntu2.7                       amd64        https download transport for APT
+ii  apt-utils                           1.0.1ubuntu2.7                       amd64        package management related utility programs
 ii  apt-xapian-index                    0.45ubuntu4                          all          maintenance and search tools for a Xapian index of Debian packages
 ii  aptitude                            0.6.8.2-1ubuntu4                     amd64        terminal-based package manager
 ii  aptitude-common                     0.6.8.2-1ubuntu4                     all          architecture indepedent files for the aptitude package manager
@@ -41,8 +41,8 @@ ii  bind9                               1:9.9.5.dfsg-3ubuntu0.2              amd
 ii  bind9-host                          1:9.9.5.dfsg-3ubuntu0.2              amd64        Version of 'host' bundled with BIND 9.X
 ii  bind9utils                          1:9.9.5.dfsg-3ubuntu0.2              amd64        Utilities for BIND
 ii  binutils                            2.24-5ubuntu3.1                      amd64        GNU assembler, linker and binary utilities
-ii  bird                                1.4.5-1+trusty+1                     amd64        Internet Routing Daemon
-ii  bird-doc                            1.4.5-1+trusty+1                     all          Internet Routing Daemon - documentatio
+ii  bird                                1.5.0-1+trusty+1                     amd64        Internet Routing Daemon
+ii  bird-doc                            1.5.0-1+trusty+1                     all          Internet Routing Daemon - documentatio
 ii  bison                               2:3.0.2.dfsg-2                       amd64        YACC-compatible parser generator
 ii  bridge-utils                        1.5-6ubuntu2                         amd64        Utilities for configuring the Linux Ethernet bridge
 ii  bsd-mailx                           8.1.2-0.20131005cvs-1ubuntu0.14.04.1 amd64        simple mail user agent
@@ -184,8 +184,8 @@ ii  libapr1:amd64                       1.5.0-1                              amd
 ii  libaprutil1:amd64                   1.5.3-1                              amd64        Apache Portable Runtime Utility Library
 ii  libaprutil1-dbd-sqlite3:amd64       1.5.3-1                              amd64        Apache Portable Runtime Utility Library - SQLite3 Driver
 ii  libaprutil1-ldap:amd64              1.5.3-1                              amd64        Apache Portable Runtime Utility Library - LDAP Driver
-ii  libapt-inst1.5:amd64                1.0.1ubuntu2.6                       amd64        deb package format runtime library
-ii  libapt-pkg4.12:amd64                1.0.1ubuntu2.6                       amd64        package management runtime library
+ii  libapt-inst1.5:amd64                1.0.1ubuntu2.7                       amd64        deb package format runtime library
+ii  libapt-pkg4.12:amd64                1.0.1ubuntu2.7                       amd64        package management runtime library
 ii  libarchive-extract-perl             0.70-1                               all          generic archive extracting module
 ii  libarchive13:amd64                  3.1.2-7ubuntu2.1                     amd64        Multi-format archive and compression library (shared library)
 ii  libasan0:amd64                      4.8.2-19ubuntu1                      amd64        AddressSanitizer -- a fast memory error detector
@@ -504,14 +504,14 @@ ii  linux-headers-3.13.0-44             3.13.0-44.73                         all
 ii  linux-headers-3.13.0-44-generic     3.13.0-44.73                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-45             3.13.0-45.74                         all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-45-generic     3.13.0-45.74                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-46             3.13.0-46.79                         all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-46-generic     3.13.0-46.79                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-48             3.13.0-48.80                         all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-48-generic     3.13.0-48.80                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-49             3.13.0-49.83                         all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-49-generic     3.13.0-49.83                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-generic               3.13.0.49.56                         amd64        Generic Linux kernel headers
-ii  linux-headers-server                3.13.0.49.56                         amd64        Transitional package.
+ii  linux-headers-3.13.0-51             3.13.0-51.84                         all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-51-generic     3.13.0-51.84                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-generic               3.13.0.51.58                         amd64        Generic Linux kernel headers
+ii  linux-headers-server                3.13.0.51.58                         amd64        Transitional package.
 rc  linux-image-3.13.0-29-generic       3.13.0-29.53                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-30-generic       3.13.0-30.55                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-32-generic       3.13.0-32.57                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -524,9 +524,10 @@ rc  linux-image-3.13.0-40-generic       3.13.0-40.69                         amd
 rc  linux-image-3.13.0-43-generic       3.13.0-43.72                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-44-generic       3.13.0-44.73                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-45-generic       3.13.0-45.74                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-46-generic       3.13.0-46.79                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-46-generic       3.13.0-46.79                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-48-generic       3.13.0-48.80                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-49-generic       3.13.0-49.83                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-3.13.0-51-generic       3.13.0-51.84                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-29-generic 3.13.0-29.53                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-30-generic 3.13.0-30.55                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-32-generic 3.13.0-32.57                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
@@ -539,16 +540,17 @@ rc  linux-image-extra-3.13.0-40-generic 3.13.0-40.69                         amd
 rc  linux-image-extra-3.13.0-43-generic 3.13.0-43.72                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-44-generic 3.13.0-44.73                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-45-generic 3.13.0-45.74                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-46-generic 3.13.0-46.79                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-46-generic 3.13.0-46.79                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-48-generic 3.13.0-48.80                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-49-generic 3.13.0-49.83                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-generic                 3.13.0.49.56                         amd64        Generic Linux kernel image
-ii  linux-libc-dev:amd64                3.13.0-49.83                         amd64        Linux Kernel Headers for development
+ii  linux-image-extra-3.13.0-51-generic 3.13.0-51.84                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-generic                 3.13.0.51.58                         amd64        Generic Linux kernel image
+ii  linux-libc-dev:amd64                3.13.0-51.84                         amd64        Linux Kernel Headers for development
 ii  linux-tools-3.13.0-37               3.13.0-37.64                         amd64        Linux kernel version specific tools for version 3.13.0-37
 ii  linux-tools-3.13.0-37-generic       3.13.0-37.64                         amd64        Linux kernel version specific tools for version 3.13.0-37
 ii  linux-tools-3.13.0-39               3.13.0-39.66                         amd64        Linux kernel version specific tools for version 3.13.0-39
 ii  linux-tools-3.13.0-39-generic       3.13.0-39.66                         amd64        Linux kernel version specific tools for version 3.13.0-39
-ii  linux-tools-common                  3.13.0-49.83                         all          Linux kernel version specific tools for version 3.13.0
+ii  linux-tools-common                  3.13.0-51.84                         all          Linux kernel version specific tools for version 3.13.0
 ii  locales                             2.13+git20120306-12.1                all          common files for locale support
 ii  lockfile-progs                      0.1.17                               amd64        Programs for locking and unlocking files and mailboxes
 ii  login                               1:4.1.5.1-1ubuntu9                   amd64        system login tools

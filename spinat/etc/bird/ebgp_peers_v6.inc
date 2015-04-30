@@ -97,6 +97,12 @@ protocol bgp karlsruhe1 from ebgp_ic {
 protocol bgp karlsruhe2 from ebgp_ic {
     neighbor fec0::a:cf:1:d6 as 65081;
 }
+protocol bgp kassel1 from ebgp_ic {
+    neighbor fec0::a:cf:a:a as 65514;
+}
+protocol bgp kassel3 from ebgp_ic {
+    neighbor fec0::a:cf:a:c as 65514;
+}
 protocol bgp koeln1 from ebgp_ic {
     neighbor fec0::a:cf:0:57 as 65528;
 }
@@ -162,6 +168,9 @@ protocol bgp trier1 from ebgp_ic {
 }
 protocol bgp trier2 from ebgp_ic {
     neighbor fec0::a:cf:0:dd as 65022;
+}
+protocol bgp nrw1 from ebgp_ic {
+    neighbor fec0::a:cf:0:7 as 65530;
 }
 protocol bgp nrw2 from ebgp_ic {
     neighbor fec0::a:cf:0:8 as 65530;
