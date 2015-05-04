@@ -263,6 +263,17 @@ zone "130.10.in-addr.arpa" {
     server-addresses { fdef:ffc0:3dd7::801; fdef:ffc0:3dd7::a01; fdef:ffc0:3dd7::c01; fdef:ffc0:3dd7::e01; 10.130.0.252; 10.130.0.253; 10.130.0.254; 10.130.0.255; };
 };
 # 
+# nord
+# 
+zone "ffnord" {
+    type static-stub;
+    server-addresses { 10.112.1.1; 2a03:2267::101; };
+};
+zone "187.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.112.1.1; 2a03:2267::101; };
+};
+# 
 # nordwest
 # 
 zone "ffnw" {
