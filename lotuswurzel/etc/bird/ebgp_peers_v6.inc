@@ -52,6 +52,9 @@ protocol bgp dreilaendereck2 from ebgp_ic {
 protocol bgp dreilaendereck3 from ebgp_ic {
     neighbor fec0::a:cf:0:bc as 65043;
 }
+protocol bgp dreilaendereck4 from ebgp_ic {
+    neighbor fec0::a:cf:0:47 as 65043;
+}
 protocol bgp dresden1 from ebgp_ic {
     neighbor fec0::a:cf:dd:1 as 65051;
 }
@@ -168,6 +171,9 @@ protocol bgp trier1 from ebgp_ic {
 }
 protocol bgp trier2 from ebgp_ic {
     neighbor fec0::a:cf:0:dd as 65022;
+}
+protocol bgp troisdorf1 from ebgp_ic {
+    neighbor fec0::a:cf:0:b9 as 65066;
 }
 protocol bgp nrw1 from ebgp_ic {
     neighbor fec0::a:cf:0:7 as 65530;
