@@ -64,6 +64,9 @@ protocol bgp dreilaendereck2 from ebgp_ic {
 protocol bgp dreilaendereck3 from ebgp_ic {
     neighbor 10.207.0.72 as 65043;
 }
+protocol bgp dreilaendereck4 from ebgp_ic {
+    neighbor 10.207.0.71 as 65043;
+}
 protocol bgp dresden1 from ebgp_ic {
     neighbor 10.207.0.19 as 65051;
 }
@@ -225,6 +228,9 @@ protocol bgp trier1 from ebgp_ic {
 }
 protocol bgp trier2 from ebgp_ic {
     neighbor 10.207.0.221 as 65022;
+}
+protocol bgp troisdorf1 from ebgp_ic {
+    neighbor 10.207.0.185 as 65066;
 }
 protocol bgp nrw1 from ebgp_ic {
     neighbor 10.207.0.7 as 65530;
