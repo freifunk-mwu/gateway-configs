@@ -240,7 +240,7 @@ ii  libdjvulibre-text                   3.5.25.4-3                           all
 ii  libdjvulibre21:amd64                3.5.25.4-3                           amd64        Runtime support for the DjVu image format
 ii  libdns100                           1:9.9.5.dfsg-3ubuntu0.2              amd64        DNS Shared Library used by BIND
 ii  libdpkg-perl                        1.17.5ubuntu5.4                      all          Dpkg perl modules
-ii  libdrm2:amd64                       2.4.56-1~ubuntu2                     amd64        Userspace interface to kernel DRM services -- runtime
+ii  libdrm2:amd64                       2.4.60-2~ubuntu14.04.1               amd64        Userspace interface to kernel DRM services -- runtime
 ii  libdw1:amd64                        0.158-0ubuntu5.2                     amd64        library that provides access to the DWARF debug information
 ii  libedit2:amd64                      3.1-20130712-2                       amd64        BSD editline and history libraries
 ii  libelf1:amd64                       0.158-0ubuntu5.2                     amd64        library to read and write ELF files
@@ -437,7 +437,7 @@ ii  libsvn1:amd64                       1.8.8-1ubuntu3.1                     amd
 ii  libsysfs2:amd64                     2.1.0+repack-3ubuntu1                amd64        interface library to sysfs
 ii  libsystemd-daemon0:amd64            204-5ubuntu20.11                     amd64        systemd utility library
 ii  libsystemd-login0:amd64             204-5ubuntu20.11                     amd64        systemd login utility library
-ii  libtasn1-6:amd64                    3.4-3ubuntu0.2                       amd64        Manage ASN.1 structures (runtime)
+ii  libtasn1-6:amd64                    3.4-3ubuntu0.3                       amd64        Manage ASN.1 structures (runtime)
 ii  libterm-ui-perl                     0.42-1                               all          Term::ReadLine UI made easy
 ii  libtext-charwidth-perl              0.04-7build3                         amd64        get display widths of characters on the terminal
 ii  libtext-iconv-perl                  1.7-5build2                          amd64        converts between character sets in Perl
@@ -506,8 +506,6 @@ ii  linux-headers-3.13.0-45             3.13.0-45.74                         all
 ii  linux-headers-3.13.0-45-generic     3.13.0-45.74                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-48             3.13.0-48.80                         all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-48-generic     3.13.0-48.80                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-49             3.13.0-49.83                         all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-49-generic     3.13.0-49.83                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-51             3.13.0-51.84                         all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-51-generic     3.13.0-51.84                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-52             3.13.0-52.86                         all          Header files related to Linux kernel version 3.13.0
@@ -528,7 +526,7 @@ rc  linux-image-3.13.0-44-generic       3.13.0-44.73                         amd
 rc  linux-image-3.13.0-45-generic       3.13.0-45.74                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-46-generic       3.13.0-46.79                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-48-generic       3.13.0-48.80                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-49-generic       3.13.0-49.83                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-49-generic       3.13.0-49.83                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-51-generic       3.13.0-51.84                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-52-generic       3.13.0-52.86                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-29-generic 3.13.0-29.53                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
@@ -545,7 +543,7 @@ rc  linux-image-extra-3.13.0-44-generic 3.13.0-44.73                         amd
 rc  linux-image-extra-3.13.0-45-generic 3.13.0-45.74                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-46-generic 3.13.0-46.79                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-48-generic 3.13.0-48.80                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-49-generic 3.13.0-49.83                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-49-generic 3.13.0-49.83                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-51-generic 3.13.0-51.84                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-52-generic 3.13.0-52.86                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-generic                 3.13.0.52.59                         amd64        Generic Linux kernel image
@@ -678,7 +676,7 @@ ii  python3-requests                    2.2.1-1ubuntu0.2                     all
 ii  python3-setuptools                  3.3-1ubuntu1                         all          Python3 Distutils Enhancements (setuptools compatibility)
 ii  python3-six                         1.5.2-1                              all          Python 2 and 3 compatibility library (Python 3 interface)
 ii  python3-software-properties         0.92.37.3                            all          manage the repositories that you install software from
-ii  python3-update-manager              1:0.196.12                           all          python 3.x module for update-manager
+ii  python3-update-manager              1:0.196.13                           all          python 3.x module for update-manager
 ii  python3-urllib3                     1.7.1-1ubuntu3                       all          HTTP library with thread-safe connection pooling for Python3
 ii  python3-wheel                       0.24.0-1~ubuntu1                     all          built-package format for Python
 ii  python3.4                           3.4.0-2ubuntu1                       amd64        Interactive high-level object-oriented language (version 3.4)
@@ -736,7 +734,7 @@ ii  udev                                204-5ubuntu20.11                     amd
 ii  ufw                                 0.34~rc-0ubuntu2                     all          program for managing a Netfilter firewall
 ii  unattended-upgrades                 0.82.1ubuntu2.2                      all          automatic installation of security upgrades
 ii  unzip                               6.0-9ubuntu1.3                       amd64        De-archiver for .zip files
-ii  update-manager-core                 1:0.196.12                           all          manage release upgrades
+ii  update-manager-core                 1:0.196.13                           all          manage release upgrades
 ii  update-notifier-common              0.154.1ubuntu1                       all          Files shared between update-notifier and other packages
 ii  upstart                             1.12.1-0ubuntu4.2                    amd64        event-based init daemon
 ii  ureadahead                          0.100.0-16                           amd64        Read required files in advance
