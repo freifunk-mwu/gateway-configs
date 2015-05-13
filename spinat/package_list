@@ -163,7 +163,7 @@ ii  libck-connector0:amd64              0.4.5-3.1ubuntu2                     amd
 ii  libclass-accessor-perl              0.34-1                               all          Perl module that automatically generates accessors
 ii  libcloog-isl4:amd64                 0.18.2-1                             amd64        Chunky Loop Generator (runtime library)
 ii  libcomerr2:amd64                    1.42.9-3ubuntu1.2                    amd64        common error description library
-ii  libcurl3-gnutls:amd64               7.35.0-1ubuntu2.3                    amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii  libcurl3-gnutls:amd64               7.35.0-1ubuntu2.5                    amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii  libcwidget3                         0.5.16-3.5ubuntu1                    amd64        high-level terminal interface library for C++ (runtime files)
 ii  libdaemon0                          0.14-2ubuntu1                        amd64        lightweight C library for daemons - runtime library
 ii  libdatrie1:amd64                    0.2.8-1                              amd64        Double-array trie library
@@ -175,7 +175,7 @@ ii  libdebconfclient0:amd64             0.187ubuntu1                         amd
 ii  libdevmapper1.02.1:amd64            2:1.02.77-6ubuntu2                   amd64        Linux Kernel Device Mapper userspace library
 ii  libdns100                           1:9.9.5.dfsg-3ubuntu0.2              amd64        DNS Shared Library used by BIND
 ii  libdpkg-perl                        1.17.5ubuntu5.4                      all          Dpkg perl modules
-ii  libdrm2:amd64                       2.4.56-1~ubuntu2                     amd64        Userspace interface to kernel DRM services -- runtime
+ii  libdrm2:amd64                       2.4.60-2~ubuntu14.04.1               amd64        Userspace interface to kernel DRM services -- runtime
 ii  libedit2:amd64                      3.1-20130712-2                       amd64        BSD editline and history libraries
 ii  libept1.4.12:amd64                  1.0.12                               amd64        High-level library for managing Debian package information
 ii  liberror-perl                       0.17-1.1                             all          Perl module for error/exception handling in an OO-ish way
@@ -326,7 +326,7 @@ ii  libstdc++-4.8-dev:amd64             4.8.2-19ubuntu1                      amd
 ii  libstdc++6:amd64                    4.8.2-19ubuntu1                      amd64        GNU Standard C++ Library v3
 ii  libsub-name-perl                    0.05-1build4                         amd64        module for assigning a new name to referenced sub
 ii  libsysfs2:amd64                     2.1.0+repack-3ubuntu1                amd64        interface library to sysfs
-ii  libtasn1-6:amd64                    3.4-3ubuntu0.2                       amd64        Manage ASN.1 structures (runtime)
+ii  libtasn1-6:amd64                    3.4-3ubuntu0.3                       amd64        Manage ASN.1 structures (runtime)
 ii  libterm-ui-perl                     0.42-1                               all          Term::ReadLine UI made easy
 ii  libtext-charwidth-perl              0.04-7build3                         amd64        get display widths of characters on the terminal
 ii  libtext-iconv-perl                  1.7-5build2                          amd64        converts between character sets in Perl
@@ -371,14 +371,12 @@ ii  linux-headers-3.13.0-39             3.13.0-39.66                         all
 ii  linux-headers-3.13.0-39-generic     3.13.0-39.66                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-40             3.13.0-40.69                         all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-40-generic     3.13.0-40.69                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-46             3.13.0-46.79                         all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-46-generic     3.13.0-46.79                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-49             3.13.0-49.83                         all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-49-generic     3.13.0-49.83                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-51             3.13.0-51.84                         all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-51-generic     3.13.0-51.84                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-generic               3.13.0.51.58                         amd64        Generic Linux kernel headers
-ii  linux-headers-server                3.13.0.51.58                         amd64        Transitional package.
+ii  linux-headers-3.13.0-52             3.13.0-52.86                         all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-52-generic     3.13.0-52.86                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-generic               3.13.0.52.59                         amd64        Generic Linux kernel headers
+ii  linux-headers-server                3.13.0.52.59                         amd64        Transitional package.
 rc  linux-image-3.13.0-24-generic       3.13.0-24.47                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-35-generic       3.13.0-35.62                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-37-generic       3.13.0-37.64                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -387,10 +385,11 @@ rc  linux-image-3.13.0-40-generic       3.13.0-40.69                         amd
 rc  linux-image-3.13.0-43-generic       3.13.0-43.72                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-44-generic       3.13.0-44.73                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-45-generic       3.13.0-45.74                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-46-generic       3.13.0-46.79                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-46-generic       3.13.0-46.79                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-48-generic       3.13.0-48.80                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-49-generic       3.13.0-49.83                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-49-generic       3.13.0-49.83                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-51-generic       3.13.0-51.84                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-3.13.0-52-generic       3.13.0-52.86                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-24-generic 3.13.0-24.47                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-35-generic 3.13.0-35.62                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-37-generic 3.13.0-37.64                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
@@ -399,14 +398,15 @@ rc  linux-image-extra-3.13.0-40-generic 3.13.0-40.69                         amd
 rc  linux-image-extra-3.13.0-43-generic 3.13.0-43.72                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-44-generic 3.13.0-44.73                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-45-generic 3.13.0-45.74                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-46-generic 3.13.0-46.79                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-46-generic 3.13.0-46.79                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-48-generic 3.13.0-48.80                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-49-generic 3.13.0-49.83                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-49-generic 3.13.0-49.83                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-51-generic 3.13.0-51.84                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-generic                 3.13.0.51.58                         amd64        Generic Linux kernel image
-ii  linux-libc-dev:amd64                3.13.0-51.84                         amd64        Linux Kernel Headers for development
-ii  linux-source                        3.13.0.51.58                         all          Linux kernel source with Ubuntu patches
-ii  linux-source-3.13.0                 3.13.0-51.84                         all          Linux kernel source for version 3.13.0 with Ubuntu patches
+ii  linux-image-extra-3.13.0-52-generic 3.13.0-52.86                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-generic                 3.13.0.52.59                         amd64        Generic Linux kernel image
+ii  linux-libc-dev:amd64                3.13.0-52.86                         amd64        Linux Kernel Headers for development
+ii  linux-source                        3.13.0.52.59                         all          Linux kernel source with Ubuntu patches
+ii  linux-source-3.13.0                 3.13.0-52.86                         all          Linux kernel source for version 3.13.0 with Ubuntu patches
 ii  locales                             2.13+git20120306-12.1                all          common files for locale support
 ii  lockfile-progs                      0.1.17                               amd64        Programs for locking and unlocking files and mailboxes
 ii  login                               1:4.1.5.1-1ubuntu9                   amd64        system login tools
