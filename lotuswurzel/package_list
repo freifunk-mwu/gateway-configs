@@ -555,7 +555,7 @@ ii  readline-common                      6.3-4ubuntu2                         al
 ii  resolvconf                           1.69ubuntu1.1                        all          name server information handler
 ii  rrdtool                              1.4.7-2ubuntu5                       amd64        time-series data storage and display system (programs)
 ii  rsync                                3.1.0-2ubuntu0.1                     amd64        fast, versatile, remote (and local) file-copying tool
-ii  rsyslog                              7.4.4-1ubuntu2.5                     amd64        reliable system and kernel logging daemon
+ii  rsyslog                              7.4.4-1ubuntu2.6                     amd64        reliable system and kernel logging daemon
 ii  ruby                                 1:1.9.3.4                            all          Interpreter of object-oriented scripting language Ruby (default version)
 ii  ruby-rack                            1.5.2-1                              all          Modular Ruby webserver interface
 ii  ruby-rack-protection                 1.5.1-1                              all          Protects against typical web attacks for Rack apps

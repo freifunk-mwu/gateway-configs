@@ -9,9 +9,12 @@
 # local
 #
 #1	inr.ruhep
+# table for freifunk exit next-hop routes
+7	exitgw
+# community tables
 37	mz
 56	wi
-# icvpn
+# icvpn table
 42	icvpn
-# Freifunk Exit (Internet)
+# internet exit table
 60	freifunkexit
