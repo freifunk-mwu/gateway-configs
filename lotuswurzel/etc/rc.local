@@ -1,0 +1,48 @@
+#!/bin/sh -e
+#
+# rc.local
+#
+# This script is executed at the end of each multiuser runlevel.
+# Make sure that the script will "exit 0" on success or any other
+# value on error.
+#
+# In order to enable or disable this script just change the execution
+# bits.
+#
+# By default this script does nothing.
+
+# table for freifunk exit transfer net
+/sbin/ip -4 rule add from all table exitgw priority 7
+
+# ICVPN
+# IPv4
+/sbin/ip -4 rule add from all table icvpn priority 23
+# IPv6
+/sbin/ip -6 rule add from all table icvpn priority 23
+
+# MWU
+# IPv4
+/sbin/ip -4 rule add from all table mwu priority 41
+/sbin/ip -4 route add 10.37.0.0/18 proto static dev mzBR table mwu
+/sbin/ip -4 route add 10.56.0.0/18 proto static dev wiBR table mwu
+# IPv6
+/sbin/ip -6 rule add from all table mwu priority 41
+/sbin/ip -6 route add fd37:b4dc:4b1e::/64 proto static dev mzBR table mwu
+/sbin/ip -6 route add fd56:b4dc:4b1e::/64 proto static dev wiBR table mwu
+
+# Freifunk Exit
+# IPv4
+/sbin/ip -4 rule add from all iif mzBR table ffinetexit priority 61
+/sbin/ip -4 rule add from all iif wiBR table ffinetexit priority 61
+/sbin/ip -4 rule add from all iif exitVPN table ffinetexit priority 61
+/sbin/ip -4 route add unreachable default table ffinetexit
+/sbin/ip -4 route add 10.37.0.0/18 proto static dev mzBR table ffinetexit
+/sbin/ip -4 route add 10.56.0.0/18 proto static dev wiBR table ffinetexit
+# IPv6
+/sbin/ip -6 rule add from all iif mzBR table ffinetexit priority 61
+/sbin/ip -6 rule add from all iif wiBR table ffinetexit priority 61
+/sbin/ip -6 route add unreachable default table ffinetexit
+/sbin/ip -6 route add fd37:b4dc:4b1e::/64 proto static dev mzBR table ffinetexit
+/sbin/ip -6 route add fd56:b4dc:4b1e::/64 proto static dev wiBR table ffinetexit
+
+exit 0
