@@ -34,12 +34,14 @@ locations:
 - /etc/openvpn/mullvad.conf
 - /etc/openvpn/openvpn-down
 - /etc/openvpn/openvpn-up
+- /etc/openvpn/openvpn-updown
 - /etc/postfix/access_recipient-rfc
 - /etc/postfix/bounce.de-DE.cf
 - /etc/postfix/helo_ip_hostname_check
 - /etc/postfix/main.cf
 - /etc/postfix/master.cf
 - /etc/radvd.conf
+- /etc/rc.local
 - /etc/resolvconf/resolv.conf.d/tail
 - /etc/rsyncd.conf
 - /etc/rsyslog.d
