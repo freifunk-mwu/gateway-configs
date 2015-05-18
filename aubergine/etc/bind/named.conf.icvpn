@@ -411,7 +411,7 @@ zone "fftdf" {
 # 
 zone "ffwk" {
     type static-stub;
-    server-addresses { 10.13.0.1; fd23:dead:beef::ff01; };
+    server-addresses { 10.13.1.1; fd23:dead:beef::ff01; };
 };
 # 
 # westpfalz
