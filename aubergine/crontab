@@ -25,6 +25,7 @@ PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bi
 # meshviewer
 * * * * * $HOME/clones/ffmap-backend-intern-mz/mkmap.sh > /dev/null 2>&1
 * * * * * $HOME/clones/ffmap-backend-intern-wi/mkmap.sh > /dev/null 2>&1
+* * * * * $HOME/clones/ffmap-backend-intern-mwu/mkmap.sh > /dev/null 2>&1
 # cleanup nodes with nulldata
 */15 * * * * /usr/bin/python3 $HOME/clones/ffmap-backend/cleanupstates.py -s $HOME/clones/ffmap-backend/state_mainz.json $HOME/clones/ffmap-backend/state_wiesbaden.json $HOME/clones/ffmap-backend/state_mwu.json > /dev/null 2>&1
 # backend scripts
