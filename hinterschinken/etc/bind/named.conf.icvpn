@@ -170,6 +170,17 @@ zone "126.10.in-addr.arpa" {
     server-addresses { 10.126.255.14; };
 };
 # 
+# fulda
+# 
+zone "fffd" {
+    type static-stub;
+    server-addresses { 10.185.0.1; 10.185.0.2; 10.185.0.3; };
+};
+zone "185.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.185.0.1; 10.185.0.2; 10.185.0.3; };
+};
+# 
 # gera-greiz
 # 
 zone "ffggrz" {
@@ -183,6 +194,25 @@ zone "181.10.in-addr.arpa" {
 zone "c.c.4.6.b.8.7.0.5.b.d.f.ip6.arpa" {
     type static-stub;
     server-addresses { 10.181.0.11; fdb5:78b:64cc::11; };
+};
+# 
+# glwupper
+# 
+zone "ffgl" {
+    type static-stub;
+    server-addresses { 10.156.3.1; };
+};
+zone "fflln" {
+    type static-stub;
+    server-addresses { 10.156.3.1; };
+};
+zone "ffbcd" {
+    type static-stub;
+    server-addresses { 10.156.3.1; };
+};
+zone "ffbgl" {
+    type static-stub;
+    server-addresses { 10.156.3.1; };
 };
 # 
 # goettingen
@@ -318,6 +348,21 @@ zone "ffrade" {
     server-addresses { 10.27.0.247; };
 };
 # 
+# regensburg
+# 
+zone "ffrgb" {
+    type static-stub;
+    server-addresses { 10.90.0.11; fdef:f00f:1337:cafe::11; };
+};
+zone "e.f.a.c.7.3.3.1.f.0.0.f.f.e.d.f.ip6.arpa" {
+    type static-stub;
+    server-addresses { 10.90.0.11; fdef:f00f:1337:cafe::11; };
+};
+zone "90.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.90.0.11; fdef:f00f:1337:cafe::11; };
+};
+# 
 # ruhrgebiet
 # 
 zone "ffrg" {
@@ -342,10 +387,6 @@ zone "fftr" {
     type static-stub;
     server-addresses { 10.172.0.11; };
 };
-zone "0.0.0.0.f.0.c.f.e.e.f.f.a.c.d.f.ip6.arpa" {
-    type static-stub;
-    server-addresses { 10.172.0.11; };
-};
 zone "0.c.f.7.f.b.0.1.0.0.2.ip6.arpa" {
     type static-stub;
     server-addresses { 10.172.0.11; };
@@ -360,6 +401,13 @@ zone "172.10.in-addr.arpa" {
 zone "fftdf" {
     type static-stub;
     server-addresses { 10.188.1.100; 10.188.1.23; };
+};
+# 
+# westkueste
+# 
+zone "ffwk" {
+    type static-stub;
+    server-addresses { 10.13.1.1; fd23:dead:beef::ff01; };
 };
 # 
 # westpfalz
