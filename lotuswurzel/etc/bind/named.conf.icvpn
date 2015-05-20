@@ -385,19 +385,15 @@ zone "rzl" {
 # 
 zone "fftr" {
     type static-stub;
-    server-addresses { 10.172.0.11; };
-};
-zone "0.0.0.0.f.0.c.f.e.e.f.f.a.c.d.f.ip6.arpa" {
-    type static-stub;
-    server-addresses { 10.172.0.11; };
+    server-addresses { 10.172.0.11; 10.172.0.12; 2001:bf7:fc0f::11; 2001:bf7:fc0f::12; };
 };
 zone "0.c.f.7.f.b.0.1.0.0.2.ip6.arpa" {
     type static-stub;
-    server-addresses { 10.172.0.11; };
+    server-addresses { 10.172.0.11; 10.172.0.12; 2001:bf7:fc0f::11; 2001:bf7:fc0f::12; };
 };
 zone "172.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.172.0.11; };
+    server-addresses { 10.172.0.11; 10.172.0.12; 2001:bf7:fc0f::11; 2001:bf7:fc0f::12; };
 };
 # 
 # troisdorf
@@ -411,7 +407,7 @@ zone "fftdf" {
 # 
 zone "ffwk" {
     type static-stub;
-    server-addresses { 10.13.0.1; fd23:dead:beef::ff01; };
+    server-addresses { 10.13.1.1; fd23:dead:beef::ff01; };
 };
 # 
 # westpfalz
