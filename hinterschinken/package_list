@@ -504,8 +504,12 @@ ii  linux-headers-3.13.0-44             3.13.0-44.73                         all
 ii  linux-headers-3.13.0-44-generic     3.13.0-44.73                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-45             3.13.0-45.74                         all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-45-generic     3.13.0-45.74                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-3.13.0-46             3.13.0-46.79                         all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-46-generic     3.13.0-46.79                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-48             3.13.0-48.80                         all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-48-generic     3.13.0-48.80                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-3.13.0-49             3.13.0-49.83                         all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-49-generic     3.13.0-49.83                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-51             3.13.0-51.84                         all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-51-generic     3.13.0-51.84                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-52             3.13.0-52.86                         all          Header files related to Linux kernel version 3.13.0
@@ -692,7 +696,7 @@ ii  reiserfsprogs                       1:3.6.24-1                           amd
 ii  resolvconf                          1.69ubuntu1.1                        all          name server information handler
 ii  rrdtool                             1.4.7-2ubuntu5                       amd64        time-series data storage and display system (programs)
 ii  rsync                               3.1.0-2ubuntu0.1                     amd64        fast, versatile, remote (and local) file-copying tool
-ii  rsyslog                             7.4.4-1ubuntu2.5                     amd64        reliable system and kernel logging daemon
+ii  rsyslog                             7.4.4-1ubuntu2.6                     amd64        reliable system and kernel logging daemon
 ii  run-one                             1.17-0ubuntu1                        all          run just one instance of a command and its args at a time
 ii  screen                              4.1.0~20120320gitdb59704-9           amd64        terminal multiplexer with VT100/ANSI terminal emulation
 ii  secure-delete                       3.1-6                                amd64        tools to wipe files, free disk space, swap and memory
