@@ -3,7 +3,7 @@ $ORIGIN user.ffwi.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffwi.org. hostmaster.ffwi.org. (
-                     2015041801         ; Serial
+                     2015052101         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -15,6 +15,7 @@ $TTL    600
 @       	IN      NS      lotuswurzel.ffwi.org.
 
 antigua		IN	A	10.56.4.1
+radio		IN	A	10.56.4.2
 piratebox	IN	A	10.56.4.99
 piratebox	IN	AAAA	fd56:b4dc:4b1e::53:9ff:fe02:c0b5
 ipam		IN	AAAA	fd56:b4dc:4b1e::5054:ff:fe79:fded
