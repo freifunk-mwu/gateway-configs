@@ -85,11 +85,17 @@ protocol bgp goettingen1 from ebgp_ic {
 protocol bgp guetersloh1 from ebgp_ic {
     neighbor fec0::a:cf:0:84 as 65533;
 }
-protocol bgp guetersloh2 from ebgp_ic {
-    neighbor fec0::a:cf:0:85 as 65533;
-}
 protocol bgp guetersloh4 from ebgp_ic {
     neighbor fec0::a:cf:0:86 as 65533;
+}
+protocol bgp gueterslohbgp1 from ebgp_ic {
+    neighbor fec0::a:cf:0:88 as 65533;
+}
+protocol bgp gueterslohbgp2 from ebgp_ic {
+    neighbor fec0::a:cf:0:85 as 65533;
+}
+protocol bgp rhwdbgp1 from ebgp_ic {
+    neighbor fec0::a:cf:0:89 as 65533;
 }
 protocol bgp hamburg01 from ebgp_ic {
     neighbor fec0::a:cf:0:3d as 49009;
