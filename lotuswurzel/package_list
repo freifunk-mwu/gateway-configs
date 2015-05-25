@@ -108,6 +108,7 @@ ii  grub-pc                              2.02~beta2-9ubuntu1.1                am
 ii  grub-pc-bin                          2.02~beta2-9ubuntu1.1                amd64        GRand Unified Bootloader, version 2 (PC/BIOS binaries)
 ii  grub2-common                         2.02~beta2-9ubuntu1.1                amd64        GRand Unified Bootloader (common files for version 2)
 ii  gzip                                 1.6-3ubuntu1                         amd64        GNU compression utilities
+ii  haveged                              1.7c-1                               amd64        Linux entropy source using the HAVEGE algorithm
 ii  hostname                             3.15ubuntu1                          amd64        utility to set/show the host name or domain name
 ii  htop                                 1.0.2-3                              amd64        interactive processes viewer
 ii  iftop                                1.0~pre2-5                           amd64        displays bandwidth usage information on an network interface
@@ -235,6 +236,7 @@ ii  libgraphite2-3:amd64                 1.2.4-1ubuntu1                       am
 ii  libgssapi-krb5-2:amd64               1.12+dfsg-2ubuntu5.1                 amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii  libgssapi3-heimdal:amd64             1.6~git20131207+dfsg-1ubuntu1.1      amd64        Heimdal Kerberos - GSSAPI support library
 ii  libharfbuzz0b:amd64                  0.9.27-1ubuntu1                      amd64        OpenType text shaping engine (shared library)
+ii  libhavege1:amd64                     1.7c-1                               amd64        entropy source using the HAVEGE algorithm - shared library
 ii  libhcrypto4-heimdal:amd64            1.6~git20131207+dfsg-1ubuntu1.1      amd64        Heimdal Kerberos - crypto library
 ii  libheimbase1-heimdal:amd64           1.6~git20131207+dfsg-1ubuntu1.1      amd64        Heimdal Kerberos - Base library
 ii  libheimntlm0-heimdal:amd64           1.6~git20131207+dfsg-1ubuntu1.1      amd64        Heimdal Kerberos - NTLM support library
