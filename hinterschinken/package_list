@@ -129,6 +129,7 @@ ii  grub2-common                        2.02~beta2-9ubuntu1.1                amd
 ii  gsfonts                             1:8.11+urwcyr1.0.7~pre44-4.2ubuntu1  all          Fonts for the Ghostscript interpreter(s)
 ii  gyp                                 0.1~svn1729-3ubuntu1                 all          Cross-platform build script generator
 ii  gzip                                1.6-3ubuntu1                         amd64        GNU compression utilities
+ii  haveged                             1.7c-1                               amd64        Linux entropy source using the HAVEGE algorithm
 ii  hddtemp                             0.3-beta15-52                        amd64        hard drive temperature monitoring utility
 ii  hdparm                              9.43-1ubuntu3                        amd64        tune hard disk parameters for high performance
 ii  hicolor-icon-theme                  0.13-1                               all          default fallback theme for FreeDesktop.org icon themes
@@ -285,6 +286,7 @@ ii  libgs9-common                       9.10~dfsg-0ubuntu10.2                all
 ii  libgssapi-krb5-2:amd64              1.12+dfsg-2ubuntu5.1                 amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii  libgssapi3-heimdal:amd64            1.6~git20131207+dfsg-1ubuntu1.1      amd64        Heimdal Kerberos - GSSAPI support library
 ii  libharfbuzz0b:amd64                 0.9.27-1ubuntu1                      amd64        OpenType text shaping engine (shared library)
+ii  libhavege1:amd64                    1.7c-1                               amd64        entropy source using the HAVEGE algorithm - shared library
 ii  libhcrypto4-heimdal:amd64           1.6~git20131207+dfsg-1ubuntu1.1      amd64        Heimdal Kerberos - crypto library
 ii  libheimbase1-heimdal:amd64          1.6~git20131207+dfsg-1ubuntu1.1      amd64        Heimdal Kerberos - Base library
 ii  libheimntlm0-heimdal:amd64          1.6~git20131207+dfsg-1ubuntu1.1      amd64        Heimdal Kerberos - NTLM support library
