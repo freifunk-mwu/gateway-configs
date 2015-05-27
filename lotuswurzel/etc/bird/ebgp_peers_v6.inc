@@ -52,9 +52,6 @@ protocol bgp dreilaendereck1 from ebgp_ic {
 protocol bgp dreilaendereck2 from ebgp_ic {
     neighbor fec0::a:cf:0:ba as 65043;
 }
-protocol bgp dreilaendereck3 from ebgp_ic {
-    neighbor fec0::a:cf:0:bc as 65043;
-}
 protocol bgp dreilaendereck4 from ebgp_ic {
     neighbor fec0::a:cf:0:47 as 65043;
 }

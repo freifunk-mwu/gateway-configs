@@ -64,9 +64,6 @@ protocol bgp dreilaendereck1 from ebgp_ic {
 protocol bgp dreilaendereck2 from ebgp_ic {
     neighbor 10.207.0.74 as 65043;
 }
-protocol bgp dreilaendereck3 from ebgp_ic {
-    neighbor 10.207.0.72 as 65043;
-}
 protocol bgp dreilaendereck4 from ebgp_ic {
     neighbor 10.207.0.71 as 65043;
 }
