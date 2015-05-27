@@ -44,19 +44,17 @@ iface wiBR inet6 static
         address fd56:b4dc:4b1e::a38:17
         netmask 64
 
-allow-hotplug mzTempVPN
-iface mzTempVPN inet6 manual
-	hwaddress 02:00:0a:25:01:17
-	pre-up		/sbin/modprobe batman_adv
-        post-up		/usr/sbin/batctl -m mzBAT if add $IFACE 
-        post-up		/sbin/ip link set dev mzBAT up
-
 allow-hotplug mzVPN
 iface mzVPN inet6 manual
 	hwaddress 02:00:0a:25:00:17
 	pre-up		/sbin/modprobe batman_adv
         post-up		/usr/sbin/batctl -m mzBAT if add $IFACE 
         post-up		/sbin/ip link set dev mzBAT up
+
+allow-hotplug mzTempVPN
+iface mzTempVPN inet6 manual
+	hwaddress 02:00:0a:25:01:17
+        post-up		/usr/sbin/batctl -m mzBAT if add $IFACE 
 
 allow-hotplug wiVPN
 iface wiVPN inet6 manual
