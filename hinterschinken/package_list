@@ -53,7 +53,7 @@ ii  build-essential                     11.6ubuntu6                          amd
 ii  busybox-initramfs                   1:1.21.0-1ubuntu1                    amd64        Standalone shell setup for initramfs
 ii  busybox-static                      1:1.21.0-1ubuntu1                    amd64        Standalone rescue shell with tons of builtin utilities
 ii  bzip2                               1.0.6-5                              amd64        high-quality block-sorting file compressor - utilities
-ii  ca-certificates                     20141019ubuntu0.14.04.1              all          Common CA certificates
+it  ca-certificates                     20141019ubuntu0.14.04.1              all          Common CA certificates
 ii  cmake                               2.8.12.2-0ubuntu3                    amd64        cross-platform, open-source make system
 ii  cmake-data                          2.8.12.2-0ubuntu3                    all          CMake data files (modules, templates and documentation)
 ii  command-not-found                   0.3ubuntu12                          all          Suggest installation of packages in interactive bash sessions
@@ -141,7 +141,7 @@ ii  imagemagick                         8:6.7.7.10-6ubuntu3                  amd
 ii  imagemagick-common                  8:6.7.7.10-6ubuntu3                  all          image manipulation programs -- infrastructure
 ii  info                                5.2.0.dfsg.1-2                       amd64        Standalone GNU Info documentation browser
 ii  init-system-helpers                 1.14                                 all          helper tools for all init systems
-ii  initramfs-tools                     0.103ubuntu4.2                       all          tools for generating an initramfs
+it  initramfs-tools                     0.103ubuntu4.2                       all          tools for generating an initramfs
 ii  initramfs-tools-bin                 0.103ubuntu4.2                       amd64        binaries used by initramfs-tools
 ii  initscripts                         2.88dsf-41ubuntu6.1                  amd64        scripts for initializing and shutting down the system
 ii  insserv                             1.14.0-5ubuntu2                      amd64        boot sequence organizer using LSB init.d script dependency information
@@ -208,7 +208,7 @@ ii  libbsd0:amd64                       0.6.0-2ubuntu1                       amd
 ii  libbz2-1.0:amd64                    1.0.6-5                              amd64        high-quality block-sorting file compressor library - runtime
 ii  libc-ares-dev:amd64                 1.10.0-2                             amd64        asynchronous name resolver - development files
 ii  libc-ares2:amd64                    1.10.0-2                             amd64        asynchronous name resolver
-ii  libc-bin                            2.19-0ubuntu6.6                      amd64        Embedded GNU C Library: Binaries
+it  libc-bin                            2.19-0ubuntu6.6                      amd64        Embedded GNU C Library: Binaries
 ii  libc-dev-bin                        2.19-0ubuntu6.6                      amd64        Embedded GNU C Library: Development binaries
 ii  libc6:amd64                         2.19-0ubuntu6.6                      amd64        Embedded GNU C Library: Shared libraries
 ii  libc6-dev:amd64                     2.19-0ubuntu6.6                      amd64        Embedded GNU C Library: Development Libraries and Header Files
