@@ -105,6 +105,7 @@ ii  gyp                              0.1~svn1729-3ubuntu1             all       
 ii  gzip                             1.6-3ubuntu1                     amd64        GNU compression utilities
 ii  haveged                          1.7c-1                           amd64        Linux entropy source using the HAVEGE algorithm
 ii  hostname                         3.15ubuntu1                      amd64        utility to set/show the host name or domain name
+ii  htop                             1.0.2-3                          amd64        interactive processes viewer
 ii  ifupdown                         0.7.47.2ubuntu4.1                amd64        high level tools to configure network interfaces
 ii  init-system-helpers              1.14                             all          helper tools for all init systems
 ii  initramfs-tools                  0.103ubuntu4.2                   all          tools for generating an initramfs
