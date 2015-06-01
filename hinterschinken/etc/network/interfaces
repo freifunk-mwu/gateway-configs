@@ -91,11 +91,6 @@ iface mzVPN inet6 manual
         post-up		/usr/sbin/batctl -m mzBAT if add $IFACE 
         post-up		/sbin/ip link set dev mzBAT up
 
-allow-hotplug mzTempVPN
-iface mzTempVPN inet6 manual
-	pre-up		/sbin/ip link set address 02:00:0a:25:01:05 dev $IFACE
-        post-up         /usr/sbin/batctl -m mzBAT if add $IFACE
-
 allow-hotplug wiVPN
 iface wiVPN inet6 manual
 	pre-up		/sbin/modprobe batman-adv
