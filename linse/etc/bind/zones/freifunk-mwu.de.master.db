@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2015051801		; Serial
+		     2015060201		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -35,6 +35,14 @@ gate07          IN      CNAME   spinat
 lotuswurzel	IN	A	144.76.209.100
 lotuswurzel	IN	AAAA	2a01:4f8:192:520::b4dc:4b1e
 gate23		IN	CNAME	lotuswurzel
+
+kaschu		IN	A	178.63.230.157
+kaschu		IN	AAAA	2a01:4f8:110:4523::2
+gate208		IN	CNAME	kaschu
+
+wasserfloh	IN	A	144.76.0.27
+wasserfloh	IN	AAAA	2a01:4f8:190:7008:2800::2
+gate231		IN	CNAME	wasserfloh
 
 ; gluon map
 map		IN	CNAME	aubergine
