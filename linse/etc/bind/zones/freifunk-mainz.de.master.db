@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2015040101		; Serial
+		     2015060201		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -26,6 +26,10 @@ spinat          IN      CNAME	spinat.freifunk-mwu.de.
 gate07          IN      CNAME   spinat.freifunk-mwu.de.
 lotuswurzel	IN	CNAME	lotuswurzel.freifunk-mwu.de.
 gate23		IN	CNAME	lotuswurzel.freifunk-mwu.de.
+kaschu		IN	CNAME	kaschu.freifunk-mwu.de.
+gate208		IN	CNAME	kaschu.freifunk-mwu.de.
+wasserfloh	IN	CNAME	wasserfloh.freifunk-mwu.de.
+gate231		IN	CNAME	wasserfloh.freifunk-mwu.de.
 
 ; legacy gateways
 gate2		IN	A	89.238.78.70
