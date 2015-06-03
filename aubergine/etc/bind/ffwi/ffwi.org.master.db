@@ -3,7 +3,7 @@ $ORIGIN ffwi.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffwi.org. hostmaster.ffwi.org. (
-                     2015051801         ; Serial
+                     2015060201         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -40,6 +40,14 @@ gate23			IN      CNAME   lotuswurzel
 lotuswurzel.icvpn	IN	A	10.207.0.56
 lotuswurzel.icvpn	IN	AAAA	fec0::a:cf:0:38
 gate23.icvpn		IN	CNAME	lotuswurzel.icvpn
+
+kaschu  	   	IN      A       10.56.0.208
+kaschu	     		IN      AAAA    fd56:b4dc:4b1e::a38:d0
+gate208          	IN      CNAME   kaschu
+
+wasserfloh  	   	IN      A       10.56.0.231
+wasserfloh     		IN      AAAA    fd37:b4dc:4b1e::a38:e7
+gate231          	IN      CNAME   wasserfloh
 
 parmesan		IN      A       10.56.0.42
 parmesan		IN      AAAA    fd56:b4dc:4b1e::a38:2a
