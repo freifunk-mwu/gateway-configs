@@ -5,7 +5,7 @@ Desired=Unknown/Install/Remove/Purge/Hold
 +++-================================-================================-============-===================================================================================
 ii  acpid                            1:2.0.21-1ubuntu2                amd64        Advanced Configuration and Power Interface event daemon
 ii  adduser                          3.113+nmu3ubuntu3                all          add and remove users and groups
-ii  alfred                           2014.4.0-0ffmwu1~trusty          amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
+ii  alfred                           2015.0-0ffmwu1~trusty            amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
 ii  alfred-json                      0.3.1-0ffmwu0~trusty             amd64        A.L.F.R.E.D client supporting GZIP decompression and JSON, string and binary output
 ii  apache2                          2.4.7-1ubuntu4.4                 amd64        Apache HTTP Server
 ii  apache2-bin                      2.4.7-1ubuntu4.4                 amd64        Apache HTTP Server (binary files and modules)
@@ -26,9 +26,9 @@ ii  autotools-dev                    20130810.1                       all       
 ii  base-files                       7.2ubuntu5.2                     amd64        Debian base system miscellaneous files
 ii  base-passwd                      3.5.33                           amd64        Debian base system master password and group files
 ii  bash                             4.3-7ubuntu1.5                   amd64        GNU Bourne Again SHell
-ii  batadv-vis                       2014.4.0-0ffmwu1~trusty          amd64        batadv-vis - visualize your batman-adv mesh network
-ii  batctl                           2014.4.0-0ffmwu0~trusty          amd64        B.A.T.M.A.N. advanced control and management tool
-ii  batman-adv-dkms                  2014.4.0-0ffmwu0~trusty          all          DKMS Source for the batman-advanced kernel module
+ii  batadv-vis                       2015.0-0ffmwu1~trusty            amd64        batadv-vis - visualize your batman-adv mesh network
+ii  batctl                           2015.0-0ffmwu0~trusty            amd64        B.A.T.M.A.N. advanced control and management tool
+ii  batman-adv-dkms                  2015.0-0ffmwu0~trusty            all          DKMS Source for the batman-advanced kernel module
 ii  bc                               1.06.95-8ubuntu1                 amd64        GNU bc arbitrary precision calculator language
 ii  bind9                            1:9.9.5.dfsg-3ubuntu0.2          amd64        Internet Domain Name Server
 ii  bind9-host                       1:9.9.5.dfsg-3ubuntu0.2          amd64        Version of 'host' bundled with BIND 9.X
@@ -50,7 +50,7 @@ ii  coreutils                        8.21-1ubuntu5.1                  amd64     
 ii  cpio                             2.11+dfsg-1ubuntu1.1             amd64        GNU cpio -- a program to manage archives of files
 ii  cpp                              4:4.8.2-1ubuntu6                 amd64        GNU C preprocessor (cpp)
 ii  cpp-4.8                          4.8.2-19ubuntu1                  amd64        GNU C preprocessor
-ii  crda                             1.1.2-1ubuntu2                   amd64        wireless Central Regulatory Domain Agent
+rc  crda                             1.1.2-1ubuntu2                   amd64        wireless Central Regulatory Domain Agent
 ii  cron                             3.0pl1-124ubuntu2                amd64        process scheduling daemon
 ii  curl                             7.35.0-1ubuntu2.5                amd64        command line tool for transferring data with URL syntax
 ii  dash                             0.5.7-4ubuntu1                   amd64        POSIX-compliant shell
@@ -119,7 +119,6 @@ ii  iputils-ping                     3:20121221-4ubuntu1.1            amd64     
 ii  isc-dhcp-client                  4.2.4-8ffmwu0                    amd64        ISC DHCP client
 ii  isc-dhcp-common                  4.2.4-8ffmwu0                    amd64        common files used by all the isc-dhcp* packages
 ii  iso-codes                        3.52-1                           all          ISO language, territory, currency, script codes and their translations
-ii  iw                               3.4-1                            amd64        tool for configuring Linux wireless devices
 ii  javascript-common                11                               all          Base support for JavaScript library packages
 ii  jekyll                           0.11.2-1                         all          Simple, blog aware, static site generator
 ii  jq                               1.3-1.1ubuntu1                   amd64        lightweight and flexible command-line JSON processor
@@ -440,27 +439,22 @@ ii  libxss1:amd64                    1:1.2.2-1                        amd64     
 ii  libxt6:amd64                     1:1.1.4-1                        amd64        X11 toolkit intrinsics library
 ii  libyaml-0-2:amd64                0.1.4-3ubuntu3.1                 amd64        Fast YAML 1.1 parser and emitter library
 ii  linux-firmware                   1.127.12                         all          Firmware for Linux kernel drivers
-ii  linux-headers-3.13.0-46          3.13.0-46.79                     all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-46-generic  3.13.0-46.79                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-52          3.13.0-52.86                     all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-52-generic  3.13.0-52.86                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-53          3.13.0-53.89                     all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-53-generic  3.13.0-53.89                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.16.0-38          3.16.0-38.52~14.04.1             all          Header files related to Linux kernel version 3.16.0
 ii  linux-headers-3.16.0-38-generic  3.16.0-38.52~14.04.1             amd64        Linux kernel headers for version 3.16.0 on 64 bit x86 SMP
 ii  linux-headers-generic            3.13.0.53.60                     amd64        Generic Linux kernel headers
-ii  linux-headers-generic-lts-utopic 3.16.0.38.30                     amd64        Generic Linux kernel headers
 ii  linux-headers-virtual            3.13.0.53.60                     amd64        Transitional package.
 rc  linux-image-3.13.0-32-generic    3.13.0-32.57                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-40-generic    3.13.0-40.69                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-43-generic    3.13.0-43.72                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-44-generic    3.13.0-44.73                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-45-generic    3.13.0-45.74                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-46-generic    3.13.0-46.79                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-46-generic    3.13.0-46.79                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-48-generic    3.13.0-48.80                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-49-generic    3.13.0-49.83                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-51-generic    3.13.0-51.84                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-52-generic    3.13.0-52.86                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-52-generic    3.13.0-52.86                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-53-generic    3.13.0-53.89                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-virtual              3.13.0.53.60                     amd64        This package will always depend on the latest minimal generic kernel image.
 ii  linux-libc-dev:amd64             3.13.0-53.89                     amd64        Linux Kernel Headers for development
@@ -722,7 +716,6 @@ ii  w3m                              0.5.3-15                         amd64     
 ii  watershed                        7                                amd64        reduce superfluous executions of idempotent command
 ii  wget                             1.15-1ubuntu1.14.04.1            amd64        retrieves files from the web
 ii  whiptail                         0.52.15-2ubuntu5                 amd64        Displays user-friendly dialog boxes from shell scripts
-ii  wireless-regdb                   2013.02.13-1ubuntu1              all          wireless regulatory database
 ii  wireless-tools                   30~pre9-8ubuntu1                 amd64        Tools for manipulating Linux Wireless Extensions
 ii  wpasupplicant                    2.1-0ubuntu1.2                   amd64        client support for WPA and WPA2 (IEEE 802.11i)
 ii  wwwconfig-common                 0.2.2                            all          Debian web auto configuration
