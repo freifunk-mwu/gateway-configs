@@ -6,7 +6,7 @@ Desired=Unknown/Install/Remove/Purge/Hold
 ii  accountsservice                     0.6.35-0ubuntu7.2                    amd64        query and manipulate user account information
 ii  acpid                               1:2.0.21-1ubuntu2                    amd64        Advanced Configuration and Power Interface event daemon
 ii  adduser                             3.113+nmu3ubuntu3                    all          add and remove users and groups
-ii  alfred                              2014.4.0-0ffmwu1~trusty              amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
+ii  alfred                              2015.0-0ffmwu1~trusty                amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
 ii  alfred-json                         0.3.1-0ffmwu0~trusty                 amd64        A.L.F.R.E.D client supporting GZIP decompression and JSON, string and binary output
 ii  apache2                             2.4.7-1ubuntu4.4                     amd64        Apache HTTP Server
 ii  apache2-bin                         2.4.7-1ubuntu4.4                     amd64        Apache HTTP Server (binary files and modules)
@@ -33,9 +33,9 @@ ii  base-files                          7.2ubuntu5.2                         amd
 ii  base-passwd                         3.5.33                               amd64        Debian base system master password and group files
 ii  bash                                4.3-7ubuntu1.5                       amd64        GNU Bourne Again SHell
 ii  bash-completion                     1:2.1-4                              all          programmable completion for the bash shell
-ii  batadv-vis                          2014.4.0-0ffmwu1~trusty              amd64        batadv-vis - visualize your batman-adv mesh network
-ii  batctl                              2014.4.0-0ffmwu0~trusty              amd64        B.A.T.M.A.N. advanced control and management tool
-ii  batman-adv-dkms                     2014.4.0-0ffmwu0~trusty              all          DKMS Source for the batman-advanced kernel module
+ii  batadv-vis                          2015.0-0ffmwu1~trusty                amd64        batadv-vis - visualize your batman-adv mesh network
+ii  batctl                              2015.0-0ffmwu0~trusty                amd64        B.A.T.M.A.N. advanced control and management tool
+ii  batman-adv-dkms                     2015.0-0ffmwu0~trusty                all          DKMS Source for the batman-advanced kernel module
 ii  bc                                  1.06.95-8ubuntu1                     amd64        GNU bc arbitrary precision calculator language
 ii  bind9                               1:9.9.5.dfsg-3ubuntu0.2              amd64        Internet Domain Name Server
 ii  bind9-host                          1:9.9.5.dfsg-3ubuntu0.2              amd64        Version of 'host' bundled with BIND 9.X
@@ -520,6 +520,7 @@ ii  linux-headers-3.13.0-53             3.13.0-53.89                         all
 ii  linux-headers-3.13.0-53-generic     3.13.0-53.89                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-generic               3.13.0.53.60                         amd64        Generic Linux kernel headers
 ii  linux-headers-server                3.13.0.53.60                         amd64        Transitional package.
+ii  linux-headers-virtual               3.13.0.53.60                         amd64        Transitional package.
 rc  linux-image-3.13.0-29-generic       3.13.0-29.53                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-30-generic       3.13.0-30.55                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-32-generic       3.13.0-32.57                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
