@@ -19,7 +19,7 @@ protocol bgp berlin2 from ebgp_ic {
 protocol bgp bielefeld1 from ebgp_ic {
     neighbor fec0::a:cf:0:59 as 65529;
 }
-protocol bgp bielefeld4 from ebgp_ic {
+protocol bgp bielefeld6 from ebgp_ic {
     neighbor fec0::a:cf:0:3a as 65529;
 }
 protocol bgp braunschweig1 from ebgp_ic {
@@ -52,9 +52,6 @@ protocol bgp dreilaendereck1 from ebgp_ic {
 protocol bgp dreilaendereck2 from ebgp_ic {
     neighbor fec0::a:cf:0:ba as 65043;
 }
-protocol bgp dreilaendereck3 from ebgp_ic {
-    neighbor fec0::a:cf:0:bc as 65043;
-}
 protocol bgp dreilaendereck4 from ebgp_ic {
     neighbor fec0::a:cf:0:47 as 65043;
 }
@@ -85,11 +82,17 @@ protocol bgp goettingen1 from ebgp_ic {
 protocol bgp guetersloh1 from ebgp_ic {
     neighbor fec0::a:cf:0:84 as 65533;
 }
-protocol bgp guetersloh2 from ebgp_ic {
-    neighbor fec0::a:cf:0:85 as 65533;
-}
 protocol bgp guetersloh4 from ebgp_ic {
     neighbor fec0::a:cf:0:86 as 65533;
+}
+protocol bgp gueterslohbgp1 from ebgp_ic {
+    neighbor fec0::a:cf:0:88 as 65533;
+}
+protocol bgp gueterslohbgp2 from ebgp_ic {
+    neighbor fec0::a:cf:0:85 as 65533;
+}
+protocol bgp rhwdbgp1 from ebgp_ic {
+    neighbor fec0::a:cf:0:89 as 65533;
 }
 protocol bgp hamburg01 from ebgp_ic {
     neighbor fec0::a:cf:0:3d as 49009;
@@ -99,6 +102,9 @@ protocol bgp hamburg02 from ebgp_ic {
 }
 protocol bgp hamburg03 from ebgp_ic {
     neighbor fec0::a:cf:0:3f as 49009;
+}
+protocol bgp hennef1 from ebgp_ic {
+    neighbor fec0::a:cf:0:bd as 65100;
 }
 protocol bgp karlsruhe1 from ebgp_ic {
     neighbor fec0::a:cf:0:d6 as 65081;
