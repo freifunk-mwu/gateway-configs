@@ -41,6 +41,7 @@ roa fd42:ffee:ff13::/48      max  64 as  65533; # guetersloh
 roa fd42:ffee:ff14::/48      max  64 as  65533; # guetersloh
 roa 2a03:2267::/32           max  64 as  49009; # hamburg
 roa fdca:ffee:8::/64         max  64 as  65511; # hannover
+roa fda0:747e:ab29:7406::/64 max  64 as  65100; # hennef
 roa fd59:b1b7:1d1f::/48      max  64 as  65055; # jena
 roa 2a03:2260:a::/48         max  64 as  65081; # karlsruhe
 roa fdca:55e1:baca:baca::/64 max  64 as  65514; # kassel
@@ -58,6 +59,7 @@ roa fd39:e4e3:eee1::/48      max  64 as  65534; # mueritz
 roa fd73:111:e824::/48       max  64 as  65152; # ostholstein
 roa fdca:ffee:ff12::/48      max  64 as  65132; # paderborn
 roa 2001:bf7:23::/44         max  64 as  65433; # pinneberg
+roa fde8:21c6:9d82::/48      max  64 as  65433; # pinneberg
 roa fda0:747e:ab29:2195::/64 max  64 as  65067; # radevormwald
 roa fdef:f00f:1337:cafe::/64 max  64 as  65190; # regensburg
 roa 2a01:4f8:100:57ff::/64   max  64 as  76118; # rhein-neckar
