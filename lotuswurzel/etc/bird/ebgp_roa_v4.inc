@@ -44,6 +44,7 @@ roa 10.112.0.0/16   max  20 as  49009; # hamburg
 roa 10.2.0.0/16     max  20 as  65511; # hannover
 roa 10.7.0.0/16     max  20 as  65134; # harz
 roa 10.189.0.0/18   max  20 as  65189; # helgoland
+roa 10.186.0.0/16   max  20 as  65100; # hennef
 roa 10.17.0.0/16    max  20 as  65055; # jena
 roa 10.214.0.0/16   max  20 as  65081; # karlsruhe
 roa 10.54.0.0/16    max  20 as  65514; # kassel

@@ -41,6 +41,7 @@ roa fd42:ffee:ff13::/48      max  64 as  65533; # guetersloh
 roa fd42:ffee:ff14::/48      max  64 as  65533; # guetersloh
 roa 2a03:2267::/32           max  64 as  49009; # hamburg
 roa fdca:ffee:8::/64         max  64 as  65511; # hannover
+roa fda0:747e:ab29:7406::/64 max  64 as  65100; # hennef
 roa fd59:b1b7:1d1f::/48      max  64 as  65055; # jena
 roa 2a03:2260:a::/48         max  64 as  65081; # karlsruhe
 roa fdca:55e1:baca:baca::/64 max  64 as  65514; # kassel

@@ -142,6 +142,9 @@ protocol bgp hamburg03 from ebgp_ic {
 protocol bgp harz1 from ebgp_ic {
     neighbor 10.207.0.11 as 65134;
 }
+protocol bgp hennef1 from ebgp_ic {
+    neighbor 10.207.0.189 as 65100;
+}
 protocol bgp jena1 from ebgp_ic {
     neighbor 10.207.0.33 as 65055;
 }
