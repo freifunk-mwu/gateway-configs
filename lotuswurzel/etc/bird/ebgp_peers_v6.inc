@@ -103,6 +103,9 @@ protocol bgp hamburg02 from ebgp_ic {
 protocol bgp hamburg03 from ebgp_ic {
     neighbor fec0::a:cf:0:3f as 49009;
 }
+protocol bgp hennef1 from ebgp_ic {
+    neighbor fec0::a:cf:0:bd as 65100;
+}
 protocol bgp karlsruhe1 from ebgp_ic {
     neighbor fec0::a:cf:0:d6 as 65081;
 }
