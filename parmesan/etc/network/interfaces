@@ -117,11 +117,11 @@ iface mzBAT inet6 manual
 
 
 
-auto em0.100
-iface em0.100 inet6 manual
-#    hwaddress 02:00:0a:38:01:2a
-#    pre-up          /sbin/modprobe batman_adv
-    post-up         ifconfig em0.100 up 
-#    post-up         /sbin/ip link set dev mzBAT up
-    vlan-raw-device em0
+auto em0.3
+iface em0.3 inet6 manual
 
+auto em0.4
+iface em0.4 inet6 manual
+
+auto em0.5
+iface em0.5 inet6 manual
