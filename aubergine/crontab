@@ -20,7 +20,6 @@ PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bi
 */15 * * * * /usr/bin/python3 $HOME/clones/alfred2zone/light/zone_from_alfred.py > $HOME/.cronlog/zone_from_alfred.log
 # ffmap-d3
 * * * * * $HOME/clones/ffmap-backend/mkmap-mz.sh /var/www/mapmz/build 0.1 > /dev/null 2>&1
-#* * * * * $HOME/clones/ffmap-backend/mkmap-wi.sh /var/www/mapwi/build 0.1 > /dev/null 2>&1
 * * * * * $HOME/clones/ffmap-backend/mkmap-mwu.sh /var/www/mapmwu/build 0.1 > /dev/null 2>&1
 # meshviewer
 * * * * * $HOME/clones/ffmap-backend-intern-mz/mkmap-mz.sh > /dev/null 2>&1
