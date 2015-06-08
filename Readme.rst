@@ -13,7 +13,7 @@ Konfigurationen der Gateways und weiterer Maschinen des `Freifunk Mainz Wiesbade
         - Geteilten Wissensvermittlung
         - Erfüllung eines Lehrauftrags :)
 
-Das Repository wird durch ein Script aus unseren `backend-scrips <https://github.com/freifunk-mwu/backend-scrips.git>`_ befüllt, die *.yaml*-Dateien beeinflussen teilweise das Verhalten derer. Deshalb sind die Schreibrechte hier recht restriktiv.
+Das Repository wird durch ein Script aus unseren `backend-scrips <https://github.com/freifunk-mwu/backend-scrips>`_ befüllt, die *.yaml*-Dateien beeinflussen teilweise das Verhalten derer. Deshalb sind die Schreibrechte hier recht restriktiv.
 
 Pull Requests bringen hier uns wenig, da die Konfigurationen immer von den Gateways kopiert werden.
 
