@@ -3,7 +3,7 @@ Desired=Unknown/Install/Remove/Purge/Hold
 |/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
 ||/ Name                                Version                              Architecture Description
 +++-===================================-====================================-============-===============================================================================
-ii  accountsservice                     0.6.35-0ubuntu7.1                    amd64        query and manipulate user account information
+ii  accountsservice                     0.6.35-0ubuntu7.2                    amd64        query and manipulate user account information
 ii  acpid                               1:2.0.21-1ubuntu2                    amd64        Advanced Configuration and Power Interface event daemon
 ii  adduser                             3.113+nmu3ubuntu3                    all          add and remove users and groups
 ii  apache2                             2.4.7-1ubuntu4.4                     amd64        Apache HTTP Server
@@ -13,9 +13,9 @@ ii  apache2-dev                         2.4.7-1ubuntu4.4                     amd
 ii  apparmor                            2.8.95~2430-0ubuntu5.1               amd64        User-space parser utility for AppArmor
 ii  apport                              2.14.1-0ubuntu3.11                   all          automatically generate crash reports for debugging
 ii  apport-symptoms                     0.20                                 all          symptom scripts for apport
-ii  apt                                 1.0.1ubuntu2.7                       amd64        commandline package manager
-ii  apt-transport-https                 1.0.1ubuntu2.7                       amd64        https download transport for APT
-ii  apt-utils                           1.0.1ubuntu2.7                       amd64        package management related utility programs
+ii  apt                                 1.0.1ubuntu2.8                       amd64        commandline package manager
+ii  apt-transport-https                 1.0.1ubuntu2.8                       amd64        https download transport for APT
+ii  apt-utils                           1.0.1ubuntu2.8                       amd64        package management related utility programs
 ii  apt-xapian-index                    0.45ubuntu4                          all          maintenance and search tools for a Xapian index of Debian packages
 ii  aptitude                            0.6.8.2-1ubuntu4                     amd64        terminal-based package manager
 ii  aptitude-common                     0.6.8.2-1ubuntu4                     all          architecture indepedent files for the aptitude package manager
@@ -103,17 +103,17 @@ ii  geoip-database                      20140313-1                           all
 ii  gettext                             0.18.3.1-1ubuntu3                    amd64        GNU Internationalization utilities
 ii  gettext-base                        0.18.3.1-1ubuntu3                    amd64        GNU Internationalization utilities for the base system
 ii  gir1.2-glib-2.0                     1.40.0-1ubuntu0.2                    amd64        Introspection data for GLib, GObject, Gio and GModule
-ii  git                                 1:2.4.1-0ppa1~ubuntu14.04.1          amd64        fast, scalable, distributed revision control system
-ii  git-man                             1:2.4.1-0ppa1~ubuntu14.04.1          all          fast, scalable, distributed revision control system (manual pages)
+ii  git                                 1:2.4.3-0ppa1~ubuntu14.04.1          amd64        fast, scalable, distributed revision control system
+ii  git-man                             1:2.4.3-0ppa1~ubuntu14.04.1          all          fast, scalable, distributed revision control system (manual pages)
 ii  gnupg                               1.4.16-1ubuntu2.3                    amd64        GNU privacy guard - a free PGP replacement
 ii  gpgv                                1.4.16-1ubuntu2.3                    amd64        GNU privacy guard - signature verification tool
 ii  grep                                2.16-1                               amd64        GNU grep, egrep and fgrep
 ii  groff-base                          1.22.2-5                             amd64        GNU troff text-formatting system (base system components)
-ii  grub-common                         2.02~beta2-9ubuntu1.1                amd64        GRand Unified Bootloader (common files)
+ii  grub-common                         2.02~beta2-9ubuntu1.2                amd64        GRand Unified Bootloader (common files)
 ii  grub-gfxpayload-lists               0.6                                  amd64        GRUB gfxpayload blacklist
-ii  grub-pc                             2.02~beta2-9ubuntu1.1                amd64        GRand Unified Bootloader, version 2 (PC/BIOS version)
-ii  grub-pc-bin                         2.02~beta2-9ubuntu1.1                amd64        GRand Unified Bootloader, version 2 (PC/BIOS binaries)
-ii  grub2-common                        2.02~beta2-9ubuntu1.1                amd64        GRand Unified Bootloader (common files for version 2)
+ii  grub-pc                             2.02~beta2-9ubuntu1.2                amd64        GRand Unified Bootloader, version 2 (PC/BIOS version)
+ii  grub-pc-bin                         2.02~beta2-9ubuntu1.2                amd64        GRand Unified Bootloader, version 2 (PC/BIOS binaries)
+ii  grub2-common                        2.02~beta2-9ubuntu1.2                amd64        GRand Unified Bootloader (common files for version 2)
 ii  gzip                                1.6-3ubuntu1                         amd64        GNU compression utilities
 ii  hdparm                              9.43-1ubuntu3                        amd64        tune hard disk parameters for high performance
 ii  help2man                            1.44.1                               amd64        Automatic manpage generator
@@ -134,8 +134,8 @@ ii  iptables                            1.4.21-1ubuntu1                      amd
 ii  iputils-ping                        3:20121221-4ubuntu1.1                amd64        Tools to test the reachability of network hosts
 ii  iputils-tracepath                   3:20121221-4ubuntu1.1                amd64        Tools to trace the network path to a remote host
 ii  irqbalance                          1.0.6-2ubuntu0.14.04.1               amd64        Daemon to balance interrupts for SMP systems
-ii  isc-dhcp-client                     4.2.4-7ubuntu12.1                    amd64        ISC DHCP client
-ii  isc-dhcp-common                     4.2.4-7ubuntu12.1                    amd64        common files used by all the isc-dhcp* packages
+ii  isc-dhcp-client                     4.2.4-7ubuntu12.2                    amd64        ISC DHCP client
+ii  isc-dhcp-common                     4.2.4-7ubuntu12.2                    amd64        common files used by all the isc-dhcp* packages
 ii  iso-codes                           3.52-1                               all          ISO language, territory, currency, script codes and their translations
 ii  kbd                                 1.15.5-1ubuntu1                      amd64        Linux console font and keytable utilities
 ii  keyboard-configuration              1.70ubuntu8                          all          system-wide keyboard preferences
@@ -156,7 +156,7 @@ ii  lib32gcc1                           1:4.9.1-0ubuntu1                     amd
 ii  lib32gomp1                          4.8.2-19ubuntu1                      amd64        GCC OpenMP (GOMP) support library (32bit)
 ii  lib32itm1                           4.8.2-19ubuntu1                      amd64        GNU Transactional Memory Library (32bit)
 ii  lib32quadmath0                      4.8.2-19ubuntu1                      amd64        GCC Quad-Precision Math Library (32bit)
-ii  libaccountsservice0:amd64           0.6.35-0ubuntu7.1                    amd64        query and manipulate user account information - shared libraries
+ii  libaccountsservice0:amd64           0.6.35-0ubuntu7.2                    amd64        query and manipulate user account information - shared libraries
 ii  libacl1:amd64                       2.2.52-1                             amd64        Access control list shared library
 rc  libaio1:amd64                       0.3.109-4                            amd64        Linux kernel AIO access library - shared library
 ii  libalgorithm-diff-perl              1.19.02-3                            all          module to find differences between files
@@ -173,8 +173,8 @@ ii  libaprutil1:amd64                   1.5.3-1                              amd
 ii  libaprutil1-dbd-sqlite3:amd64       1.5.3-1                              amd64        Apache Portable Runtime Utility Library - SQLite3 Driver
 ii  libaprutil1-dev                     1.5.3-1                              amd64        Apache Portable Runtime Utility Library - Development Headers
 ii  libaprutil1-ldap:amd64              1.5.3-1                              amd64        Apache Portable Runtime Utility Library - LDAP Driver
-ii  libapt-inst1.5:amd64                1.0.1ubuntu2.7                       amd64        deb package format runtime library
-ii  libapt-pkg4.12:amd64                1.0.1ubuntu2.7                       amd64        package management runtime library
+ii  libapt-inst1.5:amd64                1.0.1ubuntu2.8                       amd64        deb package format runtime library
+ii  libapt-pkg4.12:amd64                1.0.1ubuntu2.8                       amd64        package management runtime library
 ii  libarchive-extract-perl             0.70-1                               all          generic archive extracting module
 ii  libarchive13:amd64                  3.1.2-7ubuntu2.1                     amd64        Multi-format archive and compression library (shared library)
 ii  libasan0:amd64                      4.8.2-19ubuntu1                      amd64        AddressSanitizer -- a fast memory error detector
@@ -376,7 +376,7 @@ ii  libpam-cap:amd64                    1:2.24-0ubuntu2                      amd
 ii  libpam-modules:amd64                1.1.8-1ubuntu2                       amd64        Pluggable Authentication Modules for PAM
 ii  libpam-modules-bin                  1.1.8-1ubuntu2                       amd64        Pluggable Authentication Modules for PAM - helper binaries
 ii  libpam-runtime                      1.1.8-1ubuntu2                       all          Runtime support for the PAM library
-ii  libpam-systemd:amd64                204-5ubuntu20.11                     amd64        system and service manager - PAM module
+ii  libpam-systemd:amd64                204-5ubuntu20.12                     amd64        system and service manager - PAM module
 ii  libpam0g:amd64                      1.1.8-1ubuntu2                       amd64        Pluggable Authentication Modules library
 ii  libpango-1.0-0:amd64                1.36.3-1ubuntu1.1                    amd64        Layout and rendering of internationalized text
 ii  libpangocairo-1.0-0:amd64           1.36.3-1ubuntu1.1                    amd64        Layout and rendering of internationalized text
@@ -453,8 +453,8 @@ ii  libstdc++6:amd64                    4.8.2-19ubuntu1                      amd
 ii  libsub-name-perl                    0.05-1build4                         amd64        module for assigning a new name to referenced sub
 ii  libsvn1:amd64                       1.8.8-1ubuntu3.1                     amd64        Shared libraries used by Apache Subversion
 ii  libsys-hostname-long-perl           1.4-3                                all          Figure out the long (fully-qualified) hostname
-ii  libsystemd-daemon0:amd64            204-5ubuntu20.11                     amd64        systemd utility library
-ii  libsystemd-login0:amd64             204-5ubuntu20.11                     amd64        systemd login utility library
+ii  libsystemd-daemon0:amd64            204-5ubuntu20.12                     amd64        systemd utility library
+ii  libsystemd-login0:amd64             204-5ubuntu20.12                     amd64        systemd login utility library
 ii  libtasn1-6:amd64                    3.4-3ubuntu0.3                       amd64        Manage ASN.1 structures (runtime)
 ii  libtasn1-6-dev                      3.4-3ubuntu0.3                       amd64        Manage ASN.1 structures (development)
 ii  libterm-ui-perl                     0.42-1                               all          Term::ReadLine UI made easy
@@ -471,9 +471,9 @@ ii  libtinfo-dev:amd64                  5.9+20140118-1ubuntu1                amd
 ii  libtinfo5:amd64                     5.9+20140118-1ubuntu1                amd64        shared low-level terminfo library for terminal handling
 ii  libtool                             2.4.2-1.7ubuntu1                     amd64        Generic library support script
 ii  libtsan0:amd64                      4.8.2-19ubuntu1                      amd64        ThreadSanitizer -- a Valgrind-based detector of data races (runtime)
-ii  libudev1:amd64                      204-5ubuntu20.11                     amd64        libudev shared library
-ii  libuecc-dev                         5-2                                  amd64        development library and headers for libuecc
-ii  libuecc0                            5-2                                  amd64        very small Elliptic Curve Cryptography library
+ii  libudev1:amd64                      204-5ubuntu20.12                     amd64        libudev shared library
+ii  libuecc-dev                         5-3                                  amd64        development library and headers for libuecc
+ii  libuecc0                            5-3                                  amd64        very small Elliptic Curve Cryptography library
 ii  libunistring0:amd64                 0.9.3-5ubuntu3                       amd64        Unicode string library for C
 ii  libunwind8                          1.1-2.2ubuntu3                       amd64        library to determine the call-chain of a program - runtime
 ii  liburi-perl                         1.60-1                               all          module to manipulate and access URI strings
@@ -754,7 +754,7 @@ ii  strace                              4.8-1ubuntu5                         amd
 ii  subversion                          1.8.8-1ubuntu3.1                     amd64        Advanced version control system
 ii  sudo                                1.8.9p5-1ubuntu1.1                   amd64        Provide limited super user privileges to specific users
 ii  sysstat                             10.2.0-1                             amd64        system performance tools for Linux
-ii  systemd-services                    204-5ubuntu20.11                     amd64        systemd runtime services
+ii  systemd-services                    204-5ubuntu20.12                     amd64        systemd runtime services
 ii  systemd-shim                        6-2bzr1                              amd64        shim for systemd
 ii  sysv-rc                             2.88dsf-41ubuntu6.1                  all          System-V-like runlevel change mechanism
 ii  sysvinit-utils                      2.88dsf-41ubuntu6.1                  amd64        System-V-like utilities
@@ -778,7 +778,7 @@ ii  ubuntu-minimal                      1.325                                amd
 ii  ubuntu-release-upgrader-core        1:0.220.7                            all          manage release upgrades
 ii  ubuntu-standard                     1.325                                amd64        The Ubuntu standard system
 ii  ucf                                 3.0027+nmu1                          all          Update Configuration File(s): preserve user changes to config files
-ii  udev                                204-5ubuntu20.11                     amd64        /dev/ and hotplug management daemon
+ii  udev                                204-5ubuntu20.12                     amd64        /dev/ and hotplug management daemon
 ii  ufw                                 0.34~rc-0ubuntu2                     all          program for managing a Netfilter firewall
 ii  unattended-upgrades                 0.82.1ubuntu2.2                      all          automatic installation of security upgrades
 ii  unzip                               6.0-9ubuntu1.3                       amd64        De-archiver for .zip files
