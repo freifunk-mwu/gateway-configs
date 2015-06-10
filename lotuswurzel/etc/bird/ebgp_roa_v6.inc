@@ -58,7 +58,6 @@ roa 2a03:2260:115::/48       max  64 as  65251; # muensterland
 roa fd39:e4e3:eee1::/48      max  64 as  65534; # mueritz
 roa fd73:111:e824::/48       max  64 as  65152; # ostholstein
 roa fdca:ffee:ff12::/48      max  64 as  65132; # paderborn
-roa 2001:bf7:23::/44         max  64 as  65433; # pinneberg
 roa fde8:21c6:9d82::/48      max  64 as  65433; # pinneberg
 roa fda0:747e:ab29:2195::/64 max  64 as  65067; # radevormwald
 roa fdef:f00f:1337:cafe::/64 max  64 as  65190; # regensburg
