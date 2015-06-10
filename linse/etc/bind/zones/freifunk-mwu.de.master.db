@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2015060501		; Serial
+		     2015060502		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -57,7 +57,7 @@ lists		IN	A	46.4.106.170
 lists		IN	AAAA	2a01:4f8:140:64d9::b4dc:4b1e
 
 ; services and stuff
-pudding		IN	CNAME	morgo.igeh.me.
+pudding		IN	CNAME	web.igeh.me.
 
 ; firmware
 ; hinterschinken
