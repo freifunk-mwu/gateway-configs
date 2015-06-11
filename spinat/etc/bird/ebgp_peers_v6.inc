@@ -169,6 +169,9 @@ protocol bgp paderborn01 from ebgp_ic {
 protocol bgp paderborn02 from ebgp_ic {
     neighbor fec0::a:cf:0:e8 as 65132;
 }
+protocol bgp pinneberg from ebgp_ic {
+    neighbor fec0::a:cf:0:1e as 65433;
+}
 protocol bgp rhein_neckar from ebgp_ic {
     neighbor fec0::a:cf:0:142 as 76118;
 }
