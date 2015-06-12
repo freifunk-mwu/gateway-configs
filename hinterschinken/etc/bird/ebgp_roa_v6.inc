@@ -58,7 +58,6 @@ roa 2a03:2260:115::/48       max  64 as  65251; # muensterland
 roa fd39:e4e3:eee1::/48      max  64 as  65534; # mueritz
 roa fd73:111:e824::/48       max  64 as  65152; # ostholstein
 roa fdca:ffee:ff12::/48      max  64 as  65132; # paderborn
-roa 2001:bf7:30::/44         max  64 as  65433; # pinneberg
 roa fde8:21c6:9d82::/48      max  64 as  65433; # pinneberg
 roa fda0:747e:ab29:2195::/64 max  64 as  65067; # radevormwald
 roa fdef:f00f:1337:cafe::/64 max  64 as  65190; # regensburg
@@ -90,6 +89,7 @@ roa 2a03:2260:50:8a::/64     max  64 as  65079; # ruhrgebiet
 roa 2a03:2260:50:9::/64      max  64 as  65079; # ruhrgebiet
 roa 2a03:2260:50:9a::/64     max  64 as  65079; # ruhrgebiet
 roa fd4e:f2d7:88d2:ffff::/64 max  64 as  64770; # saar
+roa fda0:747e:ab29:7407::/64 max  64 as  65111; # sanktaugustin
 roa 2001:bf7:fc00::/44       max  64 as  65022; # trier
 roa fda0:747e:ab29:7405::/64 max  64 as  65066; # troisdorf
 roa 2001:bf7:100::/44        max  64 as  65530; # vfnnrw
