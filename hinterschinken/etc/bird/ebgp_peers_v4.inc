@@ -229,6 +229,9 @@ protocol bgp paderborn01 from ebgp_ic {
 protocol bgp paderborn02 from ebgp_ic {
     neighbor 10.207.0.232 as 65132;
 }
+protocol bgp pinneberg from ebgp_ic {
+    neighbor 10.207.0.30 as 65433;
+}
 protocol bgp rhein_neckar from ebgp_ic {
     neighbor 10.207.0.142 as 76118;
 }
@@ -240,6 +243,9 @@ protocol bgp rheinufer3 from ebgp_ic {
 }
 protocol bgp ruhrgebiet1 from ebgp_ic {
     neighbor 10.207.0.79 as 65079;
+}
+protocol bgp sanktaugustin1 from ebgp_ic {
+    neighbor 10.207.0.207 as 65111;
 }
 protocol bgp trier1 from ebgp_ic {
     neighbor 10.207.0.220 as 65022;
