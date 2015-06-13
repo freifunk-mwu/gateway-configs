@@ -48,6 +48,8 @@ ii  busybox-initramfs                    1:1.21.0-1ubuntu1                    am
 ii  byobu                                5.77-0ubuntu1.2                      all          powerful, text based window manager and shell multiplexer
 ii  bzip2                                1.0.6-5                              amd64        high-quality block-sorting file compressor - utilities
 ii  ca-certificates                      20141019ubuntu0.14.04.1              all          Common CA certificates
+ii  check-mk-agent                       1.2.2p3-1                            amd64        general purpose nagios-plugin for retrieving data
+ii  check-mk-agent-logwatch              1.2.2p3-1                            amd64        general purpose nagios-plugin for retrieving data
 ii  console-setup                        1.70ubuntu8                          all          console font and keymap setup program
 ii  coreutils                            8.21-1ubuntu5.1                      amd64        GNU core utilities
 ii  cpio                                 2.11+dfsg-1ubuntu1.1                 amd64        GNU cpio -- a program to manage archives of files
@@ -173,6 +175,7 @@ ii  libc-dev-bin                         2.19-0ubuntu6.6                      am
 ii  libc6:amd64                          2.19-0ubuntu6.6                      amd64        Embedded GNU C Library: Shared libraries
 ii  libc6-dev:amd64                      2.19-0ubuntu6.6                      amd64        Embedded GNU C Library: Development Libraries and Header Files
 ii  libcairo2:amd64                      1.13.0~20140204-0ubuntu1.1           amd64        The Cairo 2D vector graphics library
+ii  libcap-ng0                           0.7.3-1ubuntu2                       amd64        An alternate POSIX capabilities library
 ii  libcap2:amd64                        1:2.24-0ubuntu2                      amd64        support for getting/setting POSIX.1e capabilities
 ii  libcap2-bin                          1:2.24-0ubuntu2                      amd64        basic utility programs for using capabilities
 ii  libcgmanager0:amd64                  0.24-0ubuntu7.3                      amd64        Central cgroup manager daemon (client library)
@@ -575,6 +578,7 @@ ii  sed                                  4.2.2-4ubuntu1                       am
 ii  sensible-utils                       0.0.9                                all          Utilities for sensible alternative selection
 ii  sgml-base                            1.26+nmu4ubuntu1                     all          SGML infrastructure and SGML catalog file support
 ii  shared-mime-info                     1.2-0ubuntu3                         amd64        FreeDesktop.org shared MIME database and spec
+ii  smartmontools                        6.2+svn3841-1.2                      amd64        control and monitor storage systems using S.M.A.R.T.
 ii  snmp                                 5.7.2~dfsg-8.1ubuntu3                amd64        SNMP (Simple Network Management Protocol) applications
 ii  snmpd                                5.7.2~dfsg-8.1ubuntu3                amd64        SNMP (Simple Network Management Protocol) agents
 ii  software-properties-common           0.92.37.3                            all          manage the repositories that you install software from (common)
