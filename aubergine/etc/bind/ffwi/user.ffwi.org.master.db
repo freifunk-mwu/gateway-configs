@@ -3,7 +3,7 @@ $ORIGIN user.ffwi.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffwi.org. hostmaster.ffwi.org. (
-                     2015052201         ; Serial
+                     2015061301         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -20,3 +20,5 @@ piratebox	IN	A	10.56.4.99
 piratebox	IN	AAAA	fd56:b4dc:4b1e::53:9ff:fe02:c0b5
 vdr		IN	A	10.56.4.100
 ipam		IN	AAAA	fd56:b4dc:4b1e::5054:ff:fe79:fded
+brokkoli	IN	A	10.56.4.101
+brokkoli	IN	AAAA	fd56:b4dc:4b1e::5054:ff:fe57:5dea
