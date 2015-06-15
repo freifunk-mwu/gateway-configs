@@ -569,6 +569,7 @@ ii  linux-tools-3.13.0-37-generic       3.13.0-37.64                         amd
 ii  linux-tools-3.13.0-39               3.13.0-39.66                         amd64        Linux kernel version specific tools for version 3.13.0-39
 ii  linux-tools-3.13.0-39-generic       3.13.0-39.66                         amd64        Linux kernel version specific tools for version 3.13.0-39
 ii  linux-tools-common                  3.13.0-54.91                         all          Linux kernel version specific tools for version 3.13.0
+ii  lm-sensors                          1:3.3.4-2ubuntu1                     amd64        utilities to read temperature/voltage/fan sensors
 ii  locales                             2.13+git20120306-12.1                all          common files for locale support
 ii  lockfile-progs                      0.1.17                               amd64        Programs for locking and unlocking files and mailboxes
 ii  login                               1:4.1.5.1-1ubuntu9                   amd64        system login tools
