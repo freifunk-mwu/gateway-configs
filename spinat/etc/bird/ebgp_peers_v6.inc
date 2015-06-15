@@ -184,6 +184,9 @@ protocol bgp rheinufer3 from ebgp_ic {
 protocol bgp ruhrgebiet1 from ebgp_ic {
     neighbor fec0::a:cf:0:9 as 65079;
 }
+protocol bgp sanktaugustin1 from ebgp_ic {
+    neighbor fec0::a:cf:0:cf as 65111;
+}
 protocol bgp trier1 from ebgp_ic {
     neighbor fec0::a:cf:0:dc as 65022;
 }
