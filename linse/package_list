@@ -29,6 +29,8 @@ ii  busybox-initramfs                1:1.21.0-1ubuntu1                amd64     
 ii  byobu                            5.77-0ubuntu1.2                  all          powerful, text based window manager and shell multiplexer
 ii  bzip2                            1.0.6-5                          amd64        high-quality block-sorting file compressor - utilities
 ii  ca-certificates                  20141019ubuntu0.14.04.1          all          Common CA certificates
+ii  check-mk-agent                   1.2.6p5-1                        all          Check_MK Agent for Linux
+ii  check-mk-agent-logwatch          1.2.4p5-2                        all          Logwatch-Plugin for check_mk agent
 ii  console-setup                    1.70ubuntu8                      all          console font and keymap setup program
 ii  coreutils                        8.21-1ubuntu5.1                  amd64        GNU core utilities
 ii  cpio                             2.11+dfsg-1ubuntu1.1             amd64        GNU cpio -- a program to manage archives of files
