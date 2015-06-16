@@ -1,0 +1,10 @@
+#!/bin/sh
+/sbin/ip addr del dev $INTERFACE 10.207.0.37/16 broadcast 10.207.255.255
+/sbin/ip -6 addr del dev $INTERFACE fec0::a:cf:0:25/96
+
+# ip rules
+/sbin/ip rule del lookup icvpn priority 10042
+/sbin/ip -6 rule del lookup icvpn priority 10042
+
+# shutdown interface
+/sbin/ip link set dev $INTERFACE down
