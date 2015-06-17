@@ -307,8 +307,10 @@ ii  linux-headers-3.13.0-53          3.13.0-53.89                     all       
 ii  linux-headers-3.13.0-53-generic  3.13.0-53.89                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-54          3.13.0-54.91                     all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-54-generic  3.13.0-54.91                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-generic            3.13.0.54.61                     amd64        Generic Linux kernel headers
-ii  linux-headers-virtual            3.13.0.54.61                     amd64        Transitional package.
+ii  linux-headers-3.13.0-55          3.13.0-55.92                     all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-55-generic  3.13.0-55.92                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-generic            3.13.0.55.62                     amd64        Generic Linux kernel headers
+ii  linux-headers-virtual            3.13.0.55.62                     amd64        Transitional package.
 rc  linux-image-3.13.0-34-generic    3.13.0-34.60                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-35-generic    3.13.0-35.62                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-36-generic    3.13.0-36.63                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -326,9 +328,10 @@ ii  linux-image-3.13.0-51-generic    3.13.0-51.84                     amd64     
 ii  linux-image-3.13.0-52-generic    3.13.0-52.86                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-53-generic    3.13.0-53.89                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-54-generic    3.13.0-54.91                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-virtual              3.13.0.54.61                     amd64        This package will always depend on the latest minimal generic kernel image.
-ii  linux-libc-dev:amd64             3.13.0-54.91                     amd64        Linux Kernel Headers for development
-ii  linux-virtual                    3.13.0.54.61                     amd64        Minimal Generic Linux kernel and headers
+ii  linux-image-3.13.0-55-generic    3.13.0-55.92                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-virtual              3.13.0.55.62                     amd64        This package will always depend on the latest minimal generic kernel image.
+ii  linux-libc-dev:amd64             3.13.0-55.92                     amd64        Linux Kernel Headers for development
+ii  linux-virtual                    3.13.0.55.62                     amd64        Minimal Generic Linux kernel and headers
 ii  locales                          2.13+git20120306-12.1            all          common files for locale support
 ii  lockfile-progs                   0.1.17                           amd64        Programs for locking and unlocking files and mailboxes
 ii  login                            1:4.1.5.1-1ubuntu9               amd64        system login tools
