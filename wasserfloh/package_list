@@ -44,7 +44,8 @@ ii  busybox-static                   1:1.21.0-1ubuntu1                amd64     
 ii  byobu                            5.77-0ubuntu1.2                  all          powerful, text based window manager and shell multiplexer
 ii  bzip2                            1.0.6-5                          amd64        high-quality block-sorting file compressor - utilities
 ii  ca-certificates                  20141019ubuntu0.14.04.1          all          Common CA certificates
-ii  check-mk-agent                   1.2.2p3-1                        amd64        general purpose nagios-plugin for retrieving data
+ii  check-mk-agent                   1.2.6p5-1                        all          Check_MK Agent for Linux
+ii  check-mk-agent-logwatch          1.2.2p3-1                        amd64        general purpose nagios-plugin for retrieving data
 ii  command-not-found                0.3ubuntu12                      all          Suggest installation of packages in interactive bash sessions
 ii  command-not-found-data           0.3ubuntu12                      amd64        Set of data files for command-not-found.
 ii  console-setup                    1.70ubuntu8                      all          console font and keymap setup program
@@ -572,7 +573,7 @@ ii  w3m                              0.5.3-15                         amd64     
 ii  wget                             1.15-1ubuntu1.14.04.1            amd64        retrieves files from the web
 ii  whiptail                         0.52.15-2ubuntu5                 amd64        Displays user-friendly dialog boxes from shell scripts
 ii  wireless-tools                   30~pre9-8ubuntu1                 amd64        Tools for manipulating Linux Wireless Extensions
-ii  wpasupplicant                    2.1-0ubuntu1.2                   amd64        client support for WPA and WPA2 (IEEE 802.11i)
+ii  wpasupplicant                    2.1-0ubuntu1.3                   amd64        client support for WPA and WPA2 (IEEE 802.11i)
 ii  xauth                            1:1.0.7-1ubuntu1                 amd64        X authentication utility
 ii  xkb-data                         2.10.1-1ubuntu1                  all          X Keyboard Extension (XKB) configuration data
 ii  xml-core                         0.13+nmu2                        all          XML infrastructure and XML catalog file support
