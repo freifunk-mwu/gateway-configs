@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2015060501		; Serial
+		     2015061601		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -54,5 +54,5 @@ firmware	IN	CNAME	firmware.freifunk-mwu.de.
 images		IN	CNAME	lacerta.uberspace.de.
 
 ; IC-VPN
-ic-mainz1	IN	CNAME	hinterschinken.freifunk-mwu.de.
+ic-mainz1	IN	CNAME	wasserfloh.freifunk-mwu.de.
 ic-mainz2	IN	CNAME	spinat.freifunk-mwu.de.
