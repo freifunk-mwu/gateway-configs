@@ -113,7 +113,7 @@ ii  ifupdown                         0.7.47.2ubuntu4.1                amd64     
 ii  init-system-helpers              1.14                             all          helper tools for all init systems
 ii  initramfs-tools                  0.103ubuntu4.2                   all          tools for generating an initramfs
 ii  initramfs-tools-bin              0.103ubuntu4.2                   amd64        binaries used by initramfs-tools
-ii  initscripts                      2.88dsf-41ubuntu6.1              amd64        scripts for initializing and shutting down the system
+ii  initscripts                      2.88dsf-41ubuntu6.2              amd64        scripts for initializing and shutting down the system
 ii  insserv                          1.14.0-5ubuntu2                  amd64        boot sequence organizer using LSB init.d script dependency information
 ii  installation-report              2.54ubuntu1                      all          system installation report
 ii  iproute2                         3.12.0-2                         amd64        networking and traffic control tools
@@ -141,7 +141,7 @@ ii  libalgorithm-diff-xs-perl        0.04-2build4                     amd64     
 ii  libalgorithm-merge-perl          0.08-2                           all          Perl module for three-way merge of textual data
 ii  libapache2-mod-php5              5.5.9+dfsg-1ubuntu4.9            amd64        server-side, HTML-embedded scripting language (Apache 2 module)
 ii  libapache2-mod-wsgi              3.4-4ubuntu2.1.14.04.2           amd64        Python WSGI adapter module for Apache
-ii  libapparmor1:amd64               2.8.95~2430-0ubuntu5.1           amd64        changehat AppArmor library
+ii  libapparmor1:amd64               2.8.95~2430-0ubuntu5.2           amd64        changehat AppArmor library
 ii  libapr1:amd64                    1.5.0-1                          amd64        Apache Portable Runtime Library
 ii  libaprutil1:amd64                1.5.3-1                          amd64        Apache Portable Runtime Utility Library
 ii  libaprutil1-dbd-sqlite3:amd64    1.5.3-1                          amd64        Apache Portable Runtime Utility Library - SQLite3 Driver
@@ -690,8 +690,8 @@ ii  sudo                             1.8.9p5-1ubuntu1.1               amd64     
 ii  sysstat                          10.2.0-1                         amd64        system performance tools for Linux
 ii  systemd-services                 204-5ubuntu20.12                 amd64        systemd runtime services
 ii  systemd-shim                     6-2bzr1                          amd64        shim for systemd
-ii  sysv-rc                          2.88dsf-41ubuntu6.1              all          System-V-like runlevel change mechanism
-ii  sysvinit-utils                   2.88dsf-41ubuntu6.1              amd64        System-V-like utilities
+ii  sysv-rc                          2.88dsf-41ubuntu6.2              all          System-V-like runlevel change mechanism
+ii  sysvinit-utils                   2.88dsf-41ubuntu6.2              amd64        System-V-like utilities
 ii  tar                              1.27.1-1                         amd64        GNU version of the tar archiving utility
 ii  tasksel                          2.88ubuntu15                     all          Tool for selecting tasks for installation on Debian systems
 ii  tasksel-data                     2.88ubuntu15                     all          Official tasks used for installation of Debian systems
@@ -725,7 +725,7 @@ ii  watershed                        7                                amd64     
 ii  wget                             1.15-1ubuntu1.14.04.1            amd64        retrieves files from the web
 ii  whiptail                         0.52.15-2ubuntu5                 amd64        Displays user-friendly dialog boxes from shell scripts
 ii  wireless-tools                   30~pre9-8ubuntu1                 amd64        Tools for manipulating Linux Wireless Extensions
-ii  wpasupplicant                    2.1-0ubuntu1.2                   amd64        client support for WPA and WPA2 (IEEE 802.11i)
+ii  wpasupplicant                    2.1-0ubuntu1.3                   amd64        client support for WPA and WPA2 (IEEE 802.11i)
 ii  wwwconfig-common                 0.2.2                            all          Debian web auto configuration
 ii  x11-common                       1:7.7+1ubuntu8.1                 all          X Window System (X.Org) infrastructure
 ii  xauth                            1:1.0.7-1ubuntu1                 amd64        X authentication utility
