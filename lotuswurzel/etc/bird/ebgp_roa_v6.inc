@@ -32,6 +32,7 @@ roa 2001:bf7:10::/44         max  64 as  65056; # flensburg
 roa fddd:5d16:b5dd::/48      max  64 as  65026; # frankfurt
 roa fdf0:09bb:7814::/48      max  64 as  65060; # freiburg
 roa fd00:fffd:fffd::/48      max  64 as  65142; # fulda
+roa fda0:747e:ab29:209::/64  max  64 as  65397; # gelsenkirchen
 roa fdb5:078b:64cc::/48      max  64 as  65181; # gera-greiz
 roa fda0:747e:ab29:5142::/64 max  64 as  65120; # glwupper
 roa fde6:36fc:c985::/64      max  64 as  65527; # goettingen
@@ -90,6 +91,7 @@ roa 2a03:2260:50:9::/64      max  64 as  65079; # ruhrgebiet
 roa 2a03:2260:50:9a::/64     max  64 as  65079; # ruhrgebiet
 roa fd4e:f2d7:88d2:ffff::/64 max  64 as  64770; # saar
 roa fda0:747e:ab29:7407::/64 max  64 as  65111; # sanktaugustin
+roa fda0:747e:ab29:212::/64  max  64 as  65399; # solingen
 roa 2001:bf7:fc00::/44       max  64 as  65022; # trier
 roa fda0:747e:ab29:7405::/64 max  64 as  65066; # troisdorf
 roa 2001:bf7:100::/44        max  64 as  65530; # vfnnrw
