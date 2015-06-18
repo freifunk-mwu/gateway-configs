@@ -84,7 +84,7 @@ ii  ifupdown                         0.7.47.2ubuntu4.1                amd64     
 ii  init-system-helpers              1.14                             all          helper tools for all init systems
 ii  initramfs-tools                  0.103ubuntu4.2                   all          tools for generating an initramfs
 ii  initramfs-tools-bin              0.103ubuntu4.2                   amd64        binaries used by initramfs-tools
-ii  initscripts                      2.88dsf-41ubuntu6.1              amd64        scripts for initializing and shutting down the system
+ii  initscripts                      2.88dsf-41ubuntu6.2              amd64        scripts for initializing and shutting down the system
 ii  insserv                          1.14.0-5ubuntu2                  amd64        boot sequence organizer using LSB init.d script dependency information
 ii  installation-report              2.54ubuntu1                      all          system installation report
 ii  iproute2                         3.12.0-2                         amd64        networking and traffic control tools
@@ -108,7 +108,7 @@ ii  libacl1:amd64                    2.2.52-1                         amd64     
 ii  libalgorithm-diff-perl           1.19.02-3                        all          module to find differences between files
 ii  libalgorithm-diff-xs-perl        0.04-2build4                     amd64        module to find differences between files (XS accelerated)
 ii  libalgorithm-merge-perl          0.08-2                           all          Perl module for three-way merge of textual data
-ii  libapparmor1:amd64               2.8.95~2430-0ubuntu5.1           amd64        changehat AppArmor library
+ii  libapparmor1:amd64               2.8.95~2430-0ubuntu5.2           amd64        changehat AppArmor library
 ii  libapt-inst1.5:amd64             1.0.1ubuntu2.8                   amd64        deb package format runtime library
 ii  libapt-pkg4.12:amd64             1.0.1ubuntu2.8                   amd64        package management runtime library
 ii  libarchive-extract-perl          0.70-1                           all          generic archive extracting module
@@ -441,8 +441,8 @@ ii  ssh-import-id                    3.21-0ubuntu1                    all       
 ii  sudo                             1.8.9p5-1ubuntu1.1               amd64        Provide limited super user privileges to specific users
 ii  systemd-services                 204-5ubuntu20.12                 amd64        systemd runtime services
 ii  systemd-shim                     6-2bzr1                          amd64        shim for systemd
-ii  sysv-rc                          2.88dsf-41ubuntu6.1              all          System-V-like runlevel change mechanism
-ii  sysvinit-utils                   2.88dsf-41ubuntu6.1              amd64        System-V-like utilities
+ii  sysv-rc                          2.88dsf-41ubuntu6.2              all          System-V-like runlevel change mechanism
+ii  sysvinit-utils                   2.88dsf-41ubuntu6.2              amd64        System-V-like utilities
 ii  tar                              1.27.1-1                         amd64        GNU version of the tar archiving utility
 ii  tasksel                          2.88ubuntu15                     all          Tool for selecting tasks for installation on Debian systems
 ii  tasksel-data                     2.88ubuntu15                     all          Official tasks used for installation of Debian systems
@@ -468,7 +468,7 @@ ii  wget                             1.15-1ubuntu1.14.04.1            amd64     
 ii  whiptail                         0.52.15-2ubuntu5                 amd64        Displays user-friendly dialog boxes from shell scripts
 ii  whois                            5.1.1                            amd64        intelligent WHOIS client
 ii  wireless-tools                   30~pre9-8ubuntu1                 amd64        Tools for manipulating Linux Wireless Extensions
-ii  wpasupplicant                    2.1-0ubuntu1.2                   amd64        client support for WPA and WPA2 (IEEE 802.11i)
+ii  wpasupplicant                    2.1-0ubuntu1.3                   amd64        client support for WPA and WPA2 (IEEE 802.11i)
 ii  xauth                            1:1.0.7-1ubuntu1                 amd64        X authentication utility
 ii  xkb-data                         2.10.1-1ubuntu1                  all          X Keyboard Extension (XKB) configuration data
 ii  xml-core                         0.13+nmu2                        all          XML infrastructure and XML catalog file support
