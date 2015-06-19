@@ -43,11 +43,15 @@ roa fd42:ffee:ff14::/48      max  64 as  65533; # guetersloh
 roa 2a03:2267::/32           max  64 as  49009; # hamburg
 roa fdca:ffee:8::/64         max  64 as  65511; # hannover
 roa fda0:747e:ab29:7406::/64 max  64 as  65100; # hennef
+roa 2001:bf7:100:2192::/64   max  64 as  65530; # hueckeswagen (delegation)
+roa fddf:ebfd:a801:2192::/64 max  64 as  65530; # hueckeswagen (delegation)
 roa fd59:b1b7:1d1f::/48      max  64 as  65055; # jena
 roa 2a03:2260:a::/48         max  64 as  65081; # karlsruhe
 roa fdca:55e1:baca:baca::/64 max  64 as  65514; # kassel
 roa fdd3:5d16:b5dd::/48      max  64 as  65528; # kbu
 roa fda1:384a:74de::/48      max  64 as  65525; # kiel
+roa 2001:bf7:100:2144::/64   max  64 as  65530; # leverkusen (delegation)
+roa fddf:ebfd:a801:2144::/64 max  64 as  65530; # leverkusen (delegation)
 roa 2001:15c0:66e9::/48      max  64 as  65023; # ljubljana
 roa 2001:67c:2d50::/48       max  64 as 201173; # luebeck
 roa 2001:bf7:110::/44        max  64 as 201173; # luebeck
