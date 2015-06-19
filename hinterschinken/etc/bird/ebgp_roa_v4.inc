@@ -30,6 +30,7 @@ roa 10.83.0.0/16    max  20 as  65024; # franken
 roa 10.126.0.0/16   max  20 as  65026; # frankfurt
 roa 104.60.0.0/16   max  20 as  65060; # freiburg
 roa 10.185.0.0/16   max  20 as  65142; # fulda
+roa 10.28.0.0/16    max  20 as  65397; # gelsenkirchen
 roa 10.181.0.0/16   max  20 as  65181; # gera-greiz
 roa 10.156.0.0/16   max  20 as  65120; # glwupper
 roa 10.109.0.0/16   max  20 as  65527; # goettingen
@@ -39,12 +40,12 @@ roa 10.234.0.0/16   max  20 as  65533; # guetersloh
 roa 10.235.0.0/16   max  20 as  65533; # guetersloh
 roa 10.255.0.0/16   max  20 as  65533; # guetersloh
 roa 10.62.0.0/16    max  20 as  65046; # halle
-roa 104.62.0.0/16   max  20 as  65046; # halle
 roa 10.112.0.0/16   max  20 as  49009; # hamburg
 roa 10.2.0.0/16     max  20 as  65511; # hannover
 roa 10.7.0.0/16     max  20 as  65134; # harz
 roa 10.189.0.0/18   max  20 as  65189; # helgoland
 roa 10.186.0.0/16   max  20 as  65100; # hennef
+roa 10.146.0.0/16   max  20 as  65530; # hueckeswagen (delegation)
 roa 10.17.0.0/16    max  20 as  65055; # jena
 roa 10.214.0.0/16   max  20 as  65081; # karlsruhe
 roa 10.54.0.0/16    max  20 as  65514; # kassel
@@ -55,6 +56,7 @@ roa 10.222.0.0/16   max  20 as  65032; # koblenz
 roa 10.59.0.0/21    max  21 as  65041; # leipzig
 roa 10.59.16.0/20   max  20 as  65041; # leipzig
 roa 10.61.0.0/16    max  20 as  65041; # leipzig
+roa 10.76.0.0/16    max  20 as  65530; # leverkusen (delegation)
 roa 10.14.0.0/16    max  20 as  65023; # ljubljana
 roa 10.254.0.0/16   max  20 as  65023; # ljubljana
 roa 10.130.0.0/16   max  20 as 201173; # luebeck
@@ -87,12 +89,12 @@ roa 10.41.0.0/16    max  20 as  65079; # ruhrgebiet
 roa 10.53.0.0/16    max  20 as  65079; # ruhrgebiet
 roa 10.24.192.0/18  max  20 as  64770; # saar
 roa 10.24.64.0/18   max  20 as  65111; # sanktaugustin
+roa 10.6.0.0/16     max  20 as  65399; # solingen
 roa 10.24.0.0/20    max  20 as  65045; # treuenbrietzen
 roa 10.172.0.0/16   max  20 as  65022; # trier
 roa 10.188.0.0/16   max  20 as  65066; # troisdorf
 roa 10.1.0.0/17     max  20 as  65530; # vfnnrw
 roa 10.120.0.0/16   max  20 as  65530; # vfnnrw
-roa 10.146.0.0/16   max  20 as  65530; # vfnnrw
 roa 10.151.0.0/16   max  20 as  65530; # vfnnrw
 roa 10.154.0.0/16   max  20 as  65530; # vfnnrw
 roa 10.16.0.0/17    max  20 as  65530; # vfnnrw
@@ -104,7 +106,6 @@ roa 10.45.128.0/17  max  20 as  65530; # vfnnrw
 roa 10.52.0.0/16    max  20 as  65530; # vfnnrw
 roa 10.6.0.0/16     max  20 as  65530; # vfnnrw
 roa 10.69.0.0/16    max  20 as  65530; # vfnnrw
-roa 10.76.0.0/16    max  20 as  65530; # vfnnrw
 roa 10.79.0.0/16    max  20 as  65530; # vfnnrw
 roa 10.82.0.0/16    max  20 as  65530; # vfnnrw
 roa 10.92.0.0/16    max  20 as  65530; # vfnnrw
