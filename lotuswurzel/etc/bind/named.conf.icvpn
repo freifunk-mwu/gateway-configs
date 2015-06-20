@@ -187,6 +187,10 @@ zone "185.10.in-addr.arpa" {
 # 
 # gelsenkirchen
 # 
+zone "ffge" {
+    type static-stub;
+    server-addresses { 10.28.0.247; fda0:747e:ab29:209:ff07::1; };
+};
 zone "28.10.in-addr.arpa" {
     type static-stub;
     server-addresses { 10.28.0.247; fda0:747e:ab29:209:ff07::1; };
