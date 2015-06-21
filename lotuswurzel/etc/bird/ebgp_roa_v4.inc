@@ -5,6 +5,7 @@
 #   roa table icvpn { include "roa.con?" }
 # 
 roa 10.5.0.0/16     max  20 as  65077; # aachen
+roa 10.120.0.0/16   max  20 as  65530; # altdorf (delegation)
 roa 10.205.0.0/16   max  20 as  65205; # amsterdam
 roa 10.11.0.0/18    max  20 as  65050; # augsburg
 roa 10.239.0.0/16   max  20 as  65090; # basel
@@ -53,6 +54,7 @@ roa 10.158.0.0/15   max  20 as  65528; # kbu
 roa 172.26.0.0/15   max  20 as  65528; # kbu
 roa 10.116.0.0/16   max  20 as  65525; # kiel
 roa 10.222.0.0/16   max  20 as  65032; # koblenz
+roa 10.16.0.0/17    max  20 as  65530; # kuerten (delegation)
 roa 10.59.0.0/21    max  21 as  65041; # leipzig
 roa 10.59.16.0/20   max  20 as  65041; # leipzig
 roa 10.61.0.0/16    max  20 as  65041; # leipzig
@@ -75,6 +77,7 @@ roa 10.137.0.0/16   max  20 as  65433; # pinneberg
 roa 10.57.0.0/16    max  20 as  65067; # radevormwald
 roa 10.90.0.0/16    max  20 as  65190; # regensburg
 roa 10.142.0.0/16   max  20 as  76118; # rhein-neckar
+roa 10.111.0.0/16   max  20 as  65111; # rheinsiegkreis
 roa 10.40.0.0/16    max  20 as  65078; # rheinufer
 roa 10.0.0.0/16     max  20 as  65079; # ruhrgebiet
 roa 10.20.0.0/16    max  20 as  65079; # ruhrgebiet
@@ -88,22 +91,18 @@ roa 10.236.0.0/16   max  20 as  65079; # ruhrgebiet
 roa 10.41.0.0/16    max  20 as  65079; # ruhrgebiet
 roa 10.53.0.0/16    max  20 as  65079; # ruhrgebiet
 roa 10.24.192.0/18  max  20 as  64770; # saar
-roa 10.24.64.0/18   max  20 as  65111; # sanktaugustin
 roa 10.6.0.0/16     max  20 as  65399; # solingen
 roa 10.24.0.0/20    max  20 as  65045; # treuenbrietzen
 roa 10.172.0.0/16   max  20 as  65022; # trier
 roa 10.188.0.0/16   max  20 as  65066; # troisdorf
 roa 10.1.0.0/17     max  20 as  65530; # vfnnrw
-roa 10.120.0.0/16   max  20 as  65530; # vfnnrw
 roa 10.151.0.0/16   max  20 as  65530; # vfnnrw
 roa 10.154.0.0/16   max  20 as  65530; # vfnnrw
-roa 10.16.0.0/17    max  20 as  65530; # vfnnrw
 roa 10.171.0.0/16   max  20 as  65530; # vfnnrw
 roa 10.206.0.0/16   max  20 as  65530; # vfnnrw
 roa 10.224.0.0/16   max  20 as  65530; # vfnnrw
 roa 10.45.0.0/17    max  20 as  65530; # vfnnrw
 roa 10.45.128.0/17  max  20 as  65530; # vfnnrw
-roa 10.52.0.0/16    max  20 as  65530; # vfnnrw
 roa 10.6.0.0/16     max  20 as  65530; # vfnnrw
 roa 10.69.0.0/16    max  20 as  65530; # vfnnrw
 roa 10.79.0.0/16    max  20 as  65530; # vfnnrw
@@ -111,6 +110,7 @@ roa 10.82.0.0/16    max  20 as  65530; # vfnnrw
 roa 10.92.0.0/16    max  20 as  65530; # vfnnrw
 roa 10.63.0.0/16    max  20 as  65042; # weimar
 roa 10.64.0.0/16    max  20 as  65042; # weimar
+roa 10.52.0.0/16    max  20 as  65530; # wermelskirchen (delegation)
 roa 10.13.0.0/18    max  20 as  65432; # westkueste
 roa 10.198.0.0/16   max  20 as  65242; # westpfalz
 roa 10.51.0.0/16    max  20 as  65054; # weststeiermark

@@ -391,14 +391,14 @@ ii  libxtables10                     1.4.21-1ubuntu1                  amd64     
 ii  libyaml-0-2:amd64                0.1.4-3ubuntu3.1                 amd64        Fast YAML 1.1 parser and emitter library
 ii  linux-headers-3.13.0-53          3.13.0-53.89                     all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-53-generic  3.13.0-53.89                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-55          3.13.0-55.92                     all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-55-generic  3.13.0-55.92                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-3.13.0-55          3.13.0-55.94                     all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-55-generic  3.13.0-55.94                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-generic            3.13.0.55.62                     amd64        Generic Linux kernel headers
 ii  linux-headers-virtual            3.13.0.55.62                     amd64        Transitional package.
 ii  linux-image-3.13.0-53-generic    3.13.0-53.89                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-55-generic    3.13.0-55.92                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-3.13.0-55-generic    3.13.0-55.94                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-virtual              3.13.0.55.62                     amd64        This package will always depend on the latest minimal generic kernel image.
-ii  linux-libc-dev:amd64             3.13.0-55.92                     amd64        Linux Kernel Headers for development
+ii  linux-libc-dev:amd64             3.13.0-55.94                     amd64        Linux Kernel Headers for development
 ii  linux-virtual                    3.13.0.55.62                     amd64        Minimal Generic Linux kernel and headers
 ii  locales                          2.13+git20120306-12.1            all          common files for locale support
 ii  lockfile-progs                   0.1.17                           amd64        Programs for locking and unlocking files and mailboxes
@@ -522,7 +522,7 @@ ii  sed                              4.2.2-4ubuntu1                   amd64     
 ii  sensible-utils                   0.0.9                            all          Utilities for sensible alternative selection
 ii  sgml-base                        1.26+nmu4ubuntu1                 all          SGML infrastructure and SGML catalog file support
 ii  shared-mime-info                 1.2-0ubuntu3                     amd64        FreeDesktop.org shared MIME database and spec
-ii  smartmontools                    6.2+svn3841-1.2                  amd64        control and monitor storage systems using S.M.A.R.T.
+rc  smartmontools                    6.2+svn3841-1.2                  amd64        control and monitor storage systems using S.M.A.R.T.
 ii  software-properties-common       0.92.37.3                        all          manage the repositories that you install software from (common)
 ii  ssh-import-id                    3.21-0ubuntu1                    all          securely retrieve an SSH public key and install it locally
 ii  ssl-cert                         1.0.33                           all          simple debconf wrapper for OpenSSL

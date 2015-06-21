@@ -3,7 +3,7 @@ $ORIGIN ffwi.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffwi.org. hostmaster.ffwi.org. (
-                     2015061301         ; Serial
+                     2015061901         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -73,6 +73,8 @@ portal			IN	CNAME	aubergine
 firmware		IN	A	10.56.0.5
 firmware		IN	A	10.56.0.7
 firmware		IN	A	10.56.0.23
+firmware		IN	A	10.56.0.231
 firmware		IN	AAAA	fd56:b4dc:4b1e::a38:5
 firmware		IN	AAAA	fd56:b4dc:4b1e::a38:7
 firmware		IN	AAAA	fd56:b4dc:4b1e::a38:17
+firmware		IN	AAAA	fd56:b4dc:4b1e::a38:e7
