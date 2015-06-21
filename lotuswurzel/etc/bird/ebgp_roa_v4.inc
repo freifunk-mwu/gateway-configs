@@ -45,6 +45,7 @@ roa 10.2.0.0/16     max  20 as  65511; # hannover
 roa 10.7.0.0/16     max  20 as  65134; # harz
 roa 10.189.0.0/18   max  20 as  65189; # helgoland
 roa 10.186.0.0/16   max  20 as  65100; # hennef
+roa 10.146.0.0/16   max  20 as  65530; # hueckeswagen (delegation)
 roa 10.17.0.0/16    max  20 as  65055; # jena
 roa 10.214.0.0/16   max  20 as  65081; # karlsruhe
 roa 10.54.0.0/16    max  20 as  65514; # kassel
@@ -55,6 +56,7 @@ roa 10.222.0.0/16   max  20 as  65032; # koblenz
 roa 10.59.0.0/21    max  21 as  65041; # leipzig
 roa 10.59.16.0/20   max  20 as  65041; # leipzig
 roa 10.61.0.0/16    max  20 as  65041; # leipzig
+roa 10.76.0.0/16    max  20 as  65530; # leverkusen (delegation)
 roa 10.14.0.0/16    max  20 as  65023; # ljubljana
 roa 10.254.0.0/16   max  20 as  65023; # ljubljana
 roa 10.130.0.0/16   max  20 as 201173; # luebeck
