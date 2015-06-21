@@ -175,6 +175,9 @@ protocol bgp pinneberg from ebgp_ic {
 protocol bgp rhein_neckar from ebgp_ic {
     neighbor fec0::a:cf:0:142 as 76118;
 }
+protocol bgp rsk1 from ebgp_ic {
+    neighbor fec0::a:cf:0:6f as 65111;
+}
 protocol bgp rheinufer1 from ebgp_ic {
     neighbor fec0::a:cf:0:4c as 65078;
 }
@@ -183,9 +186,6 @@ protocol bgp rheinufer3 from ebgp_ic {
 }
 protocol bgp ruhrgebiet1 from ebgp_ic {
     neighbor fec0::a:cf:0:9 as 65079;
-}
-protocol bgp sanktaugustin1 from ebgp_ic {
-    neighbor fec0::a:cf:0:cf as 65111;
 }
 protocol bgp trier1 from ebgp_ic {
     neighbor fec0::a:cf:0:dc as 65022;
