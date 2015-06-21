@@ -43,6 +43,13 @@ zone "11.10.in-addr.arpa" {
     server-addresses { 10.11.0.8; 10.11.10.15; 10.11.63.26; fdca:ffee:0ffa:8::1; fdca:ffee:0ffa:a0f::1; fdca:ffee:0ffa:3f1a::1; };
 };
 # 
+# badoldesloe
+# 
+zone "ffod.org" {
+    type static-stub;
+    server-addresses { 10.144.0.2; fddf:0bf7:80::a38:0001; };
+};
+# 
 # bremen
 # 
 zone "ffhb" {
