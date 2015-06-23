@@ -5,6 +5,8 @@
 #   roa table icvpn { include "roa.con?" }
 # 
 roa 2a03:2260:114::/48       max  64 as  65077; # aachen
+roa 2001:bf7:100:871::/64    max  64 as  65530; # altdorf (delegation)
+roa fddf:ebfd:a801:871::/64  max  64 as  65530; # altdorf (delegation)
 roa 2001:bf7:2520::/44       max  64 as  65050; # augsburg
 roa fdca:ffee:ffa::/48       max  64 as  65050; # augsburg
 roa 2001:bf7:750::/44        max  64 as  44194; # berlin
@@ -21,6 +23,8 @@ roa 2001:bf7:850::/44        max  64 as  44194; # berlin
 roa 2001:bf7:860::/44        max  64 as  44194; # berlin
 roa 2001:bf7:1320::/44       max  64 as  65529; # bielefeld
 roa fdaf:17a0:ffb1::/48      max  64 as  65529; # bielefeld
+roa 2001:bf7:100:2041::/64   max  64 as  65530; # bottrop (delegation)
+roa fddf:ebfd:a801:2041::/64 max  64 as  65530; # bottrop (delegation)
 roa 2001:bf7:380::/44        max  64 as  65380; # braunschweig
 roa 2001:bf7:540::/44        max  64 as  65196; # bremen
 roa 2001:bf7:550::/44        max  64 as  65196; # bremen
@@ -36,6 +40,8 @@ roa fda0:747e:ab29:209::/64  max  64 as  65397; # gelsenkirchen
 roa fdb5:078b:64cc::/48      max  64 as  65181; # gera-greiz
 roa fda0:747e:ab29:5142::/64 max  64 as  65120; # glwupper
 roa fde6:36fc:c985::/64      max  64 as  65527; # goettingen
+roa 2001:bf7:100:4859::/64   max  64 as  65530; # gronau (delegation)
+roa fddf:ebfd:a801:4859::/64 max  64 as  65530; # gronau (delegation)
 roa 2001:bf7:1310::/44       max  64 as  65533; # guetersloh
 roa fd42:ffee:ff12::/48      max  64 as  65533; # guetersloh
 roa fd42:ffee:ff13::/48      max  64 as  65533; # guetersloh
@@ -50,6 +56,8 @@ roa 2a03:2260:a::/48         max  64 as  65081; # karlsruhe
 roa fdca:55e1:baca:baca::/64 max  64 as  65514; # kassel
 roa fdd3:5d16:b5dd::/48      max  64 as  65528; # kbu
 roa fda1:384a:74de::/48      max  64 as  65525; # kiel
+roa 2001:bf7:100:2268::/64   max  64 as  65530; # kuerten (delegation)
+roa fddf:ebfd:a801:2268::/64 max  64 as  65530; # kuerten (delegation)
 roa 2001:bf7:100:2144::/64   max  64 as  65530; # leverkusen (delegation)
 roa fddf:ebfd:a801:2144::/64 max  64 as  65530; # leverkusen (delegation)
 roa 2001:15c0:66e9::/48      max  64 as  65023; # ljubljana
@@ -66,8 +74,11 @@ roa fdca:ffee:ff12::/48      max  64 as  65132; # paderborn
 roa fde8:21c6:9d82::/48      max  64 as  65433; # pinneberg
 roa fda0:747e:ab29:2195::/64 max  64 as  65067; # radevormwald
 roa fdef:f00f:1337:cafe::/64 max  64 as  65190; # regensburg
+roa 2001:bf7:100:2191::/64   max  64 as  65530; # remscheid (delegation)
+roa fddf:ebfd:a801:2191::/64 max  64 as  65530; # remscheid (delegation)
 roa 2a01:4f8:100:57ff::/64   max  64 as  76118; # rhein-neckar
 roa fd42:23:138::/48         max  64 as  76118; # rhein-neckar
+roa fda0:747e:ab29:111::/64  max  64 as  65111; # rheinsiegkreis
 roa fda0:747e:ab29:cafe::/64 max  64 as  65078; # rheinufer
 roa 2a02:f98:0:25::/64       max  64 as  65079; # ruhrgebiet
 roa 2a02:f98:0:26::/64       max  64 as  65079; # ruhrgebiet
@@ -94,12 +105,15 @@ roa 2a03:2260:50:8a::/64     max  64 as  65079; # ruhrgebiet
 roa 2a03:2260:50:9::/64      max  64 as  65079; # ruhrgebiet
 roa 2a03:2260:50:9a::/64     max  64 as  65079; # ruhrgebiet
 roa fd4e:f2d7:88d2:ffff::/64 max  64 as  64770; # saar
-roa fda0:747e:ab29:7407::/64 max  64 as  65111; # sanktaugustin
 roa fda0:747e:ab29:212::/64  max  64 as  65399; # solingen
 roa 2001:bf7:fc00::/44       max  64 as  65022; # trier
 roa fda0:747e:ab29:7405::/64 max  64 as  65066; # troisdorf
 roa 2001:bf7:100::/44        max  64 as  65530; # vfnnrw
 roa 2001:bf7:1930::/44       max  64 as  65042; # weimar
+roa 2001:bf7:100:2196::/64   max  64 as  65530; # wermelskirchen (delegation)
+roa fddf:ebfd:a801:2196::/64 max  64 as  65530; # wermelskirchen (delegation)
 roa fd23:dead:beef::/48      max  64 as  65432; # westkueste
 roa fdc6:c4fe:1de4::/48      max  64 as  65242; # westpfalz
+roa 2001:bf7:100:2267::/64   max  64 as  65530; # wipperfuerth (delegation)
+roa fddf:ebfd:a801:2267::/64 max  64 as  65530; # wipperfuerth (delegation)
 roa fda0:747e:ab29:e1ba::/64 max  64 as  65523; # wuppertal
