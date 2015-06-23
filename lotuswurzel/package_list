@@ -75,7 +75,7 @@ ii  e2fsprogs                            1.42.9-3ubuntu1.2                    am
 ii  eject                                2.1.5+deb1+cvs20081104-13.1          amd64        ejects CDs and operates CD-Changers under Linux
 ii  ethtool                              1:3.13-1                             amd64        display or change Ethernet device settings
 ii  fakeroot                             1.20-3ubuntu2                        amd64        tool for simulating superuser privileges
-ii  fastd                                17-3                                 amd64        Fastd and Secure Tunneling Daemon
+ii  fastd                                17-4                                 amd64        Fastd and Secure Tunneling Daemon
 ii  file                                 1:5.14-2ubuntu3.3                    amd64        Determines file type using "magic" numbers
 ii  findutils                            4.4.2-7                              amd64        utilities for finding files--find, xargs
 ii  flex                                 2.5.35-10.1ubuntu2                   amd64        A fast lexical analyzer generator.
@@ -295,6 +295,7 @@ ii  libnih-dbus1:amd64                   1.0.3-4ubuntu25                      am
 ii  libnih1:amd64                        1.0.3-4ubuntu25                      amd64        NIH Utility Library
 ii  libnl-3-200:amd64                    3.2.21-1                             amd64        library for dealing with netlink sockets
 ii  libnl-genl-3-200:amd64               3.2.21-1                             amd64        library for dealing with netlink sockets - generic netlink
+ii  libnl1:amd64                         1.1-8ubuntu1                         amd64        library for dealing with netlink sockets
 ii  libopts25:amd64                      1:5.18-2ubuntu2                      amd64        automated option processing library based on autogen
 ii  libp11-kit0:amd64                    0.20.2-2ubuntu2                      amd64        Library for loading and coordinating access to PKCS#11 modules - runtime
 ii  libpackage-stash-perl                0.36-1                               all          module providing routines for manipulating stashes
@@ -362,6 +363,7 @@ ii  libsigsegv2:amd64                    2.10-2                               am
 ii  libslang2:amd64                      2.2.4-15ubuntu1                      amd64        S-Lang programming library - runtime version
 ii  libsnmp-base                         5.7.2~dfsg-8.1ubuntu3                all          SNMP configuration script, MIBs and documentation
 ii  libsnmp30:amd64                      5.7.2~dfsg-8.1ubuntu3                amd64        SNMP (Simple Network Management Protocol) library
+ii  libsodium13:amd64                    1.0.3-1~wheezy0                      amd64        Network communication, cryptography and signaturing library
 ii  libsqlite3-0:amd64                   3.8.2-1ubuntu2                       amd64        SQLite 3 shared library
 ii  libss2:amd64                         1.42.9-3ubuntu1.2                    amd64        command-line interface parsing library
 ii  libssl1.0.0:amd64                    1.0.1f-1ubuntu2.15                   amd64        Secure Sockets Layer toolkit - shared libraries
@@ -487,7 +489,7 @@ ii  openssl                              1.0.1f-1ubuntu2.15                   am
 ii  openvpn                              2.3.2-7ubuntu3.1                     amd64        virtual private network daemon
 ii  os-prober                            1.63ubuntu1                          amd64        utility to detect other OSes on a set of drives
 ii  passwd                               1:4.1.5.1-1ubuntu9                   amd64        change and administer password and group data
-ii  patch                                2.7.1-4ubuntu2                       amd64        Apply a diff file to an original
+ii  patch                                2.7.1-4ubuntu2.3                     amd64        Apply a diff file to an original
 ii  pciutils                             1:3.2.1-1ubuntu5                     amd64        Linux PCI Utilities
 ii  perl                                 5.18.2-2ubuntu1                      amd64        Larry Wall's Practical Extraction and Report Language
 ii  perl-base                            5.18.2-2ubuntu1                      amd64        minimal Perl system
@@ -509,6 +511,7 @@ ii  python-dev                           2.7.5-5ubuntu3                       am
 ii  python-distlib                       0.1.8-1ubuntu1                       all          low-level components of python distutils2/packaging
 ii  python-dns                           2.3.6-3                              all          DNS client module for Python
 ii  python-dnspython                     1.11.1-1build1                       all          DNS toolkit for Python
+ii  python-ethtool                       0.7-1.1                              amd64        Python bindings for the ethtool kernel interface
 ii  python-gdbm                          2.7.5-1ubuntu1                       amd64        GNU dbm database support for Python
 ii  python-html5lib                      0.999-3~ubuntu1                      all          HTML parser/tokenizer based on the WHATWG HTML5 specification (Python 2)
 ii  python-minimal                       2.7.5-5ubuntu3                       amd64        minimal subset of the Python language (default version)
