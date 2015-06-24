@@ -15,6 +15,7 @@ roa 10.31.0.0/16    max  20 as  44194; # berlin
 roa 10.36.0.0/16    max  20 as  44194; # berlin
 roa 10.26.0.0/16    max  20 as  65529; # bielefeld
 roa 10.29.0.0/16    max  20 as  65529; # bielefeld
+roa 10.79.0.0/16    max  20 as  65530; # bottrop (delegation)
 roa 10.38.0.0/16    max  20 as  65380; # braunschweig
 roa 10.196.0.0/16   max  20 as  65196; # bremen
 roa 10.149.0.0/16   max  20 as  65053; # chemnitz
@@ -37,6 +38,7 @@ roa 10.156.0.0/16   max  20 as  65120; # glwupper
 roa 10.109.0.0/16   max  20 as  65527; # goettingen
 roa 10.12.0.0/16    max  20 as  65048; # graz
 roa 193.33.150.0/23 max  23 as  65048; # graz
+roa 10.206.0.0/16   max  20 as  65530; # gronau (delegation)
 roa 10.234.0.0/16   max  20 as  65533; # guetersloh
 roa 10.235.0.0/16   max  20 as  65533; # guetersloh
 roa 10.255.0.0/16   max  20 as  65533; # guetersloh
@@ -76,6 +78,7 @@ roa 10.132.0.0/16   max  20 as  65132; # paderborn
 roa 10.137.0.0/16   max  20 as  65433; # pinneberg
 roa 10.57.0.0/16    max  20 as  65067; # radevormwald
 roa 10.90.0.0/16    max  20 as  65190; # regensburg
+roa 10.69.0.0/16    max  20 as  65530; # remscheid (delegation)
 roa 10.142.0.0/16   max  20 as  76118; # rhein-neckar
 roa 10.111.0.0/16   max  20 as  65111; # rheinsiegkreis
 roa 10.40.0.0/16    max  20 as  65078; # rheinufer
@@ -99,13 +102,9 @@ roa 10.1.0.0/17     max  20 as  65530; # vfnnrw
 roa 10.151.0.0/16   max  20 as  65530; # vfnnrw
 roa 10.154.0.0/16   max  20 as  65530; # vfnnrw
 roa 10.171.0.0/16   max  20 as  65530; # vfnnrw
-roa 10.206.0.0/16   max  20 as  65530; # vfnnrw
-roa 10.224.0.0/16   max  20 as  65530; # vfnnrw
 roa 10.45.0.0/17    max  20 as  65530; # vfnnrw
 roa 10.45.128.0/17  max  20 as  65530; # vfnnrw
 roa 10.6.0.0/16     max  20 as  65530; # vfnnrw
-roa 10.69.0.0/16    max  20 as  65530; # vfnnrw
-roa 10.79.0.0/16    max  20 as  65530; # vfnnrw
 roa 10.82.0.0/16    max  20 as  65530; # vfnnrw
 roa 10.92.0.0/16    max  20 as  65530; # vfnnrw
 roa 10.63.0.0/16    max  20 as  65042; # weimar
@@ -114,4 +113,5 @@ roa 10.52.0.0/16    max  20 as  65530; # wermelskirchen (delegation)
 roa 10.13.0.0/18    max  20 as  65432; # westkueste
 roa 10.198.0.0/16   max  20 as  65242; # westpfalz
 roa 10.51.0.0/16    max  20 as  65054; # weststeiermark
+roa 10.224.0.0/16   max  20 as  65530; # wipperfuerth (delegation)
 roa 10.3.0.0/16     max  20 as  65523; # wuppertal

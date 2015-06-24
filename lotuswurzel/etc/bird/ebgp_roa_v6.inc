@@ -23,6 +23,8 @@ roa 2001:bf7:850::/44        max  64 as  44194; # berlin
 roa 2001:bf7:860::/44        max  64 as  44194; # berlin
 roa 2001:bf7:1320::/44       max  64 as  65529; # bielefeld
 roa fdaf:17a0:ffb1::/48      max  64 as  65529; # bielefeld
+roa 2001:bf7:100:2041::/64   max  64 as  65530; # bottrop (delegation)
+roa fddf:ebfd:a801:2041::/64 max  64 as  65530; # bottrop (delegation)
 roa 2001:bf7:380::/44        max  64 as  65380; # braunschweig
 roa 2001:bf7:540::/44        max  64 as  65196; # bremen
 roa 2001:bf7:550::/44        max  64 as  65196; # bremen
@@ -38,6 +40,8 @@ roa fda0:747e:ab29:209::/64  max  64 as  65397; # gelsenkirchen
 roa fdb5:078b:64cc::/48      max  64 as  65181; # gera-greiz
 roa fda0:747e:ab29:5142::/64 max  64 as  65120; # glwupper
 roa fde6:36fc:c985::/64      max  64 as  65527; # goettingen
+roa 2001:bf7:100:4859::/64   max  64 as  65530; # gronau (delegation)
+roa fddf:ebfd:a801:4859::/64 max  64 as  65530; # gronau (delegation)
 roa 2001:bf7:1310::/44       max  64 as  65533; # guetersloh
 roa fd42:ffee:ff12::/48      max  64 as  65533; # guetersloh
 roa fd42:ffee:ff13::/48      max  64 as  65533; # guetersloh
@@ -70,6 +74,8 @@ roa fdca:ffee:ff12::/48      max  64 as  65132; # paderborn
 roa fde8:21c6:9d82::/48      max  64 as  65433; # pinneberg
 roa fda0:747e:ab29:2195::/64 max  64 as  65067; # radevormwald
 roa fdef:f00f:1337:cafe::/64 max  64 as  65190; # regensburg
+roa 2001:bf7:100:2191::/64   max  64 as  65530; # remscheid (delegation)
+roa fddf:ebfd:a801:2191::/64 max  64 as  65530; # remscheid (delegation)
 roa 2a01:4f8:100:57ff::/64   max  64 as  76118; # rhein-neckar
 roa fd42:23:138::/48         max  64 as  76118; # rhein-neckar
 roa fda0:747e:ab29:111::/64  max  64 as  65111; # rheinsiegkreis
@@ -108,4 +114,6 @@ roa 2001:bf7:100:2196::/64   max  64 as  65530; # wermelskirchen (delegation)
 roa fddf:ebfd:a801:2196::/64 max  64 as  65530; # wermelskirchen (delegation)
 roa fd23:dead:beef::/48      max  64 as  65432; # westkueste
 roa fdc6:c4fe:1de4::/48      max  64 as  65242; # westpfalz
+roa 2001:bf7:100:2267::/64   max  64 as  65530; # wipperfuerth (delegation)
+roa fddf:ebfd:a801:2267::/64 max  64 as  65530; # wipperfuerth (delegation)
 roa fda0:747e:ab29:e1ba::/64 max  64 as  65523; # wuppertal
