@@ -64,7 +64,7 @@ ii  e2fsprogs                           1.42.9-3ubuntu1.2                    amd
 ii  eject                               2.1.5+deb1+cvs20081104-13.1          amd64        ejects CDs and operates CD-Changers under Linux
 ii  ethtool                             1:3.13-1                             amd64        display or change Ethernet device settings
 ii  fakeroot                            1.20-3ubuntu2                        amd64        tool for simulating superuser privileges
-ii  fastd                               17-3                                 amd64        Fastd and Secure Tunneling Daemon
+ii  fastd                               17-4                                 amd64        Fastd and Secure Tunneling Daemon
 ii  file                                1:5.14-2ubuntu3.3                    amd64        Determines file type using "magic" numbers
 ii  findutils                           4.4.2-7                              amd64        utilities for finding files--find, xargs
 ii  flex                                2.5.35-10.1ubuntu2                   amd64        A fast lexical analyzer generator.
@@ -320,6 +320,7 @@ ii  libsigsegv2:amd64                   2.10-2                               amd
 ii  libslang2:amd64                     2.2.4-15ubuntu1                      amd64        S-Lang programming library - runtime version
 ii  libsnmp-base                        5.7.2~dfsg-8.1ubuntu3                all          SNMP configuration script, MIBs and documentation
 ii  libsnmp30:amd64                     5.7.2~dfsg-8.1ubuntu3                amd64        SNMP (Simple Network Management Protocol) library
+ii  libsodium13:amd64                   1.0.3-1~wheezy0                      amd64        Network communication, cryptography and signaturing library
 ii  libsqlite3-0:amd64                  3.8.2-1ubuntu2                       amd64        SQLite 3 shared library
 ii  libss2:amd64                        1.42.9-3ubuntu1.2                    amd64        command-line interface parsing library
 ii  libssl-dev:amd64                    1.0.1f-1ubuntu2.15                   amd64        Secure Sockets Layer toolkit - development files
@@ -376,8 +377,8 @@ ii  linux-headers-3.13.0-40             3.13.0-40.69                         all
 ii  linux-headers-3.13.0-40-generic     3.13.0-40.69                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-53             3.13.0-53.89                         all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-53-generic     3.13.0-53.89                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-55             3.13.0-55.92                         all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-55-generic     3.13.0-55.92                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-3.13.0-55             3.13.0-55.94                         all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-55-generic     3.13.0-55.94                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-generic               3.13.0.55.62                         amd64        Generic Linux kernel headers
 ii  linux-headers-server                3.13.0.55.62                         amd64        Transitional package.
 rc  linux-image-3.13.0-24-generic       3.13.0-24.47                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -394,7 +395,7 @@ rc  linux-image-3.13.0-49-generic       3.13.0-49.83                         amd
 rc  linux-image-3.13.0-51-generic       3.13.0-51.84                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-52-generic       3.13.0-52.86                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-53-generic       3.13.0-53.89                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-55-generic       3.13.0-55.92                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-3.13.0-55-generic       3.13.0-55.94                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-24-generic 3.13.0-24.47                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-35-generic 3.13.0-35.62                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-37-generic 3.13.0-37.64                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
@@ -409,11 +410,11 @@ rc  linux-image-extra-3.13.0-49-generic 3.13.0-49.83                         amd
 rc  linux-image-extra-3.13.0-51-generic 3.13.0-51.84                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-52-generic 3.13.0-52.86                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-53-generic 3.13.0-53.89                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-55-generic 3.13.0-55.92                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-extra-3.13.0-55-generic 3.13.0-55.94                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-generic                 3.13.0.55.62                         amd64        Generic Linux kernel image
-ii  linux-libc-dev:amd64                3.13.0-55.92                         amd64        Linux Kernel Headers for development
+ii  linux-libc-dev:amd64                3.13.0-55.94                         amd64        Linux Kernel Headers for development
 ii  linux-source                        3.13.0.55.62                         all          Linux kernel source with Ubuntu patches
-ii  linux-source-3.13.0                 3.13.0-55.92                         all          Linux kernel source for version 3.13.0 with Ubuntu patches
+ii  linux-source-3.13.0                 3.13.0-55.94                         all          Linux kernel source for version 3.13.0 with Ubuntu patches
 ii  lm-sensors                          1:3.3.4-2ubuntu1                     amd64        utilities to read temperature/voltage/fan sensors
 ii  locales                             2.13+git20120306-12.1                all          common files for locale support
 ii  lockfile-progs                      0.1.17                               amd64        Programs for locking and unlocking files and mailboxes
@@ -455,7 +456,7 @@ ii  openssl                             1.0.1f-1ubuntu2.15                   amd
 ii  openvpn                             2.3.2-7ubuntu3.1                     amd64        virtual private network daemon
 ii  os-prober                           1.63ubuntu1                          amd64        utility to detect other OSes on a set of drives
 ii  passwd                              1:4.1.5.1-1ubuntu9                   amd64        change and administer password and group data
-ii  patch                               2.7.1-4ubuntu2                       amd64        Apply a diff file to an original
+ii  patch                               2.7.1-4ubuntu2.3                     amd64        Apply a diff file to an original
 ii  perl                                5.18.2-2ubuntu1                      amd64        Larry Wall's Practical Extraction and Report Language
 ii  perl-base                           5.18.2-2ubuntu1                      amd64        minimal Perl system
 ii  perl-modules                        5.18.2-2ubuntu1                      all          Core Perl modules
