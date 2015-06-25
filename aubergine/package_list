@@ -339,7 +339,7 @@ ii  libpolkit-agent-1-0:amd64        0.105-4ubuntu2.14.04.1           amd64     
 ii  libpolkit-backend-1-0:amd64      0.105-4ubuntu2.14.04.1           amd64        PolicyKit backend API
 ii  libpolkit-gobject-1-0:amd64      0.105-4ubuntu2.14.04.1           amd64        PolicyKit Authorization API
 ii  libpopt0:amd64                   1.16-8ubuntu1                    amd64        lib for parsing cmdline parameters
-ii  libpq5                           9.3.8-0ubuntu0.4.04              amd64        PostgreSQL C client library
+ii  libpq5                           9.3.9-0ubuntu0.14.04             amd64        PostgreSQL C client library
 ii  libprocps3:amd64                 1:3.3.9-1ubuntu2.2               amd64        library for accessing process information from /proc
 ii  libpython-stdlib:amd64           2.7.5-5ubuntu3                   amd64        interactive high-level object-oriented language (default python version)
 ii  libpython2.7:amd64               2.7.6-8                          amd64        Shared Python runtime library (version 2.7)
@@ -448,8 +448,6 @@ ii  linux-headers-3.13.0-54          3.13.0-54.91                     all       
 ii  linux-headers-3.13.0-54-generic  3.13.0-54.91                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-55          3.13.0-55.94                     all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-55-generic  3.13.0-55.94                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.16.0-38          3.16.0-38.52~14.04.1             all          Header files related to Linux kernel version 3.16.0
-ii  linux-headers-3.16.0-38-generic  3.16.0-38.52~14.04.1             amd64        Linux kernel headers for version 3.16.0 on 64 bit x86 SMP
 ii  linux-headers-generic            3.13.0.55.62                     amd64        Generic Linux kernel headers
 ii  linux-headers-virtual            3.13.0.55.62                     amd64        Transitional package.
 rc  linux-image-3.13.0-32-generic    3.13.0-32.57                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -586,11 +584,15 @@ ii  python                           2.7.5-5ubuntu3                   amd64     
 ii  python-apt                       0.9.3.5ubuntu1                   amd64        Python interface to libapt-pkg
 ii  python-apt-common                0.9.3.5ubuntu1                   all          Python interface to libapt-pkg (locales)
 ii  python-chardet                   2.0.1-2build2                    all          universal character encoding detector
+ii  python-chardet-whl               2.2.1-2~ubuntu1                  all          universal character encoding detector
+ii  python-colorama-whl              0.2.5-0.1ubuntu2                 all          Cross-platform colored terminal text in Python - Wheels
 ii  python-configobj                 4.7.2+ds-5build1                 all          simple but powerful config file reader and writer for Python
 ii  python-crypto                    2.6.1-4build1                    amd64        cryptographic algorithms and protocols for Python
 ii  python-debian                    0.1.21+nmu2ubuntu2               all          Python modules to work with Debian-related data formats
+ii  python-distlib-whl               0.1.8-1ubuntu1                   all          low-level components of python distutils2/packaging
 ii  python-gdbm                      2.7.5-1ubuntu1                   amd64        GNU dbm database support for Python
 ii  python-genshi                    0.7-3                            amd64        Python XML-based template engine - Python 2.x
+ii  python-html5lib-whl              0.999-3~ubuntu1                  all          HTML parser/tokenizer based on the WHATWG HTML5 specification
 ii  python-lxml                      3.3.3-1ubuntu0.1                 amd64        pythonic binding for the libxml2 and libxslt libraries
 ii  python-minimal                   2.7.5-5ubuntu3                   amd64        minimal subset of the Python language (default version)
 ii  python-moinmoin                  1.9.7-1ubuntu2                   all          Python clone of WikiWiki - library
@@ -598,18 +600,23 @@ ii  python-openssl                   0.13-2ubuntu6                    amd64     
 ii  python-pam                       0.4.2-13.1ubuntu3                amd64        Python interface to the PAM library
 ii  python-parsedatetime             1.1.2-0ubuntu1                   all          Python module to parse human-readable date/time expressions
 ii  python-passlib                   1.5.3-0ubuntu3                   all          comprehensive password hashing framework
-ii  python-pkg-resources             3.3-1ubuntu1                     all          Package Discovery and Resource Access using pkg_resources
+ii  python-pip-whl                   1.5.4-1ubuntu3                   all          alternative Python package installer
+ii  python-pkg-resources             3.3-1ubuntu2                     all          Package Discovery and Resource Access using pkg_resources
 ii  python-pygments                  1.6+dfsg-1ubuntu1                all          syntax highlighting package written in Python
 ii  python-pyicu                     1.5-2ubuntu4                     amd64        Python extension wrapping the ICU C++ API
 ii  python-pyinotify                 0.9.4-1build1                    all          simple Linux inotify Python bindings
 ii  python-recaptcha                 1.0.6-1build1                    all          client library for reCAPTCHA and Mailhide
-ii  python-requests                  2.2.1-1ubuntu0.2                 all          elegant and simple HTTP library for Python, built for human beings
+ii  python-requests                  2.2.1-1ubuntu0.3                 all          elegant and simple HTTP library for Python, built for human beings
+ii  python-requests-whl              2.2.1-1ubuntu0.3                 all          elegant and simple HTTP library for Python, built for human beings
 ii  python-serial                    2.6-1build1                      all          pyserial - module encapsulating access for the serial port
-ii  python-six                       1.5.2-1                          all          Python 2 and 3 compatibility library (Python 2 interface)
+ii  python-setuptools-whl            3.3-1ubuntu2                     all          Python Distutils Enhancements (wheel package)
+ii  python-six                       1.5.2-1ubuntu1                   all          Python 2 and 3 compatibility library (Python 2 interface)
+ii  python-six-whl                   1.5.2-1ubuntu1                   all          Python 2 and 3 compatibility library (universal wheel)
 rc  python-support                   1.0.15                           all          automated rebuilding support for Python modules
 ii  python-twisted-bin               13.2.0-1ubuntu1                  amd64        Event-based framework for internet applications
 ii  python-twisted-core              13.2.0-1ubuntu1                  all          Event-based framework for internet applications
 ii  python-urllib3                   1.7.1-1ubuntu3                   all          HTTP library with thread-safe connection pooling for Python
+ii  python-urllib3-whl               1.7.1-1ubuntu3                   all          HTTP library with thread-safe connection pooling
 ii  python-werkzeug                  0.9.4+dfsg-1.1ubuntu2            all          collection of utilities for WSGI applications
 ii  python-xapian                    1.2.16-2ubuntu1                  amd64        Xapian search engine interface for Python
 ii  python-xappy                     0.5-5                            all          easy-to-use interface to the Xapian search engine
@@ -631,13 +638,13 @@ ii  python3-minimal                  3.4.0-0ubuntu2                   amd64     
 ii  python3-netifaces                0.8-3build1                      amd64        portable network interface information for Python 3
 ii  python3-networkx                 1.8.1-0ubuntu3                   all          tool to create, manipulate and study complex networks (Python3)
 ii  python3-newt                     0.52.15-2ubuntu5                 amd64        NEWT module for Python3
-ii  python3-pip                      1.5.4-1ubuntu1                   all          alternative Python package installer - Python 3 version of the package
-ii  python3-pkg-resources            3.3-1ubuntu1                     all          Package Discovery and Resource Access using pkg_resources
+ii  python3-pip                      1.5.4-1ubuntu3                   all          alternative Python package installer - Python 3 version of the package
+ii  python3-pkg-resources            3.3-1ubuntu2                     all          Package Discovery and Resource Access using pkg_resources
 ii  python3-problem-report           2.14.1-0ubuntu3.11               all          Python 3 library to handle problem reports
 ii  python3-pycurl                   7.19.3-0ubuntu3                  amd64        Python 3 bindings to libcurl
-ii  python3-requests                 2.2.1-1ubuntu0.2                 all          elegant and simple HTTP library for Python3, built for human beings
-ii  python3-setuptools               3.3-1ubuntu1                     all          Python3 Distutils Enhancements (setuptools compatibility)
-ii  python3-six                      1.5.2-1                          all          Python 2 and 3 compatibility library (Python 3 interface)
+ii  python3-requests                 2.2.1-1ubuntu0.3                 all          elegant and simple HTTP library for Python3, built for human beings
+ii  python3-setuptools               3.3-1ubuntu2                     all          Python3 Distutils Enhancements
+ii  python3-six                      1.5.2-1ubuntu1                   all          Python 2 and 3 compatibility library (Python 3 interface)
 ii  python3-software-properties      0.92.37.3                        all          manage the repositories that you install software from
 ii  python3-urllib3                  1.7.1-1ubuntu3                   all          HTTP library with thread-safe connection pooling for Python3
 ii  python3-wheel                    0.24.0-1~ubuntu1                 all          built-package format for Python
