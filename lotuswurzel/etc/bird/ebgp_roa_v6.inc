@@ -105,7 +105,8 @@ roa 2a03:2260:50:8a::/64     max  64 as  65079; # ruhrgebiet
 roa 2a03:2260:50:9::/64      max  64 as  65079; # ruhrgebiet
 roa 2a03:2260:50:9a::/64     max  64 as  65079; # ruhrgebiet
 roa fd4e:f2d7:88d2:ffff::/64 max  64 as  64770; # saar
-roa fda0:747e:ab29:212::/64  max  64 as  65399; # solingen
+roa 2001:bf7:100:212::/64    max  64 as  65530; # solingen (delegation)
+roa fddf:ebfd:a801:212::/64  max  64 as  65530; # solingen (delegation)
 roa 2001:bf7:fc00::/44       max  64 as  65022; # trier
 roa fda0:747e:ab29:7405::/64 max  64 as  65066; # troisdorf
 roa 2001:bf7:100::/44        max  64 as  65530; # vfnnrw
