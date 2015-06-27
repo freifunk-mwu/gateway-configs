@@ -94,7 +94,7 @@ roa 10.236.0.0/16   max  20 as  65079; # ruhrgebiet
 roa 10.41.0.0/16    max  20 as  65079; # ruhrgebiet
 roa 10.53.0.0/16    max  20 as  65079; # ruhrgebiet
 roa 10.24.192.0/18  max  20 as  64770; # saar
-roa 10.6.0.0/16     max  20 as  65399; # solingen
+roa 10.6.0.0/16     max  20 as  65530; # solingen (delegation)
 roa 10.24.0.0/20    max  20 as  65045; # treuenbrietzen
 roa 10.172.0.0/16   max  20 as  65022; # trier
 roa 10.188.0.0/16   max  20 as  65066; # troisdorf
@@ -104,7 +104,6 @@ roa 10.154.0.0/16   max  20 as  65530; # vfnnrw
 roa 10.171.0.0/16   max  20 as  65530; # vfnnrw
 roa 10.45.0.0/17    max  20 as  65530; # vfnnrw
 roa 10.45.128.0/17  max  20 as  65530; # vfnnrw
-roa 10.6.0.0/16     max  20 as  65530; # vfnnrw
 roa 10.82.0.0/16    max  20 as  65530; # vfnnrw
 roa 10.92.0.0/16    max  20 as  65530; # vfnnrw
 roa 10.63.0.0/16    max  20 as  65042; # weimar
