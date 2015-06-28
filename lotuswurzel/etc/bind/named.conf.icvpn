@@ -278,6 +278,25 @@ zone "189.10.in-addr.arpa" {
     server-addresses { 10.112.1.1; 2a03:2267::101; };
 };
 # 
+# hueckeswagen
+# 
+zone "ffhw" {
+    type static-stub;
+    server-addresses { 10.45.128.100; };
+};
+zone "146.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.45.128.100; };
+};
+zone "2.9.1.2.0.0.1.0.7.f.b.0.1.0.0.2.ip6.arpa" {
+    type static-stub;
+    server-addresses { 10.45.128.100; };
+};
+zone "2.9.1.2.1.0.8.a.d.f.b.e.f.d.d.f.ip6.arpa" {
+    type static-stub;
+    server-addresses { 10.45.128.100; };
+};
+# 
 # ingolstadt
 # 
 zone "ffin" {
