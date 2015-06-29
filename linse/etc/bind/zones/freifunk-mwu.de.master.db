@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2015061701		; Serial
+		     2015062701		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -61,9 +61,9 @@ pudding		IN	CNAME	web.igeh.me.
 brokkoli	IN	CNAME	kokel.hopper.pw.
 
 ; firmware
-; hinterschinken
-firmware	IN	A	94.23.58.68
-firmware	IN	AAAA	2001:41d0:2:3b44::1
+; wasserfloh
+firmware	IN	A	144.76.0.27
+firmware	IN	AAAA	2a01:4f8:190:7008:2800::2
 ; spinat
 firmware	IN	A	89.238.67.196
 firmware	IN	AAAA	2a00:1828:2000:182::2
