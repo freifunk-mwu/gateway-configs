@@ -18,7 +18,6 @@ conf:
     date_format: '%d.%m.%Y'
     # http://strftime.org/
 gateways:
-    Hinterschinken: *A
     Spinat: *C
     Lotuswurzel: *A
     Gate2: *A
