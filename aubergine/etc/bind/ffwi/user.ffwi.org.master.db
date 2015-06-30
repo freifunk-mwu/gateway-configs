@@ -3,16 +3,17 @@ $ORIGIN user.ffwi.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffwi.org. hostmaster.ffwi.org. (
-                     2015061301         ; Serial
+                     2015063001         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
                          604800 )       ; Negative Cache TTL
 
 ; ns servers
-@       	IN      NS      hinterschinken.ffwi.org. 
+@       	IN      NS      wasserfloh.ffwi.org. 
 @       	IN      NS      spinat.ffwi.org.
 @       	IN      NS      lotuswurzel.ffwi.org.
+@       	IN      NS      kaschu.ffwi.org.
 
 antigua		IN	A	10.56.4.1
 radio		IN	A	10.56.4.2

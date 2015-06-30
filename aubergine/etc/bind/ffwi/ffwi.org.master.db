@@ -3,16 +3,17 @@ $ORIGIN ffwi.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffwi.org. hostmaster.ffwi.org. (
-                     2015062701         ; Serial
+                     2015063001         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
                             300 )       ; Negative Cache TTL
 
 ; internal ns server
-@			IN      NS      hinterschinken.ffwi.org.
+@			IN      NS      wasserfloh.ffwi.org.
 @			IN      NS      spinat.ffwi.org.
 @			IN      NS      lotuswurzel.ffwi.org.
+@			IN      NS      kaschu.ffwi.org.
 
 ; ACHTUNG: IPs der aubergine hier fuers portal - nachfuehren
 @			IN	A	10.56.1.3
@@ -23,12 +24,9 @@ nextnode		IN	A	10.56.0.1
 nextnode		IN	AAAA	fd56:b4dc:4b1e::1
 
 ; gluon gateways
-hinterschinken		IN      A       10.56.0.5
-hinterschinken		IN      AAAA    fd56:b4dc:4b1e::a38:5
-gate05			IN      CNAME   hinterschinken
-hinterschinken.icvpn	IN	A	10.207.1.56
-hinterschinken.icvpn	IN	AAAA	fec0::a:cf:1:38
-gate05.icvpn		IN	CNAME	hinterschinken.icvpn
+;hinterschinken		IN      A       10.56.0.5
+;hinterschinken		IN      AAAA    fd56:b4dc:4b1e::a38:5
+;gate05			IN      CNAME   hinterschinken
 
 spinat			IN      A       10.56.0.7
 spinat			IN      AAAA    fd56:b4dc:4b1e::a38:7
@@ -44,6 +42,9 @@ gate23.icvpn		IN	CNAME	lotuswurzel.icvpn
 kaschu  	   	IN      A       10.56.0.208
 kaschu	     		IN      AAAA    fd56:b4dc:4b1e::a38:d0
 gate208          	IN      CNAME   kaschu
+kaschu.icvpn		IN	A	10.207.1.56
+kaschu.icvpn		IN	AAAA	fec0::a:cf:1:38
+gate208.icvpn          	IN      CNAME   kaschu.icvpn
 
 wasserfloh  	   	IN      A       10.56.0.231
 wasserfloh     		IN      AAAA    fd37:b4dc:4b1e::a38:e7
@@ -54,9 +55,11 @@ parmesan		IN      AAAA    fd56:b4dc:4b1e::a38:2a
 gate42			IN      CNAME   parmesan
 
 ; internal services and stuff
-5.ntp			IN      CNAME   hinterschinken
+;5.ntp			IN      CNAME   hinterschinken
 7.ntp			IN      CNAME   spinat
 23.ntp			IN      CNAME   lotuswurzel
+208.ntp			IN      CNAME   kaschu
+231.ntp			IN      CNAME   wasserfloh
 
 aubergine		IN	A	10.56.1.3
 aubergine		IN	AAAA	fd56:b4dc:4b1e::a38:103

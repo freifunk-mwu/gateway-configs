@@ -3,16 +3,17 @@ $ORIGIN user.ffmz.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffmz.org. hostmaster.ffmz.org. (
-                     2015061901        ; Serial
+                     2015063001        ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
                             300 )       ; Negative Cache TTL
 
 ; ns server
-@                               IN      NS      hinterschinken.ffmz.org.
+@                               IN      NS      wasserfloh.ffmz.org.
 @                               IN      NS      spinat.ffmz.org.
 @                               IN      NS      lotuswurzel.ffmz.org.
+@                               IN      NS      kaschu.ffmz.org.
 
 ; Server von Marc
 tracker.faultier		IN	A	10.37.4.1

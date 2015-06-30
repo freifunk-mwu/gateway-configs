@@ -3,16 +3,17 @@ $ORIGIN ffmz.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffmz.org. hostmaster.ffmz.org. (
-                     2015062701         ; Serial
+                     2015063001         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
                             300 )       ; Negative Cache TTL
 
 ; internal ns server
-@       		IN      NS      hinterschinken.ffmz.org.
+@       		IN      NS      wasserfloh.ffmz.org.
 @       		IN      NS      spinat.ffmz.org.
 @       		IN      NS      lotuswurzel.ffmz.org.
+@       		IN      NS      kaschu.ffmz.org.
 
 ; ACHTUNG: IPs der aubergine hier fuers portal - nachfuehren
 @			IN	A	10.37.1.3
@@ -23,9 +24,9 @@ nextnode		IN	A	10.37.0.1
 nextnode		IN	AAAA	fd37:b4dc:4b1e::1
 
 ; gluon gateways
-hinterschinken  	IN      A       10.37.0.5
-hinterschinken  	IN      AAAA    fd37:b4dc:4b1e::a25:5
-gate05         		IN      CNAME   hinterschinken
+;hinterschinken  	IN      A       10.37.0.5
+;hinterschinken  	IN      AAAA    fd37:b4dc:4b1e::a25:5
+;gate05         		IN      CNAME   hinterschinken
 
 spinat          	IN      A       10.37.0.7
 spinat          	IN      AAAA    fd37:b4dc:4b1e::a25:7
@@ -51,9 +52,11 @@ parmesan        	IN      AAAA    fd37:b4dc:4b1e::a25:2a
 gate42          	IN      CNAME   parmesan
 
 ; internal services and stuff
-5.ntp           	IN      CNAME   hinterschinken
+;5.ntp           	IN      CNAME   hinterschinken
 7.ntp           	IN      CNAME   spinat
 23.ntp          	IN      CNAME   lotuswurzel
+208.ntp           	IN      CNAME   kaschu
+231.ntp           	IN      CNAME   parmesan
 
 aubergine		IN	A	10.37.1.3
 aubergine		IN	AAAA	fd37:b4dc:4b1e::a25:103
