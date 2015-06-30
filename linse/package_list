@@ -458,7 +458,7 @@ ii  ubuntu-keyring                   2012.05.19                       all       
 ii  ubuntu-minimal                   1.325                            amd64        Minimal core of Ubuntu
 ii  ucf                              3.0027+nmu1                      all          Update Configuration File(s): preserve user changes to config files
 ii  udev                             204-5ubuntu20.12                 amd64        /dev/ and hotplug management daemon
-ii  unattended-upgrades              0.82.1ubuntu2.2                  all          automatic installation of security upgrades
+ii  unattended-upgrades              0.82.1ubuntu2.3                  all          automatic installation of security upgrades
 ii  update-notifier-common           0.154.1ubuntu1                   all          Files shared between update-notifier and other packages
 ii  upstart                          1.12.1-0ubuntu4.2                amd64        event-based init daemon
 ii  ureadahead                       0.100.0-16                       amd64        Read required files in advance
