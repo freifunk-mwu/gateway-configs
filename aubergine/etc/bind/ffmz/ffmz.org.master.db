@@ -3,7 +3,7 @@ $ORIGIN ffmz.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffmz.org. hostmaster.ffmz.org. (
-                     2015063001         ; Serial
+                     2015070101         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -24,10 +24,6 @@ nextnode		IN	A	10.37.0.1
 nextnode		IN	AAAA	fd37:b4dc:4b1e::1
 
 ; gluon gateways
-;hinterschinken  	IN      A       10.37.0.5
-;hinterschinken  	IN      AAAA    fd37:b4dc:4b1e::a25:5
-;gate05         		IN      CNAME   hinterschinken
-
 spinat          	IN      A       10.37.0.7
 spinat          	IN      AAAA    fd37:b4dc:4b1e::a25:7
 gate07          	IN      CNAME   spinat
@@ -70,15 +66,14 @@ portal			IN	CNAME	aubergine
 ; firmware mirrors
 firmware		IN	A	10.37.0.7
 firmware		IN	A	10.37.0.23
+firmware		IN	A	10.37.0.208
 firmware		IN	A	10.37.0.231
 firmware		IN	AAAA	fd37:b4dc:4b1e::a25:7
 firmware		IN	AAAA	fd37:b4dc:4b1e::a25:17
+firmware		IN	AAAA	fd37:b4dc:4b1e::a25:d0
 firmware		IN	AAAA	fd37:b4dc:4b1e::a25:e7
 
 ; freifunk services
 stats                   IN      A       10.37.1.5
 ostats                  IN      A       10.37.1.5
-yellowpages             IN      A       10.37.1.7
-yp                      IN      A       10.37.1.7
-suche                   IN      A       10.37.1.7
 jverein			IN	A	10.37.1.200

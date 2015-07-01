@@ -3,7 +3,7 @@ $ORIGIN ffwi.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffwi.org. hostmaster.ffwi.org. (
-                     2015063001         ; Serial
+                     2015070101         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -24,10 +24,6 @@ nextnode		IN	A	10.56.0.1
 nextnode		IN	AAAA	fd56:b4dc:4b1e::1
 
 ; gluon gateways
-;hinterschinken		IN      A       10.56.0.5
-;hinterschinken		IN      AAAA    fd56:b4dc:4b1e::a38:5
-;gate05			IN      CNAME   hinterschinken
-
 spinat			IN      A       10.56.0.7
 spinat			IN      AAAA    fd56:b4dc:4b1e::a38:7
 gate07			IN      CNAME   spinat
@@ -75,7 +71,9 @@ portal			IN	CNAME	aubergine
 ; firmware mirrors
 firmware		IN	A	10.56.0.7
 firmware		IN	A	10.56.0.23
+firmware		IN	A	10.56.0.208
 firmware		IN	A	10.56.0.231
 firmware		IN	AAAA	fd56:b4dc:4b1e::a38:7
 firmware		IN	AAAA	fd56:b4dc:4b1e::a38:17
+firmware		IN	AAAA	fd56:b4dc:4b1e::a38:d0
 firmware		IN	AAAA	fd56:b4dc:4b1e::a38:e7
