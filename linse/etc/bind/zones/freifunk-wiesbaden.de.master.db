@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2015060201		; Serial
+		     2015063002		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -20,8 +20,6 @@ $TTL	3600
 @		IN	AAAA	2001:1a50:11:0:5f:8f:acdb:13b
 
 ; gluon gateways
-hinterschinken	IN	CNAME	hinterschinken.freifunk-mwu.de.
-gate05		IN	CNAME	hinterschinken.freifunk-mwu.de.
 spinat		IN	CNAME	spinat.freifunk-mwu.de.
 gate07		IN	CNAME	spinat.freifunk-mwu.de.
 lotuswurzel	IN	CNAME	lotuswurzel.freifunk-mwu.de.
@@ -37,8 +35,7 @@ blog		IN	CNAME	octans.uberspace.de.
 ffapi		IN	CNAME	octans.uberspace.de.
 api		IN	CNAME	octans.uberspace.de.
 stats		IN	CNAME	octans.uberspace.de.
-test		IN	CNAME	octans.uberspace.de.
 
 ; IC-VPN
 ic-wiesbaden1	IN	CNAME	lotuswurzel.freifunk-mwu.de.
-ic-wiesbaden2	IN	CNAME	hinterschinken.freifunk-mwu.de.
+ic-wiesbaden2	IN	CNAME	kaschu.freifunk-mwu.de.
