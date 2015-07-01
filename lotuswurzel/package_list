@@ -3,6 +3,7 @@ Desired=Unknown/Install/Remove/Purge/Hold
 |/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
 ||/ Name                                 Version                              Architecture Description
 +++-====================================-====================================-============-===================================================================================
+ii  acl                                  2.2.52-1                             amd64        Access control list utilities
 ii  acpid                                1:2.0.21-1ubuntu2                    amd64        Advanced Configuration and Power Interface event daemon
 ii  adduser                              3.113+nmu3ubuntu3                    all          add and remove users and groups
 ii  alfred                               2015.0-0ffmwu2~trusty                amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
@@ -619,7 +620,7 @@ ii  ubuntu-keyring                       2012.05.19                           al
 ii  ubuntu-minimal                       1.325                                amd64        Minimal core of Ubuntu
 ii  ucf                                  3.0027+nmu1                          all          Update Configuration File(s): preserve user changes to config files
 ii  udev                                 204-5ubuntu20.12                     amd64        /dev/ and hotplug management daemon
-ii  unattended-upgrades                  0.82.1ubuntu2.2                      all          automatic installation of security upgrades
+ii  unattended-upgrades                  0.82.1ubuntu2.3                      all          automatic installation of security upgrades
 ii  unzip                                6.0-9ubuntu1.3                       amd64        De-archiver for .zip files
 ii  update-notifier-common               0.154.1ubuntu1                       all          Files shared between update-notifier and other packages
 ii  upstart                              1.12.1-0ubuntu4.2                    amd64        event-based init daemon
