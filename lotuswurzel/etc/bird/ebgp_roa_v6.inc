@@ -78,7 +78,7 @@ roa 2001:bf7:100:2191::/64   max  64 as  65530; # remscheid (delegation)
 roa fddf:ebfd:a801:2191::/64 max  64 as  65530; # remscheid (delegation)
 roa 2a01:4f8:100:57ff::/64   max  64 as  76118; # rhein-neckar
 roa fd42:23:138::/48         max  64 as  76118; # rhein-neckar
-roa fda0:747e:ab29:111::/64  max  64 as  65111; # rheinsiegkreis
+roa fda0:747e:ab29:2241::/64 max  64 as  65111; # rheinsiegkreis
 roa fda0:747e:ab29:cafe::/64 max  64 as  65078; # rheinufer
 roa 2a02:f98:0:25::/64       max  64 as  65079; # ruhrgebiet
 roa 2a02:f98:0:26::/64       max  64 as  65079; # ruhrgebiet
