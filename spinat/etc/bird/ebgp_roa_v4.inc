@@ -42,6 +42,7 @@ roa 10.206.0.0/16   max  20 as  65530; # gronau (delegation)
 roa 10.234.0.0/16   max  20 as  65533; # guetersloh
 roa 10.235.0.0/16   max  20 as  65533; # guetersloh
 roa 10.255.0.0/16   max  20 as  65533; # guetersloh
+roa 10.154.0.0/16   max  20 as  65530; # hagen (delegation)
 roa 10.62.0.0/16    max  20 as  65046; # halle
 roa 10.112.0.0/16   max  20 as  49009; # hamburg
 roa 10.2.0.0/16     max  20 as  65511; # hannover
@@ -67,6 +68,7 @@ roa 10.130.0.0/16   max  20 as 201173; # luebeck
 roa 10.216.0.0/16   max  20 as  65034; # luenen
 roa 10.24.128.0/18  max  20 as  64769; # lux
 roa 10.139.0.0/16   max  20 as  65039; # magdeburg
+roa 10.11.128.0/18  max  20 as  65409; # meerane
 roa 10.15.0.0/16    max  20 as  65057; # moehne
 roa 10.80.0.0/16    max  20 as  65080; # muenchen
 roa 10.43.0.0/16    max  20 as  65251; # muensterland
@@ -94,17 +96,16 @@ roa 10.236.0.0/16   max  20 as  65079; # ruhrgebiet
 roa 10.41.0.0/16    max  20 as  65079; # ruhrgebiet
 roa 10.53.0.0/16    max  20 as  65079; # ruhrgebiet
 roa 10.24.192.0/18  max  20 as  64770; # saar
-roa 10.6.0.0/16     max  20 as  65399; # solingen
+roa 10.6.0.0/16     max  20 as  65530; # solingen (delegation)
+roa 10.190.0.0/15   max  20 as  65019; # stuttgart
 roa 10.24.0.0/20    max  20 as  65045; # treuenbrietzen
 roa 10.172.0.0/16   max  20 as  65022; # trier
 roa 10.188.0.0/16   max  20 as  65066; # troisdorf
 roa 10.1.0.0/17     max  20 as  65530; # vfnnrw
 roa 10.151.0.0/16   max  20 as  65530; # vfnnrw
-roa 10.154.0.0/16   max  20 as  65530; # vfnnrw
 roa 10.171.0.0/16   max  20 as  65530; # vfnnrw
 roa 10.45.0.0/17    max  20 as  65530; # vfnnrw
 roa 10.45.128.0/17  max  20 as  65530; # vfnnrw
-roa 10.6.0.0/16     max  20 as  65530; # vfnnrw
 roa 10.82.0.0/16    max  20 as  65530; # vfnnrw
 roa 10.92.0.0/16    max  20 as  65530; # vfnnrw
 roa 10.63.0.0/16    max  20 as  65042; # weimar
