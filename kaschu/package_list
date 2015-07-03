@@ -131,7 +131,7 @@ ii  iptables                            1.4.21-1ubuntu1                  amd64  
 ii  iptables-persistent                 0.5.7                            all          boot-time loader for iptables rules
 ii  iputils-ping                        3:20121221-4ubuntu1.1            amd64        Tools to test the reachability of network hosts
 ii  iputils-tracepath                   3:20121221-4ubuntu1.1            amd64        Tools to trace the network path to a remote host
-ii  irqbalance                          1.0.6-2ubuntu0.14.04.1           amd64        Daemon to balance interrupts for SMP systems
+ii  irqbalance                          1.0.6-2ubuntu0.14.04.2           amd64        Daemon to balance interrupts for SMP systems
 ii  isc-dhcp-client                     4.2.4-8ffmwu0                    amd64        ISC DHCP client
 ii  isc-dhcp-common                     4.2.4-8ffmwu0                    amd64        common files used by all the isc-dhcp* packages
 ii  isc-dhcp-server                     4.2.4-8ffmwu0                    amd64        ISC DHCP server for automatic IP address assignment
