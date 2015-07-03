@@ -371,6 +371,21 @@ zone "128/18.24.10.in-addr.arpa" {
     server-addresses { 10.24.128.3; 10.24.128.4; 10.24.128.5; fd4e:f2d7:88d2:fffe::3; fd4e:f2d7:88d2:fffe::4; fd4e:f2d7:88d2:fffe::5; };
 };
 # 
+# meerane
+# 
+zone "ffmee" {
+    type static-stub;
+    server-addresses { 10.11.128.1; 10.11.129.1; fdb3:d4be:da01:9fa8::b3; fdb3:d4be:da01::1; };
+};
+zone "128/18.11.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.11.128.1; 10.11.129.1; fdb3:d4be:da01:9fa8::b3; fdb3:d4be:da01::1; };
+};
+zone "1.0.a.d.e.b.4.d.3.b.d.f.ip6.arpa" {
+    type static-stub;
+    server-addresses { 10.11.128.1; 10.11.129.1; fdb3:d4be:da01:9fa8::b3; fdb3:d4be:da01::1; };
+};
+# 
 # nord
 # 
 zone "ffnord" {
