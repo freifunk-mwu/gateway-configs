@@ -714,7 +714,7 @@ ii  ubuntu-keyring                   2012.05.19                       all       
 ii  ubuntu-minimal                   1.325                            amd64        Minimal core of Ubuntu
 ii  ucf                              3.0027+nmu1                      all          Update Configuration File(s): preserve user changes to config files
 ii  udev                             204-5ubuntu20.12                 amd64        /dev/ and hotplug management daemon
-ii  unattended-upgrades              0.82.1ubuntu2.2                  all          automatic installation of security upgrades
+ii  unattended-upgrades              0.82.1ubuntu2.3                  all          automatic installation of security upgrades
 ii  unbound                          1.4.22-1ubuntu4.14.04.1          amd64        validating, recursive, caching DNS resolver
 ii  unbound-anchor                   1.4.22-1ubuntu4.14.04.1          amd64        utility to securely fetch the root DNS trust anchor
 ii  update-notifier-common           0.154.1ubuntu1                   all          Files shared between update-notifier and other packages

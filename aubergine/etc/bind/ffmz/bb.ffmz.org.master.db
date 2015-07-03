@@ -3,16 +3,17 @@ $ORIGIN bb.ffmz.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffmz.org. hostmaster.ffmz.org. (
-                     2015041801         ; Serial
+                     2015063001         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
                             300 )       ; Negative Cache TTL
 
 ; internal ns server
-@       		IN      NS      hinterschinken.ffmz.org.
+@       		IN      NS      wasserfloh.ffmz.org.
 @       		IN      NS      spinat.ffmz.org.
 @       		IN      NS      lotuswurzel.ffmz.org.
+@       		IN      NS      kaschu.ffmz.org.
 
 ; freifunk backbone
 uk-master.bb            IN      A       10.37.2.1

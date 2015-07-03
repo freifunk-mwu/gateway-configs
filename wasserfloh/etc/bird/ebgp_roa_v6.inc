@@ -46,6 +46,8 @@ roa 2001:bf7:1310::/44       max  64 as  65533; # guetersloh
 roa fd42:ffee:ff12::/48      max  64 as  65533; # guetersloh
 roa fd42:ffee:ff13::/48      max  64 as  65533; # guetersloh
 roa fd42:ffee:ff14::/48      max  64 as  65533; # guetersloh
+roa 2001:bf7:100:2331::/64   max  64 as  65530; # hagen (delegation)
+roa fddf:ebfd:a801:2331::/64 max  64 as  65530; # hagen (delegation)
 roa 2a03:2267::/32           max  64 as  49009; # hamburg
 roa fdca:ffee:8::/64         max  64 as  65511; # hannover
 roa fda0:747e:ab29:7406::/64 max  64 as  65100; # hennef
@@ -66,6 +68,7 @@ roa 2001:bf7:110::/44        max  64 as 201173; # luebeck
 roa fdef:ffc0:3dd7::/48      max  64 as 201173; # luebeck
 roa fd4e:f2d7:88d2:fffe::/64 max  64 as  64769; # lux
 roa fda9:026e:5805::/48      max  64 as  65039; # magdeburg
+roa fdb3:d4be:da01::/48      max  64 as  65409; # meerane
 roa 2a03:2260:10::/48        max  64 as  65057; # moehne
 roa 2a03:2260:115::/48       max  64 as  65251; # muensterland
 roa fd39:e4e3:eee1::/48      max  64 as  65534; # mueritz
@@ -78,7 +81,7 @@ roa 2001:bf7:100:2191::/64   max  64 as  65530; # remscheid (delegation)
 roa fddf:ebfd:a801:2191::/64 max  64 as  65530; # remscheid (delegation)
 roa 2a01:4f8:100:57ff::/64   max  64 as  76118; # rhein-neckar
 roa fd42:23:138::/48         max  64 as  76118; # rhein-neckar
-roa fda0:747e:ab29:111::/64  max  64 as  65111; # rheinsiegkreis
+roa fda0:747e:ab29:2241::/64 max  64 as  65111; # rheinsiegkreis
 roa fda0:747e:ab29:cafe::/64 max  64 as  65078; # rheinufer
 roa 2a02:f98:0:25::/64       max  64 as  65079; # ruhrgebiet
 roa 2a02:f98:0:26::/64       max  64 as  65079; # ruhrgebiet
@@ -109,7 +112,20 @@ roa 2001:bf7:100:212::/64    max  64 as  65530; # solingen (delegation)
 roa fddf:ebfd:a801:212::/64  max  64 as  65530; # solingen (delegation)
 roa 2001:bf7:fc00::/44       max  64 as  65022; # trier
 roa fda0:747e:ab29:7405::/64 max  64 as  65066; # troisdorf
-roa 2001:bf7:100::/44        max  64 as  65530; # vfnnrw
+roa 2001:bf7:100:234::/64    max  64 as  65530; # vfnnrw
+roa 2001:bf7:100:2361::/64   max  64 as  65530; # vfnnrw
+roa 2001:bf7:100:2373::/64   max  64 as  65530; # vfnnrw
+roa 2001:bf7:100:5922::/64   max  64 as  65530; # vfnnrw
+roa 2001:bf7:100:a::/64      max  64 as  65530; # vfnnrw
+roa 2001:bf7:100:abcd::/64   max  64 as  65530; # vfnnrw
+roa 2001:bf7:100:ff::/64     max  64 as  65530; # vfnnrw
+roa fddf:ebfd:a801:234::/64  max  64 as  65530; # vfnnrw
+roa fddf:ebfd:a801:2361::/64 max  64 as  65530; # vfnnrw
+roa fddf:ebfd:a801:2373::/64 max  64 as  65530; # vfnnrw
+roa fddf:ebfd:a801:5922::/64 max  64 as  65530; # vfnnrw
+roa fddf:ebfd:a801:a::/64    max  64 as  65530; # vfnnrw
+roa fddf:ebfd:a801:abcd::/64 max  64 as  65530; # vfnnrw
+roa fddf:ebfd:a801:ff::/64   max  64 as  65530; # vfnnrw
 roa 2001:bf7:1930::/44       max  64 as  65042; # weimar
 roa 2001:bf7:100:2196::/64   max  64 as  65530; # wermelskirchen (delegation)
 roa fddf:ebfd:a801:2196::/64 max  64 as  65530; # wermelskirchen (delegation)
