@@ -42,6 +42,7 @@ roa 10.206.0.0/16   max  20 as  65530; # gronau (delegation)
 roa 10.234.0.0/16   max  20 as  65533; # guetersloh
 roa 10.235.0.0/16   max  20 as  65533; # guetersloh
 roa 10.255.0.0/16   max  20 as  65533; # guetersloh
+roa 10.154.0.0/16   max  20 as  65530; # hagen (delegation)
 roa 10.62.0.0/16    max  20 as  65046; # halle
 roa 10.112.0.0/16   max  20 as  49009; # hamburg
 roa 10.2.0.0/16     max  20 as  65511; # hannover
@@ -102,7 +103,6 @@ roa 10.172.0.0/16   max  20 as  65022; # trier
 roa 10.188.0.0/16   max  20 as  65066; # troisdorf
 roa 10.1.0.0/17     max  20 as  65530; # vfnnrw
 roa 10.151.0.0/16   max  20 as  65530; # vfnnrw
-roa 10.154.0.0/16   max  20 as  65530; # vfnnrw
 roa 10.171.0.0/16   max  20 as  65530; # vfnnrw
 roa 10.45.0.0/17    max  20 as  65530; # vfnnrw
 roa 10.45.128.0/17  max  20 as  65530; # vfnnrw
