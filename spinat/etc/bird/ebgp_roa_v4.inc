@@ -58,6 +58,7 @@ roa 172.26.0.0/15   max  20 as  65528; # kbu
 roa 10.116.0.0/16   max  20 as  65525; # kiel
 roa 10.222.0.0/16   max  20 as  65032; # koblenz
 roa 10.16.0.0/17    max  20 as  65530; # kuerten (delegation)
+roa 10.19.0.0/16    max  20 as  64780; # leichlingen
 roa 10.59.0.0/21    max  21 as  65041; # leipzig
 roa 10.59.16.0/20   max  20 as  65041; # leipzig
 roa 10.61.0.0/16    max  20 as  65041; # leipzig

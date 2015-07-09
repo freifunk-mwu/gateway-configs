@@ -127,6 +127,9 @@ protocol bgp kiel0 from ebgp_ic {
 protocol bgp kiel4 from ebgp_ic {
     neighbor fec0::a:cf:0:35 as 65525;
 }
+protocol bgp leichlingen0 from ebgp_ic {
+    neighbor fec0::a:cf:0:f as 64780;
+}
 protocol bgp leipzig2 from ebgp_ic {
     neighbor fec0::a:cf:0:2 as 65041;
 }

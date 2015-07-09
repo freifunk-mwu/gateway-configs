@@ -60,6 +60,7 @@ roa fdd3:5d16:b5dd::/48      max  64 as  65528; # kbu
 roa fda1:384a:74de::/48      max  64 as  65525; # kiel
 roa 2001:bf7:100:2268::/64   max  64 as  65530; # kuerten (delegation)
 roa fddf:ebfd:a801:2268::/64 max  64 as  65530; # kuerten (delegation)
+roa fd99:4c33:9699:8c08::/64 max  64 as  64780; # leichlingen
 roa 2001:bf7:100:2144::/64   max  64 as  65530; # leverkusen (delegation)
 roa fddf:ebfd:a801:2144::/64 max  64 as  65530; # leverkusen (delegation)
 roa 2001:15c0:66e9::/48      max  64 as  65023; # ljubljana
