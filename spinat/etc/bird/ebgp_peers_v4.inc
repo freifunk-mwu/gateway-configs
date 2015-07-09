@@ -166,6 +166,9 @@ protocol bgp kassel3 from ebgp_ic {
 protocol bgp koeln1 from ebgp_ic {
     neighbor 10.207.0.57 as 65528;
 }
+protocol bgp leichlingen0 from ebgp_ic {
+    neighbor 10.207.0.15 as 64780;
+}
 protocol bgp leipzig1 from ebgp_ic {
     neighbor 10.207.0.1 as 65041;
 }
