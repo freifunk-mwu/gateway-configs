@@ -60,6 +60,7 @@ roa fdd3:5d16:b5dd::/48      max  64 as  65528; # kbu
 roa fda1:384a:74de::/48      max  64 as  65525; # kiel
 roa 2001:bf7:100:2268::/64   max  64 as  65530; # kuerten (delegation)
 roa fddf:ebfd:a801:2268::/64 max  64 as  65530; # kuerten (delegation)
+roa fd99:4c33:9699:8c08::/64 max  64 as  64780; # leichlingen
 roa 2001:bf7:100:2144::/64   max  64 as  65530; # leverkusen (delegation)
 roa fddf:ebfd:a801:2144::/64 max  64 as  65530; # leverkusen (delegation)
 roa 2001:15c0:66e9::/48      max  64 as  65023; # ljubljana
@@ -73,6 +74,7 @@ roa 2a03:2260:10::/48        max  64 as  65057; # moehne
 roa 2a03:2260:115::/48       max  64 as  65251; # muensterland
 roa fd39:e4e3:eee1::/48      max  64 as  65534; # mueritz
 roa fd73:111:e824::/48       max  64 as  65152; # ostholstein
+roa 2001:470:6d:860::/64     max  64 as  65132; # paderborn
 roa fdca:ffee:ff12::/48      max  64 as  65132; # paderborn
 roa fde8:21c6:9d82::/48      max  64 as  65433; # pinneberg
 roa fda0:747e:ab29:2195::/64 max  64 as  65067; # radevormwald
