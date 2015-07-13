@@ -415,15 +415,15 @@ zone "18.10.in-addr.arpa" {
 # 
 zone "ffpb" {
     type static-stub;
-    server-addresses { 10.132.254.53; fdca:ffee:ff12:a254::53; 10.132.12.1; fdca:ffee:ff12:132::12:1; 80.70.181.58; 2a02:450:1:1::10; };
+    server-addresses { 10.132.251.53; fdca:ffee:ff12:a251::53; 80.70.181.58; 2a02:450:1:1::10; };
 };
 zone "132.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.132.254.53; fdca:ffee:ff12:a254::53; 10.132.12.1; fdca:ffee:ff12:132::12:1; 80.70.181.58; 2a02:450:1:1::10; };
+    server-addresses { 10.132.251.53; fdca:ffee:ff12:a251::53; 80.70.181.58; 2a02:450:1:1::10; };
 };
 zone "2.1.f.f.e.e.f.f.a.c.d.f.ip6.arpa" {
     type static-stub;
-    server-addresses { 10.132.254.53; fdca:ffee:ff12:a254::53; 10.132.12.1; fdca:ffee:ff12:132::12:1; 80.70.181.58; 2a02:450:1:1::10; };
+    server-addresses { 10.132.251.53; fdca:ffee:ff12:a251::53; 80.70.181.58; 2a02:450:1:1::10; };
 };
 # 
 # pinneberg
