@@ -63,7 +63,7 @@ ii  debconf-i18n                     1.5.51ubuntu2                    all       
 ii  debianutils                      4.4                              amd64        Miscellaneous utilities specific to Debian
 ii  dh-python                        1.20140128-1ubuntu8.1            all          Debian helper tools for packaging Python libraries and applications
 ii  diffutils                        1:3.3-1                          amd64        File comparison utilities
-ii  dkms                             2.2.0.3-1.1ubuntu5.14.04         all          Dynamic Kernel Module Support Framework
+ii  dkms                             2.2.0.3-1.1ubuntu5.14.04.1       all          Dynamic Kernel Module Support Framework
 ii  dmidecode                        2.12-2                           amd64        SMBIOS/DMI table decoder
 ii  dmsetup                          2:1.02.77-6ubuntu2               amd64        Linux Kernel Device Mapper userspace library
 ii  dnsutils                         1:9.9.5.dfsg-3ubuntu0.3          amd64        Clients provided with BIND
