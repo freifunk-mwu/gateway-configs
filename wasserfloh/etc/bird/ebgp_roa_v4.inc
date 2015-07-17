@@ -78,6 +78,7 @@ roa 10.187.0.0/16   max  20 as  65187; # nord
 roa 10.18.0.0/16    max  20 as  65513; # nordwest
 roa 10.135.0.0/16   max  20 as  65152; # ostholstein
 roa 10.132.0.0/16   max  20 as  65132; # paderborn
+roa 10.215.0.0/16   max  20 as  65083; # pfalz
 roa 10.137.0.0/16   max  20 as  65433; # pinneberg
 roa 10.57.0.0/16    max  20 as  65067; # radevormwald
 roa 10.90.0.0/16    max  20 as  65190; # regensburg
