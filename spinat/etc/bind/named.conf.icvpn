@@ -469,6 +469,42 @@ zone "ffrg" {
     type static-stub;
     server-addresses { 151.80.64.190; 85.14.255.33; 2001:41d0:c:95c::190; 2001:4ba0:ffff:1e9::33; };
 };
+zone "ffen" {
+    type static-stub;
+    server-addresses { 151.80.64.190; 85.14.255.33; 2001:41d0:c:95c::190; 2001:4ba0:ffff:1e9::33; };
+};
+zone "ffbo" {
+    type static-stub;
+    server-addresses { 151.80.64.190; 85.14.255.33; 2001:41d0:c:95c::190; 2001:4ba0:ffff:1e9::33; };
+};
+zone "ffdo" {
+    type static-stub;
+    server-addresses { 151.80.64.190; 85.14.255.33; 2001:41d0:c:95c::190; 2001:4ba0:ffff:1e9::33; };
+};
+zone "ffe" {
+    type static-stub;
+    server-addresses { 151.80.64.190; 85.14.255.33; 2001:41d0:c:95c::190; 2001:4ba0:ffff:1e9::33; };
+};
+zone "ffel" {
+    type static-stub;
+    server-addresses { 151.80.64.190; 85.14.255.33; 2001:41d0:c:95c::190; 2001:4ba0:ffff:1e9::33; };
+};
+zone "ffff" {
+    type static-stub;
+    server-addresses { 151.80.64.190; 85.14.255.33; 2001:41d0:c:95c::190; 2001:4ba0:ffff:1e9::33; };
+};
+zone "ffniers" {
+    type static-stub;
+    server-addresses { 151.80.64.190; 85.14.255.33; 2001:41d0:c:95c::190; 2001:4ba0:ffff:1e9::33; };
+};
+zone "ffstr" {
+    type static-stub;
+    server-addresses { 151.80.64.190; 85.14.255.33; 2001:41d0:c:95c::190; 2001:4ba0:ffff:1e9::33; };
+};
+zone "ffrgw" {
+    type static-stub;
+    server-addresses { 151.80.64.190; 85.14.255.33; 2001:41d0:c:95c::190; 2001:4ba0:ffff:1e9::33; };
+};
 zone "53.10.in-addr.arpa" {
     type static-stub;
     server-addresses { 151.80.64.190; 85.14.255.33; 2001:41d0:c:95c::190; 2001:4ba0:ffff:1e9::33; };
