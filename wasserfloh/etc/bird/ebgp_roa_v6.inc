@@ -5,8 +5,6 @@
 #   roa table icvpn { include "roa.con?" }
 # 
 roa 2a03:2260:114::/48       max  64 as  65077; # aachen
-roa 2001:bf7:100:871::/64    max  64 as  65530; # altdorf (delegation)
-roa fddf:ebfd:a801:871::/64  max  64 as  65530; # altdorf (delegation)
 roa 2001:bf7:2520::/44       max  64 as  65050; # augsburg
 roa fdca:ffee:ffa::/48       max  64 as  65050; # augsburg
 roa 2001:bf7:750::/44        max  64 as  44194; # berlin
@@ -90,41 +88,16 @@ roa 2a02:f98:0:25::/64       max  64 as  65079; # ruhrgebiet
 roa 2a02:f98:0:26::/64       max  64 as  65079; # ruhrgebiet
 roa 2a02:f98:0:27::/64       max  64 as  65079; # ruhrgebiet
 roa 2a02:f98:0:28::/64       max  64 as  65079; # ruhrgebiet
-roa 2a03:2260:50:10::/64     max  64 as  65079; # ruhrgebiet
-roa 2a03:2260:50:10a::/64    max  64 as  65079; # ruhrgebiet
-roa 2a03:2260:50:1::/64      max  64 as  65079; # ruhrgebiet
-roa 2a03:2260:50:1a::/64     max  64 as  65079; # ruhrgebiet
-roa 2a03:2260:50:2::/64      max  64 as  65079; # ruhrgebiet
-roa 2a03:2260:50:2a::/64     max  64 as  65079; # ruhrgebiet
-roa 2a03:2260:50:3::/64      max  64 as  65079; # ruhrgebiet
-roa 2a03:2260:50:3a::/64     max  64 as  65079; # ruhrgebiet
-roa 2a03:2260:50:4::/64      max  64 as  65079; # ruhrgebiet
-roa 2a03:2260:50:4a::/64     max  64 as  65079; # ruhrgebiet
-roa 2a03:2260:50:5::/64      max  64 as  65079; # ruhrgebiet
-roa 2a03:2260:50:5a::/64     max  64 as  65079; # ruhrgebiet
-roa 2a03:2260:50:6::/64      max  64 as  65079; # ruhrgebiet
-roa 2a03:2260:50:6a::/64     max  64 as  65079; # ruhrgebiet
-roa 2a03:2260:50:7::/64      max  64 as  65079; # ruhrgebiet
-roa 2a03:2260:50:7a::/64     max  64 as  65079; # ruhrgebiet
-roa 2a03:2260:50:8::/64      max  64 as  65079; # ruhrgebiet
-roa 2a03:2260:50:8a::/64     max  64 as  65079; # ruhrgebiet
-roa 2a03:2260:50:9::/64      max  64 as  65079; # ruhrgebiet
-roa 2a03:2260:50:9a::/64     max  64 as  65079; # ruhrgebiet
+roa 2a03:2260:50::/48        max  64 as  65079; # ruhrgebiet
 roa fd4e:f2d7:88d2:ffff::/64 max  64 as  64770; # saar
 roa 2001:bf7:100:212::/64    max  64 as  65530; # solingen (delegation)
 roa fddf:ebfd:a801:212::/64  max  64 as  65530; # solingen (delegation)
 roa 2001:bf7:fc00::/44       max  64 as  65022; # trier
 roa fda0:747e:ab29:7405::/64 max  64 as  65066; # troisdorf
-roa 2001:bf7:100:234::/64    max  64 as  65530; # vfnnrw
-roa 2001:bf7:100:2361::/64   max  64 as  65530; # vfnnrw
-roa 2001:bf7:100:2373::/64   max  64 as  65530; # vfnnrw
 roa 2001:bf7:100:5922::/64   max  64 as  65530; # vfnnrw
 roa 2001:bf7:100:a::/64      max  64 as  65530; # vfnnrw
 roa 2001:bf7:100:abcd::/64   max  64 as  65530; # vfnnrw
 roa 2001:bf7:100:ff::/64     max  64 as  65530; # vfnnrw
-roa fddf:ebfd:a801:234::/64  max  64 as  65530; # vfnnrw
-roa fddf:ebfd:a801:2361::/64 max  64 as  65530; # vfnnrw
-roa fddf:ebfd:a801:2373::/64 max  64 as  65530; # vfnnrw
 roa fddf:ebfd:a801:5922::/64 max  64 as  65530; # vfnnrw
 roa fddf:ebfd:a801:a::/64    max  64 as  65530; # vfnnrw
 roa fddf:ebfd:a801:abcd::/64 max  64 as  65530; # vfnnrw
