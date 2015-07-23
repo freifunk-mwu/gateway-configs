@@ -47,7 +47,7 @@ zone "11.10.in-addr.arpa" {
 # 
 zone "ffod.org" {
     type static-stub;
-    server-addresses { 10.144.0.2; fddf:0bf7:80::a38:0001; };
+    server-addresses { 10.144.0.2; 10.144.0.3; fddf:0bf7:80::a38:0002; fddf:0bf7:80::a38:0003; };
 };
 # 
 # bremen
