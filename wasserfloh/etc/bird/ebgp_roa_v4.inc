@@ -62,6 +62,7 @@ roa 10.59.0.0/21    max  21 as  65041; # leipzig
 roa 10.59.16.0/20   max  20 as  65041; # leipzig
 roa 10.61.0.0/16    max  20 as  65041; # leipzig
 roa 10.76.0.0/16    max  20 as  65530; # leverkusen (delegation)
+roa 10.141.0.0/17   max  20 as  65530; # lindlar (delegation)
 roa 10.14.0.0/16    max  20 as  65023; # ljubljana
 roa 10.254.0.0/16   max  20 as  65023; # ljubljana
 roa 10.130.0.0/16   max  20 as 201173; # luebeck
