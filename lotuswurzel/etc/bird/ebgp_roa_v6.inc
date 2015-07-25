@@ -61,6 +61,8 @@ roa fddf:ebfd:a801:2268::/64 max  64 as  65530; # kuerten (delegation)
 roa fd99:4c33:9699:8c08::/64 max  64 as  64780; # leichlingen
 roa 2001:bf7:100:2144::/64   max  64 as  65530; # leverkusen (delegation)
 roa fddf:ebfd:a801:2144::/64 max  64 as  65530; # leverkusen (delegation)
+roa 2001:bf7:100:2266::/64   max  64 as  65530; # lindlar (delegation)
+roa fddf:ebfd:a801:2266::/64 max  64 as  65530; # lindlar (delegation)
 roa 2001:15c0:66e9::/48      max  64 as  65023; # ljubljana
 roa 2001:67c:2d50::/48       max  64 as 201173; # luebeck
 roa 2001:bf7:110::/44        max  64 as 201173; # luebeck
@@ -94,6 +96,7 @@ roa 2001:bf7:100:212::/64    max  64 as  65530; # solingen (delegation)
 roa fddf:ebfd:a801:212::/64  max  64 as  65530; # solingen (delegation)
 roa 2001:bf7:fc00::/44       max  64 as  65022; # trier
 roa fda0:747e:ab29:7405::/64 max  64 as  65066; # troisdorf
+roa fd83:e002:c8a1::/48      max  64 as  64525; # uelzen
 roa 2001:bf7:100:5922::/64   max  64 as  65530; # vfnnrw
 roa 2001:bf7:100:a::/64      max  64 as  65530; # vfnnrw
 roa 2001:bf7:100:abcd::/64   max  64 as  65530; # vfnnrw
