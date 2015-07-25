@@ -518,7 +518,7 @@ ii  libxrender1:amd64                   1:0.9.8-1build0.14.04.1              amd
 ii  libxtables10                        1.4.21-1ubuntu1                      amd64        netfilter xtables library
 ii  libyaml-0-2:amd64                   0.1.4-3ubuntu3.1                     amd64        Fast YAML 1.1 parser and emitter library
 ii  libyaml-dev:amd64                   0.1.4-3ubuntu3.1                     amd64        Fast YAML 1.1 parser and emitter library (development)
-ii  linux-firmware                      1.127.13                             all          Firmware for Linux kernel drivers
+ii  linux-firmware                      1.127.14                             all          Firmware for Linux kernel drivers
 ii  linux-generic                       3.13.0.58.65                         amd64        Complete Generic Linux kernel and headers
 ii  linux-headers-3.13.0-24             3.13.0-24.47                         all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-24-generic     3.13.0-24.47                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
