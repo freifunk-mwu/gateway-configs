@@ -9,8 +9,6 @@
 # local
 #
 #1	inr.ruhep
-# table for freifunk exit next-hop routes
-7	exitgw
 # icvpn table
 23	icvpn
 # local community table

@@ -15,7 +15,6 @@ FFWI_DEV="wiBR"
 
 manage_vpn_peer_routes() {
         ACTION="$1"
-        ip route $ACTION "$trusted_ip" via "$route_net_gateway" src "$LOCAL_IP" table exitgw
         ip route $ACTION "$route_vpn_gateway" dev "$dev" src "$ifconfig_local" table ffinetexit
 }
 
