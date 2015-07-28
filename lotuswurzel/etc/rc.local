@@ -38,9 +38,13 @@ ip -6 rule add from all iif mzBR lookup ffinetexit priority 41
 ip -6 rule add from all iif wiBR lookup ffinetexit priority 41
 
 # at this point this is the end of policy routing for freifunk related routes 
+ip -4 rule add from all iif mzBR type unreachable priority 61
+ip -4 rule add from all iif wiBR type unreachable priority 61
 ip -4 rule add from all iif exitVPN type unreachable priority 61
 ip -4 rule add from all iif icVPN type unreachable priority 61
 ip -4 rule add from all iif eth0 type unreachable priority 61
+ip -6 rule add from all iif mzBR type unreachable priority 61
+ip -6 rule add from all iif wiBR type unreachable priority 61
 ip -6 rule add from all iif exitVPN type unreachable priority 61
 ip -6 rule add from all iif icVPN type unreachable priority 61
 ip -6 rule add from all iif eth0 type unreachable priority 61
@@ -69,11 +73,11 @@ ip -6 rule add from all lookup icvpn priority 107
 /sbin/ip -6 route add unreachable default table ffinetexit
 
 # mainz routes for rt_table ffinetexit
-/sbin/ip -4 route add 10.37.0.0/18 proto static dev mzBR table ffinetexit
-/sbin/ip -6 route add fd37:b4dc:4b1e::/64 proto static dev mzBR table ffinetexit
+#/sbin/ip -4 route add 10.37.0.0/18 proto static dev mzBR table ffinetexit
+#/sbin/ip -6 route add fd37:b4dc:4b1e::/64 proto static dev mzBR table ffinetexit
 
 # wiesbaden routes for rt_table ffinetexit
-/sbin/ip -4 route add 10.56.0.0/18 proto static dev wiBR table ffinetexit
-/sbin/ip -6 route add fd56:b4dc:4b1e::/64 proto static dev wiBR table ffinetexit
+#/sbin/ip -4 route add 10.56.0.0/18 proto static dev wiBR table ffinetexit
+#/sbin/ip -6 route add fd56:b4dc:4b1e::/64 proto static dev wiBR table ffinetexit
 
 exit 0
