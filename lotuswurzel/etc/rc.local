@@ -60,6 +60,10 @@ ip -6 rule add from all lookup icvpn priority 107
 # IP routes
 #
 
+# static route for icvpn transfer-net
+/sbin/ip -4 route add 10.207.0.0/16 proto static dev icVPN table icvpn
+/sbin/ip -6 route add fec0::/96 proto static dev icVPN table icvpn
+
 # static mainz routes for rt_table mwu
 /sbin/ip -4 route add 10.37.0.0/18 proto static dev mzBR table mwu
 /sbin/ip -6 route add fd37:b4dc:4b1e::/64 proto static dev mzBR table mwu
@@ -71,13 +75,5 @@ ip -6 rule add from all lookup icvpn priority 107
 # unreachable routes for rt_table ffinetexit
 /sbin/ip -4 route add unreachable default table ffinetexit
 /sbin/ip -6 route add unreachable default table ffinetexit
-
-# mainz routes for rt_table ffinetexit
-#/sbin/ip -4 route add 10.37.0.0/18 proto static dev mzBR table ffinetexit
-#/sbin/ip -6 route add fd37:b4dc:4b1e::/64 proto static dev mzBR table ffinetexit
-
-# wiesbaden routes for rt_table ffinetexit
-#/sbin/ip -4 route add 10.56.0.0/18 proto static dev wiBR table ffinetexit
-#/sbin/ip -6 route add fd56:b4dc:4b1e::/64 proto static dev wiBR table ffinetexit
 
 exit 0
