@@ -334,7 +334,7 @@ ii  libpangoft2-1.0-0:amd64          1.36.3-1ubuntu1.1                amd64     
 ii  libparse-debianchangelog-perl    1.2.0-1ubuntu1                   all          parse Debian changelogs and output them in other formats
 ii  libpathplan4                     2.36.0-0ubuntu3.1                amd64        rich set of graph drawing tools - pathplan library
 ii  libpci3:amd64                    1:3.2.1-1ubuntu5                 amd64        Linux PCI Utilities (shared library)
-ii  libpcre3:amd64                   1:8.31-2ubuntu2                  amd64        Perl 5 Compatible Regular Expression Library - runtime files
+ii  libpcre3:amd64                   1:8.31-2ubuntu2.1                amd64        Perl 5 Compatible Regular Expression Library - runtime files
 ii  libpcsclite1:amd64               1.8.10-1ubuntu1                  amd64        Middleware to access a smart card using PC/SC (library)
 ii  libperl5.18                      5.18.2-2ubuntu1                  amd64        shared Perl library
 ii  libpipeline1:amd64               1.3.0-1                          amd64        pipeline manipulation library
@@ -456,8 +456,10 @@ ii  linux-headers-3.13.0-58          3.13.0-58.97                     all       
 ii  linux-headers-3.13.0-58-generic  3.13.0-58.97                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-59          3.13.0-59.98                     all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-59-generic  3.13.0-59.98                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-generic            3.13.0.59.66                     amd64        Generic Linux kernel headers
-ii  linux-headers-virtual            3.13.0.59.66                     amd64        Transitional package.
+ii  linux-headers-3.13.0-61          3.13.0-61.100                    all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-61-generic  3.13.0-61.100                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-generic            3.13.0.61.68                     amd64        Generic Linux kernel headers
+ii  linux-headers-virtual            3.13.0.61.68                     amd64        Transitional package.
 rc  linux-image-3.13.0-32-generic    3.13.0-32.57                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-40-generic    3.13.0-40.69                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-43-generic    3.13.0-43.72                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -474,9 +476,10 @@ rc  linux-image-3.13.0-55-generic    3.13.0-55.94                     amd64     
 ii  linux-image-3.13.0-57-generic    3.13.0-57.95                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-58-generic    3.13.0-58.97                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-59-generic    3.13.0-59.98                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-virtual              3.13.0.59.66                     amd64        This package will always depend on the latest minimal generic kernel image.
-ii  linux-libc-dev:amd64             3.13.0-59.98                     amd64        Linux Kernel Headers for development
-ii  linux-virtual                    3.13.0.59.66                     amd64        Minimal Generic Linux kernel and headers
+ii  linux-image-3.13.0-61-generic    3.13.0-61.100                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-virtual              3.13.0.61.68                     amd64        This package will always depend on the latest minimal generic kernel image.
+ii  linux-libc-dev:amd64             3.13.0-61.100                    amd64        Linux Kernel Headers for development
+ii  linux-virtual                    3.13.0.61.68                     amd64        Minimal Generic Linux kernel and headers
 ii  locales                          2.13+git20120306-12.1            all          common files for locale support
 ii  locate                           4.4.2-7                          amd64        maintain and query an index of a directory tree
 ii  lockfile-progs                   0.1.17                           amd64        Programs for locking and unlocking files and mailboxes
