@@ -70,6 +70,7 @@ roa 10.216.0.0/16   max  20 as  65034; # luenen
 roa 10.24.128.0/18  max  20 as  64769; # lux
 roa 10.139.0.0/16   max  20 as  65039; # magdeburg
 roa 10.11.128.0/18  max  20 as  65409; # meerane
+roa 10.23.0.0/16    max  20 as  65210; # mittelsachsen
 roa 10.15.0.0/16    max  20 as  65057; # moehne
 roa 10.80.0.0/16    max  20 as  65080; # muenchen
 roa 10.43.0.0/16    max  20 as  65251; # muensterland
