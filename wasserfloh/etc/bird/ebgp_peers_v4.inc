@@ -193,6 +193,9 @@ protocol bgp magdeburg2 from ebgp_ic {
 protocol bgp meerane1 from ebgp_ic {
     neighbor 10.207.0.31 as 65409;
 }
+protocol bgp mittelsachsen1 from ebgp_ic {
+    neighbor 10.207.0.45 as 65210;
+}
 protocol bgp moehne003 from ebgp_ic {
     neighbor 10.207.0.121 as 65057;
 }
