@@ -443,8 +443,8 @@ ii  libslang2:amd64                     2.2.4-15ubuntu1                      amd
 rc  libsnmp-base                        5.7.2~dfsg-8.1ubuntu3                all          SNMP configuration script, MIBs and documentation
 rc  libsnmp30:amd64                     5.7.2~dfsg-8.1ubuntu3                amd64        SNMP (Simple Network Management Protocol) library
 ii  libsocket6-perl                     0.25-1                               amd64        Perl extensions for IPv6
-ii  libsqlite3-0:amd64                  3.8.2-1ubuntu2                       amd64        SQLite 3 shared library
-ii  libsqlite3-dev:amd64                3.8.2-1ubuntu2                       amd64        SQLite 3 development files
+ii  libsqlite3-0:amd64                  3.8.2-1ubuntu2.1                     amd64        SQLite 3 shared library
+ii  libsqlite3-dev:amd64                3.8.2-1ubuntu2.1                     amd64        SQLite 3 development files
 ii  libss2:amd64                        1.42.9-3ubuntu1.2                    amd64        command-line interface parsing library
 rc  libssh2-1:amd64                     1.4.3-2                              amd64        SSH2 client-side library
 ii  libssl-dev:amd64                    1.0.1f-1ubuntu2.15                   amd64        Secure Sockets Layer toolkit - development files
@@ -769,7 +769,7 @@ ii  smartmontools                       6.2+svn3841-1.2                      amd
 rc  snmpd                               5.7.2~dfsg-8.1ubuntu3                amd64        SNMP (Simple Network Management Protocol) agents
 rc  snmptt                              1.4-1                                all          SNMP trap handler for use with snmptrapd
 ii  software-properties-common          0.92.37.3                            all          manage the repositories that you install software from (common)
-ii  sqlite3                             3.8.2-1ubuntu2                       amd64        Command line interface for SQLite 3
+ii  sqlite3                             3.8.2-1ubuntu2.1                     amd64        Command line interface for SQLite 3
 ii  ssh-import-id                       3.21-0ubuntu1                        all          securely retrieve an SSH public key and install it locally
 ii  ssl-cert                            1.0.33                               all          simple debconf wrapper for OpenSSL
 ii  strace                              4.8-1ubuntu5                         amd64        A system call tracer
