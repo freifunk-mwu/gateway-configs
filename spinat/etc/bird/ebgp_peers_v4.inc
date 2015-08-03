@@ -262,6 +262,9 @@ protocol bgp trier2 from ebgp_ic {
 protocol bgp troisdorf1 from ebgp_ic {
     neighbor 10.207.0.185 as 65066;
 }
+protocol bgp uegw1 from ebgp_ic {
+    neighbor 10.207.0.18 as 64525;
+}
 protocol bgp nrw1 from ebgp_ic {
     neighbor 10.207.0.7 as 65530;
 }
@@ -276,6 +279,9 @@ protocol bgp nrw4 from ebgp_ic {
 }
 protocol bgp nrw5 from ebgp_ic {
     neighbor 10.207.66.66 as 65530;
+}
+protocol bgp waldheim1 from ebgp_ic {
+    neighbor 10.207.0.45 as 65210;
 }
 protocol bgp weimar1 from ebgp_ic {
     neighbor 10.207.0.3 as 65042;

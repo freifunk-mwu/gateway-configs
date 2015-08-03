@@ -554,6 +554,36 @@ zone "fftdf" {
     server-addresses { 10.188.1.100; 10.188.1.23; };
 };
 # 
+# uelzen
+# 
+zone "ffue" {
+    type static-stub;
+    server-addresses { 10.134.10.1; 10.134.20.1; 10.134.30.1; fd83:e002:c8a1::1; fd83:e002:c8a1::2; fd83:e002:c8a1::3; };
+};
+zone "134.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.134.10.1; 10.134.20.1; 10.134.30.1; fd83:e002:c8a1::1; fd83:e002:c8a1::2; fd83:e002:c8a1::3; };
+};
+zone "1.a.8.c.2.0.0.e.3.8.d.f.ip6.arpa" {
+    type static-stub;
+    server-addresses { 10.134.10.1; 10.134.20.1; 10.134.30.1; fd83:e002:c8a1::1; fd83:e002:c8a1::2; fd83:e002:c8a1::3; };
+};
+# 
+# waldheim
+# 
+zone "ffwdh" {
+    type static-stub;
+    server-addresses { 10.23.0.1; 172.22.176.1; };
+};
+zone "fftup" {
+    type static-stub;
+    server-addresses { 10.23.0.1; 172.22.176.1; };
+};
+zone "23.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.23.0.1; 172.22.176.1; };
+};
+# 
 # westkueste
 # 
 zone "ffwk" {
