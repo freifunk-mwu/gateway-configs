@@ -283,6 +283,9 @@ protocol bgp nrw5 from ebgp_ic {
 protocol bgp waldheim1 from ebgp_ic {
     neighbor 10.207.0.45 as 65210;
 }
+protocol bgp waldheim2 from ebgp_ic {
+    neighbor 10.207.0.46 as 65210;
+}
 protocol bgp weimar1 from ebgp_ic {
     neighbor 10.207.0.3 as 65042;
 }
