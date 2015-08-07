@@ -7,9 +7,6 @@ protocol bgp aachen1 from ebgp_ic {
 protocol bgp augsburg1 from ebgp_ic {
     neighbor fec0::a:cf:0:a as 65050;
 }
-protocol bgp bayreuth from ebgp_ic {
-    neighbor fec0::a:cf:0:19 as 65025;
-}
 protocol bgp berlin1 from ebgp_ic {
     neighbor fec0::a:cf:0:5 as 44194;
 }
@@ -36,6 +33,9 @@ protocol bgp bremen2 from ebgp_ic {
 }
 protocol bgp bremen3 from ebgp_ic {
     neighbor fec0::a:cf:3:c4 as 65196;
+}
+protocol bgp bremen5 from ebgp_ic {
+    neighbor fec0::a:cf:5:c4 as 65196;
 }
 protocol bgp darmstadt1 from ebgp_ic {
     neighbor fec0::a:cf:0:da as 65038;
@@ -66,9 +66,6 @@ protocol bgp flensburg1 from ebgp_ic {
 }
 protocol bgp flensburg2 from ebgp_ic {
     neighbor fec0::a:cf:0:11 as 65056;
-}
-protocol bgp freiburg1 from ebgp_ic {
-    neighbor fec0::a:cf:0:21 as 65060;
 }
 protocol bgp fulda1 from ebgp_ic {
     neighbor fec0::a:cf:0:2a as 65142;
@@ -102,6 +99,9 @@ protocol bgp hamburg02 from ebgp_ic {
 }
 protocol bgp hamburg03 from ebgp_ic {
     neighbor fec0::a:cf:0:3f as 49009;
+}
+protocol bgp harz1 from ebgp_ic {
+    neighbor fec0::a:cf:0:b as 65134;
 }
 protocol bgp hennef1 from ebgp_ic {
     neighbor fec0::a:cf:0:bd as 65100;
