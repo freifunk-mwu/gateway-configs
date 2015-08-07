@@ -16,9 +16,6 @@ protocol bgp augsburg2 from ebgp_ic {
 protocol bgp basel1 from ebgp_ic {
     neighbor 10.207.5.1 as 65090;
 }
-protocol bgp bayreuth from ebgp_ic {
-    neighbor 10.207.0.28 as 65025;
-}
 protocol bgp berlin1 from ebgp_ic {
     neighbor 10.207.0.5 as 44194;
 }
@@ -45,6 +42,9 @@ protocol bgp bremen2 from ebgp_ic {
 }
 protocol bgp bremen3 from ebgp_ic {
     neighbor 10.207.3.196 as 65196;
+}
+protocol bgp bremen5 from ebgp_ic {
+    neighbor 10.207.5.196 as 65196;
 }
 protocol bgp chemnitz1 from ebgp_ic {
     neighbor 10.207.0.36 as 65053;
@@ -90,9 +90,6 @@ protocol bgp franken_ro1 from ebgp_ic {
 }
 protocol bgp frankfurt1 from ebgp_ic {
     neighbor 10.207.0.35 as 65026;
-}
-protocol bgp freiburg1 from ebgp_ic {
-    neighbor 10.207.0.21 as 65060;
 }
 protocol bgp fulda1 from ebgp_ic {
     neighbor 10.207.0.42 as 65142;
@@ -282,6 +279,9 @@ protocol bgp nrw5 from ebgp_ic {
 }
 protocol bgp waldheim1 from ebgp_ic {
     neighbor 10.207.0.45 as 65210;
+}
+protocol bgp waldheim2 from ebgp_ic {
+    neighbor 10.207.0.46 as 65210;
 }
 protocol bgp weimar1 from ebgp_ic {
     neighbor 10.207.0.3 as 65042;

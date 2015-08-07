@@ -48,6 +48,7 @@ roa 2001:bf7:100:2331::/64   max  64 as  65530; # hagen (delegation)
 roa fddf:ebfd:a801:2331::/64 max  64 as  65530; # hagen (delegation)
 roa 2a03:2267::/32           max  64 as  49009; # hamburg
 roa fdca:ffee:8::/64         max  64 as  65511; # hannover
+roa fd0e:8db3:d50a::/64      max  64 as  65134; # harz
 roa fda0:747e:ab29:7406::/64 max  64 as  65100; # hennef
 roa 2001:bf7:100:2192::/64   max  64 as  65530; # hueckeswagen (delegation)
 roa fddf:ebfd:a801:2192::/64 max  64 as  65530; # hueckeswagen (delegation)
