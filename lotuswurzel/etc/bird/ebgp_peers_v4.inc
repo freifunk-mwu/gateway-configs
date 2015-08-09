@@ -46,6 +46,9 @@ protocol bgp bremen3 from ebgp_ic {
 protocol bgp bremen5 from ebgp_ic {
     neighbor 10.207.5.196 as 65196;
 }
+protocol bgp camp2015 from ebgp_ic {
+    neighbor 10.207.0.21 as 65112;
+}
 protocol bgp chemnitz1 from ebgp_ic {
     neighbor 10.207.0.36 as 65053;
 }

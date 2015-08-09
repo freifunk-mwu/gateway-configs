@@ -47,6 +47,8 @@ roa fd42:ffee:ff14::/48      max  64 as  65533; # guetersloh
 roa 2001:bf7:100:2331::/64   max  64 as  65530; # hagen (delegation)
 roa fddf:ebfd:a801:2331::/64 max  64 as  65530; # hagen (delegation)
 roa 2a03:2267::/32           max  64 as  49009; # hamburg
+roa 2a03:2267:0ccc:2015::/64 max  64 as  65112; # hamburg (delegation)
+roa 2a03:2267:4e16::/48      max  64 as  65189; # hamburg (delegation)
 roa fdca:ffee:8::/64         max  64 as  65511; # hannover
 roa fd0e:8db3:d50a::/64      max  64 as  65134; # harz
 roa fda0:747e:ab29:7406::/64 max  64 as  65100; # hennef
