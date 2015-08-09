@@ -608,17 +608,13 @@ zone "ffwk" {
 # 
 # westpfalz
 # 
-zone "ffwp" {
-    type static-stub;
-    server-addresses { 10.198.2.1; 10.198.4.1; fdc6:c4fe:1de4::c1; fdc6:c4fe:1de4::d1; };
-};
 zone "198.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.198.2.1; 10.198.4.1; fdc6:c4fe:1de4::c1; fdc6:c4fe:1de4::d1; };
+    server-addresses { 10.198.2.1; 10.198.4.1; 10.198.6.1; fdc6:c4fe:1de4::c1; fdc6:c4fe:1de4::d1; fdc6:c4fe:1de4::e1; };
 };
 zone "4.e.d.1.e.f.4.c.6.c.d.f.ip6.arpa" {
     type static-stub;
-    server-addresses { 10.198.2.1; 10.198.4.1; fdc6:c4fe:1de4::c1; fdc6:c4fe:1de4::d1; };
+    server-addresses { 10.198.2.1; 10.198.4.1; 10.198.6.1; fdc6:c4fe:1de4::c1; fdc6:c4fe:1de4::d1; fdc6:c4fe:1de4::e1; };
 };
 # 
 # wuppertal
