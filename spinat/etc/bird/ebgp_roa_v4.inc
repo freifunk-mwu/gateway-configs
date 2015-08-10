@@ -44,6 +44,7 @@ roa 10.255.0.0/16   max  20 as  65533; # guetersloh
 roa 10.154.0.0/16   max  20 as  65530; # hagen (delegation)
 roa 10.62.0.0/16    max  20 as  65046; # halle
 roa 10.112.0.0/16   max  20 as  49009; # hamburg
+roa 10.112.128.0/18 max  20 as  65112; # hamburg (delegation)
 roa 10.2.0.0/16     max  20 as  65511; # hannover
 roa 10.7.0.0/16     max  20 as  65134; # harz
 roa 10.189.0.0/18   max  20 as  65189; # helgoland
@@ -71,6 +72,7 @@ roa 10.24.128.0/18  max  20 as  64769; # lux
 roa 10.139.0.0/16   max  20 as  65039; # magdeburg
 roa 10.11.128.0/18  max  20 as  65409; # meerane
 roa 10.15.0.0/16    max  20 as  65057; # moehne
+roa 10.27.0.0/16    max  20 as  65057; # moehne
 roa 10.80.0.0/16    max  20 as  65080; # muenchen
 roa 10.43.0.0/16    max  20 as  65251; # muensterland
 roa 10.169.0.0/16   max  20 as  65534; # mueritz
