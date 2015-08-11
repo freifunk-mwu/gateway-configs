@@ -7,13 +7,13 @@ ii  acpid                            1:2.0.21-1ubuntu2                amd64     
 ii  adduser                          3.113+nmu3ubuntu3                all          add and remove users and groups
 ii  apport                           2.14.1-0ubuntu3.11               all          automatically generate crash reports for debugging
 ii  apport-symptoms                  0.20                             all          symptom scripts for apport
-ii  apt                              1.0.1ubuntu2.8                   amd64        commandline package manager
-ii  apt-utils                        1.0.1ubuntu2.8                   amd64        package management related utility programs
+ii  apt                              1.0.1ubuntu2.10                  amd64        commandline package manager
+ii  apt-utils                        1.0.1ubuntu2.10                  amd64        package management related utility programs
 ii  apt-xapian-index                 0.45ubuntu4                      all          maintenance and search tools for a Xapian index of Debian packages
 ii  aptitude                         0.6.8.2-1ubuntu4                 amd64        terminal-based package manager
 ii  aptitude-common                  0.6.8.2-1ubuntu4                 all          architecture indepedent files for the aptitude package manager
 ii  at                               3.1.14-1ubuntu1                  amd64        Delayed job execution and batch processing
-ii  base-files                       7.2ubuntu5.2                     amd64        Debian base system miscellaneous files
+ii  base-files                       7.2ubuntu5.3                     amd64        Debian base system miscellaneous files
 ii  base-passwd                      3.5.33                           amd64        Debian base system master password and group files
 ii  bash                             4.3-7ubuntu1.5                   amd64        GNU Bourne Again SHell
 ii  bc                               1.06.95-8ubuntu1                 amd64        GNU bc arbitrary precision calculator language
@@ -23,7 +23,7 @@ ii  bind9-host                       1:9.9.5.dfsg-3ubuntu0.4          amd64     
 ii  bind9utils                       1:9.9.5.dfsg-3ubuntu0.4          amd64        Utilities for BIND
 ii  binutils                         2.24-5ubuntu13                   amd64        GNU assembler, linker and binary utilities
 ii  biosdevname                      0.4.1-0ubuntu6.1                 amd64        apply BIOS-given names to network devices
-ii  bsdutils                         1:2.20.1-5.1ubuntu20.4           amd64        Basic utilities from 4.4BSD-Lite
+ii  bsdutils                         1:2.20.1-5.1ubuntu20.6           amd64        Basic utilities from 4.4BSD-Lite
 ii  build-essential                  11.6ubuntu6                      amd64        Informational list of build-essential packages
 ii  busybox-initramfs                1:1.21.0-1ubuntu1                amd64        Standalone shell setup for initramfs
 ii  byobu                            5.77-0ubuntu1.2                  all          powerful, text based window manager and shell multiplexer
@@ -110,8 +110,8 @@ ii  libalgorithm-diff-perl           1.19.02-3                        all       
 ii  libalgorithm-diff-xs-perl        0.04-2build4                     amd64        module to find differences between files (XS accelerated)
 ii  libalgorithm-merge-perl          0.08-2                           all          Perl module for three-way merge of textual data
 ii  libapparmor1:amd64               2.8.95~2430-0ubuntu5.2           amd64        changehat AppArmor library
-ii  libapt-inst1.5:amd64             1.0.1ubuntu2.8                   amd64        deb package format runtime library
-ii  libapt-pkg4.12:amd64             1.0.1ubuntu2.8                   amd64        package management runtime library
+ii  libapt-inst1.5:amd64             1.0.1ubuntu2.10                  amd64        deb package format runtime library
+ii  libapt-pkg4.12:amd64             1.0.1ubuntu2.10                  amd64        package management runtime library
 ii  libarchive-extract-perl          0.70-1                           all          generic archive extracting module
 ii  libasan0:amd64                   4.8.4-2ubuntu1~14.04             amd64        AddressSanitizer -- a fast memory error detector
 ii  libasn1-8-heimdal:amd64          1.6~git20131207+dfsg-1ubuntu1.1  amd64        Heimdal Kerberos - ASN.1 library
@@ -121,7 +121,7 @@ ii  libattr1:amd64                   1:2.4.47-1ubuntu1                amd64     
 ii  libaudit-common                  1:2.3.2-2ubuntu1                 all          Dynamic library for security auditing - common files
 ii  libaudit1:amd64                  1:2.3.2-2ubuntu1                 amd64        Dynamic library for security auditing
 ii  libbind9-90                      1:9.9.5.dfsg-3ubuntu0.4          amd64        BIND9 Shared Library used by BIND
-ii  libblkid1:amd64                  2.20.1-5.1ubuntu20.4             amd64        block device id library
+ii  libblkid1:amd64                  2.20.1-5.1ubuntu20.6             amd64        block device id library
 ii  libboost-iostreams1.54.0:amd64   1.54.0-4ubuntu3.1                amd64        Boost.Iostreams Library
 ii  libbsd0:amd64                    0.6.0-2ubuntu1                   amd64        utility functions from BSD systems - shared library
 ii  libbz2-1.0:amd64                 1.0.6-5                          amd64        high-quality block-sorting file compressor library - runtime
@@ -207,7 +207,7 @@ ii  liblwres90                       1:9.9.5.dfsg-3ubuntu0.4          amd64     
 ii  liblzma5:amd64                   5.1.1alpha+20120614-2ubuntu2     amd64        XZ-format compression library
 ii  libmagic1:amd64                  1:5.14-2ubuntu3.3                amd64        File type determination library using "magic" numbers
 ii  libmodule-pluggable-perl         5.1-1                            all          module for giving  modules the ability to have plugins
-ii  libmount1:amd64                  2.20.1-5.1ubuntu20.4             amd64        block device id library
+ii  libmount1:amd64                  2.20.1-5.1ubuntu20.6             amd64        block device id library
 ii  libmpc3:amd64                    1.0.1-1ubuntu1                   amd64        multiple precision complex floating-point library
 ii  libmpdec2:amd64                  2.4.0-6                          amd64        library for decimal floating point arithmetic (runtime library)
 ii  libmpfr4:amd64                   3.1.2-1                          amd64        multiple precision floating-point computation
@@ -287,7 +287,7 @@ ii  libusb-0.1-4:amd64               2:0.1.12-23.3ubuntu1             amd64     
 ii  libusb-1.0-0:amd64               2:1.0.17-1ubuntu2                amd64        userspace USB programming library
 ii  libustr-1.0-1:amd64              1.0.4-3ubuntu2                   amd64        Micro string library: shared library
 ii  libutempter0                     1.1.5-4build1                    amd64        A privileged helper for utmp/wtmp updates (runtime)
-ii  libuuid1:amd64                   2.20.1-5.1ubuntu20.4             amd64        Universally Unique ID library
+ii  libuuid1:amd64                   2.20.1-5.1ubuntu20.6             amd64        Universally Unique ID library
 ii  libwind0-heimdal:amd64           1.6~git20131207+dfsg-1ubuntu1.1  amd64        Heimdal Kerberos - stringprep implementation
 ii  libwrap0:amd64                   7.6.q-25                         amd64        Wietse Venema's TCP wrappers library
 ii  libx11-6:amd64                   2:1.6.2-1ubuntu2                 amd64        X11 client-side library
@@ -306,10 +306,6 @@ ii  linux-headers-3.13.0-39          3.13.0-39.66                     all       
 ii  linux-headers-3.13.0-39-generic  3.13.0-39.66                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-40          3.13.0-40.69                     all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-40-generic  3.13.0-40.69                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-57          3.13.0-57.95                     all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-57-generic  3.13.0-57.95                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-58          3.13.0-58.97                     all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-58-generic  3.13.0-58.97                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-59          3.13.0-59.98                     all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-59-generic  3.13.0-59.98                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-61          3.13.0-61.100                    all          Header files related to Linux kernel version 3.13.0
@@ -334,8 +330,8 @@ rc  linux-image-3.13.0-52-generic    3.13.0-52.86                     amd64     
 rc  linux-image-3.13.0-53-generic    3.13.0-53.89                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-54-generic    3.13.0-54.91                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-55-generic    3.13.0-55.94                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-57-generic    3.13.0-57.95                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-58-generic    3.13.0-58.97                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-57-generic    3.13.0-57.95                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-58-generic    3.13.0-58.97                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-59-generic    3.13.0-59.98                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-61-generic    3.13.0-61.100                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-virtual              3.13.0.61.68                     amd64        This package will always depend on the latest minimal generic kernel image.
@@ -357,7 +353,7 @@ ii  memtest86+                       4.20-1.1ubuntu8                  amd64     
 ii  mime-support                     3.54ubuntu1.1                    all          MIME files 'mime.types' & 'mailcap', and support programs
 ii  module-init-tools                15-0ubuntu6                      all          transitional dummy package (module-init-tools to kmod)
 ii  mosh                             1.2.4a-1ubuntu1                  amd64        Mobile shell that supports roaming and intelligent local echo
-ii  mount                            2.20.1-5.1ubuntu20.4             amd64        Tools for mounting and manipulating filesystems
+ii  mount                            2.20.1-5.1ubuntu20.6             amd64        Tools for mounting and manipulating filesystems
 ii  mountall                         2.53                             amd64        filesystem mounting tool
 ii  multiarch-support                2.19-0ubuntu6.6                  amd64        Transitional package to ensure multiarch compatibility
 ii  nano                             2.2.6-1ubuntu1                   amd64        small, friendly text editor inspired by Pico
@@ -476,7 +472,7 @@ ii  update-notifier-common           0.154.1ubuntu1                   all       
 ii  upstart                          1.12.1-0ubuntu4.2                amd64        event-based init daemon
 ii  ureadahead                       0.100.0-16                       amd64        Read required files in advance
 ii  usbutils                         1:007-2ubuntu1                   amd64        Linux USB utilities
-ii  util-linux                       2.20.1-5.1ubuntu20.4             amd64        Miscellaneous system utilities
+ii  util-linux                       2.20.1-5.1ubuntu20.6             amd64        Miscellaneous system utilities
 ii  vim                              2:7.4.052-1ubuntu3               amd64        Vi IMproved - enhanced vi editor
 ii  vim-common                       2:7.4.052-1ubuntu3               amd64        Vi IMproved - Common files
 ii  vim-runtime                      2:7.4.052-1ubuntu3               all          Vi IMproved - Runtime files
