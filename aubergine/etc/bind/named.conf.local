@@ -14,6 +14,9 @@ acl "intern-wi" {
         fd56:b4dc:4b1e::/48;
 };
 
+masters "ns-master-bin" {
+	fd37:b4dc:4b1e::a25:10c;
+};
 
 // Intern Zones for Freifunk
 
@@ -72,4 +75,11 @@ zone "56.10.in-addr.arpa" {
 zone "0.0.0.0.e.1.b.4.c.d.4.b.6.5.d.f.ip6.arpa" {
         type master;
         file "/etc/bind/ffwi/fd56:b4dc:4b1e:0000_64.ip6.arpa.master.db";
+};
+
+// freifunk bingen
+zone "ffbin." {
+	type slave;
+	file "ffbin.db";
+	masters { ns-master-bin; };
 };

@@ -3,7 +3,7 @@ $ORIGIN ffmz.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffmz.org. hostmaster.ffmz.org. (
-                     2015070101         ; Serial
+                     2015081302         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -77,3 +77,7 @@ firmware		IN	AAAA	fd37:b4dc:4b1e::a25:e7
 stats                   IN      A       10.37.1.5
 ostats                  IN      A       10.37.1.5
 jverein			IN	A	10.37.1.200
+
+; freifunk bingen
+mettbroetchen		IN	A	10.37.1.12
+mettbroetchen		IN	AAAA	fd37:b4dc:4b1e::a25:10c

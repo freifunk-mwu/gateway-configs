@@ -449,7 +449,7 @@ ii  libxslt1.1:amd64                 1.1.28-2build1                   amd64     
 ii  libxss1:amd64                    1:1.2.2-1                        amd64        X11 Screen Saver extension library
 ii  libxt6:amd64                     1:1.1.4-1                        amd64        X11 toolkit intrinsics library
 ii  libyaml-0-2:amd64                0.1.4-3ubuntu3.1                 amd64        Fast YAML 1.1 parser and emitter library
-ii  linux-firmware                   1.127.14                         all          Firmware for Linux kernel drivers
+ii  linux-firmware                   1.127.15                         all          Firmware for Linux kernel drivers
 ii  linux-headers-3.13.0-57          3.13.0-57.95                     all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-57-generic  3.13.0-57.95                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-58          3.13.0-58.97                     all          Header files related to Linux kernel version 3.13.0
@@ -727,7 +727,7 @@ ii  traceroute                       1:2.0.20-0ubuntu0.1              amd64     
 ii  ttf-dejavu                       2.34-1ubuntu1                    all          transitional dummy package
 ii  ttf-dejavu-core                  2.34-1ubuntu1                    all          transitional dummy package
 ii  ttf-dejavu-extra                 2.34-1ubuntu1                    all          transitional dummy package
-ii  tzdata                           2015d-0ubuntu0.14.04             all          time zone and daylight-saving time data
+ii  tzdata                           2015f-0ubuntu0.14.04             all          time zone and daylight-saving time data
 ii  ubuntu-keyring                   2012.05.19                       all          GnuPG keys of the Ubuntu archive
 ii  ubuntu-minimal                   1.325                            amd64        Minimal core of Ubuntu
 ii  ucf                              3.0027+nmu1                      all          Update Configuration File(s): preserve user changes to config files
