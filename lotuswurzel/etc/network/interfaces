@@ -78,12 +78,24 @@ iface wiBAT inet6 manual
 
 #auto tun-ffrl-ber
 #iface tun-ffrl-ber inet static
-#   address <Tunnel IPv4 Adresse>
+#   address 100.64.1.21
 #   netmask 255.255.255.254
-#   pre-up ip tunnel add $IFACE mode gre local <Öff. IPv4 des Gateways> remote <Öff. IPv4 der Gegenstelle> ttl 255
+#   pre-up ip tunnel add $IFACE mode gre local 144.76.209.100 remote 185.66.195.1 ttl 255
 #   post-up ip link set $IFACE mtu 1426
 #   post-down ip tunnel del $IFACE
  
 #iface tun-ffrl-ber inet6 static
-#   address <Tunnel IPv6 Adresse>
+#   address 2a03:2260:0:91::2
+#   netmask 64
+
+#auto tun-ffrl-dus
+#iface tun-ffrl-dus inet static
+#   address 100.64.1.23
+#   netmask 255.255.255.254
+#   pre-up ip tunnel add $IFACE mode gre local 144.76.209.100 remote 185.66.193.1 ttl 255
+#   post-up ip link set $IFACE mtu 1426
+#   post-down ip tunnel del $IFACE
+ 
+#iface tun-ffrl-ber inet6 static
+#   address 2a03:2260:0:92::2
 #   netmask 64
