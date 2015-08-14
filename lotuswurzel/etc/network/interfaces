@@ -73,3 +73,17 @@ iface wiBAT inet6 manual
 	post-up 	/usr/sbin/batctl -m $IFACE it 10000
 	post-up 	/usr/sbin/batctl -m $IFACE gw server  96mbit/96mbit
         pre-down        /sbin/brctl delif wiBR $IFACE || true
+
+
+
+#auto tun-ffrl-ber
+#iface tun-ffrl-ber inet static
+#   address <Tunnel IPv4 Adresse>
+#   netmask 255.255.255.254
+#   pre-up ip tunnel add $IFACE mode gre local <Öff. IPv4 des Gateways> remote <Öff. IPv4 der Gegenstelle> ttl 255
+#   post-up ip link set $IFACE mtu 1426
+#   post-down ip tunnel del $IFACE
+ 
+#iface tun-ffrl-ber inet6 static
+#   address <Tunnel IPv6 Adresse>
+#   netmask 64
