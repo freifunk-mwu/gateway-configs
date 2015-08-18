@@ -363,8 +363,8 @@ ii  libsepol1:amd64                      2.2-1ubuntu0.1                       am
 ii  libsigc++-2.0-0c2a:amd64             2.2.10-0.2ubuntu2                    amd64        type-safe Signal Framework for C++ - runtime
 ii  libsigsegv2:amd64                    2.10-2                               amd64        Library for handling page faults in a portable way
 ii  libslang2:amd64                      2.2.4-15ubuntu1                      amd64        S-Lang programming library - runtime version
-ii  libsnmp-base                         5.7.2~dfsg-8.1ubuntu3                all          SNMP configuration script, MIBs and documentation
-ii  libsnmp30:amd64                      5.7.2~dfsg-8.1ubuntu3                amd64        SNMP (Simple Network Management Protocol) library
+ii  libsnmp-base                         5.7.2~dfsg-8.1ubuntu3.1              all          SNMP configuration script, MIBs and documentation
+ii  libsnmp30:amd64                      5.7.2~dfsg-8.1ubuntu3.1              amd64        SNMP (Simple Network Management Protocol) library
 ii  libsodium13:amd64                    1.0.3-1~wheezy0                      amd64        Network communication, cryptography and signaturing library
 ii  libsqlite3-0:amd64                   3.8.2-1ubuntu2.1                     amd64        SQLite 3 shared library
 ii  libss2:amd64                         1.42.9-3ubuntu1.2                    amd64        command-line interface parsing library
@@ -422,8 +422,10 @@ ii  linux-headers-3.13.0-59              3.13.0-59.98                         al
 ii  linux-headers-3.13.0-59-generic      3.13.0-59.98                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-61              3.13.0-61.100                        all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-61-generic      3.13.0-61.100                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-generic                3.13.0.61.68                         amd64        Generic Linux kernel headers
-ii  linux-headers-virtual                3.13.0.61.68                         amd64        Transitional package.
+ii  linux-headers-3.13.0-62              3.13.0-62.102                        all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-62-generic      3.13.0-62.102                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-generic                3.13.0.62.69                         amd64        Generic Linux kernel headers
+ii  linux-headers-virtual                3.13.0.62.69                         amd64        Transitional package.
 rc  linux-image-3.13.0-24-generic        3.13.0-24.47                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-29-generic        3.13.0-29.53                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-30-generic        3.13.0-30.55                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -451,9 +453,10 @@ rc  linux-image-3.13.0-57-generic        3.13.0-57.95                         am
 rc  linux-image-3.13.0-58-generic        3.13.0-58.97                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-59-generic        3.13.0-59.98                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-61-generic        3.13.0-61.100                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-virtual                  3.13.0.61.68                         amd64        This package will always depend on the latest minimal generic kernel image.
-ii  linux-libc-dev:amd64                 3.13.0-61.100                        amd64        Linux Kernel Headers for development
-ii  linux-virtual                        3.13.0.61.68                         amd64        Minimal Generic Linux kernel and headers
+ii  linux-image-3.13.0-62-generic        3.13.0-62.102                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-virtual                  3.13.0.62.69                         amd64        This package will always depend on the latest minimal generic kernel image.
+ii  linux-libc-dev:amd64                 3.13.0-62.102                        amd64        Linux Kernel Headers for development
+ii  linux-virtual                        3.13.0.62.69                         amd64        Minimal Generic Linux kernel and headers
 ii  locales                              2.13+git20120306-12.1                all          common files for locale support
 ii  lockfile-progs                       0.1.17                               amd64        Programs for locking and unlocking files and mailboxes
 ii  login                                1:4.1.5.1-1ubuntu9.1                 amd64        system login tools
@@ -596,8 +599,8 @@ ii  sensible-utils                       0.0.9                                al
 ii  sgml-base                            1.26+nmu4ubuntu1                     all          SGML infrastructure and SGML catalog file support
 ii  shared-mime-info                     1.2-0ubuntu3                         amd64        FreeDesktop.org shared MIME database and spec
 rc  smartmontools                        6.2+svn3841-1.2                      amd64        control and monitor storage systems using S.M.A.R.T.
-ii  snmp                                 5.7.2~dfsg-8.1ubuntu3                amd64        SNMP (Simple Network Management Protocol) applications
-ii  snmpd                                5.7.2~dfsg-8.1ubuntu3                amd64        SNMP (Simple Network Management Protocol) agents
+ii  snmp                                 5.7.2~dfsg-8.1ubuntu3.1              amd64        SNMP (Simple Network Management Protocol) applications
+ii  snmpd                                5.7.2~dfsg-8.1ubuntu3.1              amd64        SNMP (Simple Network Management Protocol) agents
 ii  software-properties-common           0.92.37.3                            all          manage the repositories that you install software from (common)
 ii  ssh-import-id                        3.21-0ubuntu1                        all          securely retrieve an SSH public key and install it locally
 ii  ssl-cert                             1.0.33                               all          simple debconf wrapper for OpenSSL

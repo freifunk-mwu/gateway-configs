@@ -38,8 +38,10 @@ ip -4 rule add from all iif mzBR lookup ffrlexit priority 41
 ip -4 rule add from all iif wiBR lookup ffrlexit priority 41
 #ip -4 rule add from all iif mzBR lookup ffinetexit priority 41
 #ip -4 rule add from all iif wiBR lookup ffinetexit priority 41
-ip -6 rule add from all iif mzBR lookup ffinetexit priority 41
-ip -6 rule add from all iif wiBR lookup ffinetexit priority 41
+ip -6 rule add from all iif mzBR lookup ffrlexit priority 41
+ip -6 rule add from all iif wiBR lookup ffrlexit priority 41
+#ip -6 rule add from all iif mzBR lookup ffinetexit priority 41
+#ip -6 rule add from all iif wiBR lookup ffinetexit priority 41
 
 # at this point this is the end of policy routing for freifunk related routes 
 ip -4 rule add from all iif mzBR type unreachable priority 61
