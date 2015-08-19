@@ -22,6 +22,8 @@ ip -4 rule add from all iif icVPN lookup mwu priority 7
 #ip -4 rule add from all iif exitVPN lookup mwu priority 7
 ip -4 rule add from all iif tun-ffrl-ber lookup mwu priority 7
 ip -4 rule add from all iif tun-ffrl-dus lookup mwu priority 7
+ip -6 rule add from all iif tun-ffrl-ber lookup mwu priority 7
+ip -6 rule add from all iif tun-ffrl-dus lookup mwu priority 7
 ip -6 rule add from all iif mzBR lookup mwu priority 7
 ip -6 rule add from all iif wiBR lookup mwu priority 7
 ip -6 rule add from all iif icVPN lookup mwu priority 7
@@ -38,8 +40,12 @@ ip -4 rule add from all iif mzBR lookup ffrlexit priority 41
 ip -4 rule add from all iif wiBR lookup ffrlexit priority 41
 #ip -4 rule add from all iif mzBR lookup ffinetexit priority 41
 #ip -4 rule add from all iif wiBR lookup ffinetexit priority 41
+ip -4 rule add from 185.66.195.36/32 lookup ffrlexit priority 41
+ip -4 rule add from 185.66.195.36/32 lookup ffrlexit priority 41
 ip -6 rule add from all iif mzBR lookup ffrlexit priority 41
 ip -6 rule add from all iif wiBR lookup ffrlexit priority 41
+ip -6 rule add from 2a03:2260:11a::/48 lookup ffrlexit priority 41
+ip -6 rule add from 2a03:2260:11b::/48 lookup ffrlexit priority 41
 #ip -6 rule add from all iif mzBR lookup ffinetexit priority 41
 #ip -6 rule add from all iif wiBR lookup ffinetexit priority 41
 
@@ -53,6 +59,8 @@ ip -6 rule add from all iif mzBR type unreachable priority 61
 ip -6 rule add from all iif wiBR type unreachable priority 61
 #ip -6 rule add from all iif exitVPN type unreachable priority 61
 ip -6 rule add from all iif icVPN type unreachable priority 61
+ip -6 rule add from 2a03:2260:11a::/48 type unreachable priority 61
+ip -6 rule add from 2a03:2260:11b::/48 type unreachable priority 61
 ip -6 rule add from all iif eth0 type unreachable priority 61
 
 # lookup policies for the gateway host self originating traffic
@@ -73,10 +81,12 @@ ip -6 rule add from all lookup icvpn priority 107
 # static mainz routes for rt_table mwu
 /sbin/ip -4 route add 10.37.0.0/18 proto static dev mzBR table mwu
 /sbin/ip -6 route add fd37:b4dc:4b1e::/64 proto static dev mzBR table mwu
+/sbin/ip -6 route add 2a03:2260:11a::/64 proto static dev mzBR table mwu
 
 # static wiesbaden routes for rt_table mwu
 /sbin/ip -4 route add 10.56.0.0/18 proto static dev wiBR table mwu
 /sbin/ip -6 route add fd56:b4dc:4b1e::/64 proto static dev wiBR table mwu
+/sbin/ip -6 route add 2a03:2260:11b::/64 proto static dev wiBR table mwu
 
 # unreachable routes for rt_table ffinetexit
 /sbin/ip -4 route add unreachable default table ffinetexit
