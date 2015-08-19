@@ -4,9 +4,6 @@
 protocol bgp aachen1 from ebgp_ic {
     neighbor fec0::a:cf:0:72 as 65077;
 }
-protocol bgp augsburg1 from ebgp_ic {
-    neighbor fec0::a:cf:0:a as 65050;
-}
 protocol bgp berlin1 from ebgp_ic {
     neighbor fec0::a:cf:0:5 as 44194;
 }
@@ -37,17 +34,11 @@ protocol bgp bremen3 from ebgp_ic {
 protocol bgp bremen5 from ebgp_ic {
     neighbor fec0::a:cf:5:c4 as 65196;
 }
-protocol bgp camp2015 from ebgp_ic {
-    neighbor fec0::a:cf:0:15 as 65112;
-}
 protocol bgp darmstadt1 from ebgp_ic {
     neighbor fec0::a:cf:0:da as 65038;
 }
 protocol bgp darmstadt2 from ebgp_ic {
     neighbor fec0::a:cf:0:db as 65038;
-}
-protocol bgp diepholz1 from ebgp_ic {
-    neighbor fec0::a:cf:0:1a as 65501;
 }
 protocol bgp dreilaendereck1 from ebgp_ic {
     neighbor fec0::a:cf:0:be as 65043;
@@ -76,12 +67,6 @@ protocol bgp fulda1 from ebgp_ic {
 protocol bgp gera_greiz1 from ebgp_ic {
     neighbor fec0::a:cf:0:b5 as 65181;
 }
-protocol bgp goettingen1 from ebgp_ic {
-    neighbor fec0::a:cf:ab:41 as 65527;
-}
-protocol bgp guetersloh1 from ebgp_ic {
-    neighbor fec0::a:cf:0:84 as 65533;
-}
 protocol bgp guetersloh4 from ebgp_ic {
     neighbor fec0::a:cf:0:86 as 65533;
 }
@@ -90,6 +75,12 @@ protocol bgp gueterslohbgp1 from ebgp_ic {
 }
 protocol bgp gueterslohbgp2 from ebgp_ic {
     neighbor fec0::a:cf:0:85 as 65533;
+}
+protocol bgp gueterslohbgp3 from ebgp_ic {
+    neighbor fec0::a:cf:0:84 as 65533;
+}
+protocol bgp gueterslohbgp4 from ebgp_ic {
+    neighbor fec0::a:cf:0:1 as 65533;
 }
 protocol bgp rhwdbgp1 from ebgp_ic {
     neighbor fec0::a:cf:0:89 as 65533;
@@ -145,12 +136,6 @@ protocol bgp luebeck1 from ebgp_ic {
 protocol bgp luebeck2 from ebgp_ic {
     neighbor fec0::a:cf:0:83 as 201173;
 }
-protocol bgp magdeburg1 from ebgp_ic {
-    neighbor fec0::a:cf:39:1 as 65039;
-}
-protocol bgp magdeburg2 from ebgp_ic {
-    neighbor fec0::a:cf:39:2 as 65039;
-}
 protocol bgp meerane1 from ebgp_ic {
     neighbor fec0::a:cf:0:1f as 65409;
 }
@@ -163,17 +148,11 @@ protocol bgp moehne1 from ebgp_ic {
 protocol bgp moehne103 from ebgp_ic {
     neighbor fec0::a:cf:0:122 as 65057;
 }
-protocol bgp muenster1 from ebgp_ic {
-    neighbor fec0::a:cf:0:43 as 65251;
-}
 protocol bgp muensterlandFusselkater from ebgp_ic {
     neighbor fec0::a:cf:0:44 as 65251;
 }
 protocol bgp mueritz_bgp1 from ebgp_ic {
     neighbor fec0::a:cf:0:8a as 65534;
-}
-protocol bgp ostholstein1 from ebgp_ic {
-    neighbor fec0::a:cf:0:87 as 65152;
 }
 protocol bgp paderborn01 from ebgp_ic {
     neighbor fec0::a:cf:0:e7 as 65132;
@@ -189,9 +168,6 @@ protocol bgp rhein_neckar from ebgp_ic {
 }
 protocol bgp rsk1 from ebgp_ic {
     neighbor fec0::a:cf:0:6f as 65111;
-}
-protocol bgp rheinufer1 from ebgp_ic {
-    neighbor fec0::a:cf:0:4c as 65078;
 }
 protocol bgp rheinufer3 from ebgp_ic {
     neighbor fec0::a:cf:0:4d as 65078;
@@ -228,9 +204,6 @@ protocol bgp nrw5 from ebgp_ic {
 }
 protocol bgp weimar1 from ebgp_ic {
     neighbor fec0::a:cf:0:3 as 65042;
-}
-protocol bgp weimar2 from ebgp_ic {
-    neighbor fec0::a:cf:0:4 as 65042;
 }
 protocol bgp westkueste1 from ebgp_ic {
     neighbor fec0::a:cf:0:c as 65432;
