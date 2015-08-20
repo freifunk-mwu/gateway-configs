@@ -12,7 +12,7 @@ ii  apache2-bin                      2.4.7-1ubuntu4.5                 amd64     
 ii  apache2-data                     2.4.7-1ubuntu4.5                 all          Apache HTTP Server (common files)
 ii  apache2-doc                      2.4.7-1ubuntu4.5                 all          Apache HTTP Server (on-site documentation)
 ii  apache2-utils                    2.4.7-1ubuntu4.5                 amd64        Apache HTTP Server (utility programs for web servers)
-ii  apport                           2.14.1-0ubuntu3.11               all          automatically generate crash reports for debugging
+ii  apport                           2.14.1-0ubuntu3.12               all          automatically generate crash reports for debugging
 ii  apport-symptoms                  0.20                             all          symptom scripts for apport
 ii  apt                              1.0.1ubuntu2.10                  amd64        commandline package manager
 ii  apt-utils                        1.0.1ubuntu2.10                  amd64        package management related utility programs
@@ -35,6 +35,8 @@ ii  bind9-host                       1:9.9.5.dfsg-3ubuntu0.4          amd64     
 ii  bind9utils                       1:9.9.5.dfsg-3ubuntu0.4          amd64        Utilities for BIND
 ii  binutils                         2.24-5ubuntu13                   amd64        GNU assembler, linker and binary utilities
 ii  biosdevname                      0.4.1-0ubuntu6.1                 amd64        apply BIOS-given names to network devices
+ii  bird                             1.5.0-1+trusty+1                 amd64        Internet Routing Daemon
+ii  bird6                            1.5.0-1+trusty+1                 all          Internet Routing Daemon [transitional packages]
 ii  bridge-utils                     1.5-6ubuntu2                     amd64        Utilities for configuring the Linux Ethernet bridge
 ii  bsdmainutils                     9.0.5ubuntu1                     amd64        collection of more utilities from FreeBSD
 ii  bsdutils                         1:2.20.1-5.1ubuntu20.6           amd64        Basic utilities from 4.4BSD-Lite
@@ -143,7 +145,7 @@ ii  libalgorithm-diff-xs-perl        0.04-2build4                     amd64     
 ii  libalgorithm-merge-perl          0.08-2                           all          Perl module for three-way merge of textual data
 ii  libapache2-mod-php5              5.5.9+dfsg-1ubuntu4.11           amd64        server-side, HTML-embedded scripting language (Apache 2 module)
 ii  libapache2-mod-wsgi              3.4-4ubuntu2.1.14.04.2           amd64        Python WSGI adapter module for Apache
-ii  libapparmor1:amd64               2.8.95~2430-0ubuntu5.2           amd64        changehat AppArmor library
+ii  libapparmor1:amd64               2.8.95~2430-0ubuntu5.3           amd64        changehat AppArmor library
 ii  libapr1:amd64                    1.5.0-1                          amd64        Apache Portable Runtime Library
 ii  libaprutil1:amd64                1.5.3-1                          amd64        Apache Portable Runtime Utility Library
 ii  libaprutil1-dbd-sqlite3:amd64    1.5.3-1                          amd64        Apache Portable Runtime Utility Library - SQLite3 Driver
@@ -450,12 +452,6 @@ ii  libxss1:amd64                    1:1.2.2-1                        amd64     
 ii  libxt6:amd64                     1:1.1.4-1                        amd64        X11 toolkit intrinsics library
 ii  libyaml-0-2:amd64                0.1.4-3ubuntu3.1                 amd64        Fast YAML 1.1 parser and emitter library
 ii  linux-firmware                   1.127.15                         all          Firmware for Linux kernel drivers
-ii  linux-headers-3.13.0-57          3.13.0-57.95                     all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-57-generic  3.13.0-57.95                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-58          3.13.0-58.97                     all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-58-generic  3.13.0-58.97                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-59          3.13.0-59.98                     all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-59-generic  3.13.0-59.98                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-61          3.13.0-61.100                    all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-61-generic  3.13.0-61.100                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-62          3.13.0-62.102                    all          Header files related to Linux kernel version 3.13.0
@@ -475,9 +471,9 @@ rc  linux-image-3.13.0-52-generic    3.13.0-52.86                     amd64     
 rc  linux-image-3.13.0-53-generic    3.13.0-53.89                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-54-generic    3.13.0-54.91                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-55-generic    3.13.0-55.94                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-57-generic    3.13.0-57.95                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-58-generic    3.13.0-58.97                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-59-generic    3.13.0-59.98                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-57-generic    3.13.0-57.95                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-58-generic    3.13.0-58.97                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-59-generic    3.13.0-59.98                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-61-generic    3.13.0-61.100                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-62-generic    3.13.0-62.102                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-virtual              3.13.0.62.69                     amd64        This package will always depend on the latest minimal generic kernel image.
@@ -646,7 +642,7 @@ ii  python-zope.interface            4.0.5-1ubuntu4                   amd64     
 ii  python2.7                        2.7.6-8ubuntu0.2                 amd64        Interactive high-level object-oriented language (version 2.7)
 ii  python2.7-minimal                2.7.6-8ubuntu0.2                 amd64        Minimal subset of the Python language (version 2.7)
 ii  python3                          3.4.0-0ubuntu2                   amd64        interactive high-level object-oriented language (default python3 version)
-ii  python3-apport                   2.14.1-0ubuntu3.11               all          Python 3 library for Apport crash report handling
+ii  python3-apport                   2.14.1-0ubuntu3.12               all          Python 3 library for Apport crash report handling
 ii  python3-apt                      0.9.3.5ubuntu1                   amd64        Python 3 interface to libapt-pkg
 ii  python3-chardet                  2.2.1-2~ubuntu1                  all          universal character encoding detector for Python3
 ii  python3-colorama                 0.2.5-0.1ubuntu2                 all          Cross-platform colored terminal text in Python - Python 3.x
@@ -661,7 +657,7 @@ ii  python3-networkx                 1.8.1-0ubuntu3                   all       
 ii  python3-newt                     0.52.15-2ubuntu5                 amd64        NEWT module for Python3
 ii  python3-pip                      1.5.4-1ubuntu3                   all          alternative Python package installer - Python 3 version of the package
 ii  python3-pkg-resources            3.3-1ubuntu2                     all          Package Discovery and Resource Access using pkg_resources
-ii  python3-problem-report           2.14.1-0ubuntu3.11               all          Python 3 library to handle problem reports
+ii  python3-problem-report           2.14.1-0ubuntu3.12               all          Python 3 library to handle problem reports
 ii  python3-pycurl                   7.19.3-0ubuntu3                  amd64        Python 3 bindings to libcurl
 ii  python3-requests                 2.2.1-1ubuntu0.3                 all          elegant and simple HTTP library for Python3, built for human beings
 ii  python3-setuptools               3.3-1ubuntu2                     all          Python3 Distutils Enhancements
