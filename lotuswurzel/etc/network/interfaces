@@ -89,7 +89,7 @@ iface tun-ffrl-ber inet static
 	address 100.64.1.21
 	netmask 255.255.255.254
 	pre-up 		/sbin/ip tunnel add $IFACE mode gre local 144.76.209.100 remote 185.66.195.1 ttl 255
-	post-up 	/sbin/ip link set $IFACE mtu 1426
+	post-up 	/sbin/ip link set $IFACE mtu 1400
 	post-up		/sbin/ip addr add 185.66.195.36/32 dev $IFACE
 	post-down 	/sbin/ip tunnel del $IFACE
  
@@ -102,7 +102,7 @@ iface tun-ffrl-dus inet static
 	address 100.64.1.23
 	netmask 255.255.255.254
 	pre-up 		/sbin/ip tunnel add $IFACE mode gre local 144.76.209.100 remote 185.66.193.1 ttl 255
-	post-up 	/sbin/ip link set $IFACE mtu 1426
+	post-up 	/sbin/ip link set $IFACE mtu 1400
 	post-up		/sbin/ip addr add 185.66.195.36/32 dev $IFACE
 	post-down 	/sbin/ip tunnel del $IFACE
  
