@@ -27,6 +27,8 @@ ip -6 rule add from all iif tun-ffrl-dus lookup mwu priority 7
 ip -6 rule add from all iif mzBR lookup mwu priority 7
 ip -6 rule add from all iif wiBR lookup mwu priority 7
 ip -6 rule add from all iif icVPN lookup mwu priority 7
+ip -6 rule add from 2a03:2260:11a::/48 lookup mwu priority 7
+ip -6 rule add from 2a03:2260:11b::/48 lookup mwu priority 7
 #ip -6 rule add from all iif exitVPN lookup mwu priority 7
 
 # lookup rt_table icvpn for all incoming traffic of freifunk bridges
