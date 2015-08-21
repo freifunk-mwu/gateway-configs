@@ -30,8 +30,8 @@ ii  base-files                           7.2ubuntu5.3                         am
 ii  base-passwd                          3.5.33                               amd64        Debian base system master password and group files
 ii  bash                                 4.3-7ubuntu1.5                       amd64        GNU Bourne Again SHell
 ii  batadv-vis                           2015.0-0ffmwu2~trusty                amd64        batadv-vis - visualize your batman-adv mesh network
-ii  batctl                               2015.0-0ffmwu1~trusty                amd64        B.A.T.M.A.N. advanced control and management tool
-ii  batman-adv-dkms                      2015.0-0ffmwu1~trusty                all          DKMS Source for the batman-advanced kernel module
+ii  batctl                               2015.1-0ffmwu0~trusty                amd64        B.A.T.M.A.N. advanced control and management tool
+ii  batman-adv-dkms                      2015.1-0ffmwu0~trusty                all          DKMS Source for the batman-advanced kernel module
 ii  bc                                   1.06.95-8ubuntu1                     amd64        GNU bc arbitrary precision calculator language
 ii  bind9                                1:9.9.5.dfsg-3ubuntu0.4              amd64        Internet Domain Name Server
 ii  bind9-host                           1:9.9.5.dfsg-3ubuntu0.4              amd64        Version of 'host' bundled with BIND 9.X
@@ -304,7 +304,7 @@ ii  libopts25:amd64                      1:5.18-2ubuntu2                      am
 ii  libp11-kit0:amd64                    0.20.2-2ubuntu2                      amd64        Library for loading and coordinating access to PKCS#11 modules - runtime
 ii  libpackage-stash-perl                0.36-1                               all          module providing routines for manipulating stashes
 ii  libpackage-stash-xs-perl             0.28-1                               amd64        Perl module providing routines for manipulating stashes (XS version)
-ii  libpam-cap:amd64                     1:2.24-0ubuntu2                      amd64        PAM module for implementing capabilities
+ii  libpam-cap:amd64                     1:2.24-0ubuntu5                      amd64        PAM module for implementing capabilities
 ii  libpam-modules:amd64                 1.1.8-1ubuntu2                       amd64        Pluggable Authentication Modules for PAM
 ii  libpam-modules-bin                   1.1.8-1ubuntu2                       amd64        Pluggable Authentication Modules for PAM - helper binaries
 ii  libpam-runtime                       1.1.8-1ubuntu2                       all          Runtime support for the PAM library
