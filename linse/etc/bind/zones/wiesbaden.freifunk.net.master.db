@@ -22,7 +22,7 @@ api		IN	CNAME	octans.uberspace.de.
 firmware	IN	CNAME	firmware.freifunk-mwu.de.
 map		IN	CNAME	aubergine.freifunk-mwu.de.
 media		IN	CNAME	octans.uberspace.de.
-pass		IN	CNAME	octans.uberspace.de.
+photos		IN	CNAME	octans.uberspace.de.
 stats		IN	CNAME	octans.uberspace.de.
 blgtest		IN	CNAME	octans.uberspace.de.
 yeah		IN	CNAME	octans.uberspace.de.
