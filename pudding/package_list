@@ -452,7 +452,7 @@ ii  libssl1.0.0:amd64                   1.0.1f-1ubuntu2.15                   amd
 ii  libstdc++-4.8-dev:amd64             4.8.4-2ubuntu1~14.04                 amd64        GNU Standard C++ Library v3 (development files)
 ii  libstdc++6:amd64                    4.8.4-2ubuntu1~14.04                 amd64        GNU Standard C++ Library v3
 ii  libsub-name-perl                    0.05-1build4                         amd64        module for assigning a new name to referenced sub
-ii  libsvn1:amd64                       1.8.8-1ubuntu3.1                     amd64        Shared libraries used by Apache Subversion
+ii  libsvn1:amd64                       1.8.8-1ubuntu3.2                     amd64        Shared libraries used by Apache Subversion
 ii  libsys-hostname-long-perl           1.4-3                                all          Figure out the long (fully-qualified) hostname
 ii  libsystemd-daemon0:amd64            204-5ubuntu20.13                     amd64        systemd utility library
 ii  libsystemd-login0:amd64             204-5ubuntu20.13                     amd64        systemd login utility library
@@ -779,7 +779,7 @@ ii  sqlite3                             3.8.2-1ubuntu2.1                     amd
 ii  ssh-import-id                       3.21-0ubuntu1                        all          securely retrieve an SSH public key and install it locally
 ii  ssl-cert                            1.0.33                               all          simple debconf wrapper for OpenSSL
 ii  strace                              4.8-1ubuntu5                         amd64        A system call tracer
-ii  subversion                          1.8.8-1ubuntu3.1                     amd64        Advanced version control system
+ii  subversion                          1.8.8-1ubuntu3.2                     amd64        Advanced version control system
 ii  sudo                                1.8.9p5-1ubuntu1.1                   amd64        Provide limited super user privileges to specific users
 ii  sysstat                             10.2.0-1                             amd64        system performance tools for Linux
 ii  systemd-services                    204-5ubuntu20.13                     amd64        systemd runtime services
