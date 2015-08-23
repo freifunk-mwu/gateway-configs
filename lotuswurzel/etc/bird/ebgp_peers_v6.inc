@@ -34,10 +34,13 @@ protocol bgp bremen3 from ebgp_ic {
 protocol bgp bremen5 from ebgp_ic {
     neighbor fec0::a:cf:5:c4 as 65196;
 }
-protocol bgp darmstadt1 from ebgp_ic {
+protocol bgp darmstadt2 from ebgp_ic {
+    neighbor fec0::a:cf:0:d9 as 65038;
+}
+protocol bgp darmstadt3 from ebgp_ic {
     neighbor fec0::a:cf:0:da as 65038;
 }
-protocol bgp darmstadt2 from ebgp_ic {
+protocol bgp darmstadt4 from ebgp_ic {
     neighbor fec0::a:cf:0:db as 65038;
 }
 protocol bgp dreilaendereck1 from ebgp_ic {
@@ -99,6 +102,9 @@ protocol bgp hannover1 from ebgp_ic {
 }
 protocol bgp harz1 from ebgp_ic {
     neighbor fec0::a:cf:0:b as 65134;
+}
+protocol bgp hkt01 from ebgp_ic {
+    neighbor fec0::a:cf:0:4 as 64864;
 }
 protocol bgp hennef1 from ebgp_ic {
     neighbor fec0::a:cf:0:bd as 65100;

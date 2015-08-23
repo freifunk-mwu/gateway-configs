@@ -47,6 +47,7 @@ roa 10.112.0.0/16   max  20 as  49009; # hamburg
 roa 10.112.128.0/18 max  20 as  65112; # hamburg (delegation)
 roa 10.2.0.0/16     max  20 as  65511; # hannover
 roa 10.7.0.0/16     max  20 as  65134; # harz
+roa 10.1.128.0/19   max  20 as  64864; # heiligkreuztal
 roa 10.189.0.0/18   max  20 as  65189; # helgoland
 roa 10.186.0.0/16   max  20 as  65100; # hennef
 roa 10.146.0.0/16   max  20 as  65530; # hueckeswagen (delegation)
