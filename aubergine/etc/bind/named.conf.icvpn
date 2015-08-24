@@ -363,7 +363,7 @@ zone "116.10.in-addr.arpa" {
 # 
 zone "fflln" {
     type static-stub;
-    server-addresses { 10.19.0.200; };
+    server-addresses { 10.21.3.1; };
 };
 # 
 # luebeck
