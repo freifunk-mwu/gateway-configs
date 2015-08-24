@@ -46,10 +46,13 @@ protocol bgp bremen5 from ebgp_ic {
 protocol bgp chemnitz1 from ebgp_ic {
     neighbor 10.207.0.36 as 65053;
 }
-protocol bgp darmstadt1 from ebgp_ic {
+protocol bgp darmstadt2 from ebgp_ic {
+    neighbor 10.207.0.217 as 65038;
+}
+protocol bgp darmstadt3 from ebgp_ic {
     neighbor 10.207.0.218 as 65038;
 }
-protocol bgp darmstadt2 from ebgp_ic {
+protocol bgp darmstadt4 from ebgp_ic {
     neighbor 10.207.0.219 as 65038;
 }
 protocol bgp dreilaendereck1 from ebgp_ic {
@@ -115,6 +118,12 @@ protocol bgp gueterslohbgp4 from ebgp_ic {
 protocol bgp rhwdbgp1 from ebgp_ic {
     neighbor 10.207.0.137 as 65533;
 }
+protocol bgp halle1 from ebgp_ic {
+    neighbor 10.207.0.13 as 65046;
+}
+protocol bgp halle2 from ebgp_ic {
+    neighbor 10.207.0.14 as 65046;
+}
 protocol bgp hamburg01 from ebgp_ic {
     neighbor 10.207.0.61 as 49009;
 }
@@ -129,6 +138,9 @@ protocol bgp hannover1 from ebgp_ic {
 }
 protocol bgp harz1 from ebgp_ic {
     neighbor 10.207.0.11 as 65134;
+}
+protocol bgp hkt01 from ebgp_ic {
+    neighbor 10.207.0.4 as 64864;
 }
 protocol bgp hennef1 from ebgp_ic {
     neighbor 10.207.0.189 as 65100;

@@ -47,6 +47,7 @@ roa 10.112.0.0/16   max  20 as  49009; # hamburg
 roa 10.112.128.0/18 max  20 as  65112; # hamburg (delegation)
 roa 10.2.0.0/16     max  20 as  65511; # hannover
 roa 10.7.0.0/16     max  20 as  65134; # harz
+roa 10.1.128.0/19   max  20 as  64864; # heiligkreuztal
 roa 10.189.0.0/18   max  20 as  65189; # helgoland
 roa 10.186.0.0/16   max  20 as  65100; # hennef
 roa 10.146.0.0/16   max  20 as  65530; # hueckeswagen (delegation)
@@ -58,7 +59,7 @@ roa 172.26.0.0/15   max  20 as  65528; # kbu
 roa 10.116.0.0/16   max  20 as  65525; # kiel
 roa 10.222.0.0/16   max  20 as  65032; # koblenz
 roa 10.16.0.0/17    max  20 as  65530; # kuerten (delegation)
-roa 10.19.0.0/16    max  20 as  64780; # leichlingen
+roa 10.21.0.0/16    max  20 as  64780; # leichlingen
 roa 10.59.0.0/21    max  21 as  65041; # leipzig
 roa 10.59.16.0/20   max  20 as  65041; # leipzig
 roa 10.61.0.0/16    max  20 as  65041; # leipzig
