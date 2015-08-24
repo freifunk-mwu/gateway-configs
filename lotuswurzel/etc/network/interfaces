@@ -22,35 +22,23 @@ iface eth0 inet6 static
 
 auto mzBR
 iface mzBR inet static
-	bridge_ports none
-	bridge_fd 0
-	bridge_maxwait 0
+	hwaddress 02:42:0a:25:00:17
 	address 10.37.0.23
 	netmask 255.255.192.0
-
-iface mzBR inet6 static
-	address fd37:b4dc:4b1e::a25:17
-	netmask 64
-
-iface mzBR inet6 static
-	address 2a03:2260:11a::a25:17
-	netmask 64
+	pre-up		/sbin/brctl addbr $IFACE
+	up		/sbin/ip address add fd37:b4dc:4b1e::a25:17/64 dev $IFACE
+	up		/sbin/ip address add 2a03:2260:11a::a25:17/64 dev $IFACE
+	post-down	/sbin/brctl delbr $IFACE
 
 auto wiBR
 iface wiBR inet static
-	bridge_ports none
-	bridge_fd 0
-	bridge_maxwait 0
+	hwaddress 02:42:0a:38:00:17
         address 10.56.0.23
         netmask 255.255.192.0
-
-iface wiBR inet6 static
-        address fd56:b4dc:4b1e::a38:17
-        netmask 64
-
-iface wiBR inet6 static
-	address 2a03:2260:11b::a38:17
-	netmask 64
+	pre-up		/sbin/brctl addbr $IFACE
+	up		/sbin/ip address add fd56:b4dc:4b1e::a38:17/64 dev $IFACE
+	up		/sbin/ip address add 2a03:2260:11b::a38:17/64 dev $IFACE
+	post-down	/sbin/brctl delbr $IFACE
 
 allow-hotplug mzVPN
 iface mzVPN inet6 manual
