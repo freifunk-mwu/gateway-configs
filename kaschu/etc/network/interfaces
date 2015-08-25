@@ -23,11 +23,12 @@ iface eth0 inet6 static
 
 auto wiBR
 iface wiBR inet static
-	bridge_ports none
-	bridge_fd 0
-	bridge_maxwait 0
+	hwaddress 02:42:0a:38:00:d0
         address 10.56.0.208
         netmask 255.255.192.0
+	pre-up		/sbin/brctl addbr $IFACE
+	up		/sbin/ip address add fd56:b4dc:4b1e::a38:d0/64 dev $IFACE
+	post-down	/sbin/brctl delbr $IFACE
 	# ip rules to add all traffic entering the bridge to the appropriate rt_table
 	post-up		/sbin/ip rule add iif $IFACE table wi priority 5600
 	pre-down	/sbin/ip rule del iif $IFACE table wi priority 5600
@@ -37,11 +38,7 @@ iface wiBR inet static
 	# insert ic-vpn light route for mz network into rt_table mz
 	post-up		/sbin/ip route add 10.56.0.0/18 dev $IFACE proto static table mz
 	post-down	/sbin/ip route del 10.56.0.0/18 dev $IFACE proto static table mz
-
-
-iface wiBR inet6 static
-        address fd56:b4dc:4b1e::a38:d0
-        netmask 64
+	# ipv6
 	# ip rules to add all traffic entering the bridge to the appropriate rt_table
 	post-up		/sbin/ip -6 rule add iif $IFACE table wi priority 5600
 	pre-down	/sbin/ip -6 rule del iif $IFACE table wi priority 5600
@@ -72,11 +69,12 @@ iface wiBAT inet6 manual
 
 auto mzBR
 iface mzBR inet static
-	bridge_ports none
-	bridge_fd 0
-	bridge_maxwait 0
+	hwaddress 02:42:0a:25:00:d0
 	address 10.37.0.208
 	netmask 255.255.192.0
+	pre-up		/sbin/brctl addbr $IFACE
+	up		/sbin/ip address add fd37:b4dc:4b1e::a25:d0/64 dev $IFACE
+	post-down	/sbin/brctl delbr $IFACE
 	# ip rules to add all traffic entering the bridge to the appropriate rt_table
 	post-up		/sbin/ip rule add iif $IFACE table mz priority 3700
 	pre-down	/sbin/ip rule del iif $IFACE table mz priority 3700
@@ -86,11 +84,7 @@ iface mzBR inet static
 	# insert ic-vpn light route for mz network into rt_table wi
 	post-up		/sbin/ip route add 10.37.0.0/18 dev $IFACE proto static table wi
 	post-down	/sbin/ip route del 10.37.0.0/18 dev $IFACE proto static table wi
-
-
-iface mzBR inet6 static
-	address fd37:b4dc:4b1e::a25:d0
-	netmask 64
+	# ipv6
 	# ip rules to add all traffic entering the bridge to the appropriate rt_table
 	post-up		/sbin/ip -6 rule add iif $IFACE table mz priority 3700
 	pre-down	/sbin/ip -6 rule del iif $IFACE table mz priority 3700
