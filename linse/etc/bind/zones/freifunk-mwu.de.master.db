@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2015080401		; Serial
+		     2015082601		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -41,7 +41,6 @@ gate231		IN	CNAME	wasserfloh
 
 ; gluon map
 map		IN	CNAME	aubergine
-meshviewer	IN	CNAME	aubergine
 
 ; service node for ffmap-d3-backend, mail
 aubergine	IN	A	144.76.209.103
