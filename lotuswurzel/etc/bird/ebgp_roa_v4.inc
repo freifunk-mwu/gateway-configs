@@ -19,6 +19,7 @@ roa 10.38.0.0/16    max  20 as  65380; # braunschweig
 roa 10.196.0.0/16   max  20 as  65196; # bremen
 roa 10.149.0.0/16   max  20 as  65053; # chemnitz
 roa 10.8.0.0/16     max  20 as  65053; # chemnitz
+roa 10.35.0.0/16    max  20 as  64868; # cottbus
 roa 10.223.0.0/16   max  20 as  65038; # darmstadt
 roa 10.213.0.0/16   max  20 as  65501; # diepholz
 roa 10.119.0.0/16   max  20 as  65043; # dreilaendereck
@@ -59,7 +60,7 @@ roa 172.26.0.0/15   max  20 as  65528; # kbu
 roa 10.116.0.0/16   max  20 as  65525; # kiel
 roa 10.222.0.0/16   max  20 as  65032; # koblenz
 roa 10.16.0.0/17    max  20 as  65530; # kuerten (delegation)
-roa 10.19.0.0/16    max  20 as  64780; # leichlingen
+roa 10.21.0.0/16    max  20 as  64780; # leichlingen
 roa 10.59.0.0/21    max  21 as  65041; # leipzig
 roa 10.59.16.0/20   max  20 as  65041; # leipzig
 roa 10.61.0.0/16    max  20 as  65041; # leipzig

@@ -52,6 +52,7 @@ roa 2a03:2267:0ccc:2015::/64 max  64 as  65112; # hamburg (delegation)
 roa 2a03:2267:4e16::/48      max  64 as  65189; # hamburg (delegation)
 roa fdca:ffee:8::/64         max  64 as  65511; # hannover
 roa fd0e:8db3:d50a::/64      max  64 as  65134; # harz
+roa fd0c:9a97:47dc::/48      max  64 as  64864; # heiligkreuztal
 roa fda0:747e:ab29:7406::/64 max  64 as  65100; # hennef
 roa 2001:bf7:100:2192::/64   max  64 as  65530; # hueckeswagen (delegation)
 roa fddf:ebfd:a801:2192::/64 max  64 as  65530; # hueckeswagen (delegation)
@@ -62,7 +63,7 @@ roa fdd3:5d16:b5dd::/48      max  64 as  65528; # kbu
 roa fda1:384a:74de::/48      max  64 as  65525; # kiel
 roa 2001:bf7:100:2268::/64   max  64 as  65530; # kuerten (delegation)
 roa fddf:ebfd:a801:2268::/64 max  64 as  65530; # kuerten (delegation)
-roa fd99:4c33:9699:8c08::/64 max  64 as  64780; # leichlingen
+roa fddf:ebfd:a801:2175::/64 max  64 as  64780; # leichlingen
 roa 2001:bf7:100:2144::/64   max  64 as  65530; # leverkusen (delegation)
 roa fddf:ebfd:a801:2144::/64 max  64 as  65530; # leverkusen (delegation)
 roa 2001:bf7:100:2266::/64   max  64 as  65530; # lindlar (delegation)
