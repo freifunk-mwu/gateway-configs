@@ -102,6 +102,10 @@ zone "8.10.in-addr.arpa" {
     type static-stub;
     server-addresses { 10.8.6.6; };
 };
+zone "149.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.8.6.6; };
+};
 # 
 # darmstadt
 # 
@@ -133,19 +137,19 @@ zone "213.10.in-addr.arpa" {
 # 
 zone "dn42" {
     type static-stub;
-    server-addresses { 172.23.0.53; fd42:d42:d42:53::1; };
+    server-addresses { 172.23.0.53; };
 };
 zone "20.172.in-addr.arpa" {
     type static-stub;
-    server-addresses { 172.23.0.53; fd42:d42:d42:53::1; };
+    server-addresses { 172.23.0.53; };
 };
 zone "22.172.in-addr.arpa" {
     type static-stub;
-    server-addresses { 172.23.0.53; fd42:d42:d42:53::1; };
+    server-addresses { 172.23.0.53; };
 };
 zone "23.172.in-addr.arpa" {
     type static-stub;
-    server-addresses { 172.23.0.53; fd42:d42:d42:53::1; };
+    server-addresses { 172.23.0.53; };
 };
 # 
 # dreilaendereck
