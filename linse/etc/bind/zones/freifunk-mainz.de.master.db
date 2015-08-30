@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2015082701		; Serial
+		     2015082802		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -30,9 +30,6 @@ gate208		IN	CNAME	kaschu.freifunk-mwu.de.
 wasserfloh	IN	CNAME	wasserfloh.freifunk-mwu.de.
 gate231		IN	CNAME	wasserfloh.freifunk-mwu.de.
 
-; legacy gateways
-mettigel	IN	A	5.45.106.31
-
 ; services and stuff
 www		IN	CNAME	lacerta.uberspace.de.
 wiki		IN	CNAME	lacerta.uberspace.de.
@@ -50,6 +47,7 @@ lists           IN      AAAA    2a01:4f8:192:575::b4dc:4b1e
 
 ; gluon map
 map		IN	CNAME	aubergine.freifunk-mwu.de.
+meshviewer	IN	CNAME	aubergine.freifunk-mwu.de.
 
 ; firmware
 firmware	IN	CNAME	firmware.freifunk-mwu.de.
