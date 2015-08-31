@@ -626,6 +626,7 @@ ii  python-pyparsing                 2.0.1+dfsg1-1build1              all       
 ii  python-recaptcha                 1.0.6-1build1                    all          client library for reCAPTCHA and Mailhide
 ii  python-requests                  2.2.1-1ubuntu0.3                 all          elegant and simple HTTP library for Python, built for human beings
 ii  python-requests-whl              2.2.1-1ubuntu0.3                 all          elegant and simple HTTP library for Python, built for human beings
+ii  python-rrdtool                   1.4.7-2ubuntu5                   amd64        time-series data storage and display system (Python interface)
 ii  python-serial                    2.6-1build1                      all          pyserial - module encapsulating access for the serial port
 ii  python-setuptools-whl            3.3-1ubuntu2                     all          Python Distutils Enhancements (wheel package)
 ii  python-six                       1.5.2-1ubuntu1                   all          Python 2 and 3 compatibility library (Python 2 interface)
