@@ -40,6 +40,9 @@ protocol bgp bremen2 from ebgp_ic {
 protocol bgp bremen3 from ebgp_ic {
     neighbor 10.207.3.196 as 65196;
 }
+protocol bgp bremen4 from ebgp_ic {
+    neighbor 10.207.4.196 as 65196;
+}
 protocol bgp bremen5 from ebgp_ic {
     neighbor 10.207.5.196 as 65196;
 }
