@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2015082801		; Serial
+		     2015083101		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -44,6 +44,7 @@ mettigel	IN	A	5.45.106.31
 
 ; gluon map
 map		IN	CNAME	aubergine
+nextmap		IN	CNAME	aubergine
 
 ; service node for ffmap-d3-backend, mail
 aubergine	IN	A	144.76.209.103
