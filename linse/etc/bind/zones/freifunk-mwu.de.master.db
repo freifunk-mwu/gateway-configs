@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2015090101		; Serial
+		     2015090201		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -41,6 +41,7 @@ gate231		IN	CNAME	wasserfloh
 
 ; test gateway
 mettigel	IN	A	5.45.106.31
+mettigel	IN	AAAA	2a03:4000:6:10c6::1
 
 ; gluon map
 map		IN	CNAME	aubergine
