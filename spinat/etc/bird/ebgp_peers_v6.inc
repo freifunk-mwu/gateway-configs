@@ -31,6 +31,9 @@ protocol bgp bremen2 from ebgp_ic {
 protocol bgp bremen3 from ebgp_ic {
     neighbor fec0::a:cf:3:c4 as 65196;
 }
+protocol bgp bremen4 from ebgp_ic {
+    neighbor fec0::a:cf:4:c4 as 65196;
+}
 protocol bgp bremen5 from ebgp_ic {
     neighbor fec0::a:cf:5:c4 as 65196;
 }
