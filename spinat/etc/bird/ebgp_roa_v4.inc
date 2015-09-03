@@ -19,6 +19,7 @@ roa 10.38.0.0/16    max  20 as  65380; # braunschweig
 roa 10.196.0.0/16   max  20 as  65196; # bremen
 roa 10.149.0.0/16   max  20 as  65053; # chemnitz
 roa 10.8.0.0/16     max  20 as  65053; # chemnitz
+roa 10.35.0.0/16    max  20 as  64868; # cottbus
 roa 10.223.0.0/16   max  20 as  65038; # darmstadt
 roa 10.213.0.0/16   max  20 as  65501; # diepholz
 roa 10.119.0.0/16   max  20 as  65043; # dreilaendereck
@@ -110,6 +111,7 @@ roa 10.24.0.0/20    max  20 as  65045; # treuenbrietzen
 roa 10.172.0.0/16   max  20 as  65022; # trier
 roa 10.188.0.0/16   max  20 as  65066; # troisdorf
 roa 10.134.0.0/16   max  20 as  64525; # uelzen
+roa 10.33.0.0/16    max  20 as  64860; # ulm
 roa 10.1.0.0/17     max  20 as  65530; # vfnnrw
 roa 10.171.0.0/16   max  20 as  65530; # vfnnrw
 roa 10.45.0.0/17    max  20 as  65530; # vfnnrw
