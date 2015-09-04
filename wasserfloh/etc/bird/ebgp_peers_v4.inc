@@ -91,7 +91,7 @@ protocol bgp franken_ro1 from ebgp_ic {
 protocol bgp frankfurt1 from ebgp_ic {
     neighbor 10.207.0.35 as 65026;
 }
-protocol bgp fulda1 from ebgp_ic {
+protocol bgp fulda3 from ebgp_ic {
     neighbor 10.207.0.42 as 65142;
 }
 protocol bgp gera_greiz1 from ebgp_ic {
