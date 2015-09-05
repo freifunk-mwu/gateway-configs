@@ -3,7 +3,7 @@ $ORIGIN user.ffwi.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffwi.org. hostmaster.ffwi.org. (
-                     2015081801         ; Serial
+                     2015090301         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -30,3 +30,6 @@ zerobin		IN	CNAME	blizzard
 pad		IN	CNAME	blizzard
 brokkoli	IN	A	10.56.4.101
 brokkoli	IN	AAAA	fd56:b4dc:4b1e::5054:ff:fe57:5dea
+brunhilde	IN	A	10.56.4.56
+brunhilde	IN	AAAA	fd56:b4dc:4b1e::a38:438
+
