@@ -111,6 +111,7 @@ roa 10.24.0.0/20    max  20 as  65045; # treuenbrietzen
 roa 10.172.0.0/16   max  20 as  65022; # trier
 roa 10.188.0.0/16   max  20 as  65066; # troisdorf
 roa 10.134.0.0/16   max  20 as  64525; # uelzen
+roa 10.33.0.0/16    max  20 as  64860; # ulm
 roa 10.1.0.0/17     max  20 as  65530; # vfnnrw
 roa 10.171.0.0/16   max  20 as  65530; # vfnnrw
 roa 10.45.0.0/17    max  20 as  65530; # vfnnrw
