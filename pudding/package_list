@@ -615,8 +615,6 @@ ii  linux-tools-3.13.0-48               3.13.0-48.80                         amd
 ii  linux-tools-3.13.0-48-generic       3.13.0-48.80                         amd64        Linux kernel version specific tools for version 3.13.0-48
 ii  linux-tools-3.13.0-52               3.13.0-52.86                         amd64        Linux kernel version specific tools for version 3.13.0-52
 ii  linux-tools-3.13.0-52-generic       3.13.0-52.86                         amd64        Linux kernel version specific tools for version 3.13.0-52
-ii  linux-tools-3.13.0-57               3.13.0-57.95                         amd64        Linux kernel version specific tools for version 3.13.0-57
-ii  linux-tools-3.13.0-57-generic       3.13.0-57.95                         amd64        Linux kernel version specific tools for version 3.13.0-57
 ii  linux-tools-3.13.0-62               3.13.0-62.102                        amd64        Linux kernel version specific tools for version 3.13.0-62
 ii  linux-tools-3.13.0-62-generic       3.13.0-62.102                        amd64        Linux kernel version specific tools for version 3.13.0-62
 ii  linux-tools-3.13.0-63               3.13.0-63.103                        amd64        Linux kernel version specific tools for version 3.13.0-63
