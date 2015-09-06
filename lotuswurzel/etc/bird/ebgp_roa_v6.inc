@@ -102,6 +102,7 @@ roa fddf:ebfd:a801:212::/64  max  64 as  65530; # solingen (delegation)
 roa 2001:bf7:fc00::/44       max  64 as  65022; # trier
 roa fda0:747e:ab29:7405::/64 max  64 as  65066; # troisdorf
 roa fd83:e002:c8a1::/48      max  64 as  64525; # uelzen
+roa fdaf:17a0:fff1::/48      max  64 as  64860; # ulm
 roa 2001:bf7:100:5922::/64   max  64 as  65530; # vfnnrw
 roa 2001:bf7:100:a::/64      max  64 as  65530; # vfnnrw
 roa 2001:bf7:100:abcd::/64   max  64 as  65530; # vfnnrw
