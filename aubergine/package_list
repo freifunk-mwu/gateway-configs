@@ -136,7 +136,6 @@ ii  kmod                             15-0ubuntu6                      amd64     
 ii  krb5-locales                     1.12+dfsg-2ubuntu5.1             all          Internationalization support for MIT Kerberos
 ii  landscape-common                 14.12-0ubuntu0.14.04             amd64        The Landscape administration system client - Common files
 ii  laptop-detect                    0.13.7ubuntu2                    amd64        attempt to detect a laptop
-ii  ldap-utils                       2.4.31-1+nmu2ubuntu8.1           amd64        OpenLDAP utilities
 ii  less                             458-2                            amd64        pager program similar to more
 ii  lftp                             4.4.13-1                         amd64        Sophisticated command-line FTP/HTTP client programs
 ii  libacl1:amd64                    2.2.52-1                         amd64        Access control list shared library
@@ -712,7 +711,6 @@ ii  sed                              4.2.2-4ubuntu1                   amd64     
 ii  sensible-utils                   0.0.9                            all          Utilities for sensible alternative selection
 ii  sgml-base                        1.26+nmu4ubuntu1                 all          SGML infrastructure and SGML catalog file support
 ii  shared-mime-info                 1.2-0ubuntu3                     amd64        FreeDesktop.org shared MIME database and spec
-ii  slapd                            2.4.31-1+nmu2ubuntu8.1           amd64        OpenLDAP server (slapd)
 ii  software-properties-common       0.92.37.3                        all          manage the repositories that you install software from (common)
 ii  ssh-import-id                    3.21-0ubuntu1                    all          securely retrieve an SSH public key and install it locally
 ii  ssl-cert                         1.0.33                           all          simple debconf wrapper for OpenSSL
