@@ -34,6 +34,7 @@ roa fd11:11ae:7466::/48      max  64 as  65051; # dresden
 roa 2001:bf7:10::/44         max  64 as  65056; # flensburg
 roa fddd:5d16:b5dd::/48      max  64 as  65026; # frankfurt
 roa fdf0:09bb:7814::/48      max  64 as  65060; # freiburg
+roa fd00:65a8:93a4::/48      max  64 as  65142; # fulda
 roa fd00:fffd:fffd::/48      max  64 as  65142; # fulda
 roa fda0:747e:ab29:209::/64  max  64 as  65397; # gelsenkirchen
 roa fdb5:078b:64cc::/48      max  64 as  65181; # gera-greiz
@@ -74,7 +75,6 @@ roa 2001:bf7:110::/44        max  64 as 201173; # luebeck
 roa fdef:ffc0:3dd7::/48      max  64 as 201173; # luebeck
 roa fd4e:f2d7:88d2:fffe::/64 max  64 as  64769; # lux
 roa fda9:026e:5805::/48      max  64 as  65039; # magdeburg
-roa fdb3:d4be:da01::/48      max  64 as  65409; # meerane
 roa 2a03:2260:10::/48        max  64 as  65057; # moehne
 roa 2a03:2260:115::/48       max  64 as  65251; # muensterland
 roa fd39:e4e3:eee1::/48      max  64 as  65534; # mueritz
