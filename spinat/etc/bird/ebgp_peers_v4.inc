@@ -181,9 +181,6 @@ protocol bgp luebeck2 from ebgp_ic {
 protocol bgp luenen from ebgp_ic {
     neighbor 10.207.0.34 as 65034;
 }
-protocol bgp meerane1 from ebgp_ic {
-    neighbor 10.207.0.31 as 65409;
-}
 protocol bgp moehne003 from ebgp_ic {
     neighbor 10.207.0.121 as 65057;
 }
