@@ -14,6 +14,7 @@ roa 10.31.0.0/16    max  20 as  44194; # berlin
 roa 10.36.0.0/16    max  20 as  44194; # berlin
 roa 10.26.0.0/16    max  20 as  65529; # bielefeld
 roa 10.29.0.0/16    max  20 as  65529; # bielefeld
+roa 10.25.0.0/16    max  20 as  64858; # bingen
 roa 10.79.0.0/16    max  20 as  65530; # bottrop (delegation)
 roa 10.38.0.0/16    max  20 as  65380; # braunschweig
 roa 10.196.0.0/16   max  20 as  65196; # bremen

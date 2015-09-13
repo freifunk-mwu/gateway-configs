@@ -43,11 +43,19 @@ zone "11.10.in-addr.arpa" {
     server-addresses { 10.11.0.8; 10.11.10.15; 10.11.63.26; fdca:ffee:0ffa:8::1; fdca:ffee:0ffa:a0f::1; fdca:ffee:0ffa:3f1a::1; };
 };
 # 
-# badoldesloe
+# bingen
 # 
-zone "ffod.org" {
+zone "freifunk-bingen.de" {
     type static-stub;
-    server-addresses { 10.144.0.2; 10.144.0.3; fddf:0bf7:80::a38:0002; fddf:0bf7:80::a38:0003; };
+    server-addresses { 10.25.1.1; 10.25.1.2; };
+};
+zone "ffbin" {
+    type static-stub;
+    server-addresses { 10.25.1.1; 10.25.1.2; };
+};
+zone "25.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.25.1.1; 10.25.1.2; };
 };
 # 
 # bremen
