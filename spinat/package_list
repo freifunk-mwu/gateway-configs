@@ -192,7 +192,7 @@ ii  libffi6:amd64                       3.1~rc1+r3.0.13-12                   amd
 ii  libfile-fcntllock-perl              0.14-2build1                         amd64        Perl module for file locking with fcntl(2)
 ii  libfl-dev:amd64                     2.5.35-10.1ubuntu2                   amd64        static library for flex (a fast lexical analyzer generator).
 ii  libfontconfig1:amd64                2.11.0-0ubuntu4.1                    amd64        generic font configuration library - runtime
-ii  libfreetype6:amd64                  2.5.2-1ubuntu2.4                     amd64        FreeType 2 font engine, shared library files
+ii  libfreetype6:amd64                  2.5.2-1ubuntu2.5                     amd64        FreeType 2 font engine, shared library files
 ii  libfribidi0:amd64                   0.19.6-1                             amd64        Free Implementation of the Unicode BiDi algorithm
 ii  libfuse2:amd64                      2.9.2-4ubuntu4.14.04.1               amd64        Filesystem in Userspace (library)
 ii  libgc1c2:amd64                      1:7.2d-5ubuntu2                      amd64        conservative garbage collector for C and C++
@@ -376,8 +376,6 @@ ii  linux-headers-3.13.0-39             3.13.0-39.66                         all
 ii  linux-headers-3.13.0-39-generic     3.13.0-39.66                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-40             3.13.0-40.69                         all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-40-generic     3.13.0-40.69                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-57             3.13.0-57.95                         all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-57-generic     3.13.0-57.95                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-62             3.13.0-62.102                        all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-62-generic     3.13.0-62.102                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-63             3.13.0-63.103                        all          Header files related to Linux kernel version 3.13.0
@@ -399,7 +397,7 @@ rc  linux-image-3.13.0-51-generic       3.13.0-51.84                         amd
 rc  linux-image-3.13.0-52-generic       3.13.0-52.86                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-53-generic       3.13.0-53.89                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-55-generic       3.13.0-55.94                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-57-generic       3.13.0-57.95                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-57-generic       3.13.0-57.95                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-61-generic       3.13.0-61.100                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-62-generic       3.13.0-62.102                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-63-generic       3.13.0-63.103                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -418,7 +416,7 @@ rc  linux-image-extra-3.13.0-51-generic 3.13.0-51.84                         amd
 rc  linux-image-extra-3.13.0-52-generic 3.13.0-52.86                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-53-generic 3.13.0-53.89                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-55-generic 3.13.0-55.94                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-57-generic 3.13.0-57.95                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-57-generic 3.13.0-57.95                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-61-generic 3.13.0-61.100                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-62-generic 3.13.0-62.102                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-63-generic 3.13.0-63.103                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
@@ -554,7 +552,7 @@ ii  sysvinit-utils                      2.88dsf-41ubuntu6.2                  amd
 ii  tar                                 1.27.1-1                             amd64        GNU version of the tar archiving utility
 ii  tcpd                                7.6.q-25                             amd64        Wietse Venema's TCP wrapper utilities
 ii  tcpdump                             4.5.1-2ubuntu1.2                     amd64        command-line network traffic analyzer
-ii  tinc                                1.0.25-0ffmwu0~trusty                amd64        Virtual Private Network daemon
+ii  tinc                                1.0.26-0ffmwu0~trusty                amd64        Virtual Private Network daemon
 ii  traceroute                          1:2.0.20-0ubuntu0.1                  amd64        Traces the route taken by packets over an IPv4/IPv6 network
 ii  ttf-dejavu                          2.34-1ubuntu1                        all          transitional dummy package
 ii  ttf-dejavu-core                     2.34-1ubuntu1                        all          transitional dummy package
