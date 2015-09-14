@@ -322,7 +322,7 @@ ii  libnl-3-200:amd64                3.2.21-1                         amd64     
 ii  libnl-genl-3-200:amd64           3.2.21-1                         amd64        library for dealing with netlink sockets - generic netlink
 rc  libnspr4:amd64                   2:4.10.7-0ubuntu0.14.04.1        amd64        NetScape Portable Runtime Library
 rc  libnss3:amd64                    2:3.17.1-0ubuntu0.14.04.1        amd64        Network Security Service libraries
-ii  libodbc1:amd64                   2.2.14p2-5ubuntu5                amd64        ODBC library for Unix
+rc  libodbc1:amd64                   2.2.14p2-5ubuntu5                amd64        ODBC library for Unix
 ii  libopts25:amd64                  1:5.18-2ubuntu2                  amd64        automated option processing library based on autogen
 ii  libp11-kit0:amd64                0.20.2-2ubuntu2                  amd64        Library for loading and coordinating access to PKCS#11 modules - runtime
 ii  libpam-cap:amd64                 1:2.24-0ubuntu2                  amd64        PAM module for implementing capabilities
@@ -339,7 +339,6 @@ ii  libpathplan4                     2.36.0-0ubuntu3.1                amd64     
 ii  libpci3:amd64                    1:3.2.1-1ubuntu5                 amd64        Linux PCI Utilities (shared library)
 ii  libpcre3:amd64                   1:8.31-2ubuntu2.1                amd64        Perl 5 Compatible Regular Expression Library - runtime files
 ii  libpcsclite1:amd64               1.8.10-1ubuntu1                  amd64        Middleware to access a smart card using PC/SC (library)
-ii  libperl5.18                      5.18.2-2ubuntu1                  amd64        shared Perl library
 ii  libpipeline1:amd64               1.3.0-1                          amd64        pipeline manipulation library
 ii  libpixman-1-0:amd64              0.30.2-2ubuntu1                  amd64        pixel-manipulation library for X and cairo
 ii  libplot2c2                       2.6-3ubuntu1                     amd64        GNU plotutils libraries
@@ -388,7 +387,7 @@ ii  libsepol1:amd64                  2.2-1ubuntu0.1                   amd64     
 ii  libsigc++-2.0-0c2a:amd64         2.2.10-0.2ubuntu2                amd64        type-safe Signal Framework for C++ - runtime
 ii  libsigsegv2:amd64                2.10-2                           amd64        Library for handling page faults in a portable way
 ii  libslang2:amd64                  2.2.4-15ubuntu1                  amd64        S-Lang programming library - runtime version
-ii  libslp1                          1.2.1-9ubuntu0.2                 amd64        OpenSLP libraries
+rc  libslp1                          1.2.1-9ubuntu0.2                 amd64        OpenSLP libraries
 ii  libsm6:amd64                     2:1.2.1-2                        amd64        X11 Session Management library
 ii  libsocket6-perl                  0.25-1                           amd64        Perl extensions for IPv6
 ii  libsodium13:amd64                1.0.3-1~wheezy0                  amd64        Network communication, cryptography and signaturing library
@@ -455,8 +454,6 @@ ii  libxss1:amd64                    1:1.2.2-1                        amd64     
 ii  libxt6:amd64                     1:1.1.4-1                        amd64        X11 toolkit intrinsics library
 ii  libyaml-0-2:amd64                0.1.4-3ubuntu3.1                 amd64        Fast YAML 1.1 parser and emitter library
 ii  linux-firmware                   1.127.15                         all          Firmware for Linux kernel drivers
-ii  linux-headers-3.13.0-61          3.13.0-61.100                    all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-61-generic  3.13.0-61.100                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-62          3.13.0-62.102                    all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-62-generic  3.13.0-62.102                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-63          3.13.0-63.103                    all          Header files related to Linux kernel version 3.13.0
@@ -479,7 +476,7 @@ rc  linux-image-3.13.0-55-generic    3.13.0-55.94                     amd64     
 rc  linux-image-3.13.0-57-generic    3.13.0-57.95                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-58-generic    3.13.0-58.97                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-59-generic    3.13.0-59.98                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-61-generic    3.13.0-61.100                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-61-generic    3.13.0-61.100                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-62-generic    3.13.0-62.102                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-63-generic    3.13.0-63.103                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-virtual              3.13.0.63.71                     amd64        This package will always depend on the latest minimal generic kernel image.
