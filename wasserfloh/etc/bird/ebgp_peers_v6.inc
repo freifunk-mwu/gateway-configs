@@ -76,6 +76,9 @@ protocol bgp fulda3 from ebgp_ic {
 protocol bgp gera_greiz1 from ebgp_ic {
     neighbor fec0::a:cf:0:b5 as 65181;
 }
+protocol bgp gera_greiz2 from ebgp_ic {
+    neighbor fec0::a:cf:0:b6 as 65181;
+}
 protocol bgp guetersloh4 from ebgp_ic {
     neighbor fec0::a:cf:0:86 as 65533;
 }

@@ -25,6 +25,9 @@ protocol bgp bielefeld1 from ebgp_ic {
 protocol bgp bielefeld6 from ebgp_ic {
     neighbor 10.207.0.58 as 65529;
 }
+protocol bgp bingen1 from ebgp_ic {
+    neighbor 10.207.0.25 as 64858;
+}
 protocol bgp braunschweig1 from ebgp_ic {
     neighbor 10.207.0.40 as 65380;
 }
@@ -99,6 +102,9 @@ protocol bgp fulda3 from ebgp_ic {
 }
 protocol bgp gera_greiz1 from ebgp_ic {
     neighbor 10.207.0.181 as 65181;
+}
+protocol bgp gera_greiz2 from ebgp_ic {
+    neighbor 10.207.0.182 as 65181;
 }
 protocol bgp graz1 from ebgp_ic {
     neighbor 10.207.1.2 as 65048;
@@ -252,6 +258,9 @@ protocol bgp waldheim1 from ebgp_ic {
 }
 protocol bgp waldheim2 from ebgp_ic {
     neighbor 10.207.0.46 as 65210;
+}
+protocol bgp waldheim3 from ebgp_ic {
+    neighbor 10.207.0.47 as 65210;
 }
 protocol bgp weimar1 from ebgp_ic {
     neighbor 10.207.0.3 as 65042;
