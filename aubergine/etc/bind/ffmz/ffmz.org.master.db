@@ -1,6 +1,6 @@
 $ORIGIN ffmz.org.
 ; BIND data file for zone ffmz.org.
-;
+
 $TTL    600
 @       IN      SOA     aubergine.ffmz.org. hostmaster.ffmz.org. (
                      2015082602         ; Serial

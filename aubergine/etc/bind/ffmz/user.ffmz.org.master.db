@@ -3,7 +3,7 @@ $ORIGIN user.ffmz.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffmz.org. hostmaster.ffmz.org. (
-                     2015070201        ; Serial
+                     2015091501         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -25,3 +25,5 @@ wetter                          IN	A	10.37.4.18
 wackelpeter			IN	A	10.37.4.23
 flugzeug                        IN      A       10.37.4.40
 solar				IN	A	10.37.4.41
+fon				IN	A	10.37.4.42
+fon				IN	AAAA	fd37:b4dc:4b1e:0:caa0:30ff:fead:c767

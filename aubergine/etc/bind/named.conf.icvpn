@@ -43,21 +43,6 @@ zone "11.10.in-addr.arpa" {
     server-addresses { 10.11.0.8; 10.11.10.15; 10.11.63.26; fdca:ffee:0ffa:8::1; fdca:ffee:0ffa:a0f::1; fdca:ffee:0ffa:3f1a::1; };
 };
 # 
-# bingen
-# 
-zone "freifunk-bingen.de" {
-    type static-stub;
-    server-addresses { 10.25.1.1; 10.25.1.2; };
-};
-zone "ffbin" {
-    type static-stub;
-    server-addresses { 10.25.1.1; 10.25.1.2; };
-};
-zone "25.10.in-addr.arpa" {
-    type static-stub;
-    server-addresses { 10.25.1.1; 10.25.1.2; };
-};
-# 
 # bremen
 # 
 zone "ffhb" {
@@ -227,15 +212,15 @@ zone "9.0.2.0.9.2.b.a.e.7.4.7.0.a.d.f.ip6.arpa" {
 # 
 zone "ffggrz" {
     type static-stub;
-    server-addresses { 10.181.0.11; fdb5:78b:64cc::11; };
+    server-addresses { 10.181.0.11; 10.181.0.12; fdb5:78b:64cc::11; fdb5:78b:64cc::12; };
 };
 zone "181.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.181.0.11; fdb5:78b:64cc::11; };
+    server-addresses { 10.181.0.11; 10.181.0.12; fdb5:78b:64cc::11; fdb5:78b:64cc::12; };
 };
 zone "c.c.4.6.b.8.7.0.5.b.d.f.ip6.arpa" {
     type static-stub;
-    server-addresses { 10.181.0.11; fdb5:78b:64cc::11; };
+    server-addresses { 10.181.0.11; 10.181.0.12; fdb5:78b:64cc::11; fdb5:78b:64cc::12; };
 };
 # 
 # glwupper
@@ -615,15 +600,11 @@ zone "1.f.f.f.0.a.7.1.f.a.d.f.ip6.arpa" {
 # 
 zone "ffwdh" {
     type static-stub;
-    server-addresses { 10.23.0.1; 10.23.0.2; };
-};
-zone "fftup" {
-    type static-stub;
-    server-addresses { 10.23.0.1; 10.23.0.2; };
+    server-addresses { 10.23.0.1; 10.23.0.2; 10.23.0.2; };
 };
 zone "23.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.23.0.1; 10.23.0.2; };
+    server-addresses { 10.23.0.1; 10.23.0.2; 10.23.0.2; };
 };
 # 
 # westkueste
