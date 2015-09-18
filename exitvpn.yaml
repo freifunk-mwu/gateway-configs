@@ -11,6 +11,9 @@ accounts:
         login: 'kasperle'
         provider: 'hide.me'
         until: '27.09.2015'
+    d: &D
+        provider: 'perfect-privacy'
+        until: '05.11.2015'
 conf:
     warndays: 10
     digestday: 1
@@ -18,6 +21,7 @@ conf:
     date_format: '%d.%m.%Y'
     # http://strftime.org/
 gateways:
+    Kaschu: *D
+    Lotuswurzel: *D
     Spinat: *C
-    Lotuswurzel: *A
-    Gate2: *A
+    Wasserfloh: *C
