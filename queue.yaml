@@ -37,6 +37,7 @@ locations:
 - /etc/openvpn/openvpn-down
 - /etc/openvpn/openvpn-up
 - /etc/openvpn/openvpn-updown
+- /etc/openvpn/perfect_privacy.conf
 - /etc/postfix/access_recipient-rfc
 - /etc/postfix/bounce.de-DE.cf
 - /etc/postfix/helo_ip_hostname_check
