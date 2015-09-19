@@ -43,7 +43,7 @@ ii  bison                                2:3.0.2.dfsg-2                       am
 ii  bridge-utils                         1.5-6ubuntu2                         amd64        Utilities for configuring the Linux Ethernet bridge
 ii  bsd-mailx                            8.1.2-0.20131005cvs-1ubuntu0.14.04.1 amd64        simple mail user agent
 ii  bsdmainutils                         9.0.5ubuntu1                         amd64        collection of more utilities from FreeBSD
-ii  bsdutils                             1:2.20.1-5.1ubuntu20.6               amd64        Basic utilities from 4.4BSD-Lite
+ii  bsdutils                             1:2.20.1-5.1ubuntu20.7               amd64        Basic utilities from 4.4BSD-Lite
 ii  build-essential                      11.6ubuntu6                          amd64        Informational list of build-essential packages
 ii  busybox-initramfs                    1:1.21.0-1ubuntu1                    amd64        Standalone shell setup for initramfs
 ii  byobu                                5.77-0ubuntu1.2                      all          powerful, text based window manager and shell multiplexer
@@ -72,8 +72,8 @@ ii  dmsetup                              2:1.02.77-6ubuntu2                   am
 ii  dnsutils                             1:9.9.5.dfsg-3ubuntu0.5              amd64        Clients provided with BIND
 ii  dpkg                                 1.17.5ubuntu5.4                      amd64        Debian package management system
 ii  dpkg-dev                             1.17.5ubuntu5.4                      all          Debian package development tools
-ii  e2fslibs:amd64                       1.42.9-3ubuntu1.2                    amd64        ext2/ext3/ext4 file system libraries
-ii  e2fsprogs                            1.42.9-3ubuntu1.2                    amd64        ext2/ext3/ext4 file system utilities
+ii  e2fslibs:amd64                       1.42.9-3ubuntu1.3                    amd64        ext2/ext3/ext4 file system libraries
+ii  e2fsprogs                            1.42.9-3ubuntu1.3                    amd64        ext2/ext3/ext4 file system utilities
 ii  eject                                2.1.5+deb1+cvs20081104-13.1          amd64        ejects CDs and operates CD-Changers under Linux
 ii  ethtool                              1:3.13-1                             amd64        display or change Ethernet device settings
 ii  fakeroot                             1.20-3ubuntu2                        amd64        tool for simulating superuser privileges
@@ -169,7 +169,7 @@ ii  libaudit-common                      1:2.3.2-2ubuntu1                     al
 ii  libaudit1:amd64                      1:2.3.2-2ubuntu1                     amd64        Dynamic library for security auditing
 ii  libbind9-90                          1:9.9.5.dfsg-3ubuntu0.5              amd64        BIND9 Shared Library used by BIND
 ii  libbison-dev:amd64                   2:3.0.2.dfsg-2                       amd64        YACC-compatible parser generator - development library
-ii  libblkid1:amd64                      2.20.1-5.1ubuntu20.6                 amd64        block device id library
+ii  libblkid1:amd64                      2.20.1-5.1ubuntu20.7                 amd64        block device id library
 ii  libboost-iostreams1.54.0:amd64       1.54.0-4ubuntu3.1                    amd64        Boost.Iostreams Library
 ii  libbsd0:amd64                        0.6.0-2ubuntu1                       amd64        utility functions from BSD systems - shared library
 ii  libbz2-1.0:amd64                     1.0.6-5                              amd64        high-quality block-sorting file compressor library - runtime
@@ -188,7 +188,7 @@ ii  libclass-accessor-perl               0.34-1                               al
 ii  libclass-load-perl                   0.20-1                               all          module for loading modules by name
 ii  libclass-singleton-perl              1.4-1                                all          implementation of a "Singleton" class
 ii  libcloog-isl4:amd64                  0.18.2-1                             amd64        Chunky Loop Generator (runtime library)
-ii  libcomerr2:amd64                     1.42.9-3ubuntu1.2                    amd64        common error description library
+ii  libcomerr2:amd64                     1.42.9-3ubuntu1.3                    amd64        common error description library
 ii  libcurl3:amd64                       7.35.0-1ubuntu2.5                    amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii  libcurl3-gnutls:amd64                7.35.0-1ubuntu2.5                    amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii  libcwidget3                          0.5.16-3.5ubuntu1                    amd64        high-level terminal interface library for C++ (runtime files)
@@ -269,7 +269,7 @@ ii  libkmod2:amd64                       15-0ubuntu6                          am
 ii  libkrb5-26-heimdal:amd64             1.6~git20131207+dfsg-1ubuntu1.1      amd64        Heimdal Kerberos - libraries
 ii  libkrb5-3:amd64                      1.12+dfsg-2ubuntu5.1                 amd64        MIT Kerberos runtime libraries
 ii  libkrb5support0:amd64                1.12+dfsg-2ubuntu5.1                 amd64        MIT Kerberos runtime libraries - Support library
-ii  libldap-2.4-2:amd64                  2.4.31-1+nmu2ubuntu8.1               amd64        OpenLDAP libraries
+ii  libldap-2.4-2:amd64                  2.4.31-1+nmu2ubuntu8.2               amd64        OpenLDAP libraries
 ii  liblist-moreutils-perl               0.33-1build3                         amd64        Perl module with additional list functions not found in List::Util
 ii  liblocale-gettext-perl               1.05-7build3                         amd64        module using libc functions for internationalization in Perl
 ii  liblockfile-bin                      1.09-6ubuntu1                        amd64        support binaries for and cli utilities based on liblockfile
@@ -284,7 +284,7 @@ ii  libmagic1:amd64                      1:5.14-2ubuntu3.3                    am
 ii  libmodule-implementation-perl        0.07-1                               all          module for loading one of several alternate implementations of a module
 ii  libmodule-pluggable-perl             5.1-1                                all          module for giving  modules the ability to have plugins
 ii  libmodule-runtime-perl               0.013-1                              all          Perl module for runtime module handling
-ii  libmount1:amd64                      2.20.1-5.1ubuntu20.6                 amd64        block device id library
+ii  libmount1:amd64                      2.20.1-5.1ubuntu20.7                 amd64        block device id library
 ii  libmpc3:amd64                        1.0.1-1ubuntu1                       amd64        multiple precision complex floating-point library
 ii  libmpdec2:amd64                      2.4.0-6                              amd64        library for decimal floating point arithmetic (runtime library)
 ii  libmpfr4:amd64                       3.1.2-1                              amd64        multiple precision floating-point computation
@@ -369,7 +369,7 @@ ii  libsnmp-base                         5.7.2~dfsg-8.1ubuntu3.1              al
 ii  libsnmp30:amd64                      5.7.2~dfsg-8.1ubuntu3.1              amd64        SNMP (Simple Network Management Protocol) library
 ii  libsodium13:amd64                    1.0.3-1~wheezy0                      amd64        Network communication, cryptography and signaturing library
 ii  libsqlite3-0:amd64                   3.8.2-1ubuntu2.1                     amd64        SQLite 3 shared library
-ii  libss2:amd64                         1.42.9-3ubuntu1.2                    amd64        command-line interface parsing library
+ii  libss2:amd64                         1.42.9-3ubuntu1.3                    amd64        command-line interface parsing library
 ii  libssl1.0.0:amd64                    1.0.1f-1ubuntu2.15                   amd64        Secure Sockets Layer toolkit - shared libraries
 ii  libstdc++-4.8-dev:amd64              4.8.4-2ubuntu1~14.04                 amd64        GNU Standard C++ Library v3 (development files)
 ii  libstdc++6:amd64                     4.8.4-2ubuntu1~14.04                 amd64        GNU Standard C++ Library v3
@@ -400,7 +400,7 @@ ii  libusb-0.1-4:amd64                   2:0.1.12-23.3ubuntu1                 am
 ii  libusb-1.0-0:amd64                   2:1.0.17-1ubuntu2                    amd64        userspace USB programming library
 ii  libustr-1.0-1:amd64                  1.0.4-3ubuntu2                       amd64        Micro string library: shared library
 ii  libutempter0                         1.1.5-4build1                        amd64        A privileged helper for utmp/wtmp updates (runtime)
-ii  libuuid1:amd64                       2.20.1-5.1ubuntu20.6                 amd64        Universally Unique ID library
+ii  libuuid1:amd64                       2.20.1-5.1ubuntu20.7                 amd64        Universally Unique ID library
 rc  libv8-3.14.5                         3.14.5.8-5ubuntu2                    amd64        V8 JavaScript engine - runtime library
 ii  libvpx1:amd64                        1.3.0-2                              amd64        VP8 video codec (shared library)
 ii  libwind0-heimdal:amd64               1.6~git20131207+dfsg-1ubuntu1.1      amd64        Heimdal Kerberos - stringprep implementation
@@ -487,7 +487,7 @@ ii  mime-support                         3.54ubuntu1.1                        al
 ii  mlocate                              0.26-1ubuntu1                        amd64        quickly find files on the filesystem based on their name
 ii  module-init-tools                    15-0ubuntu6                          all          transitional dummy package (module-init-tools to kmod)
 ii  mosh                                 1.2.4a-1ubuntu1                      amd64        Mobile shell that supports roaming and intelligent local echo
-ii  mount                                2.20.1-5.1ubuntu20.6                 amd64        Tools for mounting and manipulating filesystems
+ii  mount                                2.20.1-5.1ubuntu20.7                 amd64        Tools for mounting and manipulating filesystems
 ii  mountall                             2.53                                 amd64        filesystem mounting tool
 ii  multiarch-support                    2.19-0ubuntu6.6                      amd64        Transitional package to ensure multiarch compatibility
 ii  mysql-common                         5.5.44-0ubuntu0.14.04.1              all          MySQL database common files, e.g. /etc/mysql/my.cnf
@@ -647,7 +647,7 @@ ii  upstart                              1.12.1-0ubuntu4.2                    am
 ii  ureadahead                           0.100.0-16                           amd64        Read required files in advance
 ii  usbutils                             1:007-2ubuntu1                       amd64        Linux USB utilities
 ii  uthash-dev                           1.9.7-1                              all          Hash table and linked list for C structures
-ii  util-linux                           2.20.1-5.1ubuntu20.6                 amd64        Miscellaneous system utilities
+ii  util-linux                           2.20.1-5.1ubuntu20.7                 amd64        Miscellaneous system utilities
 ii  vim                                  2:7.4.052-1ubuntu3                   amd64        Vi IMproved - enhanced vi editor
 ii  vim-common                           2:7.4.052-1ubuntu3                   amd64        Vi IMproved - Common files
 ii  vim-runtime                          2:7.4.052-1ubuntu3                   all          Vi IMproved - Runtime files
