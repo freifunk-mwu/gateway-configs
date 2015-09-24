@@ -12,8 +12,9 @@ accounts:
         provider: 'hide.me'
         until: '27.09.2015'
     d: &D
+        login: 'kasperle'
         provider: 'perfect-privacy'
-        until: '05.11.2015'
+        until: '22.12.2015'
 conf:
     warndays: 10
     digestday: 1
@@ -24,4 +25,4 @@ gateways:
     Kaschu: *D
     Lotuswurzel: *D
     Spinat: *C
-    Wasserfloh: *C
+    Wasserfloh: *D
