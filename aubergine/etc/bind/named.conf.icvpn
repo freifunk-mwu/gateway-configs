@@ -113,6 +113,10 @@ zone "ffda" {
     type static-stub;
     server-addresses { 10.223.0.1; 10.223.0.2; 10.223.0.3; 10.223.0.4; fdca:ffee:ffda::1; fdca:ffee:ffda::2; fdca:ffee:ffda::3; fdca:ffee:ffda::4; };
 };
+zone "ffda.io" {
+    type static-stub;
+    server-addresses { 10.223.0.1; 10.223.0.2; 10.223.0.3; 10.223.0.4; fdca:ffee:ffda::1; fdca:ffee:ffda::2; fdca:ffee:ffda::3; fdca:ffee:ffda::4; };
+};
 zone "a.d.f.f.e.e.f.f.a.c.d.f.ip6.arpa" {
     type static-stub;
     server-addresses { 10.223.0.1; 10.223.0.2; 10.223.0.3; 10.223.0.4; fdca:ffee:ffda::1; fdca:ffee:ffda::2; fdca:ffee:ffda::3; fdca:ffee:ffda::4; };
