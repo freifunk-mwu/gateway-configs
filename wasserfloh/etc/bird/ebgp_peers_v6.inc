@@ -151,6 +151,15 @@ protocol bgp luebeck1 from ebgp_ic {
 protocol bgp luebeck2 from ebgp_ic {
     neighbor fec0::a:cf:0:83 as 201173;
 }
+protocol bgp myk1 from ebgp_ic {
+    neighbor fec0::a:cf:0:50 as 65032;
+}
+protocol bgp myk2 from ebgp_ic {
+    neighbor fec0::a:cf:0:51 as 65032;
+}
+protocol bgp myk3 from ebgp_ic {
+    neighbor fec0::a:cf:0:52 as 65032;
+}
 protocol bgp moehne003 from ebgp_ic {
     neighbor fec0::a:cf:0:121 as 65057;
 }
