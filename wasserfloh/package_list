@@ -58,8 +58,10 @@ ii  cron                             3.0pl1-124ubuntu2                amd64     
 ii  curl                             7.35.0-1ubuntu2.5                amd64        command line tool for transferring data with URL syntax
 ii  dash                             0.5.7-4ubuntu1                   amd64        POSIX-compliant shell
 ii  dbus                             1.6.18-0ubuntu4.3                amd64        simple interprocess messaging system (daemon and utilities)
+ii  dctrl-tools                      2.23ubuntu1                      amd64        Command-line tools to process Debian package information
 ii  debconf                          1.5.51ubuntu2                    all          Debian configuration management system
 ii  debconf-i18n                     1.5.51ubuntu2                    all          full internationalization support for debconf
+ii  debian-goodies                   0.63                             all          Small toolbox-style utilities for Debian systems
 ii  debianutils                      4.4                              amd64        Miscellaneous utilities specific to Debian
 ii  dh-python                        1.20140128-1ubuntu8.2            all          Debian helper tools for packaging Python libraries and applications
 ii  diffutils                        1:3.3-1                          amd64        File comparison utilities
