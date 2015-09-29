@@ -399,12 +399,12 @@ ii  libxrender1:amd64                   1:0.9.8-1build0.14.04.1          amd64  
 ii  libxtables10                        1.4.21-1ubuntu1                  amd64        netfilter xtables library
 ii  libyaml-0-2:amd64                   0.1.4-3ubuntu3.1                 amd64        Fast YAML 1.1 parser and emitter library
 ii  linux-firmware                      1.127.15                         all          Firmware for Linux kernel drivers
-ii  linux-generic                       3.13.0.63.71                     amd64        Complete Generic Linux kernel and headers
+ii  linux-generic                       3.13.0.65.71                     amd64        Complete Generic Linux kernel and headers
 ii  linux-headers-3.13.0-62             3.13.0-62.102                    all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-62-generic     3.13.0-62.102                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-63             3.13.0-63.103                    all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-63-generic     3.13.0-63.103                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-generic               3.13.0.63.71                     amd64        Generic Linux kernel headers
+ii  linux-headers-3.13.0-65             3.13.0-65.105                    all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-65-generic     3.13.0-65.105                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-generic               3.13.0.65.71                     amd64        Generic Linux kernel headers
 rc  linux-image-3.13.0-24-generic       3.13.0-24.47                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-49-generic       3.13.0-49.83                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-55-generic       3.13.0-55.94                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -413,7 +413,8 @@ rc  linux-image-3.13.0-58-generic       3.13.0-58.97                     amd64  
 rc  linux-image-3.13.0-59-generic       3.13.0-59.98                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-61-generic       3.13.0-61.100                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-62-generic       3.13.0-62.102                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-63-generic       3.13.0-63.103                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-63-generic       3.13.0-63.103                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-3.13.0-65-generic       3.13.0-65.105                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-24-generic 3.13.0-24.47                     amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-49-generic 3.13.0-49.83                     amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-55-generic 3.13.0-55.94                     amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
@@ -422,9 +423,10 @@ rc  linux-image-extra-3.13.0-58-generic 3.13.0-58.97                     amd64  
 rc  linux-image-extra-3.13.0-59-generic 3.13.0-59.98                     amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-61-generic 3.13.0-61.100                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-62-generic 3.13.0-62.102                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-63-generic 3.13.0-63.103                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-generic                 3.13.0.63.71                     amd64        Generic Linux kernel image
-ii  linux-libc-dev:amd64                3.13.0-63.103                    amd64        Linux Kernel Headers for development
+rc  linux-image-extra-3.13.0-63-generic 3.13.0-63.103                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-extra-3.13.0-65-generic 3.13.0-65.105                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-generic                 3.13.0.65.71                     amd64        Generic Linux kernel image
+ii  linux-libc-dev:amd64                3.13.0-65.105                    amd64        Linux Kernel Headers for development
 ii  locales                             2.13+git20120306-12.1            all          common files for locale support
 ii  lockfile-progs                      0.1.17                           amd64        Programs for locking and unlocking files and mailboxes
 ii  login                               1:4.1.5.1-1ubuntu9.1             amd64        system login tools
@@ -538,7 +540,7 @@ ii  python3-pycurl                      7.19.3-0ubuntu3                  amd64  
 ii  python3-requests                    2.2.1-1ubuntu0.3                 all          elegant and simple HTTP library for Python3, built for human beings
 ii  python3-setuptools                  3.3-1ubuntu2                     all          Python3 Distutils Enhancements
 ii  python3-six                         1.5.2-1ubuntu1                   all          Python 2 and 3 compatibility library (Python 3 interface)
-ii  python3-software-properties         0.92.37.3                        all          manage the repositories that you install software from
+ii  python3-software-properties         0.92.37.5                        all          manage the repositories that you install software from
 ii  python3-update-manager              1:0.196.13                       all          python 3.x module for update-manager
 ii  python3-urllib3                     1.7.1-1ubuntu3                   all          HTTP library with thread-safe connection pooling for Python3
 ii  python3-wheel                       0.24.0-1~ubuntu1                 all          built-package format for Python
@@ -557,7 +559,7 @@ ii  sed                                 4.2.2-4ubuntu1                   amd64  
 ii  sensible-utils                      0.0.9                            all          Utilities for sensible alternative selection
 ii  sgml-base                           1.26+nmu4ubuntu1                 all          SGML infrastructure and SGML catalog file support
 ii  shared-mime-info                    1.2-0ubuntu3                     amd64        FreeDesktop.org shared MIME database and spec
-ii  software-properties-common          0.92.37.3                        all          manage the repositories that you install software from (common)
+ii  software-properties-common          0.92.37.5                        all          manage the repositories that you install software from (common)
 ii  ssh-import-id                       3.21-0ubuntu1                    all          securely retrieve an SSH public key and install it locally
 ii  ssl-cert                            1.0.33                           all          simple debconf wrapper for OpenSSL
 ii  strace                              4.8-1ubuntu5                     amd64        A system call tracer
