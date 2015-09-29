@@ -202,6 +202,9 @@ protocol bgp trier1 from ebgp_ic {
 protocol bgp trier2 from ebgp_ic {
     neighbor fec0::a:cf:0:dd as 65022;
 }
+protocol bgp trier3 from ebgp_ic {
+    neighbor fec0::a:cf:0:de as 65022;
+}
 protocol bgp troisdorf1 from ebgp_ic {
     neighbor fec0::a:cf:0:b9 as 65066;
 }

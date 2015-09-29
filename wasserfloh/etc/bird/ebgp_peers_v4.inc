@@ -241,6 +241,9 @@ protocol bgp trier1 from ebgp_ic {
 protocol bgp trier2 from ebgp_ic {
     neighbor 10.207.0.221 as 65022;
 }
+protocol bgp trier3 from ebgp_ic {
+    neighbor 10.207.0.222 as 65022;
+}
 protocol bgp troisdorf1 from ebgp_ic {
     neighbor 10.207.0.185 as 65066;
 }
