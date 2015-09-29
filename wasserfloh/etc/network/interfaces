@@ -107,7 +107,7 @@ iface mzBAT inet6 manual
         post-up         /sbin/brctl addif mzBR $IFACE
         post-up         /usr/sbin/batctl -m $IFACE it 10000
         post-up         /usr/sbin/batctl -m $IFACE vm server
-        post-up         /usr/sbin/batctl -m $IFACE gw server 90mbit/90mbit
+        post-up         /usr/sbin/batctl -m $IFACE gw server 96mbit/96mbit
         pre-down        /sbin/brctl delif mzBR $IFACE || true
 
 allow-hotplug wiBAT
@@ -116,5 +116,5 @@ iface wiBAT inet6 manual
         post-up         /sbin/brctl addif wiBR $IFACE
         post-up         /usr/sbin/batctl -m $IFACE it 10000
         post-up         /usr/sbin/batctl -m $IFACE vm server
-        post-up         /usr/sbin/batctl -m $IFACE gw server 90mbit/90mbit
+        post-up         /usr/sbin/batctl -m $IFACE gw server 96mbit/96mbit
         pre-down        /sbin/brctl delif wiBR $IFACE || true
