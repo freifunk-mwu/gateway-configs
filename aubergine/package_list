@@ -7,11 +7,11 @@ ii  acpid                            1:2.0.21-1ubuntu2                amd64     
 ii  adduser                          3.113+nmu3ubuntu3                all          add and remove users and groups
 ii  alfred                           2015.1-0ffmwu0~trusty            amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
 ii  alfred-json                      0.3.1-0ffmwu1~trusty             amd64        A.L.F.R.E.D client supporting GZIP decompression and JSON, string and binary output
-ii  apache2                          2.4.7-1ubuntu4.5                 amd64        Apache HTTP Server
-ii  apache2-bin                      2.4.7-1ubuntu4.5                 amd64        Apache HTTP Server (binary files and modules)
-ii  apache2-data                     2.4.7-1ubuntu4.5                 all          Apache HTTP Server (common files)
-ii  apache2-doc                      2.4.7-1ubuntu4.5                 all          Apache HTTP Server (on-site documentation)
-ii  apache2-utils                    2.4.7-1ubuntu4.5                 amd64        Apache HTTP Server (utility programs for web servers)
+ii  apache2                          2.4.7-1ubuntu4.6                 amd64        Apache HTTP Server
+ii  apache2-bin                      2.4.7-1ubuntu4.6                 amd64        Apache HTTP Server (binary files and modules)
+ii  apache2-data                     2.4.7-1ubuntu4.6                 all          Apache HTTP Server (common files)
+ii  apache2-doc                      2.4.7-1ubuntu4.6                 all          Apache HTTP Server (on-site documentation)
+ii  apache2-utils                    2.4.7-1ubuntu4.6                 amd64        Apache HTTP Server (utility programs for web servers)
 ii  apport                           2.14.1-0ubuntu3.15               all          automatically generate crash reports for debugging
 ii  apport-symptoms                  0.20                             all          symptom scripts for apport
 ii  apt                              1.0.1ubuntu2.10                  amd64        commandline package manager
@@ -33,8 +33,8 @@ ii  bc                               1.06.95-8ubuntu1                 amd64     
 ii  bind9                            1:9.9.5.dfsg-3ubuntu0.5          amd64        Internet Domain Name Server
 ii  bind9-host                       1:9.9.5.dfsg-3ubuntu0.5          amd64        Version of 'host' bundled with BIND 9.X
 ii  bind9utils                       1:9.9.5.dfsg-3ubuntu0.5          amd64        Utilities for BIND
-ii  binutils                         2.24-5ubuntu13                   amd64        GNU assembler, linker and binary utilities
-ii  biosdevname                      0.4.1-0ubuntu6.1                 amd64        apply BIOS-given names to network devices
+ii  binutils                         2.24-5ubuntu14                   amd64        GNU assembler, linker and binary utilities
+ii  biosdevname                      0.4.1-0ubuntu6.2                 amd64        apply BIOS-given names to network devices
 ii  bird                             1.5.0-1+trusty+1                 amd64        Internet Routing Daemon
 ii  bird6                            1.5.0-1+trusty+1                 all          Internet Routing Daemon [transitional packages]
 ii  bridge-utils                     1.5-6ubuntu2                     amd64        Utilities for configuring the Linux Ethernet bridge
@@ -143,7 +143,7 @@ ii  libaio1:amd64                    0.3.109-4                        amd64     
 ii  libalgorithm-diff-perl           1.19.02-3                        all          module to find differences between files
 ii  libalgorithm-diff-xs-perl        0.04-2build4                     amd64        module to find differences between files (XS accelerated)
 ii  libalgorithm-merge-perl          0.08-2                           all          Perl module for three-way merge of textual data
-ii  libapache2-mod-php5              5.5.9+dfsg-1ubuntu4.11           amd64        server-side, HTML-embedded scripting language (Apache 2 module)
+ii  libapache2-mod-php5              5.5.9+dfsg-1ubuntu4.12           amd64        server-side, HTML-embedded scripting language (Apache 2 module)
 ii  libapache2-mod-python            3.3.1-11ubuntu2                  amd64        Python-embedding module for Apache 2
 ii  libapache2-mod-wsgi              3.4-4ubuntu2.1.14.04.2           amd64        Python WSGI adapter module for Apache
 ii  libapparmor1:amd64               2.8.95~2430-0ubuntu5.3           amd64        changehat AppArmor library
@@ -329,7 +329,7 @@ ii  libpam-cap:amd64                 1:2.24-0ubuntu2                  amd64     
 ii  libpam-modules:amd64             1.1.8-1ubuntu2                   amd64        Pluggable Authentication Modules for PAM
 ii  libpam-modules-bin               1.1.8-1ubuntu2                   amd64        Pluggable Authentication Modules for PAM - helper binaries
 ii  libpam-runtime                   1.1.8-1ubuntu2                   all          Runtime support for the PAM library
-ii  libpam-systemd:amd64             204-5ubuntu20.13                 amd64        system and service manager - PAM module
+ii  libpam-systemd:amd64             204-5ubuntu20.14                 amd64        system and service manager - PAM module
 ii  libpam0g:amd64                   1.1.8-1ubuntu2                   amd64        Pluggable Authentication Modules library
 ii  libpango-1.0-0:amd64             1.36.3-1ubuntu1.1                amd64        Layout and rendering of internationalized text
 ii  libpangocairo-1.0-0:amd64        1.36.3-1ubuntu1.1                amd64        Layout and rendering of internationalized text
@@ -359,10 +359,10 @@ ii  libpython2.7-minimal:amd64       2.7.6-8ubuntu0.2                 amd64     
 ii  libpython2.7-stdlib:amd64        2.7.6-8ubuntu0.2                 amd64        Interactive high-level object-oriented language (standard library, version 2.7)
 ii  libpython3-dev:amd64             3.4.0-0ubuntu2                   amd64        header files and a static library for Python (default)
 ii  libpython3-stdlib:amd64          3.4.0-0ubuntu2                   amd64        interactive high-level object-oriented language (default python3 version)
-ii  libpython3.4:amd64               3.4.0-2ubuntu1.1                 amd64        Shared Python runtime library (version 3.4)
-ii  libpython3.4-dev:amd64           3.4.0-2ubuntu1.1                 amd64        Header files and a static library for Python (v3.4)
-ii  libpython3.4-minimal:amd64       3.4.0-2ubuntu1.1                 amd64        Minimal subset of the Python language (version 3.4)
-ii  libpython3.4-stdlib:amd64        3.4.0-2ubuntu1.1                 amd64        Interactive high-level object-oriented language (standard library, version 3.4)
+ii  libpython3.4:amd64               3.4.3-1ubuntu1~14.04.1           amd64        Shared Python runtime library (version 3.4)
+ii  libpython3.4-dev:amd64           3.4.3-1ubuntu1~14.04.1           amd64        Header files and a static library for Python (v3.4)
+ii  libpython3.4-minimal:amd64       3.4.3-1ubuntu1~14.04.1           amd64        Minimal subset of the Python language (version 3.4)
+ii  libpython3.4-stdlib:amd64        3.4.3-1ubuntu1~14.04.1           amd64        Interactive high-level object-oriented language (standard library, version 3.4)
 ii  libquadmath0:amd64               4.8.4-2ubuntu1~14.04             amd64        GCC Quad-Precision Math Library
 ii  libreadline5:amd64               5.2+dfsg-2                       amd64        GNU readline and history libraries, run-time libraries
 ii  libreadline6:amd64               6.3-4ubuntu2                     amd64        GNU readline and history libraries, run-time libraries
@@ -399,8 +399,8 @@ ii  libssl1.0.0:amd64                1.0.1f-1ubuntu2.15               amd64     
 ii  libstdc++-4.8-dev:amd64          4.8.4-2ubuntu1~14.04             amd64        GNU Standard C++ Library v3 (development files)
 ii  libstdc++6:amd64                 4.8.4-2ubuntu1~14.04             amd64        GNU Standard C++ Library v3
 ii  libsub-name-perl                 0.05-1build4                     amd64        module for assigning a new name to referenced sub
-ii  libsystemd-daemon0:amd64         204-5ubuntu20.13                 amd64        systemd utility library
-ii  libsystemd-login0:amd64          204-5ubuntu20.13                 amd64        systemd login utility library
+ii  libsystemd-daemon0:amd64         204-5ubuntu20.14                 amd64        systemd utility library
+ii  libsystemd-login0:amd64          204-5ubuntu20.14                 amd64        systemd login utility library
 ii  libtamuanova-0.2                 0.2-3                            amd64        Library to calculate an ANOVA
 ii  libtasn1-6:amd64                 3.4-3ubuntu0.3                   amd64        Manage ASN.1 structures (runtime)
 ii  libtcl8.5:amd64                  8.5.15-2ubuntu1                  amd64        Tcl (the Tool Command Language) v8.5 - run-time library files
@@ -418,7 +418,7 @@ ii  libtimedate-perl                 2.3000-1                         all       
 ii  libtinfo5:amd64                  5.9+20140118-1ubuntu1            amd64        shared low-level terminfo library for terminal handling
 ii  libtk8.5:amd64                   8.5.15-2ubuntu3                  amd64        Tk toolkit for Tcl and X11 v8.5 - run-time files
 ii  libtsan0:amd64                   4.8.4-2ubuntu1~14.04             amd64        ThreadSanitizer -- a Valgrind-based detector of data races (runtime)
-ii  libudev1:amd64                   204-5ubuntu20.13                 amd64        libudev shared library
+ii  libudev1:amd64                   204-5ubuntu20.14                 amd64        libudev shared library
 ii  libuecc0                         5-3                              amd64        very small Elliptic Curve Cryptography library
 rc  libunbound2:amd64                1.4.22-1ubuntu4.14.04.2          amd64        library implementing DNS resolution and validation
 ii  liburi-perl                      1.60-1                           all          module to manipulate and access URI strings
@@ -458,8 +458,10 @@ ii  linux-headers-3.13.0-62          3.13.0-62.102                    all       
 ii  linux-headers-3.13.0-62-generic  3.13.0-62.102                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-63          3.13.0-63.103                    all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-63-generic  3.13.0-63.103                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-generic            3.13.0.63.71                     amd64        Generic Linux kernel headers
-ii  linux-headers-virtual            3.13.0.63.71                     amd64        Transitional package.
+ii  linux-headers-3.13.0-65          3.13.0-65.105                    all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-65-generic  3.13.0-65.105                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-generic            3.13.0.65.71                     amd64        Generic Linux kernel headers
+ii  linux-headers-virtual            3.13.0.65.71                     amd64        Transitional package.
 rc  linux-image-3.13.0-32-generic    3.13.0-32.57                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-40-generic    3.13.0-40.69                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-43-generic    3.13.0-43.72                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -479,9 +481,10 @@ rc  linux-image-3.13.0-59-generic    3.13.0-59.98                     amd64     
 rc  linux-image-3.13.0-61-generic    3.13.0-61.100                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-62-generic    3.13.0-62.102                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-63-generic    3.13.0-63.103                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-virtual              3.13.0.63.71                     amd64        This package will always depend on the latest minimal generic kernel image.
-ii  linux-libc-dev:amd64             3.13.0-63.103                    amd64        Linux Kernel Headers for development
-ii  linux-virtual                    3.13.0.63.71                     amd64        Minimal Generic Linux kernel and headers
+ii  linux-image-3.13.0-65-generic    3.13.0-65.105                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-virtual              3.13.0.65.71                     amd64        This package will always depend on the latest minimal generic kernel image.
+ii  linux-libc-dev:amd64             3.13.0-65.105                    amd64        Linux Kernel Headers for development
+ii  linux-virtual                    3.13.0.65.71                     amd64        Minimal Generic Linux kernel and headers
 ii  locales                          2.13+git20120306-12.1            all          common files for locale support
 ii  locate                           4.4.2-7                          amd64        maintain and query an index of a directory tree
 ii  lockfile-progs                   0.1.17                           amd64        Programs for locking and unlocking files and mailboxes
@@ -489,7 +492,7 @@ ii  login                            1:4.1.5.1-1ubuntu9.1             amd64     
 ii  logrotate                        3.8.7-1ubuntu1                   amd64        Log rotation utility
 ii  lsb-base                         4.1+Debian11ubuntu6              all          Linux Standard Base 4.1 init script functionality
 ii  lsb-release                      4.1+Debian11ubuntu6              all          Linux Standard Base version reporting utility
-ii  lshw                             02.16-2ubuntu1.2                 amd64        information about hardware configuration
+ii  lshw                             02.16-2ubuntu1.3                 amd64        information about hardware configuration
 ii  lsof                             4.86+dfsg-1ubuntu2               amd64        Utility to list open files
 ii  lvm2                             2.02.98-6ubuntu2                 amd64        Linux Logical Volume Manager
 ii  m4                               1.4.17-2ubuntu1                  amd64        a macro processing language
@@ -580,12 +583,12 @@ ii  pciutils                         1:3.2.1-1ubuntu5                 amd64     
 ii  perl                             5.18.2-2ubuntu1                  amd64        Larry Wall's Practical Extraction and Report Language
 ii  perl-base                        5.18.2-2ubuntu1                  amd64        minimal Perl system
 ii  perl-modules                     5.18.2-2ubuntu1                  all          Core Perl modules
-ii  php5-cli                         5.5.9+dfsg-1ubuntu4.11           amd64        command-line interpreter for the php5 scripting language
-ii  php5-common                      5.5.9+dfsg-1ubuntu4.11           amd64        Common files for packages built from the php5 source
+ii  php5-cli                         5.5.9+dfsg-1ubuntu4.12           amd64        command-line interpreter for the php5 scripting language
+ii  php5-common                      5.5.9+dfsg-1ubuntu4.12           amd64        Common files for packages built from the php5 source
 ii  php5-imap                        5.4.6-0ubuntu5                   amd64        IMAP module for php5
 ii  php5-json                        1.3.2-2build1                    amd64        JSON module for php5
-ii  php5-mysql                       5.5.9+dfsg-1ubuntu4.11           amd64        MySQL module for php5
-ii  php5-readline                    5.5.9+dfsg-1ubuntu4.11           amd64        Readline module for php5
+ii  php5-mysql                       5.5.9+dfsg-1ubuntu4.12           amd64        MySQL module for php5
+ii  php5-readline                    5.5.9+dfsg-1ubuntu4.12           amd64        Readline module for php5
 ii  plotutils                        2.6-3ubuntu1                     amd64        GNU plotutils command line tools based on libplot
 ii  plymouth                         0.8.8-0ubuntu17.1                amd64        graphical boot animation and logger - main package
 ii  policykit-1                      0.105-4ubuntu2.14.04.1           amd64        framework for managing administrative policies and privileges
@@ -681,13 +684,13 @@ ii  python3-pycurl                   7.19.3-0ubuntu3                  amd64     
 ii  python3-requests                 2.2.1-1ubuntu0.3                 all          elegant and simple HTTP library for Python3, built for human beings
 ii  python3-setuptools               3.3-1ubuntu2                     all          Python3 Distutils Enhancements
 ii  python3-six                      1.5.2-1ubuntu1                   all          Python 2 and 3 compatibility library (Python 3 interface)
-ii  python3-software-properties      0.92.37.3                        all          manage the repositories that you install software from
+ii  python3-software-properties      0.92.37.5                        all          manage the repositories that you install software from
 ii  python3-urllib3                  1.7.1-1ubuntu3                   all          HTTP library with thread-safe connection pooling for Python3
 ii  python3-wheel                    0.24.0-1~ubuntu1                 all          built-package format for Python
 ii  python3-yaml                     3.10-4ubuntu0.1                  amd64        YAML parser and emitter for Python3
-ii  python3.4                        3.4.0-2ubuntu1.1                 amd64        Interactive high-level object-oriented language (version 3.4)
-ii  python3.4-dev                    3.4.0-2ubuntu1.1                 amd64        Header files and a static library for Python (v3.4)
-ii  python3.4-minimal                3.4.0-2ubuntu1.1                 amd64        Minimal subset of the Python language (version 3.4)
+ii  python3.4                        3.4.3-1ubuntu1~14.04.1           amd64        Interactive high-level object-oriented language (version 3.4)
+ii  python3.4-dev                    3.4.3-1ubuntu1~14.04.1           amd64        Header files and a static library for Python (v3.4)
+ii  python3.4-minimal                3.4.3-1ubuntu1~14.04.1           amd64        Minimal subset of the Python language (version 3.4)
 ii  readline-common                  6.3-4ubuntu2                     all          GNU readline and history libraries, common files
 ii  resolvconf                       1.69ubuntu1.1                    all          name server information handler
 ii  ri1.9.1                          1.9.3.484-2ubuntu1.2             all          Ruby Interactive reference (for Ruby 1.9.1)
@@ -726,14 +729,14 @@ ii  sed                              4.2.2-4ubuntu1                   amd64     
 ii  sensible-utils                   0.0.9                            all          Utilities for sensible alternative selection
 ii  sgml-base                        1.26+nmu4ubuntu1                 all          SGML infrastructure and SGML catalog file support
 ii  shared-mime-info                 1.2-0ubuntu3                     amd64        FreeDesktop.org shared MIME database and spec
-ii  software-properties-common       0.92.37.3                        all          manage the repositories that you install software from (common)
+ii  software-properties-common       0.92.37.5                        all          manage the repositories that you install software from (common)
 ii  sqlite3                          3.8.2-1ubuntu2.1                 amd64        Command line interface for SQLite 3
 ii  ssh                              1:6.6p1-2ubuntu2.3               all          secure shell client and server (metapackage)
 ii  ssh-import-id                    3.21-0ubuntu1                    all          securely retrieve an SSH public key and install it locally
 ii  ssl-cert                         1.0.33                           all          simple debconf wrapper for OpenSSL
 ii  sudo                             1.8.9p5-1ubuntu1.2               amd64        Provide limited super user privileges to specific users
 ii  sysstat                          10.2.0-1                         amd64        system performance tools for Linux
-ii  systemd-services                 204-5ubuntu20.13                 amd64        systemd runtime services
+ii  systemd-services                 204-5ubuntu20.14                 amd64        systemd runtime services
 ii  systemd-shim                     6-2bzr1                          amd64        shim for systemd
 ii  sysv-rc                          2.88dsf-41ubuntu6.2              all          System-V-like runlevel change mechanism
 ii  sysvinit-utils                   2.88dsf-41ubuntu6.2              amd64        System-V-like utilities
@@ -750,7 +753,7 @@ ii  tzdata                           2015f-0ubuntu0.14.04             all       
 ii  ubuntu-keyring                   2012.05.19                       all          GnuPG keys of the Ubuntu archive
 ii  ubuntu-minimal                   1.325                            amd64        Minimal core of Ubuntu
 ii  ucf                              3.0027+nmu1                      all          Update Configuration File(s): preserve user changes to config files
-ii  udev                             204-5ubuntu20.13                 amd64        /dev/ and hotplug management daemon
+ii  udev                             204-5ubuntu20.14                 amd64        /dev/ and hotplug management daemon
 ii  unattended-upgrades              0.82.1ubuntu2.3                  all          automatic installation of security upgrades
 ii  update-notifier-common           0.154.1ubuntu1                   all          Files shared between update-notifier and other packages
 ii  upstart                          1.12.1-0ubuntu4.2                amd64        event-based init daemon
