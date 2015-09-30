@@ -196,9 +196,6 @@ protocol bgp myk2 from ebgp_ic {
 protocol bgp myk3 from ebgp_ic {
     neighbor 10.207.0.82 as 65032;
 }
-protocol bgp moehne003 from ebgp_ic {
-    neighbor 10.207.0.121 as 65057;
-}
 protocol bgp moehne1 from ebgp_ic {
     neighbor 10.207.0.120 as 65057;
 }
@@ -240,6 +237,9 @@ protocol bgp trier1 from ebgp_ic {
 }
 protocol bgp trier2 from ebgp_ic {
     neighbor 10.207.0.221 as 65022;
+}
+protocol bgp trier3 from ebgp_ic {
+    neighbor 10.207.0.222 as 65022;
 }
 protocol bgp troisdorf1 from ebgp_ic {
     neighbor 10.207.0.185 as 65066;
