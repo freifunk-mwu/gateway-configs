@@ -7,6 +7,7 @@
 roa 10.5.0.0/16     max  20 as  65077; # aachen
 roa 10.205.0.0/16   max  20 as  65205; # amsterdam
 roa 10.11.0.0/18    max  20 as  65050; # augsburg
+roa 10.144.0.0/16   max  20 as  64859; # badoldesloe
 roa 10.239.0.0/16   max  20 as  65090; # basel
 roa 10.195.0.0/16   max  20 as  65025; # bayreuth
 roa 10.230.0.0/16   max  20 as  44194; # berlin
@@ -36,6 +37,7 @@ roa 104.60.0.0/16   max  20 as  65060; # freiburg
 roa 10.185.0.0/16   max  20 as  65142; # fulda
 roa 10.28.0.0/16    max  20 as  65397; # gelsenkirchen
 roa 10.181.0.0/16   max  20 as  65181; # gera-greiz
+roa 87.239.143.0/25 max  25 as  64865; # giessen
 roa 10.156.0.0/16   max  20 as  65120; # glwupper
 roa 10.109.0.0/16   max  20 as  65527; # goettingen
 roa 10.12.0.0/16    max  20 as  65048; # graz
