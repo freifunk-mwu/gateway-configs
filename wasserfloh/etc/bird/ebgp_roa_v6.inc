@@ -7,6 +7,7 @@
 roa 2a03:2260:114::/48       max  64 as  65077; # aachen
 roa 2001:bf7:2520::/44       max  64 as  65050; # augsburg
 roa fdca:ffee:ffa::/48       max  64 as  65050; # augsburg
+roa 2001:bf7:80::/48         max  64 as  64859; # badoldesloe
 roa 2001:bf7:750::/44        max  64 as  44194; # berlin
 roa 2001:bf7:760::/44        max  64 as  44194; # berlin
 roa 2001:bf7:770::/44        max  64 as  44194; # berlin
@@ -38,6 +39,7 @@ roa fd00:65a8:93a4::/48      max  64 as  65142; # fulda
 roa fd00:fffd:fffd::/48      max  64 as  65142; # fulda
 roa fda0:747e:ab29:209::/64  max  64 as  65397; # gelsenkirchen
 roa fdb5:078b:64cc::/48      max  64 as  65181; # gera-greiz
+roa 2001:4dd0:ff00:9d18::/64 max  64 as  64865; # giessen
 roa fda0:747e:ab29:5142::/64 max  64 as  65120; # glwupper
 roa fde6:36fc:c985::/64      max  64 as  65527; # goettingen
 roa 2001:bf7:100:4859::/64   max  64 as  65530; # gronau (delegation)
