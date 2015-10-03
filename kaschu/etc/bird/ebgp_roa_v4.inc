@@ -7,6 +7,7 @@
 roa 10.5.0.0/16     max  20 as  65077; # aachen
 roa 10.205.0.0/16   max  20 as  65205; # amsterdam
 roa 10.11.0.0/18    max  20 as  65050; # augsburg
+roa 10.144.0.0/16   max  20 as  64859; # badoldesloe
 roa 10.239.0.0/16   max  20 as  65090; # basel
 roa 10.195.0.0/16   max  20 as  65025; # bayreuth
 roa 10.230.0.0/16   max  20 as  44194; # berlin
