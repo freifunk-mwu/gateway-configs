@@ -10,6 +10,9 @@ protocol bgp amsterdam1 from ebgp_ic {
 protocol bgp augsburg2 from ebgp_ic {
     neighbor 10.207.0.68 as 65050;
 }
+protocol bgp badoldesloe3 from ebgp_ic {
+    neighbor 10.207.0.90 as 64859;
+}
 protocol bgp basel1 from ebgp_ic {
     neighbor 10.207.5.1 as 65090;
 }
