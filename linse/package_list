@@ -131,7 +131,7 @@ ii  libc6:amd64                      2.19-0ubuntu6.6                  amd64     
 ii  libc6-dev:amd64                  2.19-0ubuntu6.6                  amd64        Embedded GNU C Library: Development Libraries and Header Files
 ii  libcap2:amd64                    1:2.24-0ubuntu2                  amd64        support for getting/setting POSIX.1e capabilities
 ii  libcap2-bin                      1:2.24-0ubuntu2                  amd64        basic utility programs for using capabilities
-ii  libcgmanager0:amd64              0.24-0ubuntu7.3                  amd64        Central cgroup manager daemon (client library)
+ii  libcgmanager0:amd64              0.24-0ubuntu7.5                  amd64        Central cgroup manager daemon (client library)
 ii  libck-connector0:amd64           0.4.5-3.1ubuntu2                 amd64        ConsoleKit libraries
 ii  libclass-accessor-perl           0.34-1                           all          Perl module that automatically generates accessors
 ii  libcloog-isl4:amd64              0.18.2-1                         amd64        Chunky Loop Generator (runtime library)
