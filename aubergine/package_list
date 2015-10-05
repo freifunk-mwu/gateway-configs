@@ -179,7 +179,7 @@ ii  libcap2:amd64                    1:2.24-0ubuntu2                  amd64     
 ii  libcap2-bin                      1:2.24-0ubuntu2                  amd64        basic utility programs for using capabilities
 ii  libcdb1:amd64                    0.78                             amd64        shared library for constant databases (cdb)
 ii  libcdt5                          2.36.0-0ubuntu3.1                amd64        rich set of graph drawing tools - cdt library
-ii  libcgmanager0:amd64              0.24-0ubuntu7.3                  amd64        Central cgroup manager daemon (client library)
+ii  libcgmanager0:amd64              0.24-0ubuntu7.5                  amd64        Central cgroup manager daemon (client library)
 ii  libcgraph6                       2.36.0-0ubuntu3.1                amd64        rich set of graph drawing tools - cgraph library
 ii  libck-connector0:amd64           0.4.5-3.1ubuntu2                 amd64        ConsoleKit libraries
 rc  libclamav6                       0.98.1+dfsg-4ubuntu1.1           amd64        anti-virus utility for Unix - library
