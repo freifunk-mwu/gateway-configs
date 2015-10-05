@@ -113,6 +113,10 @@ zone "ffda" {
     type static-stub;
     server-addresses { 10.223.0.1; 10.223.0.2; 10.223.0.3; 10.223.0.4; fdca:ffee:ffda::1; fdca:ffee:ffda::2; fdca:ffee:ffda::3; fdca:ffee:ffda::4; };
 };
+zone "ffda.io" {
+    type static-stub;
+    server-addresses { 10.223.0.1; 10.223.0.2; 10.223.0.3; 10.223.0.4; fdca:ffee:ffda::1; fdca:ffee:ffda::2; fdca:ffee:ffda::3; fdca:ffee:ffda::4; };
+};
 zone "a.d.f.f.e.e.f.f.a.c.d.f.ip6.arpa" {
     type static-stub;
     server-addresses { 10.223.0.1; 10.223.0.2; 10.223.0.3; 10.223.0.4; fdca:ffee:ffda::1; fdca:ffee:ffda::2; fdca:ffee:ffda::3; fdca:ffee:ffda::4; };
@@ -445,15 +449,15 @@ zone "2.1.f.f.e.e.f.f.a.c.d.f.ip6.arpa" {
 # 
 zone "ffpi" {
     type static-stub;
-    server-addresses { 10.137.10.1; 10.137.11.1; 10.137.12.1; fde8:21c6:9d82::0a01; fde8:21c6:9d82::0b01; fde8:21c6:9d82::0c01; };
+    server-addresses { 10.137.12.1; 10.137.13.1; 10.137.10.1; fde8:21c6:9d82::0c01; fde8:21c6:9d82::0d01; fde8:21c6:9d82::0a01; };
 };
 zone "137.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.137.10.1; 10.137.11.1; 10.137.12.1; fde8:21c6:9d82::0a01; fde8:21c6:9d82::0b01; fde8:21c6:9d82::0c01; };
+    server-addresses { 10.137.12.1; 10.137.13.1; 10.137.10.1; fde8:21c6:9d82::0c01; fde8:21c6:9d82::0d01; fde8:21c6:9d82::0a01; };
 };
 zone "2.8.d.9.6.c.1.2.8.e.d.f.ip6.arpa" {
     type static-stub;
-    server-addresses { 10.137.10.1; 10.137.11.1; 10.137.12.1; fde8:21c6:9d82::0a01; fde8:21c6:9d82::0b01; fde8:21c6:9d82::0c01; };
+    server-addresses { 10.137.12.1; 10.137.13.1; 10.137.10.1; fde8:21c6:9d82::0c01; fde8:21c6:9d82::0d01; fde8:21c6:9d82::0a01; };
 };
 # 
 # radevormwald

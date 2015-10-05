@@ -10,6 +10,9 @@ protocol bgp amsterdam1 from ebgp_ic {
 protocol bgp augsburg2 from ebgp_ic {
     neighbor 10.207.0.68 as 65050;
 }
+protocol bgp badoldesloe3 from ebgp_ic {
+    neighbor 10.207.0.90 as 64859;
+}
 protocol bgp basel1 from ebgp_ic {
     neighbor 10.207.5.1 as 65090;
 }
@@ -187,8 +190,14 @@ protocol bgp luebeck2 from ebgp_ic {
 protocol bgp luenen from ebgp_ic {
     neighbor 10.207.0.34 as 65034;
 }
-protocol bgp moehne003 from ebgp_ic {
-    neighbor 10.207.0.121 as 65057;
+protocol bgp myk1 from ebgp_ic {
+    neighbor 10.207.0.80 as 65032;
+}
+protocol bgp myk2 from ebgp_ic {
+    neighbor 10.207.0.81 as 65032;
+}
+protocol bgp myk3 from ebgp_ic {
+    neighbor 10.207.0.82 as 65032;
 }
 protocol bgp moehne1 from ebgp_ic {
     neighbor 10.207.0.120 as 65057;
@@ -231,6 +240,9 @@ protocol bgp trier1 from ebgp_ic {
 }
 protocol bgp trier2 from ebgp_ic {
     neighbor 10.207.0.221 as 65022;
+}
+protocol bgp trier3 from ebgp_ic {
+    neighbor 10.207.0.222 as 65022;
 }
 protocol bgp troisdorf1 from ebgp_ic {
     neighbor 10.207.0.185 as 65066;

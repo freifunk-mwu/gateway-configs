@@ -7,6 +7,7 @@
 roa 10.5.0.0/16     max  20 as  65077; # aachen
 roa 10.205.0.0/16   max  20 as  65205; # amsterdam
 roa 10.11.0.0/18    max  20 as  65050; # augsburg
+roa 10.144.0.0/16   max  20 as  64859; # badoldesloe
 roa 10.239.0.0/16   max  20 as  65090; # basel
 roa 10.195.0.0/16   max  20 as  65025; # bayreuth
 roa 10.230.0.0/16   max  20 as  44194; # berlin
@@ -36,6 +37,7 @@ roa 104.60.0.0/16   max  20 as  65060; # freiburg
 roa 10.185.0.0/16   max  20 as  65142; # fulda
 roa 10.28.0.0/16    max  20 as  65397; # gelsenkirchen
 roa 10.181.0.0/16   max  20 as  65181; # gera-greiz
+roa 87.239.143.0/25 max  25 as  64865; # giessen
 roa 10.156.0.0/16   max  20 as  65120; # glwupper
 roa 10.109.0.0/16   max  20 as  65527; # goettingen
 roa 10.12.0.0/16    max  20 as  65048; # graz
@@ -60,7 +62,6 @@ roa 10.54.0.0/16    max  20 as  65514; # kassel
 roa 10.158.0.0/15   max  20 as  65528; # kbu
 roa 172.26.0.0/15   max  20 as  65528; # kbu
 roa 10.116.0.0/16   max  20 as  65525; # kiel
-roa 10.222.0.0/16   max  20 as  65032; # koblenz
 roa 10.16.0.0/17    max  20 as  65530; # kuerten (delegation)
 roa 10.21.0.0/16    max  20 as  64780; # leichlingen
 roa 10.59.0.0/21    max  21 as  65041; # leipzig
@@ -74,6 +75,7 @@ roa 10.130.0.0/16   max  20 as 201173; # luebeck
 roa 10.216.0.0/16   max  20 as  65034; # luenen
 roa 10.24.128.0/18  max  20 as  64769; # lux
 roa 10.139.0.0/16   max  20 as  65039; # magdeburg
+roa 10.222.0.0/16   max  20 as  65032; # mayen-koblenz
 roa 10.15.0.0/16    max  20 as  65057; # moehne
 roa 10.27.0.0/16    max  20 as  65057; # moehne
 roa 10.80.0.0/16    max  20 as  65080; # muenchen
