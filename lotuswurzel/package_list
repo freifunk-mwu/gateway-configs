@@ -182,7 +182,7 @@ ii  libcairo2:amd64                      1.13.0~20140204-0ubuntu1.1           am
 rc  libcap-ng0                           0.7.3-1ubuntu2                       amd64        An alternate POSIX capabilities library
 ii  libcap2:amd64                        1:2.24-0ubuntu2                      amd64        support for getting/setting POSIX.1e capabilities
 ii  libcap2-bin                          1:2.24-0ubuntu2                      amd64        basic utility programs for using capabilities
-ii  libcgmanager0:amd64                  0.24-0ubuntu7.3                      amd64        Central cgroup manager daemon (client library)
+ii  libcgmanager0:amd64                  0.24-0ubuntu7.5                      amd64        Central cgroup manager daemon (client library)
 ii  libck-connector0:amd64               0.4.5-3.1ubuntu2                     amd64        ConsoleKit libraries
 ii  libclass-accessor-perl               0.34-1                               all          Perl module that automatically generates accessors
 ii  libclass-load-perl                   0.20-1                               all          module for loading modules by name
