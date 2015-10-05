@@ -65,7 +65,7 @@ ii  debian-goodies                   0.63                             all       
 ii  debianutils                      4.4                              amd64        Miscellaneous utilities specific to Debian
 ii  dh-python                        1.20140128-1ubuntu8.2            all          Debian helper tools for packaging Python libraries and applications
 ii  diffutils                        1:3.3-1                          amd64        File comparison utilities
-ii  dkms                             2.2.0.3-1.1ubuntu5.14.04.2       all          Dynamic Kernel Module Support Framework
+ii  dkms                             2.2.0.3-1.1ubuntu5.14.04.5       all          Dynamic Kernel Module Support Framework
 ii  dmidecode                        2.12-2                           amd64        SMBIOS/DMI table decoder
 ii  dmsetup                          2:1.02.77-6ubuntu2               amd64        Linux Kernel Device Mapper userspace library
 ii  dnsutils                         1:9.9.5.dfsg-3ubuntu0.5          amd64        Clients provided with BIND
@@ -140,6 +140,7 @@ ii  isc-dhcp-common                  4.2.4-8ffmwu0                    amd64     
 ii  isc-dhcp-server                  4.2.4-8ffmwu0                    amd64        ISC DHCP server for automatic IP address assignment
 ii  iso-codes                        3.52-1                           all          ISO language, territory, currency, script codes and their translations
 ii  joe                              3.7-2.3ubuntu1                   amd64        user friendly full screen text editor
+ii  jq                               1.3-1.1ubuntu1                   amd64        lightweight and flexible command-line JSON processor
 ii  kbd                              1.15.5-1ubuntu1                  amd64        Linux console font and keytable utilities
 ii  keyboard-configuration           1.70ubuntu8                      all          system-wide keyboard preferences
 ii  klibc-utils                      2.0.3-0ubuntu1                   amd64        small utilities built with klibc for early boot
@@ -187,7 +188,7 @@ ii  libcairo2:amd64                  1.13.0~20140204-0ubuntu1.1       amd64     
 ii  libcap-ng0                       0.7.3-1ubuntu2                   amd64        An alternate POSIX capabilities library
 ii  libcap2:amd64                    1:2.24-0ubuntu2                  amd64        support for getting/setting POSIX.1e capabilities
 ii  libcap2-bin                      1:2.24-0ubuntu2                  amd64        basic utility programs for using capabilities
-ii  libcgmanager0:amd64              0.24-0ubuntu7.3                  amd64        Central cgroup manager daemon (client library)
+ii  libcgmanager0:amd64              0.24-0ubuntu7.5                  amd64        Central cgroup manager daemon (client library)
 ii  libck-connector0:amd64           0.4.5-3.1ubuntu2                 amd64        ConsoleKit libraries
 ii  libclass-accessor-perl           0.34-1                           all          Perl module that automatically generates accessors
 ii  libcloog-isl4:amd64              0.18.2-1                         amd64        Chunky Loop Generator (runtime library)
