@@ -7,9 +7,9 @@ ii  acl                                 2.2.52-1                             amd
 ii  adduser                             3.113+nmu3ubuntu3                    all          add and remove users and groups
 ii  alfred                              2015.1-0ffmwu0~trusty                amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
 ii  alfred-json                         0.3.1-0ffmwu1~trusty                 amd64        A.L.F.R.E.D client supporting GZIP decompression and JSON, string and binary output
-ii  apache2                             2.4.7-1ubuntu4.5                     amd64        Apache HTTP Server
-ii  apache2-bin                         2.4.7-1ubuntu4.5                     amd64        Apache HTTP Server (binary files and modules)
-ii  apache2-data                        2.4.7-1ubuntu4.5                     all          Apache HTTP Server (common files)
+ii  apache2                             2.4.7-1ubuntu4.6                     amd64        Apache HTTP Server
+ii  apache2-bin                         2.4.7-1ubuntu4.6                     amd64        Apache HTTP Server (binary files and modules)
+ii  apache2-data                        2.4.7-1ubuntu4.6                     all          Apache HTTP Server (common files)
 ii  apt                                 1.0.1ubuntu2.10                      amd64        commandline package manager
 ii  apt-utils                           1.0.1ubuntu2.10                      amd64        package management related utility programs
 ii  apt-xapian-index                    0.45ubuntu4                          all          maintenance and search tools for a Xapian index of Debian packages
@@ -28,7 +28,7 @@ ii  bc                                  1.06.95-8ubuntu1                     amd
 ii  bind9                               1:9.9.5.dfsg-3ubuntu0.5              amd64        Internet Domain Name Server
 ii  bind9-host                          1:9.9.5.dfsg-3ubuntu0.5              amd64        Version of 'host' bundled with BIND 9.X
 ii  bind9utils                          1:9.9.5.dfsg-3ubuntu0.5              amd64        Utilities for BIND
-ii  binutils                            2.24-5ubuntu13                       amd64        GNU assembler, linker and binary utilities
+ii  binutils                            2.24-5ubuntu14                       amd64        GNU assembler, linker and binary utilities
 ii  bird                                1.5.0-1+trusty+1                     amd64        Internet Routing Daemon
 ii  bison                               2:3.0.2.dfsg-2                       amd64        YACC-compatible parser generator
 ii  bridge-utils                        1.5-6ubuntu2                         amd64        Utilities for configuring the Linux Ethernet bridge
@@ -54,7 +54,7 @@ ii  debconf-i18n                        1.5.51ubuntu2                        all
 ii  debianutils                         4.4                                  amd64        Miscellaneous utilities specific to Debian
 ii  dh-python                           1.20140128-1ubuntu8.2                all          Debian helper tools for packaging Python libraries and applications
 ii  diffutils                           1:3.3-1                              amd64        File comparison utilities
-ii  dkms                                2.2.0.3-1.1ubuntu5.14.04.2           all          Dynamic Kernel Module Support Framework
+ii  dkms                                2.2.0.3-1.1ubuntu5.14.04.5           all          Dynamic Kernel Module Support Framework
 ii  dmidecode                           2.12-2                               amd64        SMBIOS/DMI table decoder
 ii  dmsetup                             2:1.02.77-6ubuntu2                   amd64        Linux Kernel Device Mapper userspace library
 ii  dnsutils                            1:9.9.5.dfsg-3ubuntu0.5              amd64        Clients provided with BIND
@@ -163,7 +163,7 @@ ii  libcairo2:amd64                     1.13.0~20140204-0ubuntu1.1           amd
 ii  libcap-ng0                          0.7.3-1ubuntu2                       amd64        An alternate POSIX capabilities library
 ii  libcap2:amd64                       1:2.24-0ubuntu2                      amd64        support for getting/setting POSIX.1e capabilities
 ii  libcap2-bin                         1:2.24-0ubuntu2                      amd64        basic utility programs for using capabilities
-ii  libcgmanager0:amd64                 0.24-0ubuntu7.3                      amd64        Central cgroup manager daemon (client library)
+ii  libcgmanager0:amd64                 0.24-0ubuntu7.5                      amd64        Central cgroup manager daemon (client library)
 ii  libck-connector0:amd64              0.4.5-3.1ubuntu2                     amd64        ConsoleKit libraries
 ii  libclass-accessor-perl              0.34-1                               all          Perl module that automatically generates accessors
 ii  libcloog-isl4:amd64                 0.18.2-1                             amd64        Chunky Loop Generator (runtime library)
@@ -297,10 +297,10 @@ ii  libpython2.7-minimal:amd64          2.7.6-8ubuntu0.2                     amd
 ii  libpython2.7-stdlib:amd64           2.7.6-8ubuntu0.2                     amd64        Interactive high-level object-oriented language (standard library, version 2.7)
 ii  libpython3-dev:amd64                3.4.0-0ubuntu2                       amd64        header files and a static library for Python (default)
 ii  libpython3-stdlib:amd64             3.4.0-0ubuntu2                       amd64        interactive high-level object-oriented language (default python3 version)
-ii  libpython3.4:amd64                  3.4.0-2ubuntu1.1                     amd64        Shared Python runtime library (version 3.4)
-ii  libpython3.4-dev:amd64              3.4.0-2ubuntu1.1                     amd64        Header files and a static library for Python (v3.4)
-ii  libpython3.4-minimal:amd64          3.4.0-2ubuntu1.1                     amd64        Minimal subset of the Python language (version 3.4)
-ii  libpython3.4-stdlib:amd64           3.4.0-2ubuntu1.1                     amd64        Interactive high-level object-oriented language (standard library, version 3.4)
+ii  libpython3.4:amd64                  3.4.3-1ubuntu1~14.04.1               amd64        Shared Python runtime library (version 3.4)
+ii  libpython3.4-dev:amd64              3.4.3-1ubuntu1~14.04.1               amd64        Header files and a static library for Python (v3.4)
+ii  libpython3.4-minimal:amd64          3.4.3-1ubuntu1~14.04.1               amd64        Minimal subset of the Python language (version 3.4)
+ii  libpython3.4-stdlib:amd64           3.4.3-1ubuntu1~14.04.1               amd64        Interactive high-level object-oriented language (standard library, version 3.4)
 ii  libquadmath0:amd64                  4.8.4-2ubuntu1~14.04                 amd64        GCC Quad-Precision Math Library
 ii  libreadline6:amd64                  6.3-4ubuntu2                         amd64        GNU readline and history libraries, run-time libraries
 ii  librecode0:amd64                    3.6-21                               amd64        Shared library on which recode is based
@@ -344,7 +344,7 @@ ii  libtimedate-perl                    2.3000-1                             all
 ii  libtinfo5:amd64                     5.9+20140118-1ubuntu1                amd64        shared low-level terminfo library for terminal handling
 ii  libtool                             2.4.2-1.7ubuntu1                     amd64        Generic library support script
 ii  libtsan0:amd64                      4.8.4-2ubuntu1~14.04                 amd64        ThreadSanitizer -- a Valgrind-based detector of data races (runtime)
-ii  libudev1:amd64                      204-5ubuntu20.13                     amd64        libudev shared library
+ii  libudev1:amd64                      204-5ubuntu20.14                     amd64        libudev shared library
 ii  libuecc0                            5-3                                  amd64        very small Elliptic Curve Cryptography library
 ii  libusb-0.1-4:amd64                  2:0.1.12-23.3ubuntu1                 amd64        userspace USB programming library
 ii  libustr-1.0-1:amd64                 1.0.4-3ubuntu2                       amd64        Micro string library: shared library
@@ -380,8 +380,10 @@ ii  linux-headers-3.13.0-62             3.13.0-62.102                        all
 ii  linux-headers-3.13.0-62-generic     3.13.0-62.102                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-63             3.13.0-63.103                        all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-63-generic     3.13.0-63.103                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-generic               3.13.0.63.71                         amd64        Generic Linux kernel headers
-ii  linux-headers-server                3.13.0.63.71                         amd64        Transitional package.
+ii  linux-headers-3.13.0-65             3.13.0-65.105                        all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-65-generic     3.13.0-65.105                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-generic               3.13.0.65.71                         amd64        Generic Linux kernel headers
+ii  linux-headers-server                3.13.0.65.71                         amd64        Transitional package.
 rc  linux-image-3.13.0-24-generic       3.13.0-24.47                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-35-generic       3.13.0-35.62                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-37-generic       3.13.0-37.64                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -401,6 +403,7 @@ rc  linux-image-3.13.0-57-generic       3.13.0-57.95                         amd
 rc  linux-image-3.13.0-61-generic       3.13.0-61.100                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-62-generic       3.13.0-62.102                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-63-generic       3.13.0-63.103                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-3.13.0-65-generic       3.13.0-65.105                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-24-generic 3.13.0-24.47                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-35-generic 3.13.0-35.62                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-37-generic 3.13.0-37.64                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
@@ -420,10 +423,11 @@ rc  linux-image-extra-3.13.0-57-generic 3.13.0-57.95                         amd
 rc  linux-image-extra-3.13.0-61-generic 3.13.0-61.100                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-62-generic 3.13.0-62.102                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-63-generic 3.13.0-63.103                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-generic                 3.13.0.63.71                         amd64        Generic Linux kernel image
-ii  linux-libc-dev:amd64                3.13.0-63.103                        amd64        Linux Kernel Headers for development
-ii  linux-source                        3.13.0.63.71                         all          Linux kernel source with Ubuntu patches
-ii  linux-source-3.13.0                 3.13.0-63.103                        all          Linux kernel source for version 3.13.0 with Ubuntu patches
+ii  linux-image-extra-3.13.0-65-generic 3.13.0-65.105                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-generic                 3.13.0.65.71                         amd64        Generic Linux kernel image
+ii  linux-libc-dev:amd64                3.13.0-65.105                        amd64        Linux Kernel Headers for development
+ii  linux-source                        3.13.0.65.71                         all          Linux kernel source with Ubuntu patches
+ii  linux-source-3.13.0                 3.13.0-65.105                        all          Linux kernel source for version 3.13.0 with Ubuntu patches
 ii  lm-sensors                          1:3.3.4-2ubuntu1                     amd64        utilities to read temperature/voltage/fan sensors
 ii  locales                             2.13+git20120306-12.1                all          common files for locale support
 ii  lockfile-progs                      0.1.17                               amd64        Programs for locking and unlocking files and mailboxes
@@ -519,12 +523,12 @@ ii  python3-pycurl                      7.19.3-0ubuntu3                      amd
 ii  python3-requests                    2.2.1-1ubuntu0.3                     all          elegant and simple HTTP library for Python3, built for human beings
 ii  python3-setuptools                  3.3-1ubuntu2                         all          Python3 Distutils Enhancements
 ii  python3-six                         1.5.2-1ubuntu1                       all          Python 2 and 3 compatibility library (Python 3 interface)
-ii  python3-software-properties         0.92.37.3                            all          manage the repositories that you install software from
+ii  python3-software-properties         0.92.37.5                            all          manage the repositories that you install software from
 ii  python3-urllib3                     1.7.1-1ubuntu3                       all          HTTP library with thread-safe connection pooling for Python3
 ii  python3-wheel                       0.24.0-1~ubuntu1                     all          built-package format for Python
-ii  python3.4                           3.4.0-2ubuntu1.1                     amd64        Interactive high-level object-oriented language (version 3.4)
-ii  python3.4-dev                       3.4.0-2ubuntu1.1                     amd64        Header files and a static library for Python (v3.4)
-ii  python3.4-minimal                   3.4.0-2ubuntu1.1                     amd64        Minimal subset of the Python language (version 3.4)
+ii  python3.4                           3.4.3-1ubuntu1~14.04.1               amd64        Interactive high-level object-oriented language (version 3.4)
+ii  python3.4-dev                       3.4.3-1ubuntu1~14.04.1               amd64        Header files and a static library for Python (v3.4)
+ii  python3.4-minimal                   3.4.3-1ubuntu1~14.04.1               amd64        Minimal subset of the Python language (version 3.4)
 ii  radvd                               1:1.9.1-1.1ubuntu2                   amd64        Router Advertisement Daemon
 ii  readline-common                     6.3-4ubuntu2                         all          GNU readline and history libraries, common files
 ii  resolvconf                          1.69ubuntu1.1                        all          name server information handler
@@ -541,7 +545,7 @@ ii  shared-mime-info                    1.2-0ubuntu3                         amd
 ii  smartmontools                       6.2+svn3841-1.2                      amd64        control and monitor storage systems using S.M.A.R.T.
 ii  snmp                                5.7.2~dfsg-8.1ubuntu3.1              amd64        SNMP (Simple Network Management Protocol) applications
 ii  snmpd                               5.7.2~dfsg-8.1ubuntu3.1              amd64        SNMP (Simple Network Management Protocol) agents
-ii  software-properties-common          0.92.37.3                            all          manage the repositories that you install software from (common)
+ii  software-properties-common          0.92.37.5                            all          manage the repositories that you install software from (common)
 ii  ssh                                 1:6.6p1-2ubuntu2.3                   all          secure shell client and server (metapackage)
 ii  ssh-import-id                       3.21-0ubuntu1                        all          securely retrieve an SSH public key and install it locally
 ii  ssl-cert                            1.0.33                               all          simple debconf wrapper for OpenSSL
@@ -562,7 +566,7 @@ ii  tzdata                              2015f-0ubuntu0.14.04                 all
 ii  ubuntu-keyring                      2012.05.19                           all          GnuPG keys of the Ubuntu archive
 ii  ubuntu-minimal                      1.325                                amd64        Minimal core of Ubuntu
 ii  ucf                                 3.0027+nmu1                          all          Update Configuration File(s): preserve user changes to config files
-ii  udev                                204-5ubuntu20.13                     amd64        /dev/ and hotplug management daemon
+ii  udev                                204-5ubuntu20.14                     amd64        /dev/ and hotplug management daemon
 ii  unattended-upgrades                 0.82.1ubuntu2.3                      all          automatic installation of security upgrades
 ii  unzip                               6.0-9ubuntu1.3                       amd64        De-archiver for .zip files
 rc  update-inetd                        4.43                                 all          inetd configuration file updater
