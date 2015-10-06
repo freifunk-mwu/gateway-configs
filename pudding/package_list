@@ -209,7 +209,7 @@ ii  libcairo2:amd64                     1.13.0~20140204-0ubuntu1.1           amd
 ii  libcap-ng0                          0.7.3-1ubuntu2                       amd64        An alternate POSIX capabilities library
 ii  libcap2:amd64                       1:2.24-0ubuntu2                      amd64        support for getting/setting POSIX.1e capabilities
 ii  libcap2-bin                         1:2.24-0ubuntu2                      amd64        basic utility programs for using capabilities
-ii  libcgmanager0:amd64                 0.24-0ubuntu7.3                      amd64        Central cgroup manager daemon (client library)
+ii  libcgmanager0:amd64                 0.24-0ubuntu7.5                      amd64        Central cgroup manager daemon (client library)
 ii  libck-connector0:amd64              0.4.5-3.1ubuntu2                     amd64        ConsoleKit libraries
 ii  libclass-accessor-perl              0.34-1                               all          Perl module that automatically generates accessors
 ii  libcloog-isl4:amd64                 0.18.2-1                             amd64        Chunky Loop Generator (runtime library)
@@ -543,8 +543,6 @@ ii  linux-headers-3.13.0-48             3.13.0-48.80                         all
 ii  linux-headers-3.13.0-48-generic     3.13.0-48.80                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-52             3.13.0-52.86                         all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-52-generic     3.13.0-52.86                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-62             3.13.0-62.102                        all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-62-generic     3.13.0-62.102                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-65             3.13.0-65.105                        all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-65-generic     3.13.0-65.105                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-generic               3.13.0.65.71                         amd64        Generic Linux kernel headers
@@ -568,7 +566,7 @@ rc  linux-image-3.13.0-57-generic       3.13.0-57.95                         amd
 rc  linux-image-3.13.0-58-generic       3.13.0-58.97                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-59-generic       3.13.0-59.98                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-61-generic       3.13.0-61.100                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-62-generic       3.13.0-62.102                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-62-generic       3.13.0-62.102                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-63-generic       3.13.0-63.103                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-65-generic       3.13.0-65.105                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-24-generic 3.13.0-24.47                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
@@ -591,7 +589,7 @@ rc  linux-image-extra-3.13.0-57-generic 3.13.0-57.95                         amd
 rc  linux-image-extra-3.13.0-58-generic 3.13.0-58.97                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-59-generic 3.13.0-59.98                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-61-generic 3.13.0-61.100                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-62-generic 3.13.0-62.102                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-62-generic 3.13.0-62.102                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-63-generic 3.13.0-63.103                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-65-generic 3.13.0-65.105                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-generic                 3.13.0.65.71                         amd64        Generic Linux kernel image
@@ -611,8 +609,6 @@ ii  linux-tools-3.13.0-48               3.13.0-48.80                         amd
 ii  linux-tools-3.13.0-48-generic       3.13.0-48.80                         amd64        Linux kernel version specific tools for version 3.13.0-48
 ii  linux-tools-3.13.0-52               3.13.0-52.86                         amd64        Linux kernel version specific tools for version 3.13.0-52
 ii  linux-tools-3.13.0-52-generic       3.13.0-52.86                         amd64        Linux kernel version specific tools for version 3.13.0-52
-ii  linux-tools-3.13.0-62               3.13.0-62.102                        amd64        Linux kernel version specific tools for version 3.13.0-62
-ii  linux-tools-3.13.0-62-generic       3.13.0-62.102                        amd64        Linux kernel version specific tools for version 3.13.0-62
 ii  linux-tools-3.13.0-65               3.13.0-65.105                        amd64        Linux kernel version specific tools for version 3.13.0-65
 ii  linux-tools-3.13.0-65-generic       3.13.0-65.105                        amd64        Linux kernel version specific tools for version 3.13.0-65
 ii  linux-tools-common                  3.13.0-65.105                        all          Linux kernel version specific tools for version 3.13.0
