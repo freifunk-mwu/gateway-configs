@@ -402,8 +402,8 @@ ii  linux-firmware                      1.127.15                         all    
 ii  linux-generic                       3.13.0.65.71                     amd64        Complete Generic Linux kernel and headers
 ii  linux-headers-3.13.0-62             3.13.0-62.102                    all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-62-generic     3.13.0-62.102                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-65             3.13.0-65.105                    all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-65-generic     3.13.0-65.105                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-3.13.0-65             3.13.0-65.106                    all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-65-generic     3.13.0-65.106                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-generic               3.13.0.65.71                     amd64        Generic Linux kernel headers
 rc  linux-image-3.13.0-24-generic       3.13.0-24.47                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-49-generic       3.13.0-49.83                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -414,7 +414,7 @@ rc  linux-image-3.13.0-59-generic       3.13.0-59.98                     amd64  
 rc  linux-image-3.13.0-61-generic       3.13.0-61.100                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-62-generic       3.13.0-62.102                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-63-generic       3.13.0-63.103                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-65-generic       3.13.0-65.105                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-3.13.0-65-generic       3.13.0-65.106                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-24-generic 3.13.0-24.47                     amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-49-generic 3.13.0-49.83                     amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-55-generic 3.13.0-55.94                     amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
@@ -424,9 +424,9 @@ rc  linux-image-extra-3.13.0-59-generic 3.13.0-59.98                     amd64  
 rc  linux-image-extra-3.13.0-61-generic 3.13.0-61.100                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-62-generic 3.13.0-62.102                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-63-generic 3.13.0-63.103                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-65-generic 3.13.0-65.105                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-extra-3.13.0-65-generic 3.13.0-65.106                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-generic                 3.13.0.65.71                     amd64        Generic Linux kernel image
-ii  linux-libc-dev:amd64                3.13.0-65.105                    amd64        Linux Kernel Headers for development
+ii  linux-libc-dev:amd64                3.13.0-65.106                    amd64        Linux Kernel Headers for development
 ii  locales                             2.13+git20120306-12.1            all          common files for locale support
 ii  lockfile-progs                      0.1.17                           amd64        Programs for locking and unlocking files and mailboxes
 ii  login                               1:4.1.5.1-1ubuntu9.1             amd64        system login tools
