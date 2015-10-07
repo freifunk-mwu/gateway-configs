@@ -57,6 +57,7 @@ roa fdca:ffee:8::/64         max  64 as  65511; # hannover
 roa fd0e:8db3:d50a::/64      max  64 as  65134; # harz
 roa fd0c:9a97:47dc::/48      max  64 as  64864; # heiligkreuztal
 roa fda0:747e:ab29:7406::/64 max  64 as  65100; # hennef
+roa fdf3:2049:5152::/48      max  64 as  64866; # herford
 roa 2001:bf7:100:2192::/64   max  64 as  65530; # hueckeswagen (delegation)
 roa fddf:ebfd:a801:2192::/64 max  64 as  65530; # hueckeswagen (delegation)
 roa fd59:b1b7:1d1f::/48      max  64 as  65055; # jena
