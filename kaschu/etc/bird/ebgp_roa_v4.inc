@@ -55,6 +55,7 @@ roa 10.7.0.0/16     max  20 as  65134; # harz
 roa 10.1.128.0/19   max  20 as  64864; # heiligkreuztal
 roa 10.189.0.0/18   max  20 as  65189; # helgoland
 roa 10.186.0.0/16   max  20 as  65100; # hennef
+roa 10.34.0.0/16    max  20 as  64866; # herford
 roa 10.146.0.0/16   max  20 as  65530; # hueckeswagen (delegation)
 roa 10.17.0.0/16    max  20 as  65055; # jena
 roa 10.214.0.0/16   max  20 as  65081; # karlsruhe

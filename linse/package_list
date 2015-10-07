@@ -131,7 +131,7 @@ ii  libc6:amd64                      2.19-0ubuntu6.6                  amd64     
 ii  libc6-dev:amd64                  2.19-0ubuntu6.6                  amd64        Embedded GNU C Library: Development Libraries and Header Files
 ii  libcap2:amd64                    1:2.24-0ubuntu2                  amd64        support for getting/setting POSIX.1e capabilities
 ii  libcap2-bin                      1:2.24-0ubuntu2                  amd64        basic utility programs for using capabilities
-ii  libcgmanager0:amd64              0.24-0ubuntu7.3                  amd64        Central cgroup manager daemon (client library)
+ii  libcgmanager0:amd64              0.24-0ubuntu7.5                  amd64        Central cgroup manager daemon (client library)
 ii  libck-connector0:amd64           0.4.5-3.1ubuntu2                 amd64        ConsoleKit libraries
 ii  libclass-accessor-perl           0.34-1                           all          Perl module that automatically generates accessors
 ii  libcloog-isl4:amd64              0.18.2-1                         amd64        Chunky Loop Generator (runtime library)
@@ -310,8 +310,8 @@ ii  linux-headers-3.13.0-62          3.13.0-62.102                    all       
 ii  linux-headers-3.13.0-62-generic  3.13.0-62.102                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-63          3.13.0-63.103                    all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-63-generic  3.13.0-63.103                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-65          3.13.0-65.105                    all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-65-generic  3.13.0-65.105                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-3.13.0-65          3.13.0-65.106                    all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-65-generic  3.13.0-65.106                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-generic            3.13.0.65.71                     amd64        Generic Linux kernel headers
 ii  linux-headers-virtual            3.13.0.65.71                     amd64        Transitional package.
 rc  linux-image-3.13.0-34-generic    3.13.0-34.60                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -338,9 +338,9 @@ rc  linux-image-3.13.0-59-generic    3.13.0-59.98                     amd64     
 rc  linux-image-3.13.0-61-generic    3.13.0-61.100                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-62-generic    3.13.0-62.102                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-63-generic    3.13.0-63.103                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-65-generic    3.13.0-65.105                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-3.13.0-65-generic    3.13.0-65.106                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-virtual              3.13.0.65.71                     amd64        This package will always depend on the latest minimal generic kernel image.
-ii  linux-libc-dev:amd64             3.13.0-65.105                    amd64        Linux Kernel Headers for development
+ii  linux-libc-dev:amd64             3.13.0-65.106                    amd64        Linux Kernel Headers for development
 ii  linux-virtual                    3.13.0.65.71                     amd64        Minimal Generic Linux kernel and headers
 ii  locales                          2.13+git20120306-12.1            all          common files for locale support
 ii  lockfile-progs                   0.1.17                           amd64        Programs for locking and unlocking files and mailboxes

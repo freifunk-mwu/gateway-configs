@@ -118,6 +118,12 @@ protocol bgp hkt01 from ebgp_ic {
 protocol bgp hennef1 from ebgp_ic {
     neighbor fec0::a:cf:0:bd as 65100;
 }
+protocol bgp herford1 from ebgp_ic {
+    neighbor fec0::a:cf:0:15 as 64866;
+}
+protocol bgp herford2 from ebgp_ic {
+    neighbor fec0::a:cf:0:18 as 64866;
+}
 protocol bgp karlsruhe1 from ebgp_ic {
     neighbor fec0::a:cf:0:d6 as 65081;
 }
