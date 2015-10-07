@@ -160,6 +160,12 @@ protocol bgp hkt01 from ebgp_ic {
 protocol bgp hennef1 from ebgp_ic {
     neighbor 10.207.0.189 as 65100;
 }
+protocol bgp herford1 from ebgp_ic {
+    neighbor 10.207.0.21 as 64866;
+}
+protocol bgp herford2 from ebgp_ic {
+    neighbor 10.207.0.24 as 64866;
+}
 protocol bgp karlsruhe1 from ebgp_ic {
     neighbor 10.207.0.214 as 65081;
 }
