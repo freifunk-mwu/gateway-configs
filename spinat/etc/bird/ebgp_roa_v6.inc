@@ -57,6 +57,7 @@ roa fdca:ffee:8::/64         max  64 as  65511; # hannover
 roa fd0e:8db3:d50a::/64      max  64 as  65134; # harz
 roa fd0c:9a97:47dc::/48      max  64 as  64864; # heiligkreuztal
 roa fda0:747e:ab29:7406::/64 max  64 as  65100; # hennef
+roa fdf3:2049:5152::/48      max  64 as  64866; # herford
 roa 2001:bf7:100:2192::/64   max  64 as  65530; # hueckeswagen (delegation)
 roa fddf:ebfd:a801:2192::/64 max  64 as  65530; # hueckeswagen (delegation)
 roa fd59:b1b7:1d1f::/48      max  64 as  65055; # jena
@@ -83,7 +84,6 @@ roa fd39:e4e3:eee1::/48      max  64 as  65534; # mueritz
 roa fd73:111:e824::/48       max  64 as  65152; # ostholstein
 roa 2001:470:6d:860::/64     max  64 as  65132; # paderborn
 roa fdca:ffee:ff12::/48      max  64 as  65132; # paderborn
-roa 2a03:2260:b::/48         max  64 as  65083; # pfalz
 roa fde8:21c6:9d82::/48      max  64 as  65433; # pinneberg
 roa fda0:747e:ab29:2195::/64 max  64 as  65067; # radevormwald
 roa fdef:f00f:1337:cafe::/64 max  64 as  65190; # regensburg
@@ -101,6 +101,7 @@ roa 2a03:2260:50::/48        max  64 as  65079; # ruhrgebiet
 roa fd4e:f2d7:88d2:ffff::/64 max  64 as  64770; # saar
 roa 2001:bf7:100:212::/64    max  64 as  65530; # solingen (delegation)
 roa fddf:ebfd:a801:212::/64  max  64 as  65530; # solingen (delegation)
+roa 2a03:2260:100a::/48      max  64 as  65083; # suedpfalz
 roa 2001:bf7:fc00::/44       max  64 as  65022; # trier
 roa fda0:747e:ab29:7405::/64 max  64 as  65066; # troisdorf
 roa fd83:e002:c8a1::/48      max  64 as  64525; # uelzen
