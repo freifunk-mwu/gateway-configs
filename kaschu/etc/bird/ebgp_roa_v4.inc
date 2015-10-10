@@ -87,7 +87,6 @@ roa 10.187.0.0/16   max  20 as  65187; # nord
 roa 10.18.0.0/16    max  20 as  65513; # nordwest
 roa 10.135.0.0/16   max  20 as  65152; # ostholstein
 roa 10.132.0.0/16   max  20 as  65132; # paderborn
-roa 10.215.0.0/16   max  20 as  65083; # pfalz
 roa 10.137.0.0/16   max  20 as  65433; # pinneberg
 roa 10.57.0.0/16    max  20 as  65067; # radevormwald
 roa 10.90.0.0/16    max  20 as  65190; # regensburg
@@ -112,6 +111,7 @@ roa 10.53.0.0/16    max  20 as  65079; # ruhrgebiet
 roa 10.24.192.0/18  max  20 as  64770; # saar
 roa 10.6.0.0/16     max  20 as  65530; # solingen (delegation)
 roa 10.190.0.0/15   max  20 as  65019; # stuttgart
+roa 10.215.0.0/16   max  20 as  65083; # suedpfalz
 roa 10.24.0.0/20    max  20 as  65045; # treuenbrietzen
 roa 10.172.0.0/16   max  20 as  65022; # trier
 roa 10.188.0.0/16   max  20 as  65066; # troisdorf
