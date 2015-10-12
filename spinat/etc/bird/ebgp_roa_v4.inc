@@ -74,7 +74,7 @@ roa 10.14.0.0/16    max  20 as  65023; # ljubljana
 roa 10.254.0.0/16   max  20 as  65023; # ljubljana
 roa 10.130.0.0/16   max  20 as 201173; # luebeck
 roa 10.216.0.0/16   max  20 as  65034; # luenen
-roa 10.24.128.0/18  max  20 as  64769; # lux
+roa 10.24.128.0/18  max  20 as  64769; # luxembourg
 roa 10.139.0.0/16   max  20 as  65039; # magdeburg
 roa 10.222.0.0/16   max  20 as  65032; # mayen-koblenz
 roa 10.15.0.0/16    max  20 as  65057; # moehne

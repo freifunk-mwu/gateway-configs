@@ -40,6 +40,9 @@ protocol bgp bremen5 from ebgp_ic {
 protocol bgp bremen6 from ebgp_ic {
     neighbor fec0::a:cf:6:c4 as 65196;
 }
+protocol bgp darmstadt1 from ebgp_ic {
+    neighbor fec0::a:cf:0:d8 as 65038;
+}
 protocol bgp darmstadt2 from ebgp_ic {
     neighbor fec0::a:cf:0:d9 as 65038;
 }
@@ -156,6 +159,12 @@ protocol bgp luebeck1 from ebgp_ic {
 }
 protocol bgp luebeck2 from ebgp_ic {
     neighbor fec0::a:cf:0:83 as 201173;
+}
+protocol bgp luxembourg1 from ebgp_ic {
+    neighbor fec0::a:cf:a:65 as 64769;
+}
+protocol bgp luxembourg2 from ebgp_ic {
+    neighbor fec0::a:cf:a:66 as 64769;
 }
 protocol bgp myk1 from ebgp_ic {
     neighbor fec0::a:cf:0:50 as 65032;
