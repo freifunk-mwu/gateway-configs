@@ -393,19 +393,19 @@ zone "130.10.in-addr.arpa" {
     server-addresses { fdef:ffc0:3dd7::801; fdef:ffc0:3dd7::a01; fdef:ffc0:3dd7::c01; fdef:ffc0:3dd7::e01; 10.130.0.252; 10.130.0.253; 10.130.0.254; 10.130.0.255; };
 };
 # 
-# lux
+# luxembourg
 # 
 zone "fflux" {
     type static-stub;
-    server-addresses { 10.24.128.3; 10.24.128.4; 10.24.128.5; fd4e:f2d7:88d2:fffe::3; fd4e:f2d7:88d2:fffe::4; fd4e:f2d7:88d2:fffe::5; };
+    server-addresses { 10.24.128.6; 10.24.128.7; fd4e:f2d7:88d2:fffe::6; fd4e:f2d7:88d2:fffe::7; };
 };
 zone "e.f.f.f.2.d.8.8.7.d.2.f.e.4.d.f.ip6.arpa" {
     type static-stub;
-    server-addresses { 10.24.128.3; 10.24.128.4; 10.24.128.5; fd4e:f2d7:88d2:fffe::3; fd4e:f2d7:88d2:fffe::4; fd4e:f2d7:88d2:fffe::5; };
+    server-addresses { 10.24.128.6; 10.24.128.7; fd4e:f2d7:88d2:fffe::6; fd4e:f2d7:88d2:fffe::7; };
 };
 zone "128/18.24.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.24.128.3; 10.24.128.4; 10.24.128.5; fd4e:f2d7:88d2:fffe::3; fd4e:f2d7:88d2:fffe::4; fd4e:f2d7:88d2:fffe::5; };
+    server-addresses { 10.24.128.6; 10.24.128.7; fd4e:f2d7:88d2:fffe::6; fd4e:f2d7:88d2:fffe::7; };
 };
 # 
 # nord
