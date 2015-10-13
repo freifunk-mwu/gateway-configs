@@ -3,7 +3,7 @@ $ORIGIN 0.0.0.0.e.1.b.4.c.d.4.b.6.5.d.f.ip6.arpa.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffwi.org. hostmaster.ffwi.org. (
-                     2015081201         ; Serial
+                     2015101301         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -15,13 +15,13 @@ $TTL    600
 @       IN      NS      kaschu.ffwi.org.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR     nextnode.ffwi.org.
-;5.0.0.0.8.3.a.0.0.0.0.0.0.0.0.0 PTR     hinterschinken.ffwi.org.
 7.0.0.0.8.3.a.0.0.0.0.0.0.0.0.0 PTR     spinat.ffwi.org.
 7.1.0.0.8.3.a.0.0.0.0.0.0.0.0.0 PTR     lotuswurzel.ffwi.org.
 a.2.0.0.8.3.a.0.0.0.0.0.0.0.0.0 PTR     parmesan.ffwi.org.
 0.d.0.0.8.3.a.0.0.0.0.0.0.0.0.0 PTR     kaschu.ffwi.org.
 7.e.0.0.8.3.a.0.0.0.0.0.0.0.0.0 PTR     wasserfloh.ffwi.org.
 3.0.1.0.8.3.a.0.0.0.0.0.0.0.0.0 PTR     aubergine.ffwi.org.
+0.0.1.0.8.3.a.0.0.0.0.0.0.0.0.0 PTR     zwiebel.ffwi.org.
 
 ; user services
 5.b.0.c.2.0.e.f.f.f.9.0.3.5.0.0	PTR	piratebox.user.ffwi.org.
