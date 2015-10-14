@@ -28,6 +28,7 @@ roa 10.213.0.0/16   max  20 as  65501; # diepholz
 roa 10.119.0.0/16   max  20 as  65043; # dreilaendereck
 roa 10.200.0.0/16   max  20 as  65051; # dresden
 roa 10.201.0.0/16   max  20 as  65051; # dresden
+roa 10.141.128.0/17 max  20 as  65530; # engelskirchen (delegation)
 roa 10.99.0.0/16    max  20 as  65099; # erfurt
 roa 10.129.0.0/16   max  20 as  65056; # flensburg
 roa 10.50.0.0/16    max  20 as  65024; # franken
