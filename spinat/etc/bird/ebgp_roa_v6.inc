@@ -32,6 +32,8 @@ roa 2a03:2260:118::/48       max  64 as  65038; # darmstadt
 roa fdca:ffee:ffda::/48      max  64 as  65038; # darmstadt
 roa 2001:bf7:20::/44         max  64 as  65043; # dreilaendereck
 roa fd11:11ae:7466::/48      max  64 as  65051; # dresden
+roa 2001:bf7:100:2263::/64   max  64 as  65530; # engelskirchen (delegation)
+roa fddf:ebfd:a801:2263::/64 max  64 as  65530; # engelskirchen (delegation)
 roa 2001:bf7:10::/44         max  64 as  65056; # flensburg
 roa fddd:5d16:b5dd::/48      max  64 as  65026; # frankfurt
 roa fdf0:09bb:7814::/48      max  64 as  65060; # freiburg
