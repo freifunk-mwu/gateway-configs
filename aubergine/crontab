@@ -30,7 +30,7 @@ PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bi
 23 * * * * /usr/bin/python3 $HOME/clones/backend-scripts/gen_website_all.py > $HOME/.cronlog/gen_website.log
 26 * * * * /usr/bin/python3 $HOME/clones/changeffapi-mz/mapnodes.py > $HOME/.cronlog/changeffapi_mz.log
 27 * * * * /usr/bin/python3 $HOME/clones/changeffapi-wi/mapnodes.py > $HOME/.cronlog/changeffapi_wi.log
-32 */5 * * * /usr/bin/python3 $HOME/clones/backend-scripts/sync_ffapi.py > $HOME/.cronlog/sync_ffapi.log
+32 */5 * * * /usr/bin/python3 $HOME/clones/backend-scripts/sync_ffapi_srv.py > $HOME/.cronlog/sync_ffapi.log
 42 5,23 * * * /usr/bin/python3 $HOME/clones/backend-scripts/snapshot_configs_all.py > $HOME/.cronlog/snapshot_configs.log
 23 19 * * * /usr/bin/python3 $HOME/clones/backend-scripts/nagg_exitvpn_accouts_all.py > $HOME/.cronlog/nagg_exitvpn_accouts.log
 19 1 * * * /usr/bin/lftp -f $HOME/clones/backend-scripts/common/lftp_commands > $HOME/.cronlog/mirror_openwrt_repo.log 2>&1
