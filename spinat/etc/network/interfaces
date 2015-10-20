@@ -6,71 +6,69 @@ auto lo
 iface lo inet loopback
 
 # The primary network interface
-#auto eth0
-#iface eth0 inet dhcp
-
 auto eth0
 iface eth0 inet static
-        address 89.238.67.196
-        netmask 255.255.255.0
-        network 89.238.67.0
-        broadcast 89.238.67.255
-        gateway 89.238.67.1
-        # dns-* options are implemented by the resolvconf package, if installed
-        dns-nameservers 127.0.0.1
+	address 46.20.37.226
+	gateway 193.111.140.1
+	netmask 255.255.255.255
+	pointopoint 193.111.140.1
+	dns-nameservers 127.0.0.1
 
 iface eth0 inet6 static
-	address 2a00:1828:2000:182::2
+	address 2001:4ba0:fffc:3d::b4dc:4b1e:1
 	netmask 64
-	gateway 2a00:1828:2000:182::1
+        up /sbin/ip -6 route add 2001:4ba0:fffc:1:beef::1 dev $IFACE
+        down /sbin/ip -6 route del 2001:4ba0:fffc:1:beef::1 dev $IFACE
+        up /sbin/ip -6 route add 2000::/3 via 2001:4ba0:fffc:1:beef::1 dev $IFACE
+        down /sbin/ip -6 route del 2000::/3 via 2001:4ba0:fffc:1:beef::1 dev $IFACE
+
 
 auto mzBR
 iface mzBR inet static
-	hwaddress 02:42:0a:25:00:07
-	address 10.37.0.7
-	netmask 255.255.192.0
-	pre-up		/sbin/brctl addbr $IFACE
-	up		/sbin/ip address add fd37:b4dc:4b1e::a25:7/64 dev $IFACE
-	post-down	/sbin/brctl delbr $IFACE
+        hwaddress 02:42:0a:25:00:07
+        address 10.37.0.7
+        netmask 255.255.192.0
+        pre-up          /sbin/brctl addbr $IFACE
+        up              /sbin/ip address add fd37:b4dc:4b1e::a25:7/64 dev $IFACE
+        post-down       /sbin/brctl delbr $IFACE
 
 auto wiBR
 iface wiBR inet static
-	hwaddress 02:42:0a:38:00:07
+        hwaddress 02:42:0a:38:00:07
         address 10.56.0.7
         netmask 255.255.192.0
-	pre-up		/sbin/brctl addbr $IFACE
-	up		/sbin/ip address add fd56:b4dc:4b1e::a38:7/64 dev $IFACE
-	post-down	/sbin/brctl delbr $IFACE
+        pre-up          /sbin/brctl addbr $IFACE
+        up              /sbin/ip address add fd56:b4dc:4b1e::a38:7/64 dev $IFACE
+        post-down       /sbin/brctl delbr $IFACE
 
 allow-hotplug mzVPN
 iface mzVPN inet6 manual
-	pre-up		/sbin/modprobe batman_adv
-        pre-up		/sbin/ip link set address 02:00:0a:25:00:07 dev $IFACE 
-        post-up		/usr/sbin/batctl -m mzBAT if add $IFACE 
-        post-up		/sbin/ip link set dev mzBAT up
+        pre-up          /sbin/modprobe batman_adv
+        pre-up          /sbin/ip link set address 02:00:0a:25:00:07 dev $IFACE 
+        post-up         /usr/sbin/batctl -m mzBAT if add $IFACE 
+        post-up         /sbin/ip link set dev mzBAT up
 
 allow-hotplug wiVPN
 iface wiVPN inet6 manual
-	pre-up		/sbin/modprobe batman_adv
-        pre-up		/sbin/ip link set address 02:00:0a:38:00:07 dev $IFACE
-        post-up		/usr/sbin/batctl -m wiBAT if add $IFACE
-        post-up		/sbin/ip link set dev wiBAT up
+        pre-up          /sbin/modprobe batman_adv
+        pre-up          /sbin/ip link set address 02:00:0a:38:00:07 dev $IFACE
+        post-up         /usr/sbin/batctl -m wiBAT if add $IFACE
+        post-up         /sbin/ip link set dev wiBAT up
 
 allow-hotplug mzBAT
 iface mzBAT inet6 manual
-	pre-up		/sbin/modprobe batman-adv
-	post-up		/sbin/brctl addif mzBR $IFACE
-	post-up 	/usr/sbin/batctl -m $IFACE it 10000
-	post-up 	/usr/sbin/batctl -m $IFACE vm server
-	post-up 	/usr/sbin/batctl -m $IFACE gw server 96mbit/96mbit
-	pre-down	/sbin/brctl delif mzBR $IFACE || true
+        pre-up          /sbin/modprobe batman-adv
+        post-up         /sbin/brctl addif mzBR $IFACE
+        post-up         /usr/sbin/batctl -m $IFACE it 10000
+        post-up         /usr/sbin/batctl -m $IFACE vm server
+        post-up         /usr/sbin/batctl -m $IFACE gw server 96mbit/96mbit
+        pre-down        /sbin/brctl delif mzBR $IFACE || true
 
 allow-hotplug wiBAT
 iface wiBAT inet6 manual
         pre-up          /sbin/modprobe batman-adv
         post-up         /sbin/brctl addif wiBR $IFACE
-	post-up 	/usr/sbin/batctl -m $IFACE it 10000
-	post-up 	/usr/sbin/batctl -m $IFACE vm server
-	post-up 	/usr/sbin/batctl -m $IFACE gw server 96mbit/96mbit
+        post-up         /usr/sbin/batctl -m $IFACE it 10000
+        post-up         /usr/sbin/batctl -m $IFACE vm server
+        post-up         /usr/sbin/batctl -m $IFACE gw server 96mbit/96mbit
         pre-down        /sbin/brctl delif wiBR $IFACE || true
-

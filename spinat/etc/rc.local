@@ -70,5 +70,3 @@ ip -6 rule add from all lookup icvpn priority 107
 # unreachable routes for rt_table ffinetexit
 /sbin/ip -4 route add unreachable default table ffinetexit
 /sbin/ip -6 route add unreachable default table ffinetexit
-
-exit 0
