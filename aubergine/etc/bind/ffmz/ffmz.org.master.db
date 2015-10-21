@@ -3,7 +3,7 @@ $ORIGIN ffmz.org.
 
 $TTL    600
 @       IN      SOA     aubergine.ffmz.org. hostmaster.ffmz.org. (
-                     2015101301         ; Serial
+                     2015102101         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -64,6 +64,7 @@ mwumap			IN	CNAME	aubergine
 openwrt			IN	CNAME	aubergine
 www			IN	CNAME	aubergine
 portal			IN	CNAME	aubergine
+rtfm			IN	CNAME	aubergine
 
 ; firmware mirrors
 firmware		IN	A	10.37.0.7
