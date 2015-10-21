@@ -97,6 +97,9 @@ protocol bgp flensburg1 from ebgp_ic {
 protocol bgp flensburg2 from ebgp_ic {
     neighbor 10.207.0.128 as 65056;
 }
+protocol bgp franken_fff_gw_m1 from ebgp_ic {
+    neighbor 10.207.0.26 as 65024;
+}
 protocol bgp franken_ro1 from ebgp_ic {
     neighbor 10.207.0.23 as 65024;
 }
