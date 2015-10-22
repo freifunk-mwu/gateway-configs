@@ -2,7 +2,7 @@
 ;
 $TTL	300
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2015102101		; Serial
+		     2015102203		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -14,9 +14,12 @@ $TTL	300
 @		IN	NS	ns3.treck.de.
 
 ; mx
-@		IN	MX	10	aubergine
-lists		IN	MX	10	avocado
-test		IN	MX	10	avocado
+@		IN	MX	10	glueckskeks
+lists		IN	MX	10	glueckskeks
+
+; mail
+autoconfig	IN	CNAME	glueckskeks
+autodiscover	IN	CNAME	glueckskeks
 
 ; master dns
 linse		IN	A	144.76.209.101
@@ -58,18 +61,16 @@ zwiebel		IN	A	212.129.62.76
 zwiebel		IN	AAAA	2001:bc8:2058:101::b4dc:4b1e
 aubergine	IN	A	144.76.209.103
 aubergine	IN	AAAA	2a01:4f8:192:523::b4dc:4b1e
-avocado		IN	A	136.243.198.175
-avocado		IN	AAAA	2a01:4f8:192:575::b4dc:4b1e
-ladyfinger	IN	A	46.4.106.170
-ladyfinger	IN	AAAA	2a01:4f8:140:64d9::b4dc:4b1e
-lists		IN	A	136.243.198.175
-lists		IN	AAAA	2a01:4f8:192:575::b4dc:4b1e
+glueckskeks	IN	A	5.199.136.244
+glueckskeks	IN	AAAA	2001:4ba0:fffc:3d:0:b4dc:4b1e:3
+lists		IN	A	5.199.136.244
+lists		IN	AAAA	2001:4ba0:fffc:3d:0:b4dc:4b1e:3
 
 ; services and stuff
 pudding		IN	CNAME	web.igeh.me.
 brokkoli	IN	CNAME	kokel.ddns.net.
-mailadmin	IN	CNAME	avocado
-webmail		IN	CNAME	avocado
+mailadmin	IN	CNAME	glueckskeks
+webmail		IN	CNAME	glueckskeks
 
 ; firmware
 ; wasserfloh
@@ -88,32 +89,22 @@ firmware	IN	AAAA	2a01:4f8:110:4523::2
 ; key#1 2048 bits, i=mail201507, d=freifunk-mwu.de, /var/lib/amavis/db/freifunk-mwu.de
 mail201507._domainkey  3600 TXT (
   "v=DKIM1; p="
-  "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0eGRFW8v1E6I0wklCgPC"
-  "jJ8ND7RbZw3hkYDhDqJGIXHyyh8tSjP3XzR2D7ibPIRQw1sZtO5a0xDIE5L87pt+"
-  "4ly3SD3CIw2GeCieJxW/YZTNwycQquVFuMs0q8vG9nctmnthsysuO2GnOUeiVOjL"
-  "p71dLd6RbuO6ZI7qMG84mOtHVFpmY/AYNSEIMMJ0fjRm/xIyM6ZjO/ZpOUT9sG2L"
-  "veKffQeJlATV+1wnDIj/huYN5OqCsoo2u8PKu72g/xgcbYCLvvvb6GCLIEV7a3Z0"
-  "k3poLy5Vm1kz3kp2V3tM919uRfBg/UEb6ThHbw4R10ONRyvvmOQI0ciLsitejels"
-  "wQIDAQAB")
+  "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAza0tJWw0zl2ZtFSGjCiJ"
+  "ImFtCBj5vt1jTVPwwmkKuip5DERE/EmRIPyM/JZ39s2JGnu84TfiCZ0/jxHXlSmy"
+  "XzhD3LvEXUwFP718N7QeMbDeVpeLZcXlDj58BPBj1Tjox7a5GsiwDH6YUAa3bGuq"
+  "scmL4CnETbsnl4xtfsGz2VtoxsockvcL2PactM6i0+WuZYCGwTfjreweYrhrOpdT"
+  "NTa3SoPeV1T75sw5G9KEGyoJGxJB+BW4OdESEg7YESzBMtPDnYLQXi7Ohpipip1R"
+  "qvxurqIIOYThAxU+OJNRU9eWOGPxc5WgWFn3sG3h4BGrCefo8+Wd5+C7O71gHXZj"
+  "PwIDAQAB")
 
 ; key#2 2048 bits, i=mail201507, d=lists.freifunk-mwu.de, /var/lib/amavis/db/lists.freifunk-mwu.de
 mail201507._domainkey.lists    3600 TXT (
   "v=DKIM1; p="
-  "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvsask+RHTAJJseLvhIgm"
-  "9hQk1cMWzXvjCGpLzJK4ml8p9ktJhuvcP4eGAS+2RITVEJu5RK51JZcyviXWoTs2"
-  "b4TMEYqrBGlE4arqiMIgMQCcbAohBCq3LsCT9kNbOIl0bt+LtQ0HpRbeXwlDslo9"
-  "U/Q9FEPRJ4Z/od4E+7ReQ2fn7UUy4jyCm75XPRbtkwXIopKd6u1Dxfh2BvEycEZG"
-  "iKV4EgupmOR0b5DlhQl/dedqQxnwlL2kghwZcAwl3HoIHsZkwmLjL8p7OKkXcsaS"
-  "02LANSnQ/5tH5gzGxqRG992DJBlsDmeSN+txtm03aOd60p4LiVfqHNsTra/NzqGP"
-  "bwIDAQAB")
+  "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw4Zgx+Qfuwwc+DWhdFq8"
+  "FT0QmRqi84sl0XZLcZs3BHM+ID1uZ/97ikrLbnzBJPBh/evsHQ08KawWKdP4aSX+"
+  "6pmB8tRKMwpsi/Jf7bDWnAwP2bneFAOtrvwirqOR3y6juaHwUZusStLZ5ZcOeMbj"
+  "vpjZu+hDpJO0/k+vHDLR+mKTo2qX72CypuIl/MPokAxm/2xAMrtZlSpmlKXuPvj/"
+  "VRhY4p0KwbRpgMowgXQ+uqgcqafQmLDJcBbksgtN+ByObw8DVMNAuhcST+7SqxiI"
+  "+nn4NJs9b43PIRClhry7s4jwoSSjnjYMe80FGUyX/2ka+PqfeOwW3ZAlGTtWIf4K"
+  "cwIDAQAB")
 
-; key#3 2048 bits, i=mail201507, d=test.freifunk-mwu.de, /var/lib/amavis/db/test.freifunk-mwu.de
-mail201507._domainkey.test     3600 TXT (
-  "v=DKIM1; p="
-  "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0pQ756L7VJT1pb3k7/wF"
-  "jQSQE2mqbHUEw1S6BTQQj0EQD4cF3g+Tk15EkXRqpyOtW1ANVlfuak3wd4UGKwOT"
-  "BtxDDQLt2bBjSQTd2ppwIYhHij+P8EtryDS5Ji4+ZX5oWbeMu38zSFG3lMnZTYBB"
-  "Cp05BnaBbCdnnZSDp6WiUWnwGmqSefqhANluW0ylwMA+hDBJNLGWFUp9Q5ugDjAi"
-  "5jFoygmiJtU5sY+vZ4ywCjUW/PBa9HCWHmQ2QR9OQyXRjBYIchMMEe9LvFxnd6ni"
-  "wgp0r7+bfBE67NqcEj0lSYNsbYNzVy742PTtTaMlZhdN2dz6x0nVkO95HzLRgs8D"
-  "sQIDAQAB")
