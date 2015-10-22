@@ -40,6 +40,12 @@ protocol bgp bremen5 from ebgp_ic {
 protocol bgp bremen6 from ebgp_ic {
     neighbor fec0::a:cf:6:c4 as 65196;
 }
+protocol bgp cottbus1 from ebgp_ic {
+    neighbor fec0::a:cf:0:1b as 64868;
+}
+protocol bgp cottbus2 from ebgp_ic {
+    neighbor fec0::a:cf:0:1c as 64868;
+}
 protocol bgp darmstadt1 from ebgp_ic {
     neighbor fec0::a:cf:0:d8 as 65038;
 }
