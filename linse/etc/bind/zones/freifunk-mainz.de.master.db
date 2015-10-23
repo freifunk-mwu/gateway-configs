@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2015090701		; Serial
+		     2015102203		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -15,7 +15,10 @@ $TTL	3600
 
 ; mx records
 @		MX	10	lacerta.uberspace.de.
-lists		MX	10	avocado.freifunk-mwu.de.
+
+; mail
+autoconfig	IN	CNAME	glueckskeks.freifunk-mwu.de.
+autodiscover	IN	CNAME	glueckskeks.freifunk-mwu.de.
 
 @		IN	A	95.143.172.211
 @		IN	AAAA	2001:1a50:11:0:5f:8f:ac:d3
@@ -42,8 +45,7 @@ media		IN	CNAME	lacerta.uberspace.de.
 mitglieder	IN	CNAME	lacerta.uberspace.de.
 
 ; mailman
-lists           IN      A       136.243.198.175
-lists           IN      AAAA    2a01:4f8:192:575::b4dc:4b1e
+lists           IN      CNAME	glueckskeks.freifunk-mwu.de.
 
 ; gluon map
 map		IN	CNAME	aubergine.freifunk-mwu.de.
@@ -55,3 +57,14 @@ firmware	IN	CNAME	firmware.freifunk-mwu.de.
 ; IC-VPN
 ic-mainz1	IN	CNAME	wasserfloh.freifunk-mwu.de.
 ic-mainz2	IN	CNAME	spinat.freifunk-mwu.de.
+
+; key#3 2048 bits, i=mail201507, d=freifunk-mainz.de, /var/lib/amavis/db/freifunk-mainz.de
+mail201507._domainkey	3600 TXT (
+  "v=DKIM1; p="
+  "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwfpK4b7e7Jn6wstwol/T"
+  "kbj8aCL9xr9KiX4BGM8P0ijGf3J+GJlVSSx0nE+jBoykqOftXxuekWE/MUMFFeM9"
+  "0zm4yACRMJ8B5sIEsnhlwGKgwia3Ly8WS9D2iuhkrdBb23SR8yLdnOqaD7+WGyAi"
+  "jQp2zsBwZBqsy6jnVzgNhSpVNb6w6CAQI8ykdxFbzfCOIy0Rp/NBapTciJ9KO5J8"
+  "4mWK1M4c8Jhn95x3J0pFggyii1nmn2GOzlcn7fVuYP9mXtbVSU0zXWtW3wKG4T7x"
+  "BB/F894kqwJ1MRc0YN3hMZyKXhvE6JHU36vpFaS6qxxE2laTUgdqVsz0UPz4pAt+"
+  "pwIDAQAB")

@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2015092901		; Serial
+		     2015102203		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -15,7 +15,10 @@ $TTL	3600
 
 ; mx records
 @		MX	10	octans.uberspace.de.
-lists		MX	10	avocado.freifunk-mwu.de.
+
+; mail
+autoconfig	IN	CNAME	glueckskeks.freifunk-mwu.de.
+autodiscover	IN	CNAME	glueckskeks.freifunk-mwu.de.
 
 @		IN	A	95.143.172.219
 @		IN	AAAA	2001:1a50:11:0:5f:8f:acdb:13b
@@ -37,9 +40,19 @@ stats		IN	CNAME	octans.uberspace.de.
 massfw		IN	CNAME	aubergine.freifunk-mwu.de.
 
 ; mailman
-lists           IN      A       136.243.198.175
-lists           IN      AAAA    2a01:4f8:192:575::b4dc:4b1e
+lists           IN      CNAME   glueckskeks.freifunk-mwu.de.
 
 ; IC-VPN
 ic-wiesbaden1	IN	CNAME	lotuswurzel.freifunk-mwu.de.
 ic-wiesbaden2	IN	CNAME	kaschu.freifunk-mwu.de.
+
+; key#4 2048 bits, i=mail201507, d=freifunk-wiesbaden.de, /var/lib/amavis/db/freifunk-wiesbaden.de
+mail201507._domainkey	3600 TXT (
+  "v=DKIM1; p="
+  "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwhDtNf2PC02h2diNMaEW"
+  "cBNSMnJdyBcTHXAmADFys7jiNIg3lA+ho3qT8xjUB14SRE81un07F4SbpP78p85p"
+  "OEpi3o7Zo6Q/R/Hpa1nSyFSuwxLfM2gLi+47h/IaO4fFFzAvMEFJy3rAszns5GZ7"
+  "Dhy95tSvH2HaNSk4p3fag/dJftEVQMQpk7MmJ2mF0E95p4RslOPUlmMgqIYnei0u"
+  "iOfCFzUuY5Oz1+uvdTUEj25SQ1tIBzPCSQUlNf1PjO8nnw57Y4KaJUcROdZw9E0G"
+  "tDm7RzeVzwKnlvlqkLAGya3iRhVsJyxCND+PlgPqAd2mYG6DFKVQ76jo6qEtHRhm"
+  "yQIDAQAB")
