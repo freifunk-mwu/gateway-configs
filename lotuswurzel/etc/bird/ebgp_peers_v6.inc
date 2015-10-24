@@ -73,6 +73,9 @@ protocol bgp dresden1 from ebgp_ic {
 protocol bgp dresden2 from ebgp_ic {
     neighbor fec0::a:cf:dd:2 as 65051;
 }
+protocol bgp euskirchen1 from ebgp_ic {
+    neighbor fec0::a:cf:0:27 as 64869;
+}
 protocol bgp flensburg1 from ebgp_ic {
     neighbor fec0::a:cf:0:10 as 65056;
 }
