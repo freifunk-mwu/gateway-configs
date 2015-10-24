@@ -579,6 +579,7 @@ ii  udev                                204-5ubuntu20.15                 amd64  
 ii  ufw                                 0.34~rc-0ubuntu2                 all          program for managing a Netfilter firewall
 ii  uml-utilities                       20070815-1.3ubuntu1              amd64        User-mode Linux (utility programs)
 ii  unattended-upgrades                 0.82.1ubuntu2.3                  all          automatic installation of security upgrades
+ii  unzip                               6.0-9ubuntu1.3                   amd64        De-archiver for .zip files
 ii  update-manager-core                 1:0.196.14                       all          manage release upgrades
 ii  update-notifier-common              0.154.1ubuntu1                   all          Files shared between update-notifier and other packages
 ii  upstart                             1.12.1-0ubuntu4.2                amd64        event-based init daemon
