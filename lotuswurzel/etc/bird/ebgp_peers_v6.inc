@@ -91,6 +91,9 @@ protocol bgp gera_greiz1 from ebgp_ic {
 protocol bgp gera_greiz2 from ebgp_ic {
     neighbor fec0::a:cf:0:b6 as 65181;
 }
+protocol bgp gera_greiz3 from ebgp_ic {
+    neighbor fec0::a:cf:0:b7 as 65181;
+}
 protocol bgp guetersloh4 from ebgp_ic {
     neighbor fec0::a:cf:0:86 as 65533;
 }
@@ -261,6 +264,9 @@ protocol bgp westpfalz2 from ebgp_ic {
 }
 protocol bgp westpfalz3 from ebgp_ic {
     neighbor fec0::a:cf:0:58 as 65242;
+}
+protocol bgp westpfalz4 from ebgp_ic {
+    neighbor fec0::a:cf:0:5a as 65242;
 }
 protocol bgp wuppertal1 from ebgp_ic {
     neighbor fec0::a:cf:0:71 as 65523;
