@@ -28,6 +28,7 @@ roa 2001:bf7:380::/44        max  64 as  65380; # braunschweig
 roa 2001:bf7:540::/44        max  64 as  65196; # bremen
 roa 2001:bf7:550::/44        max  64 as  65196; # bremen
 roa fd2f:5119:f2c::/48       max  64 as  65196; # bremen
+roa fd92:2dff:d232::/48      max  64 as  64861; # celle
 roa 2a03:2260:118::/48       max  64 as  65038; # darmstadt
 roa fdca:ffee:ffda::/48      max  64 as  65038; # darmstadt
 roa 2001:bf7:20::/44         max  64 as  65043; # dreilaendereck

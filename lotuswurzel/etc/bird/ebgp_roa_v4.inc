@@ -20,6 +20,7 @@ roa 10.1.176.0/20   max  20 as  64857; # borken
 roa 10.79.0.0/16    max  20 as  65530; # bottrop (delegation)
 roa 10.38.0.0/16    max  20 as  65380; # braunschweig
 roa 10.196.0.0/16   max  20 as  65196; # bremen
+roa 10.252.0.0/18   max  20 as  64861; # celle
 roa 10.149.0.0/16   max  20 as  65053; # chemnitz
 roa 10.8.0.0/16     max  20 as  65053; # chemnitz
 roa 10.35.0.0/16    max  20 as  64868; # cottbus

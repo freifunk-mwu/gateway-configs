@@ -124,6 +124,9 @@ protocol bgp gera_greiz1 from ebgp_ic {
 protocol bgp gera_greiz2 from ebgp_ic {
     neighbor 10.207.0.182 as 65181;
 }
+protocol bgp gera_greiz3 from ebgp_ic {
+    neighbor 10.207.0.183 as 65181;
+}
 protocol bgp graz1 from ebgp_ic {
     neighbor 10.207.1.2 as 65048;
 }
@@ -315,6 +318,9 @@ protocol bgp westpfalz2 from ebgp_ic {
 }
 protocol bgp westpfalz3 from ebgp_ic {
     neighbor 10.207.0.87 as 65242;
+}
+protocol bgp westpfalz4 from ebgp_ic {
+    neighbor 10.207.0.88 as 65242;
 }
 protocol bgp schilcher1 from ebgp_ic {
     neighbor 10.207.0.51 as 65054;
