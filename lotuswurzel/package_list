@@ -8,10 +8,10 @@ ii  acpid                                1:2.0.21-1ubuntu2                    am
 ii  adduser                              3.113+nmu3ubuntu3                    all          add and remove users and groups
 ii  alfred                               2015.1-0ffmwu0~trusty                amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
 ii  alfred-json                          0.3.1-0ffmwu1~trusty                 amd64        A.L.F.R.E.D client supporting GZIP decompression and JSON, string and binary output
-ii  apache2                              2.4.7-1ubuntu4.7                     amd64        Apache HTTP Server
-ii  apache2-bin                          2.4.7-1ubuntu4.7                     amd64        Apache HTTP Server (binary files and modules)
-ii  apache2-data                         2.4.7-1ubuntu4.7                     all          Apache HTTP Server (common files)
-ii  apache2-doc                          2.4.7-1ubuntu4.7                     all          Apache HTTP Server (on-site documentation)
+ii  apache2                              2.4.7-1ubuntu4.8                     amd64        Apache HTTP Server
+ii  apache2-bin                          2.4.7-1ubuntu4.8                     amd64        Apache HTTP Server (binary files and modules)
+ii  apache2-data                         2.4.7-1ubuntu4.8                     all          Apache HTTP Server (common files)
+ii  apache2-doc                          2.4.7-1ubuntu4.8                     all          Apache HTTP Server (on-site documentation)
 ii  apport                               2.14.1-0ubuntu3.16                   all          automatically generate crash reports for debugging
 ii  apport-symptoms                      0.20                                 all          symptom scripts for apport
 ii  apt                                  1.0.1ubuntu2.10                      amd64        commandline package manager
@@ -394,7 +394,7 @@ ii  libtool                              2.4.2-1.7ubuntu1                     am
 ii  libtry-tiny-perl                     0.19-1                               all          module providing minimalistic try/catch
 ii  libtsan0:amd64                       4.8.4-2ubuntu1~14.04                 amd64        ThreadSanitizer -- a Valgrind-based detector of data races (runtime)
 ii  libudev1:amd64                       204-5ubuntu20.15                     amd64        libudev shared library
-ii  libuecc0                             5-3                                  amd64        very small Elliptic Curve Cryptography library
+ii  libuecc0                             6-0uf1                               amd64        very small Elliptic Curve Cryptography library
 ii  libusb-0.1-4:amd64                   2:0.1.12-23.3ubuntu1                 amd64        userspace USB programming library
 ii  libusb-1.0-0:amd64                   2:1.0.17-1ubuntu2                    amd64        userspace USB programming library
 ii  libustr-1.0-1:amd64                  1.0.4-3ubuntu2                       amd64        Micro string library: shared library
