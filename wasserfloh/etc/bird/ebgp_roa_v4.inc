@@ -20,6 +20,7 @@ roa 10.1.176.0/20   max  20 as  64857; # borken
 roa 10.79.0.0/16    max  20 as  65530; # bottrop (delegation)
 roa 10.38.0.0/16    max  20 as  65380; # braunschweig
 roa 10.196.0.0/16   max  20 as  65196; # bremen
+roa 10.252.0.0/18   max  20 as  64861; # celle
 roa 10.149.0.0/16   max  20 as  65053; # chemnitz
 roa 10.8.0.0/16     max  20 as  65053; # chemnitz
 roa 10.35.0.0/16    max  20 as  64868; # cottbus
@@ -30,6 +31,7 @@ roa 10.200.0.0/16   max  20 as  65051; # dresden
 roa 10.201.0.0/16   max  20 as  65051; # dresden
 roa 10.141.128.0/17 max  20 as  65530; # engelskirchen (delegation)
 roa 10.99.0.0/16    max  20 as  65099; # erfurt
+roa 10.47.0.0/16    max  20 as  64869; # euskirchen
 roa 10.129.0.0/16   max  20 as  65056; # flensburg
 roa 10.50.0.0/16    max  20 as  65024; # franken
 roa 10.83.0.0/16    max  20 as  65024; # franken
@@ -51,6 +53,7 @@ roa 10.154.0.0/16   max  20 as  65530; # hagen (delegation)
 roa 10.62.0.0/16    max  20 as  65046; # halle
 roa 10.112.0.0/16   max  20 as  49009; # hamburg
 roa 10.112.128.0/18 max  20 as  65112; # hamburg (delegation)
+roa 10.11.96.0/20   max  20 as  64873; # hameln
 roa 10.2.0.0/16     max  20 as  65511; # hannover
 roa 10.7.0.0/16     max  20 as  65134; # harz
 roa 10.1.128.0/19   max  20 as  64864; # heiligkreuztal
