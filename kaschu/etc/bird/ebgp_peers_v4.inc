@@ -124,6 +124,9 @@ protocol bgp gera_greiz1 from ebgp_ic {
 protocol bgp gera_greiz2 from ebgp_ic {
     neighbor 10.207.0.182 as 65181;
 }
+protocol bgp gera_greiz3 from ebgp_ic {
+    neighbor 10.207.0.183 as 65181;
+}
 protocol bgp graz1 from ebgp_ic {
     neighbor 10.207.1.2 as 65048;
 }
@@ -162,6 +165,9 @@ protocol bgp hamburg02 from ebgp_ic {
 }
 protocol bgp hamburg03 from ebgp_ic {
     neighbor 10.207.0.63 as 49009;
+}
+protocol bgp ffhmgw01 from ebgp_ic {
+    neighbor 10.207.0.31 as 64873;
 }
 protocol bgp hannover1 from ebgp_ic {
     neighbor 10.207.0.22 as 65511;
@@ -315,6 +321,9 @@ protocol bgp westpfalz2 from ebgp_ic {
 }
 protocol bgp westpfalz3 from ebgp_ic {
     neighbor 10.207.0.87 as 65242;
+}
+protocol bgp westpfalz4 from ebgp_ic {
+    neighbor 10.207.0.88 as 65242;
 }
 protocol bgp schilcher1 from ebgp_ic {
     neighbor 10.207.0.51 as 65054;
