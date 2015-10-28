@@ -53,6 +53,7 @@ roa 10.154.0.0/16   max  20 as  65530; # hagen (delegation)
 roa 10.62.0.0/16    max  20 as  65046; # halle
 roa 10.112.0.0/16   max  20 as  49009; # hamburg
 roa 10.112.128.0/18 max  20 as  65112; # hamburg (delegation)
+roa 10.11.96.0/20   max  20 as  64873; # hameln
 roa 10.2.0.0/16     max  20 as  65511; # hannover
 roa 10.7.0.0/16     max  20 as  65134; # harz
 roa 10.1.128.0/19   max  20 as  64864; # heiligkreuztal

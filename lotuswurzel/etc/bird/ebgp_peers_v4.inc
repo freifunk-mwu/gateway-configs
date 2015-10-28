@@ -166,6 +166,9 @@ protocol bgp hamburg02 from ebgp_ic {
 protocol bgp hamburg03 from ebgp_ic {
     neighbor 10.207.0.63 as 49009;
 }
+protocol bgp ffhmgw01 from ebgp_ic {
+    neighbor 10.207.0.31 as 64873;
+}
 protocol bgp hannover1 from ebgp_ic {
     neighbor 10.207.0.22 as 65511;
 }
