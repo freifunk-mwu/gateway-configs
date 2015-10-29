@@ -1,0 +1,17 @@
+$ORIGIN user.ffwi.org.
+; BIND data file for zone ffwi.org.
+;
+$TTL    600
+@       IN      SOA     aubergine.ffwi.org. hostmaster.ffwi.org. (
+                     2015090301         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+
+; ns servers
+@       	IN      NS      wasserfloh.ffwi.org. 
+@       	IN      NS      spinat.ffwi.org.
+@       	IN      NS      lotuswurzel.ffwi.org.
+@       	IN      NS      kaschu.ffwi.org.
+
