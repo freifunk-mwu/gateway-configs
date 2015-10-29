@@ -36,7 +36,10 @@ roa 10.129.0.0/16   max  20 as  65056; # flensburg
 roa 10.50.0.0/16    max  20 as  65024; # franken
 roa 10.83.0.0/16    max  20 as  65024; # franken
 roa 10.126.0.0/16   max  20 as  65026; # frankfurt
+roa 10.60.0.0/16    max  20 as  65060; # freiburg
 roa 104.60.0.0/16   max  20 as  65060; # freiburg
+roa 10.60.0.0/16    max  20 as  65060; # freiburg (delegation)
+roa 104.60.0.0/16   max  20 as  65060; # freiburg (delegation)
 roa 10.185.0.0/16   max  20 as  65142; # fulda
 roa 10.28.0.0/16    max  20 as  65397; # gelsenkirchen
 roa 10.181.0.0/16   max  20 as  65181; # gera-greiz
@@ -53,6 +56,7 @@ roa 10.154.0.0/16   max  20 as  65530; # hagen (delegation)
 roa 10.62.0.0/16    max  20 as  65046; # halle
 roa 10.112.0.0/16   max  20 as  49009; # hamburg
 roa 10.112.128.0/18 max  20 as  65112; # hamburg (delegation)
+roa 10.11.96.0/20   max  20 as  64873; # hameln
 roa 10.2.0.0/16     max  20 as  65511; # hannover
 roa 10.7.0.0/16     max  20 as  65134; # harz
 roa 10.1.128.0/19   max  20 as  64864; # heiligkreuztal

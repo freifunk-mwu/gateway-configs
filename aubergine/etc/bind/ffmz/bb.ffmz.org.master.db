@@ -3,7 +3,7 @@ $ORIGIN bb.ffmz.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffmz.org. hostmaster.ffmz.org. (
-                     2015063001         ; Serial
+                     2015102801         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -30,6 +30,7 @@ ht-master.bb            IN      A       10.37.2.30
 ht-nordwest.bb          IN      A       10.37.2.31
 ht-nslm5-1.bb           IN      A       10.37.2.32
 ht-nslm5-2.bb           IN      A       10.37.2.33
+vo-pb-1.bb              IN      A       10.37.2.42
 oimel-uplink.bb         IN      A       10.37.2.190
 pl-master.bb            IN      A       10.37.2.200
 pl-nslm5-1.bb           IN      A       10.37.2.201

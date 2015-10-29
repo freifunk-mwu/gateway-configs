@@ -456,6 +456,25 @@ zone "126.10.in-addr.arpa" {
     server-addresses { 10.126.255.14; };
 };
 # 
+# freiburg
+# 
+zone "fffr" {
+    type static-stub;
+    server-addresses { 10.60.0.100; 10.60.0.102; 10.60.0.104; };
+};
+zone "4.1.8.7.b.b.9.0.0.f.d.f.ip6.arpa" {
+    type static-stub;
+    server-addresses { 10.60.0.100; 10.60.0.102; 10.60.0.104; };
+};
+zone "60.104.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.60.0.100; 10.60.0.102; 10.60.0.104; };
+};
+zone "60.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.60.0.100; 10.60.0.102; 10.60.0.104; };
+};
+# 
 # fulda
 # 
 zone "fffd" {
@@ -575,6 +594,77 @@ zone "ffhh" {
 zone "112.10.in-addr.arpa" {
     type static-stub;
     server-addresses { 10.112.1.1; 2a03:2267::101; };
+};
+# 
+# hameln
+# 
+zone "ffhm" {
+    type static-stub;
+    server-addresses { 10.11.96.1; };
+};
+zone "96.11.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.11.96.1; };
+};
+zone "97.11.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.11.96.1; };
+};
+zone "98.11.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.11.96.1; };
+};
+zone "99.11.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.11.96.1; };
+};
+zone "100.11.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.11.96.1; };
+};
+zone "101.11.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.11.96.1; };
+};
+zone "102.11.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.11.96.1; };
+};
+zone "103.11.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.11.96.1; };
+};
+zone "104.11.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.11.96.1; };
+};
+zone "105.11.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.11.96.1; };
+};
+zone "106.11.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.11.96.1; };
+};
+zone "107.11.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.11.96.1; };
+};
+zone "108.11.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.11.96.1; };
+};
+zone "109.11.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.11.96.1; };
+};
+zone "110.11.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.11.96.1; };
+};
+zone "111.11.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.11.96.1; };
 };
 # 
 # hannover
