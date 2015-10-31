@@ -36,7 +36,7 @@ roa 10.129.0.0/16   max  20 as  65056; # flensburg
 roa 10.50.0.0/16    max  20 as  65024; # franken
 roa 10.83.0.0/16    max  20 as  65024; # franken
 roa 10.126.0.0/16   max  20 as  65026; # frankfurt
-roa 104.60.0.0/16   max  20 as  65060; # freiburg
+roa 10.60.0.0/16    max  20 as  65060; # freiburg
 roa 10.185.0.0/16   max  20 as  65142; # fulda
 roa 10.28.0.0/16    max  20 as  65397; # gelsenkirchen
 roa 10.181.0.0/16   max  20 as  65181; # gera-greiz
