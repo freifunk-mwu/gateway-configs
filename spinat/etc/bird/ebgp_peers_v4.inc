@@ -286,6 +286,9 @@ protocol bgp troisdorf1 from ebgp_ic {
 protocol bgp uegw1 from ebgp_ic {
     neighbor 10.207.0.18 as 64525;
 }
+protocol bgp ulm5 from ebgp_ic {
+    neighbor 10.207.0.150 as 64860;
+}
 protocol bgp nrw1 from ebgp_ic {
     neighbor 10.207.0.7 as 65530;
 }

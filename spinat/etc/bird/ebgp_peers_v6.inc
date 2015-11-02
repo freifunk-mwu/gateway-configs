@@ -241,6 +241,9 @@ protocol bgp troisdorf1 from ebgp_ic {
 protocol bgp uegw1 from ebgp_ic {
     neighbor fec0::a:cf:0:12 as 64525;
 }
+protocol bgp ulm5 from ebgp_ic {
+    neighbor fec0::a:cf:0:96 as 64860;
+}
 protocol bgp nrw1 from ebgp_ic {
     neighbor fec0::a:cf:0:7 as 65530;
 }
