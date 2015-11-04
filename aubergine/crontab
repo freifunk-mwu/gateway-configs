@@ -22,8 +22,6 @@ PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bi
 * * * * * $HOME/clones/ffmap-backend-intern-mz/mkmap-mz.sh > /dev/null 2>&1
 * * * * * $HOME/clones/ffmap-backend-intern-wi/mkmap-wi.sh > /dev/null 2>&1
 * * * * * $HOME/clones/ffmap-backend-intern-mwu/mkmap-mwu.sh > /dev/null 2>&1
-# expansion map
-23 4 * * * $HOME/clones/backend-scripts/update_expansion_map.sh > /dev/null 2>&1
 # ffapi 
 26 * * * * /usr/bin/python3 $HOME/clones/changeffapi-mz/mapnodes.py > $HOME/.cronlog/changeffapi_mz.log
 27 * * * * /usr/bin/python3 $HOME/clones/changeffapi-wi/mapnodes.py > $HOME/.cronlog/changeffapi_wi.log
@@ -31,6 +29,7 @@ PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bi
 */5 * * * * /usr/bin/python3 $HOME/clones/backend-scripts/draw_traffic_all.py > $HOME/.cronlog/draw_traffic.log
 */5 * * * * /usr/bin/python3 $HOME/clones/backend-scripts/check_bind_gw.py > $HOME/.cronlog/check_bind.log
 42 23 * * * /usr/bin/python3 $HOME/clones/backend-scripts/gen_documentation_srv.py > $HOME/.cronlog/gen_documentation.log
+23 4 * * * /usr/bin/python3 $HOME/clones/backend-scripts/gen_expansion_map_srv.py > $HOME/.cronlog/gen_expansion_map.log
 23 * * * * /usr/bin/python3 $HOME/clones/backend-scripts/gen_website_all.py > $HOME/.cronlog/gen_website.log
 32 */5 * * * /usr/bin/python3 $HOME/clones/backend-scripts/sync_ffapi_srv.py > $HOME/.cronlog/sync_ffapi.log
 42 5,23 * * * /usr/bin/python3 $HOME/clones/backend-scripts/snapshot_configs_all.py > $HOME/.cronlog/snapshot_configs.log
