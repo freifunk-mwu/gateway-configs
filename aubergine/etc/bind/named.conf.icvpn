@@ -471,15 +471,15 @@ zone "126.10.in-addr.arpa" {
 # 
 zone "fffr" {
     type static-stub;
-    server-addresses { 10.60.0.100; 10.60.0.102; 10.60.0.104; };
+    server-addresses { 10.60.0.103; };
 };
 zone "4.1.8.7.b.b.9.0.0.f.d.f.ip6.arpa" {
     type static-stub;
-    server-addresses { 10.60.0.100; 10.60.0.102; 10.60.0.104; };
+    server-addresses { 10.60.0.103; };
 };
 zone "60.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.60.0.100; 10.60.0.102; 10.60.0.104; };
+    server-addresses { 10.60.0.103; };
 };
 # 
 # fulda
