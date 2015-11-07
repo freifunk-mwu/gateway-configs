@@ -28,13 +28,17 @@ roa 2001:bf7:380::/44        max  64 as  65380; # braunschweig
 roa 2001:bf7:540::/44        max  64 as  65196; # bremen
 roa 2001:bf7:550::/44        max  64 as  65196; # bremen
 roa fd2f:5119:f2c::/48       max  64 as  65196; # bremen
+roa 2001:470:743f::/48       max  64 as  64861; # celle
+roa fd92:2dff:d232::/48      max  64 as  64861; # celle
 roa 2a03:2260:118::/48       max  64 as  65038; # darmstadt
 roa fdca:ffee:ffda::/48      max  64 as  65038; # darmstadt
 roa 2001:bf7:20::/44         max  64 as  65043; # dreilaendereck
 roa fd11:11ae:7466::/48      max  64 as  65051; # dresden
 roa 2001:bf7:100:2263::/64   max  64 as  65530; # engelskirchen (delegation)
 roa fddf:ebfd:a801:2263::/64 max  64 as  65530; # engelskirchen (delegation)
+roa fda0:747e:ab29:e054::/64 max  64 as  64869; # euskirchen
 roa 2001:bf7:10::/44         max  64 as  65056; # flensburg
+roa fda0:747e:ab29:9375::/64 max  64 as  65125; # flingern
 roa fddd:5d16:b5dd::/48      max  64 as  65026; # frankfurt
 roa fdf0:09bb:7814::/48      max  64 as  65060; # freiburg
 roa fd00:65a8:93a4::/48      max  64 as  65142; # fulda
@@ -55,6 +59,7 @@ roa fddf:ebfd:a801:2331::/64 max  64 as  65530; # hagen (delegation)
 roa 2a03:2267::/32           max  64 as  49009; # hamburg
 roa 2a03:2267:0ccc:2015::/64 max  64 as  65112; # hamburg (delegation)
 roa 2a03:2267:4e16::/48      max  64 as  65189; # hamburg (delegation)
+roa fdc7:4c8d:b889:a272::/64 max  64 as  64873; # hameln
 roa fdca:ffee:8::/64         max  64 as  65511; # hannover
 roa fd0e:8db3:d50a::/64      max  64 as  65134; # harz
 roa fd0c:9a97:47dc::/48      max  64 as  64864; # heiligkreuztal

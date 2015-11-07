@@ -40,6 +40,12 @@ protocol bgp bremen5 from ebgp_ic {
 protocol bgp bremen6 from ebgp_ic {
     neighbor fec0::a:cf:6:c4 as 65196;
 }
+protocol bgp cottbus1 from ebgp_ic {
+    neighbor fec0::a:cf:0:1b as 64868;
+}
+protocol bgp cottbus2 from ebgp_ic {
+    neighbor fec0::a:cf:0:1c as 64868;
+}
 protocol bgp darmstadt1 from ebgp_ic {
     neighbor fec0::a:cf:0:d8 as 65038;
 }
@@ -67,11 +73,17 @@ protocol bgp dresden1 from ebgp_ic {
 protocol bgp dresden2 from ebgp_ic {
     neighbor fec0::a:cf:dd:2 as 65051;
 }
+protocol bgp euskirchen1 from ebgp_ic {
+    neighbor fec0::a:cf:0:27 as 64869;
+}
 protocol bgp flensburg1 from ebgp_ic {
     neighbor fec0::a:cf:0:10 as 65056;
 }
 protocol bgp flensburg2 from ebgp_ic {
     neighbor fec0::a:cf:0:11 as 65056;
+}
+protocol bgp freiburg1 from ebgp_ic {
+    neighbor fec0::a:cf:0:21 as 65060;
 }
 protocol bgp fulda3 from ebgp_ic {
     neighbor fec0::a:cf:0:2a as 65142;
@@ -81,6 +93,9 @@ protocol bgp gera_greiz1 from ebgp_ic {
 }
 protocol bgp gera_greiz2 from ebgp_ic {
     neighbor fec0::a:cf:0:b6 as 65181;
+}
+protocol bgp gera_greiz3 from ebgp_ic {
+    neighbor fec0::a:cf:0:b7 as 65181;
 }
 protocol bgp guetersloh4 from ebgp_ic {
     neighbor fec0::a:cf:0:86 as 65533;
@@ -108,6 +123,9 @@ protocol bgp hamburg02 from ebgp_ic {
 }
 protocol bgp hamburg03 from ebgp_ic {
     neighbor fec0::a:cf:0:3f as 49009;
+}
+protocol bgp ffhmgw01 from ebgp_ic {
+    neighbor fec0::a:cf:0:1f as 64873;
 }
 protocol bgp hannover1 from ebgp_ic {
     neighbor fec0::a:cf:0:16 as 65511;
@@ -223,6 +241,9 @@ protocol bgp troisdorf1 from ebgp_ic {
 protocol bgp uegw1 from ebgp_ic {
     neighbor fec0::a:cf:0:12 as 64525;
 }
+protocol bgp ulm5 from ebgp_ic {
+    neighbor fec0::a:cf:0:96 as 64860;
+}
 protocol bgp nrw1 from ebgp_ic {
     neighbor fec0::a:cf:0:7 as 65530;
 }
@@ -252,6 +273,9 @@ protocol bgp westpfalz2 from ebgp_ic {
 }
 protocol bgp westpfalz3 from ebgp_ic {
     neighbor fec0::a:cf:0:58 as 65242;
+}
+protocol bgp westpfalz4 from ebgp_ic {
+    neighbor fec0::a:cf:0:5a as 65242;
 }
 protocol bgp wuppertal1 from ebgp_ic {
     neighbor fec0::a:cf:0:71 as 65523;
