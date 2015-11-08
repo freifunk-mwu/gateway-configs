@@ -471,6 +471,7 @@ ii  plymouth                         0.8.8-0ubuntu17.1                amd64     
 ii  plymouth-theme-ubuntu-text       0.8.8-0ubuntu17.1                amd64        graphical boot animation and logger - ubuntu-logo theme
 ii  policykit-1                      0.105-4ubuntu2.14.04.1           amd64        framework for managing administrative policies and privileges
 ii  popularity-contest               1.57ubuntu1                      all          Vote for your favourite packages automatically
+ii  postfix                          2.11.0-1ubuntu1                  amd64        High-performance mail transport agent
 ii  powermgmt-base                   1.31build1                       amd64        Common utils and configs for power management
 ii  ppp                              2.4.5-5.1ubuntu2.2               amd64        Point-to-Point Protocol (PPP) - daemon
 ii  pppconfig                        2.3.19ubuntu1                    all          A text menu based utility for configuring ppp
