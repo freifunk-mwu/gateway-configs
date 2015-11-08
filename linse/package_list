@@ -78,6 +78,7 @@ ii  grub-gfxpayload-lists            0.6                              amd64     
 ii  grub-pc                          2.02~beta2-9ubuntu1.3            amd64        GRand Unified Bootloader, version 2 (PC/BIOS version)
 ii  grub-pc-bin                      2.02~beta2-9ubuntu1.3            amd64        GRand Unified Bootloader, version 2 (PC/BIOS binaries)
 ii  grub2-common                     2.02~beta2-9ubuntu1.3            amd64        GRand Unified Bootloader (common files for version 2)
+ii  guile-2.0-libs                   2.0.9+1-1ubuntu1                 amd64        Core Guile libraries
 ii  gzip                             1.6-3ubuntu1                     amd64        GNU compression utilities
 ii  hostname                         3.15ubuntu1                      amd64        utility to set/show the host name or domain name
 ii  ifupdown                         0.7.47.2ubuntu4.1                amd64        high level tools to configure network interfaces
@@ -175,6 +176,7 @@ ii  libgnutls26:amd64                2.12.23-12ubuntu2.2              amd64     
 ii  libgomp1:amd64                   4.8.4-2ubuntu1~14.04             amd64        GCC OpenMP (GOMP) support library
 ii  libgpg-error0:amd64              1.12-0.2ubuntu1                  amd64        library for common error values and messages in GnuPG components
 ii  libgpm2:amd64                    1.20.4-6.1                       amd64        General Purpose Mouse - shared library
+ii  libgsasl7                        1.8.0-2ubuntu2                   amd64        GNU SASL library
 ii  libgssapi-krb5-2:amd64           1.12+dfsg-2ubuntu5.1             amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii  libgssapi3-heimdal:amd64         1.6~git20131207+dfsg-1ubuntu1.1  amd64        Heimdal Kerberos - GSSAPI support library
 ii  libhcrypto4-heimdal:amd64        1.6~git20131207+dfsg-1ubuntu1.1  amd64        Heimdal Kerberos - crypto library
@@ -198,19 +200,24 @@ ii  libkmod2:amd64                   15-0ubuntu6                      amd64     
 ii  libkrb5-26-heimdal:amd64         1.6~git20131207+dfsg-1ubuntu1.1  amd64        Heimdal Kerberos - libraries
 ii  libkrb5-3:amd64                  1.12+dfsg-2ubuntu5.1             amd64        MIT Kerberos runtime libraries
 ii  libkrb5support0:amd64            1.12+dfsg-2ubuntu5.1             amd64        MIT Kerberos runtime libraries - Support library
+ii  libkyotocabinet16:amd64          1.2.76-4                         amd64        Straightforward implementation of DBM - shared library
 ii  libldap-2.4-2:amd64              2.4.31-1+nmu2ubuntu8.2           amd64        OpenLDAP libraries
 ii  liblocale-gettext-perl           1.05-7build3                     amd64        module using libc functions for internationalization in Perl
 ii  liblockfile-bin                  1.09-6ubuntu1                    amd64        support binaries for and cli utilities based on liblockfile
 ii  liblockfile1:amd64               1.09-6ubuntu1                    amd64        NFS-safe locking library
 ii  liblog-message-simple-perl       0.10-1                           all          simplified interface to Log::Message
+ii  libltdl7:amd64                   2.4.2-1.7ubuntu1                 amd64        A system independent dlopen wrapper for GNU libtool
 ii  liblwres90                       1:9.9.5.dfsg-3ubuntu0.5          amd64        Lightweight Resolver Library used by BIND
 ii  liblzma5:amd64                   5.1.1alpha+20120614-2ubuntu2     amd64        XZ-format compression library
+ii  liblzo2-2:amd64                  2.06-1.2ubuntu1.1                amd64        data compression library
 ii  libmagic1:amd64                  1:5.14-2ubuntu3.3                amd64        File type determination library using "magic" numbers
+ii  libmailutils4                    1:2.99.98-1.1                    amd64        GNU Mail abstraction library
 ii  libmodule-pluggable-perl         5.1-1                            all          module for giving  modules the ability to have plugins
 ii  libmount1:amd64                  2.20.1-5.1ubuntu20.7             amd64        block device id library
 ii  libmpc3:amd64                    1.0.1-1ubuntu1                   amd64        multiple precision complex floating-point library
 ii  libmpdec2:amd64                  2.4.0-6                          amd64        library for decimal floating point arithmetic (runtime library)
 ii  libmpfr4:amd64                   3.1.2-1                          amd64        multiple precision floating-point computation
+ii  libmysqlclient18:amd64           5.5.46-0ubuntu0.14.04.2          amd64        MySQL database client library
 ii  libncurses5:amd64                5.9+20140118-1ubuntu1            amd64        shared libraries for terminal handling
 ii  libncursesw5:amd64               5.9+20140118-1ubuntu1            amd64        shared libraries for terminal handling (wide character support)
 ii  libnewt0.52:amd64                0.52.15-2ubuntu5                 amd64        Not Erik's Windowing Toolkit - text mode windowing with slang
@@ -219,6 +226,7 @@ ii  libnih-dbus1:amd64               1.0.3-4ubuntu25                  amd64     
 ii  libnih1:amd64                    1.0.3-4ubuntu25                  amd64        NIH Utility Library
 ii  libnl-3-200:amd64                3.2.21-1                         amd64        library for dealing with netlink sockets
 ii  libnl-genl-3-200:amd64           3.2.21-1                         amd64        library for dealing with netlink sockets - generic netlink
+ii  libntlm0:amd64                   1.4-1                            amd64        NTLM authentication library
 ii  libopts25:amd64                  1:5.18-2ubuntu2                  amd64        automated option processing library based on autogen
 ii  libp11-kit0:amd64                0.20.2-2ubuntu2                  amd64        Library for loading and coordinating access to PKCS#11 modules - runtime
 ii  libpam-cap:amd64                 1:2.24-0ubuntu2                  amd64        PAM module for implementing capabilities
@@ -283,6 +291,7 @@ ii  libtimedate-perl                 2.3000-1                         all       
 ii  libtinfo5:amd64                  5.9+20140118-1ubuntu1            amd64        shared low-level terminfo library for terminal handling
 ii  libtsan0:amd64                   4.8.4-2ubuntu1~14.04             amd64        ThreadSanitizer -- a Valgrind-based detector of data races (runtime)
 ii  libudev1:amd64                   204-5ubuntu20.15                 amd64        libudev shared library
+ii  libunistring0:amd64              0.9.3-5ubuntu3                   amd64        Unicode string library for C
 ii  libusb-0.1-4:amd64               2:0.1.12-23.3ubuntu1             amd64        userspace USB programming library
 ii  libusb-1.0-0:amd64               2:1.0.17-1ubuntu2                amd64        userspace USB programming library
 ii  libustr-1.0-1:amd64              1.0.4-3ubuntu2                   amd64        Micro string library: shared library
@@ -353,6 +362,8 @@ ii  logrotate                        3.8.7-1ubuntu1                   amd64     
 ii  lsb-base                         4.1+Debian11ubuntu6              all          Linux Standard Base 4.1 init script functionality
 ii  lsb-release                      4.1+Debian11ubuntu6              all          Linux Standard Base version reporting utility
 ii  lshw                             02.16-2ubuntu1.3                 amd64        information about hardware configuration
+ii  mailutils                        1:2.99.98-1.1                    amd64        GNU mailutils utilities for handling mail
+ii  mailutils-common                 1:2.99.98-1.1                    all          Common files for GNU mailutils
 ii  make                             3.81-8.2ubuntu3                  amd64        An utility for Directing compilation.
 ii  makedev                          2.3.1-93ubuntu1                  all          creates device files in /dev
 ii  manpages                         3.54-1ubuntu1                    all          Manual pages about using a GNU/Linux system
@@ -365,6 +376,7 @@ ii  mosh                             1.2.4a-1ubuntu1                  amd64     
 ii  mount                            2.20.1-5.1ubuntu20.7             amd64        Tools for mounting and manipulating filesystems
 ii  mountall                         2.53                             amd64        filesystem mounting tool
 ii  multiarch-support                2.19-0ubuntu6.6                  amd64        Transitional package to ensure multiarch compatibility
+ii  mysql-common                     5.5.46-0ubuntu0.14.04.2          all          MySQL database common files, e.g. /etc/mysql/my.cnf
 ii  nano                             2.2.6-1ubuntu1                   amd64        small, friendly text editor inspired by Pico
 ii  ncurses-base                     5.9+20140118-1ubuntu1            all          basic terminal type definitions
 ii  ncurses-bin                      5.9+20140118-1ubuntu1            amd64        terminal-related programs and man pages
@@ -387,6 +399,7 @@ ii  perl-base                        5.18.2-2ubuntu1                  amd64     
 ii  perl-modules                     5.18.2-2ubuntu1                  all          Core Perl modules
 ii  plymouth                         0.8.8-0ubuntu17.1                amd64        graphical boot animation and logger - main package
 ii  policykit-1                      0.105-4ubuntu2.14.04.1           amd64        framework for managing administrative policies and privileges
+ii  postfix                          2.11.0-1ubuntu1                  amd64        High-performance mail transport agent
 ii  procps                           1:3.3.9-1ubuntu2.2               amd64        /proc file system utilities
 ii  python                           2.7.5-5ubuntu3                   amd64        interactive high-level object-oriented language (default version)
 ii  python-apt                       0.9.3.5ubuntu1                   amd64        Python interface to libapt-pkg
@@ -461,6 +474,7 @@ ii  sgml-base                        1.26+nmu4ubuntu1                 all       
 ii  shared-mime-info                 1.2-0ubuntu3                     amd64        FreeDesktop.org shared MIME database and spec
 ii  software-properties-common       0.92.37.5                        all          manage the repositories that you install software from (common)
 ii  ssh-import-id                    3.21-0ubuntu1                    all          securely retrieve an SSH public key and install it locally
+ii  ssl-cert                         1.0.33                           all          simple debconf wrapper for OpenSSL
 ii  sudo                             1.8.9p5-1ubuntu1.2               amd64        Provide limited super user privileges to specific users
 ii  systemd-services                 204-5ubuntu20.15                 amd64        systemd runtime services
 ii  systemd-shim                     6-2bzr1                          amd64        shim for systemd
