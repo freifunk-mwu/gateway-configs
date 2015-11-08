@@ -1,4 +1,4 @@
 # See man 5 aliases for format
 postmaster:    root
 admin:    root
-root:    admin+aubergine@freifunk-mainz.de
+root:    admin@freifunk-mainz.de
