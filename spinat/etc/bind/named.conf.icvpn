@@ -471,30 +471,30 @@ zone "126.10.in-addr.arpa" {
 # 
 zone "fffr" {
     type static-stub;
-    server-addresses { 10.60.0.100; 10.60.0.102; 10.60.0.104; };
+    server-addresses { 10.60.0.103; };
 };
 zone "4.1.8.7.b.b.9.0.0.f.d.f.ip6.arpa" {
     type static-stub;
-    server-addresses { 10.60.0.100; 10.60.0.102; 10.60.0.104; };
+    server-addresses { 10.60.0.103; };
 };
 zone "60.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.60.0.100; 10.60.0.102; 10.60.0.104; };
+    server-addresses { 10.60.0.103; };
 };
 # 
 # fulda
 # 
 zone "fffd" {
     type static-stub;
-    server-addresses { 10.185.0.3; fd00:fffd:fffd::3; };
-};
-zone "d.f.f.f.d.f.f.f.0.0.d.f.ip6.arpa" {
-    type static-stub;
-    server-addresses { 10.185.0.3; fd00:fffd:fffd::3; };
+    server-addresses { 10.185.0.2; 10.185.0.3; fd00:65a8:93a4::2; fd00:65a8:93a4::3; };
 };
 zone "185.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.185.0.3; fd00:fffd:fffd::3; };
+    server-addresses { 10.185.0.2; 10.185.0.3; fd00:65a8:93a4::2; fd00:65a8:93a4::3; };
+};
+zone "4.a.3.9.8.a.5.6.0.0.d.f.ip6.arpa" {
+    type static-stub;
+    server-addresses { 10.185.0.2; 10.185.0.3; fd00:65a8:93a4::2; fd00:65a8:93a4::3; };
 };
 # 
 # gelsenkirchen
