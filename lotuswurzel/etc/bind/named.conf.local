@@ -65,6 +65,12 @@ zone "nodes.ffwi.org." {
         masters { ns-master-wi; };
 };
 
+zone "bb.ffwi.org." {
+        type slave;
+        file "bb.ffwi.org.db";
+        masters { ns-master-wi; };
+};
+
 zone "nodes.ffmz.org." {
         type slave;
         file "nodes.ffmz.org.db";
