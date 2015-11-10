@@ -534,7 +534,7 @@ ii  python3-pycurl                      7.19.3-0ubuntu3                  amd64  
 ii  python3-requests                    2.2.1-1ubuntu0.3                 all          elegant and simple HTTP library for Python3, built for human beings
 ii  python3-setuptools                  3.3-1ubuntu2                     all          Python3 Distutils Enhancements
 ii  python3-six                         1.5.2-1ubuntu1                   all          Python 2 and 3 compatibility library (Python 3 interface)
-ii  python3-software-properties         0.92.37.5                        all          manage the repositories that you install software from
+ii  python3-software-properties         0.92.37.6                        all          manage the repositories that you install software from
 ii  python3-update-manager              1:0.196.14                       all          python 3.x module for update-manager
 ii  python3-urllib3                     1.7.1-1ubuntu4                   all          HTTP library with thread-safe connection pooling for Python3
 ii  python3-wheel                       0.24.0-1~ubuntu1                 all          built-package format for Python
@@ -554,7 +554,7 @@ ii  sed                                 4.2.2-4ubuntu1                   amd64  
 ii  sensible-utils                      0.0.9                            all          Utilities for sensible alternative selection
 ii  sgml-base                           1.26+nmu4ubuntu1                 all          SGML infrastructure and SGML catalog file support
 ii  shared-mime-info                    1.2-0ubuntu3                     amd64        FreeDesktop.org shared MIME database and spec
-ii  software-properties-common          0.92.37.5                        all          manage the repositories that you install software from (common)
+ii  software-properties-common          0.92.37.6                        all          manage the repositories that you install software from (common)
 ii  ssh                                 1:6.6p1-2ubuntu2.3               all          secure shell client and server (metapackage)
 ii  ssh-import-id                       3.21-0ubuntu1                    all          securely retrieve an SSH public key and install it locally
 ii  ssl-cert                            1.0.33                           all          simple debconf wrapper for OpenSSL
@@ -587,7 +587,7 @@ ii  udev                                204-5ubuntu20.15                 amd64  
 ii  ufw                                 0.34~rc-0ubuntu2                 all          program for managing a Netfilter firewall
 ii  uml-utilities                       20070815-1.3ubuntu1              amd64        User-mode Linux (utility programs)
 ii  unattended-upgrades                 0.82.1ubuntu2.3                  all          automatic installation of security upgrades
-ii  unzip                               6.0-9ubuntu1.4                   amd64        De-archiver for .zip files
+ii  unzip                               6.0-9ubuntu1.5                   amd64        De-archiver for .zip files
 ii  update-manager-core                 1:0.196.14                       all          manage release upgrades
 ii  update-notifier-common              0.154.1ubuntu1                   all          Files shared between update-notifier and other packages
 ii  upstart                             1.12.1-0ubuntu4.2                amd64        event-based init daemon
