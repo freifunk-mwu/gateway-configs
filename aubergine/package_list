@@ -133,7 +133,7 @@ ii  kbd                              1.15.5-1ubuntu1                  amd64     
 ii  keyboard-configuration           1.70ubuntu8                      all          system-wide keyboard preferences
 ii  klibc-utils                      2.0.3-0ubuntu1                   amd64        small utilities built with klibc for early boot
 ii  kmod                             15-0ubuntu6                      amd64        tools for managing Linux kernel modules
-ii  krb5-locales                     1.12+dfsg-2ubuntu5.1             all          Internationalization support for MIT Kerberos
+ii  krb5-locales                     1.12+dfsg-2ubuntu5.2             all          Internationalization support for MIT Kerberos
 ii  landscape-common                 14.12-0ubuntu0.14.04             amd64        The Landscape administration system client - Common files
 ii  laptop-detect                    0.13.7ubuntu2                    amd64        attempt to detect a laptop
 ii  less                             458-2                            amd64        pager program similar to more
@@ -237,7 +237,7 @@ ii  libgpg-error0:amd64              1.12-0.2ubuntu1                  amd64     
 ii  libgpm2:amd64                    1.20.4-6.1                       amd64        General Purpose Mouse - shared library
 ii  libgraphite2-3:amd64             1.2.4-1ubuntu1                   amd64        Font rendering engine for Complex Scripts -- library
 ii  libgsl0ldbl                      1.16+dfsg-1ubuntu1               amd64        GNU Scientific Library (GSL) -- library package
-ii  libgssapi-krb5-2:amd64           1.12+dfsg-2ubuntu5.1             amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii  libgssapi-krb5-2:amd64           1.12+dfsg-2ubuntu5.2             amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii  libgssapi3-heimdal:amd64         1.6~git20131207+dfsg-1ubuntu1.1  amd64        Heimdal Kerberos - GSSAPI support library
 ii  libgv-python                     2.36.0-0ubuntu3.1                amd64        Python bindings for graphviz
 ii  libgvc6                          2.36.0-0ubuntu3.1                amd64        rich set of graph drawing tools - gvc library
@@ -280,13 +280,13 @@ ii  libjs-jquery                     1.7.2+dfsg-2ubuntu1              all       
 ii  libjs-node-uuid                  1.4.0-1                          all          simple, fast generation of RFC4122 UUIDs - JavaScript library
 ii  libjson-c2:amd64                 0.11-3ubuntu1.2                  amd64        JSON manipulation library - shared library
 ii  libjson0:amd64                   0.11-3ubuntu1.2                  amd64        JSON manipulation library (transitional package)
-ii  libk5crypto3:amd64               1.12+dfsg-2ubuntu5.1             amd64        MIT Kerberos runtime libraries - Crypto Library
+ii  libk5crypto3:amd64               1.12+dfsg-2ubuntu5.2             amd64        MIT Kerberos runtime libraries - Crypto Library
 ii  libkeyutils1:amd64               1.5.6-1                          amd64        Linux Key Management Utilities (library)
 ii  libklibc                         2.0.3-0ubuntu1                   amd64        minimal libc subset for use with initramfs
 ii  libkmod2:amd64                   15-0ubuntu6                      amd64        libkmod shared library
 ii  libkrb5-26-heimdal:amd64         1.6~git20131207+dfsg-1ubuntu1.1  amd64        Heimdal Kerberos - libraries
-ii  libkrb5-3:amd64                  1.12+dfsg-2ubuntu5.1             amd64        MIT Kerberos runtime libraries
-ii  libkrb5support0:amd64            1.12+dfsg-2ubuntu5.1             amd64        MIT Kerberos runtime libraries - Support library
+ii  libkrb5-3:amd64                  1.12+dfsg-2ubuntu5.2             amd64        MIT Kerberos runtime libraries
+ii  libkrb5support0:amd64            1.12+dfsg-2ubuntu5.2             amd64        MIT Kerberos runtime libraries - Support library
 ii  libldap-2.4-2:amd64              2.4.31-1+nmu2ubuntu8.2           amd64        OpenLDAP libraries
 ii  liblocale-gettext-perl           1.05-7build3                     amd64        module using libc functions for internationalization in Perl
 ii  liblockfile-bin                  1.09-6ubuntu1                    amd64        support binaries for and cli utilities based on liblockfile
