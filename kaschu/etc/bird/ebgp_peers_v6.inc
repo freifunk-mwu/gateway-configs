@@ -85,6 +85,9 @@ protocol bgp flensburg2 from ebgp_ic {
 protocol bgp freiburg1 from ebgp_ic {
     neighbor fec0::a:cf:0:21 as 65060;
 }
+protocol bgp fulda2 from ebgp_ic {
+    neighbor fec0::a:cf:0:1d as 65142;
+}
 protocol bgp fulda3 from ebgp_ic {
     neighbor fec0::a:cf:0:2a as 65142;
 }
