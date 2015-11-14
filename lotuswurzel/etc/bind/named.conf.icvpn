@@ -471,15 +471,19 @@ zone "126.10.in-addr.arpa" {
 # 
 zone "fffr" {
     type static-stub;
-    server-addresses { 10.60.0.103; };
+    server-addresses { 10.60.0.103; fdf0:9bb:7814:a630::1113; 2001:bf7:2810::1113; };
 };
 zone "4.1.8.7.b.b.9.0.0.f.d.f.ip6.arpa" {
     type static-stub;
-    server-addresses { 10.60.0.103; };
+    server-addresses { 10.60.0.103; fdf0:9bb:7814:a630::1113; 2001:bf7:2810::1113; };
 };
 zone "60.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.60.0.103; };
+    server-addresses { 10.60.0.103; fdf0:9bb:7814:a630::1113; 2001:bf7:2810::1113; };
+};
+zone "1.8.2.7.f.b.0.1.0.0.2.ip6.arpa" {
+    type static-stub;
+    server-addresses { 10.60.0.103; fdf0:9bb:7814:a630::1113; 2001:bf7:2810::1113; };
 };
 # 
 # fulda
