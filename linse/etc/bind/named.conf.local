@@ -36,6 +36,11 @@ zone "ffwi.org." {
 	file "/etc/bind/zones/freifunk-wiesbaden.de.master.db";
 };
 
+zone "ffmwu.org." {
+	type master;
+	file "/etc/bind/zones/freifunk-mwu.de.master.db";
+};
+
 zone "wiesbaden.freifunk.net." {
         type master;
         file "/etc/bind/zones/wiesbaden.freifunk.net.master.db";
