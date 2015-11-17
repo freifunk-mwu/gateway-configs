@@ -7,5 +7,5 @@
 /sbin/ip -6 addr add dev $INTERFACE fec0::a:cf:0:25/96 preferred_lft 0
 
 # ip rules
-/sbin/ip rule add lookup icvpn priority 10042
-/sbin/ip -6 rule add lookup icvpn priority 10042
+#/sbin/ip rule add lookup icvpn priority 10042
+#/sbin/ip -6 rule add lookup icvpn priority 10042

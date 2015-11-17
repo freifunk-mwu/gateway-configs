@@ -33,26 +33,26 @@ iface mzBR inet static
 	post-down	/sbin/brctl delbr $IFACE
         # be sure all incoming traffic is handled by the appropriate
         # rt_table
-        post-up         /sbin/ip rule add iif $IFACE table mz priority 3700
-        pre-down        /sbin/ip rule del iif $IFACE table mz priority 3700
+        #post-up         /sbin/ip rule add iif $IFACE table mz priority 3700
+        #pre-down        /sbin/ip rule del iif $IFACE table mz priority 3700
         # default route is unreachable
-        post-up         /sbin/ip route add unreachable default table mz
-        post-down       /sbin/ip route del unreachable default table mz
+        #post-up         /sbin/ip route add unreachable default table mz
+        #post-down       /sbin/ip route del unreachable default table mz
         # local reachable subnet mz for rt_table wi
-        post-up         /sbin/ip route add 10.37.0.0/18 proto static dev $IFACE table wi
-        post-down       /sbin/ip route del 10.37.0.0/18 proto static dev $IFACE table wi
+        #post-up         /sbin/ip route add 10.37.0.0/18 proto static dev $IFACE table wi
+        #post-down       /sbin/ip route del 10.37.0.0/18 proto static dev $IFACE table wi
 	# ipv6
         # be sure all incoming traffic is handled by the appropriate
         # rt_table
-        post-up         /sbin/ip -6 rule add iif $IFACE table mz priority 3700
-        pre-down        /sbin/ip -6 rule del iif $IFACE table mz priority 3700
-        post-up         /sbin/ip -6 route add fe80::/64 proto static dev $IFACE table mz
-        post-down       /sbin/ip -6 route del fe80::/64 proto static dev $IFACE table mz
-        post-up         /sbin/ip -6 route add fd37:b4dc:4b1e::/64 proto static dev $IFACE table mz
-        post-down       /sbin/ip -6 route del fd37:b4dc:4b1e::/64 proto static dev $IFACE table mz
+        #post-up         /sbin/ip -6 rule add iif $IFACE table mz priority 3700
+        #pre-down        /sbin/ip -6 rule del iif $IFACE table mz priority 3700
+        #post-up         /sbin/ip -6 route add fe80::/64 proto static dev $IFACE table mz
+        #post-down       /sbin/ip -6 route del fe80::/64 proto static dev $IFACE table mz
+        #post-up         /sbin/ip -6 route add fd37:b4dc:4b1e::/64 proto static dev $IFACE table mz
+        #post-down       /sbin/ip -6 route del fd37:b4dc:4b1e::/64 proto static dev $IFACE table mz
         # ULA route mz for rt_table wi
-        post-up         /sbin/ip -6 route add fd37:b4dc:4b1e::/64 proto static dev $IFACE table wi
-        post-down       /sbin/ip -6 route del fd37:b4dc:4b1e::/64 proto static dev $IFACE table wi
+        #post-up         /sbin/ip -6 route add fd37:b4dc:4b1e::/64 proto static dev $IFACE table wi
+        #post-down       /sbin/ip -6 route del fd37:b4dc:4b1e::/64 proto static dev $IFACE table wi
 
 auto wiBR
 iface wiBR inet static
@@ -64,26 +64,26 @@ iface wiBR inet static
 	post-down	/sbin/brctl delbr $IFACE
         # be sure all incoming traffic is handled by the appropriate
         # rt_table
-        post-up         /sbin/ip rule add iif $IFACE table wi priority 5600
-        pre-down        /sbin/ip rule del iif $IFACE table wi priority 5600
+        #post-up         /sbin/ip rule add iif $IFACE table wi priority 5600
+        #pre-down        /sbin/ip rule del iif $IFACE table wi priority 5600
         # default route is unreachable
-        post-up         /sbin/ip route add unreachable default table wi
-        post-down       /sbin/ip route del unreachable default table wi
+        #post-up         /sbin/ip route add unreachable default table wi
+        #post-down       /sbin/ip route del unreachable default table wi
         # local reachable subnet wi for rt_table mz
-        post-up         /sbin/ip route add 10.56.0.0/18 proto static dev $IFACE table mz
-        post-down       /sbin/ip route del 10.56.0.0/18 proto static dev $IFACE table mz
+        #post-up         /sbin/ip route add 10.56.0.0/18 proto static dev $IFACE table mz
+        #post-down       /sbin/ip route del 10.56.0.0/18 proto static dev $IFACE table mz
 	# ipv6
         # be sure all incoming traffic is handled by the appropriate
         # rt_table
-        post-up         /sbin/ip -6 rule add iif $IFACE table wi priority 5600
-        pre-down        /sbin/ip -6 rule del iif $IFACE table wi priority 5600
-        post-up         /sbin/ip -6 route add fe80::/64 proto static dev $IFACE table wi
-        post-down       /sbin/ip -6 route del fe80::/64 proto static dev $IFACE table wi
-        post-up         /sbin/ip -6 route add fd56:b4dc:4b1e::/64 proto	static dev $IFACE table wi
-        post-down       /sbin/ip -6 route del fd56:b4dc:4b1e::/64 proto	static dev $IFACE table wi
+        #post-up         /sbin/ip -6 rule add iif $IFACE table wi priority 5600
+        #pre-down        /sbin/ip -6 rule del iif $IFACE table wi priority 5600
+        #post-up         /sbin/ip -6 route add fe80::/64 proto static dev $IFACE table wi
+        #post-down       /sbin/ip -6 route del fe80::/64 proto static dev $IFACE table wi
+        #post-up         /sbin/ip -6 route add fd56:b4dc:4b1e::/64 proto	static dev $IFACE table wi
+        #post-down       /sbin/ip -6 route del fd56:b4dc:4b1e::/64 proto	static dev $IFACE table wi
         # ULA route wi for rt_table mz
-        post-up         /sbin/ip -6 route add fd56:b4dc:4b1e::/64 proto static dev $IFACE table mz
-        post-down       /sbin/ip -6 route del fd56:b4dc:4b1e::/64 proto	static dev $IFACE table mz
+        #post-up         /sbin/ip -6 route add fd56:b4dc:4b1e::/64 proto static dev $IFACE table mz
+        #post-down       /sbin/ip -6 route del fd56:b4dc:4b1e::/64 proto	static dev $IFACE table mz
 
 
 allow-hotplug mzVPN
