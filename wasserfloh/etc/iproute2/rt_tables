@@ -8,7 +8,17 @@
 #
 # local
 #
+# icvpn table
+23      icvpn
+#local community table
+41      mwu
+# internet exit table
+61      ffinetexit
+#
+#
+# legacy ...
+#
 37      mz
 56      wi
 # icvpn
-42      icvpn
+#42      icvpn
