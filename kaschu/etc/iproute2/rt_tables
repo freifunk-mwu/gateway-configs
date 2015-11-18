@@ -8,9 +8,18 @@
 #
 # local
 #
+# icvpn table
+23      icvpn
+#local community table
+41      mwu
+# internet exit table
+61      ffinetexit
+#
+# old
+#
 #1	inr.ruhep
 
 37      mz
 56      wi
 # icvpn
-42      icvpn
+#42      icvpn
