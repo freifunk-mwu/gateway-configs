@@ -741,11 +741,11 @@ zone "ffin" {
 # 
 zone "ffj" {
     type static-stub;
-    server-addresses { 10.117.0.1; };
+    server-addresses { 10.17.250.1; };
 };
-zone "117.10.in-addr.arpa" {
+zone "17.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.117.0.1; };
+    server-addresses { 10.17.250.1; };
 };
 # 
 # karlsruhe
