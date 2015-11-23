@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2015102203		; Serial
+		     2015112301		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -38,6 +38,7 @@ www		IN	CNAME	octans.uberspace.de.
 blog		IN	CNAME	octans.uberspace.de.
 stats		IN	CNAME	octans.uberspace.de.
 massfw		IN	CNAME	aubergine.freifunk-mwu.de.
+massfw02	IN	CNAME	aubergine.freifunk-mwu.de.
 
 ; mailman
 lists           IN      CNAME   glueckskeks.freifunk-mwu.de.
