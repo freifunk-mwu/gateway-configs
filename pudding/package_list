@@ -62,7 +62,7 @@ ii  dctrl-tools                         2.23ubuntu1                          amd
 ii  debconf                             1.5.51ubuntu2                        all          Debian configuration management system
 ii  debconf-i18n                        1.5.51ubuntu2                        all          full internationalization support for debconf
 ii  debhelper                           9.20131227ubuntu1                    all          helper programs for debian/rules
-ii  debian-goodies                      0.63                                 all          Small toolbox-style utilities for Debian systems
+ii  debian-goodies                      0.63ubuntu1                          all          Small toolbox-style utilities for Debian systems
 ii  debianutils                         4.4                                  amd64        Miscellaneous utilities specific to Debian
 ii  dh-apparmor                         2.8.95~2430-0ubuntu5.3               all          AppArmor debhelper routines
 ii  dh-python                           1.20140128-1ubuntu8.2                all          Debian helper tools for packaging Python libraries and applications
@@ -245,8 +245,8 @@ ii  libevent-2.0-5:amd64                2.0.21-stable-1ubuntu1.14.04.1       amd
 ii  libexpat1:amd64                     2.1.0-4ubuntu1.1                     amd64        XML parsing C library - runtime library
 ii  libexpat1-dev:amd64                 2.1.0-4ubuntu1.1                     amd64        XML parsing C library - development kit
 ii  libfakeroot:amd64                   1.20-3ubuntu2                        amd64        tool for simulating superuser privileges - shared libraries
-ii  libffi-dev:amd64                    3.1~rc1+r3.0.13-12                   amd64        Foreign Function Interface library (development files)
-ii  libffi6:amd64                       3.1~rc1+r3.0.13-12                   amd64        Foreign Function Interface library runtime
+ii  libffi-dev:amd64                    3.1~rc1+r3.0.13-12ubuntu0.1          amd64        Foreign Function Interface library (development files)
+ii  libffi6:amd64                       3.1~rc1+r3.0.13-12ubuntu0.1          amd64        Foreign Function Interface library runtime
 ii  libfile-copy-recursive-perl         0.38-1                               all          Perl extension for recursively copying files and directories
 ii  libfile-fcntllock-perl              0.14-2build1                         amd64        Perl module for file locking with fcntl(2)
 ii  libfile-listing-perl                6.04-1                               all          module to parse directory listings
