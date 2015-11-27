@@ -2,7 +2,7 @@
 ;
 $TTL	300
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2015102203		; Serial
+		     2015112701		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -62,9 +62,9 @@ zwiebel		IN	AAAA	2001:bc8:2058:101::b4dc:4b1e
 aubergine	IN	A	144.76.209.103
 aubergine	IN	AAAA	2a01:4f8:192:523::b4dc:4b1e
 glueckskeks	IN	A	5.199.136.244
-glueckskeks	IN	AAAA	2001:4ba0:fffc:3d:0:b4dc:4b1e:3
+glueckskeks	IN	AAAA	2001:4ba0:fffc:3d::b4dc:4b1e:3
 lists		IN	A	5.199.136.244
-lists		IN	AAAA	2001:4ba0:fffc:3d:0:b4dc:4b1e:3
+lists		IN	AAAA	2001:4ba0:fffc:3d::b4dc:4b1e:3
 
 ; services and stuff
 pudding		IN	CNAME	web.igeh.me.
@@ -77,8 +77,8 @@ webmail		IN	CNAME	glueckskeks
 firmware	IN	A	144.76.0.27
 firmware	IN	AAAA	2a01:4f8:190:7008:2800::2
 ; spinat
-firmware	IN	A	89.238.67.196
-firmware	IN	AAAA	2a00:1828:2000:182::2
+firmware	IN	A	46.20.37.226
+firmware	IN	AAAA	2001:4ba0:fffc:3d::b4dc:4b1e:1
 ; lotuswurzel
 firmware	IN	A	144.76.209.100
 firmware	IN	AAAA	2a01:4f8:192:520::b4dc:4b1e
