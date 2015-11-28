@@ -105,6 +105,8 @@ roa 2a02:f98:0:26::/64       max  64 as  65079; # ruhrgebiet
 roa 2a02:f98:0:27::/64       max  64 as  65079; # ruhrgebiet
 roa 2a02:f98:0:28::/64       max  64 as  65079; # ruhrgebiet
 roa 2a03:2260:50::/48        max  64 as  65079; # ruhrgebiet
+roa 2a03:2260:50:3::/64      max  64 as  65401; # ruhrgebiet (delegation)
+roa 2a03:2260:50:3f00::/56   max  64 as  65401; # ruhrgebiet (delegation)
 roa fd4e:f2d7:88d2:ffff::/64 max  64 as  64770; # saar
 roa 2001:bf7:100:212::/64    max  64 as  65530; # solingen (delegation)
 roa fddf:ebfd:a801:212::/64  max  64 as  65530; # solingen (delegation)
