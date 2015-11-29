@@ -7,7 +7,7 @@ ii  accountsservice                     0.6.35-0ubuntu7.2                amd64  
 ii  acl                                 2.2.52-1                         amd64        Access control list utilities
 ii  acpid                               1:2.0.21-1ubuntu2                amd64        Advanced Configuration and Power Interface event daemon
 ii  adduser                             3.113+nmu3ubuntu3                all          add and remove users and groups
-ii  alfred                              2015.1-0ffmwu0~trusty            amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
+ii  alfred                              2015.2-0ffmwu0~trusty            amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
 ii  alfred-json                         0.3.1-0ffmwu1~trusty             amd64        A.L.F.R.E.D client supporting GZIP decompression and JSON, string and binary output
 ii  apache2                             2.4.7-1ubuntu4.8                 amd64        Apache HTTP Server
 ii  apache2-bin                         2.4.7-1ubuntu4.8                 amd64        Apache HTTP Server (binary files and modules)
@@ -26,9 +26,9 @@ ii  base-files                          7.2ubuntu5.3                     amd64  
 ii  base-passwd                         3.5.33                           amd64        Debian base system master password and group files
 ii  bash                                4.3-7ubuntu1.5                   amd64        GNU Bourne Again SHell
 ii  bash-completion                     1:2.1-4ubuntu0.1                 all          programmable completion for the bash shell
-ii  batadv-vis                          2015.1-0ffmwu0~trusty            amd64        batadv-vis - visualize your batman-adv mesh network
-ii  batctl                              2015.1-0ffmwu0~trusty            amd64        B.A.T.M.A.N. advanced control and management tool
-ii  batman-adv-dkms                     2015.1-0ffmwu0~trusty            all          DKMS Source for the batman-advanced kernel module
+ii  batadv-vis                          2015.2-0ffmwu0~trusty            amd64        batadv-vis - visualize your batman-adv mesh network
+ii  batctl                              2015.2-0ffmwu0~trusty            amd64        B.A.T.M.A.N. advanced control and management tool
+ii  batman-adv-dkms                     2015.2-0ffmwu0~trusty            all          DKMS Source for the batman-advanced kernel module
 ii  bc                                  1.06.95-8ubuntu1                 amd64        GNU bc arbitrary precision calculator language
 ii  bind9                               1:9.9.5.dfsg-3ubuntu0.5          amd64        Internet Domain Name Server
 ii  bind9-doc                           1:9.9.5.dfsg-3ubuntu0.5          all          Documentation for BIND
