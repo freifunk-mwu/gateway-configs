@@ -81,6 +81,7 @@ roa 10.130.0.0/16   max  20 as 201173; # luebeck
 roa 10.216.0.0/16   max  20 as  65034; # luenen
 roa 10.24.128.0/18  max  20 as  64769; # luxembourg
 roa 10.139.0.0/16   max  20 as  65039; # magdeburg
+roa 10.128.0.0/18   max  20 as  64877; # marburg
 roa 10.222.0.0/16   max  20 as  65032; # mayen-koblenz
 roa 10.15.0.0/16    max  20 as  65057; # moehne
 roa 10.27.0.0/16    max  20 as  65057; # moehne
@@ -113,6 +114,7 @@ roa 10.236.0.0/16   max  20 as  65079; # ruhrgebiet
 roa 10.240.0.0/13   max  20 as  65079; # ruhrgebiet
 roa 10.41.0.0/16    max  20 as  65079; # ruhrgebiet
 roa 10.53.0.0/16    max  20 as  65079; # ruhrgebiet
+roa 10.41.0.0/16    max  20 as  65401; # ruhrgebiet (delegation)
 roa 10.24.192.0/18  max  20 as  64770; # saar
 roa 10.6.0.0/16     max  20 as  65530; # solingen (delegation)
 roa 10.190.0.0/15   max  20 as  65019; # stuttgart
