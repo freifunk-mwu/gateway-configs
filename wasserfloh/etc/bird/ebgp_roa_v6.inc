@@ -85,6 +85,7 @@ roa 2001:bf7:110::/44        max  64 as 201173; # luebeck
 roa fdef:ffc0:3dd7::/48      max  64 as 201173; # luebeck
 roa fd4e:f2d7:88d2:fffe::/64 max  64 as  64769; # luxembourg
 roa fda9:026e:5805::/48      max  64 as  65039; # magdeburg
+roa 2001:470:72e8::/48       max  64 as  64877; # marburg
 roa 2a03:2260:10::/48        max  64 as  65057; # moehne
 roa 2a03:2260:115::/48       max  64 as  65251; # muensterland
 roa fd39:e4e3:eee1::/48      max  64 as  65534; # mueritz
@@ -105,6 +106,8 @@ roa 2a02:f98:0:26::/64       max  64 as  65079; # ruhrgebiet
 roa 2a02:f98:0:27::/64       max  64 as  65079; # ruhrgebiet
 roa 2a02:f98:0:28::/64       max  64 as  65079; # ruhrgebiet
 roa 2a03:2260:50::/48        max  64 as  65079; # ruhrgebiet
+roa 2a03:2260:50:3::/64      max  64 as  65401; # ruhrgebiet (delegation)
+roa 2a03:2260:50:3f00::/56   max  64 as  65401; # ruhrgebiet (delegation)
 roa fd4e:f2d7:88d2:ffff::/64 max  64 as  64770; # saar
 roa 2001:bf7:100:212::/64    max  64 as  65530; # solingen (delegation)
 roa fddf:ebfd:a801:212::/64  max  64 as  65530; # solingen (delegation)
