@@ -7,7 +7,7 @@ ii  accountsservice                  0.6.35-0ubuntu7.2                amd64     
 ii  acl                              2.2.52-1                         amd64        Access control list utilities
 ii  acpid                            1:2.0.21-1ubuntu2                amd64        Advanced Configuration and Power Interface event daemon
 ii  adduser                          3.113+nmu3ubuntu3                all          add and remove users and groups
-ii  alfred                           2015.1-0ffmwu0~trusty            amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
+ii  alfred                           2015.2-0ffmwu0~trusty            amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
 ii  alfred-json                      0.3.1-0ffmwu1~trusty             amd64        A.L.F.R.E.D client supporting GZIP decompression and JSON, string and binary output
 ii  apache2                          2.4.7-1ubuntu4.8                 amd64        Apache HTTP Server
 ii  apache2-bin                      2.4.7-1ubuntu4.8                 amd64        Apache HTTP Server (binary files and modules)
@@ -26,9 +26,9 @@ ii  base-files                       7.2ubuntu5.3                     amd64     
 ii  base-passwd                      3.5.33                           amd64        Debian base system master password and group files
 ii  bash                             4.3-7ubuntu1.5                   amd64        GNU Bourne Again SHell
 ii  bash-completion                  1:2.1-4ubuntu0.1                 all          programmable completion for the bash shell
-ii  batadv-vis                       2015.1-0ffmwu0~trusty            amd64        batadv-vis - visualize your batman-adv mesh network
-ii  batctl                           2015.1-0ffmwu0~trusty            amd64        B.A.T.M.A.N. advanced control and management tool
-ii  batman-adv-dkms                  2015.1-0ffmwu0~trusty            all          DKMS Source for the batman-advanced kernel module
+ii  batadv-vis                       2015.2-0ffmwu0~trusty            amd64        batadv-vis - visualize your batman-adv mesh network
+ii  batctl                           2015.2-0ffmwu0~trusty            amd64        B.A.T.M.A.N. advanced control and management tool
+ii  batman-adv-dkms                  2015.2-0ffmwu0~trusty            all          DKMS Source for the batman-advanced kernel module
 ii  bc                               1.06.95-8ubuntu1                 amd64        GNU bc arbitrary precision calculator language
 ii  bind9                            1:9.9.5.dfsg-3ubuntu0.5          amd64        Internet Domain Name Server
 ii  bind9-host                       1:9.9.5.dfsg-3ubuntu0.5          amd64        Version of 'host' bundled with BIND 9.X
@@ -70,8 +70,8 @@ ii  dmidecode                        2.12-2                           amd64     
 ii  dmsetup                          2:1.02.77-6ubuntu2               amd64        Linux Kernel Device Mapper userspace library
 ii  dnsutils                         1:9.9.5.dfsg-3ubuntu0.5          amd64        Clients provided with BIND
 ii  dosfstools                       3.0.26-1                         amd64        utilities for making and checking MS-DOS FAT filesystems
-ii  dpkg                             1.17.5ubuntu5.4                  amd64        Debian package management system
-ii  dpkg-dev                         1.17.5ubuntu5.4                  all          Debian package development tools
+ii  dpkg                             1.17.5ubuntu5.5                  amd64        Debian package management system
+ii  dpkg-dev                         1.17.5ubuntu5.5                  all          Debian package development tools
 ii  e2fslibs:amd64                   1.42.9-3ubuntu1.3                amd64        ext2/ext3/ext4 file system libraries
 ii  e2fsprogs                        1.42.9-3ubuntu1.3                amd64        ext2/ext3/ext4 file system utilities
 ii  ed                               1.9-2                            amd64        classic UNIX line editor
@@ -206,7 +206,7 @@ ii  libdbus-glib-1-2:amd64           0.100.2-1                        amd64     
 ii  libdebconfclient0:amd64          0.187ubuntu1                     amd64        Debian Configuration Management System (C-implementation library)
 ii  libdevmapper1.02.1:amd64         2:1.02.77-6ubuntu2               amd64        Linux Kernel Device Mapper userspace library
 ii  libdns100                        1:9.9.5.dfsg-3ubuntu0.5          amd64        DNS Shared Library used by BIND
-ii  libdpkg-perl                     1.17.5ubuntu5.4                  all          Dpkg perl modules
+ii  libdpkg-perl                     1.17.5ubuntu5.5                  all          Dpkg perl modules
 ii  libdrm2:amd64                    2.4.60-2~ubuntu14.04.1           amd64        Userspace interface to kernel DRM services -- runtime
 ii  libedit2:amd64                   3.1-20130712-2                   amd64        BSD editline and history libraries
 ii  libelf1:amd64                    0.158-0ubuntu5.2                 amd64        library to read and write ELF files
