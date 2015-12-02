@@ -260,6 +260,7 @@ ii  libjansson4:amd64                    2.5-2                                am
 ii  libjbig0:amd64                       2.0-2ubuntu4.1                       amd64        JBIGkit libraries
 ii  libjpeg-turbo8:amd64                 1.3.0-0ubuntu2                       amd64        IJG JPEG compliant runtime library.
 ii  libjpeg8:amd64                       8c-2ubuntu8                          amd64        Independent JPEG Group's JPEG runtime library (dependency package)
+ii  libjs-jquery                         1.7.2+dfsg-2ubuntu1                  all          JavaScript library for dynamic web applications
 ii  libjs-node-uuid                      1.4.0-1                              all          simple, fast generation of RFC4122 UUIDs - JavaScript library
 ii  libjson-c2:amd64                     0.11-3ubuntu1.2                      amd64        JSON manipulation library - shared library
 ii  libjson0:amd64                       0.11-3ubuntu1.2                      amd64        JSON manipulation library (transitional package)
@@ -454,8 +455,10 @@ ii  linux-headers-3.13.0-68              3.13.0-68.111                        al
 ii  linux-headers-3.13.0-68-generic      3.13.0-68.111                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-70              3.13.0-70.113                        all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-70-generic      3.13.0-70.113                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-generic                3.13.0.70.76                         amd64        Generic Linux kernel headers
-ii  linux-headers-virtual                3.13.0.70.76                         amd64        Transitional package.
+ii  linux-headers-3.13.0-71              3.13.0-71.114                        all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-71-generic      3.13.0-71.114                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-generic                3.13.0.71.77                         amd64        Generic Linux kernel headers
+ii  linux-headers-virtual                3.13.0.71.77                         amd64        Transitional package.
 rc  linux-image-3.13.0-24-generic        3.13.0-24.47                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-29-generic        3.13.0-29.53                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-30-generic        3.13.0-30.55                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -490,9 +493,10 @@ rc  linux-image-3.13.0-66-generic        3.13.0-66.108                        am
 rc  linux-image-3.13.0-67-generic        3.13.0-67.110                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-68-generic        3.13.0-68.111                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-70-generic        3.13.0-70.113                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-virtual                  3.13.0.70.76                         amd64        This package will always depend on the latest minimal generic kernel image.
-ii  linux-libc-dev:amd64                 3.13.0-70.113                        amd64        Linux Kernel Headers for development
-ii  linux-virtual                        3.13.0.70.76                         amd64        Minimal Generic Linux kernel and headers
+ii  linux-image-3.13.0-71-generic        3.13.0-71.114                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-virtual                  3.13.0.71.77                         amd64        This package will always depend on the latest minimal generic kernel image.
+ii  linux-libc-dev:amd64                 3.13.0-71.114                        amd64        Linux Kernel Headers for development
+ii  linux-virtual                        3.13.0.71.77                         amd64        Minimal Generic Linux kernel and headers
 ii  locales                              2.13+git20120306-12.1                all          common files for locale support
 ii  lockfile-progs                       0.1.17                               amd64        Programs for locking and unlocking files and mailboxes
 ii  login                                1:4.1.5.1-1ubuntu9.1                 amd64        system login tools
@@ -546,6 +550,7 @@ ii  psmisc                               22.20-1ubuntu2                       am
 ii  python                               2.7.5-5ubuntu3                       amd64        interactive high-level object-oriented language (default version)
 ii  python-apt                           0.9.3.5ubuntu1                       amd64        Python interface to libapt-pkg
 ii  python-apt-common                    0.9.3.5ubuntu1                       all          Python interface to libapt-pkg (locales)
+ii  python-blinker                       1.3.dfsg1-1ubuntu2                   all          Fast, simple object-to-object and broadcast signaling library
 ii  python-chardet                       2.0.1-2build2                        all          universal character encoding detector
 ii  python-chardet-whl                   2.2.1-2~ubuntu1                      all          universal character encoding detector
 ii  python-colorama                      0.2.5-0.1ubuntu2                     all          Cross-platform colored terminal text in Python - Python 2.x
@@ -558,9 +563,13 @@ ii  python-distlib-whl                   0.1.8-1ubuntu1                       al
 ii  python-dns                           2.3.6-3                              all          DNS client module for Python
 ii  python-dnspython                     1.11.1-1build1                       all          DNS toolkit for Python
 ii  python-ethtool                       0.7-1.1                              amd64        Python bindings for the ethtool kernel interface
+ii  python-flask                         0.10.1-2build1                       all          micro web framework based on Werkzeug, Jinja2 and good intentions
 ii  python-gdbm                          2.7.5-1ubuntu1                       amd64        GNU dbm database support for Python
 ii  python-html5lib                      0.999-3~ubuntu1                      all          HTML parser/tokenizer based on the WHATWG HTML5 specification (Python 2)
 ii  python-html5lib-whl                  0.999-3~ubuntu1                      all          HTML parser/tokenizer based on the WHATWG HTML5 specification
+ii  python-itsdangerous                  0.22+dfsg1-1build1                   all          Various helpers to pass trusted data to untrusted environment - python 2.x
+ii  python-jinja2                        2.7.2-2                              all          small but fast and easy to use stand-alone template engine
+ii  python-markupsafe                    0.18-1build2                         amd64        HTML/XHTML/XML string library for Python
 ii  python-minimal                       2.7.5-5ubuntu3                       amd64        minimal subset of the Python language (default version)
 ii  python-netaddr                       0.7.10-1ubuntu1.1                    all          manipulation of various common network address notations (Python 2)
 ii  python-openssl                       0.13-2ubuntu6                        amd64        Python 2 wrapper around the OpenSSL library
@@ -568,6 +577,7 @@ ii  python-pam                           0.4.2-13.1ubuntu3                    am
 ii  python-pip                           1.5.4-1ubuntu3                       all          alternative Python package installer
 ii  python-pip-whl                       1.5.4-1ubuntu3                       all          alternative Python package installer
 ii  python-pkg-resources                 3.3-1ubuntu2                         all          Package Discovery and Resource Access using pkg_resources
+ii  python-pyinotify                     0.9.4-1build1                        all          simple Linux inotify Python bindings
 ii  python-requests                      2.2.1-1ubuntu0.3                     all          elegant and simple HTTP library for Python, built for human beings
 ii  python-requests-whl                  2.2.1-1ubuntu0.3                     all          elegant and simple HTTP library for Python, built for human beings
 ii  python-serial                        2.6-1build1                          all          pyserial - module encapsulating access for the serial port
@@ -579,6 +589,7 @@ ii  python-twisted-bin                   13.2.0-1ubuntu1                      am
 ii  python-twisted-core                  13.2.0-1ubuntu1                      all          Event-based framework for internet applications
 ii  python-urllib3                       1.7.1-1ubuntu4                       all          HTTP library with thread-safe connection pooling for Python
 ii  python-urllib3-whl                   1.7.1-1ubuntu4                       all          HTTP library with thread-safe connection pooling
+ii  python-werkzeug                      0.9.4+dfsg-1.1ubuntu2                all          collection of utilities for WSGI applications
 ii  python-wheel                         0.24.0-1~ubuntu1                     all          built-package format for Python
 ii  python-xapian                        1.2.16-2ubuntu1                      amd64        Xapian search engine interface for Python
 ii  python-yaml                          3.10-4ubuntu0.1                      amd64        YAML parser and emitter for Python
