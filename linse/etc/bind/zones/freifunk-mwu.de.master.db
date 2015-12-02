@@ -2,7 +2,7 @@
 ;
 $TTL	300
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2015112701		; Serial
+		     2015120202		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -71,11 +71,12 @@ pudding		IN	CNAME	web.igeh.me.
 brokkoli	IN	CNAME	kokel.ddns.net.
 mailadmin	IN	CNAME	glueckskeks
 webmail		IN	CNAME	glueckskeks
+lg		IN	CNAME	aubergine
 
 ; firmware
 ; wasserfloh
-firmware	IN	A	144.76.0.27
-firmware	IN	AAAA	2a01:4f8:190:7008:2800::2
+;firmware	IN	A	144.76.0.27
+;firmware	IN	AAAA	2a01:4f8:190:7008:2800::2
 ; spinat
 firmware	IN	A	46.20.37.226
 firmware	IN	AAAA	2001:4ba0:fffc:3d::b4dc:4b1e:1
