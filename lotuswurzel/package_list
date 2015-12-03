@@ -151,6 +151,7 @@ ii  libacl1:amd64                        2.2.52-1                             am
 ii  libalgorithm-diff-perl               1.19.02-3                            all          module to find differences between files
 ii  libalgorithm-diff-xs-perl            0.04-2build4                         amd64        module to find differences between files (XS accelerated)
 ii  libalgorithm-merge-perl              0.08-2                               all          Perl module for three-way merge of textual data
+ii  libapache2-mod-wsgi                  3.4-4ubuntu2.1.14.04.2               amd64        Python WSGI adapter module for Apache
 ii  libapparmor1:amd64                   2.8.95~2430-0ubuntu5.3               amd64        changehat AppArmor library
 ii  libappconfig-perl                    1.66-1                               all          Perl module for configuration file and command line handling
 ii  libapr1:amd64                        1.5.0-1                              amd64        Apache Portable Runtime Library
