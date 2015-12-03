@@ -3,7 +3,7 @@ $ORIGIN ffwi.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffwi.org. hostmaster.ffwi.org. (
-                     2015112301         ; Serial
+                     2015120301         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -43,7 +43,7 @@ kaschu.icvpn		IN	AAAA	fec0::a:cf:1:38
 gate208.icvpn          	IN      CNAME   kaschu.icvpn
 
 wasserfloh  	   	IN      A       10.56.0.231
-wasserfloh     		IN      AAAA    fd37:b4dc:4b1e::a38:e7
+wasserfloh     		IN      AAAA    fd56:b4dc:4b1e::a38:e7
 gate231          	IN      CNAME   wasserfloh
 
 parmesan		IN      A       10.56.0.42
