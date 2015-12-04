@@ -22,4 +22,7 @@
 /sbin/ip -6 rule add from all iif wiBR lookup wiesbaden priority 7
 /sbin/ip -6 rule add from fd56:b4dc:4b1e::a38:103/128 lookup wiesbaden priority 7
 
+/sbin/ip route add 10.207.0.0/16 via 10.56.0.23
+/sbin/ip route add fec0::a:cf:0:0/96 via fd56:b4dc:4b1e::a38:17
+
 exit 0
