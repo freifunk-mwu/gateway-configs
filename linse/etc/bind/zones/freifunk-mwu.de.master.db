@@ -2,7 +2,7 @@
 ;
 $TTL	300
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2015120402		; Serial
+		     2015120501		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -65,6 +65,7 @@ glueckskeks	IN	A	5.199.136.244
 glueckskeks	IN	AAAA	2001:4ba0:fffc:3d::b4dc:4b1e:3
 lists		IN	A	5.199.136.244
 lists		IN	AAAA	2001:4ba0:fffc:3d::b4dc:4b1e:3
+mail		IN	CNAME	glueckskeks
 
 ; services and stuff
 pudding		IN	CNAME	web.igeh.me.
