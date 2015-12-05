@@ -28,9 +28,6 @@ protocol bgp icvpn_bielefeld1 from ebgp_ic {
 protocol bgp icvpn_bielefeld6 from ebgp_ic {
     neighbor 10.207.0.58 as 65529;
 }
-protocol bgp icvpn_bingen1 from ebgp_ic {
-    neighbor 10.207.0.25 as 64858;
-}
 protocol bgp icvpn_braunschweig1 from ebgp_ic {
     neighbor 10.207.0.40 as 65380;
 }
