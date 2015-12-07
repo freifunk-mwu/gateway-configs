@@ -139,6 +139,7 @@ ii  isc-dhcp-common                     4.2.4-7ubuntu12.3                amd64  
 ii  isc-dhcp-server                     4.2.4-7ubuntu12.3                amd64        ISC DHCP server for automatic IP address assignment
 ii  iso-codes                           3.52-1                           all          ISO language, territory, currency, script codes and their translations
 ii  joe                                 3.7-2.3ubuntu1                   amd64        user friendly full screen text editor
+ii  jq                                  1.3-1.1ubuntu1                   amd64        lightweight and flexible command-line JSON processor
 ii  kbd                                 1.15.5-1ubuntu1                  amd64        Linux console font and keytable utilities
 ii  keyboard-configuration              1.70ubuntu8                      all          system-wide keyboard preferences
 ii  klibc-utils                         2.0.3-0ubuntu1                   amd64        small utilities built with klibc for early boot
