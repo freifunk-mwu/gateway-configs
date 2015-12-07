@@ -1,9 +1,0 @@
-#!/bin/sh
-
-# http://manpages.ubuntu.com/manpages/maverick/en/man8/openvpn.8.html#contenttoc5
-
-# ip rules for maintenance
-ip rule del from $ifconfig_local table mz priority 9937
-ip rule del from $ifconfig_local table wi priority 9956
-
-exit 0

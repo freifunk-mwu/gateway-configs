@@ -6,82 +6,33 @@ auto lo
 iface lo inet loopback
 
 # The primary network interface
-auto p2p2
-iface p2p2 inet dhcp
-# This is an autoconfigured IPv6 interface
-iface p2p2 inet6 auto
-
-
-
-
-
-auto mzBR
-iface mzBR inet static
-    bridge_ports em0
-    bridge_fd 0
-    bridge_maxwait 0
-    address 10.37.0.42
-    netmask 255.255.192.0
-    # be sure all incoming traffic is handled by the appropriate rt_table
-    post-up         /sbin/ip rule add iif $IFACE table mz priority 3700
-    pre-down        /sbin/ip rule del iif $IFACE table mz priority 3700
-    # default route is unreachable
-    post-up         /sbin/ip route add unreachable default table mz
-    post-down       /sbin/ip route del unreachable default table mz
-    # local reachable subnet mz for rt_table wi
-    post-up         /sbin/ip route add 10.37.0.0/18 proto static dev $IFACE table wi
-    post-down       /sbin/ip route del 10.37.0.0/18 proto static dev $IFACE table wi
-
-iface mzBR inet6 static
-    address fd37:b4dc:4b1e::a25:2a
-    netmask 64
-    # be sure all incoming traffic is handled by the appropriate rt_table
-    post-up         /sbin/ip -6 rule add iif $IFACE table mz priority 3700
-    pre-down        /sbin/ip -6 rule del iif $IFACE table mz priority 3700
-    post-up         /sbin/ip -6 route add fe80::/64 proto static dev $IFACE table mz
-    post-down       /sbin/ip -6 route del fe80::/64 proto static dev $IFACE table mz
-    post-up         /sbin/ip -6 route add fd37:b4dc:4b1e::/64 proto static dev $IFACE table mz
-    post-down       /sbin/ip -6 route del fd37:b4dc:4b1e::/64 proto static dev $IFACE table mz
-    # ULA route wi for rt_table mz
-    post-up         /sbin/ip -6 route add fd37:b4dc:4b1e::/64 proto static dev $IFACE table wi
-    post-down       /sbin/ip -6 route del fd37:b4dc:4b1e::/64 proto static dev $IFACE table wi
-
-    post-up 	    ifconfig em0.100 up 
-    post-up 	    /usr/sbin/batctl -m mzBAT if add em0.100
-    post-down 	    /usr/sbin/batctl -m mzBAT if del em0.100
-    post-down 	    ifconfig em0.100 down
-
+auto eth0.2
+iface eth0.2 inet dhcp
 
 auto wiBR
 iface wiBR inet static
-    bridge_ports none
-    bridge_fd 0
-    bridge_maxwait 0
+    hwaddress 02:42:0a:38:00:2a
     address 10.56.0.42
     netmask 255.255.192.0
-    # be sure all incoming traffic is handled by the appropriate rt_table
-    post-up         /sbin/ip rule add iif $IFACE table wi priority 5600
-    pre-down        /sbin/ip rule del iif $IFACE table wi priority 5600
-    # default route is unreachable
-    post-up         /sbin/ip route add unreachable default table wi
-    post-down       /sbin/ip route del unreachable default table wi
-    # local reachable subnet wi for rt_table mz
-    post-up         /sbin/ip route add 10.56.0.0/18 proto static dev $IFACE table mz
-    post-down       /sbin/ip route del 10.56.0.0/18 proto static dev $IFACE table mz
+    pre-up          /sbin/brctl addbr $IFACE
+    up              /sbin/ip address add fd56:b4dc:4b1e::a38:2a/64 dev $IFACE
+    post-down       /sbin/brctl delbr $IFACE
 
-iface wiBR inet6 static
-    address fd56:b4dc:4b1e::a38:2a
-    netmask 64
-    # be sure all incoming traffic is handled by the appropriate rt_table
-    post-up         /sbin/ip -6 rule add iif $IFACE table mz priority 5600
-    pre-down        /sbin/ip -6 rule del iif $IFACE table mz priority 5600
-    post-up         /sbin/ip -6 route add fe80::/64 proto static dev $IFACE table wi
-    post-down       /sbin/ip -6 route del fe80::/64 proto static dev $IFACE table wi
-    post-up         /sbin/ip -6 route add fd56:b4dc:4b1e::/64 proto static dev $IFACE table wi
-    post-down       /sbin/ip -6 route del fd56:b4dc:4b1e::/64 proto static dev $IFACE table wi
-    # ULA route mz for rt_table wi
-    post-up         /sbin/ip -6 route add fd56:b4dc:4b1e::/64 proto static dev $IFACE table mz
-    post-down       /sbin/ip -6 route del fd56:b4dc:4b1e::/64 proto static dev $IFACE table mz
+auto mzBR
+iface mzBR inet static
+    hwaddress 02:42:0a:25:00:2a
+    address 10.37.0.42
+    netmask 255.255.192.0
+    pre-up          /sbin/brctl addbr $IFACE
+    up              /sbin/ip address add fd37:b4dc:4b1e::a25:2a/64 dev $IFACE
+    post-down       /sbin/brctl delbr $IFACE
+
+allow-hotplug wiVPN
+iface wiVPN inet6 manual
+    hwaddress 02:00:0a:38:00:2a
+    pre-up          /sbin/modprobe batman-adv
+    post-up         /usr/sbin/batctl -m wiBAT if add $IFACE
+    post-up         /sbin/ip link set dev wiBAT up
 
 allow-hotplug mzVPN
 iface mzVPN inet6 manual
@@ -90,19 +41,11 @@ iface mzVPN inet6 manual
     post-up         /usr/sbin/batctl -m mzBAT if add $IFACE
     post-up         /sbin/ip link set dev mzBAT up
 
-allow-hotplug wiVPN
-iface wiVPN inet6 manual
-    hwaddress 02:00:0a:38:00:2a
-    pre-up          /sbin/modprobe batman_adv
-    post-up         /usr/sbin/batctl -m wiBAT if add $IFACE
-    post-up         /sbin/ip link set dev wiBAT up
-
 allow-hotplug wiBAT
 iface wiBAT inet6 manual
     pre-up          /sbin/modprobe batman-adv
     post-up         /sbin/brctl addif wiBR $IFACE
     post-up         /usr/sbin/batctl -m $IFACE it 10000
-    post-up         /usr/sbin/batctl -m $IFACE vm server
     post-up         /usr/sbin/batctl -m $IFACE gw server  96mbit/96mbit
     pre-down        /sbin/brctl delif wiBR $IFACE || true
 
@@ -111,17 +54,5 @@ iface mzBAT inet6 manual
     pre-up          /sbin/modprobe batman-adv
     post-up         /sbin/brctl addif mzBR $IFACE
     post-up         /usr/sbin/batctl -m $IFACE it 10000
-    post-up         /usr/sbin/batctl -m $IFACE vm server
     post-up         /usr/sbin/batctl -m $IFACE gw server  96mbit/96mbit
     pre-down        /sbin/brctl delif mzBR $IFACE || true
-
-
-
-auto em0.3
-iface em0.3 inet6 manual
-
-auto em0.4
-iface em0.4 inet6 manual
-
-auto em0.5
-iface em0.5 inet6 manual
