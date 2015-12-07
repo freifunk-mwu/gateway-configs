@@ -19,16 +19,16 @@
 # 
 # For more information see the manual pages of crontab(5) and cron(8)
 # 
-# m h  dom mon dow   command
 PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
-* * * * * /home/admin/clones/ffnord-alfred-announce-mz/announce.sh -i mzBR -b mzBAT -u /var/run/alfred-mz.sock > /dev/null 2>&1
-#* * * * * /home/admin/clones/ffnord-alfred-announce-wi/announce.sh -i wiBR -b wiBAT -u /var/run/alfred-wi.sock > /dev/null 2>&1
+# m h  dom mon dow   command
+#* * * * * $HOME/clones/ffnord-alfred-announce/announce.sh -i mzBR -b mzBAT -f mzVPN -u /var/run/alfred-mz.sock -s ffmz > /dev/null 2>&1
+#* * * * * $HOME/clones/ffnord-alfred-announce/announce.sh -i wiBR -b wiBAT -f wiVPN -u /var/run/alfred-wi.sock -s ffwi > /dev/null 2>&1
 # backend-scripts
-*/5 * * * * /usr/bin/python3 $HOME/clones/backend-scripts/draw_traffic_all.py > $HOME/.cronlog/draw_traffic.log
-*/5 * * * * /usr/bin/python3 $HOME/clones/backend-scripts/check_bind_gw.py > $HOME/.cronlog/check_bind.log
-*/5 * * * * /usr/bin/python3 $HOME/clones/backend-scripts/check_exitvpn_gw.py > $HOME/.cronlog/check_exitvpn.log
-*/5 * * * * /usr/bin/python3 $HOME/clones/backend-scripts/check_radvd_gw.py > $HOME/.cronlog/check_radvd.log
-23 * * * * /usr/bin/python3 $HOME/clones/backend-scripts/gen_website_all.py > $HOME/.cronlog/gen_website.log
-#*/15 * * * * /usr/bin/python3 $HOME/clones/backend-scripts/sync_meshkeys_gw.py > $HOME/.cronlog/sync_meshkeys.log
-42 5,23 * * * /usr/bin/python3 $HOME/clones/backend-scripts/snapshot_configs_all.py > $HOME/.cronlog/snapshot_configs.log
+*/5 * * * * $HOME/clones/backend-scripts/draw_traffic_all.py > $HOME/.cronlog/draw_traffic.log
+*/5 * * * * $HOME/clones/backend-scripts/check_bind_gw.py > $HOME/.cronlog/check_bind.log
+*/5 * * * * $HOME/clones/backend-scripts/check_exitvpn_gw.py > $HOME/.cronlog/check_exitvpn.log
+*/5 * * * * $HOME/clones/backend-scripts/check_radvd_gw.py > $HOME/.cronlog/check_radvd.log
+23 * * * * $HOME/clones/backend-scripts/gen_website_all.py > $HOME/.cronlog/gen_website.log
+42 5,23 * * * $HOME/clones/backend-scripts/snapshot_configs_all.py > $HOME/.cronlog/snapshot_configs.log
 42 17 * * 2 /usr/local/bin/photon-dangerous-selfupgrade.py --sudo --repos $HOME/clones/backend-scripts
+0 5 * * 3,6,7 $HOME/clones/backend-scripts/update_bind_conf_gw.py > $HOME/.cronlog/update_bind_conf.log
