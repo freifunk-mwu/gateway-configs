@@ -85,7 +85,7 @@ roa 2001:bf7:110::/44        max  64 as 201173; # luebeck
 roa fdef:ffc0:3dd7::/48      max  64 as 201173; # luebeck
 roa fd4e:f2d7:88d2:fffe::/64 max  64 as  64769; # luxembourg
 roa fda9:026e:5805::/48      max  64 as  65039; # magdeburg
-roa 2001:470:72e8::/48       max  64 as  64877; # marburg
+roa 2a06:4b00:1000::/56      max  64 as  64877; # marburg
 roa 2a03:2260:10::/48        max  64 as  65057; # moehne
 roa 2a03:2260:115::/48       max  64 as  65251; # muensterland
 roa fd39:e4e3:eee1::/48      max  64 as  65534; # mueritz
