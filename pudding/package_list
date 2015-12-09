@@ -399,9 +399,9 @@ ii  libpixman-1-0:amd64                 0.30.2-2ubuntu1                      amd
 ii  libplymouth2:amd64                  0.8.8-0ubuntu17.1                    amd64        graphical boot animation and logger - shared libraries
 ii  libpng12-0:amd64                    1.2.50-1ubuntu2.14.04.1              amd64        PNG library - runtime
 ii  libpod-latex-perl                   0.61-1                               all          module to convert Pod data to formatted LaTeX
-ii  libpolkit-agent-1-0:amd64           0.105-4ubuntu2.14.04.1               amd64        PolicyKit Authentication Agent API
-ii  libpolkit-backend-1-0:amd64         0.105-4ubuntu2.14.04.1               amd64        PolicyKit backend API
-ii  libpolkit-gobject-1-0:amd64         0.105-4ubuntu2.14.04.1               amd64        PolicyKit Authorization API
+ii  libpolkit-agent-1-0:amd64           0.105-4ubuntu3.14.04.1               amd64        PolicyKit Authentication Agent API
+ii  libpolkit-backend-1-0:amd64         0.105-4ubuntu3.14.04.1               amd64        PolicyKit backend API
+ii  libpolkit-gobject-1-0:amd64         0.105-4ubuntu3.14.04.1               amd64        PolicyKit Authorization API
 ii  libpopt0:amd64                      1.16-8ubuntu1                        amd64        lib for parsing cmdline parameters
 ii  libpq-dev                           9.3.10-0ubuntu0.14.04                amd64        header files for libpq5 (PostgreSQL library)
 ii  libpq5                              9.3.10-0ubuntu0.14.04                amd64        PostgreSQL C client library
@@ -450,8 +450,8 @@ ii  libsqlite3-0:amd64                  3.8.2-1ubuntu2.1                     amd
 ii  libsqlite3-dev:amd64                3.8.2-1ubuntu2.1                     amd64        SQLite 3 development files
 ii  libss2:amd64                        1.42.9-3ubuntu1.3                    amd64        command-line interface parsing library
 rc  libssh2-1:amd64                     1.4.3-2                              amd64        SSH2 client-side library
-ii  libssl-dev:amd64                    1.0.1f-1ubuntu2.15                   amd64        Secure Sockets Layer toolkit - development files
-ii  libssl1.0.0:amd64                   1.0.1f-1ubuntu2.15                   amd64        Secure Sockets Layer toolkit - shared libraries
+ii  libssl-dev:amd64                    1.0.1f-1ubuntu2.16                   amd64        Secure Sockets Layer toolkit - development files
+ii  libssl1.0.0:amd64                   1.0.1f-1ubuntu2.16                   amd64        Secure Sockets Layer toolkit - shared libraries
 ii  libstdc++-4.8-dev:amd64             4.8.4-2ubuntu1~14.04                 amd64        GNU Standard C++ Library v3 (development files)
 ii  libstdc++6:amd64                    4.8.4-2ubuntu1~14.04                 amd64        GNU Standard C++ Library v3
 ii  libsub-name-perl                    0.05-1build4                         amd64        module for assigning a new name to referenced sub
@@ -521,7 +521,7 @@ ii  libxrender1:amd64                   1:0.9.8-1build0.14.04.1              amd
 ii  libxtables10                        1.4.21-1ubuntu1                      amd64        netfilter xtables library
 ii  libyaml-0-2:amd64                   0.1.4-3ubuntu3.1                     amd64        Fast YAML 1.1 parser and emitter library
 ii  libyaml-dev:amd64                   0.1.4-3ubuntu3.1                     amd64        Fast YAML 1.1 parser and emitter library (development)
-ii  linux-firmware                      1.127.18                             all          Firmware for Linux kernel drivers
+ii  linux-firmware                      1.127.19                             all          Firmware for Linux kernel drivers
 ii  linux-generic                       3.13.0.71.77                         amd64        Complete Generic Linux kernel and headers
 ii  linux-headers-3.13.0-24             3.13.0-24.47                         all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-24-generic     3.13.0-24.47                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
@@ -645,10 +645,6 @@ ii  linux-tools-3.13.0-63               3.13.0-63.103                        amd
 ii  linux-tools-3.13.0-63-generic       3.13.0-63.103                        amd64        Linux kernel version specific tools for version 3.13.0-63
 ii  linux-tools-3.13.0-65               3.13.0-65.106                        amd64        Linux kernel version specific tools for version 3.13.0-65
 ii  linux-tools-3.13.0-65-generic       3.13.0-65.106                        amd64        Linux kernel version specific tools for version 3.13.0-65
-ii  linux-tools-3.13.0-68               3.13.0-68.111                        amd64        Linux kernel version specific tools for version 3.13.0-68
-ii  linux-tools-3.13.0-68-generic       3.13.0-68.111                        amd64        Linux kernel version specific tools for version 3.13.0-68
-ii  linux-tools-3.13.0-70               3.13.0-70.113                        amd64        Linux kernel version specific tools for version 3.13.0-70
-ii  linux-tools-3.13.0-70-generic       3.13.0-70.113                        amd64        Linux kernel version specific tools for version 3.13.0-70
 ii  linux-tools-3.13.0-71               3.13.0-71.114                        amd64        Linux kernel version specific tools for version 3.13.0-71
 ii  linux-tools-3.13.0-71-generic       3.13.0-71.114                        amd64        Linux kernel version specific tools for version 3.13.0-71
 ii  linux-tools-common                  3.13.0-71.114                        all          Linux kernel version specific tools for version 3.13.0
@@ -702,7 +698,7 @@ ii  ntpdate                             1:4.2.6.p5+dfsg-3ubuntu2.14.04.5     amd
 ii  openssh-client                      1:6.6p1-2ubuntu2.3                   amd64        secure shell (SSH) client, for secure access to remote machines
 ii  openssh-server                      1:6.6p1-2ubuntu2.3                   amd64        secure shell (SSH) server, for secure access from remote machines
 ii  openssh-sftp-server                 1:6.6p1-2ubuntu2.3                   amd64        secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii  openssl                             1.0.1f-1ubuntu2.15                   amd64        Secure Sockets Layer toolkit - cryptographic utility
+ii  openssl                             1.0.1f-1ubuntu2.16                   amd64        Secure Sockets Layer toolkit - cryptographic utility
 ii  os-prober                           1.63ubuntu1                          amd64        utility to detect other OSes on a set of drives
 ii  parted                              2.3-19ubuntu1.14.04.1                amd64        disk partition manipulator
 ii  passwd                              1:4.1.5.1-1ubuntu9.1                 amd64        change and administer password and group data
@@ -719,7 +715,7 @@ ii  pkg-config                          0.26-1ubuntu4                        amd
 ii  plymouth                            0.8.8-0ubuntu17.1                    amd64        graphical boot animation and logger - main package
 ii  plymouth-theme-ubuntu-text          0.8.8-0ubuntu17.1                    amd64        graphical boot animation and logger - ubuntu-logo theme
 ii  po-debconf                          1.0.16+nmu2ubuntu1                   all          tool for managing templates file translations with gettext
-ii  policykit-1                         0.105-4ubuntu2.14.04.1               amd64        framework for managing administrative policies and privileges
+ii  policykit-1                         0.105-4ubuntu3.14.04.1               amd64        framework for managing administrative policies and privileges
 ii  popularity-contest                  1.57ubuntu1                          all          Vote for your favourite packages automatically
 ii  postfix                             2.11.0-1ubuntu1                      amd64        High-performance mail transport agent
 ii  powermgmt-base                      1.31build1                           amd64        Common utils and configs for power management
