@@ -915,6 +915,21 @@ zone "90.10.in-addr.arpa" {
     server-addresses { 10.90.0.11; fdef:f00f:1337:cafe::11; };
 };
 # 
+# rhein-erft-kreis
+# 
+zone "ffrek" {
+    type static-stub;
+    server-addresses { 10.219.0.1; fda0:747e:ab29:5016::1; };
+};
+zone "0.219.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.219.0.1; fda0:747e:ab29:5016::1; };
+};
+zone "6.1.0.5.9.2.b.a.e.7.4.7.0.a.d.f.ip6.arpa" {
+    type static-stub;
+    server-addresses { 10.219.0.1; fda0:747e:ab29:5016::1; };
+};
+# 
 # ruhrgebiet
 # 
 zone "ffrg" {
