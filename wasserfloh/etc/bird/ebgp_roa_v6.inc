@@ -97,6 +97,7 @@ roa fda0:747e:ab29:2195::/64 max  64 as  65067; # radevormwald
 roa fdef:f00f:1337:cafe::/64 max  64 as  65190; # regensburg
 roa 2001:bf7:100:2191::/64   max  64 as  65530; # remscheid (delegation)
 roa fddf:ebfd:a801:2191::/64 max  64 as  65530; # remscheid (delegation)
+roa fda0:747e:ab29:5016::/64 max  64 as  64888; # rhein-erft-kreis
 roa 2a01:4f8:100:57ff::/64   max  64 as  76118; # rhein-neckar
 roa fd42:23:138::/48         max  64 as  76118; # rhein-neckar
 roa fda0:747e:ab29:2241::/64 max  64 as  65111; # rheinsiegkreis
