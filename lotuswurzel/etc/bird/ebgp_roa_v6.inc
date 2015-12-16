@@ -24,6 +24,7 @@ roa 2001:bf7:1320::/44       max  64 as  65529; # bielefeld
 roa fdaf:17a0:ffb1::/48      max  64 as  65529; # bielefeld
 roa 2001:bf7:100:2041::/64   max  64 as  65530; # bottrop (delegation)
 roa fddf:ebfd:a801:2041::/64 max  64 as  65530; # bottrop (delegation)
+roa 2001:bf7:140::/44        max  64 as  65147; # brandenburg
 roa 2001:bf7:380::/44        max  64 as  65380; # braunschweig
 roa 2001:bf7:540::/44        max  64 as  65196; # bremen
 roa 2001:bf7:550::/44        max  64 as  65196; # bremen
@@ -67,6 +68,7 @@ roa fda0:747e:ab29:7406::/64 max  64 as  65100; # hennef
 roa fdf3:2049:5152::/48      max  64 as  64866; # herford
 roa 2001:bf7:100:2192::/64   max  64 as  65530; # hueckeswagen (delegation)
 roa fddf:ebfd:a801:2192::/64 max  64 as  65530; # hueckeswagen (delegation)
+roa 2a03:2260:116::/64       max  64 as  65252; # ingolstadt
 roa fd59:b1b7:1d1f::/48      max  64 as  65055; # jena
 roa 2a03:2260:a::/48         max  64 as  65081; # karlsruhe
 roa fdca:55e1:baca:baca::/64 max  64 as  65514; # kassel
@@ -97,6 +99,7 @@ roa fda0:747e:ab29:2195::/64 max  64 as  65067; # radevormwald
 roa fdef:f00f:1337:cafe::/64 max  64 as  65190; # regensburg
 roa 2001:bf7:100:2191::/64   max  64 as  65530; # remscheid (delegation)
 roa fddf:ebfd:a801:2191::/64 max  64 as  65530; # remscheid (delegation)
+roa fda0:747e:ab29:5016::/64 max  64 as  64888; # rhein-erft-kreis
 roa 2a01:4f8:100:57ff::/64   max  64 as  76118; # rhein-neckar
 roa fd42:23:138::/48         max  64 as  76118; # rhein-neckar
 roa fda0:747e:ab29:2241::/64 max  64 as  65111; # rheinsiegkreis
