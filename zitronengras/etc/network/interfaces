@@ -1,0 +1,45 @@
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# The primary network interface
+auto eth0
+iface eth0 inet static
+	address 195.72.110.33
+	netmask 255.255.255.252
+	network 195.72.110.32
+	broadcast 195.72.110.35
+	gateway 195.72.110.34
+	# dns-* options are implemented by the resolvconf package, if installed
+	dns-nameservers 127.0.0.1
+
+auto wiBR
+iface wiBR inet static
+	hwaddress 02:42:0a:38:00:1d
+	address 10.56.0.29
+	netmask 255.255.192.0
+	pre-up          /sbin/brctl addbr $IFACE
+	up              /sbin/ip address add fd56:b4dc:4b1e::a38:1d/64 dev $IFACE
+	post-down       /sbin/brctl delbr $IFACE
+
+allow-hotplug wiVPN
+iface wiVPN inet6 manual
+	pre-up          /sbin/modprobe batman-adv
+	pre-up          /sbin/ip link set address 02:00:0a:38:00:1d dev $IFACE
+	post-up         /usr/sbin/batctl -m wiBAT if add $IFACE
+	post-up         /sbin/ip link set dev wiBAT up
+
+auto eth1
+iface eth1 inet6 manual
+
+allow-hotplug wiBAT
+iface wiBAT inet6 manual
+	pre-up          /sbin/modprobe batman-adv
+	post-up         /sbin/brctl addif wiBR $IFACE
+	post-up         /usr/sbin/batctl -m $IFACE it 10000
+	post-up         /usr/sbin/batctl -m $IFACE gw server 96mbit/96mbit
+	post-up         /usr/sbin/batctl -m wiBAT if add eth1
+	pre-down        /sbin/brctl delif wiBR $IFACE || true
