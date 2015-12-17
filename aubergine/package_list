@@ -30,9 +30,9 @@ ii  batadv-vis                       2015.2-0ffmwu0~trusty            amd64     
 ii  batctl                           2015.2-0ffmwu0~trusty            amd64        B.A.T.M.A.N. advanced control and management tool
 ii  batman-adv-dkms                  2015.2-0ffmwu0~trusty            all          DKMS Source for the batman-advanced kernel module
 ii  bc                               1.06.95-8ubuntu1                 amd64        GNU bc arbitrary precision calculator language
-ii  bind9                            1:9.9.5.dfsg-3ubuntu0.5          amd64        Internet Domain Name Server
-ii  bind9-host                       1:9.9.5.dfsg-3ubuntu0.5          amd64        Version of 'host' bundled with BIND 9.X
-ii  bind9utils                       1:9.9.5.dfsg-3ubuntu0.5          amd64        Utilities for BIND
+ii  bind9                            1:9.9.5.dfsg-3ubuntu0.6          amd64        Internet Domain Name Server
+ii  bind9-host                       1:9.9.5.dfsg-3ubuntu0.6          amd64        Version of 'host' bundled with BIND 9.X
+ii  bind9utils                       1:9.9.5.dfsg-3ubuntu0.6          amd64        Utilities for BIND
 ii  binutils                         2.24-5ubuntu14                   amd64        GNU assembler, linker and binary utilities
 ii  biosdevname                      0.4.1-0ubuntu6.2                 amd64        apply BIOS-given names to network devices
 ii  bird                             1.5.0-1+trusty+1                 amd64        Internet Routing Daemon
@@ -68,7 +68,7 @@ ii  diffutils                        1:3.3-1                          amd64     
 ii  dkms                             2.2.0.3-1.1ubuntu5.14.04.5       all          Dynamic Kernel Module Support Framework
 ii  dmidecode                        2.12-2                           amd64        SMBIOS/DMI table decoder
 ii  dmsetup                          2:1.02.77-6ubuntu2               amd64        Linux Kernel Device Mapper userspace library
-ii  dnsutils                         1:9.9.5.dfsg-3ubuntu0.5          amd64        Clients provided with BIND
+ii  dnsutils                         1:9.9.5.dfsg-3ubuntu0.6          amd64        Clients provided with BIND
 ii  dpkg                             1.17.5ubuntu5.5                  amd64        Debian package management system
 ii  dpkg-dev                         1.17.5ubuntu5.5                  all          Debian package development tools
 ii  e2fslibs:amd64                   1.42.9-3ubuntu1.3                amd64        ext2/ext3/ext4 file system libraries
@@ -96,18 +96,18 @@ ii  gcc-4.9-base:amd64               4.9.1-0ubuntu1                   amd64     
 ii  geoip-database                   20140313-1                       all          IP lookup command line tools that use the GeoIP library (country database)
 ii  gettext-base                     0.18.3.1-1ubuntu3                amd64        GNU Internationalization utilities for the base system
 ii  gir1.2-glib-2.0                  1.40.0-1ubuntu0.2                amd64        Introspection data for GLib, GObject, Gio and GModule
-ii  git                              1:1.9.1-1ubuntu0.1               amd64        fast, scalable, distributed revision control system
-ii  git-man                          1:1.9.1-1ubuntu0.1               all          fast, scalable, distributed revision control system (manual pages)
+ii  git                              1:1.9.1-1ubuntu0.2               amd64        fast, scalable, distributed revision control system
+ii  git-man                          1:1.9.1-1ubuntu0.2               all          fast, scalable, distributed revision control system (manual pages)
 ii  gnupg                            1.4.16-1ubuntu2.3                amd64        GNU privacy guard - a free PGP replacement
 ii  gpgv                             1.4.16-1ubuntu2.3                amd64        GNU privacy guard - signature verification tool
 ii  graphviz                         2.36.0-0ubuntu3.1                amd64        rich set of graph drawing tools
 ii  grep                             2.16-1                           amd64        GNU grep, egrep and fgrep
 ii  groff-base                       1.22.2-5                         amd64        GNU troff text-formatting system (base system components)
-ii  grub-common                      2.02~beta2-9ubuntu1.5            amd64        GRand Unified Bootloader (common files)
+ii  grub-common                      2.02~beta2-9ubuntu1.6            amd64        GRand Unified Bootloader (common files)
 ii  grub-gfxpayload-lists            0.6                              amd64        GRUB gfxpayload blacklist
-ii  grub-pc                          2.02~beta2-9ubuntu1.5            amd64        GRand Unified Bootloader, version 2 (PC/BIOS version)
-ii  grub-pc-bin                      2.02~beta2-9ubuntu1.5            amd64        GRand Unified Bootloader, version 2 (PC/BIOS binaries)
-ii  grub2-common                     2.02~beta2-9ubuntu1.5            amd64        GRand Unified Bootloader (common files for version 2)
+ii  grub-pc                          2.02~beta2-9ubuntu1.6            amd64        GRand Unified Bootloader, version 2 (PC/BIOS version)
+ii  grub-pc-bin                      2.02~beta2-9ubuntu1.6            amd64        GRand Unified Bootloader, version 2 (PC/BIOS binaries)
+ii  grub2-common                     2.02~beta2-9ubuntu1.6            amd64        GRand Unified Bootloader (common files for version 2)
 ii  gyp                              0.1~svn1729-3ubuntu1             all          Cross-platform build script generator
 ii  gzip                             1.6-3ubuntu1                     amd64        GNU compression utilities
 ii  haveged                          1.7c-1                           amd64        Linux entropy source using the HAVEGE algorithm
@@ -162,7 +162,7 @@ ii  libattr1:amd64                   1:2.4.47-1ubuntu1                amd64     
 ii  libaudit-common                  1:2.3.2-2ubuntu1                 all          Dynamic library for security auditing - common files
 ii  libaudit1:amd64                  1:2.3.2-2ubuntu1                 amd64        Dynamic library for security auditing
 ii  libauthen-sasl-perl              2.1500-1                         all          Authen::SASL - SASL Authentication framework
-ii  libbind9-90                      1:9.9.5.dfsg-3ubuntu0.5          amd64        BIND9 Shared Library used by BIND
+ii  libbind9-90                      1:9.9.5.dfsg-3ubuntu0.6          amd64        BIND9 Shared Library used by BIND
 ii  libblkid1:amd64                  2.20.1-5.1ubuntu20.7             amd64        block device id library
 ii  libboost-iostreams1.54.0:amd64   1.54.0-4ubuntu3.1                amd64        Boost.Iostreams Library
 ii  libbsd0:amd64                    0.6.0-2ubuntu1                   amd64        utility functions from BSD systems - shared library
@@ -198,7 +198,7 @@ ii  libdebconfclient0:amd64          0.187ubuntu1                     amd64     
 ii  libdevmapper-event1.02.1:amd64   2:1.02.77-6ubuntu2               amd64        Linux Kernel Device Mapper event support library
 ii  libdevmapper1.02.1:amd64         2:1.02.77-6ubuntu2               amd64        Linux Kernel Device Mapper userspace library
 ii  libdigest-hmac-perl              1.03+dfsg-1                      all          module for creating standard message integrity checks
-ii  libdns100                        1:9.9.5.dfsg-3ubuntu0.5          amd64        DNS Shared Library used by BIND
+ii  libdns100                        1:9.9.5.dfsg-3ubuntu0.6          amd64        DNS Shared Library used by BIND
 ii  libdpkg-perl                     1.17.5ubuntu5.5                  all          Dpkg perl modules
 ii  libdrm2:amd64                    2.4.60-2~ubuntu14.04.1           amd64        Userspace interface to kernel DRM services -- runtime
 ii  libedit2:amd64                   3.1-20130712-2                   amd64        BSD editline and history libraries
@@ -266,9 +266,9 @@ ii  libio-html-perl                  1.00-1                           all       
 ii  libio-socket-inet6-perl          2.71-1                           all          object interface for AF_INET6 domain sockets
 ii  libio-socket-ssl-perl            1.965-1ubuntu1                   all          Perl module implementing object oriented interface to SSL sockets
 ii  libio-string-perl                1.08-3                           all          Emulate IO::File interface for in-core strings
-ii  libisc95                         1:9.9.5.dfsg-3ubuntu0.5          amd64        ISC Shared Library used by BIND
-ii  libisccc90                       1:9.9.5.dfsg-3ubuntu0.5          amd64        Command Channel Library used by BIND
-ii  libisccfg90                      1:9.9.5.dfsg-3ubuntu0.5          amd64        Config File Handling Library used by BIND
+ii  libisc95                         1:9.9.5.dfsg-3ubuntu0.6          amd64        ISC Shared Library used by BIND
+ii  libisccc90                       1:9.9.5.dfsg-3ubuntu0.6          amd64        Command Channel Library used by BIND
+ii  libisccfg90                      1:9.9.5.dfsg-3ubuntu0.6          amd64        Config File Handling Library used by BIND
 ii  libisl10:amd64                   0.12.2-1                         amd64        manipulating sets and relations of integer points bounded by linear constraints
 ii  libitm1:amd64                    4.8.4-2ubuntu1~14.04             amd64        GNU Transactional Memory Library
 ii  libiw30:amd64                    30~pre9-8ubuntu1                 amd64        Wireless tools - library
@@ -296,7 +296,7 @@ ii  libltdl7:amd64                   2.4.2-1.7ubuntu1                 amd64     
 rc  liblua5.2-0:amd64                5.2.3-1                          amd64        Shared library for the Lua interpreter version 5.2
 ii  liblwp-mediatypes-perl           6.02-1                           all          module to guess media type for a file or a URL
 ii  liblwp-protocol-https-perl       6.04-2ubuntu0.1                  all          HTTPS driver for LWP::UserAgent
-ii  liblwres90                       1:9.9.5.dfsg-3ubuntu0.5          amd64        Lightweight Resolver Library used by BIND
+ii  liblwres90                       1:9.9.5.dfsg-3ubuntu0.6          amd64        Lightweight Resolver Library used by BIND
 ii  liblzma5:amd64                   5.1.1alpha+20120614-2ubuntu2     amd64        XZ-format compression library
 rc  liblzo2-2:amd64                  2.06-1.2ubuntu1.1                amd64        data compression library
 ii  libmagic1:amd64                  1:5.14-2ubuntu3.3                amd64        File type determination library using "magic" numbers
