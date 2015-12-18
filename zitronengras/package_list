@@ -398,7 +398,6 @@ ii  mount                           2.20.1-5.1ubuntu20.7             amd64      
 ii  mountall                        2.53                             amd64        filesystem mounting tool
 ii  multiarch-support               2.19-0ubuntu6.6                  amd64        Transitional package to ensure multiarch compatibility
 ii  mysql-common                    5.5.46-0ubuntu0.14.04.2          all          MySQL database common files, e.g. /etc/mysql/my.cnf
-ii  nagios-plugins                  1.5-3ubuntu1                     all          Plugins for nagios compatible monitoring systems (metapackage)
 ii  nagios-plugins-basic            1.5-3ubuntu1                     amd64        Plugins for nagios compatible monitoring systems
 ii  nagios-plugins-common           1.5-3ubuntu1                     amd64        Common files for plugins for nagios compatible monitoring
 ii  nagios-plugins-standard         1.5-3ubuntu1                     amd64        Plugins for nagios compatible monitoring systems
