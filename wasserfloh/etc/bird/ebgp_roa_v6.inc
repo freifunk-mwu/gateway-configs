@@ -24,6 +24,7 @@ roa 2001:bf7:1320::/44       max  64 as  65529; # bielefeld
 roa fdaf:17a0:ffb1::/48      max  64 as  65529; # bielefeld
 roa 2001:bf7:100:2041::/64   max  64 as  65530; # bottrop (delegation)
 roa fddf:ebfd:a801:2041::/64 max  64 as  65530; # bottrop (delegation)
+roa 2001:bf7:140::/44        max  64 as  65147; # brandenburg
 roa 2001:bf7:380::/44        max  64 as  65380; # braunschweig
 roa 2001:bf7:540::/44        max  64 as  65196; # bremen
 roa 2001:bf7:550::/44        max  64 as  65196; # bremen
@@ -67,6 +68,7 @@ roa fda0:747e:ab29:7406::/64 max  64 as  65100; # hennef
 roa fdf3:2049:5152::/48      max  64 as  64866; # herford
 roa 2001:bf7:100:2192::/64   max  64 as  65530; # hueckeswagen (delegation)
 roa fddf:ebfd:a801:2192::/64 max  64 as  65530; # hueckeswagen (delegation)
+roa 2a03:2260:116::/64       max  64 as  65252; # ingolstadt
 roa fd59:b1b7:1d1f::/48      max  64 as  65055; # jena
 roa 2a03:2260:a::/48         max  64 as  65081; # karlsruhe
 roa fdca:55e1:baca:baca::/64 max  64 as  65514; # kassel
@@ -106,9 +108,10 @@ roa 2a02:f98:0:25::/64       max  64 as  65079; # ruhrgebiet
 roa 2a02:f98:0:26::/64       max  64 as  65079; # ruhrgebiet
 roa 2a02:f98:0:27::/64       max  64 as  65079; # ruhrgebiet
 roa 2a02:f98:0:28::/64       max  64 as  65079; # ruhrgebiet
-roa 2a03:2260:50::/48        max  64 as  65079; # ruhrgebiet
+roa 2a03:2260:50::/44        max  64 as  65079; # ruhrgebiet
 roa 2a03:2260:50:3::/64      max  64 as  65401; # ruhrgebiet (delegation)
 roa 2a03:2260:50:3f00::/56   max  64 as  65401; # ruhrgebiet (delegation)
+roa 2a03:2260:50:2400::/56   max  64 as  64862; # ruhrgebiet (delegation)
 roa fd4e:f2d7:88d2:ffff::/64 max  64 as  64770; # saar
 roa 2001:bf7:100:212::/64    max  64 as  65530; # solingen (delegation)
 roa fddf:ebfd:a801:212::/64  max  64 as  65530; # solingen (delegation)
