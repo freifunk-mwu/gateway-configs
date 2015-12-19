@@ -18,6 +18,7 @@ roa 10.29.0.0/16    max  20 as  65529; # bielefeld
 roa 10.25.0.0/16    max  20 as  64858; # bingen
 roa 10.1.176.0/20   max  20 as  64857; # borken
 roa 10.79.0.0/16    max  20 as  65530; # bottrop (delegation)
+roa 10.147.0.0/16   max  20 as  65147; # brandenburg
 roa 10.38.0.0/16    max  20 as  65380; # braunschweig
 roa 10.196.0.0/16   max  20 as  65196; # bremen
 roa 10.252.0.0/18   max  20 as  64861; # celle
@@ -62,6 +63,7 @@ roa 10.189.0.0/18   max  20 as  65189; # helgoland
 roa 10.186.0.0/16   max  20 as  65100; # hennef
 roa 10.34.0.0/16    max  20 as  64866; # herford
 roa 10.146.0.0/16   max  20 as  65530; # hueckeswagen (delegation)
+roa 10.10.0.0/16    max  20 as  65252; # ingolstadt
 roa 10.17.0.0/16    max  20 as  65055; # jena
 roa 10.214.0.0/16   max  20 as  65081; # karlsruhe
 roa 10.54.0.0/16    max  20 as  65514; # kassel
@@ -92,11 +94,13 @@ roa 10.169.0.0/16   max  20 as  65534; # mueritz
 roa 10.187.0.0/16   max  20 as  65187; # nord
 roa 10.18.0.0/16    max  20 as  65513; # nordwest
 roa 10.135.0.0/16   max  20 as  65152; # ostholstein
+roa 10.19.0.0/16    max  20 as  64862; # ostvest
 roa 10.132.0.0/16   max  20 as  65132; # paderborn
 roa 10.137.0.0/16   max  20 as  65433; # pinneberg
 roa 10.57.0.0/16    max  20 as  65067; # radevormwald
 roa 10.90.0.0/16    max  20 as  65190; # regensburg
 roa 10.69.0.0/16    max  20 as  65530; # remscheid (delegation)
+roa 10.219.0.0/18   max  20 as  64888; # rhein-erft-kreis
 roa 10.142.0.0/16   max  20 as  76118; # rhein-neckar
 roa 10.111.0.0/16   max  20 as  65111; # rheinsiegkreis
 roa 10.40.0.0/16    max  20 as  65078; # rheinufer
