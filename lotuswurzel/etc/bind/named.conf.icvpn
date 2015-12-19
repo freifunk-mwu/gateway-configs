@@ -734,7 +734,7 @@ zone "2.9.1.2.1.0.8.a.d.f.b.e.f.d.d.f.ip6.arpa" {
 # 
 zone "ffin" {
     type static-stub;
-    server-addresses { 10.10.0.2; 10.10.0.3; };
+    server-addresses { 10.10.0.2; 10.10.0.4; };
 };
 # 
 # jena
@@ -915,6 +915,21 @@ zone "90.10.in-addr.arpa" {
     server-addresses { 10.90.0.11; fdef:f00f:1337:cafe::11; };
 };
 # 
+# rhein-erft-kreis
+# 
+zone "ffrek" {
+    type static-stub;
+    server-addresses { 10.219.0.1; fda0:747e:ab29:5016::1; };
+};
+zone "0.219.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.219.0.1; fda0:747e:ab29:5016::1; };
+};
+zone "6.1.0.5.9.2.b.a.e.7.4.7.0.a.d.f.ip6.arpa" {
+    type static-stub;
+    server-addresses { 10.219.0.1; fda0:747e:ab29:5016::1; };
+};
+# 
 # ruhrgebiet
 # 
 zone "ffrg" {
@@ -942,18 +957,6 @@ zone "ffel" {
     server-addresses { 151.80.64.190; 85.14.255.33; 2001:41d0:c:95c::190; 2001:4ba0:ffff:1e9::33; };
 };
 zone "ffff" {
-    type static-stub;
-    server-addresses { 151.80.64.190; 85.14.255.33; 2001:41d0:c:95c::190; 2001:4ba0:ffff:1e9::33; };
-};
-zone "ffmo" {
-    type static-stub;
-    server-addresses { 151.80.64.190; 85.14.255.33; 2001:41d0:c:95c::190; 2001:4ba0:ffff:1e9::33; };
-};
-zone "ffniers" {
-    type static-stub;
-    server-addresses { 151.80.64.190; 85.14.255.33; 2001:41d0:c:95c::190; 2001:4ba0:ffff:1e9::33; };
-};
-zone "ffstr" {
     type static-stub;
     server-addresses { 151.80.64.190; 85.14.255.33; 2001:41d0:c:95c::190; 2001:4ba0:ffff:1e9::33; };
 };
