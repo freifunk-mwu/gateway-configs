@@ -241,6 +241,9 @@ protocol bgp icvpn_trier2 from ebgp_ic {
 protocol bgp icvpn_trier3 from ebgp_ic {
     neighbor fec0::a:cf:0:de as 65022;
 }
+protocol bgp icvpn_trier_refugee from ebgp_ic {
+    neighbor fec0::a:cf:0:df as 65022;
+}
 protocol bgp icvpn_troisdorf1 from ebgp_ic {
     neighbor fec0::a:cf:0:b9 as 65066;
 }
