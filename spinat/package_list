@@ -409,7 +409,7 @@ ii  libxt6:amd64                        1:1.1.4-1                        amd64  
 ii  libxtables10                        1.4.21-1ubuntu1                  amd64        netfilter xtables library
 ii  libyaml-0-2:amd64                   0.1.4-3ubuntu3.1                 amd64        Fast YAML 1.1 parser and emitter library
 ii  linux-firmware                      1.127.19                         all          Firmware for Linux kernel drivers
-ii  linux-generic-lts-vivid             3.19.0.41.26                     amd64        Complete Generic Linux kernel and headers
+ii  linux-generic-lts-vivid             3.19.0.42.27                     amd64        Complete Generic Linux kernel and headers
 ii  linux-headers-3.13.0-71             3.13.0-71.114                    all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-71-generic     3.13.0-71.114                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-73             3.13.0-73.116                    all          Header files related to Linux kernel version 3.13.0
@@ -422,8 +422,10 @@ ii  linux-headers-3.19.0-39             3.19.0-39.44~14.04.1             all    
 ii  linux-headers-3.19.0-39-generic     3.19.0-39.44~14.04.1             amd64        Linux kernel headers for version 3.19.0 on 64 bit x86 SMP
 ii  linux-headers-3.19.0-41             3.19.0-41.46~14.04.2             all          Header files related to Linux kernel version 3.19.0
 ii  linux-headers-3.19.0-41-generic     3.19.0-41.46~14.04.2             amd64        Linux kernel headers for version 3.19.0 on 64 bit x86 SMP
+ii  linux-headers-3.19.0-42             3.19.0-42.48~14.04.1             all          Header files related to Linux kernel version 3.19.0
+ii  linux-headers-3.19.0-42-generic     3.19.0-42.48~14.04.1             amd64        Linux kernel headers for version 3.19.0 on 64 bit x86 SMP
 ii  linux-headers-generic               3.13.0.74.80                     amd64        Generic Linux kernel headers
-ii  linux-headers-generic-lts-vivid     3.19.0.41.26                     amd64        Generic Linux kernel headers
+ii  linux-headers-generic-lts-vivid     3.19.0.42.27                     amd64        Generic Linux kernel headers
 rc  linux-image-3.19.0-25-generic       3.19.0-25.26~14.04.1             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-3.19.0-30-generic       3.19.0-30.34~14.04.1             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-3.19.0-31-generic       3.19.0-31.36~14.04.1             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
@@ -432,6 +434,7 @@ ii  linux-image-3.19.0-33-generic       3.19.0-33.38~14.04.1             amd64  
 rc  linux-image-3.19.0-37-generic       3.19.0-37.42~14.04.1             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 ii  linux-image-3.19.0-39-generic       3.19.0-39.44~14.04.1             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 ii  linux-image-3.19.0-41-generic       3.19.0-41.46~14.04.2             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
+ii  linux-image-3.19.0-42-generic       3.19.0-42.48~14.04.1             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-25-generic 3.19.0-25.26~14.04.1             amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-30-generic 3.19.0-30.34~14.04.1             amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-31-generic 3.19.0-31.36~14.04.1             amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
@@ -440,7 +443,8 @@ ii  linux-image-extra-3.19.0-33-generic 3.19.0-33.38~14.04.1             amd64  
 rc  linux-image-extra-3.19.0-37-generic 3.19.0-37.42~14.04.1             amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.19.0-39-generic 3.19.0-39.44~14.04.1             amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.19.0-41-generic 3.19.0-41.46~14.04.2             amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
-ii  linux-image-generic-lts-vivid       3.19.0.41.26                     amd64        Generic Linux kernel image
+ii  linux-image-extra-3.19.0-42-generic 3.19.0-42.48~14.04.1             amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
+ii  linux-image-generic-lts-vivid       3.19.0.42.27                     amd64        Generic Linux kernel image
 ii  linux-libc-dev:amd64                3.13.0-74.118                    amd64        Linux Kernel Headers for development
 ii  locales                             2.13+git20120306-12.1            all          common files for locale support
 ii  lockfile-progs                      0.1.17                           amd64        Programs for locking and unlocking files and mailboxes
