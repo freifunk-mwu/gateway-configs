@@ -371,15 +371,18 @@ ii  linux-headers-3.19.0-39         3.19.0-39.44~14.04.1             all        
 ii  linux-headers-3.19.0-39-generic 3.19.0-39.44~14.04.1             amd64        Linux kernel headers for version 3.19.0 on 64 bit x86 SMP
 ii  linux-headers-3.19.0-41         3.19.0-41.46~14.04.2             all          Header files related to Linux kernel version 3.19.0
 ii  linux-headers-3.19.0-41-generic 3.19.0-41.46~14.04.2             amd64        Linux kernel headers for version 3.19.0 on 64 bit x86 SMP
+ii  linux-headers-3.19.0-42         3.19.0-42.48~14.04.1             all          Header files related to Linux kernel version 3.19.0
+ii  linux-headers-3.19.0-42-generic 3.19.0-42.48~14.04.1             amd64        Linux kernel headers for version 3.19.0 on 64 bit x86 SMP
 ii  linux-headers-generic           3.13.0.74.80                     amd64        Generic Linux kernel headers
-ii  linux-headers-generic-lts-vivid 3.19.0.41.26                     amd64        Generic Linux kernel headers
-ii  linux-headers-virtual-lts-vivid 3.19.0.41.26                     amd64        Transitional package.
+ii  linux-headers-generic-lts-vivid 3.19.0.42.27                     amd64        Generic Linux kernel headers
+ii  linux-headers-virtual-lts-vivid 3.19.0.42.27                     amd64        Transitional package.
 ii  linux-image-3.19.0-25-generic   3.19.0-25.26~14.04.1             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 ii  linux-image-3.19.0-39-generic   3.19.0-39.44~14.04.1             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 ii  linux-image-3.19.0-41-generic   3.19.0-41.46~14.04.2             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
-ii  linux-image-virtual-lts-vivid   3.19.0.41.26                     amd64        This package will always depend on the latest minimal generic kernel image.
+ii  linux-image-3.19.0-42-generic   3.19.0-42.48~14.04.1             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
+ii  linux-image-virtual-lts-vivid   3.19.0.42.27                     amd64        This package will always depend on the latest minimal generic kernel image.
 ii  linux-libc-dev:amd64            3.13.0-74.118                    amd64        Linux Kernel Headers for development
-ii  linux-virtual-lts-vivid         3.19.0.41.26                     amd64        Minimal Generic Linux kernel and headers
+ii  linux-virtual-lts-vivid         3.19.0.42.27                     amd64        Minimal Generic Linux kernel and headers
 ii  locales                         2.13+git20120306-12.1            all          common files for locale support
 ii  lockfile-progs                  0.1.17                           amd64        Programs for locking and unlocking files and mailboxes
 ii  login                           1:4.1.5.1-1ubuntu9.1             amd64        system login tools
