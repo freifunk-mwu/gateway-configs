@@ -1,20 +1,12 @@
 accounts:
     a: &A
-        login: '115732338712'
-        provider: 'mullvad'
-        until: '28.05.2015'
+        login: 'ffmwu'
+        provider: 'Rheinland'
+        until: '01.01.2017'
     b: &B
-        login: 'ffmz'
-        provider: 'ipredator'
-        until: '06.03.2015'
-    c: &C
-        login: 'kasperle'
-        provider: 'hide.me'
-        until: '27.09.2015'
-    d: &D
         login: 'kasperle'
         provider: 'perfect-privacy'
-        until: '22.12.2015'
+        until: '22.01.2016'
 conf:
     warndays: 10
     digestday: 1
@@ -22,7 +14,9 @@ conf:
     date_format: '%d.%m.%Y'
     # http://strftime.org/
 gateways:
-    Kaschu: *D
-    Lotuswurzel: *D
-    Spinat: *D
-    Wasserfloh: *D
+    Kaschu: *B
+    Lotuswurzel: *A
+    Spinat: *B
+    Wasserfloh: *B
+    zitronengras: *B
+    parmesan: *B
