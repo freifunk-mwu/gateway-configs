@@ -14,7 +14,7 @@ accounts:
     d: &D
         login: 'kasperle'
         provider: 'perfect-privacy'
-        until: '22.12.2015'
+        until: '22.01.2016'
 conf:
     warndays: 10
     digestday: 1
