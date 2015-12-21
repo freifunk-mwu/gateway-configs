@@ -6,19 +6,26 @@ auto lo
 iface lo inet loopback
 
 # The primary network interface
+#auto eth0
+#iface eth0 inet static
+#	address 192.168.144.2
+#	netmask 255.255.255.0
+#	network 192.168.144.0
+#	broadcast 192.168.144.255
+#	gateway 192.168.144.1
+#	# dns-* options are implemented by the resolvconf package, if installed
+#	dns-nameservers 127.0.0.1
+
+
 auto eth0
 iface eth0 inet static
-	address 192.168.144.2
-	netmask 255.255.255.0
-	network 192.168.144.0
-	broadcast 192.168.144.255
-	gateway 192.168.144.1
-	# dns-* options are implemented by the resolvconf package, if installed
-	dns-nameservers 127.0.0.1
+        address 136.243.184.91 
+        netmask 255.255.255.248
+        gateway 136.243.184.89
+	broadcast 136.243.184.95
 
-auto eth1
-iface eth1 inet6 static
-	address 2a01:4f8:190:7008:2800::2
+iface eth0 inet6 static
+	address 2a01:4f8:190:7008:2800::1
 	netmask   69
 	post-up         /sbin/ip -6 route add 2000::/3 via fe80::1 dev $IFACE
 	post-down       /sbin/ip -6 route del 2000::/3 via fe80::1 dev $IFACE
