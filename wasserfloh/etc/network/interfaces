@@ -23,6 +23,7 @@ iface eth0 inet static
         netmask 255.255.255.248
         gateway 136.243.184.89
 	broadcast 136.243.184.95
+	dns-nameservers 127.0.0.1
 
 iface eth0 inet6 static
 	address 2a01:4f8:190:7008:2800::1
