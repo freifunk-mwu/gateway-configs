@@ -211,6 +211,12 @@ protocol bgp icvpn_muensterlandFusselkater from ebgp_ic {
 protocol bgp icvpn_mueritz_bgp1 from ebgp_ic {
     neighbor fec0::a:cf:0:8a as 65534;
 }
+protocol bgp icvpn_nord0 from ebgp_ic {
+    neighbor fec0::a:cf:b:a as 65187;
+}
+protocol bgp icvpn_nord2 from ebgp_ic {
+    neighbor fec0::a:cf:b:c as 65187;
+}
 protocol bgp icvpn_paderborn01 from ebgp_ic {
     neighbor fec0::a:cf:0:e7 as 65132;
 }
@@ -240,6 +246,9 @@ protocol bgp icvpn_trier2 from ebgp_ic {
 }
 protocol bgp icvpn_trier3 from ebgp_ic {
     neighbor fec0::a:cf:0:de as 65022;
+}
+protocol bgp icvpn_trier_refugee from ebgp_ic {
+    neighbor fec0::a:cf:0:df as 65022;
 }
 protocol bgp icvpn_troisdorf1 from ebgp_ic {
     neighbor fec0::a:cf:0:b9 as 65066;

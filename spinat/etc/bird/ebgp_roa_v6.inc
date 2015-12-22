@@ -63,6 +63,7 @@ roa 2a03:2267:4e16::/48      max  64 as  65189; # hamburg (delegation)
 roa fdc7:4c8d:b889:a272::/64 max  64 as  64873; # hameln
 roa fdca:ffee:8::/64         max  64 as  65511; # hannover
 roa fd0e:8db3:d50a::/64      max  64 as  65134; # harz
+roa fdfc:ba7c:0ca1::/48      max  64 as  64871; # heiligenhaus
 roa fd0c:9a97:47dc::/48      max  64 as  64864; # heiligkreuztal
 roa fda0:747e:ab29:7406::/64 max  64 as  65100; # hennef
 roa fdf3:2049:5152::/48      max  64 as  64866; # herford
@@ -88,6 +89,7 @@ roa fdef:ffc0:3dd7::/48      max  64 as 201173; # luebeck
 roa fd4e:f2d7:88d2:fffe::/64 max  64 as  64769; # luxembourg
 roa fda9:026e:5805::/48      max  64 as  65039; # magdeburg
 roa 2a06:4b00:1000::/56      max  64 as  64877; # marburg
+roa fdd9:a0b1:5bd0::/48      max  64 as  64863; # mettmann
 roa 2a03:2260:10::/48        max  64 as  65057; # moehne
 roa 2a03:2260:115::/48       max  64 as  65251; # muensterland
 roa fd39:e4e3:eee1::/48      max  64 as  65534; # mueritz
@@ -96,6 +98,7 @@ roa 2001:470:6d:860::/64     max  64 as  65132; # paderborn
 roa fdca:ffee:ff12::/48      max  64 as  65132; # paderborn
 roa fde8:21c6:9d82::/48      max  64 as  65433; # pinneberg
 roa fda0:747e:ab29:2195::/64 max  64 as  65067; # radevormwald
+roa fde0:105b:1d87::/48      max  64 as  64867; # ratingen
 roa fdef:f00f:1337:cafe::/64 max  64 as  65190; # regensburg
 roa 2001:bf7:100:2191::/64   max  64 as  65530; # remscheid (delegation)
 roa fddf:ebfd:a801:2191::/64 max  64 as  65530; # remscheid (delegation)
@@ -108,9 +111,10 @@ roa 2a02:f98:0:25::/64       max  64 as  65079; # ruhrgebiet
 roa 2a02:f98:0:26::/64       max  64 as  65079; # ruhrgebiet
 roa 2a02:f98:0:27::/64       max  64 as  65079; # ruhrgebiet
 roa 2a02:f98:0:28::/64       max  64 as  65079; # ruhrgebiet
-roa 2a03:2260:50::/48        max  64 as  65079; # ruhrgebiet
+roa 2a03:2260:50::/44        max  64 as  65079; # ruhrgebiet
 roa 2a03:2260:50:3::/64      max  64 as  65401; # ruhrgebiet (delegation)
 roa 2a03:2260:50:3f00::/56   max  64 as  65401; # ruhrgebiet (delegation)
+roa 2a03:2260:50:2400::/56   max  64 as  64862; # ruhrgebiet (delegation)
 roa fd4e:f2d7:88d2:ffff::/64 max  64 as  64770; # saar
 roa 2001:bf7:100:212::/64    max  64 as  65530; # solingen (delegation)
 roa fddf:ebfd:a801:212::/64  max  64 as  65530; # solingen (delegation)
@@ -119,6 +123,7 @@ roa 2001:bf7:fc00::/44       max  64 as  65022; # trier
 roa fda0:747e:ab29:7405::/64 max  64 as  65066; # troisdorf
 roa fd83:e002:c8a1::/48      max  64 as  64525; # uelzen
 roa fdaf:17a0:fff1::/48      max  64 as  64860; # ulm
+roa fdc8:08a2:b198::/48      max  64 as  64870; # velbert
 roa 2001:bf7:100:5922::/64   max  64 as  65530; # vfnnrw
 roa 2001:bf7:100:a::/64      max  64 as  65530; # vfnnrw
 roa 2001:bf7:100:abcd::/64   max  64 as  65530; # vfnnrw
