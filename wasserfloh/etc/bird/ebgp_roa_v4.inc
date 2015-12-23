@@ -58,6 +58,7 @@ roa 10.112.128.0/18 max  20 as  65112; # hamburg (delegation)
 roa 10.11.96.0/20   max  20 as  64873; # hameln
 roa 10.2.0.0/16     max  20 as  65511; # hannover
 roa 10.7.0.0/16     max  20 as  65134; # harz
+roa 10.11.112.0/20  max  20 as  64871; # heiligenhaus
 roa 10.1.128.0/19   max  20 as  64864; # heiligkreuztal
 roa 10.189.0.0/18   max  20 as  65189; # helgoland
 roa 10.186.0.0/16   max  20 as  65100; # hennef
@@ -85,6 +86,7 @@ roa 10.24.128.0/18  max  20 as  64769; # luxembourg
 roa 10.139.0.0/16   max  20 as  65039; # magdeburg
 roa 10.128.0.0/18   max  20 as  64877; # marburg
 roa 10.222.0.0/16   max  20 as  65032; # mayen-koblenz
+roa 10.1.192.0/18   max  20 as  64863; # mettmann
 roa 10.15.0.0/16    max  20 as  65057; # moehne
 roa 10.27.0.0/16    max  20 as  65057; # moehne
 roa 10.80.0.0/16    max  20 as  65080; # muenchen
@@ -98,6 +100,7 @@ roa 10.19.0.0/16    max  20 as  64862; # ostvest
 roa 10.132.0.0/16   max  20 as  65132; # paderborn
 roa 10.137.0.0/16   max  20 as  65433; # pinneberg
 roa 10.57.0.0/16    max  20 as  65067; # radevormwald
+roa 10.11.64.0/20   max  20 as  64867; # ratingen
 roa 10.90.0.0/16    max  20 as  65190; # regensburg
 roa 10.69.0.0/16    max  20 as  65530; # remscheid (delegation)
 roa 10.219.0.0/18   max  20 as  64888; # rhein-erft-kreis
@@ -128,6 +131,7 @@ roa 10.172.0.0/16   max  20 as  65022; # trier
 roa 10.188.0.0/16   max  20 as  65066; # troisdorf
 roa 10.134.0.0/16   max  20 as  64525; # uelzen
 roa 10.33.0.0/16    max  20 as  64860; # ulm
+roa 10.11.80.0/20   max  20 as  64870; # velbert
 roa 10.1.0.0/17     max  20 as  65530; # vfnnrw
 roa 10.171.0.0/16   max  20 as  65530; # vfnnrw
 roa 10.45.0.0/17    max  20 as  65530; # vfnnrw
