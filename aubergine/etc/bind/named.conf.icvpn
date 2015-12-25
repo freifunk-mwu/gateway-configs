@@ -456,6 +456,17 @@ zone "ffdus" {
     server-addresses { 10.155.0.10; };
 };
 # 
+# franken
+# 
+zone "fff.community" {
+    type static-stub;
+    server-addresses { 10.50.40.10; 10.50.48.3; 10.50.252.8; };
+};
+zone "50.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.50.40.10; 10.50.48.3; 10.50.252.8; };
+};
+# 
 # frankfurt
 # 
 zone "ffffm" {
