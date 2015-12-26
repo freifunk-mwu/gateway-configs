@@ -122,7 +122,9 @@ roa 10.240.0.0/13   max  20 as  65079; # ruhrgebiet
 roa 10.41.0.0/16    max  20 as  65079; # ruhrgebiet
 roa 10.53.0.0/16    max  20 as  65079; # ruhrgebiet
 roa 10.41.0.0/16    max  20 as  65401; # ruhrgebiet (delegation)
+roa 10.161.0.0/16   max  20 as  64878; # ruhrgebiet (delegation)
 roa 10.24.192.0/18  max  20 as  64770; # saar
+roa 10.252.64.0/18  max  20 as  64770; # saar
 roa 10.6.0.0/16     max  20 as  65530; # solingen (delegation)
 roa 10.190.0.0/15   max  20 as  65019; # stuttgart
 roa 10.215.0.0/16   max  20 as  65083; # suedpfalz
