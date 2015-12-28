@@ -30,15 +30,6 @@ iface wiBR inet static
 	up		/sbin/ip address add fd56:b4dc:4b1e::a38:d0/64 dev $IFACE
 	post-down	/sbin/brctl delbr $IFACE
 
-
-
-allow-hotplug wiVPN
-iface wiVPN inet6 manual
-	hwaddress 02:00:0a:38:00:d0
-	pre-up		/sbin/modprobe batman-adv
-        post-up		/usr/sbin/batctl -m wiBAT if add $IFACE
-        post-up		/sbin/ip link set dev wiBAT up
-
 allow-hotplug wiBAT
 iface wiBAT inet6 manual
         pre-up          /sbin/modprobe batman-adv
@@ -46,6 +37,13 @@ iface wiBAT inet6 manual
 	post-up 	/usr/sbin/batctl -m $IFACE it 10000
 	post-up 	/usr/sbin/batctl -m $IFACE gw server  96mbit/96mbit
         pre-down        /sbin/brctl delif wiBR $IFACE || true
+
+allow-hotplug wiVPN
+iface wiVPN inet6 manual
+        hwaddress 02:00:0a:38:00:d0
+        pre-up          /sbin/modprobe batman-adv
+        post-up         /usr/sbin/batctl -m wiBAT if add $IFACE
+        post-up         /sbin/ip link set dev wiBAT up
 
 auto mzBR
 iface mzBR inet static
@@ -56,14 +54,6 @@ iface mzBR inet static
 	up		/sbin/ip address add fd37:b4dc:4b1e::a25:d0/64 dev $IFACE
 	post-down	/sbin/brctl delbr $IFACE
 
-
-allow-hotplug mzVPN
-iface mzVPN inet6 manual
-	hwaddress 02:00:0a:25:00:d0
-	pre-up		/sbin/modprobe batman-adv
-        post-up		/usr/sbin/batctl -m mzBAT if add $IFACE 
-        post-up		/sbin/ip link set dev mzBAT up
-
 allow-hotplug mzBAT
 iface mzBAT inet6 manual
 	pre-up		/sbin/modprobe batman-adv
@@ -72,3 +62,99 @@ iface mzBAT inet6 manual
 	post-up 	/usr/sbin/batctl -m $IFACE gw server 96mbit/96mbit
 	pre-down	/sbin/brctl delif mzBR $IFACE || true
 
+allow-hotplug mzVPN
+iface mzVPN inet6 manual
+        hwaddress 02:00:0a:25:00:d0
+        pre-up          /sbin/modprobe batman-adv
+        post-up         /usr/sbin/batctl -m mzBAT if add $IFACE 
+        post-up         /sbin/ip link set dev mzBAT up
+
+
+
+
+# ff rheinland
+
+
+# GRE-Tunnel zu bb-a.ak.ber
+auto ffrl-a-ak-ber
+iface ffrl-a-ak-ber inet static
+        address 100.64.2.101
+        netmask 255.255.255.254
+        pre-up          /sbin/ip tunnel add $IFACE mode gre local 144.76.209.100 remote 185.66.195.0 ttl 255
+        post-up         /sbin/ip link set $IFACE mtu 1400
+        post-up         /sbin/ip addr add 185.66.195.37/32 dev $IFACE
+        post-down       /sbin/ip tunnel del $IFACE
+
+iface ffrl-a-ak-ber inet6 static
+        address 2a03:2260:0:13b::2
+        netmask 64
+
+# GRE-Tunnel zu bb-b.ak.ber
+auto ffrl-b-ak-ber
+iface ffrl-b-ak-ber inet static
+        address 100.64.2.103
+        netmask 255.255.255.254
+        pre-up          /sbin/ip tunnel add $IFACE mode gre local 144.76.209.100 remote 185.66.195.1 ttl 255
+        post-up         /sbin/ip link set $IFACE mtu 1400
+        post-up         /sbin/ip addr add 185.66.195.37/32 dev $IFACE
+        post-down       /sbin/ip tunnel del $IFACE
+
+iface ffrl-b-ak-ber inet6 static
+        address 2a03:2260:0:13c::2
+        netmask 64
+
+# GRE-Tunnel zu bb-a.ix.dus
+auto ffrl-a-ix-dus
+iface ffrl-a-ix-dus inet static
+        address 100.64.2.105
+        netmask 255.255.255.254
+        pre-up          /sbin/ip tunnel add $IFACE mode gre local 144.76.209.100 remote 185.66.193.0 ttl 255
+        post-up         /sbin/ip link set $IFACE mtu 1400
+        post-up         /sbin/ip addr add 185.66.195.37/32 dev $IFACE
+        post-down       /sbin/ip tunnel del $IFACE
+
+iface ffrl-a-ix-dus inet6 static
+        address 2a03:2260:0:13d::2
+        netmask 64
+
+# GRE-Tunnel zu bb-b.ix.dus
+auto ffrl-b-ix-dus
+iface ffrl-b-ix-dus inet static
+        address 100.64.2.107
+        netmask 255.255.255.254
+        pre-up          /sbin/ip tunnel add $IFACE mode gre local 144.76.209.100 remote 185.66.193.1 ttl 255
+        post-up         /sbin/ip link set $IFACE mtu 1400
+        post-up         /sbin/ip addr add 185.66.195.37/32 dev $IFACE
+        post-down       /sbin/ip tunnel del $IFACE
+
+iface ffrl-b-ix-dus inet6 static
+        address 2a03:2260:0:13e::2
+        netmask 64
+
+# GRE-Tunnel zu bb-a.fra3.fra
+auto ffrl-a-fra3-fra
+iface ffrl-a-fra3-fra inet static
+        address 100.64.1.193
+        netmask 255.255.255.254
+        pre-up          /sbin/ip tunnel add $IFACE mode gre local 144.76.209.100 remote 185.66.194.0 ttl 255
+        post-up         /sbin/ip link set $IFACE mtu 1400
+        post-up         /sbin/ip addr add 185.66.195.37/32 dev $IFACE
+        post-down       /sbin/ip tunnel del $IFACE
+
+iface ffrl-a-fra3-fra inet6 static
+        address 2a03:2260:0:13f::2
+        netmask 64
+
+# GRE-Tunnel zu bb-b.fra3.fra
+auto ffrl-b-fra3-fra
+iface ffrl-b-fra3-fra inet static
+        address 100.64.2.87
+        netmask 255.255.255.254
+        pre-up          /sbin/ip tunnel add $IFACE mode gre local 144.76.209.100 remote 185.66.194.1 ttl 255
+        post-up         /sbin/ip link set $IFACE mtu 1400
+        post-up         /sbin/ip addr add 185.66.195.37/32 dev $IFACE
+        post-down       /sbin/ip tunnel del $IFACE
+
+iface ffrl-b-fra3-fra inet6 static
+        address 2a03:2260:0:140::2
+        netmask 64
