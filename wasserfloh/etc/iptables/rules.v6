@@ -22,5 +22,9 @@ COMMIT
 :INPUT ACCEPT [206421:28055463]
 :FORWARD ACCEPT [0:0]
 :OUTPUT ACCEPT [167489:18230311]
+-A FORWARD -i wiBR -o ffrl+ -p tcp -m tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu
+-A FORWARD -i mzBR -o ffrl+ -p tcp -m tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu
+-A FORWARD -i ffrl+ -o wiBR -p tcp -m tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu
+-A FORWARD -i ffrl+ -o mzBR -p tcp -m tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu
 COMMIT
 # Completed on Fri Aug 29 13:39:51 2014
