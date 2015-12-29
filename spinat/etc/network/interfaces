@@ -29,6 +29,7 @@ iface mzBR inet static
         address 10.37.0.7
         netmask 255.255.192.0
         pre-up          /sbin/brctl addbr $IFACE
+ 	up              /sbin/ip address add 2a03:2260:11a::a25:7/64 dev $IFACE
         up              /sbin/ip address add fd37:b4dc:4b1e::a25:7/64 dev $IFACE
         post-down       /sbin/brctl delbr $IFACE
 
@@ -39,6 +40,7 @@ iface wiBR inet static
         netmask 255.255.192.0
         pre-up          /sbin/brctl addbr $IFACE
         up              /sbin/ip address add fd56:b4dc:4b1e::a38:7/64 dev $IFACE
+        up              /sbin/ip address add 2a03:2260:11b::a38:7/64 dev $IFACE
         post-down       /sbin/brctl delbr $IFACE
 
 allow-hotplug mzVPN
@@ -72,3 +74,89 @@ iface wiBAT inet6 manual
         post-up         /usr/sbin/batctl -m $IFACE vm server
         post-up         /usr/sbin/batctl -m $IFACE gw server 96mbit/96mbit
         pre-down        /sbin/brctl delif wiBR $IFACE || true
+
+
+
+# GRE-Tunnel zu bb-a.ak.ber
+auto ffrl-a-ak-ber
+iface ffrl-a-ak-ber inet static
+        address 100.64.2.227
+        netmask 255.255.255.254
+        pre-up          /sbin/ip tunnel add $IFACE mode gre local 46.20.37.226 remote 185.66.195.0 ttl 255
+        post-up         /sbin/ip link set $IFACE mtu 1400
+        post-up         /sbin/ip addr add 185.66.195.32/32 dev $IFACE
+        post-down       /sbin/ip tunnel del $IFACE
+
+iface ffrl-a-ak-ber inet6 static
+        address 2a03:2260:0:17b::2
+        netmask 64
+
+# GRE-Tunnel zu bb-b.ak.ber
+auto ffrl-b-ak-ber
+iface ffrl-b-ak-ber inet static
+        address 100.64.2.229
+        netmask 255.255.255.254
+        pre-up          /sbin/ip tunnel add $IFACE mode gre local 46.20.37.226 remote 185.66.195.1 ttl 255
+        post-up         /sbin/ip link set $IFACE mtu 1400
+        post-up         /sbin/ip addr add 185.66.195.32/32 dev $IFACE
+        post-down       /sbin/ip tunnel del $IFACE
+
+iface ffrl-b-ak-ber inet6 static
+        address 2a03:2260:0:17c::2
+        netmask 64
+
+# GRE-Tunnel zu bb-a.ix.dus
+auto ffrl-a-ix-dus
+iface ffrl-a-ix-dus inet static
+        address 100.64.2.231
+        netmask 255.255.255.254
+        pre-up          /sbin/ip tunnel add $IFACE mode gre local 46.20.37.226 remote 185.66.193.0 ttl 255
+        post-up         /sbin/ip link set $IFACE mtu 1400
+        post-up         /sbin/ip addr add 185.66.195.32/32 dev $IFACE
+        post-down       /sbin/ip tunnel del $IFACE
+
+iface ffrl-a-ix-dus inet6 static
+        address 2a03:2260:0:17d::2
+        netmask 64
+
+# GRE-Tunnel zu bb-b.ix.dus
+auto ffrl-b-ix-dus
+iface ffrl-b-ix-dus inet static
+        address 100.64.2.233
+        netmask 255.255.255.254
+        pre-up          /sbin/ip tunnel add $IFACE mode gre local 46.20.37.226 remote 185.66.193.1 ttl 255
+        post-up         /sbin/ip link set $IFACE mtu 1400
+        post-up         /sbin/ip addr add 185.66.195.32/32 dev $IFACE
+        post-down       /sbin/ip tunnel del $IFACE
+
+iface ffrl-b-ix-dus inet6 static
+        address 2a03:2260:0:17e::2
+        netmask 64
+
+# GRE-Tunnel zu bb-a.fra3.fra
+#auto ffrl-a-fra3-fra
+#iface ffrl-a-fra3-fra inet static
+#        address 100.64.1.193
+#        netmask 255.255.255.254
+#        pre-up          /sbin/ip tunnel add $IFACE mode gre local 144.76.209.100 remote 185.66.194.0 ttl 255
+#        post-up         /sbin/ip link set $IFACE mtu 1400
+#        post-up         /sbin/ip addr add 185.66.195.36/32 dev $IFACE
+#        post-down       /sbin/ip tunnel del $IFACE
+
+#iface ffrl-a-fra3-fra inet6 static
+#        address 2a03:2260:0:ea::2
+#        netmask 64
+
+# GRE-Tunnel zu bb-b.fra3.fra
+#auto ffrl-b-fra3-fra
+#iface ffrl-b-fra3-fra inet static
+#        address 100.64.2.87
+#        netmask 255.255.255.254
+#        pre-up          /sbin/ip tunnel add $IFACE mode gre local 144.76.209.100 remote 185.66.194.1 ttl 255
+#        post-up         /sbin/ip link set $IFACE mtu 1400
+#        post-up         /sbin/ip addr add 185.66.195.36/32 dev $IFACE
+#        post-down       /sbin/ip tunnel del $IFACE
+
+#iface ffrl-b-fra3-fra inet6 static
+#        address 2a03:2260:0:134::2
+#        netmask 64
