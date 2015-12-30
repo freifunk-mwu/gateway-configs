@@ -16,17 +16,11 @@ COMMIT
 :OUTPUT ACCEPT [262:20737]
 :POSTROUTING ACCEPT [310:24372]
 :ffrl-nat - [0:0]
--A POSTROUTING -s 10.37.0.0/18 -o exitVPN -j MASQUERADE
--A POSTROUTING -s 10.56.0.0/18 -o exitVPN -j MASQUERADE
 -A POSTROUTING -s 10.37.0.0/16 -o ffrl+ -j ffrl-nat
 -A POSTROUTING -s 10.56.0.0/16 -o ffrl+ -j ffrl-nat
 -A ffrl-nat -s 100.64.2.26/31 -o ffrl+ -j RETURN
--A ffrl-nat -s 100.64.2.26/31 -o ffrl+ -j RETURN
--A ffrl-nat -s 100.64.2.28/31 -o ffrl+ -j RETURN
 -A ffrl-nat -s 100.64.2.28/31 -o ffrl+ -j RETURN
 -A ffrl-nat -s 100.64.2.30/31 -o ffrl+ -j RETURN
--A ffrl-nat -s 100.64.2.30/31 -o ffrl+ -j RETURN
--A ffrl-nat -s 100.64.2.32/31 -o ffrl+ -j RETURN
 -A ffrl-nat -s 100.64.2.32/31 -o ffrl+ -j RETURN
 -A ffrl-nat -s 10.37.0.0/16 -o ffrl+ -j SNAT --to-source 185.66.195.32
 -A ffrl-nat -s 10.56.0.0/16 -o ffrl+ -j SNAT --to-source 185.66.195.32

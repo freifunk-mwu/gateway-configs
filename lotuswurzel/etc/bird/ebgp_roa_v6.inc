@@ -124,7 +124,7 @@ roa 2a03:2260:100a::/48      max  64 as  65083; # suedpfalz
 roa 2001:bf7:fc00::/44       max  64 as  65022; # trier
 roa fda0:747e:ab29:7405::/64 max  64 as  65066; # troisdorf
 roa fd83:e002:c8a1::/48      max  64 as  64525; # uelzen
-roa fdaf:17a0:fff1::/48      max  64 as  64860; # ulm
+roa fdef:17a0:fff1::/48      max  64 as  64860; # ulm
 roa fdc8:08a2:b198::/48      max  64 as  64870; # velbert
 roa 2001:bf7:100:5922::/64   max  64 as  65530; # vfnnrw
 roa 2001:bf7:100:a::/64      max  64 as  65530; # vfnnrw
