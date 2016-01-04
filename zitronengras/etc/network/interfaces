@@ -23,6 +23,7 @@ iface wiBR inet static
 	netmask 255.255.192.0
 	pre-up          /sbin/brctl addbr $IFACE
 	up              /sbin/ip address add fd56:b4dc:4b1e::a38:1d/64 dev $IFACE
+	up              /sbin/ip address add 2a03:2260:11b::a38:1d/64 dev $IFACE
 	post-down       /sbin/brctl delbr $IFACE
 
 allow-hotplug wiVPN
@@ -40,8 +41,8 @@ iface wiBAT inet6 manual
 	pre-up          /sbin/modprobe batman-adv
 	post-up         /sbin/brctl addif wiBR $IFACE
 	post-up         /usr/sbin/batctl -m $IFACE it 10000
-#	post-up         /usr/sbin/batctl -m $IFACE gw server 96mbit/96mbit
-	post-up         /usr/sbin/batctl -m $IFACE gw off
+	post-up         /usr/sbin/batctl -m $IFACE gw server 96mbit/96mbit
+#	post-up         /usr/sbin/batctl -m $IFACE gw off
 	post-up         /usr/sbin/batctl -m wiBAT if add eth1
 	pre-down        /sbin/brctl delif wiBR $IFACE || true
 

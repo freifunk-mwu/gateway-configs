@@ -25,7 +25,7 @@ PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bi
 * * * * * $HOME/clones/ffnord-alfred-announce/announce.sh -i wiBR -b wiBAT -f wiVPN -u /var/run/alfred-wi.sock -s ffwi > /dev/null 2>&1
 # backend-scripts
 */5 * * * * $HOME/clones/backend-scripts/draw_traffic_all.py > $HOME/.cronlog/draw_traffic.log
-#*/5 * * * * $HOME/clones/backend-scripts/check_bind_gw.py > $HOME/.cronlog/check_bind.log
+*/5 * * * * $HOME/clones/backend-scripts/check_bind_gw.py > $HOME/.cronlog/check_bind.log
 #*/5 * * * * $HOME/clones/backend-scripts/check_exitvpn_gw.py > $HOME/.cronlog/check_exitvpn.log
 #*/5 * * * * $HOME/clones/backend-scripts/check_radvd_gw.py > $HOME/.cronlog/check_radvd.log
 23 * * * * $HOME/clones/backend-scripts/gen_website_all.py > $HOME/.cronlog/gen_website.log
