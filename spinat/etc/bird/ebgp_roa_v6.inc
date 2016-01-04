@@ -22,6 +22,7 @@ roa 2001:bf7:850::/44        max  64 as  44194; # berlin
 roa 2001:bf7:860::/44        max  64 as  44194; # berlin
 roa 2001:bf7:1320::/44       max  64 as  65529; # bielefeld
 roa fdaf:17a0:ffb1::/48      max  64 as  65529; # bielefeld
+roa 2a03:2260:300b::/48      max  64 as  65408; # bochum
 roa 2001:bf7:100:2041::/64   max  64 as  65530; # bottrop (delegation)
 roa fddf:ebfd:a801:2041::/64 max  64 as  65530; # bottrop (delegation)
 roa 2001:bf7:140::/44        max  64 as  65147; # brandenburg
@@ -67,6 +68,7 @@ roa fdfc:ba7c:0ca1::/48      max  64 as  64871; # heiligenhaus
 roa fd0c:9a97:47dc::/48      max  64 as  64864; # heiligkreuztal
 roa fda0:747e:ab29:7406::/64 max  64 as  65100; # hennef
 roa fdf3:2049:5152::/48      max  64 as  64866; # herford
+roa fd06:b047:f7de::/48      max  64 as  64872; # hilden
 roa 2001:bf7:100:2192::/64   max  64 as  65530; # hueckeswagen (delegation)
 roa fddf:ebfd:a801:2192::/64 max  64 as  65530; # hueckeswagen (delegation)
 roa 2a03:2260:116::/64       max  64 as  65252; # ingolstadt
