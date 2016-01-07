@@ -33,6 +33,7 @@ roa 10.200.0.0/16   max  20 as  65051; # dresden
 roa 10.201.0.0/16   max  20 as  65051; # dresden
 roa 10.141.128.0/17 max  20 as  65530; # engelskirchen (delegation)
 roa 10.99.0.0/16    max  20 as  65099; # erfurt
+roa 10.228.0.0/16   max  20 as  65406; # essen
 roa 10.47.0.0/16    max  20 as  64869; # euskirchen
 roa 10.129.0.0/16   max  20 as  65056; # flensburg
 roa 10.155.0.0/20   max  20 as  65125; # flingern
@@ -91,6 +92,7 @@ roa 10.222.0.0/16   max  20 as  65032; # mayen-koblenz
 roa 10.1.192.0/18   max  20 as  64863; # mettmann
 roa 10.15.0.0/16    max  20 as  65057; # moehne
 roa 10.27.0.0/16    max  20 as  65057; # moehne
+roa 10.30.0.0/18    max  20 as  65082; # montabaur
 roa 10.80.0.0/16    max  20 as  65080; # muenchen
 roa 10.43.0.0/16    max  20 as  65251; # muensterland
 roa 10.1.160.0/20   max  20 as  64856; # muensterstadt
@@ -115,7 +117,6 @@ roa 10.20.0.0/16    max  20 as  65079; # ruhrgebiet
 roa 10.225.0.0/16   max  20 as  65079; # ruhrgebiet
 roa 10.226.0.0/16   max  20 as  65079; # ruhrgebiet
 roa 10.227.0.0/16   max  20 as  65079; # ruhrgebiet
-roa 10.228.0.0/16   max  20 as  65079; # ruhrgebiet
 roa 10.229.0.0/16   max  20 as  65079; # ruhrgebiet
 roa 10.231.0.0/16   max  20 as  65079; # ruhrgebiet
 roa 10.233.0.0/16   max  20 as  65079; # ruhrgebiet
