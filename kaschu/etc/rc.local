@@ -39,7 +39,7 @@ ip -4 rule add from all iif wiBR lookup icvpn priority 23
 ip -6 rule add from all iif mzBR lookup icvpn priority 23
 ip -6 rule add from all iif wiBR lookup icvpn priority 23
 
-ip -4 rule add from 185.66.195.36/32 lookup ffinetexit priority 41
+ip -4 rule add from 185.66.195.37/32 lookup ffinetexit priority 41
 
 # lookup rt_table ffinetexit for all incoming traffic of freifunk bridges
 ip -4 rule add from all iif mzBR lookup ffinetexit priority 41
