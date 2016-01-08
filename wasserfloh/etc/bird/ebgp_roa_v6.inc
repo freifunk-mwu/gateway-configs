@@ -7,7 +7,7 @@
 roa 2a03:2260:114::/48       max  64 as  65077; # aachen
 roa 2001:bf7:2520::/44       max  64 as  65050; # augsburg
 roa fdca:ffee:ffa::/48       max  64 as  65050; # augsburg
-roa 2001:bf7:80::/48         max  64 as  64859; # badoldesloe
+roa fddf:bf7:80::/48         max  64 as  64859; # badoldesloe
 roa 2001:bf7:750::/44        max  64 as  44194; # berlin
 roa 2001:bf7:760::/44        max  64 as  44194; # berlin
 roa 2001:bf7:770::/44        max  64 as  44194; # berlin
