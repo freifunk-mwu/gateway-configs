@@ -649,7 +649,7 @@ ii  python-pip                       1.5.4-1ubuntu3                   all       
 ii  python-pip-whl                   1.5.4-1ubuntu3                   all          alternative Python package installer
 ii  python-pkg-resources             3.3-1ubuntu2                     all          Package Discovery and Resource Access using pkg_resources
 ii  python-pydot                     1.0.28-0ubuntu1                  all          Python interface to Graphviz's dot
-ii  python-pygments                  1.6+dfsg-1ubuntu1                all          syntax highlighting package written in Python
+ii  python-pygments                  1.6+dfsg-1ubuntu1.1              all          syntax highlighting package written in Python
 ii  python-pygraph                   1.8.2-4                          all          library for working with graphs in Python
 ii  python-pyicu                     1.5-2ubuntu4                     amd64        Python extension wrapping the ICU C++ API
 ii  python-pyinotify                 0.9.4-1build1                    all          simple Linux inotify Python bindings
