@@ -7,7 +7,7 @@
 roa 2a03:2260:114::/48       max  64 as  65077; # aachen
 roa 2001:bf7:2520::/44       max  64 as  65050; # augsburg
 roa fdca:ffee:ffa::/48       max  64 as  65050; # augsburg
-roa 2001:bf7:80::/48         max  64 as  64859; # badoldesloe
+roa fddf:bf7:80::/48         max  64 as  64859; # badoldesloe
 roa 2001:bf7:750::/44        max  64 as  44194; # berlin
 roa 2001:bf7:760::/44        max  64 as  44194; # berlin
 roa 2001:bf7:770::/44        max  64 as  44194; # berlin
@@ -22,6 +22,7 @@ roa 2001:bf7:850::/44        max  64 as  44194; # berlin
 roa 2001:bf7:860::/44        max  64 as  44194; # berlin
 roa 2001:bf7:1320::/44       max  64 as  65529; # bielefeld
 roa fdaf:17a0:ffb1::/48      max  64 as  65529; # bielefeld
+roa 2a03:2260:300b::/48      max  64 as  65408; # bochum
 roa 2001:bf7:100:2041::/64   max  64 as  65530; # bottrop (delegation)
 roa fddf:ebfd:a801:2041::/64 max  64 as  65530; # bottrop (delegation)
 roa 2001:bf7:140::/44        max  64 as  65147; # brandenburg
@@ -67,6 +68,7 @@ roa fdfc:ba7c:0ca1::/48      max  64 as  64871; # heiligenhaus
 roa fd0c:9a97:47dc::/48      max  64 as  64864; # heiligkreuztal
 roa fda0:747e:ab29:7406::/64 max  64 as  65100; # hennef
 roa fdf3:2049:5152::/48      max  64 as  64866; # herford
+roa fd06:b047:f7de::/48      max  64 as  64872; # hilden
 roa 2001:bf7:100:2192::/64   max  64 as  65530; # hueckeswagen (delegation)
 roa fddf:ebfd:a801:2192::/64 max  64 as  65530; # hueckeswagen (delegation)
 roa 2a03:2260:116::/64       max  64 as  65252; # ingolstadt
@@ -124,7 +126,7 @@ roa 2a03:2260:100a::/48      max  64 as  65083; # suedpfalz
 roa 2001:bf7:fc00::/44       max  64 as  65022; # trier
 roa fda0:747e:ab29:7405::/64 max  64 as  65066; # troisdorf
 roa fd83:e002:c8a1::/48      max  64 as  64525; # uelzen
-roa fdaf:17a0:fff1::/48      max  64 as  64860; # ulm
+roa fdef:17a0:fff1::/48      max  64 as  64860; # ulm
 roa fdc8:08a2:b198::/48      max  64 as  64870; # velbert
 roa 2001:bf7:100:5922::/64   max  64 as  65530; # vfnnrw
 roa 2001:bf7:100:a::/64      max  64 as  65530; # vfnnrw
