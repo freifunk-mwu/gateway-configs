@@ -91,6 +91,7 @@ protocol bgp icvpn_dreilaendereck4 from ebgp_ic {
 }
 protocol bgp icvpn_dresden1 from ebgp_ic {
     neighbor 10.207.0.19 as 65051;
+    passive yes;
 }
 protocol bgp icvpn_dresden2 from ebgp_ic {
     neighbor 10.207.0.20 as 65051;
