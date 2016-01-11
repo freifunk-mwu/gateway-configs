@@ -107,11 +107,11 @@ ii  gpgv                                1.4.16-1ubuntu2.3                amd64  
 ii  graphviz                            2.36.0-0ubuntu3.1                amd64        rich set of graph drawing tools
 ii  grep                                2.16-1                           amd64        GNU grep, egrep and fgrep
 ii  groff-base                          1.22.2-5                         amd64        GNU troff text-formatting system (base system components)
-ii  grub-common                         2.02~beta2-9ubuntu1.6            amd64        GRand Unified Bootloader (common files)
+ii  grub-common                         2.02~beta2-9ubuntu1.7            amd64        GRand Unified Bootloader (common files)
 ii  grub-gfxpayload-lists               0.6                              amd64        GRUB gfxpayload blacklist
-ii  grub-pc                             2.02~beta2-9ubuntu1.6            amd64        GRand Unified Bootloader, version 2 (PC/BIOS version)
-ii  grub-pc-bin                         2.02~beta2-9ubuntu1.6            amd64        GRand Unified Bootloader, version 2 (PC/BIOS binaries)
-ii  grub2-common                        2.02~beta2-9ubuntu1.6            amd64        GRand Unified Bootloader (common files for version 2)
+ii  grub-pc                             2.02~beta2-9ubuntu1.7            amd64        GRand Unified Bootloader, version 2 (PC/BIOS version)
+ii  grub-pc-bin                         2.02~beta2-9ubuntu1.7            amd64        GRand Unified Bootloader, version 2 (PC/BIOS binaries)
+ii  grub2-common                        2.02~beta2-9ubuntu1.7            amd64        GRand Unified Bootloader (common files for version 2)
 ii  gzip                                1.6-3ubuntu1                     amd64        GNU compression utilities
 ii  haveged                             1.7c-1                           amd64        Linux entropy source using the HAVEGE algorithm
 ii  hdparm                              9.43-1ubuntu3                    amd64        tune hard disk parameters for high performance
@@ -411,18 +411,8 @@ ii  libxtables10                        1.4.21-1ubuntu1                  amd64  
 ii  libyaml-0-2:amd64                   0.1.4-3ubuntu3.1                 amd64        Fast YAML 1.1 parser and emitter library
 ii  linux-firmware                      1.127.19                         all          Firmware for Linux kernel drivers
 ii  linux-generic-lts-vivid             3.19.0.43.28                     amd64        Complete Generic Linux kernel and headers
-ii  linux-headers-3.13.0-71             3.13.0-71.114                    all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-71-generic     3.13.0-71.114                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-73             3.13.0-73.116                    all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-73-generic     3.13.0-73.116                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-74             3.13.0-74.118                    all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-74-generic     3.13.0-74.118                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.19.0-33             3.19.0-33.38~14.04.1             all          Header files related to Linux kernel version 3.19.0
-ii  linux-headers-3.19.0-33-generic     3.19.0-33.38~14.04.1             amd64        Linux kernel headers for version 3.19.0 on 64 bit x86 SMP
-ii  linux-headers-3.19.0-39             3.19.0-39.44~14.04.1             all          Header files related to Linux kernel version 3.19.0
-ii  linux-headers-3.19.0-39-generic     3.19.0-39.44~14.04.1             amd64        Linux kernel headers for version 3.19.0 on 64 bit x86 SMP
-ii  linux-headers-3.19.0-41             3.19.0-41.46~14.04.2             all          Header files related to Linux kernel version 3.19.0
-ii  linux-headers-3.19.0-41-generic     3.19.0-41.46~14.04.2             amd64        Linux kernel headers for version 3.19.0 on 64 bit x86 SMP
 ii  linux-headers-3.19.0-42             3.19.0-42.48~14.04.1             all          Header files related to Linux kernel version 3.19.0
 ii  linux-headers-3.19.0-42-generic     3.19.0-42.48~14.04.1             amd64        Linux kernel headers for version 3.19.0 on 64 bit x86 SMP
 ii  linux-headers-3.19.0-43             3.19.0-43.49~14.04.1             all          Header files related to Linux kernel version 3.19.0
@@ -433,20 +423,20 @@ rc  linux-image-3.19.0-25-generic       3.19.0-25.26~14.04.1             amd64  
 rc  linux-image-3.19.0-30-generic       3.19.0-30.34~14.04.1             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-3.19.0-31-generic       3.19.0-31.36~14.04.1             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-3.19.0-32-generic       3.19.0-32.37~14.04.1             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
-ii  linux-image-3.19.0-33-generic       3.19.0-33.38~14.04.1             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
+rc  linux-image-3.19.0-33-generic       3.19.0-33.38~14.04.1             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-3.19.0-37-generic       3.19.0-37.42~14.04.1             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
-ii  linux-image-3.19.0-39-generic       3.19.0-39.44~14.04.1             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
-ii  linux-image-3.19.0-41-generic       3.19.0-41.46~14.04.2             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
+rc  linux-image-3.19.0-39-generic       3.19.0-39.44~14.04.1             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
+rc  linux-image-3.19.0-41-generic       3.19.0-41.46~14.04.2             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 ii  linux-image-3.19.0-42-generic       3.19.0-42.48~14.04.1             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 ii  linux-image-3.19.0-43-generic       3.19.0-43.49~14.04.1             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-25-generic 3.19.0-25.26~14.04.1             amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-30-generic 3.19.0-30.34~14.04.1             amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-31-generic 3.19.0-31.36~14.04.1             amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-32-generic 3.19.0-32.37~14.04.1             amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.19.0-33-generic 3.19.0-33.38~14.04.1             amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.19.0-33-generic 3.19.0-33.38~14.04.1             amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-37-generic 3.19.0-37.42~14.04.1             amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.19.0-39-generic 3.19.0-39.44~14.04.1             amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.19.0-41-generic 3.19.0-41.46~14.04.2             amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.19.0-39-generic 3.19.0-39.44~14.04.1             amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.19.0-41-generic 3.19.0-41.46~14.04.2             amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.19.0-42-generic 3.19.0-42.48~14.04.1             amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.19.0-43-generic 3.19.0-43.49~14.04.1             amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 ii  linux-image-generic-lts-vivid       3.19.0.43.28                     amd64        Generic Linux kernel image
