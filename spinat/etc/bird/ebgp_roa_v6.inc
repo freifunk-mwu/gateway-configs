@@ -34,6 +34,7 @@ roa 2001:470:743f::/48       max  64 as  64861; # celle
 roa fd92:2dff:d232::/48      max  64 as  64861; # celle
 roa 2a03:2260:118::/48       max  64 as  65038; # darmstadt
 roa fdca:ffee:ffda::/48      max  64 as  65038; # darmstadt
+roa fdc4:d762:2143::/48      max  64 as  64874; # donau-ries
 roa 2001:bf7:20::/44         max  64 as  65043; # dreilaendereck
 roa fd11:11ae:7466::/48      max  64 as  65051; # dresden
 roa 2001:bf7:100:2263::/64   max  64 as  65530; # engelskirchen (delegation)
@@ -141,6 +142,7 @@ roa 2001:bf7:100:2196::/64   max  64 as  65530; # wermelskirchen (delegation)
 roa fddf:ebfd:a801:2196::/64 max  64 as  65530; # wermelskirchen (delegation)
 roa fd23:dead:beef::/48      max  64 as  65432; # westkueste
 roa fdc6:c4fe:1de4::/48      max  64 as  65242; # westpfalz
+roa 2a03:2260:300d::/48      max  64 as  64881; # winterberg
 roa 2001:bf7:100:2267::/64   max  64 as  65530; # wipperfuerth (delegation)
 roa fddf:ebfd:a801:2267::/64 max  64 as  65530; # wipperfuerth (delegation)
 roa fda0:747e:ab29:e1ba::/64 max  64 as  65523; # wuppertal
