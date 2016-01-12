@@ -138,9 +138,8 @@ ii  libatomic1:amd64                4.8.4-2ubuntu1~14.04             amd64      
 ii  libattr1:amd64                  1:2.4.47-1ubuntu1                amd64        Extended attribute shared library
 ii  libaudit-common                 1:2.3.2-2ubuntu1                 all          Dynamic library for security auditing - common files
 ii  libaudit1:amd64                 1:2.3.2-2ubuntu1                 amd64        Dynamic library for security auditing
-ii  libavahi-client3:amd64          0.6.31-4ubuntu1                  amd64        Avahi client library
-ii  libavahi-common-data:amd64      0.6.31-4ubuntu1                  amd64        Avahi common data files
-ii  libavahi-common3:amd64          0.6.31-4ubuntu1                  amd64        Avahi common library
+rc  libavahi-client3:amd64          0.6.31-4ubuntu1                  amd64        Avahi client library
+rc  libavahi-common3:amd64          0.6.31-4ubuntu1                  amd64        Avahi common library
 ii  libbind9-90                     1:9.9.5.dfsg-3ubuntu0.6          amd64        BIND9 Shared Library used by BIND
 ii  libblkid1:amd64                 2.20.1-5.1ubuntu20.7             amd64        block device id library
 ii  libboost-iostreams1.54.0:amd64  1.54.0-4ubuntu3.1                amd64        Boost.Iostreams Library
@@ -158,7 +157,7 @@ ii  libck-connector0:amd64          0.4.5-3.1ubuntu2                 amd64      
 ii  libclass-accessor-perl          0.34-1                           all          Perl module that automatically generates accessors
 ii  libcloog-isl4:amd64             0.18.2-1                         amd64        Chunky Loop Generator (runtime library)
 ii  libcomerr2:amd64                1.42.9-3ubuntu1.3                amd64        common error description library
-ii  libcups2:amd64                  1.7.2-0ubuntu1.7                 amd64        Common UNIX Printing System(tm) - Core library
+rc  libcups2:amd64                  1.7.2-0ubuntu1.7                 amd64        Common UNIX Printing System(tm) - Core library
 ii  libcurl3-gnutls:amd64           7.35.0-1ubuntu2.5                amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii  libcwidget3                     0.5.16-3.5ubuntu1                amd64        high-level terminal interface library for C++ (runtime files)
 ii  libdaemon0                      0.14-2ubuntu1                    amd64        lightweight C library for daemons - runtime library
@@ -232,7 +231,7 @@ ii  libkrb5-26-heimdal:amd64        1.6~git20131207+dfsg-1ubuntu1.1  amd64      
 ii  libkrb5-3:amd64                 1.12+dfsg-2ubuntu5.2             amd64        MIT Kerberos runtime libraries
 ii  libkrb5support0:amd64           1.12+dfsg-2ubuntu5.2             amd64        MIT Kerberos runtime libraries - Support library
 ii  libldap-2.4-2:amd64             2.4.31-1+nmu2ubuntu8.2           amd64        OpenLDAP libraries
-ii  libldb1:amd64                   1:1.1.16-1ubuntu0.1              amd64        LDAP-like embedded database - shared library
+rc  libldb1:amd64                   1:1.1.16-1ubuntu0.1              amd64        LDAP-like embedded database - shared library
 ii  liblocale-gettext-perl          1.05-7build3                     amd64        module using libc functions for internationalization in Perl
 ii  liblockfile-bin                 1.09-6ubuntu1                    amd64        support binaries for and cli utilities based on liblockfile
 ii  liblockfile1:amd64              1.09-6ubuntu1                    amd64        NFS-safe locking library
@@ -246,17 +245,16 @@ ii  libmount1:amd64                 2.20.1-5.1ubuntu20.7             amd64      
 ii  libmpc3:amd64                   1.0.1-1ubuntu1                   amd64        multiple precision complex floating-point library
 ii  libmpdec2:amd64                 2.4.0-6                          amd64        library for decimal floating point arithmetic (runtime library)
 ii  libmpfr4:amd64                  3.1.2-1                          amd64        multiple precision floating-point computation
-ii  libmysqlclient18:amd64          5.5.46-0ubuntu0.14.04.2          amd64        MySQL database client library
+rc  libmysqlclient18:amd64          5.5.46-0ubuntu0.14.04.2          amd64        MySQL database client library
 ii  libncurses5:amd64               5.9+20140118-1ubuntu1            amd64        shared libraries for terminal handling
 ii  libncursesw5:amd64              5.9+20140118-1ubuntu1            amd64        shared libraries for terminal handling (wide character support)
-ii  libnet-snmp-perl                6.0.1-2                          all          Script SNMP connections
 ii  libnewt0.52:amd64               0.52.15-2ubuntu5                 amd64        Not Erik's Windowing Toolkit - text mode windowing with slang
 ii  libnfnetlink0:amd64             1.0.1-2                          amd64        Netfilter netlink library
 ii  libnfsidmap2:amd64              0.25-5                           amd64        NFS idmapping library
 ii  libnih-dbus1:amd64              1.0.3-4ubuntu25                  amd64        NIH D-Bus Bindings Library
 ii  libnih1:amd64                   1.0.3-4ubuntu25                  amd64        NIH Utility Library
 ii  libnl-3-200:amd64               3.2.21-1                         amd64        library for dealing with netlink sockets
-ii  libntdb1:amd64                  1.0-2ubuntu1                     amd64        New Trivial Database - shared library
+rc  libntdb1:amd64                  1.0-2ubuntu1                     amd64        New Trivial Database - shared library
 ii  libopts25:amd64                 1:5.18-2ubuntu2                  amd64        automated option processing library based on autogen
 ii  libp11-kit0:amd64               0.20.2-2ubuntu2                  amd64        Library for loading and coordinating access to PKCS#11 modules - runtime
 ii  libpam-cap:amd64                1:2.24-0ubuntu2                  amd64        PAM module for implementing capabilities
@@ -271,7 +269,6 @@ ii  libparse-debianchangelog-perl   1.2.0-1ubuntu1                   all        
 ii  libpcap0.8:amd64                1.5.3-2                          amd64        system interface for user-level packet capture
 ii  libpci3:amd64                   1:3.2.1-1ubuntu5                 amd64        Linux PCI Utilities (shared library)
 ii  libpcre3:amd64                  1:8.31-2ubuntu2.1                amd64        Perl 5 Compatible Regular Expression Library - runtime files
-ii  libperl5.18                     5.18.2-2ubuntu1                  amd64        shared Perl library
 ii  libpipeline1:amd64              1.3.0-1                          amd64        pipeline manipulation library
 ii  libpixman-1-0:amd64             0.30.2-2ubuntu1                  amd64        pixel-manipulation library for X and cairo
 ii  libpkcs11-helper1:amd64         1.11-1                           amd64        library that simplifies the interaction with PKCS#11
@@ -279,7 +276,7 @@ ii  libplymouth2:amd64              0.8.8-0ubuntu17.1                amd64      
 ii  libpng12-0:amd64                1.2.50-1ubuntu2.14.04.2          amd64        PNG library - runtime
 ii  libpod-latex-perl               0.61-1                           all          module to convert Pod data to formatted LaTeX
 ii  libpopt0:amd64                  1.16-8ubuntu1                    amd64        lib for parsing cmdline parameters
-ii  libpq5                          9.3.10-0ubuntu0.14.04            amd64        PostgreSQL C client library
+rc  libpq5                          9.3.10-0ubuntu0.14.04            amd64        PostgreSQL C client library
 ii  libprocps3:amd64                1:3.3.9-1ubuntu2.2               amd64        library for accessing process information from /proc
 ii  libprotobuf8:amd64              2.5.0-9ubuntu1                   amd64        protocol buffers C++ library
 ii  libpython-stdlib:amd64          2.7.5-5ubuntu3                   amd64        interactive high-level object-oriented language (default python version)
@@ -307,9 +304,9 @@ ii  libsensors4:amd64               1:3.3.4-2ubuntu1                 amd64      
 ii  libsepol1:amd64                 2.2-1ubuntu0.1                   amd64        SELinux library for manipulating binary security policies
 ii  libsigc++-2.0-0c2a:amd64        2.2.10-0.2ubuntu2                amd64        type-safe Signal Framework for C++ - runtime
 ii  libslang2:amd64                 2.2.4-15ubuntu1                  amd64        S-Lang programming library - runtime version
-ii  libsmbclient:amd64              2:4.1.6+dfsg-1ubuntu2.14.04.11   amd64        shared library for communication with SMB/CIFS servers
-ii  libsnmp-base                    5.7.2~dfsg-8.1ubuntu3.1          all          SNMP configuration script, MIBs and documentation
-ii  libsnmp30:amd64                 5.7.2~dfsg-8.1ubuntu3.1          amd64        SNMP (Simple Network Management Protocol) library
+rc  libsmbclient:amd64              2:4.1.6+dfsg-1ubuntu2.14.04.11   amd64        shared library for communication with SMB/CIFS servers
+rc  libsnmp-base                    5.7.2~dfsg-8.1ubuntu3.1          all          SNMP configuration script, MIBs and documentation
+rc  libsnmp30:amd64                 5.7.2~dfsg-8.1ubuntu3.1          amd64        SNMP (Simple Network Management Protocol) library
 ii  libsodium13:amd64               1.0.3-1~wheezy0                  amd64        Network communication, cryptography and signaturing library
 ii  libsqlite3-0:amd64              3.8.2-1ubuntu2.1                 amd64        SQLite 3 shared library
 ii  libss2:amd64                    1.42.9-3ubuntu1.3                amd64        command-line interface parsing library
@@ -318,11 +315,11 @@ ii  libstdc++-4.8-dev:amd64         4.8.4-2ubuntu1~14.04             amd64      
 ii  libstdc++6:amd64                4.8.4-2ubuntu1~14.04             amd64        GNU Standard C++ Library v3
 ii  libsub-name-perl                0.05-1build4                     amd64        module for assigning a new name to referenced sub
 ii  libsysfs2:amd64                 2.1.0+repack-3ubuntu1            amd64        interface library to sysfs
-ii  libtalloc2:amd64                2.1.0-1                          amd64        hierarchical pool based memory allocator
+rc  libtalloc2:amd64                2.1.0-1                          amd64        hierarchical pool based memory allocator
 ii  libtasn1-6:amd64                3.4-3ubuntu0.3                   amd64        Manage ASN.1 structures (runtime)
-ii  libtdb1:amd64                   1.2.12-1                         amd64        Trivial Database - shared library
+rc  libtdb1:amd64                   1.2.12-1                         amd64        Trivial Database - shared library
 ii  libterm-ui-perl                 0.42-1                           all          Term::ReadLine UI made easy
-ii  libtevent0:amd64                0.9.19-1                         amd64        talloc-based event loop library - shared library
+rc  libtevent0:amd64                0.9.19-1                         amd64        talloc-based event loop library - shared library
 ii  libtext-charwidth-perl          0.04-7build3                     amd64        get display widths of characters on the terminal
 ii  libtext-iconv-perl              1.7-5build2                      amd64        converts between character sets in Perl
 ii  libtext-soundex-perl            3.4-1build1                      amd64        implementation of the soundex algorithm
@@ -342,7 +339,7 @@ ii  libustr-1.0-1:amd64             1.0.4-3ubuntu2                   amd64      
 ii  libutempter0                    1.1.5-4build1                    amd64        A privileged helper for utmp/wtmp updates (runtime)
 ii  libuuid1:amd64                  2.20.1-5.1ubuntu20.7             amd64        Universally Unique ID library
 ii  libvpx1:amd64                   1.3.0-2                          amd64        VP8 video codec (shared library)
-ii  libwbclient0:amd64              2:4.1.6+dfsg-1ubuntu2.14.04.11   amd64        Samba winbind client library
+rc  libwbclient0:amd64              2:4.1.6+dfsg-1ubuntu2.14.04.11   amd64        Samba winbind client library
 ii  libwind0-heimdal:amd64          1.6~git20131207+dfsg-1ubuntu1.1  amd64        Heimdal Kerberos - stringprep implementation
 ii  libwrap0:amd64                  7.6.q-25                         amd64        Wietse Venema's TCP wrappers library
 ii  libx11-6:amd64                  2:1.6.2-1ubuntu2                 amd64        X11 client-side library
@@ -359,18 +356,8 @@ ii  libxmuu1:amd64                  2:1.1.1-1                        amd64      
 ii  libxpm4:amd64                   1:3.5.10-1                       amd64        X11 pixmap library
 ii  libxrender1:amd64               1:0.9.8-1build0.14.04.1          amd64        X Rendering Extension client library
 ii  libxtables10                    1.4.21-1ubuntu1                  amd64        netfilter xtables library
-ii  linux-headers-3.13.0-71         3.13.0-71.114                    all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-71-generic 3.13.0-71.114                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-73         3.13.0-73.116                    all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-73-generic 3.13.0-73.116                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-74         3.13.0-74.118                    all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-74-generic 3.13.0-74.118                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.19.0-25         3.19.0-25.26~14.04.1             all          Header files related to Linux kernel version 3.19.0
-ii  linux-headers-3.19.0-25-generic 3.19.0-25.26~14.04.1             amd64        Linux kernel headers for version 3.19.0 on 64 bit x86 SMP
-ii  linux-headers-3.19.0-39         3.19.0-39.44~14.04.1             all          Header files related to Linux kernel version 3.19.0
-ii  linux-headers-3.19.0-39-generic 3.19.0-39.44~14.04.1             amd64        Linux kernel headers for version 3.19.0 on 64 bit x86 SMP
-ii  linux-headers-3.19.0-41         3.19.0-41.46~14.04.2             all          Header files related to Linux kernel version 3.19.0
-ii  linux-headers-3.19.0-41-generic 3.19.0-41.46~14.04.2             amd64        Linux kernel headers for version 3.19.0 on 64 bit x86 SMP
 ii  linux-headers-3.19.0-42         3.19.0-42.48~14.04.1             all          Header files related to Linux kernel version 3.19.0
 ii  linux-headers-3.19.0-42-generic 3.19.0-42.48~14.04.1             amd64        Linux kernel headers for version 3.19.0 on 64 bit x86 SMP
 ii  linux-headers-3.19.0-43         3.19.0-43.49~14.04.1             all          Header files related to Linux kernel version 3.19.0
@@ -378,9 +365,9 @@ ii  linux-headers-3.19.0-43-generic 3.19.0-43.49~14.04.1             amd64      
 ii  linux-headers-generic           3.13.0.74.80                     amd64        Generic Linux kernel headers
 ii  linux-headers-generic-lts-vivid 3.19.0.43.28                     amd64        Generic Linux kernel headers
 ii  linux-headers-virtual-lts-vivid 3.19.0.43.28                     amd64        Transitional package.
-ii  linux-image-3.19.0-25-generic   3.19.0-25.26~14.04.1             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
-ii  linux-image-3.19.0-39-generic   3.19.0-39.44~14.04.1             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
-ii  linux-image-3.19.0-41-generic   3.19.0-41.46~14.04.2             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
+rc  linux-image-3.19.0-25-generic   3.19.0-25.26~14.04.1             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
+rc  linux-image-3.19.0-39-generic   3.19.0-39.44~14.04.1             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
+rc  linux-image-3.19.0-41-generic   3.19.0-41.46~14.04.2             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 ii  linux-image-3.19.0-42-generic   3.19.0-42.48~14.04.1             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 ii  linux-image-3.19.0-43-generic   3.19.0-43.49~14.04.1             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 ii  linux-image-virtual-lts-vivid   3.19.0.43.28                     amd64        This package will always depend on the latest minimal generic kernel image.
@@ -405,10 +392,9 @@ ii  mosh                            1.2.4a-1ubuntu1                  amd64      
 ii  mount                           2.20.1-5.1ubuntu20.7             amd64        Tools for mounting and manipulating filesystems
 ii  mountall                        2.53                             amd64        filesystem mounting tool
 ii  multiarch-support               2.19-0ubuntu6.6                  amd64        Transitional package to ensure multiarch compatibility
-ii  mysql-common                    5.5.46-0ubuntu0.14.04.2          all          MySQL database common files, e.g. /etc/mysql/my.cnf
-ii  nagios-plugins-basic            1.5-3ubuntu1                     amd64        Plugins for nagios compatible monitoring systems
-ii  nagios-plugins-common           1.5-3ubuntu1                     amd64        Common files for plugins for nagios compatible monitoring
-ii  nagios-plugins-standard         1.5-3ubuntu1                     amd64        Plugins for nagios compatible monitoring systems
+rc  mysql-common                    5.5.46-0ubuntu0.14.04.2          all          MySQL database common files, e.g. /etc/mysql/my.cnf
+rc  nagios-plugins-basic            1.5-3ubuntu1                     amd64        Plugins for nagios compatible monitoring systems
+rc  nagios-plugins-standard         1.5-3ubuntu1                     amd64        Plugins for nagios compatible monitoring systems
 ii  nano                            2.2.6-1ubuntu1                   amd64        small, friendly text editor inspired by Pico
 ii  ncurses-base                    5.9+20140118-1ubuntu1            all          basic terminal type definitions
 ii  ncurses-bin                     5.9+20140118-1ubuntu1            amd64        terminal-related programs and man pages
@@ -439,24 +425,20 @@ ii  python-apt-common               0.9.3.5ubuntu2                   all        
 ii  python-chardet                  2.0.1-2build2                    all          universal character encoding detector
 ii  python-chardet-whl              2.2.1-2~ubuntu1                  all          universal character encoding detector
 ii  python-colorama-whl             0.2.5-0.1ubuntu2                 all          Cross-platform colored terminal text in Python - Wheels
-ii  python-crypto                   2.6.1-4build1                    amd64        cryptographic algorithms and protocols for Python
 ii  python-debian                   0.1.21+nmu2ubuntu2               all          Python modules to work with Debian-related data formats
 ii  python-distlib-whl              0.1.8-1ubuntu1                   all          low-level components of python distutils2/packaging
 ii  python-html5lib-whl             0.999-3~ubuntu1                  all          HTML parser/tokenizer based on the WHATWG HTML5 specification
-ii  python-ldb                      1:1.1.16-1ubuntu0.1              amd64        Python bindings for LDB
+rc  python-ldb                      1:1.1.16-1ubuntu0.1              amd64        Python bindings for LDB
 ii  python-minimal                  2.7.5-5ubuntu3                   amd64        minimal subset of the Python language (default version)
-ii  python-ntdb                     1.0-2ubuntu1                     amd64        Python bindings for NTDB
 ii  python-pip-whl                  1.5.4-1ubuntu3                   all          alternative Python package installer
 ii  python-pycurl                   7.19.3-0ubuntu3                  amd64        Python bindings to libcurl
 ii  python-requests                 2.2.1-1ubuntu0.3                 all          elegant and simple HTTP library for Python, built for human beings
 ii  python-requests-whl             2.2.1-1ubuntu0.3                 all          elegant and simple HTTP library for Python, built for human beings
-ii  python-samba                    2:4.1.6+dfsg-1ubuntu2.14.04.11   amd64        Python bindings for Samba
 ii  python-setuptools-whl           3.3-1ubuntu2                     all          Python Distutils Enhancements (wheel package)
 ii  python-six                      1.5.2-1ubuntu1                   all          Python 2 and 3 compatibility library (Python 2 interface)
 ii  python-six-whl                  1.5.2-1ubuntu1                   all          Python 2 and 3 compatibility library (universal wheel)
 ii  python-software-properties      0.92.37.6                        all          manage the repositories that you install software from
-ii  python-talloc                   2.1.0-1                          amd64        hierarchical pool based memory allocator - Python bindings
-ii  python-tdb                      1.2.12-1                         amd64        Python bindings for TDB
+rc  python-talloc                   2.1.0-1                          amd64        hierarchical pool based memory allocator - Python bindings
 ii  python-urllib3                  1.7.1-1ubuntu4                   all          HTTP library with thread-safe connection pooling for Python
 ii  python-urllib3-whl              1.7.1-1ubuntu4                   all          HTTP library with thread-safe connection pooling
 ii  python-xapian                   1.2.16-2ubuntu1                  amd64        Xapian search engine interface for Python
@@ -492,22 +474,21 @@ ii  rpcbind                         0.2.1-2ubuntu2.2                 amd64      
 ii  rrdtool                         1.4.7-2ubuntu5                   amd64        time-series data storage and display system (programs)
 ii  rsync                           3.1.0-2ubuntu0.1                 amd64        fast, versatile, remote (and local) file-copying tool
 ii  rsyslog                         7.4.4-1ubuntu2.6                 amd64        reliable system and kernel logging daemon
-ii  samba-common                    2:4.1.6+dfsg-1ubuntu2.14.04.11   all          common files used by both the Samba server and client
-ii  samba-common-bin                2:4.1.6+dfsg-1ubuntu2.14.04.11   amd64        Samba common files used by both the server and the client
-ii  samba-libs:amd64                2:4.1.6+dfsg-1ubuntu2.14.04.11   amd64        Samba core libraries
+rc  samba-common                    2:4.1.6+dfsg-1ubuntu2.14.04.11   all          common files used by both the Samba server and client
+rc  samba-libs:amd64                2:4.1.6+dfsg-1ubuntu2.14.04.11   amd64        Samba core libraries
 ii  screen                          4.1.0~20120320gitdb59704-9       amd64        terminal multiplexer with VT100/ANSI terminal emulation
 ii  sed                             4.2.2-4ubuntu1                   amd64        The GNU sed stream editor
 ii  sensible-utils                  0.0.9                            all          Utilities for sensible alternative selection
 ii  sgml-base                       1.26+nmu4ubuntu1                 all          SGML infrastructure and SGML catalog file support
 ii  shared-mime-info                1.2-0ubuntu3                     amd64        FreeDesktop.org shared MIME database and spec
-ii  smbclient                       2:4.1.6+dfsg-1ubuntu2.14.04.11   amd64        command-line SMB/CIFS clients for Unix
-ii  snmp                            5.7.2~dfsg-8.1ubuntu3.1          amd64        SNMP (Simple Network Management Protocol) applications
+rc  snmp                            5.7.2~dfsg-8.1ubuntu3.1          amd64        SNMP (Simple Network Management Protocol) applications
 ii  software-properties-common      0.92.37.6                        all          manage the repositories that you install software from (common)
 ii  ssh                             1:6.6p1-2ubuntu2.3               all          secure shell client and server (metapackage)
 ii  ssh-import-id                   3.21-0ubuntu1                    all          securely retrieve an SSH public key and install it locally
 ii  ssl-cert                        1.0.33                           all          simple debconf wrapper for OpenSSL
 ii  sudo                            1.8.9p5-1ubuntu1.2               amd64        Provide limited super user privileges to specific users
 ii  sysfsutils                      2.1.0+repack-3ubuntu1            amd64        sysfs query tool and boot-time setup
+ii  sysstat                         10.2.0-1                         amd64        system performance tools for Linux
 ii  sysv-rc                         2.88dsf-41ubuntu6.2              all          System-V-like runlevel change mechanism
 ii  sysvinit-utils                  2.88dsf-41ubuntu6.2              amd64        System-V-like utilities
 ii  tar                             1.27.1-1                         amd64        GNU version of the tar archiving utility
