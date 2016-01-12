@@ -28,13 +28,14 @@ roa 10.8.0.0/16     max  20 as  65053; # chemnitz
 roa 10.35.0.0/16    max  20 as  64868; # cottbus
 roa 10.223.0.0/16   max  20 as  65038; # darmstadt
 roa 10.213.0.0/16   max  20 as  65501; # diepholz
+roa 10.11.144.0/20  max  20 as  64874; # donau-ries
 roa 10.119.0.0/16   max  20 as  65043; # dreilaendereck
 roa 10.200.0.0/16   max  20 as  65051; # dresden
 roa 10.201.0.0/16   max  20 as  65051; # dresden
 roa 10.141.128.0/17 max  20 as  65530; # engelskirchen (delegation)
 roa 10.99.0.0/16    max  20 as  65099; # erfurt
 roa 10.228.0.0/16   max  20 as  65406; # essen
-roa 10.47.0.0/16    max  20 as  64869; # euskirchen
+roa 10.19.0.0/16    max  20 as  64869; # euskirchen
 roa 10.129.0.0/16   max  20 as  65056; # flensburg
 roa 10.155.0.0/20   max  20 as  65125; # flingern
 roa 10.50.0.0/16    max  20 as  65024; # franken
@@ -100,7 +101,7 @@ roa 10.169.0.0/16   max  20 as  65534; # mueritz
 roa 10.187.0.0/16   max  20 as  65187; # nord
 roa 10.18.0.0/16    max  20 as  65513; # nordwest
 roa 10.135.0.0/16   max  20 as  65152; # ostholstein
-roa 10.19.0.0/16    max  20 as  64862; # ostvest
+roa 10.47.0.0/16    max  20 as  64862; # ostvest
 roa 10.132.0.0/16   max  20 as  65132; # paderborn
 roa 10.137.0.0/16   max  20 as  65433; # pinneberg
 roa 10.57.0.0/16    max  20 as  65067; # radevormwald
@@ -131,6 +132,7 @@ roa 10.252.64.0/18  max  20 as  64770; # saar
 roa 10.6.0.0/16     max  20 as  65530; # solingen (delegation)
 roa 10.190.0.0/15   max  20 as  65019; # stuttgart
 roa 10.215.0.0/16   max  20 as  65083; # suedpfalz
+roa 10.210.0.0/18   max  20 as  65502; # suedwest
 roa 10.24.0.0/20    max  20 as  65045; # treuenbrietzen
 roa 10.172.0.0/16   max  20 as  65022; # trier
 roa 10.188.0.0/16   max  20 as  65066; # troisdorf
@@ -148,5 +150,6 @@ roa 10.52.0.0/16    max  20 as  65530; # wermelskirchen (delegation)
 roa 10.13.0.0/18    max  20 as  65432; # westkueste
 roa 10.198.0.0/16   max  20 as  65242; # westpfalz
 roa 10.51.0.0/16    max  20 as  65054; # weststeiermark
+roa 10.16.128.0/18  max  20 as  64881; # winterberg
 roa 10.224.0.0/16   max  20 as  65530; # wipperfuerth (delegation)
 roa 10.3.0.0/16     max  20 as  65523; # wuppertal
