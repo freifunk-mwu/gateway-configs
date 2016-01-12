@@ -76,7 +76,7 @@ iface mzVPN inet6 manual
 
 
 # GRE-Tunnel zu bb-a.ak.ber
-#auto ffrl-a-ak-ber
+auto ffrl-a-ak-ber
 iface ffrl-a-ak-ber inet static
         address 100.64.2.101
         netmask 255.255.255.254
@@ -134,7 +134,7 @@ iface ffrl-b-ix-dus inet6 static
 # GRE-Tunnel zu bb-a.fra3.fra
 auto ffrl-a-fra3-fra
 iface ffrl-a-fra3-fra inet static
-        address 100.64.1.193
+        address 100.64.2.109 
         netmask 255.255.255.254
         pre-up          /sbin/ip tunnel add $IFACE mode gre local 178.63.230.157 remote 185.66.194.0 ttl 255
         post-up         /sbin/ip link set $IFACE mtu 1400
@@ -148,7 +148,7 @@ iface ffrl-a-fra3-fra inet6 static
 # GRE-Tunnel zu bb-b.fra3.fra
 auto ffrl-b-fra3-fra
 iface ffrl-b-fra3-fra inet static
-        address 100.64.2.87
+        address 100.64.2.111
         netmask 255.255.255.254
         pre-up          /sbin/ip tunnel add $IFACE mode gre local 178.63.230.157 remote 185.66.194.1 ttl 255
         post-up         /sbin/ip link set $IFACE mtu 1400

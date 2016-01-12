@@ -6,7 +6,6 @@
 ip -4 rule add from all iif mzBR lookup mwu priority 7
 ip -4 rule add from all iif wiBR lookup mwu priority 7
 ip -4 rule add from all iif icVPN lookup mwu priority 7
-#ip -4 rule add from all iif exitVPN lookup mwu priority 7
 ip -4 rule add from all iif ffrl-a-fra3-fra lookup mwu priority 7
 ip -4 rule add from all iif ffrl-b-fra3-fra lookup mwu priority 7
 ip -4 rule add from all iif ffrl-a-ak-ber lookup mwu priority 7
@@ -19,7 +18,6 @@ ip -4 rule add from all iif ffrl-b-ix-dus lookup mwu priority 7
 ip -6 rule add from all iif mzBR lookup mwu priority 7
 ip -6 rule add from all iif wiBR lookup mwu priority 7
 ip -6 rule add from all iif icVPN lookup mwu priority 7
-#ip -6 rule add from all iif exitVPN lookup mwu priority 7
 ip -6 rule add from all iif ffrl-a-fra3-fra lookup mwu priority 7
 ip -6 rule add from all iif ffrl-b-fra3-fra lookup mwu priority 7
 ip -6 rule add from all iif ffrl-a-ak-ber lookup mwu priority 7
@@ -55,7 +53,6 @@ ip -6 rule add from 2a03:2260:11b::/48 lookup ffinetexit priority 41
 # at this point this is the end of policy routing for freifunk related routes
 ip -4 rule add from all iif mzBR type unreachable priority 61
 ip -4 rule add from all iif wiBR type unreachable priority 61
-#ip -4 rule add from all iif exitVPN type unreachable priority 61
 ip -4 rule add from all iif icVPN type unreachable priority 61
 ip -4 rule add from all iif eth0 type unreachable priority 61
 
@@ -69,7 +66,6 @@ ip -4 rule add from all iif ffrl-b-ix-dus type unreachable priority 61
 
 ip -6 rule add from all iif mzBR type unreachable priority 61
 ip -6 rule add from all iif wiBR type unreachable priority 61
-#ip -6 rule add from all iif exitVPN type unreachable priority 61
 ip -6 rule add from all iif icVPN type unreachable priority 61
 ip -6 rule add from all iif eth0 type unreachable priority 61
 ip -6 rule add from 2a03:2260:11a::/48 type unreachable priority 61
