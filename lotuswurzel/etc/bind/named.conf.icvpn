@@ -1013,6 +1013,33 @@ zone "64/18.252.10.in-addr.arpa" {
     server-addresses { 10.24.192.2; 10.24.192.3; fd4e:f2d7:88d2:ffff::2; fd4e:f2d7:88d2:ffff::3; };
 };
 # 
+# suedwest
+# 
+zone "ffws" {
+    type static-stub;
+    server-addresses { 10.210.0.101; 10.210.0.102; 10.210.0.103; 10.210.0.104; 10.210.0.105; 10.210.0.106; 10.210.0.199; fd00:ffba:ffba::101; fd00:ffba:ffba::102; fd00:ffba:ffba::103; fd00:ffba:ffba::104; fd00:ffba:ffba::105; fd00:ffba:ffba::106; fd00:ffba:ffba::199; };
+};
+zone "ffweyher" {
+    type static-stub;
+    server-addresses { 10.210.0.101; 10.210.0.102; 10.210.0.103; 10.210.0.104; 10.210.0.105; 10.210.0.106; 10.210.0.199; fd00:ffba:ffba::101; fd00:ffba:ffba::102; fd00:ffba:ffba::103; fd00:ffba:ffba::104; fd00:ffba:ffba::105; fd00:ffba:ffba::106; fd00:ffba:ffba::199; };
+};
+zone "ffvp" {
+    type static-stub;
+    server-addresses { 10.210.0.101; 10.210.0.102; 10.210.0.103; 10.210.0.104; 10.210.0.105; 10.210.0.106; 10.210.0.199; fd00:ffba:ffba::101; fd00:ffba:ffba::102; fd00:ffba:ffba::103; fd00:ffba:ffba::104; fd00:ffba:ffba::105; fd00:ffba:ffba::106; fd00:ffba:ffba::199; };
+};
+zone "ffaw" {
+    type static-stub;
+    server-addresses { 10.210.0.101; 10.210.0.102; 10.210.0.103; 10.210.0.104; 10.210.0.105; 10.210.0.106; 10.210.0.199; fd00:ffba:ffba::101; fd00:ffba:ffba::102; fd00:ffba:ffba::103; fd00:ffba:ffba::104; fd00:ffba:ffba::105; fd00:ffba:ffba::106; fd00:ffba:ffba::199; };
+};
+zone "0.0.0.0.a.b.f.f.a.b.f.f.0.0.d.f.ip6.arpa" {
+    type static-stub;
+    server-addresses { 10.210.0.101; 10.210.0.102; 10.210.0.103; 10.210.0.104; 10.210.0.105; 10.210.0.106; 10.210.0.199; fd00:ffba:ffba::101; fd00:ffba:ffba::102; fd00:ffba:ffba::103; fd00:ffba:ffba::104; fd00:ffba:ffba::105; fd00:ffba:ffba::106; fd00:ffba:ffba::199; };
+};
+zone "210.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.210.0.101; 10.210.0.102; 10.210.0.103; 10.210.0.104; 10.210.0.105; 10.210.0.106; 10.210.0.199; fd00:ffba:ffba::101; fd00:ffba:ffba::102; fd00:ffba:ffba::103; fd00:ffba:ffba::104; fd00:ffba:ffba::105; fd00:ffba:ffba::106; fd00:ffba:ffba::199; };
+};
+# 
 # trier
 # 
 zone "fftr" {
