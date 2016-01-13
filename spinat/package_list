@@ -96,7 +96,7 @@ ii  gawk                                1:4.0.1+dfsg-2.1ubuntu2          amd64  
 ii  gcc                                 4:4.8.2-1ubuntu6                 amd64        GNU C compiler
 ii  gcc-4.8                             4.8.4-2ubuntu1~14.04             amd64        GNU C compiler
 ii  gcc-4.8-base:amd64                  4.8.4-2ubuntu1~14.04             amd64        GCC, the GNU Compiler Collection (base package)
-ii  gcc-4.9-base:amd64                  4.9.1-0ubuntu1                   amd64        GCC, the GNU Compiler Collection (base package)
+ii  gcc-4.9-base:amd64                  4.9.3-0ubuntu4                   amd64        GCC, the GNU Compiler Collection (base package)
 ii  geoip-database                      20140313-1                       all          IP lookup command line tools that use the GeoIP library (country database)
 ii  gettext-base                        0.18.3.1-1ubuntu3                amd64        GNU Internationalization utilities for the base system
 ii  gir1.2-glib-2.0                     1.40.0-1ubuntu0.2                amd64        Introspection data for GLib, GObject, Gio and GModule
@@ -135,9 +135,9 @@ ii  iptables-persistent                 0.5.7                            all    
 ii  iputils-ping                        3:20121221-4ubuntu1.1            amd64        Tools to test the reachability of network hosts
 ii  iputils-tracepath                   3:20121221-4ubuntu1.1            amd64        Tools to trace the network path to a remote host
 ii  irqbalance                          1.0.6-2ubuntu0.14.04.4           amd64        Daemon to balance interrupts for SMP systems
-ii  isc-dhcp-client                     4.2.4-7ubuntu12.3                amd64        ISC DHCP client
-ii  isc-dhcp-common                     4.2.4-7ubuntu12.3                amd64        common files used by all the isc-dhcp* packages
-ii  isc-dhcp-server                     4.2.4-7ubuntu12.3                amd64        ISC DHCP server for automatic IP address assignment
+ii  isc-dhcp-client                     4.2.4-7ubuntu12.4                amd64        ISC DHCP client
+ii  isc-dhcp-common                     4.2.4-7ubuntu12.4                amd64        common files used by all the isc-dhcp* packages
+ii  isc-dhcp-server                     4.2.4-7ubuntu12.4                amd64        ISC DHCP server for automatic IP address assignment
 ii  iso-codes                           3.52-1                           all          ISO language, territory, currency, script codes and their translations
 ii  joe                                 3.7-2.3ubuntu1                   amd64        user friendly full screen text editor
 ii  jq                                  1.3-1.1ubuntu1                   amd64        lightweight and flexible command-line JSON processor
@@ -224,7 +224,7 @@ ii  libfribidi0:amd64                   0.19.6-1                         amd64  
 ii  libfuse2:amd64                      2.9.2-4ubuntu4.14.04.1           amd64        Filesystem in Userspace (library)
 ii  libgc1c2:amd64                      1:7.2d-5ubuntu2                  amd64        conservative garbage collector for C and C++
 ii  libgcc-4.8-dev:amd64                4.8.4-2ubuntu1~14.04             amd64        GCC support library (development files)
-ii  libgcc1:amd64                       1:4.9.1-0ubuntu1                 amd64        GCC support library
+ii  libgcc1:amd64                       1:4.9.3-0ubuntu4                 amd64        GCC support library
 ii  libgck-1-0:amd64                    3.10.1-1                         amd64        Glib wrapper library for PKCS#11 - runtime
 ii  libgcr-3-common                     3.10.1-1                         all          Library for Crypto UI related tasks - common files
 ii  libgcr-base-3-1:amd64               3.10.1-1                         amd64        Library for Crypto related tasks
