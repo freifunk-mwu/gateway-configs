@@ -132,6 +132,7 @@ roa 10.252.64.0/18  max  20 as  64770; # saar
 roa 10.6.0.0/16     max  20 as  65530; # solingen (delegation)
 roa 10.190.0.0/15   max  20 as  65019; # stuttgart
 roa 10.215.0.0/16   max  20 as  65083; # suedpfalz
+roa 10.210.0.0/18   max  20 as  65502; # suedwest
 roa 10.24.0.0/20    max  20 as  65045; # treuenbrietzen
 roa 10.172.0.0/16   max  20 as  65022; # trier
 roa 10.188.0.0/16   max  20 as  65066; # troisdorf

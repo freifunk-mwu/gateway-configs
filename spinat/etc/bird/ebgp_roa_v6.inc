@@ -124,6 +124,7 @@ roa fd4e:f2d7:88d2:ffff::/64 max  64 as  64770; # saar
 roa 2001:bf7:100:212::/64    max  64 as  65530; # solingen (delegation)
 roa fddf:ebfd:a801:212::/64  max  64 as  65530; # solingen (delegation)
 roa 2a03:2260:100a::/48      max  64 as  65083; # suedpfalz
+roa fd00:ffba:ffba:0000::/64 max  64 as  65502; # suedwest
 roa 2001:bf7:fc00::/44       max  64 as  65022; # trier
 roa fda0:747e:ab29:7405::/64 max  64 as  65066; # troisdorf
 roa fd83:e002:c8a1::/48      max  64 as  64525; # uelzen
