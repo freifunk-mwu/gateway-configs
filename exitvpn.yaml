@@ -16,7 +16,7 @@ conf:
 gateways:
     Kaschu: *B
     Lotuswurzel: *A
-    Spinat: *B
-    Wasserfloh: *B
-    zitronengras: *B
+    Spinat: *A
+    Wasserfloh: *A
+    zitronengras: *A
     parmesan: *B
