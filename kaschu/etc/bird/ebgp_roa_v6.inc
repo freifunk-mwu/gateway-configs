@@ -61,6 +61,7 @@ roa 2001:bf7:100:2331::/64   max  64 as  65530; # hagen (delegation)
 roa fddf:ebfd:a801:2331::/64 max  64 as  65530; # hagen (delegation)
 roa 2a03:2267::/32           max  64 as  49009; # hamburg
 roa 2a03:2267:0ccc:2015::/64 max  64 as  65112; # hamburg (delegation)
+roa 2a03:2267:4e6f::/48      max  64 as  65187; # hamburg (delegation)
 roa 2a03:2267:4e16::/48      max  64 as  65189; # hamburg (delegation)
 roa fdc7:4c8d:b889:a272::/64 max  64 as  64873; # hameln
 roa fdca:ffee:8::/64         max  64 as  65511; # hannover
