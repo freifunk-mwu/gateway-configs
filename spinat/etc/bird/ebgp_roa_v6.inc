@@ -23,6 +23,7 @@ roa 2001:bf7:860::/44        max  64 as  44194; # berlin
 roa 2001:bf7:1320::/44       max  64 as  65529; # bielefeld
 roa fdaf:17a0:ffb1::/48      max  64 as  65529; # bielefeld
 roa 2a03:2260:300b::/48      max  64 as  65408; # bochum
+roa fdef:1701:b5ee::/48      max  64 as  64875; # bodensee
 roa 2001:bf7:100:2041::/64   max  64 as  65530; # bottrop (delegation)
 roa fddf:ebfd:a801:2041::/64 max  64 as  65530; # bottrop (delegation)
 roa 2001:bf7:140::/44        max  64 as  65147; # brandenburg
@@ -61,6 +62,7 @@ roa 2001:bf7:100:2331::/64   max  64 as  65530; # hagen (delegation)
 roa fddf:ebfd:a801:2331::/64 max  64 as  65530; # hagen (delegation)
 roa 2a03:2267::/32           max  64 as  49009; # hamburg
 roa 2a03:2267:0ccc:2015::/64 max  64 as  65112; # hamburg (delegation)
+roa 2a03:2267:4e6f::/48      max  64 as  65187; # hamburg (delegation)
 roa 2a03:2267:4e16::/48      max  64 as  65189; # hamburg (delegation)
 roa fdc7:4c8d:b889:a272::/64 max  64 as  64873; # hameln
 roa fdca:ffee:8::/64         max  64 as  65511; # hannover
