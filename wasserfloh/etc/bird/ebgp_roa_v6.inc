@@ -23,6 +23,7 @@ roa 2001:bf7:860::/44        max  64 as  44194; # berlin
 roa 2001:bf7:1320::/44       max  64 as  65529; # bielefeld
 roa fdaf:17a0:ffb1::/48      max  64 as  65529; # bielefeld
 roa 2a03:2260:300b::/48      max  64 as  65408; # bochum
+roa fdef:1701:b5ee::/48      max  64 as  64875; # bodensee
 roa 2001:bf7:100:2041::/64   max  64 as  65530; # bottrop (delegation)
 roa fddf:ebfd:a801:2041::/64 max  64 as  65530; # bottrop (delegation)
 roa 2001:bf7:140::/44        max  64 as  65147; # brandenburg
@@ -116,10 +117,33 @@ roa 2a02:f98:0:26::/64       max  64 as  65079; # ruhrgebiet
 roa 2a02:f98:0:27::/64       max  64 as  65079; # ruhrgebiet
 roa 2a02:f98:0:28::/64       max  64 as  65079; # ruhrgebiet
 roa 2a03:2260:50::/44        max  64 as  65079; # ruhrgebiet
+roa 2a03:2260:50:11::/64     max  64 as  65409; # ruhrgebiet (delegation)
+roa 2a03:2260:50:1100::/56   max  64 as  65409; # ruhrgebiet (delegation)
+roa 2a03:2260:50:12::/64     max  64 as  65410; # ruhrgebiet (delegation)
+roa 2a03:2260:50:1200::/56   max  64 as  65410; # ruhrgebiet (delegation)
+roa 2a03:2260:50:4e00::/64   max  64 as  64878; # ruhrgebiet (delegation)
+roa 2a03:2260:50:2::/64      max  64 as  65400; # ruhrgebiet (delegation)
+roa 2a03:2260:50:13::/64     max  64 as  65400; # ruhrgebiet (delegation)
+roa 2a03:2260:50:14::/64     max  64 as  65400; # ruhrgebiet (delegation)
+roa 2a03:2260:50:27a::/64    max  64 as  65400; # ruhrgebiet (delegation)
+roa 2a03:2260:50:27b::/64    max  64 as  65400; # ruhrgebiet (delegation)
+roa 2a03:2260:50:2000::/56   max  64 as  65400; # ruhrgebiet (delegation)
+roa 2a03:2260:50:1300::/56   max  64 as  65400; # ruhrgebiet (delegation)
+roa 2a03:2260:50:1400::/56   max  64 as  65400; # ruhrgebiet (delegation)
+roa 2a03:2260:50:2700::/56   max  64 as  65400; # ruhrgebiet (delegation)
 roa 2a03:2260:50:3::/64      max  64 as  65401; # ruhrgebiet (delegation)
 roa 2a03:2260:50:3f00::/56   max  64 as  65401; # ruhrgebiet (delegation)
+roa 2a03:2260:50:4::/64      max  64 as  65402; # ruhrgebiet (delegation)
+roa 2a03:2260:50:4000::/56   max  64 as  65402; # ruhrgebiet (delegation)
+roa 2a03:2260:50:6::/64      max  64 as  65404; # ruhrgebiet (delegation)
+roa 2a03:2260:50:6000::/56   max  64 as  65404; # ruhrgebiet (delegation)
+roa 2a03:2260:50:7::/64      max  64 as  65405; # ruhrgebiet (delegation)
+roa 2a03:2260:50:7000::/56   max  64 as  65405; # ruhrgebiet (delegation)
+roa 2a03:2260:50:7e00::/56   max  64 as  65405; # ruhrgebiet (delegation)
+roa 2a03:2260:50:7f00::/56   max  64 as  65405; # ruhrgebiet (delegation)
 roa 2a03:2260:50:2400::/56   max  64 as  64862; # ruhrgebiet (delegation)
-roa 2a03:2260:50:4e00::/64   max  64 as  64878; # ruhrgebiet (delegation)
+roa 2a03:2260:50:10::/64     max  64 as  65407; # ruhrgebiet (delegation)
+roa 2a03:2260:50:1000::/56   max  64 as  65407; # ruhrgebiet (delegation)
 roa fd4e:f2d7:88d2:fffd::/64 max  64 as  64770; # saar
 roa fd4e:f2d7:88d2:ffff::/64 max  64 as  64770; # saar
 roa 2001:bf7:100:212::/64    max  64 as  65530; # solingen (delegation)
