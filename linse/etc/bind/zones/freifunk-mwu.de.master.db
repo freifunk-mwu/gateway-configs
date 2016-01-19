@@ -2,7 +2,7 @@
 ;
 $TTL	300
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2015122001		; Serial
+		     2016011901		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -16,10 +16,6 @@ $TTL	300
 ; mx
 @		IN	MX	10	glueckskeks
 lists		IN	MX	10	glueckskeks
-
-; mail
-autoconfig	IN	CNAME	glueckskeks
-autodiscover	IN	CNAME	glueckskeks
 
 ; master dns
 linse		IN	A	144.76.209.101
@@ -53,34 +49,38 @@ gate29		IN	CNAME	zitronengras
 mettigel	IN	A	5.45.106.31
 mettigel	IN	AAAA	2a03:4000:6:10c6::1
 
-; maps
-map		IN	CNAME	aubergine
-nextmap		IN	CNAME	aubergine
-einzugsgebiet	IN	CNAME	aubergine
-rtfm		IN	CNAME	aubergine
-
-; service node for ffmap-d3-backend, mail
+; service hosts
 zwiebel		IN	A	212.129.62.76
 zwiebel		IN	AAAA	2001:bc8:2058:101::b4dc:4b1e
 aubergine	IN	A	144.76.209.103
 aubergine	IN	AAAA	2a01:4f8:192:523::b4dc:4b1e
 glueckskeks	IN	A	5.199.136.244
 glueckskeks	IN	AAAA	2001:4ba0:fffc:3d::b4dc:4b1e:3
-lists		IN	A	5.199.136.244
-lists		IN	AAAA	2001:4ba0:fffc:3d::b4dc:4b1e:3
-mail		IN	CNAME	glueckskeks
+zuckerwatte	IN	A	89.163.245.179
+zuckerwatte	IN	AAAA	2001:4ba0:fffc:3d::b4dc:4b1e:2
 
-; services and stuff
+; service cnames
+map		IN	CNAME	aubergine
+nextmap		IN	CNAME	aubergine
+einzugsgebiet	IN	CNAME	aubergine
+rtfm		IN	CNAME	aubergine
 pudding		IN	CNAME	web.igeh.me.
 brokkoli	IN	CNAME	kokel.ddns.net.
 mailadmin	IN	CNAME	glueckskeks
 webmail		IN	CNAME	glueckskeks
 lg		IN	CNAME	aubergine
 
+; mail
+lists		IN	A	5.199.136.244
+lists		IN	AAAA	2001:4ba0:fffc:3d::b4dc:4b1e:3
+mail		IN	CNAME	glueckskeks
+autoconfig	IN	CNAME	glueckskeks
+autodiscover	IN	CNAME	glueckskeks
+
 ; firmware
 ; wasserfloh
-;firmware	IN	A	136.243.184.91
-;firmware	IN	AAAA	2a01:4f8:190:7008:2800::1
+firmware	IN	A	136.243.184.91
+firmware	IN	AAAA	2a01:4f8:190:7008:2800::1
 ; spinat
 firmware	IN	A	46.20.37.226
 firmware	IN	AAAA	2001:4ba0:fffc:3d::b4dc:4b1e:1
