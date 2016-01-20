@@ -50,6 +50,21 @@ zone "mein.stormarn.freifunk.net" {
     server-addresses { 10.144.0.3; fddf:0bf7:80::a38:3; };
 };
 # 
+# bodensee
+# 
+zone "ffbsee" {
+    type static-stub;
+    server-addresses { 10.11.160.42; fdef:1701:b5ee:42::1; };
+};
+zone "160.11.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.11.160.42; fdef:1701:b5ee:42::1; };
+};
+zone "e.e.5.b.1.0.7.1.f.e.d.f.ip6.arpa" {
+    type static-stub;
+    server-addresses { 10.11.160.42; fdef:1701:b5ee:42::1; };
+};
+# 
 # bremen
 # 
 zone "ffhb" {
@@ -499,7 +514,7 @@ zone "60.10.in-addr.arpa" {
     type static-stub;
     server-addresses { 10.60.0.103; 10.60.0.106; 10.60.0.112; fdf0:9bb:7814:a630::1113; fdf0:9bb:7814:a630::1116; fdf0:9bb:7814:a630::1122; 2001:bf7:2810::1113; 2001:bf7:2810::1116; 2001:bf7:2810::1122; };
 };
-zone "1.8.2.7.f.b.0.1.0.0.2.ip6.arpa" {
+zone "0.1.8.2.7.f.b.0.1.0.0.2.ip6.arpa" {
     type static-stub;
     server-addresses { 10.60.0.103; 10.60.0.106; 10.60.0.112; fdf0:9bb:7814:a630::1113; fdf0:9bb:7814:a630::1116; fdf0:9bb:7814:a630::1122; 2001:bf7:2810::1113; 2001:bf7:2810::1116; 2001:bf7:2810::1122; };
 };
@@ -863,11 +878,11 @@ zone "1.e.e.e.3.e.4.e.9.3.d.f.ip6.arpa" {
 # 
 zone "ffnord" {
     type static-stub;
-    server-addresses { 10.112.1.1; 2a03:2267::101; };
+    server-addresses { 10.187.136.1; 10.187.160.1; 10.187.170.1; 2a03:2267:4e6f:7264::fd00; 2a03:2267:4e6f:7264::fd02; 2a03:2267:4e6f:7264::fd03; };
 };
 zone "187.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.112.1.1; 2a03:2267::101; };
+    server-addresses { 10.187.136.1; 10.187.160.1; 10.187.170.1; 2a03:2267:4e6f:7264::fd00; 2a03:2267:4e6f:7264::fd02; 2a03:2267:4e6f:7264::fd03; };
 };
 # 
 # nordwest
