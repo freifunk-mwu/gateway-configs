@@ -22,7 +22,7 @@ roa 2001:bf7:850::/44        max  64 as  44194; # berlin
 roa 2001:bf7:860::/44        max  64 as  44194; # berlin
 roa 2001:bf7:1320::/44       max  64 as  65529; # bielefeld
 roa fdaf:17a0:ffb1::/48      max  64 as  65529; # bielefeld
-roa 2a03:2260:300b::/48      max  64 as  65408; # bochum
+roa 2a03:2260:300b::/48      max  64 as  65110; # bochum
 roa fdef:1701:b5ee::/48      max  64 as  64875; # bodensee
 roa 2001:bf7:100:2041::/64   max  64 as  65530; # bottrop (delegation)
 roa fddf:ebfd:a801:2041::/64 max  64 as  65530; # bottrop (delegation)
