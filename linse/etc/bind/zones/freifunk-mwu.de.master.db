@@ -2,7 +2,7 @@
 ;
 $TTL	300
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2016011901		; Serial
+		     2016012401		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -62,8 +62,8 @@ zuckerwatte	IN	AAAA	2001:4ba0:fffc:3d::b4dc:4b1e:2
 ; service cnames
 map		IN	CNAME	aubergine
 nextmap		IN	CNAME	aubergine
-einzugsgebiet	IN	CNAME	aubergine
-rtfm		IN	CNAME	aubergine
+einzugsgebiet	IN	CNAME	zuckerwatte
+rtfm		IN	CNAME	zuckerwatte
 pudding		IN	CNAME	web.igeh.me.
 brokkoli	IN	CNAME	kokel.ddns.net.
 mailadmin	IN	CNAME	glueckskeks
