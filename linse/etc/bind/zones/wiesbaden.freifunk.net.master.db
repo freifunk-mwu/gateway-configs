@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2016012401		; Serial
+		     2016012501		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -25,7 +25,7 @@ api		IN	CNAME	aubergine.freifunk-mwu.de.
 firmware	IN	CNAME	firmware.freifunk-mwu.de.
 map		IN	CNAME	aubergine.freifunk-mwu.de.
 einzugsgebiet	IN	CNAME	zuckerwatte.freifunk-mwu.de.
-media		IN	CNAME	octans.uberspace.de.
+media		IN	CNAME	zuckerwatte.freifunk-mwu.de.
 photos		IN	CNAME	octans.uberspace.de.
 stats		IN	CNAME	octans.uberspace.de.
 yeah		IN	CNAME	octans.uberspace.de.
