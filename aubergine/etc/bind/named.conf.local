@@ -20,6 +20,11 @@ masters "ns-master-bin" {
 
 // Intern Zones for Freifunk
 
+zone "ffmwu.org." {
+        type master;
+        file "/etc/bind/ffmwu/ffmwu.org.master.db";
+};
+
 zone "ffmz.org." {
         type master;
         file "/etc/bind/ffmz/ffmz.org.master.db";

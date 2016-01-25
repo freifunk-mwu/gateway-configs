@@ -3,7 +3,7 @@ $ORIGIN ffwi.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffwi.org. hostmaster.ffwi.org. (
-                     2016012201         ; Serial
+                     2016012501         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -74,8 +74,8 @@ mwumap			IN	CNAME	aubergine
 openwrt			IN	CNAME	aubergine
 www			IN	CNAME	aubergine
 portal			IN	CNAME	aubergine
-rtfm			IN	CNAME	aubergine 
-einzugsgebiet		IN	CNAME	aubergine
+einzugsgebiet		IN	CNAME	zuckerwatte
+media			IN	CNAME	zuckerwatte
 
 ; firmware mirrors
 firmware		IN	A	10.56.0.7
