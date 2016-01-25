@@ -29,6 +29,10 @@ PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bi
 23 * * * * /usr/bin/python3 $HOME/clones/backend-scripts/gen_website_all.py > $HOME/.cronlog/gen_website.log
 23 5,23 * * * /usr/bin/python3 $HOME/clones/backend-scripts/snapshot_configs_all.py > $HOME/.cronlog/snapshot_configs.log
 42 19 * * 2 /usr/local/bin/photon-dangerous-selfupgrade.py --sudo --repos $HOME/clones/backend-scripts
+# rtfm
+42 23 * * * $HOME/clones/backend-scripts/gen_documentation_srv.py > $HOME/.cronlog/gen_documentation.log
+# expansion map
+23 4 * * * $HOME/clones/backend-scripts/gen_expansion_map_srv.py > $HOME/.cronlog/gen_expansion_map.log
 # knotenalarm at twitter
 37 * * * * cd ~/clones/mz-knotenalarm && ~/clones/mz-knotenalarm/knotenalarm >> ~/.cronlog/mz-knotenalarm.log.cron 2>&1
 56 * * * * cd ~/clones/wi-knotenalarm && ~/clones/wi-knotenalarm/knotenalarm >> ~/.cronlog/wi-knotenalarm.log.cron 2>&1
