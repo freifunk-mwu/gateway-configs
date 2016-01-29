@@ -7,16 +7,16 @@ ii  acpid                            1:2.0.21-1ubuntu2                amd64     
 ii  adduser                          3.113+nmu3ubuntu3                all          add and remove users and groups
 ii  alfred                           2015.2-0ffmwu0~trusty            amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
 ii  alfred-json                      0.3.1-0ffmwu1~trusty             amd64        A.L.F.R.E.D client supporting GZIP decompression and JSON, string and binary output
-ii  apache2                          2.4.7-1ubuntu4.8                 amd64        Apache HTTP Server
-ii  apache2-bin                      2.4.7-1ubuntu4.8                 amd64        Apache HTTP Server (binary files and modules)
-ii  apache2-data                     2.4.7-1ubuntu4.8                 all          Apache HTTP Server (common files)
-ii  apache2-doc                      2.4.7-1ubuntu4.8                 all          Apache HTTP Server (on-site documentation)
-ii  apache2-utils                    2.4.7-1ubuntu4.8                 amd64        Apache HTTP Server (utility programs for web servers)
+ii  apache2                          2.4.7-1ubuntu4.9                 amd64        Apache HTTP Server
+ii  apache2-bin                      2.4.7-1ubuntu4.9                 amd64        Apache HTTP Server (binary files and modules)
+ii  apache2-data                     2.4.7-1ubuntu4.9                 all          Apache HTTP Server (common files)
+ii  apache2-doc                      2.4.7-1ubuntu4.9                 all          Apache HTTP Server (on-site documentation)
+ii  apache2-utils                    2.4.7-1ubuntu4.9                 amd64        Apache HTTP Server (utility programs for web servers)
 ii  apport                           2.14.1-0ubuntu3.19               all          automatically generate crash reports for debugging
 ii  apport-symptoms                  0.20                             all          symptom scripts for apport
-ii  apt                              1.0.1ubuntu2.10                  amd64        commandline package manager
-ii  apt-transport-https              1.0.1ubuntu2.10                  amd64        https download transport for APT
-ii  apt-utils                        1.0.1ubuntu2.10                  amd64        package management related utility programs
+ii  apt                              1.0.1ubuntu2.11                  amd64        commandline package manager
+ii  apt-transport-https              1.0.1ubuntu2.11                  amd64        https download transport for APT
+ii  apt-utils                        1.0.1ubuntu2.11                  amd64        package management related utility programs
 ii  apt-xapian-index                 0.45ubuntu4                      all          maintenance and search tools for a Xapian index of Debian packages
 ii  aptitude                         0.6.8.2-1ubuntu4                 amd64        terminal-based package manager
 ii  aptitude-common                  0.6.8.2-1ubuntu4                 all          architecture indepedent files for the aptitude package manager
@@ -152,8 +152,8 @@ ii  libapr1:amd64                    1.5.0-1                          amd64     
 ii  libaprutil1:amd64                1.5.3-1                          amd64        Apache Portable Runtime Utility Library
 ii  libaprutil1-dbd-sqlite3:amd64    1.5.3-1                          amd64        Apache Portable Runtime Utility Library - SQLite3 Driver
 ii  libaprutil1-ldap:amd64           1.5.3-1                          amd64        Apache Portable Runtime Utility Library - LDAP Driver
-ii  libapt-inst1.5:amd64             1.0.1ubuntu2.10                  amd64        deb package format runtime library
-ii  libapt-pkg4.12:amd64             1.0.1ubuntu2.10                  amd64        package management runtime library
+ii  libapt-inst1.5:amd64             1.0.1ubuntu2.11                  amd64        deb package format runtime library
+ii  libapt-pkg4.12:amd64             1.0.1ubuntu2.11                  amd64        package management runtime library
 ii  libarchive-extract-perl          0.70-1                           all          generic archive extracting module
 ii  libasan0:amd64                   4.8.4-2ubuntu1~14.04             amd64        AddressSanitizer -- a fast memory error detector
 ii  libasn1-8-heimdal:amd64          1.6~git20131207+dfsg-1ubuntu1.1  amd64        Heimdal Kerberos - ASN.1 library
@@ -451,7 +451,7 @@ ii  libxslt1.1:amd64                 1.1.28-2build1                   amd64     
 ii  libxss1:amd64                    1:1.2.2-1                        amd64        X11 Screen Saver extension library
 ii  libxt6:amd64                     1:1.1.4-1                        amd64        X11 toolkit intrinsics library
 ii  libyaml-0-2:amd64                0.1.4-3ubuntu3.1                 amd64        Fast YAML 1.1 parser and emitter library
-ii  linux-firmware                   1.127.19                         all          Firmware for Linux kernel drivers
+ii  linux-firmware                   1.127.20                         all          Firmware for Linux kernel drivers
 ii  linux-headers-3.13.0-74          3.13.0-74.118                    all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-74-generic  3.13.0-74.118                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-76          3.13.0-76.120                    all          Header files related to Linux kernel version 3.13.0
@@ -577,7 +577,7 @@ ii  openssh-client                   1:6.6p1-2ubuntu2.4               amd64     
 ii  openssh-server                   1:6.6p1-2ubuntu2.4               amd64        secure shell (SSH) server, for secure access from remote machines
 ii  openssh-sftp-server              1:6.6p1-2ubuntu2.4               amd64        secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii  openssl                          1.0.1f-1ubuntu2.16               amd64        Secure Sockets Layer toolkit - cryptographic utility
-ii  os-prober                        1.63ubuntu1                      amd64        utility to detect other OSes on a set of drives
+ii  os-prober                        1.63ubuntu1.1                    amd64        utility to detect other OSes on a set of drives
 ii  passwd                           1:4.1.5.1-1ubuntu9.1             amd64        change and administer password and group data
 ii  patch                            2.7.1-4ubuntu2.3                 amd64        Apply a diff file to an original
 ii  pciutils                         1:3.2.1-1ubuntu5                 amd64        Linux PCI Utilities
