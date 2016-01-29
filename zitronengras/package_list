@@ -7,12 +7,12 @@ ii  acl                             2.2.52-1                         amd64      
 ii  adduser                         3.113+nmu3ubuntu3                all          add and remove users and groups
 ii  alfred                          2015.2-0ffmwu0~trusty            amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
 ii  alfred-json                     0.3.1-0ffmwu1~trusty             amd64        A.L.F.R.E.D client supporting GZIP decompression and JSON, string and binary output
-ii  apache2                         2.4.7-1ubuntu4.8                 amd64        Apache HTTP Server
-ii  apache2-bin                     2.4.7-1ubuntu4.8                 amd64        Apache HTTP Server (binary files and modules)
-ii  apache2-data                    2.4.7-1ubuntu4.8                 all          Apache HTTP Server (common files)
-ii  apt                             1.0.1ubuntu2.10                  amd64        commandline package manager
-ii  apt-transport-https             1.0.1ubuntu2.10                  amd64        https download transport for APT
-ii  apt-utils                       1.0.1ubuntu2.10                  amd64        package management related utility programs
+ii  apache2                         2.4.7-1ubuntu4.9                 amd64        Apache HTTP Server
+ii  apache2-bin                     2.4.7-1ubuntu4.9                 amd64        Apache HTTP Server (binary files and modules)
+ii  apache2-data                    2.4.7-1ubuntu4.9                 all          Apache HTTP Server (common files)
+ii  apt                             1.0.1ubuntu2.11                  amd64        commandline package manager
+ii  apt-transport-https             1.0.1ubuntu2.11                  amd64        https download transport for APT
+ii  apt-utils                       1.0.1ubuntu2.11                  amd64        package management related utility programs
 ii  apt-xapian-index                0.45ubuntu4                      all          maintenance and search tools for a Xapian index of Debian packages
 ii  aptitude                        0.6.8.2-1ubuntu4                 amd64        terminal-based package manager
 ii  aptitude-common                 0.6.8.2-1ubuntu4                 all          architecture indepedent files for the aptitude package manager
@@ -130,8 +130,8 @@ ii  libapr1:amd64                   1.5.0-1                          amd64      
 ii  libaprutil1:amd64               1.5.3-1                          amd64        Apache Portable Runtime Utility Library
 ii  libaprutil1-dbd-sqlite3:amd64   1.5.3-1                          amd64        Apache Portable Runtime Utility Library - SQLite3 Driver
 ii  libaprutil1-ldap:amd64          1.5.3-1                          amd64        Apache Portable Runtime Utility Library - LDAP Driver
-ii  libapt-inst1.5:amd64            1.0.1ubuntu2.10                  amd64        deb package format runtime library
-ii  libapt-pkg4.12:amd64            1.0.1ubuntu2.10                  amd64        package management runtime library
+ii  libapt-inst1.5:amd64            1.0.1ubuntu2.11                  amd64        deb package format runtime library
+ii  libapt-pkg4.12:amd64            1.0.1ubuntu2.11                  amd64        package management runtime library
 ii  libarchive-extract-perl         0.70-1                           all          generic archive extracting module
 ii  libasan0:amd64                  4.8.4-2ubuntu1~14.04             amd64        AddressSanitizer -- a fast memory error detector
 ii  libasn1-8-heimdal:amd64         1.6~git20131207+dfsg-1ubuntu1.1  amd64        Heimdal Kerberos - ASN.1 library
@@ -160,7 +160,7 @@ ii  libclass-accessor-perl          0.34-1                           all        
 ii  libcloog-isl4:amd64             0.18.2-1                         amd64        Chunky Loop Generator (runtime library)
 ii  libcomerr2:amd64                1.42.9-3ubuntu1.3                amd64        common error description library
 rc  libcups2:amd64                  1.7.2-0ubuntu1.7                 amd64        Common UNIX Printing System(tm) - Core library
-ii  libcurl3-gnutls:amd64           7.35.0-1ubuntu2.5                amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii  libcurl3-gnutls:amd64           7.35.0-1ubuntu2.6                amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii  libcwidget3                     0.5.16-3.5ubuntu1                amd64        high-level terminal interface library for C++ (runtime files)
 ii  libdaemon0                      0.14-2ubuntu1                    amd64        lightweight C library for daemons - runtime library
 ii  libdatrie1:amd64                0.2.8-1                          amd64        Double-array trie library
