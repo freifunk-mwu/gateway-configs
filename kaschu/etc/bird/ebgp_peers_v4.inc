@@ -13,7 +13,6 @@ protocol bgp icvpn_augsburg2 from ebgp_ic {
 }
 protocol bgp icvpn_badoldesloe3 from ebgp_ic {
     neighbor 10.207.0.90 as 64859;
-    passive yes;
 }
 protocol bgp icvpn_basel1 from ebgp_ic {
     neighbor 10.207.5.1 as 65090;
@@ -112,7 +111,6 @@ protocol bgp icvpn_dreilaendereck4 from ebgp_ic {
 }
 protocol bgp icvpn_dresden1 from ebgp_ic {
     neighbor 10.207.0.19 as 65051;
-    passive yes;
 }
 protocol bgp icvpn_dresden2 from ebgp_ic {
     neighbor 10.207.0.20 as 65051;
@@ -120,6 +118,7 @@ protocol bgp icvpn_dresden2 from ebgp_ic {
 }
 protocol bgp icvpn_erfurt1 from ebgp_ic {
     neighbor 10.207.0.9 as 65099;
+    passive yes;
 }
 protocol bgp icvpn_erfurt2 from ebgp_ic {
     neighbor 10.207.0.10 as 65099;
@@ -169,14 +168,12 @@ protocol bgp icvpn_fulda3 from ebgp_ic {
 }
 protocol bgp icvpn_gera_greiz1 from ebgp_ic {
     neighbor 10.207.0.181 as 65181;
-    passive yes;
 }
 protocol bgp icvpn_gera_greiz2 from ebgp_ic {
     neighbor 10.207.0.182 as 65181;
 }
 protocol bgp icvpn_gera_greiz3 from ebgp_ic {
     neighbor 10.207.0.183 as 65181;
-    passive yes;
 }
 protocol bgp icvpn_graz1 from ebgp_ic {
     neighbor 10.207.1.2 as 65048;
@@ -212,6 +209,7 @@ protocol bgp icvpn_halle1 from ebgp_ic {
 }
 protocol bgp icvpn_halle2 from ebgp_ic {
     neighbor 10.207.0.14 as 65046;
+    passive yes;
 }
 protocol bgp icvpn_hamburg01 from ebgp_ic {
     neighbor 10.207.0.61 as 49009;
@@ -229,7 +227,6 @@ protocol bgp icvpn_ffhmgw01 from ebgp_ic {
 }
 protocol bgp icvpn_hannover1 from ebgp_ic {
     neighbor 10.207.0.22 as 65511;
-    passive yes;
 }
 protocol bgp icvpn_harz1 from ebgp_ic {
     neighbor 10.207.0.11 as 65134;
@@ -348,7 +345,6 @@ protocol bgp icvpn_pinneberg from ebgp_ic {
 }
 protocol bgp icvpn_rhein_neckar from ebgp_ic {
     neighbor 10.207.0.142 as 76118;
-    passive yes;
 }
 protocol bgp icvpn_rsk1 from ebgp_ic {
     neighbor 10.207.0.111 as 65111;
@@ -418,6 +414,7 @@ protocol bgp icvpn_waldheim3 from ebgp_ic {
 }
 protocol bgp icvpn_weimar1 from ebgp_ic {
     neighbor 10.207.0.3 as 65042;
+    passive yes;
 }
 protocol bgp icvpn_westkueste1 from ebgp_ic {
     neighbor 10.207.0.12 as 65432;
