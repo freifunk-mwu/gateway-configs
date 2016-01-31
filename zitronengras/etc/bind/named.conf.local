@@ -33,6 +33,12 @@ acl "intern-wi" {
 
 // Intern Zones for Freifunk
 
+zone "ffmwu.org." {
+        type slave;
+        file "ffmwu.org.db";
+        masters { ns-master-wi; };
+};
+
 zone "ffmz.org." {
         type slave;
         file "ffmz.org.db";
