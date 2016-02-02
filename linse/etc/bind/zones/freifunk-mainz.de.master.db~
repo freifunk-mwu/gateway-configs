@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2016020201		; Serial
+		     2016012403		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -35,7 +35,7 @@ gate231		IN	CNAME	wasserfloh.freifunk-mwu.de.
 
 ; services and stuff
 www		IN	CNAME	lacerta.uberspace.de.
-wiki		IN	CNAME	zuckerwatte.freifunk-mwu.de.
+wiki		IN	CNAME	wiki.freifunk-mwu.de.
 event		IN	CNAME	lacerta.uberspace.de.
 pad		IN	CNAME	lacerta.uberspace.de.
 blog		IN	CNAME	lacerta.uberspace.de.
