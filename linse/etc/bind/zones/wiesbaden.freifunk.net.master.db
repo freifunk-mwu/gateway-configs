@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2016012501		; Serial
+		     2016020201		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -29,4 +29,5 @@ media		IN	CNAME	zuckerwatte.freifunk-mwu.de.
 photos		IN	CNAME	octans.uberspace.de.
 stats		IN	CNAME	octans.uberspace.de.
 yeah		IN	CNAME	octans.uberspace.de.
+wwwtest		IN	CNAME	zuckerwatte.freifunk-mwu.de.
 
