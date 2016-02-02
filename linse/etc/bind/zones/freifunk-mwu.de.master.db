@@ -2,7 +2,7 @@
 ;
 $TTL	300
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2016020101		; Serial
+		     2016020201		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -70,6 +70,7 @@ mailadmin	IN	CNAME	glueckskeks
 webmail		IN	CNAME	glueckskeks
 lg		IN	CNAME	aubergine
 wiki		IN	CNAME	zuckerwatte
+pad		IN	CNAME	zuckerwatte
 
 ; mail
 lists		IN	A	5.199.136.244
