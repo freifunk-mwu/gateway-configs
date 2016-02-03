@@ -8,15 +8,15 @@ ii  acpid                               1:2.0.21-1ubuntu2                amd64  
 ii  adduser                             3.113+nmu3ubuntu3                all          add and remove users and groups
 ii  alfred                              2015.2-0ffmwu0~trusty            amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
 ii  alfred-json                         0.3.1-0ffmwu1~trusty             amd64        A.L.F.R.E.D client supporting GZIP decompression and JSON, string and binary output
-ii  apache2                             2.4.7-1ubuntu4.8                 amd64        Apache HTTP Server
-ii  apache2-bin                         2.4.7-1ubuntu4.8                 amd64        Apache HTTP Server (binary files and modules)
-ii  apache2-data                        2.4.7-1ubuntu4.8                 all          Apache HTTP Server (common files)
+ii  apache2                             2.4.7-1ubuntu4.9                 amd64        Apache HTTP Server
+ii  apache2-bin                         2.4.7-1ubuntu4.9                 amd64        Apache HTTP Server (binary files and modules)
+ii  apache2-data                        2.4.7-1ubuntu4.9                 all          Apache HTTP Server (common files)
 ii  apparmor                            2.8.95~2430-0ubuntu5.3           amd64        User-space parser utility for AppArmor
 ii  apport                              2.14.1-0ubuntu3.19               all          automatically generate crash reports for debugging
 ii  apport-symptoms                     0.20                             all          symptom scripts for apport
-ii  apt                                 1.0.1ubuntu2.10                  amd64        commandline package manager
-ii  apt-transport-https                 1.0.1ubuntu2.10                  amd64        https download transport for APT
-ii  apt-utils                           1.0.1ubuntu2.10                  amd64        package management related utility programs
+ii  apt                                 1.0.1ubuntu2.11                  amd64        commandline package manager
+ii  apt-transport-https                 1.0.1ubuntu2.11                  amd64        https download transport for APT
+ii  apt-utils                           1.0.1ubuntu2.11                  amd64        package management related utility programs
 ii  apt-xapian-index                    0.45ubuntu4                      all          maintenance and search tools for a Xapian index of Debian packages
 ii  aptitude                            0.6.8.2-1ubuntu4                 amd64        terminal-based package manager
 ii  aptitude-common                     0.6.8.2-1ubuntu4                 all          architecture indepedent files for the aptitude package manager
@@ -123,7 +123,7 @@ ii  gzip                                1.6-3ubuntu1                     amd64  
 ii  haveged                             1.7c-1                           amd64        Linux entropy source using the HAVEGE algorithm
 ii  hdparm                              9.43-1ubuntu3                    amd64        tune hard disk parameters for high performance
 ii  hostname                            3.15ubuntu1                      amd64        utility to set/show the host name or domain name
-ii  ifupdown                            0.7.47.2ubuntu4.1                amd64        high level tools to configure network interfaces
+ii  ifupdown                            0.7.47.2ubuntu4.3                amd64        high level tools to configure network interfaces
 ii  info                                5.2.0.dfsg.1-2                   amd64        Standalone GNU Info documentation browser
 ii  init-system-helpers                 1.14                             all          helper tools for all init systems
 ii  initramfs-tools                     0.103ubuntu4.2                   all          tools for generating an initramfs
@@ -166,8 +166,8 @@ ii  libapr1:amd64                       1.5.0-1                          amd64  
 ii  libaprutil1:amd64                   1.5.3-1                          amd64        Apache Portable Runtime Utility Library
 ii  libaprutil1-dbd-sqlite3:amd64       1.5.3-1                          amd64        Apache Portable Runtime Utility Library - SQLite3 Driver
 ii  libaprutil1-ldap:amd64              1.5.3-1                          amd64        Apache Portable Runtime Utility Library - LDAP Driver
-ii  libapt-inst1.5:amd64                1.0.1ubuntu2.10                  amd64        deb package format runtime library
-ii  libapt-pkg4.12:amd64                1.0.1ubuntu2.10                  amd64        package management runtime library
+ii  libapt-inst1.5:amd64                1.0.1ubuntu2.11                  amd64        deb package format runtime library
+ii  libapt-pkg4.12:amd64                1.0.1ubuntu2.11                  amd64        package management runtime library
 ii  libarchive-extract-perl             0.70-1                           all          generic archive extracting module
 ii  libasan0:amd64                      4.8.4-2ubuntu1~14.04             amd64        AddressSanitizer -- a fast memory error detector
 ii  libasn1-8-heimdal:amd64             1.6~git20131207+dfsg-1ubuntu1.1  amd64        Heimdal Kerberos - ASN.1 library
@@ -286,6 +286,7 @@ ii  libjbig0:amd64                      2.0-2ubuntu4.1                   amd64  
 ii  libjpeg-turbo8:amd64                1.3.0-0ubuntu2                   amd64        IJG JPEG compliant runtime library.
 ii  libjpeg8:amd64                      8c-2ubuntu8                      amd64        Independent JPEG Group's JPEG runtime library (dependency package)
 ii  libjs-codemirror                    2.23-1                           all          JavaScript editor interface for code-like content
+ii  libjs-cropper                       1.2.2-1                          all          JavaScript image cropper UI
 ii  libjs-jquery                        1.7.2+dfsg-2ubuntu1              all          JavaScript library for dynamic web applications
 ii  libjs-jquery-cookie                 8-2                              all          jQuery cookie plugin
 ii  libjs-jquery-event-drag             8-2                              all          jQuery Event Drag
@@ -294,6 +295,8 @@ ii  libjs-jquery-mousewheel             8-2                              all    
 ii  libjs-jquery-tablesorter            8-2                              all          Flexible client-side table sorting
 ii  libjs-jquery-ui                     1.10.1+dfsg-1                    all          JavaScript UI library for dynamic web applications
 ii  libjs-node-uuid                     1.4.0-1                          all          simple, fast generation of RFC4122 UUIDs - JavaScript library
+ii  libjs-prototype                     1.7.1-3                          all          JavaScript Framework for dynamic web applications
+ii  libjs-scriptaculous                 1.9.0-2                          all          JavaScript library for dynamic web applications
 ii  libjs-sphinxdoc                     1.2.2+dfsg-1ubuntu1.1            all          JavaScript support for Sphinx documentation
 ii  libjs-underscore                    1.4.4-2ubuntu1                   all          JavaScript's functional programming helper library
 ii  libjson-c2:amd64                    0.11-3ubuntu1.2                  amd64        JSON manipulation library - shared library
@@ -354,6 +357,8 @@ ii  libpcap0.8:amd64                    1.5.3-2                          amd64  
 ii  libpci3:amd64                       1:3.2.1-1ubuntu5                 amd64        Linux PCI Utilities (shared library)
 ii  libpcre3:amd64                      1:8.31-2ubuntu2.1                amd64        Perl 5 Compatible Regular Expression Library - runtime files
 ii  libpcsclite1:amd64                  1.8.10-1ubuntu1                  amd64        Middleware to access a smart card using PC/SC (library)
+ii  libphp-phpmailer                    5.1-1+deb6u11build0.14.04.1      all          full featured email transfer class for PHP
+ii  libphp-snoopy                       1.2.4-2                          all          Snoopy is a PHP class that simulates a web browser
 ii  libpipeline1:amd64                  1.3.0-1                          amd64        pipeline manipulation library
 rc  libplot2c2                          2.6-3ubuntu1                     amd64        GNU plotutils libraries
 ii  libplymouth2:amd64                  0.8.8-0ubuntu17.1                amd64        graphical boot animation and logger - shared libraries
@@ -391,6 +396,7 @@ ii  libsasl2-modules-db:amd64           2.1.25.dfsg1-17build1            amd64  
 ii  libselinux1:amd64                   2.2.2-1ubuntu0.1                 amd64        SELinux runtime shared libraries
 ii  libsemanage-common                  2.2-1                            all          Common files for SELinux policy management libraries
 ii  libsemanage1:amd64                  2.2-1                            amd64        SELinux policy management library
+ii  libsensors4:amd64                   1:3.3.4-2ubuntu1                 amd64        library to read temperature/voltage/fan sensors
 ii  libsepol1:amd64                     2.2-1ubuntu0.1                   amd64        SELinux library for manipulating binary security policies
 ii  libsigc++-2.0-0c2a:amd64            2.2.10-0.2ubuntu2                amd64        type-safe Signal Framework for C++ - runtime
 ii  libsigsegv2:amd64                   2.10-2                           amd64        Library for handling page faults in a portable way
@@ -715,6 +721,7 @@ ii  ssl-cert                            1.0.33                           all    
 ii  strace                              4.8-1ubuntu5                     amd64        A system call tracer
 ii  sudo                                1.8.9p5-1ubuntu1.2               amd64        Provide limited super user privileges to specific users
 ii  sysfsutils                          2.1.0+repack-3ubuntu1            amd64        sysfs query tool and boot-time setup
+ii  sysstat                             10.2.0-1                         amd64        system performance tools for Linux
 ii  systemd-services                    204-5ubuntu20.15                 amd64        systemd runtime services
 ii  systemd-shim                        6-2bzr1                          amd64        shim for systemd
 ii  sysv-rc                             2.88dsf-41ubuntu6.2              all          System-V-like runlevel change mechanism
@@ -727,6 +734,7 @@ ii  tcpdump                             4.5.1-2ubuntu1.2                 amd64  
 ii  telnet                              0.17-36build2                    amd64        The telnet client
 ii  tidy                                20091223cvs-1.2ubuntu1.1         amd64        HTML syntax checker and reformatter
 ii  time                                1.7-24                           amd64        GNU time program for measuring CPU resource usage
+ii  tinymce                             3.4.8+dfsg0-1                    all          platform independent web based Javascript/HTML WYSIWYG editor
 ii  tmux                                1.8-5                            amd64        terminal multiplexer
 ii  ttf-dejavu-core                     2.34-1ubuntu1                    all          transitional dummy package
 ii  tzdata                              2015g-0ubuntu0.14.04             all          time zone and daylight-saving time data
@@ -758,6 +766,10 @@ ii  wget                                1.15-1ubuntu1.14.04.1            amd64  
 ii  whiptail                            0.52.15-2ubuntu5                 amd64        Displays user-friendly dialog boxes from shell scripts
 ii  wireless-regdb                      2013.02.13-1ubuntu1              all          wireless regulatory database
 ii  wireless-tools                      30~pre9-8ubuntu1                 amd64        Tools for manipulating Linux Wireless Extensions
+ii  wordpress                           3.8.2+dfsg-1ubuntu0.1            all          weblog manager
+ii  wordpress-l10n                      3.8.2+dfsg-1ubuntu0.1            all          weblog manager - language files
+ii  wordpress-theme-twentyfourteen      3.8.2+dfsg-1ubuntu0.1            all          weblog manager - twentyfourteen theme files
+ii  wordpress-theme-twentytwelve        3.8.2+dfsg-1ubuntu0.1            all          weblog manager - twentyttwelve theme files
 ii  wpasupplicant                       2.1-0ubuntu1.4                   amd64        client support for WPA and WPA2 (IEEE 802.11i)
 rc  x11-common                          1:7.7+1ubuntu8.1                 all          X Window System (X.Org) infrastructure
 ii  xauth                               1:1.0.7-1ubuntu1                 amd64        X authentication utility
