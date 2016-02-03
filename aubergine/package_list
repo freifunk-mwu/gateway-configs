@@ -114,7 +114,7 @@ ii  gzip                             1.6-3ubuntu1                     amd64     
 ii  haveged                          1.7c-1                           amd64        Linux entropy source using the HAVEGE algorithm
 ii  hostname                         3.15ubuntu1                      amd64        utility to set/show the host name or domain name
 ii  htop                             1.0.2-3                          amd64        interactive processes viewer
-ii  ifupdown                         0.7.47.2ubuntu4.1                amd64        high level tools to configure network interfaces
+ii  ifupdown                         0.7.47.2ubuntu4.3                amd64        high level tools to configure network interfaces
 ii  init-system-helpers              1.14                             all          helper tools for all init systems
 ii  initramfs-tools                  0.103ubuntu4.2                   all          tools for generating an initramfs
 ii  initramfs-tools-bin              0.103ubuntu4.2                   amd64        binaries used by initramfs-tools
@@ -452,8 +452,6 @@ ii  libxss1:amd64                    1:1.2.2-1                        amd64     
 ii  libxt6:amd64                     1:1.1.4-1                        amd64        X11 toolkit intrinsics library
 ii  libyaml-0-2:amd64                0.1.4-3ubuntu3.1                 amd64        Fast YAML 1.1 parser and emitter library
 ii  linux-firmware                   1.127.20                         all          Firmware for Linux kernel drivers
-ii  linux-headers-3.13.0-74          3.13.0-74.118                    all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-74-generic  3.13.0-74.118                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-76          3.13.0-76.120                    all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-76-generic  3.13.0-76.120                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-77          3.13.0-77.121                    all          Header files related to Linux kernel version 3.13.0
@@ -486,7 +484,7 @@ rc  linux-image-3.13.0-68-generic    3.13.0-68.111                    amd64     
 rc  linux-image-3.13.0-70-generic    3.13.0-70.113                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-71-generic    3.13.0-71.114                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-73-generic    3.13.0-73.116                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-74-generic    3.13.0-74.118                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-74-generic    3.13.0-74.118                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-76-generic    3.13.0-76.120                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-77-generic    3.13.0-77.121                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-virtual              3.13.0.77.83                     amd64        This package will always depend on the latest minimal generic kernel image.
