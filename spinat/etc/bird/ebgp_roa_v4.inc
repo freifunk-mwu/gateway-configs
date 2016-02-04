@@ -92,7 +92,6 @@ roa 10.139.0.0/16   max  20 as  65039; # magdeburg
 roa 10.128.0.0/18   max  20 as  64877; # marburg
 roa 10.222.0.0/16   max  20 as  65032; # mayen-koblenz
 roa 10.1.192.0/18   max  20 as  64863; # mettmann
-roa 10.15.0.0/16    max  20 as  65057; # moehne
 roa 10.27.0.0/16    max  20 as  65057; # moehne
 roa 10.30.0.0/18    max  20 as  65084; # montabaur
 roa 10.80.0.0/16    max  20 as  65080; # muenchen
