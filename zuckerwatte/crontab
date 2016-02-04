@@ -36,3 +36,6 @@ PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bi
 # knotenalarm at twitter
 37 * * * * cd ~/clones/mz-knotenalarm && ~/clones/mz-knotenalarm/knotenalarm >> ~/.cronlog/mz-knotenalarm.log.cron 2>&1
 56 * * * * cd ~/clones/wi-knotenalarm && ~/clones/wi-knotenalarm/knotenalarm >> ~/.cronlog/wi-knotenalarm.log.cron 2>&1
+#Delete pending members
+28 2 * * * find /var/www/freifunk-mainz.de/mitglieder/pending_members -mindepth 1 -mtime +2 -exec rm {} \;
+33 * * * * $HOME/bin/pull_homepage.sh >> $HOME/tmp/log/homepage_pull.log.cron 2>&1
