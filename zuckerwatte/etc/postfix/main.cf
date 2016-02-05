@@ -40,4 +40,4 @@ recipient_delimiter = +
 inet_interfaces = loopback-only
 inet_protocols = all
 mailbox_command = procmail -a "$EXTENSION"
-smtp_generic_maps = btree:/etc/postfix/generic
+#smtp_generic_maps = btree:/etc/postfix/generic
