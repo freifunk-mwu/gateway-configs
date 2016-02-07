@@ -2,3 +2,4 @@
 postmaster:    root
 admin:		root
 root:		admin@freifunk-mainz.de
+monit: root
