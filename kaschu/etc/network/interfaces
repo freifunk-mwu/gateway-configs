@@ -27,7 +27,8 @@ iface wiBR inet static
         address 10.56.0.208
         netmask 255.255.192.0
 	pre-up		/sbin/brctl addbr $IFACE
-	up		/sbin/ip address add 2a03:2260:11a::a25:17/64  dev $IFACE
+	up		/sbin/ip address add fd56:b4dc:4b1e::a38:d0/64  dev $IFACE
+	up		/sbin/ip address add 2a03:2260:11b::a38:d0/64  dev $IFACE
 	post-down	/sbin/brctl delbr $IFACE
 
 allow-hotplug wiBAT
@@ -51,7 +52,8 @@ iface mzBR inet static
 	address 10.37.0.208
 	netmask 255.255.192.0
 	pre-up		/sbin/brctl addbr $IFACE
-	up		/sbin/ip address add 2a03:2260:11b::a38:17/64  dev $IFACE
+	up		/sbin/ip address add fd37:b4dc:4b1e::a25:d0/64  dev $IFACE
+	up		/sbin/ip address add 2a03:2260:11a::a25:d0/64  dev $IFACE
 	post-down	/sbin/brctl delbr $IFACE
 
 allow-hotplug mzBAT
