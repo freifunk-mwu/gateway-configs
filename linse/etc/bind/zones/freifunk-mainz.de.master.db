@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2016020501		; Serial
+		     2016020801		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -58,6 +58,9 @@ firmware	IN	CNAME	firmware.freifunk-mwu.de.
 ; IC-VPN
 ic-mainz1	IN	CNAME	wasserfloh.freifunk-mwu.de.
 ic-mainz2	IN	CNAME	spinat.freifunk-mwu.de.
+
+; temp for monday of roses
+mhd-leitstelle	IN	A	89.238.78.70
 
 ; key#3 2048 bits, i=mail201507, d=freifunk-mainz.de, /var/lib/amavis/db/freifunk-mainz.de
 mail201507._domainkey	3600 TXT (
