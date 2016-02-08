@@ -19,4 +19,4 @@ PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bi
 23 17 * * * $HOME/clones/backend-scripts/nagg_exitvpn_accouts_all.py > $HOME/.cronlog/nagg_exitvpn_accouts.log
 42 17 * * 2 /usr/local/bin/photon-dangerous-selfupgrade.py --sudo --repos $HOME/clones/backend-scripts $HOME/clones/gluon-builder-ffmwu
 # autobuilding gluon
-42 0 * * 1 $HOME/clones/gluon-builder-ffmwu/builder.sh -b experimental --broken > $HOME/.cronlog/autobuild.log
+#42 0 * * 1 $HOME/clones/gluon-builder-ffmwu/builder.sh -b experimental --broken > $HOME/.cronlog/autobuild.log

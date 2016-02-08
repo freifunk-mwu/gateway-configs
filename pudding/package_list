@@ -6,16 +6,16 @@ Desired=Unknown/Install/Remove/Purge/Hold
 ii  accountsservice                     0.6.35-0ubuntu7.2                    amd64        query and manipulate user account information
 ii  acpid                               1:2.0.21-1ubuntu2                    amd64        Advanced Configuration and Power Interface event daemon
 ii  adduser                             3.113+nmu3ubuntu3                    all          add and remove users and groups
-ii  apache2                             2.4.7-1ubuntu4.8                     amd64        Apache HTTP Server
-ii  apache2-bin                         2.4.7-1ubuntu4.8                     amd64        Apache HTTP Server (binary files and modules)
-ii  apache2-data                        2.4.7-1ubuntu4.8                     all          Apache HTTP Server (common files)
-ii  apache2-dev                         2.4.7-1ubuntu4.8                     amd64        Apache HTTP Server (development headers)
+ii  apache2                             2.4.7-1ubuntu4.9                     amd64        Apache HTTP Server
+ii  apache2-bin                         2.4.7-1ubuntu4.9                     amd64        Apache HTTP Server (binary files and modules)
+ii  apache2-data                        2.4.7-1ubuntu4.9                     all          Apache HTTP Server (common files)
+ii  apache2-dev                         2.4.7-1ubuntu4.9                     amd64        Apache HTTP Server (development headers)
 ii  apparmor                            2.8.95~2430-0ubuntu5.3               amd64        User-space parser utility for AppArmor
 ii  apport                              2.14.1-0ubuntu3.19                   all          automatically generate crash reports for debugging
 ii  apport-symptoms                     0.20                                 all          symptom scripts for apport
-ii  apt                                 1.0.1ubuntu2.10                      amd64        commandline package manager
-ii  apt-transport-https                 1.0.1ubuntu2.10                      amd64        https download transport for APT
-ii  apt-utils                           1.0.1ubuntu2.10                      amd64        package management related utility programs
+ii  apt                                 1.0.1ubuntu2.11                      amd64        commandline package manager
+ii  apt-transport-https                 1.0.1ubuntu2.11                      amd64        https download transport for APT
+ii  apt-utils                           1.0.1ubuntu2.11                      amd64        package management related utility programs
 ii  apt-xapian-index                    0.45ubuntu4                          all          maintenance and search tools for a Xapian index of Debian packages
 ii  aptitude                            0.6.8.2-1ubuntu4                     amd64        terminal-based package manager
 ii  aptitude-common                     0.6.8.2-1ubuntu4                     all          architecture indepedent files for the aptitude package manager
@@ -106,8 +106,8 @@ ii  geoip-database                      20140313-1                           all
 ii  gettext                             0.18.3.1-1ubuntu3                    amd64        GNU Internationalization utilities
 ii  gettext-base                        0.18.3.1-1ubuntu3                    amd64        GNU Internationalization utilities for the base system
 ii  gir1.2-glib-2.0                     1.40.0-1ubuntu0.2                    amd64        Introspection data for GLib, GObject, Gio and GModule
-ii  git                                 1:2.7.0-0ppa1~ubuntu14.04.1          amd64        fast, scalable, distributed revision control system
-ii  git-man                             1:2.7.0-0ppa1~ubuntu14.04.1          all          fast, scalable, distributed revision control system (manual pages)
+ii  git                                 1:2.7.1-0ppa1~ubuntu14.04.1          amd64        fast, scalable, distributed revision control system
+ii  git-man                             1:2.7.1-0ppa1~ubuntu14.04.1          all          fast, scalable, distributed revision control system (manual pages)
 ii  gnupg                               1.4.16-1ubuntu2.3                    amd64        GNU privacy guard - a free PGP replacement
 ii  gpgv                                1.4.16-1ubuntu2.3                    amd64        GNU privacy guard - signature verification tool
 ii  grep                                2.16-1                               amd64        GNU grep, egrep and fgrep
@@ -122,7 +122,7 @@ ii  hdparm                              9.43-1ubuntu3                        amd
 ii  help2man                            1.44.1                               amd64        Automatic manpage generator
 ii  hostname                            3.15ubuntu1                          amd64        utility to set/show the host name or domain name
 ii  htop                                1.0.2-3                              amd64        interactive processes viewer
-ii  ifupdown                            0.7.47.2ubuntu4.1                    amd64        high level tools to configure network interfaces
+ii  ifupdown                            0.7.47.2ubuntu4.3                    amd64        high level tools to configure network interfaces
 ii  info                                5.2.0.dfsg.1-2                       amd64        Standalone GNU Info documentation browser
 ii  init-system-helpers                 1.14                                 all          helper tools for all init systems
 ii  initramfs-tools                     0.103ubuntu4.2                       all          tools for generating an initramfs
@@ -177,8 +177,8 @@ ii  libaprutil1:amd64                   1.5.3-1                              amd
 ii  libaprutil1-dbd-sqlite3:amd64       1.5.3-1                              amd64        Apache Portable Runtime Utility Library - SQLite3 Driver
 ii  libaprutil1-dev                     1.5.3-1                              amd64        Apache Portable Runtime Utility Library - Development Headers
 ii  libaprutil1-ldap:amd64              1.5.3-1                              amd64        Apache Portable Runtime Utility Library - LDAP Driver
-ii  libapt-inst1.5:amd64                1.0.1ubuntu2.10                      amd64        deb package format runtime library
-ii  libapt-pkg4.12:amd64                1.0.1ubuntu2.10                      amd64        package management runtime library
+ii  libapt-inst1.5:amd64                1.0.1ubuntu2.11                      amd64        deb package format runtime library
+ii  libapt-pkg4.12:amd64                1.0.1ubuntu2.11                      amd64        package management runtime library
 ii  libarchive-extract-perl             0.70-1                               all          generic archive extracting module
 ii  libarchive13:amd64                  3.1.2-7ubuntu2.1                     amd64        Multi-format archive and compression library (shared library)
 ii  libasan0:amd64                      4.8.4-2ubuntu1~14.04                 amd64        AddressSanitizer -- a fast memory error detector
@@ -521,7 +521,7 @@ ii  libxrender1:amd64                   1:0.9.8-1build0.14.04.1              amd
 ii  libxtables10                        1.4.21-1ubuntu1                      amd64        netfilter xtables library
 ii  libyaml-0-2:amd64                   0.1.4-3ubuntu3.1                     amd64        Fast YAML 1.1 parser and emitter library
 ii  libyaml-dev:amd64                   0.1.4-3ubuntu3.1                     amd64        Fast YAML 1.1 parser and emitter library (development)
-ii  linux-firmware                      1.127.19                             all          Firmware for Linux kernel drivers
+ii  linux-firmware                      1.127.20                             all          Firmware for Linux kernel drivers
 ii  linux-generic                       3.13.0.77.83                         amd64        Complete Generic Linux kernel and headers
 ii  linux-headers-3.13.0-24             3.13.0-24.47                         all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-24-generic     3.13.0-24.47                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
@@ -553,12 +553,8 @@ ii  linux-headers-3.13.0-62             3.13.0-62.102                        all
 ii  linux-headers-3.13.0-62-generic     3.13.0-62.102                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-63             3.13.0-63.103                        all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-63-generic     3.13.0-63.103                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-65             3.13.0-65.106                        all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-65-generic     3.13.0-65.106                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-74             3.13.0-74.118                        all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-74-generic     3.13.0-74.118                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-76             3.13.0-76.120                        all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-76-generic     3.13.0-76.120                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-77             3.13.0-77.121                        all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-77-generic     3.13.0-77.121                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-generic               3.13.0.77.83                         amd64        Generic Linux kernel headers
@@ -584,7 +580,7 @@ rc  linux-image-3.13.0-59-generic       3.13.0-59.98                         amd
 rc  linux-image-3.13.0-61-generic       3.13.0-61.100                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-62-generic       3.13.0-62.102                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-63-generic       3.13.0-63.103                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-65-generic       3.13.0-65.106                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-65-generic       3.13.0-65.106                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-66-generic       3.13.0-66.108                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-67-generic       3.13.0-67.110                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-68-generic       3.13.0-68.111                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -592,7 +588,7 @@ rc  linux-image-3.13.0-70-generic       3.13.0-70.113                        amd
 rc  linux-image-3.13.0-71-generic       3.13.0-71.114                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-73-generic       3.13.0-73.116                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-74-generic       3.13.0-74.118                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-76-generic       3.13.0-76.120                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-76-generic       3.13.0-76.120                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-77-generic       3.13.0-77.121                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-24-generic 3.13.0-24.47                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-30-generic 3.13.0-30.55                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
@@ -616,7 +612,7 @@ rc  linux-image-extra-3.13.0-59-generic 3.13.0-59.98                         amd
 rc  linux-image-extra-3.13.0-61-generic 3.13.0-61.100                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-62-generic 3.13.0-62.102                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-63-generic 3.13.0-63.103                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-65-generic 3.13.0-65.106                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-65-generic 3.13.0-65.106                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-66-generic 3.13.0-66.108                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-67-generic 3.13.0-67.110                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-68-generic 3.13.0-68.111                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
@@ -624,7 +620,7 @@ rc  linux-image-extra-3.13.0-70-generic 3.13.0-70.113                        amd
 rc  linux-image-extra-3.13.0-71-generic 3.13.0-71.114                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-73-generic 3.13.0-73.116                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-74-generic 3.13.0-74.118                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-76-generic 3.13.0-76.120                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-76-generic 3.13.0-76.120                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-77-generic 3.13.0-77.121                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-generic                 3.13.0.77.83                         amd64        Generic Linux kernel image
 ii  linux-libc-dev:amd64                3.13.0-77.121                        amd64        Linux Kernel Headers for development
@@ -647,12 +643,8 @@ ii  linux-tools-3.13.0-62               3.13.0-62.102                        amd
 ii  linux-tools-3.13.0-62-generic       3.13.0-62.102                        amd64        Linux kernel version specific tools for version 3.13.0-62
 ii  linux-tools-3.13.0-63               3.13.0-63.103                        amd64        Linux kernel version specific tools for version 3.13.0-63
 ii  linux-tools-3.13.0-63-generic       3.13.0-63.103                        amd64        Linux kernel version specific tools for version 3.13.0-63
-ii  linux-tools-3.13.0-65               3.13.0-65.106                        amd64        Linux kernel version specific tools for version 3.13.0-65
-ii  linux-tools-3.13.0-65-generic       3.13.0-65.106                        amd64        Linux kernel version specific tools for version 3.13.0-65
 ii  linux-tools-3.13.0-74               3.13.0-74.118                        amd64        Linux kernel version specific tools for version 3.13.0-74
 ii  linux-tools-3.13.0-74-generic       3.13.0-74.118                        amd64        Linux kernel version specific tools for version 3.13.0-74
-ii  linux-tools-3.13.0-76               3.13.0-76.120                        amd64        Linux kernel version specific tools for version 3.13.0-76
-ii  linux-tools-3.13.0-76-generic       3.13.0-76.120                        amd64        Linux kernel version specific tools for version 3.13.0-76
 ii  linux-tools-3.13.0-77               3.13.0-77.121                        amd64        Linux kernel version specific tools for version 3.13.0-77
 ii  linux-tools-3.13.0-77-generic       3.13.0-77.121                        amd64        Linux kernel version specific tools for version 3.13.0-77
 ii  linux-tools-common                  3.13.0-77.121                        all          Linux kernel version specific tools for version 3.13.0
@@ -662,7 +654,7 @@ ii  lksctp-tools                        1.0.15+dfsg-1                        amd
 ii  lm-sensors                          1:3.3.4-2ubuntu1                     amd64        utilities to read temperature/voltage/fan sensors
 ii  locales                             2.13+git20120306-12.1                all          common files for locale support
 ii  lockfile-progs                      0.1.17                               amd64        Programs for locking and unlocking files and mailboxes
-ii  login                               1:4.1.5.1-1ubuntu9.1                 amd64        system login tools
+ii  login                               1:4.1.5.1-1ubuntu9.2                 amd64        system login tools
 ii  logrotate                           3.8.7-1ubuntu1                       amd64        Log rotation utility
 ii  lsb-base                            4.1+Debian11ubuntu6                  all          Linux Standard Base 4.1 init script functionality
 ii  lsb-release                         4.1+Debian11ubuntu6                  all          Linux Standard Base version reporting utility
@@ -701,15 +693,15 @@ ii  net-tools                           1.60-25ubuntu2.1                     amd
 ii  netbase                             5.2                                  all          Basic TCP/IP networking system
 ii  netcat-openbsd                      1.105-7ubuntu1                       amd64        TCP/IP swiss army knife
 ii  ntfs-3g                             1:2013.1.13AR.1-2ubuntu2             amd64        read/write NTFS driver for FUSE
-ii  ntp                                 1:4.2.6.p5+dfsg-3ubuntu2.14.04.6     amd64        Network Time Protocol daemon and utility programs
-ii  ntpdate                             1:4.2.6.p5+dfsg-3ubuntu2.14.04.6     amd64        client for setting system time from NTP servers
-ii  openssh-client                      1:6.6p1-2ubuntu2.4                   amd64        secure shell (SSH) client, for secure access to remote machines
-ii  openssh-server                      1:6.6p1-2ubuntu2.4                   amd64        secure shell (SSH) server, for secure access from remote machines
-ii  openssh-sftp-server                 1:6.6p1-2ubuntu2.4                   amd64        secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii  ntp                                 1:4.2.6.p5+dfsg-3ubuntu2.14.04.7     amd64        Network Time Protocol daemon and utility programs
+ii  ntpdate                             1:4.2.6.p5+dfsg-3ubuntu2.14.04.7     amd64        client for setting system time from NTP servers
+ii  openssh-client                      1:6.6p1-2ubuntu2.6                   amd64        secure shell (SSH) client, for secure access to remote machines
+ii  openssh-server                      1:6.6p1-2ubuntu2.6                   amd64        secure shell (SSH) server, for secure access from remote machines
+ii  openssh-sftp-server                 1:6.6p1-2ubuntu2.6                   amd64        secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii  openssl                             1.0.1f-1ubuntu2.16                   amd64        Secure Sockets Layer toolkit - cryptographic utility
-ii  os-prober                           1.63ubuntu1                          amd64        utility to detect other OSes on a set of drives
+ii  os-prober                           1.63ubuntu1.1                        amd64        utility to detect other OSes on a set of drives
 ii  parted                              2.3-19ubuntu1.14.04.1                amd64        disk partition manipulator
-ii  passwd                              1:4.1.5.1-1ubuntu9.1                 amd64        change and administer password and group data
+ii  passwd                              1:4.1.5.1-1ubuntu9.2                 amd64        change and administer password and group data
 ii  patch                               2.7.1-4ubuntu2.3                     amd64        Apply a diff file to an original
 ii  pciutils                            1:3.2.1-1ubuntu5                     amd64        Linux PCI Utilities
 ii  perl                                5.18.2-2ubuntu1                      amd64        Larry Wall's Practical Extraction and Report Language
