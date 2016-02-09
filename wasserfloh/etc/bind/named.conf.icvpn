@@ -13,6 +13,13 @@ zone "5.10.in-addr.arpa." {
     server-addresses { 10.5.0.241; 10.5.0.242; 2a03:2260:114::1:53; 2a03:2260:114::2:53; };
 };
 # 
+# altmuehltal
+# 
+zone "ffamt" {
+    type static-stub;
+    server-addresses { 10.15.16.2; 10.15.16.4; };
+};
+# 
 # amsterdam
 # 
 zone "020" {
