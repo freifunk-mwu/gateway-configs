@@ -190,7 +190,7 @@ ii  libfribidi0:amd64               0.19.6-1                         amd64      
 ii  libfuse2:amd64                  2.9.2-4ubuntu4.14.04.1           amd64        Filesystem in Userspace (library)
 ii  libgcc-4.8-dev:amd64            4.8.4-2ubuntu1~14.04.1           amd64        GCC support library (development files)
 ii  libgcc1:amd64                   1:4.9.3-0ubuntu4                 amd64        GCC support library
-ii  libgcrypt11:amd64               1.5.3-2ubuntu4.2                 amd64        LGPL Crypto library - runtime library
+ii  libgcrypt11:amd64               1.5.3-2ubuntu4.3                 amd64        LGPL Crypto library - runtime library
 ii  libgd3:amd64                    2.1.0-3                          amd64        GD Graphics Library
 ii  libgdbm3:amd64                  1.8.3-12build1                   amd64        GNU dbm database routines (runtime version)
 ii  libgeoip1:amd64                 1.6.0-1                          amd64        non-DNS IP-to-country resolver library
@@ -412,8 +412,8 @@ ii  netbase                         5.2                              all        
 ii  netcat-openbsd                  1.105-7ubuntu1                   amd64        TCP/IP swiss army knife
 ii  nfs-common                      1:1.2.8-6ubuntu1.2               amd64        NFS support files common to client and server
 ii  nmap                            6.40-0.2ubuntu1                  amd64        The Network Mapper
-ii  ntp                             1:4.2.6.p5+dfsg-3ubuntu2.14.04.7 amd64        Network Time Protocol daemon and utility programs
-ii  ntpdate                         1:4.2.6.p5+dfsg-3ubuntu2.14.04.7 amd64        client for setting system time from NTP servers
+ii  ntp                             1:4.2.6.p5+dfsg-3ubuntu2.14.04.8 amd64        Network Time Protocol daemon and utility programs
+ii  ntpdate                         1:4.2.6.p5+dfsg-3ubuntu2.14.04.8 amd64        client for setting system time from NTP servers
 ii  openssh-client                  1:6.6p1-2ubuntu2.6               amd64        secure shell (SSH) client, for secure access to remote machines
 ii  openssh-server                  1:6.6p1-2ubuntu2.6               amd64        secure shell (SSH) server, for secure access from remote machines
 ii  openssh-sftp-server             1:6.6p1-2ubuntu2.6               amd64        secure shell (SSH) sftp server module, for SFTP access from remote machines
