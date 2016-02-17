@@ -262,8 +262,8 @@ ii  libgcc1:amd64                       1:4.9.3-0ubuntu4                     amd
 ii  libgck-1-0:amd64                    3.10.1-1                             amd64        Glib wrapper library for PKCS#11 - runtime
 ii  libgcr-3-common                     3.10.1-1                             all          Library for Crypto UI related tasks - common files
 ii  libgcr-base-3-1:amd64               3.10.1-1                             amd64        Library for Crypto related tasks
-ii  libgcrypt11:amd64                   1.5.3-2ubuntu4.2                     amd64        LGPL Crypto library - runtime library
-ii  libgcrypt11-dev                     1.5.3-2ubuntu4.2                     amd64        LGPL Crypto library - development files
+ii  libgcrypt11:amd64                   1.5.3-2ubuntu4.3                     amd64        LGPL Crypto library - runtime library
+ii  libgcrypt11-dev                     1.5.3-2ubuntu4.3                     amd64        LGPL Crypto library - development files
 ii  libgd3:amd64                        2.1.0-3                              amd64        GD Graphics Library
 ii  libgdbm-dev                         1.8.3-12build1                       amd64        GNU dbm database routines (development files)
 ii  libgdbm3:amd64                      1.8.3-12build1                       amd64        GNU dbm database routines (runtime version)
@@ -363,7 +363,7 @@ ii  libncursesw5:amd64                  5.9+20140118-1ubuntu1                amd
 ii  libnet-http-perl                    6.06-1                               all          module providing low-level HTTP connection client
 ii  libnet-smtp-ssl-perl                1.01-3                               all          Perl module providing SSL support to Net::SMTP
 ii  libnet-ssleay-perl                  1.58-1                               amd64        Perl module for Secure Sockets Layer (SSL)
-ii  libnettle4:amd64                    2.7.1-1                              amd64        low level cryptographic library (symmetric and one-way cryptos)
+ii  libnettle4:amd64                    2.7.1-1ubuntu0.1                     amd64        low level cryptographic library (symmetric and one-way cryptos)
 ii  libnewt0.52:amd64                   0.52.15-2ubuntu5                     amd64        Not Erik's Windowing Toolkit - text mode windowing with slang
 ii  libnfnetlink0:amd64                 1.0.1-2                              amd64        Netfilter netlink library
 ii  libnih-dbus1:amd64                  1.0.3-4ubuntu25                      amd64        NIH D-Bus Bindings Library
