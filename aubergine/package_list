@@ -24,7 +24,7 @@ ii  at                               3.1.14-1ubuntu1                  amd64     
 ii  autoconf                         2.69-6                           all          automatic configure script builder
 ii  automake1.9                      1.9.6+nogfdl-4ubuntu1            all          A tool for generating GNU Standards-compliant Makefiles
 ii  autotools-dev                    20130810.1                       all          Update infrastructure for config.{guess,sub} files
-ii  base-files                       7.2ubuntu5.3                     amd64        Debian base system miscellaneous files
+ii  base-files                       7.2ubuntu5.4                     amd64        Debian base system miscellaneous files
 ii  base-passwd                      3.5.33                           amd64        Debian base system master password and group files
 ii  bash                             4.3-7ubuntu1.5                   amd64        GNU Bourne Again SHell
 ii  batadv-vis                       2015.2-0ffmwu0~trusty            amd64        batadv-vis - visualize your batman-adv mesh network
@@ -223,7 +223,7 @@ ii  libfuse2:amd64                   2.9.2-4ubuntu4.14.04.1           amd64     
 ii  libgc1c2:amd64                   1:7.2d-5ubuntu2                  amd64        conservative garbage collector for C and C++
 ii  libgcc-4.8-dev:amd64             4.8.4-2ubuntu1~14.04.1           amd64        GCC support library (development files)
 ii  libgcc1:amd64                    1:4.9.3-0ubuntu4                 amd64        GCC support library
-ii  libgcrypt11:amd64                1.5.3-2ubuntu4.2                 amd64        LGPL Crypto library - runtime library
+ii  libgcrypt11:amd64                1.5.3-2ubuntu4.3                 amd64        LGPL Crypto library - runtime library
 ii  libgd3:amd64                     2.1.0-3                          amd64        GD Graphics Library
 ii  libgdbm3:amd64                   1.8.3-12build1                   amd64        GNU dbm database routines (runtime version)
 ii  libgeoip1:amd64                  1.6.0-1                          amd64        non-DNS IP-to-country resolver library
@@ -336,7 +336,7 @@ ii  libpangoft2-1.0-0:amd64          1.36.3-1ubuntu1.1                amd64     
 ii  libparse-debianchangelog-perl    1.2.0-1ubuntu1                   all          parse Debian changelogs and output them in other formats
 ii  libpathplan4                     2.36.0-0ubuntu3.1                amd64        rich set of graph drawing tools - pathplan library
 ii  libpcap0.8:amd64                 1.5.3-2                          amd64        system interface for user-level packet capture
-ii  libpci3:amd64                    1:3.2.1-1ubuntu5                 amd64        Linux PCI Utilities (shared library)
+ii  libpci3:amd64                    1:3.2.1-1ubuntu5.1               amd64        Linux PCI Utilities (shared library)
 ii  libpcre3:amd64                   1:8.31-2ubuntu2.1                amd64        Perl 5 Compatible Regular Expression Library - runtime files
 ii  libpcsclite1:amd64               1.8.10-1ubuntu1                  amd64        Middleware to access a smart card using PC/SC (library)
 ii  libpipeline1:amd64               1.3.0-1                          amd64        pipeline manipulation library
@@ -399,6 +399,7 @@ ii  libssl1.0.0:amd64                1.0.1f-1ubuntu2.16               amd64     
 ii  libstdc++-4.8-dev:amd64          4.8.4-2ubuntu1~14.04.1           amd64        GNU Standard C++ Library v3 (development files)
 ii  libstdc++6:amd64                 4.8.4-2ubuntu1~14.04.1           amd64        GNU Standard C++ Library v3
 ii  libsub-name-perl                 0.05-1build4                     amd64        module for assigning a new name to referenced sub
+ii  libsysfs2:amd64                  2.1.0+repack-3ubuntu1            amd64        interface library to sysfs
 ii  libsystemd-daemon0:amd64         204-5ubuntu20.18                 amd64        systemd utility library
 ii  libsystemd-login0:amd64          204-5ubuntu20.18                 amd64        systemd login utility library
 ii  libtamuanova-0.2                 0.2-3                            amd64        Library to calculate an ANOVA
@@ -573,8 +574,8 @@ ii  node-which                       1.0.5-2                          all       
 ii  nodejs                           0.10.25~dfsg2-2ubuntu1           amd64        evented I/O for V8 javascript
 ii  nodejs-dev                       0.10.25~dfsg2-2ubuntu1           amd64        evented I/O for V8 javascript (development files)
 ii  npm                              1.3.10~dfsg-1                    all          package manager for Node.js
-ii  ntp                              1:4.2.6.p5+dfsg-3ubuntu2.14.04.7 amd64        Network Time Protocol daemon and utility programs
-ii  ntpdate                          1:4.2.6.p5+dfsg-3ubuntu2.14.04.7 amd64        client for setting system time from NTP servers
+ii  ntp                              1:4.2.6.p5+dfsg-3ubuntu2.14.04.8 amd64        Network Time Protocol daemon and utility programs
+ii  ntpdate                          1:4.2.6.p5+dfsg-3ubuntu2.14.04.8 amd64        client for setting system time from NTP servers
 ii  openssh-client                   1:6.6p1-2ubuntu2.6               amd64        secure shell (SSH) client, for secure access to remote machines
 ii  openssh-server                   1:6.6p1-2ubuntu2.6               amd64        secure shell (SSH) server, for secure access from remote machines
 ii  openssh-sftp-server              1:6.6p1-2ubuntu2.6               amd64        secure shell (SSH) sftp server module, for SFTP access from remote machines
@@ -582,7 +583,7 @@ ii  openssl                          1.0.1f-1ubuntu2.16               amd64     
 ii  os-prober                        1.63ubuntu1.1                    amd64        utility to detect other OSes on a set of drives
 ii  passwd                           1:4.1.5.1-1ubuntu9.2             amd64        change and administer password and group data
 ii  patch                            2.7.1-4ubuntu2.3                 amd64        Apply a diff file to an original
-ii  pciutils                         1:3.2.1-1ubuntu5                 amd64        Linux PCI Utilities
+ii  pciutils                         1:3.2.1-1ubuntu5.1               amd64        Linux PCI Utilities
 ii  perl                             5.18.2-2ubuntu1                  amd64        Larry Wall's Practical Extraction and Report Language
 ii  perl-base                        5.18.2-2ubuntu1                  amd64        minimal Perl system
 ii  perl-modules                     5.18.2-2ubuntu1                  all          Core Perl modules
@@ -753,6 +754,7 @@ ii  ssh                              1:6.6p1-2ubuntu2.6               all       
 ii  ssh-import-id                    3.21-0ubuntu1                    all          securely retrieve an SSH public key and install it locally
 ii  ssl-cert                         1.0.33                           all          simple debconf wrapper for OpenSSL
 ii  sudo                             1.8.9p5-1ubuntu1.2               amd64        Provide limited super user privileges to specific users
+ii  sysfsutils                       2.1.0+repack-3ubuntu1            amd64        sysfs query tool and boot-time setup
 ii  sysstat                          10.2.0-1                         amd64        system performance tools for Linux
 ii  systemd-services                 204-5ubuntu20.18                 amd64        systemd runtime services
 ii  systemd-shim                     6-2bzr1                          amd64        shim for systemd
