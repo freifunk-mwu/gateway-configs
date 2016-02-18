@@ -85,7 +85,7 @@ ii  ifupdown                         0.7.47.2ubuntu4.3                amd64     
 ii  init-system-helpers              1.14                             all          helper tools for all init systems
 ii  initramfs-tools                  0.103ubuntu4.2                   all          tools for generating an initramfs
 ii  initramfs-tools-bin              0.103ubuntu4.2                   amd64        binaries used by initramfs-tools
-ii  initscripts                      2.88dsf-41ubuntu6.2              amd64        scripts for initializing and shutting down the system
+ii  initscripts                      2.88dsf-41ubuntu6.3              amd64        scripts for initializing and shutting down the system
 ii  insserv                          1.14.0-5ubuntu2                  amd64        boot sequence organizer using LSB init.d script dependency information
 ii  installation-report              2.54ubuntu1                      all          system installation report
 ii  iproute2                         3.12.0-2ubuntu1                  amd64        networking and traffic control tools
@@ -489,8 +489,8 @@ ii  ssl-cert                         1.0.33                           all       
 ii  sudo                             1.8.9p5-1ubuntu1.2               amd64        Provide limited super user privileges to specific users
 ii  systemd-services                 204-5ubuntu20.18                 amd64        systemd runtime services
 ii  systemd-shim                     6-2bzr1                          amd64        shim for systemd
-ii  sysv-rc                          2.88dsf-41ubuntu6.2              all          System-V-like runlevel change mechanism
-ii  sysvinit-utils                   2.88dsf-41ubuntu6.2              amd64        System-V-like utilities
+ii  sysv-rc                          2.88dsf-41ubuntu6.3              all          System-V-like runlevel change mechanism
+ii  sysvinit-utils                   2.88dsf-41ubuntu6.3              amd64        System-V-like utilities
 ii  tar                              1.27.1-1                         amd64        GNU version of the tar archiving utility
 ii  tasksel                          2.88ubuntu15                     all          Tool for selecting tasks for installation on Debian systems
 ii  tasksel-data                     2.88ubuntu15                     all          Official tasks used for installation of Debian systems
