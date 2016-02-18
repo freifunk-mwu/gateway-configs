@@ -135,7 +135,7 @@ ii  info                                5.2.0.dfsg.1-2                      amd6
 ii  init-system-helpers                 1.14                                all          helper tools for all init systems
 ii  initramfs-tools                     0.103ubuntu4.2                      all          tools for generating an initramfs
 ii  initramfs-tools-bin                 0.103ubuntu4.2                      amd64        binaries used by initramfs-tools
-ii  initscripts                         2.88dsf-41ubuntu6.2                 amd64        scripts for initializing and shutting down the system
+ii  initscripts                         2.88dsf-41ubuntu6.3                 amd64        scripts for initializing and shutting down the system
 ii  insserv                             1.14.0-5ubuntu2                     amd64        boot sequence organizer using LSB init.d script dependency information
 ii  install-info                        5.2.0.dfsg.1-2                      amd64        Manage installed documentation in info format
 ii  installation-report                 2.54ubuntu1                         all          system installation report
@@ -195,10 +195,10 @@ ii  libbsd0:amd64                       0.6.0-2ubuntu1                      amd6
 ii  libbz2-1.0:amd64                    1.0.6-5                             amd64        high-quality block-sorting file compressor library - runtime
 ii  libc-ares-dev:amd64                 1.10.0-2                            amd64        asynchronous name resolver - development files
 ii  libc-ares2:amd64                    1.10.0-2                            amd64        asynchronous name resolver
-ii  libc-bin                            2.19-0ubuntu6.6                     amd64        Embedded GNU C Library: Binaries
-ii  libc-dev-bin                        2.19-0ubuntu6.6                     amd64        Embedded GNU C Library: Development binaries
-ii  libc6:amd64                         2.19-0ubuntu6.6                     amd64        Embedded GNU C Library: Shared libraries
-ii  libc6-dev:amd64                     2.19-0ubuntu6.6                     amd64        Embedded GNU C Library: Development Libraries and Header Files
+ii  libc-bin                            2.19-0ubuntu6.7                     amd64        Embedded GNU C Library: Binaries
+ii  libc-dev-bin                        2.19-0ubuntu6.7                     amd64        Embedded GNU C Library: Development binaries
+ii  libc6:amd64                         2.19-0ubuntu6.7                     amd64        Embedded GNU C Library: Shared libraries
+ii  libc6-dev:amd64                     2.19-0ubuntu6.7                     amd64        Embedded GNU C Library: Development Libraries and Header Files
 ii  libcairo2:amd64                     1.13.0~20140204-0ubuntu1.1          amd64        The Cairo 2D vector graphics library
 ii  libcap-ng0                          0.7.3-1ubuntu2                      amd64        An alternate POSIX capabilities library
 ii  libcap2:amd64                       1:2.24-0ubuntu2                     amd64        support for getting/setting POSIX.1e capabilities
@@ -271,7 +271,7 @@ ii  libgo5:amd64                        4.9.3-0ubuntu4                      amd6
 ii  libgomp1:amd64                      4.8.4-2ubuntu1~14.04.1              amd64        GCC OpenMP (GOMP) support library
 ii  libgpg-error0:amd64                 1.12-0.2ubuntu1                     amd64        library for common error values and messages in GnuPG components
 ii  libgpm2:amd64                       1.20.4-6.1                          amd64        General Purpose Mouse - shared library
-ii  libgraphite2-3:amd64                1.2.4-1ubuntu1                      amd64        Font rendering engine for Complex Scripts -- library
+ii  libgraphite2-3:amd64                1.2.4-1ubuntu1.1                    amd64        Font rendering engine for Complex Scripts -- library
 ii  libgs9                              9.10~dfsg-0ubuntu10.4               amd64        interpreter for the PostScript language and for PDF - Library
 ii  libgs9-common                       9.10~dfsg-0ubuntu10.4               all          interpreter for the PostScript language and for PDF - common files
 ii  libgsasl7                           1.8.0-2ubuntu2                      amd64        GNU SASL library
@@ -576,7 +576,7 @@ ii  mosh                                1.2.4a-1ubuntu1                     amd6
 ii  mount                               2.20.1-5.1ubuntu20.7                amd64        Tools for mounting and manipulating filesystems
 ii  mountall                            2.53                                amd64        filesystem mounting tool
 ii  mtr-tiny                            0.85-2                              amd64        Full screen ncurses traceroute tool
-ii  multiarch-support                   2.19-0ubuntu6.6                     amd64        Transitional package to ensure multiarch compatibility
+ii  multiarch-support                   2.19-0ubuntu6.7                     amd64        Transitional package to ensure multiarch compatibility
 ii  mysql-client-5.5                    5.5.47-0ubuntu0.14.04.1             amd64        MySQL database client binaries
 ii  mysql-client-core-5.5               5.5.47-0ubuntu0.14.04.1             amd64        MySQL database core client binaries
 ii  mysql-common                        5.5.47-0ubuntu0.14.04.1             all          MySQL database common files, e.g. /etc/mysql/my.cnf
@@ -784,8 +784,8 @@ ii  sysfsutils                          2.1.0+repack-3ubuntu1               amd6
 ii  sysstat                             10.2.0-1                            amd64        system performance tools for Linux
 ii  systemd-services                    204-5ubuntu20.18                    amd64        systemd runtime services
 ii  systemd-shim                        6-2bzr1                             amd64        shim for systemd
-ii  sysv-rc                             2.88dsf-41ubuntu6.2                 all          System-V-like runlevel change mechanism
-ii  sysvinit-utils                      2.88dsf-41ubuntu6.2                 amd64        System-V-like utilities
+ii  sysv-rc                             2.88dsf-41ubuntu6.3                 all          System-V-like runlevel change mechanism
+ii  sysvinit-utils                      2.88dsf-41ubuntu6.3                 amd64        System-V-like utilities
 ii  tar                                 1.27.1-1                            amd64        GNU version of the tar archiving utility
 ii  tasksel                             2.88ubuntu15                        all          Tool for selecting tasks for installation on Debian systems
 ii  tasksel-data                        2.88ubuntu15                        all          Official tasks used for installation of Debian systems
