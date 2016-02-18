@@ -125,7 +125,7 @@ ii  info                                5.2.0.dfsg.1-2                   amd64  
 ii  init-system-helpers                 1.14                             all          helper tools for all init systems
 ii  initramfs-tools                     0.103ubuntu4.2                   all          tools for generating an initramfs
 ii  initramfs-tools-bin                 0.103ubuntu4.2                   amd64        binaries used by initramfs-tools
-ii  initscripts                         2.88dsf-41ubuntu6.2              amd64        scripts for initializing and shutting down the system
+ii  initscripts                         2.88dsf-41ubuntu6.3              amd64        scripts for initializing and shutting down the system
 ii  insserv                             1.14.0-5ubuntu2                  amd64        boot sequence organizer using LSB init.d script dependency information
 ii  install-info                        5.2.0.dfsg.1-2                   amd64        Manage installed documentation in info format
 ii  installation-report                 2.54ubuntu1                      all          system installation report
@@ -243,7 +243,7 @@ ii  libgnutls26:amd64                   2.12.23-12ubuntu2.4              amd64  
 ii  libgomp1:amd64                      4.8.4-2ubuntu1~14.04.1           amd64        GCC OpenMP (GOMP) support library
 ii  libgpg-error0:amd64                 1.12-0.2ubuntu1                  amd64        library for common error values and messages in GnuPG components
 ii  libgpm2:amd64                       1.20.4-6.1                       amd64        General Purpose Mouse - shared library
-ii  libgraphite2-3:amd64                1.2.4-1ubuntu1                   amd64        Font rendering engine for Complex Scripts -- library
+ii  libgraphite2-3:amd64                1.2.4-1ubuntu1.1                 amd64        Font rendering engine for Complex Scripts -- library
 ii  libgssapi-krb5-2:amd64              1.12+dfsg-2ubuntu5.2             amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii  libgssapi3-heimdal:amd64            1.6~git20131207+dfsg-1ubuntu1.1  amd64        Heimdal Kerberos - GSSAPI support library
 ii  libgvc6                             2.36.0-0ubuntu3.1                amd64        rich set of graph drawing tools - gvc library
@@ -614,8 +614,8 @@ ii  sysfsutils                          2.1.0+repack-3ubuntu1            amd64  
 ii  sysstat                             10.2.0-1                         amd64        system performance tools for Linux
 ii  systemd-services                    204-5ubuntu20.18                 amd64        systemd runtime services
 ii  systemd-shim                        6-2bzr1                          amd64        shim for systemd
-ii  sysv-rc                             2.88dsf-41ubuntu6.2              all          System-V-like runlevel change mechanism
-ii  sysvinit-utils                      2.88dsf-41ubuntu6.2              amd64        System-V-like utilities
+ii  sysv-rc                             2.88dsf-41ubuntu6.3              all          System-V-like runlevel change mechanism
+ii  sysvinit-utils                      2.88dsf-41ubuntu6.3              amd64        System-V-like utilities
 ii  tar                                 1.27.1-1                         amd64        GNU version of the tar archiving utility
 ii  tasksel                             2.88ubuntu15                     all          Tool for selecting tasks for installation on Debian systems
 ii  tasksel-data                        2.88ubuntu15                     all          Official tasks used for installation of Debian systems
