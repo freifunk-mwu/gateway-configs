@@ -3,7 +3,7 @@ $ORIGIN bb.ffwi.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffwi.org. hostmaster.ffwi.org. (
-                     2015110901         ; Serial
+                     2016022101         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -16,14 +16,21 @@ $TTL    600
 @       	IN      NS      kaschu.ffwi.org.
 
 
-ffwi-bb-vo-lo  	IN  	A	10.56.2.28 ; Ubiquiti Powerbeam Voldemort 1 AP (ffwi-bb-vo) 
-ffwi-bb-vo-cl  	IN  	A	10.56.2.29 ; Ubiquiti Powerbeam Simeonhaus Client (ffwi-bb-fw1) 	
-bb-nb-hsrm-s 	IN	A	10.56.2.30 ; Ubiquiti Nanonbeam 5AC HSRM Station (ffwi-bb-fw1-s) 
-bb-nb-fw1-n     IN	A	10.56.2.31 ; Ubiquiti Nanobeam 5AC Turm FW1 AP (ffwi-bb-fw1-s) 
-bb-nb-fw1-o	IN	A	10.56.2.32 ; Ubiquiti Nanobeam 5AC Turm FW1 Station (ffwi-bb-pb-w) 	
-tw-master 	IN	A	10.56.2.34 ; Ubiquiti Loco m5 Silberbachhalle AP (ffwi-tw-112) 
-tw-halle 	IN	A	10.56.2.35 ; Ubiquiti Loco m5 Silberbachhalle Station (ffwi-tw-112) 
-pb-m5-s-112	IN	A	10.56.2.36 ; Ubiquiti Loco m5 Philippsberg (ffwi-bb-pb-s-112) 
-pb-nb-w-auto	IN	A	10.56.2.37 ; Ubiquiti Nanobeam 5ac Philippsberg (ffwi-bb-pb-w-auto) 
-pb-nb-s-auto	IN	A	10.56.2.38 ; Ubiquiti Nanobeam 5ac Philippsberg (ffwi-bb-pb-s-auto) 	
-                                                                                                                                                                                   
+ffwi-bb-vo-lo  		IN  	A	10.56.2.28 ; Ubiquiti Powerbeam Voldemort 1 AP (ffwi-bb-vo) 
+ffwi-bb-vo-cl  		IN  	A	10.56.2.29 ; Ubiquiti Powerbeam Simeonhaus Client (ffwi-bb-fw1) 	
+bb-nb-hsrm-s 		IN	A	10.56.2.30 ; Ubiquiti Nanonbeam 5AC HSRM Station (ffwi-bb-fw1-s) 
+bb-nb-fw1-n     	IN	A	10.56.2.31 ; Ubiquiti Nanobeam 5AC Turm FW1 AP (ffwi-bb-fw1-s) 
+bb-nb-fw1-o		IN	A	10.56.2.32 ; Ubiquiti Nanobeam 5AC Turm FW1 Station (ffwi-bb-pb-w) 	
+tw-master 		IN	A	10.56.2.34 ; Ubiquiti Loco m5 Silberbachhalle AP (ffwi-tw-112) 
+tw-halle 		IN	A	10.56.2.35 ; Ubiquiti Loco m5 Silberbachhalle Station (ffwi-tw-112) 
+pb-m5-s-112		IN	A	10.56.2.36 ; Ubiquiti Loco m5 Philippsberg (ffwi-bb-pb-s-112) 
+pb-nb-w-auto		IN	A	10.56.2.37 ; Ubiquiti Nanobeam 5ac Philippsberg (ffwi-bb-pb-w-auto) 
+pb-nb-s-auto		IN	A	10.56.2.38 ; Ubiquiti Nanobeam 5ac Philippsberg (ffwi-bb-pb-s-auto) 	
+sim-sueden		IN	A	10.56.2.70 ; Ubiquiti Nanobeam 5ac SIM (ffmwu-bb-hak-sim)
+ffmwu-sim-haus-b	IN	A	10.56.2.72 ; Ubiquiti NanoStation M5 (ffmwu-bb-sim-haus-b)
+ffmwu-sim-haus-e	IN	A	10.56.2.73 ; Ubiquiti NanoStation M5 (ffmwu-bb-sim-haus-e)
+sim-server		IN	A	10.56.2.80 ; Sim HP Server IPv4
+sim-server		IN	AAAA	fd56:b4dc:4b1e:0:222:64ff:fefb:a724 ; Sim HP Server IPv6
+sim-server-ilo		IN	A	10.56.2.81 ; Sim HP Server iLo IPv4
+sim-poeswitch		IN	A	10.56.2.82 ; Sim EdgeSwitch-24 IPv4
+sim-poeswitch		IN	AAAA	fd56:b4dc:4b1e:0:46d9:e7ff:fe93:1446 ; Sim EdgeSwitch-24 IPv6
