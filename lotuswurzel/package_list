@@ -54,7 +54,7 @@ ii  check-mk-agent                       1.2.6p5-1                            al
 ii  check-mk-agent-logwatch              1.2.2p3-1                            amd64        general purpose nagios-plugin for retrieving data
 ii  console-setup                        1.70ubuntu8                          all          console font and keymap setup program
 ii  coreutils                            8.21-1ubuntu5.3                      amd64        GNU core utilities
-ii  cpio                                 2.11+dfsg-1ubuntu1.1                 amd64        GNU cpio -- a program to manage archives of files
+ii  cpio                                 2.11+dfsg-1ubuntu1.2                 amd64        GNU cpio -- a program to manage archives of files
 ii  cpp                                  4:4.8.2-1ubuntu6                     amd64        GNU C preprocessor (cpp)
 ii  cpp-4.8                              4.8.4-2ubuntu1~14.04.1               amd64        GNU C preprocessor
 rc  crda                                 1.1.2-1ubuntu2                       amd64        wireless Central Regulatory Domain Agent
@@ -457,8 +457,10 @@ ii  linux-headers-3.13.0-76              3.13.0-76.120                        al
 ii  linux-headers-3.13.0-76-generic      3.13.0-76.120                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-77              3.13.0-77.121                        all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-77-generic      3.13.0-77.121                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-generic                3.13.0.77.83                         amd64        Generic Linux kernel headers
-ii  linux-headers-virtual                3.13.0.77.83                         amd64        Transitional package.
+ii  linux-headers-3.13.0-79              3.13.0-79.123                        all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-79-generic      3.13.0-79.123                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-generic                3.13.0.79.85                         amd64        Generic Linux kernel headers
+ii  linux-headers-virtual                3.13.0.79.85                         amd64        Transitional package.
 rc  linux-image-3.13.0-24-generic        3.13.0-24.47                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-29-generic        3.13.0-29.53                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-30-generic        3.13.0-30.55                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -498,9 +500,10 @@ rc  linux-image-3.13.0-73-generic        3.13.0-73.116                        am
 rc  linux-image-3.13.0-74-generic        3.13.0-74.118                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-76-generic        3.13.0-76.120                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-77-generic        3.13.0-77.121                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-virtual                  3.13.0.77.83                         amd64        This package will always depend on the latest minimal generic kernel image.
-ii  linux-libc-dev:amd64                 3.13.0-77.121                        amd64        Linux Kernel Headers for development
-ii  linux-virtual                        3.13.0.77.83                         amd64        Minimal Generic Linux kernel and headers
+ii  linux-image-3.13.0-79-generic        3.13.0-79.123                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-virtual                  3.13.0.79.85                         amd64        This package will always depend on the latest minimal generic kernel image.
+ii  linux-libc-dev:amd64                 3.13.0-79.123                        amd64        Linux Kernel Headers for development
+ii  linux-virtual                        3.13.0.79.85                         amd64        Minimal Generic Linux kernel and headers
 ii  locales                              2.13+git20120306-12.1                all          common files for locale support
 ii  lockfile-progs                       0.1.17                               amd64        Programs for locking and unlocking files and mailboxes
 ii  login                                1:4.1.5.1-1ubuntu9.2                 amd64        system login tools
