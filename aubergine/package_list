@@ -52,7 +52,7 @@ rc  clamav-base                      0.98.1+dfsg-4ubuntu1.1           all       
 rc  clamav-freshclam                 0.98.1+dfsg-4ubuntu1.1           amd64        anti-virus utility for Unix - virus database update utility
 ii  console-setup                    1.70ubuntu8                      all          console font and keymap setup program
 ii  coreutils                        8.21-1ubuntu5.3                  amd64        GNU core utilities
-ii  cpio                             2.11+dfsg-1ubuntu1.1             amd64        GNU cpio -- a program to manage archives of files
+ii  cpio                             2.11+dfsg-1ubuntu1.2             amd64        GNU cpio -- a program to manage archives of files
 ii  cpp                              4:4.8.2-1ubuntu6                 amd64        GNU C preprocessor (cpp)
 ii  cpp-4.8                          4.8.4-2ubuntu1~14.04.1           amd64        GNU C preprocessor
 rc  crda                             1.1.2-1ubuntu2                   amd64        wireless Central Regulatory Domain Agent
@@ -458,8 +458,10 @@ ii  linux-headers-3.13.0-76          3.13.0-76.120                    all       
 ii  linux-headers-3.13.0-76-generic  3.13.0-76.120                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-77          3.13.0-77.121                    all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-77-generic  3.13.0-77.121                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-generic            3.13.0.77.83                     amd64        Generic Linux kernel headers
-ii  linux-headers-virtual            3.13.0.77.83                     amd64        Transitional package.
+ii  linux-headers-3.13.0-79          3.13.0-79.123                    all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-79-generic  3.13.0-79.123                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-generic            3.13.0.79.85                     amd64        Generic Linux kernel headers
+ii  linux-headers-virtual            3.13.0.79.85                     amd64        Transitional package.
 rc  linux-image-3.13.0-32-generic    3.13.0-32.57                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-40-generic    3.13.0-40.69                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-43-generic    3.13.0-43.72                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -489,9 +491,10 @@ rc  linux-image-3.13.0-73-generic    3.13.0-73.116                    amd64     
 rc  linux-image-3.13.0-74-generic    3.13.0-74.118                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-76-generic    3.13.0-76.120                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-77-generic    3.13.0-77.121                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-virtual              3.13.0.77.83                     amd64        This package will always depend on the latest minimal generic kernel image.
-ii  linux-libc-dev:amd64             3.13.0-77.121                    amd64        Linux Kernel Headers for development
-ii  linux-virtual                    3.13.0.77.83                     amd64        Minimal Generic Linux kernel and headers
+ii  linux-image-3.13.0-79-generic    3.13.0-79.123                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-virtual              3.13.0.79.85                     amd64        This package will always depend on the latest minimal generic kernel image.
+ii  linux-libc-dev:amd64             3.13.0-79.123                    amd64        Linux Kernel Headers for development
+ii  linux-virtual                    3.13.0.79.85                     amd64        Minimal Generic Linux kernel and headers
 ii  locales                          2.13+git20120306-12.1            all          common files for locale support
 ii  locate                           4.4.2-7                          amd64        maintain and query an index of a directory tree
 ii  lockfile-progs                   0.1.17                           amd64        Programs for locking and unlocking files and mailboxes
