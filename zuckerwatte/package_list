@@ -830,6 +830,7 @@ ii  vnstati                             1.11-2                              amd6
 ii  w3m                                 0.5.3-15                            amd64        WWW browsable pager with excellent tables/frames support
 ii  wget                                1.15-1ubuntu1.14.04.1               amd64        retrieves files from the web
 ii  whiptail                            0.52.15-2ubuntu5                    amd64        Displays user-friendly dialog boxes from shell scripts
+ii  whois                               5.1.1                               amd64        intelligent WHOIS client
 ii  wireless-regdb                      2013.02.13-1ubuntu1                 all          wireless regulatory database
 ii  wireless-tools                      30~pre9-8ubuntu1                    amd64        Tools for manipulating Linux Wireless Extensions
 ii  wordpress                           3.8.2+dfsg-1ubuntu0.1               all          weblog manager
