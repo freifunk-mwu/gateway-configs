@@ -129,6 +129,7 @@ roa 10.41.0.0/16    max  20 as      65079; # ruhrgebiet
 roa 10.53.0.0/16    max  20 as      65079; # ruhrgebiet
 roa 10.225.0.0/16   max  20 as      65409; # ruhrgebiet (delegation)
 roa 10.161.0.0/16   max  20 as      64878; # ruhrgebiet (delegation)
+roa 10.229.0.0/16   max  20 as      64880; # ruhrgebiet (delegation)
 roa 10.20.0.0/19    max  20 as      65400; # ruhrgebiet (delegation)
 roa 10.41.0.0/16    max  20 as      65401; # ruhrgebiet (delegation)
 roa 10.231.0.0/16   max  20 as      65402; # ruhrgebiet (delegation)
