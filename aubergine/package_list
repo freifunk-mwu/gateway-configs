@@ -138,7 +138,6 @@ ii  krb5-locales                     1.12+dfsg-2ubuntu5.2             all       
 ii  landscape-common                 14.12-0ubuntu0.14.04             amd64        The Landscape administration system client - Common files
 ii  laptop-detect                    0.13.7ubuntu2                    amd64        attempt to detect a laptop
 ii  less                             458-2                            amd64        pager program similar to more
-ii  lftp                             4.4.13-1                         amd64        Sophisticated command-line FTP/HTTP client programs
 ii  libacl1:amd64                    2.2.52-1                         amd64        Access control list shared library
 rc  libaio1:amd64                    0.3.109-4                        amd64        Linux kernel AIO access library - shared library
 ii  libalgorithm-diff-perl           1.19.02-3                        all          module to find differences between files
@@ -224,6 +223,7 @@ ii  libgc1c2:amd64                   1:7.2d-5ubuntu2                  amd64     
 ii  libgcc-4.8-dev:amd64             4.8.4-2ubuntu1~14.04.1           amd64        GCC support library (development files)
 ii  libgcc1:amd64                    1:4.9.3-0ubuntu4                 amd64        GCC support library
 ii  libgcrypt11:amd64                1.5.3-2ubuntu4.3                 amd64        LGPL Crypto library - runtime library
+ii  libgcrypt11-dev                  1.5.3-2ubuntu4.3                 amd64        LGPL Crypto library - development files
 ii  libgd3:amd64                     2.1.0-3                          amd64        GD Graphics Library
 ii  libgdbm3:amd64                   1.8.3-12build1                   amd64        GNU dbm database routines (runtime version)
 ii  libgeoip1:amd64                  1.6.0-1                          amd64        non-DNS IP-to-country resolver library
@@ -231,9 +231,13 @@ ii  libgirepository-1.0-1            1.40.0-1ubuntu0.2                amd64     
 ii  libglib2.0-0:amd64               2.40.2-0ubuntu1                  amd64        GLib library of C routines
 ii  libglib2.0-data                  2.40.2-0ubuntu1                  all          Common files for GLib library
 ii  libgmp10:amd64                   2:5.1.3+dfsg-1ubuntu1            amd64        Multiprecision arithmetic library
+rc  libgnutls-deb0-28:amd64          3.3.8-3ubuntu3.2                 amd64        GNU TLS library - main runtime library
+ii  libgnutls-dev                    2.12.23-12ubuntu2.5              amd64        GNU TLS library - development files
 ii  libgnutls-openssl27:amd64        2.12.23-12ubuntu2.5              amd64        GNU TLS library - OpenSSL wrapper
 ii  libgnutls26:amd64                2.12.23-12ubuntu2.5              amd64        GNU TLS library - runtime library
+ii  libgnutlsxx27:amd64              2.12.23-12ubuntu2.5              amd64        GNU TLS library - C++ runtime library
 ii  libgomp1:amd64                   4.8.4-2ubuntu1~14.04.1           amd64        GCC OpenMP (GOMP) support library
+ii  libgpg-error-dev                 1.12-0.2ubuntu1                  amd64        library for common error values and messages in GnuPG components (development)
 ii  libgpg-error0:amd64              1.12-0.2ubuntu1                  amd64        library for common error values and messages in GnuPG components
 ii  libgpm2:amd64                    1.20.4-6.1                       amd64        General Purpose Mouse - shared library
 ii  libgraphite2-3:amd64             1.2.4-1ubuntu1.1                 amd64        Font rendering engine for Complex Scripts -- library
@@ -248,6 +252,7 @@ ii  libhavege1:amd64                 1.7c-1                           amd64     
 ii  libhcrypto4-heimdal:amd64        1.6~git20131207+dfsg-1ubuntu1.1  amd64        Heimdal Kerberos - crypto library
 ii  libheimbase1-heimdal:amd64       1.6~git20131207+dfsg-1ubuntu1.1  amd64        Heimdal Kerberos - Base library
 ii  libheimntlm0-heimdal:amd64       1.6~git20131207+dfsg-1ubuntu1.1  amd64        Heimdal Kerberos - NTLM support library
+ii  libhogweed2:amd64                2.7.1-1ubuntu0.1                 amd64        low level cryptographic library (public-key cryptos)
 ii  libhtml-form-perl                6.03-1                           all          module that represents an HTML form element
 ii  libhtml-format-perl              2.11-1                           all          module for transforming HTML into various formats
 ii  libhtml-parser-perl              3.71-1build1                     amd64        collection of modules that parse HTML text documents
@@ -309,11 +314,13 @@ ii  libmpdec2:amd64                  2.4.0-6                          amd64     
 ii  libmpfr4:amd64                   3.1.2-1                          amd64        multiple precision floating-point computation
 ii  libmysqlclient18:amd64           5.5.47-0ubuntu0.14.04.1          amd64        MySQL database client library
 ii  libncurses5:amd64                5.9+20140118-1ubuntu1            amd64        shared libraries for terminal handling
+ii  libncurses5-dev:amd64            5.9+20140118-1ubuntu1            amd64        developer's libraries for ncurses
 ii  libncursesw5:amd64               5.9+20140118-1ubuntu1            amd64        shared libraries for terminal handling (wide character support)
 ii  libnet-http-perl                 6.06-1                           all          module providing low-level HTTP connection client
 ii  libnet-libidn-perl               0.12.ds-1build4                  amd64        Perl bindings for GNU Libidn
 ii  libnet-smtp-ssl-perl             1.01-3                           all          Perl module providing SSL support to Net::SMTP
 ii  libnet-ssleay-perl               1.58-1                           amd64        Perl module for Secure Sockets Layer (SSL)
+ii  libnettle4:amd64                 2.7.1-1ubuntu0.1                 amd64        low level cryptographic library (symmetric and one-way cryptos)
 ii  libnewt0.52:amd64                0.52.15-2ubuntu5                 amd64        Not Erik's Windowing Toolkit - text mode windowing with slang
 ii  libnih-dbus1:amd64               1.0.3-4ubuntu25                  amd64        NIH D-Bus Bindings Library
 ii  libnih1:amd64                    1.0.3-4ubuntu25                  amd64        NIH Utility Library
@@ -323,6 +330,7 @@ rc  libnspr4:amd64                   2:4.10.7-0ubuntu0.14.04.1        amd64     
 rc  libnss3:amd64                    2:3.17.1-0ubuntu0.14.04.1        amd64        Network Security Service libraries
 rc  libodbc1:amd64                   2.2.14p2-5ubuntu5                amd64        ODBC library for Unix
 ii  libopts25:amd64                  1:5.18-2ubuntu2                  amd64        automated option processing library based on autogen
+ii  libp11-kit-dev                   0.20.2-2ubuntu2                  amd64        Library for loading and coordinating access to PKCS#11 modules - development
 ii  libp11-kit0:amd64                0.20.2-2ubuntu2                  amd64        Library for loading and coordinating access to PKCS#11 modules - runtime
 ii  libpam-cap:amd64                 1:2.24-0ubuntu2                  amd64        PAM module for implementing capabilities
 ii  libpam-modules:amd64             1.1.8-1ubuntu2                   amd64        Pluggable Authentication Modules for PAM
@@ -364,8 +372,10 @@ ii  libpython3.4-dev:amd64           3.4.3-1ubuntu1~14.04.3           amd64     
 ii  libpython3.4-minimal:amd64       3.4.3-1ubuntu1~14.04.3           amd64        Minimal subset of the Python language (version 3.4)
 ii  libpython3.4-stdlib:amd64        3.4.3-1ubuntu1~14.04.3           amd64        Interactive high-level object-oriented language (standard library, version 3.4)
 ii  libquadmath0:amd64               4.8.4-2ubuntu1~14.04.1           amd64        GCC Quad-Precision Math Library
+ii  libreadline-dev:amd64            6.3-4ubuntu2                     amd64        GNU readline and history libraries, development files
 ii  libreadline5:amd64               5.2+dfsg-2                       amd64        GNU readline and history libraries, run-time libraries
 ii  libreadline6:amd64               6.3-4ubuntu2                     amd64        GNU readline and history libraries, run-time libraries
+ii  libreadline6-dev:amd64           6.3-4ubuntu2                     amd64        GNU readline and history libraries, development files
 ii  libroken18-heimdal:amd64         1.6~git20131207+dfsg-1ubuntu1.1  amd64        Heimdal Kerberos - roken support library
 rc  librpm3                          4.11.1-3                         amd64        RPM shared library
 rc  librpmbuild3                     4.11.1-3                         amd64        RPM build shared library
@@ -404,6 +414,7 @@ ii  libsystemd-daemon0:amd64         204-5ubuntu20.18                 amd64     
 ii  libsystemd-login0:amd64          204-5ubuntu20.18                 amd64        systemd login utility library
 ii  libtamuanova-0.2                 0.2-3                            amd64        Library to calculate an ANOVA
 ii  libtasn1-6:amd64                 3.4-3ubuntu0.3                   amd64        Manage ASN.1 structures (runtime)
+ii  libtasn1-6-dev                   3.4-3ubuntu0.3                   amd64        Manage ASN.1 structures (development)
 ii  libtcl8.5:amd64                  8.5.15-2ubuntu1                  amd64        Tcl (the Tool Command Language) v8.5 - run-time library files
 ii  libtcltk-ruby1.9.1               1.9.3.484-2ubuntu1.2             amd64        Tcl/Tk interface for Ruby 1.9.1
 ii  libterm-ui-perl                  0.42-1                           all          Term::ReadLine UI made easy
@@ -415,6 +426,7 @@ ii  libthai-data                     0.1.20-3                         all       
 ii  libthai0:amd64                   0.1.20-3                         amd64        Thai language support library
 ii  libtiff5:amd64                   4.0.3-7ubuntu0.3                 amd64        Tag Image File Format (TIFF) library
 ii  libtimedate-perl                 2.3000-1                         all          collection of modules to manipulate date/time information
+ii  libtinfo-dev:amd64               5.9+20140118-1ubuntu1            amd64        developer's library for the low-level terminfo library
 ii  libtinfo5:amd64                  5.9+20140118-1ubuntu1            amd64        shared low-level terminfo library for terminal handling
 ii  libtk8.5:amd64                   8.5.15-2ubuntu3                  amd64        Tk toolkit for Tcl and X11 v8.5 - run-time files
 ii  libtsan0:amd64                   4.8.4-2ubuntu1~14.04.1           amd64        ThreadSanitizer -- a Valgrind-based detector of data races (runtime)
@@ -596,6 +608,7 @@ ii  php5-imap                        5.4.6-0ubuntu5                   amd64     
 ii  php5-json                        1.3.2-2build1                    amd64        JSON module for php5
 rc  php5-mysql                       5.5.9+dfsg-1ubuntu4.14           amd64        MySQL module for php5
 rc  php5-readline                    5.5.9+dfsg-1ubuntu4.14           amd64        Readline module for php5
+ii  pkg-config                       0.26-1ubuntu4                    amd64        manage compile and link flags for libraries
 ii  plotutils                        2.6-3ubuntu1                     amd64        GNU plotutils command line tools based on libplot
 ii  plymouth                         0.8.8-0ubuntu17.1                amd64        graphical boot animation and logger - main package
 ii  policykit-1                      0.105-4ubuntu3.14.04.1           amd64        framework for managing administrative policies and privileges

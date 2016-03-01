@@ -34,7 +34,7 @@ PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bi
 0 5 * * 0,1,5 $HOME/clones/backend-scripts/update_bind_conf_gw.py > $HOME/.cronlog/update_bind_conf_gw.log
 42 17 * * 2 /usr/local/bin/photon-dangerous-selfupgrade.py --sudo --repos $HOME/clones/backend-scripts
 # openwrt mirror 
-19 1 * * * /usr/bin/lftp -f $HOME/clones/backend-scripts/common/lftp_commands > $HOME/.cronlog/mirror_openwrt_repo.log 2>&1
+19 1 1 * * /usr/local/bin/lftp -f $HOME/clones/backend-scripts/common/lftp_commands > $HOME/.cronlog/mirror_openwrt_repo.log 2>&1
 #backup map 
 MAILTO="x_aubergine@bleich17.de"
 42 1 * * *  /home/admin/bin/backup.sh
