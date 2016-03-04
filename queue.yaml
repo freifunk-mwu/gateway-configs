@@ -1,6 +1,7 @@
 locations:
 - /etc/aliases
 - /etc/apache2/sites-enabled
+- /etc/bind/ffmwu
 - /etc/bind/ffmz
 - /etc/bind/ffwi
 - /etc/bind/named.conf
