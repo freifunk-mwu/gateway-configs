@@ -22,7 +22,7 @@ ii  bind9-doc                        1:9.9.5.dfsg-3ubuntu0.7          all       
 ii  bind9-host                       1:9.9.5.dfsg-3ubuntu0.7          amd64        Version of 'host' bundled with BIND 9.X
 ii  bind9utils                       1:9.9.5.dfsg-3ubuntu0.7          amd64        Utilities for BIND
 ii  binutils                         2.24-5ubuntu14                   amd64        GNU assembler, linker and binary utilities
-ii  biosdevname                      0.4.1-0ubuntu6.2                 amd64        apply BIOS-given names to network devices
+ii  biosdevname                      0.4.1-0ubuntu6.3                 amd64        apply BIOS-given names to network devices
 ii  bsdutils                         1:2.20.1-5.1ubuntu20.7           amd64        Basic utilities from 4.4BSD-Lite
 ii  build-essential                  11.6ubuntu6                      amd64        Informational list of build-essential packages
 ii  busybox-initramfs                1:1.21.0-1ubuntu1                amd64        Standalone shell setup for initramfs
@@ -81,7 +81,7 @@ ii  grub2-common                     2.02~beta2-9ubuntu1.7            amd64     
 ii  guile-2.0-libs                   2.0.9+1-1ubuntu1                 amd64        Core Guile libraries
 ii  gzip                             1.6-3ubuntu1                     amd64        GNU compression utilities
 ii  hostname                         3.15ubuntu1                      amd64        utility to set/show the host name or domain name
-ii  ifupdown                         0.7.47.2ubuntu4.3                amd64        high level tools to configure network interfaces
+ii  ifupdown                         0.7.47.2ubuntu4.4                amd64        high level tools to configure network interfaces
 ii  init-system-helpers              1.14                             all          helper tools for all init systems
 ii  initramfs-tools                  0.103ubuntu4.2                   all          tools for generating an initramfs
 ii  initramfs-tools-bin              0.103ubuntu4.2                   amd64        binaries used by initramfs-tools

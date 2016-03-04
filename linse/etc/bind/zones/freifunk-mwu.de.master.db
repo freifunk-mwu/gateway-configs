@@ -2,7 +2,7 @@
 ;
 $TTL	300
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2016020201		; Serial
+		     2016030401		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -58,6 +58,8 @@ glueckskeks	IN	A	5.199.136.244
 glueckskeks	IN	AAAA	2001:4ba0:fffc:3d::b4dc:4b1e:3
 zuckerwatte	IN	A	89.163.245.179
 zuckerwatte	IN	AAAA	2001:4ba0:fffc:3d::b4dc:4b1e:2
+suesskartoffel	IN	A	188.68.53.133
+suesskartoffel	IN	AAAA	2a03:4000:6:e046::b4dc:4b1e
 
 ; service cnames
 map		IN	CNAME	aubergine
