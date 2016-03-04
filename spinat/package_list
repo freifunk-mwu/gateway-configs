@@ -320,7 +320,7 @@ ii  libpci3:amd64                       1:3.2.1-1ubuntu5.1               amd64  
 ii  libpcre3:amd64                      1:8.31-2ubuntu2.1                amd64        Perl 5 Compatible Regular Expression Library - runtime files
 ii  libpcsclite1:amd64                  1.8.10-1ubuntu1                  amd64        Middleware to access a smart card using PC/SC (library)
 ii  libpipeline1:amd64                  1.3.0-1                          amd64        pipeline manipulation library
-ii  libpixman-1-0:amd64                 0.30.2-2ubuntu1                  amd64        pixel-manipulation library for X and cairo
+ii  libpixman-1-0:amd64                 0.30.2-2ubuntu1.1                amd64        pixel-manipulation library for X and cairo
 ii  libpkcs11-helper1:amd64             1.11-1                           amd64        library that simplifies the interaction with PKCS#11
 ii  libplymouth2:amd64                  0.8.8-0ubuntu17.1                amd64        graphical boot animation and logger - shared libraries
 ii  libpng12-0:amd64                    1.2.50-1ubuntu2.14.04.2          amd64        PNG library - runtime
@@ -409,19 +409,12 @@ ii  libxt6:amd64                        1:1.1.4-1                        amd64  
 ii  libxtables10                        1.4.21-1ubuntu1                  amd64        netfilter xtables library
 ii  libyaml-0-2:amd64                   0.1.4-3ubuntu3.1                 amd64        Fast YAML 1.1 parser and emitter library
 ii  linux-firmware                      1.127.20                         all          Firmware for Linux kernel drivers
-ii  linux-generic-lts-vivid             3.19.0.51.36                     amd64        Complete Generic Linux kernel and headers
-ii  linux-headers-3.13.0-77             3.13.0-77.121                    all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-77-generic     3.13.0-77.121                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-79             3.13.0-79.123                    all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-79-generic     3.13.0-79.123                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.19.0-47             3.19.0-47.53~14.04.1             all          Header files related to Linux kernel version 3.19.0
-ii  linux-headers-3.19.0-47-generic     3.19.0-47.53~14.04.1             amd64        Linux kernel headers for version 3.19.0 on 64 bit x86 SMP
 ii  linux-headers-3.19.0-49             3.19.0-49.55~14.04.1             all          Header files related to Linux kernel version 3.19.0
 ii  linux-headers-3.19.0-49-generic     3.19.0-49.55~14.04.1             amd64        Linux kernel headers for version 3.19.0 on 64 bit x86 SMP
-ii  linux-headers-3.19.0-51             3.19.0-51.58~14.04.1             all          Header files related to Linux kernel version 3.19.0
-ii  linux-headers-3.19.0-51-generic     3.19.0-51.58~14.04.1             amd64        Linux kernel headers for version 3.19.0 on 64 bit x86 SMP
 ii  linux-headers-generic               3.13.0.79.85                     amd64        Generic Linux kernel headers
-ii  linux-headers-generic-lts-vivid     3.19.0.51.36                     amd64        Generic Linux kernel headers
+ii  linux-image-3.13.0-79-generic       3.13.0-79.123                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.19.0-25-generic       3.19.0-25.26~14.04.1             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-3.19.0-30-generic       3.19.0-30.34~14.04.1             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-3.19.0-31-generic       3.19.0-31.36~14.04.1             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
@@ -432,9 +425,9 @@ rc  linux-image-3.19.0-39-generic       3.19.0-39.44~14.04.1             amd64  
 rc  linux-image-3.19.0-41-generic       3.19.0-41.46~14.04.2             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-3.19.0-42-generic       3.19.0-42.48~14.04.1             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-3.19.0-43-generic       3.19.0-43.49~14.04.1             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
-ii  linux-image-3.19.0-47-generic       3.19.0-47.53~14.04.1             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
+rc  linux-image-3.19.0-47-generic       3.19.0-47.53~14.04.1             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 ii  linux-image-3.19.0-49-generic       3.19.0-49.55~14.04.1             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
-ii  linux-image-3.19.0-51-generic       3.19.0-51.58~14.04.1             amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
+ii  linux-image-extra-3.13.0-79-generic 3.13.0-79.123                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-25-generic 3.19.0-25.26~14.04.1             amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-30-generic 3.19.0-30.34~14.04.1             amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-31-generic 3.19.0-31.36~14.04.1             amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
@@ -445,10 +438,9 @@ rc  linux-image-extra-3.19.0-39-generic 3.19.0-39.44~14.04.1             amd64  
 rc  linux-image-extra-3.19.0-41-generic 3.19.0-41.46~14.04.2             amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-42-generic 3.19.0-42.48~14.04.1             amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-43-generic 3.19.0-43.49~14.04.1             amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.19.0-47-generic 3.19.0-47.53~14.04.1             amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.19.0-47-generic 3.19.0-47.53~14.04.1             amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.19.0-49-generic 3.19.0-49.55~14.04.1             amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.19.0-51-generic 3.19.0-51.58~14.04.1             amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
-ii  linux-image-generic-lts-vivid       3.19.0.51.36                     amd64        Generic Linux kernel image
+ii  linux-image-generic                 3.13.0.79.85                     amd64        Generic Linux kernel image
 ii  linux-libc-dev:amd64                3.13.0-79.123                    amd64        Linux Kernel Headers for development
 ii  locales                             2.13+git20120306-12.1            all          common files for locale support
 ii  lockfile-progs                      0.1.17                           amd64        Programs for locking and unlocking files and mailboxes
@@ -495,9 +487,9 @@ ii  parted                              2.3-19ubuntu1.14.04.1            amd64  
 ii  passwd                              1:4.1.5.1-1ubuntu9.2             amd64        change and administer password and group data
 ii  patch                               2.7.1-4ubuntu2.3                 amd64        Apply a diff file to an original
 ii  pciutils                            1:3.2.1-1ubuntu5.1               amd64        Linux PCI Utilities
-ii  perl                                5.18.2-2ubuntu1                  amd64        Larry Wall's Practical Extraction and Report Language
-ii  perl-base                           5.18.2-2ubuntu1                  amd64        minimal Perl system
-ii  perl-modules                        5.18.2-2ubuntu1                  all          Core Perl modules
+ii  perl                                5.18.2-2ubuntu1.1                amd64        Larry Wall's Practical Extraction and Report Language
+ii  perl-base                           5.18.2-2ubuntu1.1                amd64        minimal Perl system
+ii  perl-modules                        5.18.2-2ubuntu1.1                all          Core Perl modules
 ii  plymouth                            0.8.8-0ubuntu17.1                amd64        graphical boot animation and logger - main package
 ii  plymouth-theme-ubuntu-text          0.8.8-0ubuntu17.1                amd64        graphical boot animation and logger - ubuntu-logo theme
 ii  policykit-1                         0.105-4ubuntu3.14.04.1           amd64        framework for managing administrative policies and privileges
