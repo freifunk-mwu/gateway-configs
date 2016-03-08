@@ -35,9 +35,9 @@ ii  bind9-doc                           1:9.9.5.dfsg-3ubuntu0.7          all    
 ii  bind9-host                          1:9.9.5.dfsg-3ubuntu0.7          amd64        Version of 'host' bundled with BIND 9.X
 ii  bind9utils                          1:9.9.5.dfsg-3ubuntu0.7          amd64        Utilities for BIND
 ii  binutils                            2.24-5ubuntu14                   amd64        GNU assembler, linker and binary utilities
-ii  biosdevname                         0.4.1-0ubuntu6.2                 amd64        apply BIOS-given names to network devices
-rc  bird                                1.5.0-1+trusty+1                 amd64        Internet Routing Daemon
-ii  bird-bgp                            1.5.0-1+trusty+1                 amd64        Internet Routing Daemon [BGP-only version]
+ii  biosdevname                         0.4.1-0ubuntu6.3                 amd64        apply BIOS-given names to network devices
+ii  bird                                1.5.0-5+trusty+1                 amd64        Internet Routing Daemon
+ii  bird-bgp                            1.5.0-5+trusty+1                 all          Internet Routing Daemon [transitional package]
 ii  bridge-utils                        1.5-6ubuntu2                     amd64        Utilities for configuring the Linux Ethernet bridge
 ii  bsdmainutils                        9.0.5ubuntu1                     amd64        collection of more utilities from FreeBSD
 ii  bsdutils                            1:2.20.1-5.1ubuntu20.7           amd64        Basic utilities from 4.4BSD-Lite
@@ -120,7 +120,7 @@ ii  hdparm                              9.43-1ubuntu3                    amd64  
 ii  hostname                            3.15ubuntu1                      amd64        utility to set/show the host name or domain name
 ii  htop                                1.0.2-3                          amd64        interactive processes viewer
 ii  iftop                               1.0~pre2-5                       amd64        displays bandwidth usage information on an network interface
-ii  ifupdown                            0.7.47.2ubuntu4.3                amd64        high level tools to configure network interfaces
+ii  ifupdown                            0.7.47.2ubuntu4.4                amd64        high level tools to configure network interfaces
 ii  info                                5.2.0.dfsg.1-2                   amd64        Standalone GNU Info documentation browser
 ii  init-system-helpers                 1.14                             all          helper tools for all init systems
 ii  initramfs-tools                     0.103ubuntu4.2                   all          tools for generating an initramfs
@@ -302,7 +302,7 @@ ii  libnih-dbus1:amd64                  1.0.3-4ubuntu25                  amd64  
 ii  libnih1:amd64                       1.0.3-4ubuntu25                  amd64        NIH Utility Library
 ii  libnl-3-200:amd64                   3.2.21-1                         amd64        library for dealing with netlink sockets
 ii  libnl-genl-3-200:amd64              3.2.21-1                         amd64        library for dealing with netlink sockets - generic netlink
-ii  libnuma1:amd64                      2.0.9~rc5-1ubuntu3.14.04.1       amd64        Libraries for controlling NUMA policy
+ii  libnuma1:amd64                      2.0.9~rc5-1ubuntu3.14.04.2       amd64        Libraries for controlling NUMA policy
 ii  libopts25:amd64                     1:5.18-2ubuntu2                  amd64        automated option processing library based on autogen
 ii  libp11-kit0:amd64                   0.20.2-2ubuntu2                  amd64        Library for loading and coordinating access to PKCS#11 modules - runtime
 ii  libpam-cap:amd64                    1:2.24-0ubuntu2                  amd64        PAM module for implementing capabilities
@@ -418,13 +418,13 @@ ii  libxtables10                        1.4.21-1ubuntu1                  amd64  
 ii  libyaml-0-2:amd64                   0.1.4-3ubuntu3.1                 amd64        Fast YAML 1.1 parser and emitter library
 ii  linux-firmware                      1.127.20                         all          Firmware for Linux kernel drivers
 ii  linux-generic                       3.13.0.79.85                     amd64        Complete Generic Linux kernel and headers
-ii  linux-headers-3.13.0-74             3.13.0-74.118                    all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-74-generic     3.13.0-74.118                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-77             3.13.0-77.121                    all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-77-generic     3.13.0-77.121                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-79             3.13.0-79.123                    all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-79-generic     3.13.0-79.123                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-generic               3.13.0.79.85                     amd64        Generic Linux kernel headers
+ii  linux-headers-generic-lts-trusty    3.13.0.79.85                     amd64        Generic Linux kernel headers
+ii  linux-headers-virtual               3.13.0.79.85                     amd64        Transitional package.
 rc  linux-image-3.13.0-24-generic       3.13.0-24.47                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-49-generic       3.13.0-49.83                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-55-generic       3.13.0-55.94                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -441,7 +441,7 @@ rc  linux-image-3.13.0-68-generic       3.13.0-68.111                    amd64  
 rc  linux-image-3.13.0-70-generic       3.13.0-70.113                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-71-generic       3.13.0-71.114                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-73-generic       3.13.0-73.116                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-74-generic       3.13.0-74.118                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-74-generic       3.13.0-74.118                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-76-generic       3.13.0-76.120                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-77-generic       3.13.0-77.121                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-79-generic       3.13.0-79.123                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -461,12 +461,15 @@ rc  linux-image-extra-3.13.0-68-generic 3.13.0-68.111                    amd64  
 rc  linux-image-extra-3.13.0-70-generic 3.13.0-70.113                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-71-generic 3.13.0-71.114                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-73-generic 3.13.0-73.116                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-74-generic 3.13.0-74.118                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-74-generic 3.13.0-74.118                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-76-generic 3.13.0-76.120                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-77-generic 3.13.0-77.121                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-79-generic 3.13.0-79.123                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-generic                 3.13.0.79.85                     amd64        Generic Linux kernel image
+ii  linux-image-generic-lts-trusty      3.13.0.79.85                     amd64        Generic Linux kernel image
+ii  linux-image-virtual                 3.13.0.79.85                     amd64        This package will always depend on the latest minimal generic kernel image.
 ii  linux-libc-dev:amd64                3.13.0-79.123                    amd64        Linux Kernel Headers for development
+ii  linux-virtual                       3.13.0.79.85                     amd64        Minimal Generic Linux kernel and headers
 ii  locales                             2.13+git20120306-12.1            all          common files for locale support
 ii  lockfile-progs                      0.1.17                           amd64        Programs for locking and unlocking files and mailboxes
 ii  login                               1:4.1.5.1-1ubuntu9.2             amd64        system login tools
