@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2016020701		; Serial
+		     2016030402		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -16,11 +16,12 @@ $TTL	3600
 ; mx records
 @               MX      10      lacerta.uberspace.de.
 
-@		IN	A	95.143.172.219
-@		IN	AAAA	2001:1a50:11:0:5f:8f:acdb:13b
+@		IN	A	89.163.245.179
+@		IN	AAAA	2001:4ba0:fffc:3d:0:b4dc:4b1e:2
 
 ; services and stuff
-www		IN	CNAME	octans.uberspace.de.
+www		IN	CNAME	zuckerwatte.freifunk-mwu.de.
+wwwtest		IN	CNAME	zuckerwatte.freifunk-mwu.de.
 api		IN	CNAME	aubergine.freifunk-mwu.de.
 firmware	IN	CNAME	firmware.freifunk-mwu.de.
 map		IN	CNAME	aubergine.freifunk-mwu.de.
@@ -29,5 +30,3 @@ media		IN	CNAME	zuckerwatte.freifunk-mwu.de.
 photos		IN	CNAME	zuckerwatte.freifunk-mwu.de.
 stats		IN	CNAME	octans.uberspace.de.
 yeah		IN	CNAME	octans.uberspace.de.
-wwwtest		IN	CNAME	zuckerwatte.freifunk-mwu.de.
-

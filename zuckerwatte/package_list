@@ -34,8 +34,8 @@ ii  batman-adv-dkms                     2015.2-0ffmwu0~trusty               all 
 ii  bc                                  1.06.95-8ubuntu1                    amd64        GNU bc arbitrary precision calculator language
 ii  bind9-host                          1:9.9.5.dfsg-3ubuntu0.7             amd64        Version of 'host' bundled with BIND 9.X
 ii  binutils                            2.24-5ubuntu14                      amd64        GNU assembler, linker and binary utilities
-ii  biosdevname                         0.4.1-0ubuntu6.2                    amd64        apply BIOS-given names to network devices
-ii  bird                                1.5.0-1+trusty+1                    amd64        Internet Routing Daemon
+ii  biosdevname                         0.4.1-0ubuntu6.3                    amd64        apply BIOS-given names to network devices
+ii  bird                                1.5.0-5+trusty+1                    amd64        Internet Routing Daemon
 ii  bison                               2:3.0.2.dfsg-2                      amd64        YACC-compatible parser generator
 ii  bridge-utils                        1.5-6ubuntu2                        amd64        Utilities for configuring the Linux Ethernet bridge
 ii  bsdmainutils                        9.0.5ubuntu1                        amd64        collection of more utilities from FreeBSD
@@ -128,7 +128,7 @@ ii  haveged                             1.7c-1                              amd6
 ii  hdparm                              9.43-1ubuntu3                       amd64        tune hard disk parameters for high performance
 ii  hicolor-icon-theme                  0.13-1                              all          default fallback theme for FreeDesktop.org icon themes
 ii  hostname                            3.15ubuntu1                         amd64        utility to set/show the host name or domain name
-ii  ifupdown                            0.7.47.2ubuntu4.3                   amd64        high level tools to configure network interfaces
+ii  ifupdown                            0.7.47.2ubuntu4.4                   amd64        high level tools to configure network interfaces
 ii  imagemagick                         8:6.7.7.10-6ubuntu3                 amd64        image manipulation programs
 ii  imagemagick-common                  8:6.7.7.10-6ubuntu3                 all          image manipulation programs -- infrastructure
 ii  info                                5.2.0.dfsg.1-2                      amd64        Standalone GNU Info documentation browser
@@ -379,7 +379,7 @@ ii  libnih1:amd64                       1.0.3-4ubuntu25                     amd6
 ii  libnl-3-200:amd64                   3.2.21-1                            amd64        library for dealing with netlink sockets
 ii  libnl-genl-3-200:amd64              3.2.21-1                            amd64        library for dealing with netlink sockets - generic netlink
 ii  libntlm0:amd64                      1.4-1                               amd64        NTLM authentication library
-ii  libnuma1:amd64                      2.0.9~rc5-1ubuntu3.14.04.1          amd64        Libraries for controlling NUMA policy
+ii  libnuma1:amd64                      2.0.9~rc5-1ubuntu3.14.04.2          amd64        Libraries for controlling NUMA policy
 ii  libopenexr6:amd64                   1.6.1-7ubuntu1                      amd64        runtime files for the OpenEXR image library
 ii  libopts25:amd64                     1:5.18-2ubuntu2                     amd64        automated option processing library based on autogen
 ii  libossp-uuid16                      1.6.2-1.3ubuntu1                    amd64        OSSP uuid ISO-C and C++ - shared library
@@ -520,19 +520,12 @@ ii  libxtables10                        1.4.21-1ubuntu1                     amd6
 ii  libyaml-0-2:amd64                   0.1.4-3ubuntu3.1                    amd64        Fast YAML 1.1 parser and emitter library
 ii  libyaml-dev:amd64                   0.1.4-3ubuntu3.1                    amd64        Fast YAML 1.1 parser and emitter library (development)
 ii  linux-firmware                      1.127.20                            all          Firmware for Linux kernel drivers
-ii  linux-generic-lts-vivid             3.19.0.51.36                        amd64        Complete Generic Linux kernel and headers
-ii  linux-headers-3.13.0-77             3.13.0-77.121                       all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-77-generic     3.13.0-77.121                       amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-79             3.13.0-79.123                       all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-79-generic     3.13.0-79.123                       amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.19.0-47             3.19.0-47.53~14.04.1                all          Header files related to Linux kernel version 3.19.0
-ii  linux-headers-3.19.0-47-generic     3.19.0-47.53~14.04.1                amd64        Linux kernel headers for version 3.19.0 on 64 bit x86 SMP
-ii  linux-headers-3.19.0-49             3.19.0-49.55~14.04.1                all          Header files related to Linux kernel version 3.19.0
-ii  linux-headers-3.19.0-49-generic     3.19.0-49.55~14.04.1                amd64        Linux kernel headers for version 3.19.0 on 64 bit x86 SMP
 ii  linux-headers-3.19.0-51             3.19.0-51.58~14.04.1                all          Header files related to Linux kernel version 3.19.0
-ii  linux-headers-3.19.0-51-generic     3.19.0-51.58~14.04.1                amd64        Linux kernel headers for version 3.19.0 on 64 bit x86 SMP
 ii  linux-headers-generic               3.13.0.79.85                        amd64        Generic Linux kernel headers
-ii  linux-headers-generic-lts-vivid     3.19.0.51.36                        amd64        Generic Linux kernel headers
+ii  linux-headers-generic-lts-trusty    3.13.0.79.85                        amd64        Generic Linux kernel headers
+ii  linux-image-3.13.0-79-generic       3.13.0-79.123                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.19.0-31-generic       3.19.0-31.36~14.04.1                amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-3.19.0-32-generic       3.19.0-32.37~14.04.1                amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-3.19.0-33-generic       3.19.0-33.38~14.04.1                amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
@@ -540,9 +533,9 @@ rc  linux-image-3.19.0-37-generic       3.19.0-37.42~14.04.1                amd6
 rc  linux-image-3.19.0-39-generic       3.19.0-39.44~14.04.1                amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-3.19.0-41-generic       3.19.0-41.46~14.04.2                amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-3.19.0-42-generic       3.19.0-42.48~14.04.1                amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
-ii  linux-image-3.19.0-47-generic       3.19.0-47.53~14.04.1                amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
-ii  linux-image-3.19.0-49-generic       3.19.0-49.55~14.04.1                amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
-ii  linux-image-3.19.0-51-generic       3.19.0-51.58~14.04.1                amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
+rc  linux-image-3.19.0-47-generic       3.19.0-47.53~14.04.1                amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
+rc  linux-image-3.19.0-49-generic       3.19.0-49.55~14.04.1                amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
+ii  linux-image-extra-3.13.0-79-generic 3.13.0-79.123                       amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-31-generic 3.19.0-31.36~14.04.1                amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-32-generic 3.19.0-32.37~14.04.1                amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-33-generic 3.19.0-33.38~14.04.1                amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
@@ -550,10 +543,11 @@ rc  linux-image-extra-3.19.0-37-generic 3.19.0-37.42~14.04.1                amd6
 rc  linux-image-extra-3.19.0-39-generic 3.19.0-39.44~14.04.1                amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-41-generic 3.19.0-41.46~14.04.2                amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-42-generic 3.19.0-42.48~14.04.1                amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.19.0-47-generic 3.19.0-47.53~14.04.1                amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.19.0-49-generic 3.19.0-49.55~14.04.1                amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.19.0-51-generic 3.19.0-51.58~14.04.1                amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
-ii  linux-image-generic-lts-vivid       3.19.0.51.36                        amd64        Generic Linux kernel image
+rc  linux-image-extra-3.19.0-47-generic 3.19.0-47.53~14.04.1                amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.19.0-49-generic 3.19.0-49.55~14.04.1                amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
+ii  linux-image-generic                 3.13.0.79.85                        amd64        Generic Linux kernel image
+ii  linux-image-generic-lts-trusty      3.13.0.79.85                        amd64        Generic Linux kernel image
+ii  linux-image-virtual                 3.13.0.79.85                        amd64        This package will always depend on the latest minimal generic kernel image.
 ii  linux-libc-dev:amd64                3.13.0-79.123                       amd64        Linux Kernel Headers for development
 ii  locales                             2.13+git20120306-12.1               all          common files for locale support
 ii  lockfile-progs                      0.1.17                              amd64        Programs for locking and unlocking files and mailboxes

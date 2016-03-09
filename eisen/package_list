@@ -30,6 +30,7 @@ ii  cpio                                2.11+dfsg-1ubuntu1.2                  am
 ii  cpp                                 4:4.8.2-1ubuntu6                      amd64        GNU C preprocessor (cpp)
 ii  cpp-4.8                             4.8.4-2ubuntu1~14.04.1                amd64        GNU C preprocessor
 ii  cpu-checker                         0.7-0ubuntu4                          amd64        tools to help evaluate certain CPU (or BIOS) features
+ii  cpufrequtils                        008-1                                 amd64        utilities to deal with the cpufreq Linux kernel feature
 ii  crda                                1.1.2-1ubuntu2                        amd64        wireless Central Regulatory Domain Agent
 ii  cron                                3.0pl1-124ubuntu2                     amd64        process scheduling daemon
 ii  dash                                0.5.7-4ubuntu1                        amd64        POSIX-compliant shell
@@ -156,6 +157,7 @@ ii  libcgmanager0:amd64                 0.24-0ubuntu7.5                       am
 ii  libck-connector0:amd64              0.4.5-3.1ubuntu2                      amd64        ConsoleKit libraries
 ii  libcloog-isl4:amd64                 0.18.2-1                              amd64        Chunky Loop Generator (runtime library)
 ii  libcomerr2:amd64                    1.42.9-3ubuntu1.3                     amd64        common error description library
+ii  libcpufreq0                         008-1                                 amd64        shared library to deal with the cpufreq Linux kernel feature
 ii  libcups2:amd64                      1.7.2-0ubuntu1.7                      amd64        Common UNIX Printing System(tm) - Core library
 ii  libcurl3-gnutls:amd64               7.35.0-1ubuntu2.6                     amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii  libdatrie1:amd64                    0.2.8-1                               amd64        Double-array trie library
@@ -385,7 +387,7 @@ rc  linux-image-3.13.0-66-generic       3.13.0-66.108                         am
 rc  linux-image-3.13.0-68-generic       3.13.0-68.111                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-74-generic       3.13.0-74.118                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-76-generic       3.13.0-76.120                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-77-generic       3.13.0-77.121                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-77-generic       3.13.0-77.121                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-79-generic       3.13.0-79.123                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-24-generic 3.13.0-24.47                          amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-65-generic 3.13.0-65.106                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
@@ -393,7 +395,7 @@ rc  linux-image-extra-3.13.0-66-generic 3.13.0-66.108                         am
 rc  linux-image-extra-3.13.0-68-generic 3.13.0-68.111                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-74-generic 3.13.0-74.118                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-76-generic 3.13.0-76.120                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-77-generic 3.13.0-77.121                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-77-generic 3.13.0-77.121                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-79-generic 3.13.0-79.123                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-generic                 3.13.0.79.85                          amd64        Generic Linux kernel image
 ii  linux-libc-dev:amd64                3.13.0-79.123                         amd64        Linux Kernel Headers for development
