@@ -30,6 +30,7 @@ roa 10.8.0.0/16     max  20 as      65053; # chemnitz
 roa 10.35.0.0/16    max  20 as      64868; # cottbus
 roa 10.223.0.0/16   max  20 as      65038; # darmstadt
 roa 10.213.0.0/16   max  20 as      65501; # diepholz
+roa 10.55.0.0/18    max  20 as      65000; # dillingen
 roa 10.11.144.0/20  max  20 as      64874; # donau-ries
 roa 10.119.0.0/16   max  20 as      65043; # dreilaendereck
 roa 10.200.0.0/16   max  20 as      65051; # dresden
