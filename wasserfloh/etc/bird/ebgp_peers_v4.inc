@@ -74,6 +74,7 @@ protocol bgp icvpn_bremen4 from ebgp_ic {
 }
 protocol bgp icvpn_bremen5 from ebgp_ic {
     neighbor 10.207.5.196 as 65196;
+    passive yes;
 }
 protocol bgp icvpn_bremen6 from ebgp_ic {
     neighbor 10.207.6.196 as 65196;
@@ -116,6 +117,7 @@ protocol bgp icvpn_dreilaendereck4 from ebgp_ic {
 }
 protocol bgp icvpn_dresden1 from ebgp_ic {
     neighbor 10.207.0.19 as 65051;
+    passive yes;
 }
 protocol bgp icvpn_dresden2 from ebgp_ic {
     neighbor 10.207.0.20 as 65051;
@@ -215,6 +217,7 @@ protocol bgp icvpn_halle1 from ebgp_ic {
 }
 protocol bgp icvpn_halle2 from ebgp_ic {
     neighbor 10.207.0.14 as 65046;
+    passive yes;
 }
 protocol bgp icvpn_hamburg01 from ebgp_ic {
     neighbor 10.207.0.61 as 49009;
@@ -234,6 +237,7 @@ protocol bgp icvpn_hannover1 from ebgp_ic {
 }
 protocol bgp icvpn_harz1 from ebgp_ic {
     neighbor 10.207.0.11 as 65134;
+    passive yes;
 }
 protocol bgp icvpn_hkt01 from ebgp_ic {
     neighbor 10.207.0.4 as 64864;
@@ -291,7 +295,6 @@ protocol bgp icvpn_luenen from ebgp_ic {
 }
 protocol bgp icvpn_luxembourg1 from ebgp_ic {
     neighbor 10.207.10.101 as 64769;
-    passive yes;
 }
 protocol bgp icvpn_luxembourg2 from ebgp_ic {
     neighbor 10.207.10.102 as 64769;
@@ -310,6 +313,7 @@ protocol bgp icvpn_myk3 from ebgp_ic {
 }
 protocol bgp icvpn_moehne1 from ebgp_ic {
     neighbor 10.207.0.120 as 65057;
+    passive yes;
 }
 protocol bgp icvpn_muensterlandFusselkater from ebgp_ic {
     neighbor 10.207.0.44 as 65251;
@@ -361,19 +365,21 @@ protocol bgp icvpn_rheinufer3 from ebgp_ic {
 }
 protocol bgp icvpn_ruhrgebiet1 from ebgp_ic {
     neighbor 10.207.0.79 as 65079;
-    passive yes;
 }
 protocol bgp icvpn_trier1 from ebgp_ic {
     neighbor 10.207.0.220 as 65022;
 }
 protocol bgp icvpn_trier2 from ebgp_ic {
     neighbor 10.207.0.221 as 65022;
+    passive yes;
 }
 protocol bgp icvpn_trier3 from ebgp_ic {
     neighbor 10.207.0.222 as 65022;
+    passive yes;
 }
 protocol bgp icvpn_trier_refugee from ebgp_ic {
     neighbor 10.207.0.223 as 65022;
+    passive yes;
 }
 protocol bgp icvpn_troisdorf1 from ebgp_ic {
     neighbor 10.207.0.185 as 65066;
