@@ -39,6 +39,7 @@ roa fdca:ffee:ffda::/48      max  64 as      65038; # darmstadt
 roa fdc4:d762:2143::/48      max  64 as      64874; # donau-ries
 roa 2001:bf7:20::/44         max  64 as      65043; # dreilaendereck
 roa fd11:11ae:7466::/48      max  64 as      65051; # dresden
+roa 2001:bf7:130::/44        max  64 as      65138; # elm-lappwald
 roa 2001:bf7:100:2263::/64   max  64 as      65530; # engelskirchen (delegation)
 roa fddf:ebfd:a801:2263::/64 max  64 as      65530; # engelskirchen (delegation)
 roa fda0:747e:ab29:e054::/64 max  64 as      64869; # euskirchen
