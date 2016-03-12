@@ -62,6 +62,7 @@ protocol bgp icvpn_bremen4 from ebgp_ic {
 }
 protocol bgp icvpn_bremen5 from ebgp_ic {
     neighbor fec0::a:cf:5:c4 as 65196;
+    passive yes;
 }
 protocol bgp icvpn_bremen6 from ebgp_ic {
     neighbor fec0::a:cf:6:c4 as 65196;
@@ -139,6 +140,7 @@ protocol bgp icvpn_freiburg3 from ebgp_ic {
 }
 protocol bgp icvpn_fulda1 from ebgp_ic {
     neighbor fec0::a:cf:0:20 as 65142;
+    passive yes;
 }
 protocol bgp icvpn_gera_greiz1 from ebgp_ic {
     neighbor fec0::a:cf:0:b5 as 65181;
@@ -188,6 +190,7 @@ protocol bgp icvpn_hannover1 from ebgp_ic {
 }
 protocol bgp icvpn_harz1 from ebgp_ic {
     neighbor fec0::a:cf:0:b as 65134;
+    passive yes;
 }
 protocol bgp icvpn_hkt01 from ebgp_ic {
     neighbor fec0::a:cf:0:4 as 64864;
@@ -250,7 +253,6 @@ protocol bgp icvpn_luebeck2 from ebgp_ic {
 }
 protocol bgp icvpn_luxembourg1 from ebgp_ic {
     neighbor fec0::a:cf:a:65 as 64769;
-    passive yes;
 }
 protocol bgp icvpn_luxembourg2 from ebgp_ic {
     neighbor fec0::a:cf:a:66 as 64769;
@@ -269,6 +271,7 @@ protocol bgp icvpn_myk3 from ebgp_ic {
 }
 protocol bgp icvpn_moehne1 from ebgp_ic {
     neighbor fec0::a:cf:0:120 as 65057;
+    passive yes;
 }
 protocol bgp icvpn_muensterlandFusselkater from ebgp_ic {
     neighbor fec0::a:cf:0:44 as 65251;
@@ -313,19 +316,21 @@ protocol bgp icvpn_rheinufer3 from ebgp_ic {
 }
 protocol bgp icvpn_ruhrgebiet1 from ebgp_ic {
     neighbor fec0::a:cf:0:9 as 65079;
-    passive yes;
 }
 protocol bgp icvpn_trier1 from ebgp_ic {
     neighbor fec0::a:cf:0:dc as 65022;
 }
 protocol bgp icvpn_trier2 from ebgp_ic {
     neighbor fec0::a:cf:0:dd as 65022;
+    passive yes;
 }
 protocol bgp icvpn_trier3 from ebgp_ic {
     neighbor fec0::a:cf:0:de as 65022;
+    passive yes;
 }
 protocol bgp icvpn_trier_refugee from ebgp_ic {
     neighbor fec0::a:cf:0:df as 65022;
+    passive yes;
 }
 protocol bgp icvpn_troisdorf1 from ebgp_ic {
     neighbor fec0::a:cf:0:b9 as 65066;
