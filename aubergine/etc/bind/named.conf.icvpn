@@ -430,6 +430,17 @@ zone "213.10.in-addr.arpa" {
     server-addresses { 10.213.0.2; };
 };
 # 
+# dillingen
+# 
+zone "ffsl" {
+    type static-stub;
+    server-addresses { 10.55.55.55; 10.55.0.3; };
+};
+zone "0-63.55.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.55.55.55; 10.55.0.3; };
+};
+# 
 # dn42
 # 
 zone "dn42" {
