@@ -29,6 +29,9 @@ PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bi
 23 * * * * /usr/bin/python3 $HOME/clones/backend-scripts/gen_website_all.py > $HOME/.cronlog/gen_website.log
 23 5,23 * * * /usr/bin/python3 $HOME/clones/backend-scripts/snapshot_configs_all.py > $HOME/.cronlog/snapshot_configs.log
 42 19 * * 2 /usr/local/bin/photon-dangerous-selfupgrade.py --sudo --repos $HOME/clones/backend-scripts
+# ffapi
+23 * * * * $HOME/clones/ffflash/run_mwu.sh > $HOME/.cronlog/ffflash_run_mwu.log 2>&1
+32 */7 * * * $HOME/clones/backend-scripts/sync_ffapi_srv.py > $HOME/.cronlog/sync_ffapi.log
 # rtfm
 42 23 * * * $HOME/clones/backend-scripts/gen_documentation_srv.py > $HOME/.cronlog/gen_documentation.log
 # expansion map
@@ -36,6 +39,7 @@ PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bi
 # knotenalarm at twitter
 37 * * * * cd ~/clones/mz-knotenalarm && ~/clones/mz-knotenalarm/knotenalarm >> ~/.cronlog/mz-knotenalarm.log.cron 2>&1
 56 * * * * cd ~/clones/wi-knotenalarm && ~/clones/wi-knotenalarm/knotenalarm >> ~/.cronlog/wi-knotenalarm.log.cron 2>&1
-#Delete pending members
+# delete pending members
 28 2 * * * find /var/www/freifunk-mainz.de/mitglieder/pending_members -mindepth 1 -mtime +2 -exec rm {} \;
+# pull mz homepage
 33 * * * * $HOME/bin/pull_homepage.sh >> $HOME/tmp/log/homepage_pull.log.cron 2>&1
