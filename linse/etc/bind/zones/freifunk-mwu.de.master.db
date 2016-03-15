@@ -2,7 +2,7 @@
 ;
 $TTL	300
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2016030901		; Serial
+		     2016031501		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
