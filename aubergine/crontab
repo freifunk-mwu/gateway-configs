@@ -17,7 +17,7 @@ PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bi
 * * * * * $HOME/clones/ffnord-alfred-announce/announce.sh -i mzBR -b mzBAT -f mzVPN -u /var/run/alfred-mz.sock -s ffmz > /dev/null 2>&1
 * * * * * $HOME/clones/ffnord-alfred-announce/announce.sh -i wiBR -b wiBAT -f wiVPN -u /var/run/alfred-wi.sock -s ffwi > /dev/null 2>&1
 # nodes to zone
-*/15 * * * * /usr/bin/python3 $HOME/clones/alfred2zone/light/nodes_to_zone.py > $HOME/.cronlog/zone_from_alfred.log 2>&1
+*/5 * * * * /usr/bin/python3 $HOME/clones/alfred2zone/light/nodes_to_zone.py > $HOME/.cronlog/zone_from_alfred.log 2>&1
 # meshviewer
 * * * * * $HOME/clones/ffmap-backend/mkmap-mz.sh > /dev/null 2>&1
 * * * * * $HOME/clones/ffmap-backend/mkmap-wi.sh > /dev/null 2>&1
