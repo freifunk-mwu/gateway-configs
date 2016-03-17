@@ -230,11 +230,11 @@ ii  libntlm0:amd64                   1.4-1                            amd64     
 ii  libopts25:amd64                  1:5.18-2ubuntu2                  amd64        automated option processing library based on autogen
 ii  libp11-kit0:amd64                0.20.2-2ubuntu2                  amd64        Library for loading and coordinating access to PKCS#11 modules - runtime
 ii  libpam-cap:amd64                 1:2.24-0ubuntu2                  amd64        PAM module for implementing capabilities
-ii  libpam-modules:amd64             1.1.8-1ubuntu2                   amd64        Pluggable Authentication Modules for PAM
-ii  libpam-modules-bin               1.1.8-1ubuntu2                   amd64        Pluggable Authentication Modules for PAM - helper binaries
-ii  libpam-runtime                   1.1.8-1ubuntu2                   all          Runtime support for the PAM library
+ii  libpam-modules:amd64             1.1.8-1ubuntu2.2                 amd64        Pluggable Authentication Modules for PAM
+ii  libpam-modules-bin               1.1.8-1ubuntu2.2                 amd64        Pluggable Authentication Modules for PAM - helper binaries
+ii  libpam-runtime                   1.1.8-1ubuntu2.2                 all          Runtime support for the PAM library
 ii  libpam-systemd:amd64             204-5ubuntu20.18                 amd64        system and service manager - PAM module
-ii  libpam0g:amd64                   1.1.8-1ubuntu2                   amd64        Pluggable Authentication Modules library
+ii  libpam0g:amd64                   1.1.8-1ubuntu2.2                 amd64        Pluggable Authentication Modules library
 ii  libparse-debianchangelog-perl    1.2.0-1ubuntu1                   all          parse Debian changelogs and output them in other formats
 ii  libpci3:amd64                    1:3.2.1-1ubuntu5.1               amd64        Linux PCI Utilities (shared library)
 ii  libpcre3:amd64                   1:8.31-2ubuntu2.1                amd64        Perl 5 Compatible Regular Expression Library - runtime files
