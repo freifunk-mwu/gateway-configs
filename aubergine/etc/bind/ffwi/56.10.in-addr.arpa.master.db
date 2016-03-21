@@ -3,7 +3,7 @@ $ORIGIN 56.10.in-addr.arpa.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffwi.org. hostmaster.ffwi.org. (
-                     2016022801         ; Serial
+                     2016032100         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -26,9 +26,16 @@ $TTL    600
 3.1	PTR	aubergine.ffwi.org.
 
 ; bb nodes
-70.2	PTR	sim-sueden.bb.ffwi.org.
-72.2	PTR	ffmwu-sim-haus-b.bb.ffwi.org.
-73.2	PTR	ffmwu-sim-haus-e.bb.ffwi.org.
+30.2	PTR	ffmwu-hsrm-fw1.bb.ffwi.org.
+31.2	PTR	ffmwu-fw1-hsrm.bb.ffwi.org.
+60.2	PTR	ffmwu-hsk-sim.bb.ffwi.org.
+61.2	PTR	ffmwu-hsk-opelbad.bb.ffwi.org.
+63.2	PTR	ffmwu-opelbad-hsk.bb.ffwi.org.
+64.2	PTR	ffmwu-opelbad-fw1.bb.ffwi.org.
+65.2	PTR	ffmwu-fw1-opelbad.bb.ffwi.org.
+70.2	PTR	ffmwu-sim-hsk.bb.ffwi.org.
+72.2	PTR	ffmwu-simhausb-simhause.bb.ffwi.org.
+73.2	PTR	ffmwu-simhause-simhausb.bb.ffwi.org.
 80.2	PTR	sim-server.bb.ffwi.org.
 81.2	PTR	sim-server-ilo.bb.ffwi.org.
 82.2	PTR	sim-poeswitch.bb.ffwi.org.
