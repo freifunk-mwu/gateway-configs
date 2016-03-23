@@ -103,8 +103,8 @@ ii  geoip-database                      20140313-1                          all 
 ii  gettext-base                        0.18.3.1-1ubuntu3                   amd64        GNU Internationalization utilities for the base system
 ii  ghostscript                         9.10~dfsg-0ubuntu10.4               amd64        interpreter for the PostScript language and for PDF
 ii  gir1.2-glib-2.0                     1.40.0-1ubuntu0.2                   amd64        Introspection data for GLib, GObject, Gio and GModule
-ii  git                                 1:1.9.1-1ubuntu0.2                  amd64        fast, scalable, distributed revision control system
-ii  git-man                             1:1.9.1-1ubuntu0.2                  all          fast, scalable, distributed revision control system (manual pages)
+ii  git                                 1:1.9.1-1ubuntu0.3                  amd64        fast, scalable, distributed revision control system
+ii  git-man                             1:1.9.1-1ubuntu0.3                  all          fast, scalable, distributed revision control system (manual pages)
 ii  gnupg                               1.4.16-1ubuntu2.3                   amd64        GNU privacy guard - a free PGP replacement
 ii  golang                              2:1.4.2                             all          Go programming language compiler - metapackage
 ii  golang-doc                          2:1.4.2                             all          Go programming language compiler - documentation
@@ -801,7 +801,7 @@ ii  time                                1.7-24                              amd6
 ii  tinymce                             3.4.8+dfsg0-1                       all          platform independent web based Javascript/HTML WYSIWYG editor
 ii  tmux                                1.8-5                               amd64        terminal multiplexer
 ii  ttf-dejavu-core                     2.34-1ubuntu1                       all          transitional dummy package
-ii  tzdata                              2015g-0ubuntu0.14.04                all          time zone and daylight-saving time data
+ii  tzdata                              2016b-0ubuntu0.14.04                all          time zone and daylight-saving time data
 ii  ubuntu-keyring                      2012.05.19                          all          GnuPG keys of the Ubuntu archive
 ii  ubuntu-minimal                      1.325                               amd64        Minimal core of Ubuntu
 ii  ubuntu-release-upgrader-core        1:0.220.8                           all          manage release upgrades
@@ -815,7 +815,7 @@ ii  update-manager-core                 1:0.196.14                          all 
 ii  update-notifier-common              0.154.1ubuntu1                      all          Files shared between update-notifier and other packages
 ii  upstart                             1.12.1-0ubuntu4.2                   amd64        event-based init daemon
 ii  ureadahead                          0.100.0-16                          amd64        Read required files in advance
-ii  usbutils                            1:007-2ubuntu1                      amd64        Linux USB utilities
+ii  usbutils                            1:007-2ubuntu1.1                    amd64        Linux USB utilities
 ii  util-linux                          2.20.1-5.1ubuntu20.7                amd64        Miscellaneous system utilities
 ii  uuid                                1.6.2-1.3ubuntu1                    amd64        the Universally Unique Identifier Command-Line Tool
 ii  uuid-runtime                        2.20.1-5.1ubuntu20.7                amd64        runtime components for the Universally Unique ID library
