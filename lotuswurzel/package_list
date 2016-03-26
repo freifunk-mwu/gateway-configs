@@ -6,7 +6,7 @@ Desired=Unknown/Install/Remove/Purge/Hold
 ii  acl                                  2.2.52-1                             amd64        Access control list utilities
 ii  acpid                                1:2.0.21-1ubuntu2                    amd64        Advanced Configuration and Power Interface event daemon
 ii  adduser                              3.113+nmu3ubuntu3                    all          add and remove users and groups
-ii  alfred                               2015.2-0ffmwu0~trusty                amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
+ii  alfred                               2016.0-0ffmwu0~trusty                amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
 ii  alfred-json                          0.3.1-0ffmwu1~trusty                 amd64        A.L.F.R.E.D client supporting GZIP decompression and JSON, string and binary output
 ii  apache2                              2.4.7-1ubuntu4.9                     amd64        Apache HTTP Server
 ii  apache2-bin                          2.4.7-1ubuntu4.9                     amd64        Apache HTTP Server (binary files and modules)
@@ -30,9 +30,9 @@ ii  autotools-dev                        20130810.1                           al
 ii  base-files                           7.2ubuntu5.4                         amd64        Debian base system miscellaneous files
 ii  base-passwd                          3.5.33                               amd64        Debian base system master password and group files
 ii  bash                                 4.3-7ubuntu1.5                       amd64        GNU Bourne Again SHell
-ii  batadv-vis                           2015.2-0ffmwu0~trusty                amd64        batadv-vis - visualize your batman-adv mesh network
-ii  batctl                               2015.2-0ffmwu0~trusty                amd64        B.A.T.M.A.N. advanced control and management tool
-ii  batman-adv-dkms                      2015.2-0ffmwu0~trusty                all          DKMS Source for the batman-advanced kernel module
+ii  batadv-vis                           2016.0-0ffmwu0~trusty                amd64        batadv-vis - visualize your batman-adv mesh network
+ii  batctl                               2016.0-0ffmwu0~trusty                amd64        B.A.T.M.A.N. advanced control and management tool
+ii  batman-adv-dkms                      2016.0-0ffmwu0~trusty                all          DKMS Source for the batman-advanced kernel module
 ii  bc                                   1.06.95-8ubuntu1                     amd64        GNU bc arbitrary precision calculator language
 ii  bind9                                1:9.9.5.dfsg-3ubuntu0.8              amd64        Internet Domain Name Server
 ii  bind9-host                           1:9.9.5.dfsg-3ubuntu0.8              amd64        Version of 'host' bundled with BIND 9.X
@@ -53,7 +53,7 @@ ii  ca-certificates                      20160104ubuntu0.14.04.1              al
 ii  check-mk-agent                       1.2.6p5-1                            all          Check_MK Agent for Linux
 ii  check-mk-agent-logwatch              1.2.2p3-1                            amd64        general purpose nagios-plugin for retrieving data
 ii  console-setup                        1.70ubuntu8                          all          console font and keymap setup program
-ii  coreutils                            8.21-1ubuntu5.3                      amd64        GNU core utilities
+ii  coreutils                            8.21-1ubuntu5.4                      amd64        GNU core utilities
 ii  cpio                                 2.11+dfsg-1ubuntu1.2                 amd64        GNU cpio -- a program to manage archives of files
 ii  cpp                                  4:4.8.2-1ubuntu6                     amd64        GNU C preprocessor (cpp)
 ii  cpp-4.8                              4.8.4-2ubuntu1~14.04.1               amd64        GNU C preprocessor
@@ -120,8 +120,8 @@ ii  htop                                 1.0.2-3                              am
 ii  iftop                                1.0~pre2-5                           amd64        displays bandwidth usage information on an network interface
 ii  ifupdown                             0.7.47.2ubuntu4.4                    amd64        high level tools to configure network interfaces
 ii  init-system-helpers                  1.14                                 all          helper tools for all init systems
-ii  initramfs-tools                      0.103ubuntu4.2                       all          tools for generating an initramfs
-ii  initramfs-tools-bin                  0.103ubuntu4.2                       amd64        binaries used by initramfs-tools
+ii  initramfs-tools                      0.103ubuntu4.3                       all          tools for generating an initramfs
+ii  initramfs-tools-bin                  0.103ubuntu4.3                       amd64        binaries used by initramfs-tools
 ii  initscripts                          2.88dsf-41ubuntu6.3                  amd64        scripts for initializing and shutting down the system
 ii  insserv                              1.14.0-5ubuntu2                      amd64        boot sequence organizer using LSB init.d script dependency information
 ii  installation-report                  2.54ubuntu1                          all          system installation report
@@ -183,8 +183,8 @@ ii  libc6:amd64                          2.19-0ubuntu6.7                      am
 ii  libc6-dev:amd64                      2.19-0ubuntu6.7                      amd64        Embedded GNU C Library: Development Libraries and Header Files
 ii  libcairo2:amd64                      1.13.0~20140204-0ubuntu1.1           amd64        The Cairo 2D vector graphics library
 rc  libcap-ng0                           0.7.3-1ubuntu2                       amd64        An alternate POSIX capabilities library
-ii  libcap2:amd64                        1:2.24-0ubuntu2                      amd64        support for getting/setting POSIX.1e capabilities
-ii  libcap2-bin                          1:2.24-0ubuntu2                      amd64        basic utility programs for using capabilities
+ii  libcap2:amd64                        1:2.24-0ubuntu5                      amd64        support for getting/setting POSIX.1e capabilities
+ii  libcap2-bin                          1:2.24-0ubuntu5                      amd64        basic utility programs for using capabilities
 ii  libcgmanager0:amd64                  0.24-0ubuntu7.5                      amd64        Central cgroup manager daemon (client library)
 ii  libck-connector0:amd64               0.4.5-3.1ubuntu2                     amd64        ConsoleKit libraries
 ii  libclass-accessor-perl               0.34-1                               all          Perl module that automatically generates accessors
