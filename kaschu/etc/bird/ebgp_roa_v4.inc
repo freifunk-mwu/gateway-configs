@@ -87,6 +87,7 @@ roa 10.59.0.0/21    max  21 as      65041; # leipzig
 roa 10.59.16.0/20   max  20 as      65041; # leipzig
 roa 10.61.0.0/16    max  20 as      65041; # leipzig
 roa 10.76.0.0/16    max  20 as      65530; # leverkusen (delegation)
+roa 10.44.0.0/18    max  20 as      64882; # limburg
 roa 10.141.0.0/17   max  20 as      65530; # lindlar (delegation)
 roa 10.14.0.0/16    max  20 as      65023; # ljubljana
 roa 10.254.0.0/16   max  20 as      65023; # ljubljana
@@ -103,6 +104,7 @@ roa 10.80.0.0/16    max  20 as      65080; # muenchen
 roa 10.43.0.0/16    max  20 as      65251; # muensterland
 roa 10.1.160.0/20   max  20 as      64856; # muensterstadt
 roa 10.169.0.0/16   max  20 as      65534; # mueritz
+roa 10.46.0.0/18    max  20 as      64883; # neuwied
 roa 10.187.0.0/16   max  20 as      65187; # nord
 roa 10.18.0.0/16    max  20 as      65513; # nordwest
 roa 10.135.0.0/16   max  20 as      65152; # ostholstein
