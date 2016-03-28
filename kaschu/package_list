@@ -7,7 +7,7 @@ ii  accountsservice                     0.6.35-0ubuntu7.2                amd64  
 ii  acl                                 2.2.52-1                         amd64        Access control list utilities
 ii  acpid                               1:2.0.21-1ubuntu2                amd64        Advanced Configuration and Power Interface event daemon
 ii  adduser                             3.113+nmu3ubuntu3                all          add and remove users and groups
-ii  alfred                              2015.2-0ffmwu0~trusty            amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
+ii  alfred                              2016.0-0ffmwu0~trusty            amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
 ii  alfred-json                         0.3.1-0ffmwu1~trusty             amd64        A.L.F.R.E.D client supporting GZIP decompression and JSON, string and binary output
 ii  apache2                             2.4.7-1ubuntu4.9                 amd64        Apache HTTP Server
 ii  apache2-bin                         2.4.7-1ubuntu4.9                 amd64        Apache HTTP Server (binary files and modules)
@@ -26,9 +26,9 @@ ii  base-files                          7.2ubuntu5.4                     amd64  
 ii  base-passwd                         3.5.33                           amd64        Debian base system master password and group files
 ii  bash                                4.3-7ubuntu1.5                   amd64        GNU Bourne Again SHell
 ii  bash-completion                     1:2.1-4ubuntu0.1                 all          programmable completion for the bash shell
-ii  batadv-vis                          2015.2-0ffmwu0~trusty            amd64        batadv-vis - visualize your batman-adv mesh network
-ii  batctl                              2015.2-0ffmwu0~trusty            amd64        B.A.T.M.A.N. advanced control and management tool
-ii  batman-adv-dkms                     2015.2-0ffmwu0~trusty            all          DKMS Source for the batman-advanced kernel module
+ii  batadv-vis                          2016.0-0ffmwu0~trusty            amd64        batadv-vis - visualize your batman-adv mesh network
+ii  batctl                              2016.0-0ffmwu0~trusty            amd64        B.A.T.M.A.N. advanced control and management tool
+ii  batman-adv-dkms                     2016.0-0ffmwu0~trusty            all          DKMS Source for the batman-advanced kernel module
 ii  bc                                  1.06.95-8ubuntu1                 amd64        GNU bc arbitrary precision calculator language
 ii  bind9                               1:9.9.5.dfsg-3ubuntu0.8          amd64        Internet Domain Name Server
 ii  bind9-doc                           1:9.9.5.dfsg-3ubuntu0.8          all          Documentation for BIND
@@ -51,7 +51,7 @@ ii  check-mk-agent                      1.2.6p5-1                        all    
 ii  command-not-found                   0.3ubuntu12                      all          Suggest installation of packages in interactive bash sessions
 ii  command-not-found-data              0.3ubuntu12                      amd64        Set of data files for command-not-found.
 ii  console-setup                       1.70ubuntu8                      all          console font and keymap setup program
-ii  coreutils                           8.21-1ubuntu5.3                  amd64        GNU core utilities
+ii  coreutils                           8.21-1ubuntu5.4                  amd64        GNU core utilities
 ii  cpio                                2.11+dfsg-1ubuntu1.2             amd64        GNU cpio -- a program to manage archives of files
 ii  cpp                                 4:4.8.2-1ubuntu6                 amd64        GNU C preprocessor (cpp)
 ii  cpp-4.8                             4.8.4-2ubuntu1~14.04.1           amd64        GNU C preprocessor
@@ -123,8 +123,8 @@ ii  iftop                               1.0~pre2-5                       amd64  
 ii  ifupdown                            0.7.47.2ubuntu4.4                amd64        high level tools to configure network interfaces
 ii  info                                5.2.0.dfsg.1-2                   amd64        Standalone GNU Info documentation browser
 ii  init-system-helpers                 1.14                             all          helper tools for all init systems
-ii  initramfs-tools                     0.103ubuntu4.2                   all          tools for generating an initramfs
-ii  initramfs-tools-bin                 0.103ubuntu4.2                   amd64        binaries used by initramfs-tools
+ii  initramfs-tools                     0.103ubuntu4.3                   all          tools for generating an initramfs
+ii  initramfs-tools-bin                 0.103ubuntu4.3                   amd64        binaries used by initramfs-tools
 ii  initscripts                         2.88dsf-41ubuntu6.3              amd64        scripts for initializing and shutting down the system
 ii  insserv                             1.14.0-5ubuntu2                  amd64        boot sequence organizer using LSB init.d script dependency information
 ii  install-info                        5.2.0.dfsg.1-2                   amd64        Manage installed documentation in info format
@@ -654,7 +654,7 @@ ii  update-manager-core                 1:0.196.14                       all    
 ii  update-notifier-common              0.154.1ubuntu1                   all          Files shared between update-notifier and other packages
 ii  upstart                             1.12.1-0ubuntu4.2                amd64        event-based init daemon
 ii  ureadahead                          0.100.0-16                       amd64        Read required files in advance
-ii  usbutils                            1:007-2ubuntu1                   amd64        Linux USB utilities
+ii  usbutils                            1:007-2ubuntu1.1                 amd64        Linux USB utilities
 ii  util-linux                          2.20.1-5.1ubuntu20.7             amd64        Miscellaneous system utilities
 ii  uuid-runtime                        2.20.1-5.1ubuntu20.7             amd64        runtime components for the Universally Unique ID library
 ii  vim                                 2:7.4.052-1ubuntu3               amd64        Vi IMproved - enhanced vi editor
