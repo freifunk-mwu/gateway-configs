@@ -3,7 +3,7 @@ $ORIGIN 56.10.in-addr.arpa.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffwi.org. hostmaster.ffwi.org. (
-                     2016032100         ; Serial
+                     2016033000         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -48,5 +48,6 @@ $TTL    600
 42.4	PTR	stonegate.user.ffwi.org.
 53.4	PTR	camp.user.ffwi.org.
 56.4	PTR	brunhilde.user.ffwi.org.
+88.4	PTR	magic.user.ffwi.org.
 99.4	PTR	piratebox.user.ffwi.org.
 100.4	PTR	blizzard.user.ffwi.org.
