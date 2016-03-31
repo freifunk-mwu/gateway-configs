@@ -456,8 +456,6 @@ ii  linux-headers-3.13.0-59              3.13.0-59.98                         al
 ii  linux-headers-3.13.0-59-generic      3.13.0-59.98                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-61              3.13.0-61.100                        all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-61-generic      3.13.0-61.100                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-77              3.13.0-77.121                        all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-77-generic      3.13.0-77.121                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-79              3.13.0-79.123                        all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-79-generic      3.13.0-79.123                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-83              3.13.0-83.127                        all          Header files related to Linux kernel version 3.13.0
@@ -503,7 +501,7 @@ rc  linux-image-3.13.0-71-generic        3.13.0-71.114                        am
 rc  linux-image-3.13.0-73-generic        3.13.0-73.116                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-74-generic        3.13.0-74.118                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-76-generic        3.13.0-76.120                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-77-generic        3.13.0-77.121                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-77-generic        3.13.0-77.121                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-79-generic        3.13.0-79.123                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-83-generic        3.13.0-83.127                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-79-generic  3.13.0-79.123                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
