@@ -237,7 +237,7 @@ ii  libpam-systemd:amd64             204-5ubuntu20.18                 amd64     
 ii  libpam0g:amd64                   1.1.8-1ubuntu2.2                 amd64        Pluggable Authentication Modules library
 ii  libparse-debianchangelog-perl    1.2.0-1ubuntu1                   all          parse Debian changelogs and output them in other formats
 ii  libpci3:amd64                    1:3.2.1-1ubuntu5.1               amd64        Linux PCI Utilities (shared library)
-ii  libpcre3:amd64                   1:8.31-2ubuntu2.1                amd64        Perl 5 Compatible Regular Expression Library - runtime files
+ii  libpcre3:amd64                   1:8.31-2ubuntu2.2                amd64        Perl 5 Compatible Regular Expression Library - runtime files
 ii  libpcsclite1:amd64               1.8.10-1ubuntu1                  amd64        Middleware to access a smart card using PC/SC (library)
 ii  libplymouth2:amd64               0.8.8-0ubuntu17.1                amd64        graphical boot animation and logger - shared libraries
 ii  libpng12-0:amd64                 1.2.50-1ubuntu2.14.04.2          amd64        PNG library - runtime
@@ -502,7 +502,7 @@ ii  tasksel                          2.88ubuntu15                     all       
 ii  tasksel-data                     2.88ubuntu15                     all          Official tasks used for installation of Debian systems
 ii  tcpd                             7.6.q-25                         amd64        Wietse Venema's TCP wrapper utilities
 ii  tmux                             1.8-5                            amd64        terminal multiplexer
-ii  tzdata                           2016b-0ubuntu0.14.04             all          time zone and daylight-saving time data
+ii  tzdata                           2016c-0ubuntu0.14.04             all          time zone and daylight-saving time data
 ii  ubuntu-keyring                   2012.05.19                       all          GnuPG keys of the Ubuntu archive
 ii  ubuntu-minimal                   1.325                            amd64        Minimal core of Ubuntu
 ii  ucf                              3.0027+nmu1                      all          Update Configuration File(s): preserve user changes to config files
