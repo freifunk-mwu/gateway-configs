@@ -417,7 +417,7 @@ ii  ncurses-term                        5.9+20140118-1ubuntu1            all    
 ii  net-tools                           1.60-25ubuntu2.1                 amd64        The NET-3 networking toolkit
 ii  netbase                             5.2                              all          Basic TCP/IP networking system
 ii  netcat-openbsd                      1.105-7ubuntu1                   amd64        TCP/IP swiss army knife
-ii  nfs-common                          1:1.2.8-6ubuntu1.2               amd64        NFS support files common to client and server
+rc  nfs-common                          1:1.2.8-6ubuntu1.2               amd64        NFS support files common to client and server
 ii  nmap                                6.40-0.2ubuntu1                  amd64        The Network Mapper
 ii  ntp                                 1:4.2.6.p5+dfsg-3ubuntu2.14.04.8 amd64        Network Time Protocol daemon and utility programs
 ii  ntpdate                             1:4.2.6.p5+dfsg-3ubuntu2.14.04.8 amd64        client for setting system time from NTP servers
@@ -486,7 +486,7 @@ ii  python3.4-minimal                   3.4.3-1ubuntu1~14.04.3           amd64  
 ii  radvd                               1:1.9.1-1.1ubuntu2               amd64        Router Advertisement Daemon
 ii  readline-common                     6.3-4ubuntu2                     all          GNU readline and history libraries, common files
 ii  resolvconf                          1.69ubuntu1.1                    all          name server information handler
-ii  rpcbind                             0.2.1-2ubuntu2.2                 amd64        converts RPC program numbers into universal addresses
+rc  rpcbind                             0.2.1-2ubuntu2.2                 amd64        converts RPC program numbers into universal addresses
 ii  rrdtool                             1.4.7-2ubuntu5                   amd64        time-series data storage and display system (programs)
 ii  rsync                               3.1.0-2ubuntu0.2                 amd64        fast, versatile, remote (and local) file-copying tool
 ii  rsyslog                             7.4.4-1ubuntu2.6                 amd64        reliable system and kernel logging daemon
