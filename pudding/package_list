@@ -30,7 +30,7 @@ ii  bash-completion                     1:2.1-4ubuntu0.1                     all
 ii  bc                                  1.06.95-8ubuntu1                     amd64        GNU bc arbitrary precision calculator language
 ii  bind9-host                          1:9.9.5.dfsg-3ubuntu0.8              amd64        Version of 'host' bundled with BIND 9.X
 ii  binutils                            2.24-5ubuntu14                       amd64        GNU assembler, linker and binary utilities
-ii  biosdevname                         0.4.1-0ubuntu6.2                     amd64        apply BIOS-given names to network devices
+ii  biosdevname                         0.4.1-0ubuntu6.3                     amd64        apply BIOS-given names to network devices
 ii  bison                               2:3.0.2.dfsg-2                       amd64        YACC-compatible parser generator
 ii  bsd-mailx                           8.1.2-0.20131005cvs-1ubuntu0.14.04.1 amd64        simple mail user agent
 ii  bsdmainutils                        9.0.5ubuntu1                         amd64        collection of more utilities from FreeBSD
@@ -48,7 +48,7 @@ ii  comerr-dev                          2.1-1.42.9-3ubuntu1.3                amd
 ii  command-not-found                   0.3ubuntu12                          all          Suggest installation of packages in interactive bash sessions
 ii  command-not-found-data              0.3ubuntu12                          amd64        Set of data files for command-not-found.
 ii  console-setup                       1.70ubuntu8                          all          console font and keymap setup program
-ii  coreutils                           8.21-1ubuntu5.3                      amd64        GNU core utilities
+ii  coreutils                           8.21-1ubuntu5.4                      amd64        GNU core utilities
 ii  cpio                                2.11+dfsg-1ubuntu1.2                 amd64        GNU cpio -- a program to manage archives of files
 ii  cpp                                 4:4.8.2-1ubuntu6                     amd64        GNU C preprocessor (cpp)
 ii  cpp-4.8                             4.8.4-2ubuntu1~14.04.1               amd64        GNU C preprocessor
@@ -106,8 +106,8 @@ ii  geoip-database                      20140313-1                           all
 ii  gettext                             0.18.3.1-1ubuntu3                    amd64        GNU Internationalization utilities
 ii  gettext-base                        0.18.3.1-1ubuntu3                    amd64        GNU Internationalization utilities for the base system
 ii  gir1.2-glib-2.0                     1.40.0-1ubuntu0.2                    amd64        Introspection data for GLib, GObject, Gio and GModule
-ii  git                                 1:2.7.2-0ppa1~ubuntu14.04.1          amd64        fast, scalable, distributed revision control system
-ii  git-man                             1:2.7.2-0ppa1~ubuntu14.04.1          all          fast, scalable, distributed revision control system (manual pages)
+ii  git                                 1:2.8.0-0ppa1~ubuntu14.04.1          amd64        fast, scalable, distributed revision control system
+ii  git-man                             1:2.8.0-0ppa1~ubuntu14.04.1          all          fast, scalable, distributed revision control system (manual pages)
 ii  gnupg                               1.4.16-1ubuntu2.3                    amd64        GNU privacy guard - a free PGP replacement
 ii  gpgv                                1.4.16-1ubuntu2.3                    amd64        GNU privacy guard - signature verification tool
 ii  grep                                2.16-1                               amd64        GNU grep, egrep and fgrep
@@ -122,11 +122,11 @@ ii  hdparm                              9.43-1ubuntu3                        amd
 ii  help2man                            1.44.1                               amd64        Automatic manpage generator
 ii  hostname                            3.15ubuntu1                          amd64        utility to set/show the host name or domain name
 ii  htop                                1.0.2-3                              amd64        interactive processes viewer
-ii  ifupdown                            0.7.47.2ubuntu4.3                    amd64        high level tools to configure network interfaces
+ii  ifupdown                            0.7.47.2ubuntu4.4                    amd64        high level tools to configure network interfaces
 ii  info                                5.2.0.dfsg.1-2                       amd64        Standalone GNU Info documentation browser
 ii  init-system-helpers                 1.14                                 all          helper tools for all init systems
-ii  initramfs-tools                     0.103ubuntu4.2                       all          tools for generating an initramfs
-ii  initramfs-tools-bin                 0.103ubuntu4.2                       amd64        binaries used by initramfs-tools
+ii  initramfs-tools                     0.103ubuntu4.3                       all          tools for generating an initramfs
+ii  initramfs-tools-bin                 0.103ubuntu4.3                       amd64        binaries used by initramfs-tools
 ii  initscripts                         2.88dsf-41ubuntu6.3                  amd64        scripts for initializing and shutting down the system
 ii  insserv                             1.14.0-5ubuntu2                      amd64        boot sequence organizer using LSB init.d script dependency information
 ii  install-info                        5.2.0.dfsg.1-2                       amd64        Manage installed documentation in info format
@@ -370,7 +370,7 @@ ii  libnih-dbus1:amd64                  1.0.3-4ubuntu25                      amd
 ii  libnih1:amd64                       1.0.3-4ubuntu25                      amd64        NIH Utility Library
 ii  libnl-3-200:amd64                   3.2.21-1                             amd64        library for dealing with netlink sockets
 ii  libnl-genl-3-200:amd64              3.2.21-1                             amd64        library for dealing with netlink sockets - generic netlink
-ii  libnuma1:amd64                      2.0.9~rc5-1ubuntu3.14.04.1           amd64        Libraries for controlling NUMA policy
+ii  libnuma1:amd64                      2.0.9~rc5-1ubuntu3.14.04.2           amd64        Libraries for controlling NUMA policy
 rc  libodbc1:amd64                      2.2.14p2-5ubuntu5                    amd64        ODBC library for Unix
 rc  libopenipmi0                        2.0.18-0ubuntu7.1                    amd64        Intelligent Platform Management Interface - runtime
 ii  libopts25:amd64                     1:5.18-2ubuntu2                      amd64        automated option processing library based on autogen
@@ -553,10 +553,6 @@ ii  linux-headers-3.13.0-62             3.13.0-62.102                        all
 ii  linux-headers-3.13.0-62-generic     3.13.0-62.102                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-63             3.13.0-63.103                        all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-63-generic     3.13.0-63.103                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-74             3.13.0-74.118                        all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-74-generic     3.13.0-74.118                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-77             3.13.0-77.121                        all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-77-generic     3.13.0-77.121                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-79             3.13.0-79.123                        all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-79-generic     3.13.0-79.123                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-83             3.13.0-83.127                        all          Header files related to Linux kernel version 3.13.0
@@ -591,9 +587,9 @@ rc  linux-image-3.13.0-68-generic       3.13.0-68.111                        amd
 rc  linux-image-3.13.0-70-generic       3.13.0-70.113                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-71-generic       3.13.0-71.114                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-73-generic       3.13.0-73.116                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-74-generic       3.13.0-74.118                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-74-generic       3.13.0-74.118                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-76-generic       3.13.0-76.120                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-77-generic       3.13.0-77.121                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-77-generic       3.13.0-77.121                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-79-generic       3.13.0-79.123                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-83-generic       3.13.0-83.127                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-24-generic 3.13.0-24.47                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
@@ -625,9 +621,9 @@ rc  linux-image-extra-3.13.0-68-generic 3.13.0-68.111                        amd
 rc  linux-image-extra-3.13.0-70-generic 3.13.0-70.113                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-71-generic 3.13.0-71.114                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-73-generic 3.13.0-73.116                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-74-generic 3.13.0-74.118                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-74-generic 3.13.0-74.118                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-76-generic 3.13.0-76.120                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-77-generic 3.13.0-77.121                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-77-generic 3.13.0-77.121                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-79-generic 3.13.0-79.123                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-83-generic 3.13.0-83.127                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-generic                 3.13.0.83.89                         amd64        Generic Linux kernel image
@@ -651,10 +647,6 @@ ii  linux-tools-3.13.0-62               3.13.0-62.102                        amd
 ii  linux-tools-3.13.0-62-generic       3.13.0-62.102                        amd64        Linux kernel version specific tools for version 3.13.0-62
 ii  linux-tools-3.13.0-63               3.13.0-63.103                        amd64        Linux kernel version specific tools for version 3.13.0-63
 ii  linux-tools-3.13.0-63-generic       3.13.0-63.103                        amd64        Linux kernel version specific tools for version 3.13.0-63
-ii  linux-tools-3.13.0-74               3.13.0-74.118                        amd64        Linux kernel version specific tools for version 3.13.0-74
-ii  linux-tools-3.13.0-74-generic       3.13.0-74.118                        amd64        Linux kernel version specific tools for version 3.13.0-74
-ii  linux-tools-3.13.0-77               3.13.0-77.121                        amd64        Linux kernel version specific tools for version 3.13.0-77
-ii  linux-tools-3.13.0-77-generic       3.13.0-77.121                        amd64        Linux kernel version specific tools for version 3.13.0-77
 ii  linux-tools-3.13.0-79               3.13.0-79.123                        amd64        Linux kernel version specific tools for version 3.13.0-79
 ii  linux-tools-3.13.0-79-generic       3.13.0-79.123                        amd64        Linux kernel version specific tools for version 3.13.0-79
 ii  linux-tools-3.13.0-83               3.13.0-83.127                        amd64        Linux kernel version specific tools for version 3.13.0-83
@@ -866,7 +858,7 @@ ii  update-manager-core                 1:0.196.14                           all
 ii  update-notifier-common              0.154.1ubuntu1                       all          Files shared between update-notifier and other packages
 ii  upstart                             1.12.1-0ubuntu4.2                    amd64        event-based init daemon
 ii  ureadahead                          0.100.0-16                           amd64        Read required files in advance
-ii  usbutils                            1:007-2ubuntu1                       amd64        Linux USB utilities
+ii  usbutils                            1:007-2ubuntu1.1                     amd64        Linux USB utilities
 ii  util-linux                          2.20.1-5.1ubuntu20.7                 amd64        Miscellaneous system utilities
 ii  uuid-dev                            2.20.1-5.1ubuntu20.7                 amd64        universally unique id library - headers and static libraries
 ii  uuid-runtime                        2.20.1-5.1ubuntu20.7                 amd64        runtime components for the Universally Unique ID library
