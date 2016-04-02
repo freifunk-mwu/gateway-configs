@@ -97,6 +97,7 @@ roa 10.24.128.0/18  max  20 as      64769; # luxembourg
 roa 10.139.0.0/16   max  20 as      65039; # magdeburg
 roa 10.128.0.0/18   max  20 as      64877; # marburg
 roa 10.222.0.0/16   max  20 as      65032; # mayen-koblenz
+roa 10.55.128.0/18  max  20 as      65002; # merzig
 roa 10.1.192.0/18   max  20 as      64863; # mettmann
 roa 10.27.0.0/16    max  20 as      65057; # moehne
 roa 10.30.0.0/18    max  20 as      65084; # montabaur
@@ -104,6 +105,7 @@ roa 10.80.0.0/16    max  20 as      65080; # muenchen
 roa 10.43.0.0/16    max  20 as      65251; # muensterland
 roa 10.1.160.0/20   max  20 as      64856; # muensterstadt
 roa 10.169.0.0/16   max  20 as      65534; # mueritz
+roa 10.55.192.0/18  max  20 as      65003; # neunkirchen
 roa 10.46.0.0/18    max  20 as      64883; # neuwied
 roa 10.187.0.0/16   max  20 as      65187; # nord
 roa 10.18.0.0/16    max  20 as      65513; # nordwest
@@ -143,6 +145,7 @@ roa 10.229.0.0/16   max  20 as      65405; # ruhrgebiet (delegation)
 roa 10.226.0.0/16   max  20 as      65407; # ruhrgebiet (delegation)
 roa 10.24.192.0/18  max  20 as      64770; # saar
 roa 10.252.64.0/18  max  20 as      64770; # saar
+roa 10.55.64.0/18   max  20 as      65001; # saarlouis
 roa 10.6.0.0/16     max  20 as      65530; # solingen (delegation)
 roa 10.190.0.0/15   max  20 as      65019; # stuttgart
 roa 10.215.0.0/16   max  20 as      65083; # suedpfalz

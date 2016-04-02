@@ -362,27 +362,27 @@ zone "f.3.4.7.0.7.4.0.1.0.0.2.ip6.arpa" {
 # 
 zone "hack" {
     type static-stub;
-    server-addresses { 172.31.0.5; };
+    server-addresses { 172.31.255.53; };
 };
 zone "31.172.in-addr.arpa" {
     type static-stub;
-    server-addresses { 172.31.0.5; };
+    server-addresses { 172.31.255.53; };
 };
 zone "100.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 172.31.0.5; };
+    server-addresses { 172.31.255.53; };
 };
 zone "101.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 172.31.0.5; };
+    server-addresses { 172.31.255.53; };
 };
 zone "102.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 172.31.0.5; };
+    server-addresses { 172.31.255.53; };
 };
 zone "103.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 172.31.0.5; };
+    server-addresses { 172.31.255.53; };
 };
 # 
 # chemnitz
@@ -866,6 +866,17 @@ zone "128/18.24.10.in-addr.arpa" {
     server-addresses { 10.24.128.6; 10.24.128.7; fd4e:f2d7:88d2:fffe::6; fd4e:f2d7:88d2:fffe::7; };
 };
 # 
+# merzig
+# 
+zone "ffsl_mzg" {
+    type static-stub;
+    server-addresses { 10.55.155.55; 10.55.128.3; };
+};
+zone "128-191.55.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.55.155.55; 10.55.128.3; };
+};
+# 
 # meta
 # 
 zone "icvpn" {
@@ -894,6 +905,17 @@ zone "169.10.in-addr.arpa" {
 zone "1.e.e.e.3.e.4.e.9.3.d.f.ip6.arpa" {
     type static-stub;
     server-addresses { 10.169.1.1; };
+};
+# 
+# neunkirchen
+# 
+zone "ffsl_nk" {
+    type static-stub;
+    server-addresses { 10.55.255.55; 10.55.192.3; };
+};
+zone "192-255.55.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.55.255.55; 10.55.192.3; };
 };
 # 
 # nord
@@ -1048,6 +1070,17 @@ zone "192/18.24.10.in-addr.arpa" {
 zone "64/18.252.10.in-addr.arpa" {
     type static-stub;
     server-addresses { 10.24.192.2; 10.24.192.3; fd4e:f2d7:88d2:ffff::2; fd4e:f2d7:88d2:ffff::3; };
+};
+# 
+# saarlouis
+# 
+zone "ffsl_sls" {
+    type static-stub;
+    server-addresses { 10.55.66.55; 10.55.64.3; };
+};
+zone "64-127.55.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.55.66.55; 10.55.64.3; };
 };
 # 
 # suedwest
