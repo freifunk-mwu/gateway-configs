@@ -3,7 +3,7 @@ $ORIGIN ffmwu.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffmwu.org. hostmaster.ffmwu.org. (
-                     2016012502         ; Serial
+                     2016040300         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -61,7 +61,11 @@ zwiebel			IN	AAAA	fd56:b4dc:4b1e::a38:100
 zuckerwatte		IN	A	10.56.1.2
 zuckerwatte		IN	AAAA	fd56:b4dc:4b1e::a38:102
 
+suesskartoffel		IN	A	10.56.1.4
+suesskartoffel		IN	AAAA	fd56:b4dc:4b1e::a38:104
+
 map			IN	CNAME	aubergine
+hopglass		IN	CNAME	suesskartoffel
 openwrt			IN	CNAME	aubergine
 rtfm			IN	CNAME	zuckerwatte 
 einzugsgebiet		IN	CNAME	zuckerwatte
