@@ -32,7 +32,7 @@ ii  ca-certificates                  20160104ubuntu0.14.04.1          all       
 ii  check-mk-agent                   1.2.6p5-1                        all          Check_MK Agent for Linux
 ii  check-mk-agent-logwatch          1.2.4p5-2                        all          Logwatch-Plugin for check_mk agent
 ii  console-setup                    1.70ubuntu8                      all          console font and keymap setup program
-ii  coreutils                        8.21-1ubuntu5.3                  amd64        GNU core utilities
+ii  coreutils                        8.21-1ubuntu5.4                  amd64        GNU core utilities
 ii  cpio                             2.11+dfsg-1ubuntu1.2             amd64        GNU cpio -- a program to manage archives of files
 ii  cpp                              4:4.8.2-1ubuntu6                 amd64        GNU C preprocessor (cpp)
 ii  cpp-4.8                          4.8.4-2ubuntu1~14.04.1           amd64        GNU C preprocessor
@@ -83,8 +83,8 @@ ii  gzip                             1.6-3ubuntu1                     amd64     
 ii  hostname                         3.15ubuntu1                      amd64        utility to set/show the host name or domain name
 ii  ifupdown                         0.7.47.2ubuntu4.4                amd64        high level tools to configure network interfaces
 ii  init-system-helpers              1.14                             all          helper tools for all init systems
-ii  initramfs-tools                  0.103ubuntu4.2                   all          tools for generating an initramfs
-ii  initramfs-tools-bin              0.103ubuntu4.2                   amd64        binaries used by initramfs-tools
+ii  initramfs-tools                  0.103ubuntu4.3                   all          tools for generating an initramfs
+ii  initramfs-tools-bin              0.103ubuntu4.3                   amd64        binaries used by initramfs-tools
 ii  initscripts                      2.88dsf-41ubuntu6.3              amd64        scripts for initializing and shutting down the system
 ii  insserv                          1.14.0-5ubuntu2                  amd64        boot sequence organizer using LSB init.d script dependency information
 ii  installation-report              2.54ubuntu1                      all          system installation report
@@ -511,7 +511,7 @@ ii  unattended-upgrades              0.82.1ubuntu2.4                  all       
 ii  update-notifier-common           0.154.1ubuntu1                   all          Files shared between update-notifier and other packages
 ii  upstart                          1.12.1-0ubuntu4.2                amd64        event-based init daemon
 ii  ureadahead                       0.100.0-16                       amd64        Read required files in advance
-ii  usbutils                         1:007-2ubuntu1                   amd64        Linux USB utilities
+ii  usbutils                         1:007-2ubuntu1.1                 amd64        Linux USB utilities
 ii  util-linux                       2.20.1-5.1ubuntu20.7             amd64        Miscellaneous system utilities
 ii  vim                              2:7.4.052-1ubuntu3               amd64        Vi IMproved - enhanced vi editor
 ii  vim-common                       2:7.4.052-1ubuntu3               amd64        Vi IMproved - Common files
