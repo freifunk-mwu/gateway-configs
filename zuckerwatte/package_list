@@ -6,7 +6,7 @@ Desired=Unknown/Install/Remove/Purge/Hold
 ii  accountsservice                     0.6.35-0ubuntu7.2                   amd64        query and manipulate user account information
 ii  acpid                               1:2.0.21-1ubuntu2                   amd64        Advanced Configuration and Power Interface event daemon
 ii  adduser                             3.113+nmu3ubuntu3                   all          add and remove users and groups
-ii  alfred                              2015.2-0ffmwu0~trusty               amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
+ii  alfred                              2016.0-0ffmwu0~trusty               amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
 ii  alfred-json                         0.3.1-0ffmwu1~trusty                amd64        A.L.F.R.E.D client supporting GZIP decompression and JSON, string and binary output
 ii  apache2                             2.4.7-1ubuntu4.9                    amd64        Apache HTTP Server
 ii  apache2-bin                         2.4.7-1ubuntu4.9                    amd64        Apache HTTP Server (binary files and modules)
@@ -14,9 +14,9 @@ ii  apache2-data                        2.4.7-1ubuntu4.9                    all 
 ii  apparmor                            2.8.95~2430-0ubuntu5.3              amd64        User-space parser utility for AppArmor
 ii  apport                              2.14.1-0ubuntu3.19                  all          automatically generate crash reports for debugging
 ii  apport-symptoms                     0.20                                all          symptom scripts for apport
-ii  apt                                 1.0.1ubuntu2.11                     amd64        commandline package manager
-ii  apt-transport-https                 1.0.1ubuntu2.11                     amd64        https download transport for APT
-ii  apt-utils                           1.0.1ubuntu2.11                     amd64        package management related utility programs
+ii  apt                                 1.0.1ubuntu2.12                     amd64        commandline package manager
+ii  apt-transport-https                 1.0.1ubuntu2.12                     amd64        https download transport for APT
+ii  apt-utils                           1.0.1ubuntu2.12                     amd64        package management related utility programs
 ii  apt-xapian-index                    0.45ubuntu4                         all          maintenance and search tools for a Xapian index of Debian packages
 ii  aptitude                            0.6.8.2-1ubuntu4                    amd64        terminal-based package manager
 ii  aptitude-common                     0.6.8.2-1ubuntu4                    all          architecture indepedent files for the aptitude package manager
@@ -28,9 +28,9 @@ ii  base-files                          7.2ubuntu5.4                        amd6
 ii  base-passwd                         3.5.33                              amd64        Debian base system master password and group files
 ii  bash                                4.3-7ubuntu1.5                      amd64        GNU Bourne Again SHell
 ii  bash-completion                     1:2.1-4ubuntu0.1                    all          programmable completion for the bash shell
-ii  batadv-vis                          2015.2-0ffmwu0~trusty               amd64        batadv-vis - visualize your batman-adv mesh network
-ii  batctl                              2015.2-0ffmwu0~trusty               amd64        B.A.T.M.A.N. advanced control and management tool
-ii  batman-adv-dkms                     2015.2-0ffmwu0~trusty               all          DKMS Source for the batman-advanced kernel module
+ii  batadv-vis                          2016.0-0ffmwu0~trusty               amd64        batadv-vis - visualize your batman-adv mesh network
+ii  batctl                              2016.0-0ffmwu0~trusty               amd64        B.A.T.M.A.N. advanced control and management tool
+ii  batman-adv-dkms                     2016.0-0ffmwu0~trusty               all          DKMS Source for the batman-advanced kernel module
 ii  bc                                  1.06.95-8ubuntu1                    amd64        GNU bc arbitrary precision calculator language
 ii  bind9-host                          1:9.9.5.dfsg-3ubuntu0.8             amd64        Version of 'host' bundled with BIND 9.X
 ii  binutils                            2.24-5ubuntu14                      amd64        GNU assembler, linker and binary utilities
@@ -50,7 +50,7 @@ ii  check-mk-agent                      1.2.6p12-1                          all 
 ii  command-not-found                   0.3ubuntu12                         all          Suggest installation of packages in interactive bash sessions
 ii  command-not-found-data              0.3ubuntu12                         amd64        Set of data files for command-not-found.
 ii  console-setup                       1.70ubuntu8                         all          console font and keymap setup program
-ii  coreutils                           8.21-1ubuntu5.3                     amd64        GNU core utilities
+ii  coreutils                           8.21-1ubuntu5.4                     amd64        GNU core utilities
 ii  cpio                                2.11+dfsg-1ubuntu1.2                amd64        GNU cpio -- a program to manage archives of files
 ii  cpp                                 4:4.8.2-1ubuntu6                    amd64        GNU C preprocessor (cpp)
 ii  cpp-4.8                             4.8.4-2ubuntu1~14.04.1              amd64        GNU C preprocessor
@@ -133,8 +133,8 @@ ii  imagemagick                         8:6.7.7.10-6ubuntu3                 amd6
 ii  imagemagick-common                  8:6.7.7.10-6ubuntu3                 all          image manipulation programs -- infrastructure
 ii  info                                5.2.0.dfsg.1-2                      amd64        Standalone GNU Info documentation browser
 ii  init-system-helpers                 1.14                                all          helper tools for all init systems
-ii  initramfs-tools                     0.103ubuntu4.2                      all          tools for generating an initramfs
-ii  initramfs-tools-bin                 0.103ubuntu4.2                      amd64        binaries used by initramfs-tools
+ii  initramfs-tools                     0.103ubuntu4.3                      all          tools for generating an initramfs
+ii  initramfs-tools-bin                 0.103ubuntu4.3                      amd64        binaries used by initramfs-tools
 ii  initscripts                         2.88dsf-41ubuntu6.3                 amd64        scripts for initializing and shutting down the system
 ii  insserv                             1.14.0-5ubuntu2                     amd64        boot sequence organizer using LSB init.d script dependency information
 ii  install-info                        5.2.0.dfsg.1-2                      amd64        Manage installed documentation in info format
@@ -173,8 +173,8 @@ ii  libapr1:amd64                       1.5.0-1                             amd6
 ii  libaprutil1:amd64                   1.5.3-1                             amd64        Apache Portable Runtime Utility Library
 ii  libaprutil1-dbd-sqlite3:amd64       1.5.3-1                             amd64        Apache Portable Runtime Utility Library - SQLite3 Driver
 ii  libaprutil1-ldap:amd64              1.5.3-1                             amd64        Apache Portable Runtime Utility Library - LDAP Driver
-ii  libapt-inst1.5:amd64                1.0.1ubuntu2.11                     amd64        deb package format runtime library
-ii  libapt-pkg4.12:amd64                1.0.1ubuntu2.11                     amd64        package management runtime library
+ii  libapt-inst1.5:amd64                1.0.1ubuntu2.12                     amd64        deb package format runtime library
+ii  libapt-pkg4.12:amd64                1.0.1ubuntu2.12                     amd64        package management runtime library
 ii  libarchive-extract-perl             0.70-1                              all          generic archive extracting module
 ii  libasan0:amd64                      4.8.4-2ubuntu1~14.04.1              amd64        AddressSanitizer -- a fast memory error detector
 ii  libasn1-8-heimdal:amd64             1.6~git20131207+dfsg-1ubuntu1.1     amd64        Heimdal Kerberos - ASN.1 library
@@ -522,13 +522,13 @@ ii  libyaml-dev:amd64                   0.1.4-3ubuntu3.1                    amd6
 ii  linux-firmware                      1.127.20                            all          Firmware for Linux kernel drivers
 ii  linux-headers-3.13.0-79             3.13.0-79.123                       all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-79-generic     3.13.0-79.123                       amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-83             3.13.0-83.127                       all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-83-generic     3.13.0-83.127                       amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.19.0-51             3.19.0-51.58~14.04.1                all          Header files related to Linux kernel version 3.19.0
-ii  linux-headers-generic               3.13.0.83.89                        amd64        Generic Linux kernel headers
-ii  linux-headers-generic-lts-trusty    3.13.0.83.89                        amd64        Generic Linux kernel headers
+ii  linux-headers-3.13.0-85             3.13.0-85.129                       all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-85-generic     3.13.0-85.129                       amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-generic               3.13.0.85.91                        amd64        Generic Linux kernel headers
+ii  linux-headers-generic-lts-trusty    3.13.0.85.91                        amd64        Generic Linux kernel headers
 ii  linux-image-3.13.0-79-generic       3.13.0-79.123                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-83-generic       3.13.0-83.127                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-83-generic       3.13.0-83.127                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-3.13.0-85-generic       3.13.0-85.129                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.19.0-31-generic       3.19.0-31.36~14.04.1                amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-3.19.0-32-generic       3.19.0-32.37~14.04.1                amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-3.19.0-33-generic       3.19.0-33.38~14.04.1                amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
@@ -539,7 +539,8 @@ rc  linux-image-3.19.0-42-generic       3.19.0-42.48~14.04.1                amd6
 rc  linux-image-3.19.0-47-generic       3.19.0-47.53~14.04.1                amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-3.19.0-49-generic       3.19.0-49.55~14.04.1                amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-79-generic 3.13.0-79.123                       amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-83-generic 3.13.0-83.127                       amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-83-generic 3.13.0-83.127                       amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-extra-3.13.0-85-generic 3.13.0-85.129                       amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-31-generic 3.19.0-31.36~14.04.1                amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-32-generic 3.19.0-32.37~14.04.1                amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-33-generic 3.19.0-33.38~14.04.1                amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
@@ -549,10 +550,10 @@ rc  linux-image-extra-3.19.0-41-generic 3.19.0-41.46~14.04.2                amd6
 rc  linux-image-extra-3.19.0-42-generic 3.19.0-42.48~14.04.1                amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-47-generic 3.19.0-47.53~14.04.1                amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-49-generic 3.19.0-49.55~14.04.1                amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
-ii  linux-image-generic                 3.13.0.83.89                        amd64        Generic Linux kernel image
-ii  linux-image-generic-lts-trusty      3.13.0.83.89                        amd64        Generic Linux kernel image
-ii  linux-image-virtual                 3.13.0.83.89                        amd64        This package will always depend on the latest minimal generic kernel image.
-ii  linux-libc-dev:amd64                3.13.0-83.127                       amd64        Linux Kernel Headers for development
+ii  linux-image-generic                 3.13.0.85.91                        amd64        Generic Linux kernel image
+ii  linux-image-generic-lts-trusty      3.13.0.85.91                        amd64        Generic Linux kernel image
+ii  linux-image-virtual                 3.13.0.85.91                        amd64        This package will always depend on the latest minimal generic kernel image.
+ii  linux-libc-dev:amd64                3.13.0-85.129                       amd64        Linux Kernel Headers for development
 ii  locales                             2.13+git20120306-12.1               all          common files for locale support
 ii  lockfile-progs                      0.1.17                              amd64        Programs for locking and unlocking files and mailboxes
 ii  login                               1:4.1.5.1-1ubuntu9.2                amd64        system login tools
