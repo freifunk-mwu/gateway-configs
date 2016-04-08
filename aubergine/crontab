@@ -22,6 +22,7 @@ PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bi
 * * * * * $HOME/clones/ffmap-backend/mkmap-mz.sh > /dev/null 2>&1
 * * * * * $HOME/clones/ffmap-backend/mkmap-wi.sh > /dev/null 2>&1
 * * * * * $HOME/clones/ffmap-backend/mkmap-mwu.sh > /dev/null 2>&1
+*/15 * * * * $HOME/clones/ffmap-backend/mkimages.sh > /dev/null 2>&1
 # backend scripts
 */5 * * * * $HOME/clones/backend-scripts/check_bind_gw.py > $HOME/.cronlog/check_bind.log
 */5 * * * * $HOME/clones/backend-scripts/draw_traffic_all.py > $HOME/.cronlog/draw_traffic.log
