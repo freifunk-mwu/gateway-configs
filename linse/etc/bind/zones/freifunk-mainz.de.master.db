@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2016032401		; Serial
+		     2016040800		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -48,8 +48,8 @@ mitglieder	IN	CNAME	zuckerwatte.freifunk-mwu.de.
 lists           IN      CNAME	glueckskeks.freifunk-mwu.de.
 
 ; gluon map
-map		IN	CNAME	aubergine.freifunk-mwu.de.
-meshviewer	IN	CNAME	aubergine.freifunk-mwu.de.
+map		IN	CNAME	suesskartoffel.freifunk-mwu.de.
+meshviewer	IN	CNAME	suesskartoffel.freifunk-mwu.de.
 
 ; firmware
 firmware	IN	CNAME	firmware.freifunk-mwu.de.
