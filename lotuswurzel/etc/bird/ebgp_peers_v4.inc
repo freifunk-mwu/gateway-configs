@@ -103,6 +103,7 @@ protocol bgp icvpn_darmstadt2 from ebgp_ic {
 }
 protocol bgp icvpn_darmstadt3 from ebgp_ic {
     neighbor 10.207.0.218 as 65038;
+    passive yes;
 }
 protocol bgp icvpn_darmstadt4 from ebgp_ic {
     neighbor 10.207.0.219 as 65038;
@@ -403,7 +404,6 @@ protocol bgp icvpn_rheinufer3 from ebgp_ic {
 }
 protocol bgp icvpn_ruhrgebiet1 from ebgp_ic {
     neighbor 10.207.0.79 as 65079;
-    passive yes;
 }
 protocol bgp icvpn_trier1 from ebgp_ic {
     neighbor 10.207.0.220 as 65022;
@@ -439,7 +439,6 @@ protocol bgp icvpn_nrw2 from ebgp_ic {
 }
 protocol bgp icvpn_nrw3 from ebgp_ic {
     neighbor 10.207.0.55 as 65530;
-    passive yes;
 }
 protocol bgp icvpn_nrw4 from ebgp_ic {
     neighbor 10.207.66.6 as 65530;
@@ -467,12 +466,15 @@ protocol bgp icvpn_westkueste1 from ebgp_ic {
 }
 protocol bgp icvpn_westpfalz1 from ebgp_ic {
     neighbor 10.207.0.85 as 65242;
+    passive yes;
 }
 protocol bgp icvpn_westpfalz2 from ebgp_ic {
     neighbor 10.207.0.86 as 65242;
+    passive yes;
 }
 protocol bgp icvpn_westpfalz3 from ebgp_ic {
     neighbor 10.207.0.87 as 65242;
+    passive yes;
 }
 protocol bgp icvpn_westpfalz4 from ebgp_ic {
     neighbor 10.207.0.88 as 65242;
