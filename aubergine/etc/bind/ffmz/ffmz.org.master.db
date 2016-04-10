@@ -3,7 +3,7 @@ $ORIGIN ffmz.org.
 
 $TTL    600
 @       IN      SOA     aubergine.ffmz.org. hostmaster.ffmz.org. (
-                     2016013101         ; Serial
+                     2016040801         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -62,7 +62,10 @@ zwiebel			IN	AAAA	fd37:b4dc:4b1e::a25:100
 zuckerwatte		IN	A	10.37.1.2
 zuckerwatte		IN	AAAA	fd37:b4dc:4b1e::a25:102
 
-map			IN	CNAME	aubergine
+suesskartoffel		IN	A	10.37.1.4
+suesskartoffel		IN	AAAA	fd37:b4dc:4b1e::a25:104
+
+map			IN	CNAME	suesskartoffel
 openwrt			IN	CNAME	aubergine
 www			IN	CNAME	aubergine
 portal			IN	CNAME	aubergine
