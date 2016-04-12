@@ -125,7 +125,6 @@ roa 10.0.0.0/16     max  20 as      65079; # ruhrgebiet
 roa 10.160.0.0/13   max  20 as      65079; # ruhrgebiet
 roa 10.20.0.0/16    max  20 as      65079; # ruhrgebiet
 roa 10.225.0.0/16   max  20 as      65079; # ruhrgebiet
-roa 10.226.0.0/16   max  20 as      65079; # ruhrgebiet
 roa 10.227.0.0/16   max  20 as      65079; # ruhrgebiet
 roa 10.229.0.0/16   max  20 as      65079; # ruhrgebiet
 roa 10.231.0.0/16   max  20 as      65079; # ruhrgebiet
@@ -142,7 +141,6 @@ roa 10.41.0.0/16    max  20 as      65401; # ruhrgebiet (delegation)
 roa 10.231.0.0/16   max  20 as      65402; # ruhrgebiet (delegation)
 roa 10.236.0.0/16   max  20 as      65404; # ruhrgebiet (delegation)
 roa 10.229.0.0/16   max  20 as      65405; # ruhrgebiet (delegation)
-roa 10.226.0.0/16   max  20 as      65407; # ruhrgebiet (delegation)
 roa 10.24.192.0/18  max  20 as      64770; # saar
 roa 10.252.64.0/18  max  20 as      64770; # saar
 roa 10.55.64.0/18   max  20 as      65001; # saarlouis
