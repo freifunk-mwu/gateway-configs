@@ -3,7 +3,7 @@ $ORIGIN 37.10.in-addr.arpa.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffmz.org. hostmaster.ffmz.org. (
-                     2016012201         ; Serial
+                     2016041300         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -23,6 +23,10 @@ $TTL    600
 0.1	PTR	zwiebel.ffmz.org.
 2.1	PTR	zuckerwatte.ffmz.org.
 3.1	PTR	aubergine.ffmz.org.
+; freifunk bingen
+12.1	PTR	mettbroetchen.ffmz.org.
+; freifunk rheingau
+13.1	PTR	spundekaes.ffmz.org.
 
 ; bb
 1.2	PTR	uk-master.bb.ffmz.org.
@@ -50,5 +54,3 @@ $TTL    600
 42.4	PTR	fon.user.ffmz.org.
 44.4	PTR	post.user.ffmz.org.
 
-; freifunk bingen
-12.1	PTR	mettbroetchen.ffmz.org.
