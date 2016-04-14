@@ -39,6 +39,7 @@ roa fdca:ffee:ffda::/48      max  64 as      65038; # darmstadt
 roa fdc4:d762:2143::/48      max  64 as      64874; # donau-ries
 roa 2001:bf7:20::/44         max  64 as      65043; # dreilaendereck
 roa fd11:11ae:7466::/48      max  64 as      65051; # dresden
+roa fdec:4562:434f::/64      max  64 as      65520; # ebersdorf
 roa 2001:bf7:130::/44        max  64 as      65138; # elm-lappwald
 roa 2001:bf7:100:2263::/64   max  64 as      65530; # engelskirchen (delegation)
 roa fddf:ebfd:a801:2263::/64 max  64 as      65530; # engelskirchen (delegation)
@@ -148,8 +149,6 @@ roa 2a03:2260:50:7000::/56   max  64 as      65405; # ruhrgebiet (delegation)
 roa 2a03:2260:50:7e00::/56   max  64 as      65405; # ruhrgebiet (delegation)
 roa 2a03:2260:50:7f00::/56   max  64 as      65405; # ruhrgebiet (delegation)
 roa 2a03:2260:50:2400::/56   max  64 as      64862; # ruhrgebiet (delegation)
-roa 2a03:2260:50:10::/64     max  64 as      65407; # ruhrgebiet (delegation)
-roa 2a03:2260:50:1000::/56   max  64 as      65407; # ruhrgebiet (delegation)
 roa fd4e:f2d7:88d2:fffd::/64 max  64 as      64770; # saar
 roa fd4e:f2d7:88d2:ffff::/64 max  64 as      64770; # saar
 roa 2001:bf7:100:212::/64    max  64 as      65530; # solingen (delegation)
