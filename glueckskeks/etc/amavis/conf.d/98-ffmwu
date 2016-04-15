@@ -1,0 +1,139 @@
+# Freifunk MWU specific setting - can be public
+use strict;
+
+# local domains amavis should consider as local
+@local_domains_acl = ( [qw(
+        .freifunk-mwu.de
+        .freifunk-mainz.de
+        .freifunk-wiesbaden.de
+)] );
+
+# point local_domains_maps to local_domains_acl
+@local_domains_maps = ( @local_domains_acl );
+
+# amavis header in mail
+$X_HEADER_LINE = "$myproduct_name at $mydomain";
+
+# max processes allowed - limited by available ressources
+$max_servers = 15;
+
+# limits for attachment inspection
+$MAXLEVELS = 14;
+$MAXFILES = 1500;
+$MIN_EXPANSION_QUOTA =      100*1024;  # bytes  (default undef, not enforced)
+$MAX_EXPANSION_QUOTA = 300*1024*1024;  # bytes  (default undef, not enforced)
+
+
+$defang_virus  = 1;  # MIME-wrap passed infected mail
+$defang_banned = 1;  # MIME-wrap passed mail containing banned name
+# for defanging bad headers only turn on certain minor contents categories:
+$defang_by_ccat{CC_BADH.",3"} = 1;  # NUL or CR character in header
+$defang_by_ccat{CC_BADH.",5"} = 1;  # header line longer than 998 characters
+$defang_by_ccat{CC_BADH.",6"} = 1;  # header field syntax error
+
+$notify_method  = 'smtp:*:10025';
+$forward_method = 'smtp:*:10025';
+
+$final_virus_destiny      = D_REJECT;
+$final_banned_destiny     = D_REJECT;
+$final_spam_destiny       = D_REJECT;
+$final_bad_header_destiny = D_PASS;
+
+$sa_spam_subject_tag = '***Spam*** ';
+$sa_tag_level_deflt  = -999;  # add spam info headers if at, or above that level
+$sa_tag2_level_deflt = 6;  # add 'spam detected' headers at that level
+$sa_kill_level_deflt = 6;  # triggers spam evasive actions (e.g. blocks mail)
+$sa_dsn_cutoff_level = 10;   # spam level beyond which a DSN is not sent
+$sa_crediblefrom_dsn_cutoff_level = 18; # likewise, but for a likely valid From
+# $sa_quarantine_cutoff_level = 25; # spam level beyond which quarantine is off
+$penpals_bonus_score = 8;    # (no effect without a @storage_sql_dsn database)
+$penpals_threshold_high = $sa_kill_level_deflt;  # don't waste time on hi spam
+$bounce_killer_score = 100;  # spam score points to add for joe-jobbed bounces
+
+$sa_mail_body_size_limit = 400*1024; # don't waste time on SA if mail is larger
+$sa_local_tests_only = 0;    # only tests which do not require internet access?
+
+$virus_admin               = "postmaster\@$mydomain";  # notifications recip.
+
+$mailfrom_notify_admin     = "postmaster\@$mydomain";  # notifications sender
+$mailfrom_notify_recip     = "postmaster\@$mydomain";  # notifications sender
+$mailfrom_notify_spamadmin = "postmaster\@$mydomain"; # notifications sender
+$mailfrom_to_quarantine = undef; # null return path; uses original sender if undef
+
+# Quarantine
+$quarantine_subdir_levels = undef;
+
+$virus_quarantine_method = 'sql:';
+$spam_quarantine_method = 'sql:';
+$banned_files_quarantine_method = 'sql:';
+$bad_header_quarantine_method = 'sql:';
+
+$virus_quarantine_to = 'virus-quarantine';
+$banned_quarantine_to = 'banned-quarantine';
+$bad_header_quarantine_to = 'bad-header-quarantine';
+$spam_quarantine_to = 'spam-quarantine';
+
+# Logging
+$log_level = 1;              # verbosity 0..5, -d
+$log_recip_templ = undef;    # disable by-recipient level-0 log entries
+$do_syslog = 1;              # log via syslogd (preferred)
+$syslog_facility = 'mail';   # Syslog facility as a string # e.g.: mail, daemon, user, local0, ... local7
+$enable_db = 1;              # enable use of BerkeleyDB/libdb (SNMP and nanny)
+$enable_global_cache = 1;    # enable use of libdb-based cache if $enable_db=1
+$enable_zmq = 0;           # enable use of ZeroMQ (SNMP and nanny)
+$nanny_details_level = 1;    # nanny verbosity: 1: traditional, 2: detailed
+
+# DKIM
+$enable_dkim_verification = 1;  # enable DKIM signatures verification
+$enable_dkim_signing = 1;    # load DKIM signing code, keys defined by dkim_key
+@dkim_signature_options_bysender_maps = ( { '.' => { ttl => 21*24*3600, c => 'relaxed/simple' } } );
+
+# DKIM Domain Keys
+dkim_key('freifunk-mwu.de', 'mail201507', '/var/lib/amavis/db/freifunk-mwu.de');
+dkim_key('lists.freifunk-mwu.de', 'mail201507', '/var/lib/amavis/db/lists.freifunk-mwu.de');
+dkim_key('freifunk-mainz.de', 'mail201507', '/var/lib/amavis/db/freifunk-mainz.de');
+dkim_key('freifunk-wiesbaden.de', 'mail201507', '/var/lib/amavis/db/freifunk-wiesbaden.de');
+
+@mynetworks = qw(
+        127.0.0.0/8 [::1]/128
+        5.199.136.244/32 [2001:4ba0:fffc:3d:0:b4dc:4b1e:3]/128
+        193.111.140.90/32 [2001:4ba0:fffc:3d:0:0:b4dc:4b1e]/128
+        144.76.209.101/32 [2a01:4f8:192:521:0:0:b4dc:4b1e]/128
+);
+
+$inet_socket_bind = '[::1]';
+@inet_acl = qw( [::1] );
+
+$inet_socket_port = [9998,10024,10030];  # listen on multiple TCP ports
+
+$interface_policy{'9998'}  = 'AM.PDP-INET';
+$interface_policy{'10030'} = 'ORIGINATING';
+
+# Quarantäne Release Policy
+$policy_bank{'AM.PDP-INET'} = {
+    protocol => 'AM.PDP',
+    inet_acl => [qw( 127.0.0.1 [::1] )],
+    auth_required_release => 0,
+};
+
+# Own Mail Senders Policy
+$policy_bank{'ORIGINATING'} = {  # mail supposedly originating from our users
+  originating => 1,  # declare that mail was submitted by our smtp client
+  allow_disclaimers => 0,  # enables disclaimer insertion if available
+  # notify administrator of locally originating malware
+  virus_admin_maps => ["postmaster\@$mydomain"],
+  spam_admin_maps  => ["postmaster\@$mydomain"],
+  warnbadhsender   => 1,
+  # forward to a smtpd service providing DKIM signing service
+  smtpd_discard_ehlo_keywords => ['8BITMIME'],
+  bypass_spam_checks_maps   => [1],  # don't spam-check this mail
+  bypass_banned_checks_maps => [1],  # allow sending any file names and types
+  bypass_header_checks_maps => [1],  # don't header-check this mail
+  terminate_dsn_on_notify_success => 0,  # don't remove NOTIFY=SUCCESS option
+  final_virus_destiny => D_REJECT,
+  final_bad_header_destiny => D_PASS,
+  final_banned_destiny => D_PASS,
+  final_spam_destiny => D_PASS,
+};
+
+1;
