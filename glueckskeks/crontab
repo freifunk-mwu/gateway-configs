@@ -1,0 +1,25 @@
+#
+#
+#                                                       I8                ,dPYb,
+#                                                       I8                IP'`Yb
+#                                                    88888888             I8  8I
+#                                                       I8                I8  8'
+#       ,gggg,   ,gggggg,    ,ggggg,     ,ggg,,ggg,     I8      ,gggg,gg  I8 dP
+#      dP"  "Yb  dP""""8I   dP"  "Y8ggg ,8" "8P" "8,    I8     dP"  "Y8I  I8dP   88gg
+#     i8'       ,8'    8I  i8'    ,8I   I8   8I   8I   ,I8,   i8'    ,8I  I8P    8I
+#    ,d8,_    _,dP     Y8,,d8,   ,d8'  ,dP   8I   Yb, ,d88b, ,d8,   ,d8b,,d8b,  ,8I
+#    P""Y8888PP8P      `Y8P"Y8888P"    8P'   8I   `Y888P""Y88P"Y8888P"`Y88P'"Y88P"'
+#
+#
+PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+# m h  dom mon dow   command
+# alfred announce
+* * * * * $HOME/clones/ffnord-alfred-announce/announce.sh -i mzBR -b mzBAT -f mzVPN -u /var/run/alfred-mz.sock -s ffmz > /dev/null 2>&1
+* * * * * $HOME/clones/ffnord-alfred-announce/announce.sh -i wiBR -b wiBAT -f wiVPN -u /var/run/alfred-wi.sock -s ffwi > /dev/null 2>&1
+# backend scripts
+*/5 * * * * /usr/bin/python3 $HOME/clones/backend-scripts/draw_traffic_all.py > $HOME/.cronlog/draw_traffic.log
+23 * * * * /usr/bin/python3 $HOME/clones/backend-scripts/gen_website_all.py > $HOME/.cronlog/gen_website.log
+42 5,23 * * * /usr/bin/python3 $HOME/clones/backend-scripts/snapshot_configs_all.py > $HOME/.cronlog/snapshot_configs.log
+42 17 * * 2 /usr/local/bin/photon-dangerous-selfupgrade.py --sudo --repos $HOME/clones/backend-scripts
+# icvpn prototypes
+0 5 * * 0,1,5 /usr/bin/python3 $HOME/clones/backend-scripts/update_bind_conf_gw.py > $HOME/.cronlog/update_bind_conf_gw.log

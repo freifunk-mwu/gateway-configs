@@ -1,0 +1,15 @@
+#
+# reserved values
+#
+255	local
+254	main
+253	default
+0	unspec
+#
+# local
+#
+#1	inr.ruhep
+
+# mwu ICVPN routing tables
+37	mainz
+56	wiesbaden
