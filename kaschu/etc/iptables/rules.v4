@@ -21,12 +21,6 @@ COMMIT
 :ffrl-nat - [0:0]
 -A POSTROUTING -s 10.37.0.0/16 -o ffrl+ -j ffrl-nat
 -A POSTROUTING -s 10.56.0.0/16 -o ffrl+ -j ffrl-nat
--A ffrl-nat -s 100.64.2.100/31 -o ffrl+ -j RETURN
--A ffrl-nat -s 100.64.2.102/31 -o ffrl+ -j RETURN
--A ffrl-nat -s 100.64.2.104/31 -o ffrl+ -j RETURN
--A ffrl-nat -s 100.64.2.106/31 -o ffrl+ -j RETURN
--A ffrl-nat -s 100.64.2.108/31 -o ffrl+ -j RETURN
--A ffrl-nat -s 100.64.2.110/31 -o ffrl+ -j RETURN
 -A ffrl-nat -s 10.37.0.0/16 -o ffrl+ -j SNAT --to-source 185.66.195.37
 -A ffrl-nat -s 10.56.0.0/16 -o ffrl+ -j SNAT --to-source 185.66.195.37
 COMMIT
