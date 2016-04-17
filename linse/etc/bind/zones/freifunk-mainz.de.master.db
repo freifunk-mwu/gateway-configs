@@ -1,8 +1,8 @@
 ; BIND data file for zone freifunk-mainz.de
 ;
-$TTL	3600
+$TTL	600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2016040800		; Serial
+		     2016041600		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -20,8 +20,8 @@ $TTL	3600
 autoconfig	IN	CNAME	glueckskeks.freifunk-mwu.de.
 autodiscover	IN	CNAME	glueckskeks.freifunk-mwu.de.
 
-@		IN	A	95.143.172.211
-@		IN	AAAA	2001:1a50:11:0:5f:8f:ac:d3
+@		IN	A	89.163.245.179
+@		IN	AAAA	2001:4ba0:fffc:3d:0:b4dc:4b1e:2
 
 ; gluon gateways
 spinat          IN      CNAME	spinat.freifunk-mwu.de.
@@ -43,9 +43,6 @@ api		IN	CNAME	zuckerwatte.freifunk-mwu.de.
 einzugsgebiet	IN	CNAME	zuckerwatte.freifunk-mwu.de.
 media		IN	CNAME	lacerta.uberspace.de.
 mitglieder	IN	CNAME	zuckerwatte.freifunk-mwu.de.
-
-; mailman
-lists           IN      CNAME	glueckskeks.freifunk-mwu.de.
 
 ; gluon map
 map		IN	CNAME	suesskartoffel.freifunk-mwu.de.

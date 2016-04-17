@@ -1,8 +1,8 @@
 ; BIND data file for zone freifunk-wiesbaden.de
 ;
-$TTL	3600
+$TTL	600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2015112301		; Serial
+		     2016041601		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -20,8 +20,8 @@ $TTL	3600
 autoconfig	IN	CNAME	glueckskeks.freifunk-mwu.de.
 autodiscover	IN	CNAME	glueckskeks.freifunk-mwu.de.
 
-@		IN	A	95.143.172.219
-@		IN	AAAA	2001:1a50:11:0:5f:8f:acdb:13b
+@		IN	A	89.163.245.179
+@		IN	AAAA	2001:4ba0:fffc:3d:0:b4dc:4b1e:2
 
 ; gluon gateways
 spinat		IN	CNAME	spinat.freifunk-mwu.de.
@@ -34,14 +34,8 @@ wasserfloh	IN	CNAME	wasserfloh.freifunk-mwu.de.
 gate231		IN	CNAME	wasserfloh.freifunk-mwu.de.
 
 ; services and stuff
-www		IN	CNAME	octans.uberspace.de.
-blog		IN	CNAME	octans.uberspace.de.
-stats		IN	CNAME	octans.uberspace.de.
-massfw		IN	CNAME	aubergine.freifunk-mwu.de.
-massfw02	IN	CNAME	aubergine.freifunk-mwu.de.
-
-; mailman
-lists           IN      CNAME   glueckskeks.freifunk-mwu.de.
+www		IN	CNAME	zuckerwatte.freifunk-mwu.de.
+blog		IN	CNAME	zuckerwatte.freifunk-mwu.de.
 
 ; IC-VPN
 ic-wiesbaden1	IN	CNAME	lotuswurzel.freifunk-mwu.de.

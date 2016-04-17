@@ -1,8 +1,8 @@
 ; BIND data file for zone freifunk-mainz.de
 ;
-$TTL	300
+$TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2016040800		; Serial
+		     2016041600		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
