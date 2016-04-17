@@ -1,8 +1,8 @@
-; BIND data file for zone freifunk-wiesbaden.de
+; BIND data file for zone wiesbaden.freifunk.net
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2016040800		; Serial
+		     2016041600		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -12,9 +12,6 @@ $TTL	3600
 @		IN	NS	ns1.treck.de. 
 @		IN	NS	ns2.treck.de.
 @		IN	NS	ns3.treck.de.
-
-; mx records
-@               MX      10      lacerta.uberspace.de.
 
 @		IN	A	89.163.245.179
 @		IN	AAAA	2001:4ba0:fffc:3d:0:b4dc:4b1e:2
@@ -28,5 +25,3 @@ map		IN	CNAME	suesskartoffel.freifunk-mwu.de.
 einzugsgebiet	IN	CNAME	zuckerwatte.freifunk-mwu.de.
 media		IN	CNAME	zuckerwatte.freifunk-mwu.de.
 photos		IN	CNAME	zuckerwatte.freifunk-mwu.de.
-stats		IN	CNAME	octans.uberspace.de.
-yeah		IN	CNAME	octans.uberspace.de.
