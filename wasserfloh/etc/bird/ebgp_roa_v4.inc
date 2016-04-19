@@ -19,7 +19,6 @@ roa 10.29.0.0/16    max  20 as      65529; # bielefeld
 roa 10.25.0.0/16    max  20 as      64858; # bingen
 roa 10.110.0.0/16   max  20 as      65110; # bochum
 roa 10.11.160.0/20  max  20 as      64875; # bodensee
-roa 10.1.176.0/20   max  20 as      64857; # borken
 roa 10.79.0.0/16    max  20 as      65530; # bottrop (delegation)
 roa 10.147.0.0/16   max  20 as      65147; # brandenburg
 roa 10.38.0.0/16    max  20 as      65380; # braunschweig
@@ -103,7 +102,6 @@ roa 10.27.0.0/16    max  20 as      65057; # moehne
 roa 10.30.0.0/18    max  20 as      65084; # montabaur
 roa 10.80.0.0/16    max  20 as      65080; # muenchen
 roa 10.43.0.0/16    max  20 as      65251; # muensterland
-roa 10.1.160.0/20   max  20 as      64856; # muensterstadt
 roa 10.169.0.0/16   max  20 as      65534; # mueritz
 roa 10.55.192.0/18  max  20 as      65003; # neunkirchen
 roa 10.46.0.0/18    max  20 as      64883; # neuwied
