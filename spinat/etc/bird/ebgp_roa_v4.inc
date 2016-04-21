@@ -11,6 +11,7 @@ roa 10.11.0.0/18    max  20 as      65050; # augsburg
 roa 10.144.0.0/16   max  20 as      64859; # badoldesloe
 roa 10.239.0.0/16   max  20 as      65090; # basel
 roa 10.195.0.0/16   max  20 as      65025; # bayreuth
+roa 10.1.160.0/19   max  20 as      64646; # bergstrasse
 roa 10.230.0.0/16   max  20 as      44194; # berlin
 roa 10.31.0.0/16    max  20 as      44194; # berlin
 roa 10.36.0.0/16    max  20 as      44194; # berlin
@@ -119,6 +120,7 @@ roa 10.219.0.0/18   max  20 as      64888; # rhein-erft-kreis
 roa 10.142.0.0/16   max  20 as      76118; # rhein-neckar
 roa 10.111.0.0/16   max  20 as      65111; # rheinsiegkreis
 roa 10.40.0.0/16    max  20 as      65078; # rheinufer
+roa 10.67.0.0/16    max  20 as      64885; # rothenburg
 roa 10.0.0.0/16     max  20 as      65079; # ruhrgebiet
 roa 10.160.0.0/13   max  20 as      65079; # ruhrgebiet
 roa 10.20.0.0/16    max  20 as      65079; # ruhrgebiet
