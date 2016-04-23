@@ -29,8 +29,7 @@ roa 2001:bf7:100:2041::/64   max  64 as      65530; # bottrop (delegation)
 roa fddf:ebfd:a801:2041::/64 max  64 as      65530; # bottrop (delegation)
 roa 2001:bf7:140::/44        max  64 as      65147; # brandenburg
 roa 2001:bf7:380::/44        max  64 as      65380; # braunschweig
-roa 2001:bf7:540::/44        max  64 as      65196; # bremen
-roa 2001:bf7:550::/44        max  64 as      65196; # bremen
+roa 2a06:8782::/32           max  64 as      65196; # bremen
 roa fd2f:5119:f2c::/48       max  64 as      65196; # bremen
 roa 2001:470:743f::/48       max  64 as      64861; # celle
 roa fd92:2dff:d232::/48      max  64 as      64861; # celle
@@ -118,6 +117,8 @@ roa 2a01:4f8:100:57ff::/64   max  64 as      76118; # rhein-neckar
 roa fd42:23:138::/48         max  64 as      76118; # rhein-neckar
 roa fda0:747e:ab29:2241::/64 max  64 as      65111; # rheinsiegkreis
 roa fda0:747e:ab29:cafe::/64 max  64 as      65078; # rheinufer
+roa 2001:470:1f15:6d9::/64   max  64 as      64885; # rothenburg
+roa fdf9:9417:5844::/64      max  64 as      64885; # rothenburg
 roa 2a02:f98:0:25::/64       max  64 as      65079; # ruhrgebiet
 roa 2a02:f98:0:26::/64       max  64 as      65079; # ruhrgebiet
 roa 2a02:f98:0:27::/64       max  64 as      65079; # ruhrgebiet
