@@ -382,6 +382,7 @@ ii  linux-image-virtual              3.13.0.85.91                     amd64     
 ii  linux-libc-dev:amd64             3.13.0-85.129                    amd64        Linux Kernel Headers for development
 ii  linux-virtual                    3.13.0.85.91                     amd64        Minimal Generic Linux kernel and headers
 ii  locales                          2.13+git20120306-12.1            all          common files for locale support
+ii  locate                           4.4.2-7                          amd64        maintain and query an index of a directory tree
 ii  lockfile-progs                   0.1.17                           amd64        Programs for locking and unlocking files and mailboxes
 ii  login                            1:4.1.5.1-1ubuntu9.2             amd64        system login tools
 ii  logrotate                        3.8.7-1ubuntu1                   amd64        Log rotation utility
