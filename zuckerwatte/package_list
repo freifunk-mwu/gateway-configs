@@ -519,7 +519,7 @@ rc  libxt6:amd64                        1:1.1.4-1                           amd6
 ii  libxtables10                        1.4.21-1ubuntu1                     amd64        netfilter xtables library
 ii  libyaml-0-2:amd64                   0.1.4-3ubuntu3.1                    amd64        Fast YAML 1.1 parser and emitter library
 ii  libyaml-dev:amd64                   0.1.4-3ubuntu3.1                    amd64        Fast YAML 1.1 parser and emitter library (development)
-ii  linux-firmware                      1.127.20                            all          Firmware for Linux kernel drivers
+ii  linux-firmware                      1.127.22                            all          Firmware for Linux kernel drivers
 ii  linux-headers-3.13.0-79             3.13.0-79.123                       all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-79-generic     3.13.0-79.123                       amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-85             3.13.0-85.129                       all          Header files related to Linux kernel version 3.13.0
