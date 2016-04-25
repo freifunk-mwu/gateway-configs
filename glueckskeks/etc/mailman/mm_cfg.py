@@ -155,3 +155,9 @@ SITE_LOGO = '/images/mailman/fflogo_red.png'
 OLD_STYLE_PREFIXING = No
 
 DEFAULT_MAX_MESSAGE_SIZE = 2048
+
+# Set this variable to Yes to allow list owners to delete their own mailing
+# lists.  You may not want to give them this power, in which case, setting
+# this variable to No instead requires list removal to be done by the site
+# administrator, via the command line script bin/rmlist.
+OWNERS_CAN_DELETE_THEIR_OWN_LISTS = Yes
