@@ -120,6 +120,7 @@ roa 10.219.0.0/18   max  20 as      64888; # rhein-erft-kreis
 roa 10.142.0.0/16   max  20 as      76118; # rhein-neckar
 roa 10.111.0.0/16   max  20 as      65111; # rheinsiegkreis
 roa 10.40.0.0/16    max  20 as      65078; # rheinufer
+roa 10.67.0.0/16    max  20 as      64885; # rothenburg
 roa 10.0.0.0/16     max  20 as      65079; # ruhrgebiet
 roa 10.160.0.0/13   max  20 as      65079; # ruhrgebiet
 roa 10.20.0.0/16    max  20 as      65079; # ruhrgebiet
