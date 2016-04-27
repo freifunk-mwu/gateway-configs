@@ -72,21 +72,6 @@ zone "e.e.5.b.1.0.7.1.f.e.d.f.ip6.arpa" {
     server-addresses { 10.11.160.42; fdef:1701:b5ee:42::1; };
 };
 # 
-# bremen
-# 
-zone "ffhb" {
-    type static-stub;
-    server-addresses { 10.196.0.1; fd2f:5119:f2c::1; };
-};
-zone "c.2.f.0.9.1.1.5.f.2.d.f.ip6.arpa" {
-    type static-stub;
-    server-addresses { 10.196.0.1; fd2f:5119:f2c::1; };
-};
-zone "196.10.in-addr.arpa" {
-    type static-stub;
-    server-addresses { 10.196.0.1; fd2f:5119:f2c::1; };
-};
-# 
 # celle
 # 
 zone "freifunk-celle.de" {
