@@ -47,15 +47,16 @@ ii  dash                                0.5.7-4ubuntu1                   amd64  
 ii  debconf                             1.5.51ubuntu2                    all          Debian configuration management system
 ii  debconf-i18n                        1.5.51ubuntu2                    all          full internationalization support for debconf
 ii  debianutils                         4.4                              amd64        Miscellaneous utilities specific to Debian
+ii  debsums                             2.0.52+nmu1                      all          tool for verification of installed package files against MD5 checksums
 ii  dh-python                           1.20140128-1ubuntu8.2            all          Debian helper tools for packaging Python libraries and applications
 ii  diffutils                           1:3.3-1                          amd64        File comparison utilities
 ii  dkms                                2.2.0.3-1.1ubuntu5.14.04.5       all          Dynamic Kernel Module Support Framework
 ii  dmidecode                           2.12-2                           amd64        SMBIOS/DMI table decoder
 ii  dmsetup                             2:1.02.77-6ubuntu2               amd64        Linux Kernel Device Mapper userspace library
 ii  dnsutils                            1:9.9.5.dfsg-3ubuntu0.8          amd64        Clients provided with BIND
-ii  dpkg                                1.17.5ubuntu5.5                  amd64        Debian package management system
-ii  dpkg-dev                            1.17.5ubuntu5.5                  all          Debian package development tools
-ii  dselect                             1.17.5ubuntu5.5                  amd64        Debian package management front-end
+ii  dpkg                                1.17.5ubuntu5.6                  amd64        Debian package management system
+ii  dpkg-dev                            1.17.5ubuntu5.6                  all          Debian package development tools
+ii  dselect                             1.17.5ubuntu5.6                  amd64        Debian package management front-end
 ii  e2fslibs:amd64                      1.42.9-3ubuntu1.3                amd64        ext2/ext3/ext4 file system libraries
 ii  e2fsprogs                           1.42.9-3ubuntu1.3                amd64        ext2/ext3/ext4 file system utilities
 ii  eject                               2.1.5+deb1+cvs20081104-13.1      amd64        ejects CDs and operates CD-Changers under Linux
@@ -175,7 +176,7 @@ ii  libdbus-glib-1-2:amd64              0.100.2-1                        amd64  
 ii  libdebconfclient0:amd64             0.187ubuntu1                     amd64        Debian Configuration Management System (C-implementation library)
 ii  libdevmapper1.02.1:amd64            2:1.02.77-6ubuntu2               amd64        Linux Kernel Device Mapper userspace library
 ii  libdns100                           1:9.9.5.dfsg-3ubuntu0.8          amd64        DNS Shared Library used by BIND
-ii  libdpkg-perl                        1.17.5ubuntu5.5                  all          Dpkg perl modules
+ii  libdpkg-perl                        1.17.5ubuntu5.6                  all          Dpkg perl modules
 ii  libdrm2:amd64                       2.4.64-1~ubuntu14.04.1           amd64        Userspace interface to kernel DRM services -- runtime
 ii  libedit2:amd64                      3.1-20130712-2                   amd64        BSD editline and history libraries
 ii  libept1.4.12:amd64                  1.0.12                           amd64        High-level library for managing Debian package information
@@ -187,6 +188,7 @@ ii  libexpat1-dev:amd64                 2.1.0-4ubuntu1.1                 amd64  
 ii  libfakeroot:amd64                   1.20-3ubuntu2                    amd64        tool for simulating superuser privileges - shared libraries
 ii  libffi6:amd64                       3.1~rc1+r3.0.13-12ubuntu0.1      amd64        Foreign Function Interface library runtime
 ii  libfile-fcntllock-perl              0.14-2build1                     amd64        Perl module for file locking with fcntl(2)
+ii  libfile-fnmatch-perl                0.02-1build3                     amd64        Perl module that provides simple filename and pathname matching
 ii  libfontconfig1:amd64                2.11.0-0ubuntu4.1                amd64        generic font configuration library - runtime
 ii  libfreetype6:amd64                  2.5.2-1ubuntu2.5                 amd64        FreeType 2 font engine, shared library files
 ii  libfribidi0:amd64                   0.19.6-1                         amd64        Free Implementation of the Unicode BiDi algorithm
@@ -520,7 +522,7 @@ ii  traceroute                          1:2.0.20-0ubuntu0.1              amd64  
 ii  ttf-dejavu                          2.34-1ubuntu1                    all          transitional dummy package
 ii  ttf-dejavu-core                     2.34-1ubuntu1                    all          transitional dummy package
 ii  ttf-dejavu-extra                    2.34-1ubuntu1                    all          transitional dummy package
-ii  tzdata                              2016c-0ubuntu0.14.04             all          time zone and daylight-saving time data
+ii  tzdata                              2016d-0ubuntu0.14.04             all          time zone and daylight-saving time data
 ii  ubuntu-keyring                      2012.05.19                       all          GnuPG keys of the Ubuntu archive
 ii  ubuntu-minimal                      1.325                            amd64        Minimal core of Ubuntu
 ii  ucf                                 3.0027+nmu1                      all          Update Configuration File(s): preserve user changes to config files
