@@ -17,7 +17,7 @@ zone "5.10.in-addr.arpa." {
 # 
 zone "ffamt" {
     type static-stub;
-    server-addresses { 10.15.16.2; 10.15.16.4; };
+    server-addresses { 10.202.2.2; 10.202.2.4; };
 };
 # 
 # amsterdam

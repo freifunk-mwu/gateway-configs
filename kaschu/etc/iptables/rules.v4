@@ -4,11 +4,19 @@
 :FORWARD ACCEPT [16:1748]
 :OUTPUT ACCEPT [45758:26926278]
 :fail2ban-ssh - [0:0]
+-A INPUT -d 178.63.230.157/32 -p 47 -j ACCEPT
+-A INPUT -m conntrack --ctstate INVALID -j DROP
+-A INPUT -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT
 -A INPUT -p tcp -m multiport --dports 22 -j fail2ban-ssh
+-A FORWARD -m conntrack --ctstate INVALID -j DROP
+-A FORWARD -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT
 -A FORWARD -i wiBR -o ffrl+ -p tcp -m tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu
 -A FORWARD -i mzBR -o ffrl+ -p tcp -m tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu
 -A FORWARD -i ffrl+ -o wiBR -p tcp -m tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu
 -A FORWARD -i ffrl+ -o mzBR -p tcp -m tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu
+-A OUTPUT -s 178.63.230.157/32 -p 47 -j ACCEPT
+-A OUTPUT -m conntrack --ctstate INVALID -j DROP
+-A OUTPUT -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT
 -A fail2ban-ssh -j RETURN
 COMMIT
 # Completed on Thu Jan  7 21:36:30 2016
