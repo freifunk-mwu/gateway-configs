@@ -12,9 +12,9 @@ ii  apache2-bin                      2.4.7-1ubuntu4.9                 amd64     
 ii  apache2-data                     2.4.7-1ubuntu4.9                 all          Apache HTTP Server (common files)
 ii  apport                           2.14.1-0ubuntu3.19               all          automatically generate crash reports for debugging
 ii  apport-symptoms                  0.20                             all          symptom scripts for apport
-ii  apt                              1.0.1ubuntu2.12                  amd64        commandline package manager
-ii  apt-transport-https              1.0.1ubuntu2.12                  amd64        https download transport for APT
-ii  apt-utils                        1.0.1ubuntu2.12                  amd64        package management related utility programs
+ii  apt                              1.0.1ubuntu2.13                  amd64        commandline package manager
+ii  apt-transport-https              1.0.1ubuntu2.13                  amd64        https download transport for APT
+ii  apt-utils                        1.0.1ubuntu2.13                  amd64        package management related utility programs
 ii  apt-xapian-index                 0.45ubuntu4                      all          maintenance and search tools for a Xapian index of Debian packages
 ii  aptitude                         0.6.8.2-1ubuntu4                 amd64        terminal-based package manager
 ii  aptitude-common                  0.6.8.2-1ubuntu4                 all          architecture indepedent files for the aptitude package manager
@@ -57,8 +57,8 @@ ii  dkms                             2.2.0.3-1.1ubuntu5.14.04.5       all       
 ii  dmidecode                        2.12-2                           amd64        SMBIOS/DMI table decoder
 ii  dmsetup                          2:1.02.77-6ubuntu2               amd64        Linux Kernel Device Mapper userspace library
 ii  dnsutils                         1:9.9.5.dfsg-3ubuntu0.8          amd64        Clients provided with BIND
-ii  dpkg                             1.17.5ubuntu5.5                  amd64        Debian package management system
-ii  dpkg-dev                         1.17.5ubuntu5.5                  all          Debian package development tools
+ii  dpkg                             1.17.5ubuntu5.6                  amd64        Debian package management system
+ii  dpkg-dev                         1.17.5ubuntu5.6                  all          Debian package development tools
 ii  e2fslibs:amd64                   1.42.9-3ubuntu1.3                amd64        ext2/ext3/ext4 file system libraries
 ii  e2fsprogs                        1.42.9-3ubuntu1.3                amd64        ext2/ext3/ext4 file system utilities
 ii  eject                            2.1.5+deb1+cvs20081104-13.1      amd64        ejects CDs and operates CD-Changers under Linux
@@ -134,8 +134,8 @@ ii  libapr1:amd64                    1.5.0-1                          amd64     
 ii  libaprutil1:amd64                1.5.3-1                          amd64        Apache Portable Runtime Utility Library
 ii  libaprutil1-dbd-sqlite3:amd64    1.5.3-1                          amd64        Apache Portable Runtime Utility Library - SQLite3 Driver
 ii  libaprutil1-ldap:amd64           1.5.3-1                          amd64        Apache Portable Runtime Utility Library - LDAP Driver
-ii  libapt-inst1.5:amd64             1.0.1ubuntu2.12                  amd64        deb package format runtime library
-ii  libapt-pkg4.12:amd64             1.0.1ubuntu2.12                  amd64        package management runtime library
+ii  libapt-inst1.5:amd64             1.0.1ubuntu2.13                  amd64        deb package format runtime library
+ii  libapt-pkg4.12:amd64             1.0.1ubuntu2.13                  amd64        package management runtime library
 ii  libarchive-extract-perl          0.70-1                           all          generic archive extracting module
 ii  libasan0:amd64                   4.8.4-2ubuntu1~14.04.1           amd64        AddressSanitizer -- a fast memory error detector
 ii  libasn1-8-heimdal:amd64          1.6~git20131207+dfsg-1ubuntu1.1  amd64        Heimdal Kerberos - ASN.1 library
@@ -174,7 +174,7 @@ ii  libdebconfclient0:amd64          0.187ubuntu1                     amd64     
 ii  libdevmapper-event1.02.1:amd64   2:1.02.77-6ubuntu2               amd64        Linux Kernel Device Mapper event support library
 ii  libdevmapper1.02.1:amd64         2:1.02.77-6ubuntu2               amd64        Linux Kernel Device Mapper userspace library
 ii  libdns100                        1:9.9.5.dfsg-3ubuntu0.8          amd64        DNS Shared Library used by BIND
-ii  libdpkg-perl                     1.17.5ubuntu5.5                  all          Dpkg perl modules
+ii  libdpkg-perl                     1.17.5ubuntu5.6                  all          Dpkg perl modules
 ii  libdrm2:amd64                    2.4.64-1~ubuntu14.04.1           amd64        Userspace interface to kernel DRM services -- runtime
 ii  libedit2:amd64                   3.1-20130712-2                   amd64        BSD editline and history libraries
 ii  libept1.4.12:amd64               1.0.12                           amd64        High-level library for managing Debian package information
