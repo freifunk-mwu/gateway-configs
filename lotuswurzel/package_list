@@ -14,9 +14,9 @@ ii  apache2-data                         2.4.7-1ubuntu4.9                     al
 ii  apache2-doc                          2.4.7-1ubuntu4.9                     all          Apache HTTP Server (on-site documentation)
 ii  apport                               2.14.1-0ubuntu3.19                   all          automatically generate crash reports for debugging
 ii  apport-symptoms                      0.20                                 all          symptom scripts for apport
-ii  apt                                  1.0.1ubuntu2.12                      amd64        commandline package manager
-ii  apt-transport-https                  1.0.1ubuntu2.12                      amd64        https download transport for APT
-ii  apt-utils                            1.0.1ubuntu2.12                      amd64        package management related utility programs
+ii  apt                                  1.0.1ubuntu2.13                      amd64        commandline package manager
+ii  apt-transport-https                  1.0.1ubuntu2.13                      amd64        https download transport for APT
+ii  apt-utils                            1.0.1ubuntu2.13                      amd64        package management related utility programs
 ii  apt-xapian-index                     0.45ubuntu4                          all          maintenance and search tools for a Xapian index of Debian packages
 ii  aptitude                             0.6.8.2-1ubuntu4                     amd64        terminal-based package manager
 ii  aptitude-common                      0.6.8.2-1ubuntu4                     all          architecture indepedent files for the aptitude package manager
@@ -71,8 +71,8 @@ ii  dkms                                 2.2.0.3-1.1ubuntu5.14.04.5           al
 ii  dmidecode                            2.12-2                               amd64        SMBIOS/DMI table decoder
 ii  dmsetup                              2:1.02.77-6ubuntu2                   amd64        Linux Kernel Device Mapper userspace library
 ii  dnsutils                             1:9.9.5.dfsg-3ubuntu0.8              amd64        Clients provided with BIND
-ii  dpkg                                 1.17.5ubuntu5.5                      amd64        Debian package management system
-ii  dpkg-dev                             1.17.5ubuntu5.5                      all          Debian package development tools
+ii  dpkg                                 1.17.5ubuntu5.6                      amd64        Debian package management system
+ii  dpkg-dev                             1.17.5ubuntu5.6                      all          Debian package development tools
 ii  e2fslibs:amd64                       1.42.9-3ubuntu1.3                    amd64        ext2/ext3/ext4 file system libraries
 ii  e2fsprogs                            1.42.9-3ubuntu1.3                    amd64        ext2/ext3/ext4 file system utilities
 ii  eject                                2.1.5+deb1+cvs20081104-13.1          amd64        ejects CDs and operates CD-Changers under Linux
@@ -160,8 +160,8 @@ ii  libapr1:amd64                        1.5.0-1                              am
 ii  libaprutil1:amd64                    1.5.3-1                              amd64        Apache Portable Runtime Utility Library
 ii  libaprutil1-dbd-sqlite3:amd64        1.5.3-1                              amd64        Apache Portable Runtime Utility Library - SQLite3 Driver
 ii  libaprutil1-ldap:amd64               1.5.3-1                              amd64        Apache Portable Runtime Utility Library - LDAP Driver
-ii  libapt-inst1.5:amd64                 1.0.1ubuntu2.12                      amd64        deb package format runtime library
-ii  libapt-pkg4.12:amd64                 1.0.1ubuntu2.12                      amd64        package management runtime library
+ii  libapt-inst1.5:amd64                 1.0.1ubuntu2.13                      amd64        deb package format runtime library
+ii  libapt-pkg4.12:amd64                 1.0.1ubuntu2.13                      amd64        package management runtime library
 ii  libarchive-extract-perl              0.70-1                               all          generic archive extracting module
 ii  libasan0:amd64                       4.8.4-2ubuntu1~14.04.1               amd64        AddressSanitizer -- a fast memory error detector
 ii  libasn1-8-heimdal:amd64              1.6~git20131207+dfsg-1ubuntu1.1      amd64        Heimdal Kerberos - ASN.1 library
@@ -209,7 +209,7 @@ ii  libdbus-glib-1-2:amd64               0.100.2-1                            am
 ii  libdebconfclient0:amd64              0.187ubuntu1                         amd64        Debian Configuration Management System (C-implementation library)
 ii  libdevmapper1.02.1:amd64             2:1.02.77-6ubuntu2                   amd64        Linux Kernel Device Mapper userspace library
 ii  libdns100                            1:9.9.5.dfsg-3ubuntu0.8              amd64        DNS Shared Library used by BIND
-ii  libdpkg-perl                         1.17.5ubuntu5.5                      all          Dpkg perl modules
+ii  libdpkg-perl                         1.17.5ubuntu5.6                      all          Dpkg perl modules
 ii  libdrm2:amd64                        2.4.64-1~ubuntu14.04.1               amd64        Userspace interface to kernel DRM services -- runtime
 ii  libedit2:amd64                       3.1-20130712-2                       amd64        BSD editline and history libraries
 ii  libept1.4.12:amd64                   1.0.12                               amd64        High-level library for managing Debian package information
@@ -324,7 +324,7 @@ ii  libparams-validate-perl              1.08-1                               am
 ii  libparse-debianchangelog-perl        1.2.0-1ubuntu1                       all          parse Debian changelogs and output them in other formats
 ii  libpcap0.8:amd64                     1.5.3-2                              amd64        system interface for user-level packet capture
 ii  libpci3:amd64                        1:3.2.1-1ubuntu5.1                   amd64        Linux PCI Utilities (shared library)
-ii  libpcre3:amd64                       1:8.31-2ubuntu2.2                    amd64        Perl 5 Compatible Regular Expression Library - runtime files
+ii  libpcre3:amd64                       1:8.31-2ubuntu2.3                    amd64        Perl 5 Compatible Regular Expression Library - runtime files
 ii  libpcsclite1:amd64                   1.8.10-1ubuntu1                      amd64        Middleware to access a smart card using PC/SC (library)
 ii  libperl5.18                          5.18.2-2ubuntu1.1                    amd64        shared Perl library
 ii  libpipeline1:amd64                   1.3.0-1                              amd64        pipeline manipulation library
@@ -370,8 +370,8 @@ ii  libsepol1:amd64                      2.2-1ubuntu0.1                       am
 ii  libsigc++-2.0-0c2a:amd64             2.2.10-0.2ubuntu2                    amd64        type-safe Signal Framework for C++ - runtime
 ii  libsigsegv2:amd64                    2.10-2                               amd64        Library for handling page faults in a portable way
 ii  libslang2:amd64                      2.2.4-15ubuntu1                      amd64        S-Lang programming library - runtime version
-ii  libsnmp-base                         5.7.2~dfsg-8.1ubuntu3.1              all          SNMP configuration script, MIBs and documentation
-ii  libsnmp30:amd64                      5.7.2~dfsg-8.1ubuntu3.1              amd64        SNMP (Simple Network Management Protocol) library
+ii  libsnmp-base                         5.7.2~dfsg-8.1ubuntu3.2              all          SNMP configuration script, MIBs and documentation
+ii  libsnmp30:amd64                      5.7.2~dfsg-8.1ubuntu3.2              amd64        SNMP (Simple Network Management Protocol) library
 ii  libsodium13:amd64                    1.0.3-1~wheezy0                      amd64        Network communication, cryptography and signaturing library
 ii  libsqlite3-0:amd64                   3.8.2-1ubuntu2.1                     amd64        SQLite 3 shared library
 ii  libss2:amd64                         1.42.9-3ubuntu1.3                    amd64        command-line interface parsing library
@@ -669,8 +669,8 @@ ii  sensible-utils                       0.0.9                                al
 ii  sgml-base                            1.26+nmu4ubuntu1                     all          SGML infrastructure and SGML catalog file support
 ii  shared-mime-info                     1.2-0ubuntu3                         amd64        FreeDesktop.org shared MIME database and spec
 rc  smartmontools                        6.2+svn3841-1.2                      amd64        control and monitor storage systems using S.M.A.R.T.
-ii  snmp                                 5.7.2~dfsg-8.1ubuntu3.1              amd64        SNMP (Simple Network Management Protocol) applications
-ii  snmpd                                5.7.2~dfsg-8.1ubuntu3.1              amd64        SNMP (Simple Network Management Protocol) agents
+ii  snmp                                 5.7.2~dfsg-8.1ubuntu3.2              amd64        SNMP (Simple Network Management Protocol) applications
+ii  snmpd                                5.7.2~dfsg-8.1ubuntu3.2              amd64        SNMP (Simple Network Management Protocol) agents
 ii  software-properties-common           0.92.37.7                            all          manage the repositories that you install software from (common)
 ii  ssh-import-id                        3.21-0ubuntu1                        all          securely retrieve an SSH public key and install it locally
 ii  ssl-cert                             1.0.33                               all          simple debconf wrapper for OpenSSL
@@ -694,7 +694,7 @@ ii  traceroute                           1:2.0.20-0ubuntu0.1                  am
 ii  ttf-dejavu                           2.34-1ubuntu1                        all          transitional dummy package
 ii  ttf-dejavu-core                      2.34-1ubuntu1                        all          transitional dummy package
 ii  ttf-dejavu-extra                     2.34-1ubuntu1                        all          transitional dummy package
-ii  tzdata                               2016c-0ubuntu0.14.04                 all          time zone and daylight-saving time data
+ii  tzdata                               2016d-0ubuntu0.14.04                 all          time zone and daylight-saving time data
 ii  ubuntu-keyring                       2012.05.19                           all          GnuPG keys of the Ubuntu archive
 ii  ubuntu-minimal                       1.325                                amd64        Minimal core of Ubuntu
 ii  ucf                                  3.0027+nmu1                          all          Update Configuration File(s): preserve user changes to config files

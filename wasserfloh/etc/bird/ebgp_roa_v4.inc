@@ -5,7 +5,7 @@
 #   roa table icvpn { include "roa.con?" }
 # 
 roa 10.5.0.0/16     max  20 as      65077; # aachen
-roa 10.15.16.0/20   max  20 as      65522; # altmuehltal
+roa 10.202.0.0/18   max  20 as      65522; # altmuehltal
 roa 10.205.0.0/16   max  20 as      65205; # amsterdam
 roa 10.11.0.0/18    max  20 as      65050; # augsburg
 roa 10.144.0.0/16   max  20 as      64859; # badoldesloe
