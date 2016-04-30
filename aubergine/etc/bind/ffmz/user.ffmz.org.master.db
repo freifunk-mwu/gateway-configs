@@ -3,7 +3,7 @@ $ORIGIN user.ffmz.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffmz.org. hostmaster.ffmz.org. (
-                     2016011201         ; Serial
+                     2016043003         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -29,3 +29,5 @@ fon				IN	A	10.37.4.42
 fon				IN	AAAA	fd37:b4dc:4b1e:0:caa0:30ff:fead:c767
 post				IN	A	10.37.4.44
 post				IN	AAAA	fd37:b4dc:4b1e:0:225:90ff:fe15:7a0a
+speed				IN	A	10.37.4.65
+games				IN	A	10.37.4.65
