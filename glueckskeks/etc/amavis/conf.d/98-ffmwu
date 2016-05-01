@@ -90,7 +90,6 @@ $enable_dkim_signing = 1;    # load DKIM signing code, keys defined by dkim_key
 
 # DKIM Domain Keys
 dkim_key('freifunk-mwu.de', 'mail201507', '/var/lib/amavis/db/freifunk-mwu.de');
-dkim_key('lists.freifunk-mwu.de', 'mail201507', '/var/lib/amavis/db/lists.freifunk-mwu.de');
 dkim_key('freifunk-mainz.de', 'mail201507', '/var/lib/amavis/db/freifunk-mainz.de');
 dkim_key('freifunk-wiesbaden.de', 'mail201507', '/var/lib/amavis/db/freifunk-wiesbaden.de');
 
