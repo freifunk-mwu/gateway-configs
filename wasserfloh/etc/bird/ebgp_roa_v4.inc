@@ -59,6 +59,7 @@ roa 10.206.0.0/16   max  20 as      65530; # gronau (delegation)
 roa 10.234.0.0/16   max  20 as      65533; # guetersloh
 roa 10.235.0.0/16   max  20 as      65533; # guetersloh
 roa 10.255.0.0/16   max  20 as      65533; # guetersloh
+roa 10.253.128.0/17 max  20 as      65530; # gummersbach (delegation)
 roa 10.154.0.0/16   max  20 as      65530; # hagen (delegation)
 roa 10.62.0.0/16    max  20 as      65046; # halle
 roa 10.112.0.0/16   max  20 as      49009; # hamburg
