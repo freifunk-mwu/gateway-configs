@@ -61,6 +61,8 @@ roa 2001:bf7:1310::/44       max  64 as      65533; # guetersloh
 roa fd42:ffee:ff12::/48      max  64 as      65533; # guetersloh
 roa fd42:ffee:ff13::/48      max  64 as      65533; # guetersloh
 roa fd42:ffee:ff14::/48      max  64 as      65533; # guetersloh
+roa 2001:bf7:100:2261::/64   max  64 as      65530; # gummersbach (delegation)
+roa fddf:ebfd:a801:2261::/64 max  64 as      65530; # gummersbach (delegation)
 roa 2001:bf7:100:2331::/64   max  64 as      65530; # hagen (delegation)
 roa fddf:ebfd:a801:2331::/64 max  64 as      65530; # hagen (delegation)
 roa 2a03:2267::/32           max  64 as      49009; # hamburg
