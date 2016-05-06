@@ -54,6 +54,10 @@ ip -6 rule add from fd37:b4dc:4b1e::/48 lookup icvpn priority 23
 ip -6 rule add to fd37:b4dc:4b1e::/48 lookup icvpn priority 23
 ip -6 rule add from fd56:b4dc:4b1e::/48 lookup icvpn priority 23
 ip -6 rule add to fd56:b4dc:4b1e::/48 lookup icvpn priority 23
+ip -6 rule add from 2a03:2260:11a::/48 lookup icvpn priority 23
+ip -6 rule add to 2a03:2260:11a::/48 lookup icvpn priority 23
+ip -6 rule add from 2a03:2260:11b::/48 lookup icvpn priority 23
+ip -6 rule add to 2a03:2260:11b::/48 lookup icvpn priority 23
 
 # Priority 41 - lookup rt_table ffinetexit for all incoming traffic of freifunk bridges
 ip -4 rule add from 10.37.0.0/16 lookup ffinetexit priority 41
@@ -96,13 +100,11 @@ ip -6 rule add from all lookup mwu priority 107
 ip -6 rule add from all lookup icvpn priority 107
 
 
+/bin/sleep 10
+
 #
 # IP routes
 #
-
-# static route for icvpn transfer-net
-/sbin/ip -4 route add 10.207.0.0/16 proto static dev icVPN table icvpn
-/sbin/ip -6 route add fec0::/96 proto static dev icVPN table icvpn
 
 # static mainz routes for rt_table mwu
 /sbin/ip -4 route add 10.37.0.0/18 proto static dev mzBR table mwu
@@ -131,5 +133,9 @@ ip -6 rule add from all lookup icvpn priority 107
 /sbin/ip -4 route add blackhole 224.0.0.0/4 table ffinetexit
 /sbin/ip -4 route add blackhole 240.0.0.0/4 table ffinetexit
 /sbin/ip -4 route add blackhole 255.255.255.255/32 table ffinetexit
+
+# static route for icvpn transfer-net
+/sbin/ip -4 route add 10.207.0.0/16 proto static dev icVPN table icvpn
+/sbin/ip -6 route add fec0::/96 proto static dev icVPN table icvpn
 
 exit 0
