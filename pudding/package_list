@@ -553,8 +553,6 @@ ii  linux-headers-3.13.0-62             3.13.0-62.102                        all
 ii  linux-headers-3.13.0-62-generic     3.13.0-62.102                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-63             3.13.0-63.103                        all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-63-generic     3.13.0-63.103                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-83             3.13.0-83.127                        all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-83-generic     3.13.0-83.127                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-85             3.13.0-85.129                        all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-85-generic     3.13.0-85.129                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-generic               3.13.0.85.91                         amd64        Generic Linux kernel headers
@@ -591,7 +589,7 @@ rc  linux-image-3.13.0-74-generic       3.13.0-74.118                        amd
 rc  linux-image-3.13.0-76-generic       3.13.0-76.120                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-77-generic       3.13.0-77.121                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-79-generic       3.13.0-79.123                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-83-generic       3.13.0-83.127                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-83-generic       3.13.0-83.127                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-85-generic       3.13.0-85.129                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-24-generic 3.13.0-24.47                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-30-generic 3.13.0-30.55                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
@@ -626,7 +624,7 @@ rc  linux-image-extra-3.13.0-74-generic 3.13.0-74.118                        amd
 rc  linux-image-extra-3.13.0-76-generic 3.13.0-76.120                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-77-generic 3.13.0-77.121                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-79-generic 3.13.0-79.123                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-83-generic 3.13.0-83.127                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-83-generic 3.13.0-83.127                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-85-generic 3.13.0-85.129                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-generic                 3.13.0.85.91                         amd64        Generic Linux kernel image
 ii  linux-libc-dev:amd64                3.13.0-85.129                        amd64        Linux Kernel Headers for development
@@ -649,8 +647,6 @@ ii  linux-tools-3.13.0-62               3.13.0-62.102                        amd
 ii  linux-tools-3.13.0-62-generic       3.13.0-62.102                        amd64        Linux kernel version specific tools for version 3.13.0-62
 ii  linux-tools-3.13.0-63               3.13.0-63.103                        amd64        Linux kernel version specific tools for version 3.13.0-63
 ii  linux-tools-3.13.0-63-generic       3.13.0-63.103                        amd64        Linux kernel version specific tools for version 3.13.0-63
-ii  linux-tools-3.13.0-83               3.13.0-83.127                        amd64        Linux kernel version specific tools for version 3.13.0-83
-ii  linux-tools-3.13.0-83-generic       3.13.0-83.127                        amd64        Linux kernel version specific tools for version 3.13.0-83
 ii  linux-tools-3.13.0-85               3.13.0-85.129                        amd64        Linux kernel version specific tools for version 3.13.0-85
 ii  linux-tools-3.13.0-85-generic       3.13.0-85.129                        amd64        Linux kernel version specific tools for version 3.13.0-85
 ii  linux-tools-common                  3.13.0-85.129                        all          Linux kernel version specific tools for version 3.13.0
