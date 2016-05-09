@@ -56,6 +56,10 @@ smtpd_client_connection_rate_limit = 7
 smtpd_client_message_rate_limit = 100
 smtpd_client_recipient_rate_limit = 100
 
+# Logging
+smtp_tls_loglevel = 0
+smtpd_tls_loglevel = 0
+
 # relay domains and transport map
 relay_domains = btree:/etc/postfix/relay_domains.btree
 transport_maps = btree:/etc/postfix/relay_domains.btree
@@ -118,7 +122,6 @@ smtpd_tls_key_file=/etc/ssl/private/wildcard.freifunk-mwu.de_private.key
 smtpd_use_tls=yes
 smtpd_tls_session_cache_database = btree:${data_directory}/smtpd_scache
 smtpd_tls_security_level = may
-smtpd_tls_loglevel = 1
 smtpd_tls_received_header = yes
 smtpd_tls_auth_only = yes
 smtpd_tls_dh1024_param_file = /etc/postfix/dh2048.pem
@@ -127,9 +130,9 @@ smtpd_tls_eecdh_grade = ultra
 
 # SMTP Client TLS Parameters
 smtp_tls_security_level = dane
-smtp_tls_loglevel = 1
 smtp_tls_session_cache_database = btree:${data_directory}/smtp_scache
 smtp_tls_note_starttls_offer = no
+
 
 # smtp dns support
 smtp_dns_support_level = dnssec
