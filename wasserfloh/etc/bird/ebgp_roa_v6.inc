@@ -36,7 +36,8 @@ roa fd92:2dff:d232::/48      max  64 as      64861; # celle
 roa 2a03:2260:118::/48       max  64 as      65038; # darmstadt
 roa fdca:ffee:ffda::/48      max  64 as      65038; # darmstadt
 roa fdc4:d762:2143::/48      max  64 as      64874; # donau-ries
-roa 2001:bf7:20::/44         max  64 as      65043; # dreilaendereck
+roa fdc7:3c9d:b889:a272::/64 max  64 as      65043; # dreilaendereck
+roa fdc7:3c9d:ff31::/48      max  64 as      65043; # dreilaendereck
 roa fd11:11ae:7466::/48      max  64 as      65051; # dresden
 roa fdec:4562:434f::/64      max  64 as      65520; # ebersdorf
 roa 2001:bf7:130::/44        max  64 as      65138; # elm-lappwald
@@ -93,6 +94,7 @@ roa 2001:bf7:100:2144::/64   max  64 as      65530; # leverkusen (delegation)
 roa fddf:ebfd:a801:2144::/64 max  64 as      65530; # leverkusen (delegation)
 roa 2001:bf7:100:2266::/64   max  64 as      65530; # lindlar (delegation)
 roa fddf:ebfd:a801:2266::/64 max  64 as      65530; # lindlar (delegation)
+roa 2a03:2260:2004::/48      max  64 as      64884; # lippe
 roa 2001:15c0:66e9::/48      max  64 as      65023; # ljubljana
 roa 2001:67c:2d50::/48       max  64 as     201173; # luebeck
 roa 2001:bf7:110::/44        max  64 as     201173; # luebeck
@@ -175,6 +177,7 @@ roa 2001:bf7:1930::/44       max  64 as      65042; # weimar
 roa 2001:bf7:100:2196::/64   max  64 as      65530; # wermelskirchen (delegation)
 roa fddf:ebfd:a801:2196::/64 max  64 as      65530; # wermelskirchen (delegation)
 roa fd23:dead:beef::/48      max  64 as      65432; # westkueste
+roa 2a03:2260:100d::/48      max  64 as      65242; # westpfalz
 roa fdc6:c4fe:1de4::/48      max  64 as      65242; # westpfalz
 roa 2a03:2260:300d::/48      max  64 as      64881; # winterberg
 roa 2001:bf7:100:2267::/64   max  64 as      65530; # wipperfuerth (delegation)
