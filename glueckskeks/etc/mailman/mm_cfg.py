@@ -114,8 +114,8 @@ MTA='Postfix'
 #      that of the list.  Also see REMOVE_DKIM_HEADERS above.
 # 2 -> Do not modify the From: of the message, but wrap the message in an outer
 #      message From the list address.
-DEFAULT_FROM_IS_LIST = 1
-ALLOW_FROM_IS_LIST = Yes
+DEFAULT_FROM_IS_LIST = 0
+ALLOW_FROM_IS_LIST = No
 
 # Do not break existing DKIM signatures
 DEFAULT_SUBJECT_PREFIX  = ""
@@ -161,3 +161,7 @@ DEFAULT_MAX_MESSAGE_SIZE = 2048
 # this variable to No instead requires list removal to be done by the site
 # administrator, via the command line script bin/rmlist.
 OWNERS_CAN_DELETE_THEIR_OWN_LISTS = Yes
+
+# This value specifies the default lengths of member and list admin passwords
+MEMBER_PASSWORD_LENGTH = 10
+ADMIN_PASSWORD_LENGTH = 20
