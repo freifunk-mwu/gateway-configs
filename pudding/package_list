@@ -522,7 +522,7 @@ ii  libxtables10                        1.4.21-1ubuntu1                      amd
 ii  libyaml-0-2:amd64                   0.1.4-3ubuntu3.1                     amd64        Fast YAML 1.1 parser and emitter library
 ii  libyaml-dev:amd64                   0.1.4-3ubuntu3.1                     amd64        Fast YAML 1.1 parser and emitter library (development)
 ii  linux-firmware                      1.127.22                             all          Firmware for Linux kernel drivers
-ii  linux-generic                       3.13.0.85.91                         amd64        Complete Generic Linux kernel and headers
+ii  linux-generic                       3.13.0.86.92                         amd64        Complete Generic Linux kernel and headers
 ii  linux-headers-3.13.0-24             3.13.0-24.47                         all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-24-generic     3.13.0-24.47                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-30             3.13.0-30.55                         all          Header files related to Linux kernel version 3.13.0
@@ -555,7 +555,9 @@ ii  linux-headers-3.13.0-63             3.13.0-63.103                        all
 ii  linux-headers-3.13.0-63-generic     3.13.0-63.103                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-85             3.13.0-85.129                        all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-85-generic     3.13.0-85.129                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-generic               3.13.0.85.91                         amd64        Generic Linux kernel headers
+ii  linux-headers-3.13.0-86             3.13.0-86.130                        all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-86-generic     3.13.0-86.130                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-generic               3.13.0.86.92                         amd64        Generic Linux kernel headers
 rc  linux-image-3.13.0-24-generic       3.13.0-24.47                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-30-generic       3.13.0-30.55                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-37-generic       3.13.0-37.64                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -591,6 +593,7 @@ rc  linux-image-3.13.0-77-generic       3.13.0-77.121                        amd
 rc  linux-image-3.13.0-79-generic       3.13.0-79.123                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-83-generic       3.13.0-83.127                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-85-generic       3.13.0-85.129                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-3.13.0-86-generic       3.13.0-86.130                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-24-generic 3.13.0-24.47                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-30-generic 3.13.0-30.55                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-37-generic 3.13.0-37.64                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
@@ -626,9 +629,10 @@ rc  linux-image-extra-3.13.0-77-generic 3.13.0-77.121                        amd
 rc  linux-image-extra-3.13.0-79-generic 3.13.0-79.123                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-83-generic 3.13.0-83.127                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-85-generic 3.13.0-85.129                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-generic                 3.13.0.85.91                         amd64        Generic Linux kernel image
-ii  linux-libc-dev:amd64                3.13.0-85.129                        amd64        Linux Kernel Headers for development
-ii  linux-source-3.13.0                 3.13.0-85.129                        all          Linux kernel source for version 3.13.0 with Ubuntu patches
+ii  linux-image-extra-3.13.0-86-generic 3.13.0-86.130                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-generic                 3.13.0.86.92                         amd64        Generic Linux kernel image
+ii  linux-libc-dev:amd64                3.13.0-86.130                        amd64        Linux Kernel Headers for development
+ii  linux-source-3.13.0                 3.13.0-86.130                        all          Linux kernel source for version 3.13.0 with Ubuntu patches
 ii  linux-tools-3.13.0-30               3.13.0-30.55                         amd64        Linux kernel version specific tools for version 3.13.0-30
 ii  linux-tools-3.13.0-30-generic       3.13.0-30.55                         amd64        Linux kernel version specific tools for version 3.13.0-30
 ii  linux-tools-3.13.0-39               3.13.0-39.66                         amd64        Linux kernel version specific tools for version 3.13.0-39
@@ -649,9 +653,11 @@ ii  linux-tools-3.13.0-63               3.13.0-63.103                        amd
 ii  linux-tools-3.13.0-63-generic       3.13.0-63.103                        amd64        Linux kernel version specific tools for version 3.13.0-63
 ii  linux-tools-3.13.0-85               3.13.0-85.129                        amd64        Linux kernel version specific tools for version 3.13.0-85
 ii  linux-tools-3.13.0-85-generic       3.13.0-85.129                        amd64        Linux kernel version specific tools for version 3.13.0-85
-ii  linux-tools-common                  3.13.0-85.129                        all          Linux kernel version specific tools for version 3.13.0
-ii  linux-tools-generic                 3.13.0.85.91                         amd64        Generic Linux kernel tools
-ii  linux-tools-generic-lts-trusty      3.13.0.85.91                         amd64        Generic Linux kernel tools
+ii  linux-tools-3.13.0-86               3.13.0-86.130                        amd64        Linux kernel version specific tools for version 3.13.0-86
+ii  linux-tools-3.13.0-86-generic       3.13.0-86.130                        amd64        Linux kernel version specific tools for version 3.13.0-86
+ii  linux-tools-common                  3.13.0-86.130                        all          Linux kernel version specific tools for version 3.13.0
+ii  linux-tools-generic                 3.13.0.86.92                         amd64        Generic Linux kernel tools
+ii  linux-tools-generic-lts-trusty      3.13.0.86.92                         amd64        Generic Linux kernel tools
 ii  lksctp-tools                        1.0.15+dfsg-1                        amd64        user-space access to Linux Kernel SCTP - commandline tools
 ii  lm-sensors                          1:3.3.4-2ubuntu1                     amd64        utilities to read temperature/voltage/fan sensors
 ii  locales                             2.13+git20120306-12.1                all          common files for locale support
@@ -697,9 +703,9 @@ ii  netcat-openbsd                      1.105-7ubuntu1                       amd
 ii  ntfs-3g                             1:2013.1.13AR.1-2ubuntu2             amd64        read/write NTFS driver for FUSE
 ii  ntp                                 1:4.2.6.p5+dfsg-3ubuntu2.14.04.8     amd64        Network Time Protocol daemon and utility programs
 ii  ntpdate                             1:4.2.6.p5+dfsg-3ubuntu2.14.04.8     amd64        client for setting system time from NTP servers
-ii  openssh-client                      1:6.6p1-2ubuntu2.6                   amd64        secure shell (SSH) client, for secure access to remote machines
-ii  openssh-server                      1:6.6p1-2ubuntu2.6                   amd64        secure shell (SSH) server, for secure access from remote machines
-ii  openssh-sftp-server                 1:6.6p1-2ubuntu2.6                   amd64        secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii  openssh-client                      1:6.6p1-2ubuntu2.7                   amd64        secure shell (SSH) client, for secure access to remote machines
+ii  openssh-server                      1:6.6p1-2ubuntu2.7                   amd64        secure shell (SSH) server, for secure access from remote machines
+ii  openssh-sftp-server                 1:6.6p1-2ubuntu2.7                   amd64        secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii  openssl                             1.0.1f-1ubuntu2.19                   amd64        Secure Sockets Layer toolkit - cryptographic utility
 ii  os-prober                           1.63ubuntu1.1                        amd64        utility to detect other OSes on a set of drives
 ii  parted                              2.3-19ubuntu1.14.04.1                amd64        disk partition manipulator
