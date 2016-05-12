@@ -35,6 +35,7 @@ roa 10.11.144.0/20  max  20 as      64874; # donau-ries
 roa 10.119.0.0/16   max  20 as      65043; # dreilaendereck
 roa 10.200.0.0/16   max  20 as      65051; # dresden
 roa 10.201.0.0/16   max  20 as      65051; # dresden
+roa 10.11.184.0/22  max  22 as      65520; # ebersdorf
 roa 10.138.0.0/16   max  20 as      65138; # elm-lappwald
 roa 10.141.128.0/17 max  20 as      65530; # engelskirchen (delegation)
 roa 10.99.0.0/16    max  20 as      65099; # erfurt
@@ -90,6 +91,7 @@ roa 10.61.0.0/16    max  20 as      65041; # leipzig
 roa 10.76.0.0/16    max  20 as      65530; # leverkusen (delegation)
 roa 10.44.0.0/18    max  20 as      64882; # limburg
 roa 10.141.0.0/17   max  20 as      65530; # lindlar (delegation)
+roa 10.15.0.0/18    max  20 as      64884; # lippe
 roa 10.14.0.0/16    max  20 as      65023; # ljubljana
 roa 10.254.0.0/16   max  20 as      65023; # ljubljana
 roa 10.130.0.0/16   max  20 as     201173; # luebeck
