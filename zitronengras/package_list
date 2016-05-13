@@ -264,8 +264,8 @@ ii  libnfnetlink0:amd64                 1.0.1-2                          amd64  
 rc  libnfsidmap2:amd64                  0.25-5                           amd64        NFS idmapping library
 ii  libnih-dbus1:amd64                  1.0.3-4ubuntu25                  amd64        NIH D-Bus Bindings Library
 ii  libnih1:amd64                       1.0.3-4ubuntu25                  amd64        NIH Utility Library
-ii  libnl-3-200:amd64                   3.2.21-1                         amd64        library for dealing with netlink sockets
-ii  libnl-genl-3-200:amd64              3.2.21-1                         amd64        library for dealing with netlink sockets - generic netlink
+ii  libnl-3-200:amd64                   3.2.21-1ubuntu1                  amd64        library for dealing with netlink sockets
+ii  libnl-genl-3-200:amd64              3.2.21-1ubuntu1                  amd64        library for dealing with netlink sockets - generic netlink
 rc  libntdb1:amd64                      1.0-2ubuntu1                     amd64        New Trivial Database - shared library
 ii  libopts25:amd64                     1:5.18-2ubuntu2                  amd64        automated option processing library based on autogen
 ii  libp11-kit0:amd64                   0.20.2-2ubuntu2                  amd64        Library for loading and coordinating access to PKCS#11 modules - runtime
@@ -401,8 +401,8 @@ ii  locales                             2.13+git20120306-12.1            all    
 ii  lockfile-progs                      0.1.17                           amd64        Programs for locking and unlocking files and mailboxes
 ii  login                               1:4.1.5.1-1ubuntu9.2             amd64        system login tools
 ii  logrotate                           3.8.7-1ubuntu1                   amd64        Log rotation utility
-ii  lsb-base                            4.1+Debian11ubuntu6              all          Linux Standard Base 4.1 init script functionality
-ii  lsb-release                         4.1+Debian11ubuntu6              all          Linux Standard Base version reporting utility
+ii  lsb-base                            4.1+Debian11ubuntu6.1            all          Linux Standard Base 4.1 init script functionality
+ii  lsb-release                         4.1+Debian11ubuntu6.1            all          Linux Standard Base version reporting utility
 ii  make                                3.81-8.2ubuntu3                  amd64        An utility for Directing compilation.
 ii  makedev                             2.3.1-93ubuntu1                  all          creates device files in /dev
 ii  man-db                              2.6.7.1-1ubuntu1                 amd64        on-line manual pager
