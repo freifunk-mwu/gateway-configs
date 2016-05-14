@@ -264,8 +264,8 @@ ii  libnfnetlink0:amd64                 1.0.1-2                          amd64  
 rc  libnfsidmap2:amd64                  0.25-5                           amd64        NFS idmapping library
 ii  libnih-dbus1:amd64                  1.0.3-4ubuntu25                  amd64        NIH D-Bus Bindings Library
 ii  libnih1:amd64                       1.0.3-4ubuntu25                  amd64        NIH Utility Library
-ii  libnl-3-200:amd64                   3.2.21-1ubuntu1                  amd64        library for dealing with netlink sockets
-ii  libnl-genl-3-200:amd64              3.2.21-1ubuntu1                  amd64        library for dealing with netlink sockets - generic netlink
+ii  libnl-3-200:amd64                   3.2.21-1ubuntu1.1                amd64        library for dealing with netlink sockets
+ii  libnl-genl-3-200:amd64              3.2.21-1ubuntu1.1                amd64        library for dealing with netlink sockets - generic netlink
 rc  libntdb1:amd64                      1.0-2ubuntu1                     amd64        New Trivial Database - shared library
 ii  libopts25:amd64                     1:5.18-2ubuntu2                  amd64        automated option processing library based on autogen
 ii  libp11-kit0:amd64                   0.20.2-2ubuntu2                  amd64        Library for loading and coordinating access to PKCS#11 modules - runtime
