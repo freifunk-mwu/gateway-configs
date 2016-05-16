@@ -16,35 +16,42 @@
 #
 
 # lookup rt_table mwu for all incoming traffic of freifunk related interfaces
-ip -4 rule add from all iif mzBR lookup mwu priority 7
-ip -4 rule add from all iif wiBR lookup mwu priority 7
-ip -4 rule add from all iif icVPN lookup mwu priority 7
-ip -4 rule add from all iif ffrl-a-ak-ber lookup mwu priority 7
-ip -4 rule add from all iif ffrl-b-ak-ber lookup mwu priority 7
-ip -4 rule add from all iif ffrl-a-ix-dus lookup mwu priority 7
-ip -4 rule add from all iif ffrl-b-ix-dus lookup mwu priority 7
-ip -6 rule add from all iif mzBR lookup mwu priority 7
-ip -6 rule add from all iif wiBR lookup mwu priority 7
-ip -6 rule add from all iif icVPN lookup mwu priority 7
-ip -6 rule add from all iif ffrl-a-ak-ber lookup mwu priority 7
-ip -6 rule add from all iif ffrl-b-ak-ber lookup mwu priority 7
-ip -6 rule add from all iif ffrl-a-ix-dus lookup mwu priority 7
-ip -6 rule add from all iif ffrl-b-ix-dus lookup mwu priority 7
+ip -4 rule add from 10.37.0.0/16 lookup mwu priority 7
+ip -4 rule add to 10.37.0.0/16 lookup mwu priority 7
+ip -4 rule add from 10.56.0.0/16 lookup mwu priority 7
+ip -4 rule add to 10.56.0.0/16 lookup mwu priority 7
+ip -6 rule add from fd37:b4dc:4b1e::/48 lookup mwu priority 7
+ip -6 rule add to fd37:b4dc:4b1e::/48 lookup mwu priority 7
 ip -6 rule add from 2a03:2260:11a::/48 lookup mwu priority 7
+ip -6 rule add to 2a03:2260:11a::/48 lookup mwu priority 7
+ip -6 rule add from fd56:b4dc:4b1e::/48 lookup mwu priority 7
+ip -6 rule add to fd56:b4dc:4b1e::/48 lookup mwu priority 7
 ip -6 rule add from 2a03:2260:11b::/48 lookup mwu priority 7
+ip -6 rule add to 2a03:2260:11b::/48 lookup mwu priority 7
 
 # lookup rt_table icvpn for all incoming traffic of freifunk bridges
-ip -4 rule add from all iif mzBR lookup icvpn priority 23
-ip -4 rule add from all iif wiBR lookup icvpn priority 23
-ip -6 rule add from all iif mzBR lookup icvpn priority 23
-ip -6 rule add from all iif wiBR lookup icvpn priority 23
+ip -4 rule add from 10.37.0.0/16 lookup icvpn priority 23
+ip -4 rule add to 10.37.0.0/16 lookup icvpn priority 23
+ip -4 rule add from 10.56.0.0/16 lookup icvpn priority 23
+ip -4 rule add to 10.56.0.0/16 lookup icvpn priority 23
+ip -6 rule add from fd37:b4dc:4b1e::/48 lookup icvpn priority 23
+ip -6 rule add to fd37:b4dc:4b1e::/48 lookup icvpn priority 23
+ip -6 rule add from fd56:b4dc:4b1e::/48 lookup icvpn priority 23
+ip -6 rule add to fd56:b4dc:4b1e::/48 lookup icvpn priority 23
+ip -6 rule add from 2a03:2260:11a::/48 lookup icvpn priority 23
+ip -6 rule add to 2a03:2260:11a::/48 lookup icvpn priority 23
+ip -6 rule add from 2a03:2260:11b::/48 lookup icvpn priority 23
+ip -6 rule add to 2a03:2260:11b::/48 lookup icvpn priority 23
 
 # lookup rt_table ffinetexit for all incoming traffic of freifunk bridges
-ip -4 rule add from all iif mzBR lookup ffinetexit priority 41
-ip -4 rule add from all iif wiBR lookup ffinetexit priority 41
+ip -4 rule add from 10.37.0.0/16 lookup ffinetexit priority 41
+ip -4 rule add from 10.56.0.0/16 lookup ffinetexit priority 41
 ip -4 rule add from 185.66.195.33/32 lookup ffinetexit priority 41
+ip -4 rule add to 185.66.195.33/32 lookup ffinetexit priority 41
 ip -6 rule add from 2a03:2260:11a::/48 lookup ffinetexit priority 41
+ip -6 rule add to 2a03:2260:11a::/48 lookup ffinetexit priority 41
 ip -6 rule add from 2a03:2260:11b::/48 lookup ffinetexit priority 41
+ip -6 rule add to 2a03:2260:11b::/48 lookup ffinetexit priority 41
 
 # at this point this is the end of policy routing for freifunk related routes
 ip -4 rule add from all iif mzBR type unreachable priority 61
@@ -59,7 +66,9 @@ ip -6 rule add from all iif mzBR type unreachable priority 61
 ip -6 rule add from all iif wiBR type unreachable priority 61
 ip -6 rule add from all iif icVPN type unreachable priority 61
 ip -6 rule add from 2a03:2260:11a::/48 type unreachable priority 61
+ip -6 rule add to 2a03:2260:11a::/48 type unreachable priority 61
 ip -6 rule add from 2a03:2260:11b::/48 type unreachable priority 61
+ip -6 rule add to 2a03:2260:11b::/48 type unreachable priority 61
 ip -6 rule add from all iif eth0 type unreachable priority 61
 ip -6 rule add from all iif ffrl-a-ak-ber type unreachable priority 61
 ip -6 rule add from all iif ffrl-b-ak-ber type unreachable priority 61
@@ -75,10 +84,6 @@ ip -6 rule add from all lookup icvpn priority 107
 #
 # IP routes
 #
-
-# static route for icvpn transfer-net
-/sbin/ip -4 route add 10.207.0.0/16 proto static dev icVPN table icvpn
-/sbin/ip -6 route add fec0::/96 proto static dev icVPN table icvpn
 
 # static mainz routes for rt_table mwu
 /sbin/ip -4 route add 10.37.0.0/18 proto static dev mzBR table mwu
@@ -107,5 +112,9 @@ ip -6 rule add from all lookup icvpn priority 107
 /sbin/ip -4 route add blackhole 224.0.0.0/4 table ffinetexit
 /sbin/ip -4 route add blackhole 240.0.0.0/4 table ffinetexit
 /sbin/ip -4 route add blackhole 255.255.255.255/32 table ffinetexit
+
+# static route for icvpn transfer-net
+/sbin/ip -4 route add 10.207.0.0/16 proto static dev icVPN table icvpn
+/sbin/ip -6 route add fec0::/96 proto static dev icVPN table icvpn
 
 exit 0
