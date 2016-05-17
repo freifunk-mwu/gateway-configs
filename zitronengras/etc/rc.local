@@ -11,10 +11,6 @@
 #
 # By default this script does nothing.
 
-#
-# IP rules
-#
-
 # Priority 7 - lookup rt_table mwu for all incoming traffic of freifunk related interfaces
 ip -4 rule add from 10.56.0.0/16 lookup mwu priority 7
 ip -4 rule add to 10.56.0.0/16 lookup mwu priority 7
@@ -40,7 +36,7 @@ ip -6 rule add to 2a03:2260:11b::/48 lookup ffinetexit priority 41
 
 # Priority 61 - at this point this is the end of policy routing for freifunk related routes
 ip -4 rule add from all iif wiBR type unreachable priority 61
-ip -4 rule add from all iif eth0 type unreachable priority 61
+ip -4 rule add from all iif ens32 type unreachable priority 61
 ip -4 rule add from all iif ffrl-a-ak-ber type unreachable priority 61
 ip -4 rule add from all iif ffrl-b-ak-ber type unreachable priority 61
 ip -4 rule add from all iif ffrl-a-ix-dus type unreachable priority 61
@@ -48,7 +44,7 @@ ip -4 rule add from all iif ffrl-b-ix-dus type unreachable priority 61
 ip -6 rule add from all iif wiBR type unreachable priority 61
 ip -6 rule add from 2a03:2260:11b::/48 type unreachable priority 61
 ip -6 rule add to 2a03:2260:11b::/48 type unreachable priority 61
-ip -6 rule add from all iif eth0 type unreachable priority 61
+ip -6 rule add from all iif ens32 type unreachable priority 61
 ip -6 rule add from all iif ffrl-a-ak-ber type unreachable priority 61
 ip -6 rule add from all iif ffrl-b-ak-ber type unreachable priority 61
 ip -6 rule add from all iif ffrl-a-ix-dus type unreachable priority 61
