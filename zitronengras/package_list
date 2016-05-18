@@ -117,6 +117,7 @@ ii  initramfs-tools-core               0.122ubuntu8                    all      
 ii  initscripts                        2.88dsf-59.3ubuntu2             amd64        scripts for initializing and shutting down the system
 ii  insserv                            1.14.0-5ubuntu3                 amd64        boot sequence organizer using LSB init.d script dependency information
 ii  installation-report                2.60ubuntu1                     all          system installation report
+ii  iperf                              2.0.5+dfsg1-2                   amd64        Internet Protocol bandwidth measuring tool
 ii  iproute                            1:4.3.0-1ubuntu3                all          transitional dummy package for iproute2
 ii  iproute2                           4.3.0-1ubuntu3                  amd64        networking and traffic control tools
 ii  iptables                           1.6.0-2ubuntu3                  amd64        administration tools for packet filtering and NAT

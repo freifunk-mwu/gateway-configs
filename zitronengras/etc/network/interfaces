@@ -16,8 +16,7 @@ iface ens32 inet static
         broadcast 195.72.110.35
         gateway 195.72.110.34
         # dns-* options are implemented by the resolvconf package, if installed
-        dns-nameservers 195.72.102.129 195.72.107.114 82.195.72.244
-        dns-search itmz.hs-rm.de
+        dns-nameservers 127.0.0.1
 
 auto wiBR
 iface wiBR inet static
