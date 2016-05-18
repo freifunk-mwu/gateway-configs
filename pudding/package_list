@@ -29,7 +29,7 @@ ii  bash                                4.3-7ubuntu1.5                       amd
 ii  bash-completion                     1:2.1-4ubuntu0.1                     all          programmable completion for the bash shell
 ii  bc                                  1.06.95-8ubuntu1                     amd64        GNU bc arbitrary precision calculator language
 ii  bind9-host                          1:9.9.5.dfsg-3ubuntu0.8              amd64        Version of 'host' bundled with BIND 9.X
-ii  binutils                            2.24-5ubuntu14                       amd64        GNU assembler, linker and binary utilities
+ii  binutils                            2.24-5ubuntu14.1                     amd64        GNU assembler, linker and binary utilities
 ii  biosdevname                         0.4.1-0ubuntu6.3                     amd64        apply BIOS-given names to network devices
 ii  bison                               2:3.0.2.dfsg-2                       amd64        YACC-compatible parser generator
 ii  bsd-mailx                           8.1.2-0.20131005cvs-1ubuntu0.14.04.1 amd64        simple mail user agent
@@ -51,7 +51,7 @@ ii  console-setup                       1.70ubuntu8                          all
 ii  coreutils                           8.21-1ubuntu5.4                      amd64        GNU core utilities
 ii  cpio                                2.11+dfsg-1ubuntu1.2                 amd64        GNU cpio -- a program to manage archives of files
 ii  cpp                                 4:4.8.2-1ubuntu6                     amd64        GNU C preprocessor (cpp)
-ii  cpp-4.8                             4.8.4-2ubuntu1~14.04.1               amd64        GNU C preprocessor
+ii  cpp-4.8                             4.8.4-2ubuntu1~14.04.3               amd64        GNU C preprocessor
 ii  crda                                1.1.2-1ubuntu2                       amd64        wireless Central Regulatory Domain Agent
 ii  cron                                3.0pl1-124ubuntu2                    amd64        process scheduling daemon
 ii  curl                                7.35.0-1ubuntu2.6                    amd64        command line tool for transferring data with URL syntax
@@ -94,12 +94,12 @@ ii  friendly-recovery                   0.2.25                               all
 ii  ftp                                 0.17-28                              amd64        classical file transfer client
 ii  fuse                                2.9.2-4ubuntu4.14.04.1               amd64        Filesystem in Userspace
 ii  g++                                 4:4.8.2-1ubuntu6                     amd64        GNU C++ compiler
-ii  g++-4.8                             4.8.4-2ubuntu1~14.04.1               amd64        GNU C++ compiler
+ii  g++-4.8                             4.8.4-2ubuntu1~14.04.3               amd64        GNU C++ compiler
 ii  gawk                                1:4.0.1+dfsg-2.1ubuntu2              amd64        GNU awk, a pattern scanning and processing language
 ii  gcc                                 4:4.8.2-1ubuntu6                     amd64        GNU C compiler
-ii  gcc-4.8                             4.8.4-2ubuntu1~14.04.1               amd64        GNU C compiler
-ii  gcc-4.8-base:amd64                  4.8.4-2ubuntu1~14.04.1               amd64        GCC, the GNU Compiler Collection (base package)
-ii  gcc-4.8-multilib                    4.8.4-2ubuntu1~14.04.1               amd64        GNU C compiler (multilib files)
+ii  gcc-4.8                             4.8.4-2ubuntu1~14.04.3               amd64        GNU C compiler
+ii  gcc-4.8-base:amd64                  4.8.4-2ubuntu1~14.04.3               amd64        GCC, the GNU Compiler Collection (base package)
+ii  gcc-4.8-multilib                    4.8.4-2ubuntu1~14.04.3               amd64        GNU C compiler (multilib files)
 ii  gcc-4.9-base:amd64                  4.9.3-0ubuntu4                       amd64        GCC, the GNU Compiler Collection (base package)
 ii  gcc-multilib                        4:4.8.2-1ubuntu6                     amd64        GNU C compiler (multilib files)
 ii  geoip-database                      20140313-1                           all          IP lookup command line tools that use the GeoIP library (country database)
@@ -153,13 +153,13 @@ ii  language-pack-en-base               1:14.04+20150219                     all
 ii  language-selector-common            0.129.3                              all          Language selector for Ubuntu
 ii  laptop-detect                       0.13.7ubuntu2                        amd64        attempt to detect a laptop
 ii  less                                458-2                                amd64        pager program similar to more
-ii  lib32asan0                          4.8.4-2ubuntu1~14.04.1               amd64        AddressSanitizer -- a fast memory error detector (32bit)
-ii  lib32atomic1                        4.8.4-2ubuntu1~14.04.1               amd64        support library providing __atomic built-in functions (32bit)
-ii  lib32gcc-4.8-dev                    4.8.4-2ubuntu1~14.04.1               amd64        GCC support library (32 bit development files)
+ii  lib32asan0                          4.8.4-2ubuntu1~14.04.3               amd64        AddressSanitizer -- a fast memory error detector (32bit)
+ii  lib32atomic1                        4.8.4-2ubuntu1~14.04.3               amd64        support library providing __atomic built-in functions (32bit)
+ii  lib32gcc-4.8-dev                    4.8.4-2ubuntu1~14.04.3               amd64        GCC support library (32 bit development files)
 ii  lib32gcc1                           1:4.9.3-0ubuntu4                     amd64        GCC support library (32 bit Version)
-ii  lib32gomp1                          4.8.4-2ubuntu1~14.04.1               amd64        GCC OpenMP (GOMP) support library (32bit)
-ii  lib32itm1                           4.8.4-2ubuntu1~14.04.1               amd64        GNU Transactional Memory Library (32bit)
-ii  lib32quadmath0                      4.8.4-2ubuntu1~14.04.1               amd64        GCC Quad-Precision Math Library (32bit)
+ii  lib32gomp1                          4.8.4-2ubuntu1~14.04.3               amd64        GCC OpenMP (GOMP) support library (32bit)
+ii  lib32itm1                           4.8.4-2ubuntu1~14.04.3               amd64        GNU Transactional Memory Library (32bit)
+ii  lib32quadmath0                      4.8.4-2ubuntu1~14.04.3               amd64        GCC Quad-Precision Math Library (32bit)
 ii  libaccountsservice0:amd64           0.6.35-0ubuntu7.2                    amd64        query and manipulate user account information - shared libraries
 ii  libacl1:amd64                       2.2.52-1                             amd64        Access control list shared library
 rc  libaio1:amd64                       0.3.109-4                            amd64        Linux kernel AIO access library - shared library
@@ -181,11 +181,11 @@ ii  libapt-inst1.5:amd64                1.0.1ubuntu2.13                      amd
 ii  libapt-pkg4.12:amd64                1.0.1ubuntu2.13                      amd64        package management runtime library
 ii  libarchive-extract-perl             0.70-1                               all          generic archive extracting module
 ii  libarchive13:amd64                  3.1.2-7ubuntu2.1                     amd64        Multi-format archive and compression library (shared library)
-ii  libasan0:amd64                      4.8.4-2ubuntu1~14.04.1               amd64        AddressSanitizer -- a fast memory error detector
+ii  libasan0:amd64                      4.8.4-2ubuntu1~14.04.3               amd64        AddressSanitizer -- a fast memory error detector
 ii  libasn1-8-heimdal:amd64             1.6~git20131207+dfsg-1ubuntu1.1      amd64        Heimdal Kerberos - ASN.1 library
 ii  libasprintf-dev:amd64               0.18.3.1-1ubuntu3                    amd64        GNU Internationalization library development files
 ii  libasprintf0c2:amd64                0.18.3.1-1ubuntu3                    amd64        GNU library to use fprintf and friends in C++
-ii  libatomic1:amd64                    4.8.4-2ubuntu1~14.04.1               amd64        support library providing __atomic built-in functions
+ii  libatomic1:amd64                    4.8.4-2ubuntu1~14.04.3               amd64        support library providing __atomic built-in functions
 ii  libattr1:amd64                      1:2.4.47-1ubuntu1                    amd64        Extended attribute shared library
 ii  libaudit-common                     1:2.3.2-2ubuntu1                     all          Dynamic library for security auditing - common files
 ii  libaudit1:amd64                     1:2.3.2-2ubuntu1                     amd64        Dynamic library for security auditing
@@ -257,7 +257,7 @@ ii  libfreetype6:amd64                  2.5.2-1ubuntu2.5                     amd
 ii  libfribidi0:amd64                   0.19.6-1                             amd64        Free Implementation of the Unicode BiDi algorithm
 ii  libfuse2:amd64                      2.9.2-4ubuntu4.14.04.1               amd64        Filesystem in Userspace (library)
 ii  libgc1c2:amd64                      1:7.2d-5ubuntu2                      amd64        conservative garbage collector for C and C++
-ii  libgcc-4.8-dev:amd64                4.8.4-2ubuntu1~14.04.1               amd64        GCC support library (development files)
+ii  libgcc-4.8-dev:amd64                4.8.4-2ubuntu1~14.04.3               amd64        GCC support library (development files)
 ii  libgcc1:amd64                       1:4.9.3-0ubuntu4                     amd64        GCC support library
 ii  libgck-1-0:amd64                    3.10.1-1                             amd64        Glib wrapper library for PKCS#11 - runtime
 ii  libgcr-3-common                     3.10.1-1                             all          Library for Crypto UI related tasks - common files
@@ -278,7 +278,7 @@ ii  libgnutls-dev                       2.12.23-12ubuntu2.5                  amd
 ii  libgnutls-openssl27:amd64           2.12.23-12ubuntu2.5                  amd64        GNU TLS library - OpenSSL wrapper
 ii  libgnutls26:amd64                   2.12.23-12ubuntu2.5                  amd64        GNU TLS library - runtime library
 ii  libgnutlsxx27:amd64                 2.12.23-12ubuntu2.5                  amd64        GNU TLS library - C++ runtime library
-ii  libgomp1:amd64                      4.8.4-2ubuntu1~14.04.1               amd64        GCC OpenMP (GOMP) support library
+ii  libgomp1:amd64                      4.8.4-2ubuntu1~14.04.3               amd64        GCC OpenMP (GOMP) support library
 ii  libgpg-error-dev                    1.12-0.2ubuntu1                      amd64        library for common error values and messages in GnuPG components (development)
 ii  libgpg-error0:amd64                 1.12-0.2ubuntu1                      amd64        library for common error values and messages in GnuPG components
 ii  libgpm2:amd64                       1.20.4-6.1                           amd64        General Purpose Mouse - shared library
@@ -315,7 +315,7 @@ ii  libisc95                            1:9.9.5.dfsg-3ubuntu0.8              amd
 ii  libisccc90                          1:9.9.5.dfsg-3ubuntu0.8              amd64        Command Channel Library used by BIND
 ii  libisccfg90                         1:9.9.5.dfsg-3ubuntu0.8              amd64        Config File Handling Library used by BIND
 ii  libisl10:amd64                      0.12.2-1                             amd64        manipulating sets and relations of integer points bounded by linear constraints
-ii  libitm1:amd64                       4.8.4-2ubuntu1~14.04.1               amd64        GNU Transactional Memory Library
+ii  libitm1:amd64                       4.8.4-2ubuntu1~14.04.3               amd64        GNU Transactional Memory Library
 ii  libiw30:amd64                       30~pre9-8ubuntu1                     amd64        Wireless tools - library
 ii  libjbig0:amd64                      2.0-2ubuntu4.1                       amd64        JBIGkit libraries
 ii  libjpeg-turbo8:amd64                1.3.0-0ubuntu2                       amd64        IJG JPEG compliant runtime library.
@@ -419,7 +419,7 @@ ii  libpython3.4:amd64                  3.4.3-1ubuntu1~14.04.3               amd
 ii  libpython3.4-dev:amd64              3.4.3-1ubuntu1~14.04.3               amd64        Header files and a static library for Python (v3.4)
 ii  libpython3.4-minimal:amd64          3.4.3-1ubuntu1~14.04.3               amd64        Minimal subset of the Python language (version 3.4)
 ii  libpython3.4-stdlib:amd64           3.4.3-1ubuntu1~14.04.3               amd64        Interactive high-level object-oriented language (standard library, version 3.4)
-ii  libquadmath0:amd64                  4.8.4-2ubuntu1~14.04.1               amd64        GCC Quad-Precision Math Library
+ii  libquadmath0:amd64                  4.8.4-2ubuntu1~14.04.3               amd64        GCC Quad-Precision Math Library
 ii  libreadline5:amd64                  5.2+dfsg-2                           amd64        GNU readline and history libraries, run-time libraries
 ii  libreadline6:amd64                  6.3-4ubuntu2                         amd64        GNU readline and history libraries, run-time libraries
 ii  libreadline6-dev:amd64              6.3-4ubuntu2                         amd64        GNU readline and history libraries, development files
@@ -452,8 +452,8 @@ ii  libss2:amd64                        1.42.9-3ubuntu1.3                    amd
 rc  libssh2-1:amd64                     1.4.3-2                              amd64        SSH2 client-side library
 ii  libssl-dev:amd64                    1.0.1f-1ubuntu2.19                   amd64        Secure Sockets Layer toolkit - development files
 ii  libssl1.0.0:amd64                   1.0.1f-1ubuntu2.19                   amd64        Secure Sockets Layer toolkit - shared libraries
-ii  libstdc++-4.8-dev:amd64             4.8.4-2ubuntu1~14.04.1               amd64        GNU Standard C++ Library v3 (development files)
-ii  libstdc++6:amd64                    4.8.4-2ubuntu1~14.04.1               amd64        GNU Standard C++ Library v3
+ii  libstdc++-4.8-dev:amd64             4.8.4-2ubuntu1~14.04.3               amd64        GNU Standard C++ Library v3 (development files)
+ii  libstdc++6:amd64                    4.8.4-2ubuntu1~14.04.3               amd64        GNU Standard C++ Library v3
 ii  libsub-name-perl                    0.05-1build4                         amd64        module for assigning a new name to referenced sub
 ii  libsvn1:amd64                       1.8.8-1ubuntu3.2                     amd64        Shared libraries used by Apache Subversion
 ii  libsys-hostname-long-perl           1.4-3                                all          Figure out the long (fully-qualified) hostname
@@ -474,7 +474,7 @@ ii  libtimedate-perl                    2.3000-1                             all
 ii  libtinfo-dev:amd64                  5.9+20140118-1ubuntu1                amd64        developer's library for the low-level terminfo library
 ii  libtinfo5:amd64                     5.9+20140118-1ubuntu1                amd64        shared low-level terminfo library for terminal handling
 ii  libtool                             2.4.2-1.7ubuntu1                     amd64        Generic library support script
-ii  libtsan0:amd64                      4.8.4-2ubuntu1~14.04.1               amd64        ThreadSanitizer -- a Valgrind-based detector of data races (runtime)
+ii  libtsan0:amd64                      4.8.4-2ubuntu1~14.04.3               amd64        ThreadSanitizer -- a Valgrind-based detector of data races (runtime)
 ii  libudev1:amd64                      204-5ubuntu20.19                     amd64        libudev shared library
 ii  libuecc-dev                         6-0uf1                               amd64        development library and headers for libuecc
 ii  libuecc0                            6-0uf1                               amd64        very small Elliptic Curve Cryptography library
@@ -493,13 +493,13 @@ ii  libwww-perl                         6.05-2                               all
 ii  libwww-robotrules-perl              6.01-1                               all          database of robots.txt-derived permissions
 ii  libx11-6:amd64                      2:1.6.2-1ubuntu2                     amd64        X11 client-side library
 ii  libx11-data                         2:1.6.2-1ubuntu2                     all          X11 client-side library
-ii  libx32asan0                         4.8.4-2ubuntu1~14.04.1               amd64        AddressSanitizer -- a fast memory error detector (x32)
-ii  libx32atomic1                       4.8.4-2ubuntu1~14.04.1               amd64        support library providing __atomic built-in functions (x32)
-ii  libx32gcc-4.8-dev                   4.8.4-2ubuntu1~14.04.1               amd64        GCC support library (x32 development files)
+ii  libx32asan0                         4.8.4-2ubuntu1~14.04.3               amd64        AddressSanitizer -- a fast memory error detector (x32)
+ii  libx32atomic1                       4.8.4-2ubuntu1~14.04.3               amd64        support library providing __atomic built-in functions (x32)
+ii  libx32gcc-4.8-dev                   4.8.4-2ubuntu1~14.04.3               amd64        GCC support library (x32 development files)
 ii  libx32gcc1                          1:4.9.3-0ubuntu4                     amd64        GCC support library (x32)
-ii  libx32gomp1                         4.8.4-2ubuntu1~14.04.1               amd64        GCC OpenMP (GOMP) support library (x32)
-ii  libx32itm1                          4.8.4-2ubuntu1~14.04.1               amd64        GNU Transactional Memory Library (x32)
-ii  libx32quadmath0                     4.8.4-2ubuntu1~14.04.1               amd64        GCC Quad-Precision Math Library (x32)
+ii  libx32gomp1                         4.8.4-2ubuntu1~14.04.3               amd64        GCC OpenMP (GOMP) support library (x32)
+ii  libx32itm1                          4.8.4-2ubuntu1~14.04.3               amd64        GNU Transactional Memory Library (x32)
+ii  libx32quadmath0                     4.8.4-2ubuntu1~14.04.3               amd64        GCC Quad-Precision Math Library (x32)
 ii  libxapian22                         1.2.16-2ubuntu1                      amd64        Search engine library
 ii  libxau6:amd64                       1:1.0.8-1                            amd64        X11 authorisation library
 ii  libxcb-render0:amd64                1.10-2ubuntu1                        amd64        X C Binding, render extension
@@ -555,8 +555,8 @@ ii  linux-headers-3.13.0-63             3.13.0-63.103                        all
 ii  linux-headers-3.13.0-63-generic     3.13.0-63.103                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-85             3.13.0-85.129                        all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-85-generic     3.13.0-85.129                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-86             3.13.0-86.130                        all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-86-generic     3.13.0-86.130                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-3.13.0-86             3.13.0-86.131                        all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-86-generic     3.13.0-86.131                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-generic               3.13.0.86.92                         amd64        Generic Linux kernel headers
 rc  linux-image-3.13.0-24-generic       3.13.0-24.47                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-30-generic       3.13.0-30.55                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -593,7 +593,7 @@ rc  linux-image-3.13.0-77-generic       3.13.0-77.121                        amd
 rc  linux-image-3.13.0-79-generic       3.13.0-79.123                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-83-generic       3.13.0-83.127                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-85-generic       3.13.0-85.129                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-86-generic       3.13.0-86.130                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-3.13.0-86-generic       3.13.0-86.131                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-24-generic 3.13.0-24.47                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-30-generic 3.13.0-30.55                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-37-generic 3.13.0-37.64                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
@@ -629,10 +629,10 @@ rc  linux-image-extra-3.13.0-77-generic 3.13.0-77.121                        amd
 rc  linux-image-extra-3.13.0-79-generic 3.13.0-79.123                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-83-generic 3.13.0-83.127                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-85-generic 3.13.0-85.129                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-86-generic 3.13.0-86.130                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-extra-3.13.0-86-generic 3.13.0-86.131                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-generic                 3.13.0.86.92                         amd64        Generic Linux kernel image
-ii  linux-libc-dev:amd64                3.13.0-86.130                        amd64        Linux Kernel Headers for development
-ii  linux-source-3.13.0                 3.13.0-86.130                        all          Linux kernel source for version 3.13.0 with Ubuntu patches
+ii  linux-libc-dev:amd64                3.13.0-86.131                        amd64        Linux Kernel Headers for development
+ii  linux-source-3.13.0                 3.13.0-86.131                        all          Linux kernel source for version 3.13.0 with Ubuntu patches
 ii  linux-tools-3.13.0-30               3.13.0-30.55                         amd64        Linux kernel version specific tools for version 3.13.0-30
 ii  linux-tools-3.13.0-30-generic       3.13.0-30.55                         amd64        Linux kernel version specific tools for version 3.13.0-30
 ii  linux-tools-3.13.0-39               3.13.0-39.66                         amd64        Linux kernel version specific tools for version 3.13.0-39
@@ -653,9 +653,9 @@ ii  linux-tools-3.13.0-63               3.13.0-63.103                        amd
 ii  linux-tools-3.13.0-63-generic       3.13.0-63.103                        amd64        Linux kernel version specific tools for version 3.13.0-63
 ii  linux-tools-3.13.0-85               3.13.0-85.129                        amd64        Linux kernel version specific tools for version 3.13.0-85
 ii  linux-tools-3.13.0-85-generic       3.13.0-85.129                        amd64        Linux kernel version specific tools for version 3.13.0-85
-ii  linux-tools-3.13.0-86               3.13.0-86.130                        amd64        Linux kernel version specific tools for version 3.13.0-86
-ii  linux-tools-3.13.0-86-generic       3.13.0-86.130                        amd64        Linux kernel version specific tools for version 3.13.0-86
-ii  linux-tools-common                  3.13.0-86.130                        all          Linux kernel version specific tools for version 3.13.0
+ii  linux-tools-3.13.0-86               3.13.0-86.131                        amd64        Linux kernel version specific tools for version 3.13.0-86
+ii  linux-tools-3.13.0-86-generic       3.13.0-86.131                        amd64        Linux kernel version specific tools for version 3.13.0-86
+ii  linux-tools-common                  3.13.0-86.131                        all          Linux kernel version specific tools for version 3.13.0
 ii  linux-tools-generic                 3.13.0.86.92                         amd64        Generic Linux kernel tools
 ii  linux-tools-generic-lts-trusty      3.13.0.86.92                         amd64        Generic Linux kernel tools
 ii  lksctp-tools                        1.0.15+dfsg-1                        amd64        user-space access to Linux Kernel SCTP - commandline tools
