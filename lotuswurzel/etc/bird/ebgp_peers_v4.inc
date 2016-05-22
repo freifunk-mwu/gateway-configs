@@ -159,6 +159,7 @@ protocol bgp icvpn_franken_ro1 from ebgp_ic {
 }
 protocol bgp icvpn_frankfurt1 from ebgp_ic {
     neighbor 10.207.0.35 as 65026;
+    passive yes;
 }
 protocol bgp icvpn_freiburg1 from ebgp_ic {
     neighbor 10.207.0.33 as 65060;
