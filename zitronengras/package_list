@@ -476,7 +476,7 @@ ii  python3-setuptools                 20.7.0-1                        all      
 ii  python3-six                        1.10.0-3                        all          Python 2 and 3 compatibility library (Python 3 interface)
 ii  python3-software-properties        0.96.20                         all          manage the repositories that you install software from
 ii  python3-systemd                    231-2build1                     amd64        Python 3 bindings for systemd
-ii  python3-urllib3                    1.13.1-2                        all          HTTP library with thread-safe connection pooling for Python3
+ii  python3-urllib3                    1.13.1-2ubuntu0.16.04.1         all          HTTP library with thread-safe connection pooling for Python3
 ii  python3-wheel                      0.29.0-1                        all          built-package format for Python
 ii  python3.5                          3.5.1-10                        amd64        Interactive high-level object-oriented language (version 3.5)
 ii  python3.5-dev                      3.5.1-10                        amd64        Header files and a static library for Python (v3.5)
