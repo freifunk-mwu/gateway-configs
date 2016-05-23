@@ -137,7 +137,7 @@ DELIVERY_MODULE = 'SMTPDirect'
 # host exists and is resolvable (i.e., if it's the default of "localhost" be
 # sure there's a localhost entry in your /etc/hosts file!)
 SMTPHOST = 'localhost'
-SMTPPORT = 10026
+SMTPPORT = 25 
 
 # Are archives on or off by default?
 DEFAULT_ARCHIVE = Off

@@ -62,16 +62,14 @@ $mailfrom_to_quarantine = undef; # null return path; uses original sender if und
 
 # Quarantine
 $quarantine_subdir_levels = undef;
-
-$virus_quarantine_method = 'sql:';
-$spam_quarantine_method = 'sql:';
-$banned_files_quarantine_method = 'sql:';
-$bad_header_quarantine_method = 'sql:';
-
-$virus_quarantine_to = 'virus-quarantine';
-$banned_quarantine_to = 'banned-quarantine';
-$bad_header_quarantine_to = 'bad-header-quarantine';
-$spam_quarantine_to = 'spam-quarantine';
+$virus_quarantine_method = undef;
+$spam_quarantine_method = undef;
+$banned_files_quarantine_method = undef;
+$bad_header_quarantine_method = undef;
+$virus_quarantine_to = undef;
+$banned_quarantine_to = undef;
+$bad_header_quarantine_to = undef;
+$spam_quarantine_to = undef;
 
 # Logging
 $log_level = 0;              # verbosity 0..5, -d
@@ -80,7 +78,7 @@ $do_syslog = 1;              # log via syslogd (preferred)
 $syslog_facility = 'mail';   # Syslog facility as a string # e.g.: mail, daemon, user, local0, ... local7
 $enable_db = 1;              # enable use of BerkeleyDB/libdb (SNMP and nanny)
 $enable_global_cache = 1;    # enable use of libdb-based cache if $enable_db=1
-$enable_zmq = 0;           # enable use of ZeroMQ (SNMP and nanny)
+$enable_zmq = 0;             # enable use of ZeroMQ (SNMP and nanny)
 $nanny_details_level = 1;    # nanny verbosity: 1: traditional, 2: detailed
 
 # DKIM
@@ -103,17 +101,9 @@ dkim_key('freifunk-wiesbaden.de', 'mail201507', '/var/lib/amavis/db/freifunk-wie
 $inet_socket_bind = '[::1]';
 @inet_acl = qw( [::1] );
 
-$inet_socket_port = [9998,10024,10030];  # listen on multiple TCP ports
+$inet_socket_port = [10024,10030];  # listen on multiple TCP ports
 
-$interface_policy{'9998'}  = 'AM.PDP-INET';
 $interface_policy{'10030'} = 'ORIGINATING';
-
-# Quarantäne Release Policy
-$policy_bank{'AM.PDP-INET'} = {
-    protocol => 'AM.PDP',
-    inet_acl => [qw( 127.0.0.1 [::1] )],
-    auth_required_release => 0,
-};
 
 # Own Mail Senders Policy
 $policy_bank{'ORIGINATING'} = {  # mail supposedly originating from our users
@@ -134,5 +124,18 @@ $policy_bank{'ORIGINATING'} = {  # mail supposedly originating from our users
   final_banned_destiny => D_PASS,
   final_spam_destiny => D_PASS,
 };
+
+# bypass checks
+@bypass_spam_checks_maps = ( [qw( abuse@freifunk-mainz.de postmaster@freifunk-mainz.de abuse@freifunk-wiesbaden.de postmaster@freifunk-wiesbaden.de abuse@freifunk-mwu.de postmaster@freifunk-mwu.de )] );
+@spam_lovers_maps = @bypass_spam_checks_maps;
+
+@bypass_virus_checks_maps = @bypass_spam_checks_maps;
+@virus_lovers_maps = @bypass_spam_checks_maps;
+
+@bypass_banned_checks_maps = @bypass_spam_checks_maps;
+@banned_files_lovers_maps = @bypass_spam_checks_maps;
+
+@bypass_header_checks_maps = @bypass_spam_checks_maps;
+@bad_header_lovers_maps = @bypass_spam_checks_maps;
 
 1;
