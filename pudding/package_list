@@ -180,7 +180,7 @@ ii  libaprutil1-ldap:amd64              1.5.3-1                              amd
 ii  libapt-inst1.5:amd64                1.0.1ubuntu2.13                      amd64        deb package format runtime library
 ii  libapt-pkg4.12:amd64                1.0.1ubuntu2.13                      amd64        package management runtime library
 ii  libarchive-extract-perl             0.70-1                               all          generic archive extracting module
-ii  libarchive13:amd64                  3.1.2-7ubuntu2.1                     amd64        Multi-format archive and compression library (shared library)
+ii  libarchive13:amd64                  3.1.2-7ubuntu2.2                     amd64        Multi-format archive and compression library (shared library)
 ii  libasan0:amd64                      4.8.4-2ubuntu1~14.04.3               amd64        AddressSanitizer -- a fast memory error detector
 ii  libasn1-8-heimdal:amd64             1.6~git20131207+dfsg-1ubuntu1.1      amd64        Heimdal Kerberos - ASN.1 library
 ii  libasprintf-dev:amd64               0.18.3.1-1ubuntu3                    amd64        GNU Internationalization library development files
@@ -242,8 +242,8 @@ ii  libept1.4.12:amd64                  1.0.12                               amd
 ii  liberror-perl                       0.17-1.1                             all          Perl module for error/exception handling in an OO-ish way
 ii  libestr0                            0.1.9-0ubuntu2                       amd64        Helper functions for handling strings (lib)
 ii  libevent-2.0-5:amd64                2.0.21-stable-1ubuntu1.14.04.1       amd64        Asynchronous event notification library
-ii  libexpat1:amd64                     2.1.0-4ubuntu1.1                     amd64        XML parsing C library - runtime library
-ii  libexpat1-dev:amd64                 2.1.0-4ubuntu1.1                     amd64        XML parsing C library - development kit
+ii  libexpat1:amd64                     2.1.0-4ubuntu1.2                     amd64        XML parsing C library - runtime library
+ii  libexpat1-dev:amd64                 2.1.0-4ubuntu1.2                     amd64        XML parsing C library - development kit
 ii  libfakeroot:amd64                   1.20-3ubuntu2                        amd64        tool for simulating superuser privileges - shared libraries
 ii  libffi-dev:amd64                    3.1~rc1+r3.0.13-12ubuntu0.1          amd64        Foreign Function Interface library (development files)
 ii  libffi6:amd64                       3.1~rc1+r3.0.13-12ubuntu0.1          amd64        Foreign Function Interface library runtime
