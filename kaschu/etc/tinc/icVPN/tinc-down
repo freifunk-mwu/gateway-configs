@@ -1,9 +1,9 @@
 #!/bin/sh
-/sbin/ip addr del dev $INTERFACE 10.207.1.56/16 broadcast 10.207.255.255
-/sbin/ip -6 addr del dev $INTERFACE fec0::a:cf:1:38/96
+/sbin/ip addr del dev ${INTERFACE} 10.207.1.56/16 broadcast 10.207.255.255
+/sbin/ip -6 addr del dev ${INTERFACE} fec0::a:cf:1:38/96
 
-# ip rules
-#/sbin/ip rule del lookup icvpn priority 10042
-#/sbin/ip -6 rule del lookup icvpn priority 10042
+# Remove routes for icvpn transfer-net
+/sbin/ip -4 route del 10.207.0.0/16 proto static dev ${INTERFACE} table icvpn
+/sbin/ip -6 route del fec0::/96 proto static dev ${INTERFACE} table icvpn
 
-/sbin/ip link set dev $INTERFACE down
+/sbin/ip link set dev ${INTERFACE} down
