@@ -1,7 +1,11 @@
 #!/bin/sh
 # primary address: wiesbaden1
-/sbin/ip addr del dev $INTERFACE 10.207.0.56/16 broadcast 10.207.255.255
-/sbin/ip -6 addr del dev $INTERFACE fec0::a:cf:0:38/96
+/sbin/ip addr del dev ${INTERFACE} 10.207.0.56/16 broadcast 10.207.255.255
+/sbin/ip -6 addr del dev ${INTERFACE} fec0::a:cf:0:38/96
+
+# Remove routes for icvpn transfer-net
+/sbin/ip -4 route del 10.207.0.0/16 proto static dev ${INTERFACE} table icvpn
+/sbin/ip -6 route del fec0::/96 proto static dev ${INTERFACE} table icvpn
 
 # shutdown interface
-/sbin/ip link set dev $INTERFACE down
+/sbin/ip link set dev ${INTERFACE} down
