@@ -14,10 +14,14 @@
 # Priority 7 - lookup rt_table mwu for all incoming traffic of freifunk related interfaces
 ip -4 rule add from 10.56.0.0/16 lookup mwu priority 7
 ip -4 rule add to 10.56.0.0/16 lookup mwu priority 7
+ip -4 rule add from all iif wiBR lookup mwu priority 7
+ip -4 rule add from all oif wiBR lookup mwu priority 7
 ip -6 rule add from fd56:b4dc:4b1e::/48 lookup mwu priority 7
 ip -6 rule add to fd56:b4dc:4b1e::/48 lookup mwu priority 7
 ip -6 rule add from 2a03:2260:11b::/48 lookup mwu priority 7
 ip -6 rule add to 2a03:2260:11b::/48 lookup mwu priority 7
+ip -6 rule add from all iif wiBR lookup mwu priority 7
+ip -6 rule add from all oif wiBR lookup mwu priority 7
 
 # Priortiy 23 - lookup rt_table icvpn for all incoming traffic of freifunk bridges
 ip -4 rule add from 10.56.0.0/16 lookup icvpn priority 23
@@ -82,5 +86,34 @@ ip -6 rule add from all lookup icvpn priority 107
 /sbin/ip -4 route add blackhole 224.0.0.0/4 table ffinetexit
 /sbin/ip -4 route add blackhole 240.0.0.0/4 table ffinetexit
 /sbin/ip -4 route add blackhole 255.255.255.255/32 table ffinetexit
+/sbin/ip -6 route add blackhole fec0::/10 table ffinetexit
+/sbin/ip -6 route add blackhole fc00::/7 table ffinetexit
+/sbin/ip -6 route add blackhole ff00::/8 table ffinetexit
+/sbin/ip -6 route add blackhole ::/96 table ffinetexit
+/sbin/ip -6 route add blackhole 0:0:0:0:0:ffff::/96 table ffinetexit
+
+# static blackhole routes for rt_table main
+/sbin/ip -4 route add blackhole 0.0.0.0/8 table main
+/sbin/ip -4 route add blackhole 10.0.0.0/8 table main
+/sbin/ip -4 route add blackhole 100.64.0.0/10 table main
+/sbin/ip -4 route add blackhole 127.0.0.0/8 table main
+/sbin/ip -4 route add blackhole 169.254.0.0/16 table main
+/sbin/ip -4 route add blackhole 172.16.0.0/12 table main
+/sbin/ip -4 route add blackhole 192.0.0.0/24 table main
+/sbin/ip -4 route add blackhole 192.0.2.0/24 table main
+/sbin/ip -4 route add blackhole 192.88.99.0/24 table main
+/sbin/ip -4 route add blackhole 192.168.0.0/16 table main
+/sbin/ip -4 route add blackhole 198.18.0.0/15 table main
+/sbin/ip -4 route add blackhole 198.51.100.0/24 table main
+/sbin/ip -4 route add blackhole 203.0.113.0/24 table main
+/sbin/ip -4 route add blackhole 224.0.0.0/4 table main
+/sbin/ip -4 route add blackhole 240.0.0.0/4 table main
+/sbin/ip -4 route add blackhole 255.255.255.255/32 table main
+/sbin/ip -6 route add blackhole fec0::/10 table main
+/sbin/ip -6 route add blackhole fc00::/7 table main
+/sbin/ip -6 route add blackhole ff00::/8 table main
+/sbin/ip -6 route add blackhole ::/96 table main
+/sbin/ip -6 route add blackhole 0:0:0:0:0:ffff::/96 table main
+/sbin/ip -6 route add blackhole ::/0 table main
 
 exit 0
