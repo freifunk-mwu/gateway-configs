@@ -25,7 +25,7 @@ ii  batctl                             2016.0-2                        amd64    
 ii  bcache-tools                       1.0.8-2                         amd64        bcache userspace tools
 ii  bind9                              1:9.10.3.dfsg.P4-8ubuntu1       amd64        Internet Domain Name Server
 ii  bind9utils                         1:9.10.3.dfsg.P4-8ubuntu1       amd64        Utilities for BIND
-ii  binutils                           2.26-8ubuntu2                   amd64        GNU assembler, linker and binary utilities
+ii  binutils                           2.26-8ubuntu2.1                 amd64        GNU assembler, linker and binary utilities
 ii  bird                               1.6.0-1+xenial+1                amd64        Internet Routing Daemon
 ii  bridge-utils                       1.5-9ubuntu1                    amd64        Utilities for configuring the Linux Ethernet bridge
 ii  bsdmainutils                       9.0.6ubuntu3                    amd64        collection of more utilities from FreeBSD
@@ -495,7 +495,7 @@ ii  sed                                4.2.2-7                         amd64    
 ii  sensible-utils                     0.0.9                           all          Utilities for sensible alternative selection
 ii  sgml-base                          1.26+nmu4ubuntu1                all          SGML infrastructure and SGML catalog file support
 ii  shared-mime-info                   1.5-2                           amd64        FreeDesktop.org shared MIME database and spec
-ii  snapd                              2.0.3                           amd64        Tool to interact with Ubuntu Core Snappy.
+ii  snapd                              2.0.5                           amd64        Tool to interact with Ubuntu Core Snappy.
 ii  software-properties-common         0.96.20                         all          manage the repositories that you install software from (common)
 ii  sosreport                          3.2+git276-g7da50d6-3ubuntu1    amd64        Set of tools to gather troubleshooting data from a system
 ii  squashfs-tools                     1:4.3-3ubuntu2                  amd64        Tool to create and append to squashfs filesystems
