@@ -70,7 +70,7 @@ ii  dmidecode                           2.12-2                              amd6
 ii  dmsetup                             2:1.02.77-6ubuntu2                  amd64        Linux Kernel Device Mapper userspace library
 ii  dnsutils                            1:9.9.5.dfsg-3ubuntu0.8             amd64        Clients provided with BIND
 ii  docutils-common                     0.11-3                              all          text processing system for reStructuredText - common data
-ii  dosfstools                          3.0.26-1                            amd64        utilities for making and checking MS-DOS FAT filesystems
+ii  dosfstools                          3.0.26-1ubuntu0.1                   amd64        utilities for making and checking MS-DOS FAT filesystems
 ii  dpkg                                1.17.5ubuntu5.6                     amd64        Debian package management system
 ii  dpkg-dev                            1.17.5ubuntu5.6                     all          Debian package development tools
 ii  e2fslibs:amd64                      1.42.9-3ubuntu1.3                   amd64        ext2/ext3/ext4 file system libraries
@@ -255,7 +255,7 @@ ii  libgck-1-0:amd64                    3.10.1-1                            amd6
 ii  libgcr-3-common                     3.10.1-1                            all          Library for Crypto UI related tasks - common files
 ii  libgcr-base-3-1:amd64               3.10.1-1                            amd64        Library for Crypto related tasks
 ii  libgcrypt11:amd64                   1.5.3-2ubuntu4.3                    amd64        LGPL Crypto library - runtime library
-ii  libgd3:amd64                        2.1.0-3                             amd64        GD Graphics Library
+ii  libgd3:amd64                        2.1.0-3ubuntu0.1                    amd64        GD Graphics Library
 ii  libgdbm-dev                         1.8.3-12build1                      amd64        GNU dbm database routines (development files)
 ii  libgdbm3:amd64                      1.8.3-12build1                      amd64        GNU dbm database routines (runtime version)
 ii  libgdk-pixbuf2.0-0:amd64            2.30.7-0ubuntu1.2                   amd64        GDK Pixbuf library
@@ -526,12 +526,15 @@ ii  linux-headers-3.13.0-85             3.13.0-85.129                       all 
 ii  linux-headers-3.13.0-85-generic     3.13.0-85.129                       amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-86             3.13.0-86.131                       all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-86-generic     3.13.0-86.131                       amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-generic               3.13.0.86.92                        amd64        Generic Linux kernel headers
-ii  linux-headers-generic-lts-trusty    3.13.0.86.92                        amd64        Generic Linux kernel headers
+ii  linux-headers-3.13.0-87             3.13.0-87.133                       all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-87-generic     3.13.0-87.133                       amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-generic               3.13.0.87.93                        amd64        Generic Linux kernel headers
+ii  linux-headers-generic-lts-trusty    3.13.0.87.93                        amd64        Generic Linux kernel headers
 ii  linux-image-3.13.0-79-generic       3.13.0-79.123                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-83-generic       3.13.0-83.127                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-85-generic       3.13.0-85.129                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-86-generic       3.13.0-86.131                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-3.13.0-87-generic       3.13.0-87.133                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.19.0-31-generic       3.19.0-31.36~14.04.1                amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-3.19.0-32-generic       3.19.0-32.37~14.04.1                amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-3.19.0-33-generic       3.19.0-33.38~14.04.1                amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
@@ -545,6 +548,7 @@ ii  linux-image-extra-3.13.0-79-generic 3.13.0-79.123                       amd6
 rc  linux-image-extra-3.13.0-83-generic 3.13.0-83.127                       amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-85-generic 3.13.0-85.129                       amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-86-generic 3.13.0-86.131                       amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-extra-3.13.0-87-generic 3.13.0-87.133                       amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-31-generic 3.19.0-31.36~14.04.1                amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-32-generic 3.19.0-32.37~14.04.1                amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-33-generic 3.19.0-33.38~14.04.1                amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
@@ -554,10 +558,10 @@ rc  linux-image-extra-3.19.0-41-generic 3.19.0-41.46~14.04.2                amd6
 rc  linux-image-extra-3.19.0-42-generic 3.19.0-42.48~14.04.1                amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-47-generic 3.19.0-47.53~14.04.1                amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-49-generic 3.19.0-49.55~14.04.1                amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
-ii  linux-image-generic                 3.13.0.86.92                        amd64        Generic Linux kernel image
-ii  linux-image-generic-lts-trusty      3.13.0.86.92                        amd64        Generic Linux kernel image
-ii  linux-image-virtual                 3.13.0.86.92                        amd64        This package will always depend on the latest minimal generic kernel image.
-ii  linux-libc-dev:amd64                3.13.0-86.131                       amd64        Linux Kernel Headers for development
+ii  linux-image-generic                 3.13.0.87.93                        amd64        Generic Linux kernel image
+ii  linux-image-generic-lts-trusty      3.13.0.87.93                        amd64        Generic Linux kernel image
+ii  linux-image-virtual                 3.13.0.87.93                        amd64        This package will always depend on the latest minimal generic kernel image.
+ii  linux-libc-dev:amd64                3.13.0-87.133                       amd64        Linux Kernel Headers for development
 ii  locales                             2.13+git20120306-12.1               all          common files for locale support
 ii  lockfile-progs                      0.1.17                              amd64        Programs for locking and unlocking files and mailboxes
 ii  login                               1:4.1.5.1-1ubuntu9.2                amd64        system login tools
