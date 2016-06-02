@@ -70,7 +70,7 @@ ii  diffutils                           1:3.3-1                              amd
 ii  dmidecode                           2.12-2                               amd64        SMBIOS/DMI table decoder
 ii  dmsetup                             2:1.02.77-6ubuntu2                   amd64        Linux Kernel Device Mapper userspace library
 ii  dnsutils                            1:9.9.5.dfsg-3ubuntu0.8              amd64        Clients provided with BIND
-ii  dosfstools                          3.0.26-1                             amd64        utilities for making and checking MS-DOS FAT filesystems
+ii  dosfstools                          3.0.26-1ubuntu0.1                    amd64        utilities for making and checking MS-DOS FAT filesystems
 ii  dpkg                                1.17.5ubuntu5.6                      amd64        Debian package management system
 ii  dpkg-dev                            1.17.5ubuntu5.6                      all          Debian package development tools
 ii  e2fslibs:amd64                      1.42.9-3ubuntu1.3                    amd64        ext2/ext3/ext4 file system libraries
@@ -264,7 +264,7 @@ ii  libgcr-3-common                     3.10.1-1                             all
 ii  libgcr-base-3-1:amd64               3.10.1-1                             amd64        Library for Crypto related tasks
 ii  libgcrypt11:amd64                   1.5.3-2ubuntu4.3                     amd64        LGPL Crypto library - runtime library
 ii  libgcrypt11-dev                     1.5.3-2ubuntu4.3                     amd64        LGPL Crypto library - development files
-ii  libgd3:amd64                        2.1.0-3                              amd64        GD Graphics Library
+ii  libgd3:amd64                        2.1.0-3ubuntu0.1                     amd64        GD Graphics Library
 ii  libgdbm-dev                         1.8.3-12build1                       amd64        GNU dbm database routines (development files)
 ii  libgdbm3:amd64                      1.8.3-12build1                       amd64        GNU dbm database routines (runtime version)
 ii  libgeoip1:amd64                     1.6.0-1                              amd64        non-DNS IP-to-country resolver library
@@ -522,7 +522,7 @@ ii  libxtables10                        1.4.21-1ubuntu1                      amd
 ii  libyaml-0-2:amd64                   0.1.4-3ubuntu3.1                     amd64        Fast YAML 1.1 parser and emitter library
 ii  libyaml-dev:amd64                   0.1.4-3ubuntu3.1                     amd64        Fast YAML 1.1 parser and emitter library (development)
 ii  linux-firmware                      1.127.22                             all          Firmware for Linux kernel drivers
-ii  linux-generic                       3.13.0.86.92                         amd64        Complete Generic Linux kernel and headers
+ii  linux-generic                       3.13.0.87.93                         amd64        Complete Generic Linux kernel and headers
 ii  linux-headers-3.13.0-24             3.13.0-24.47                         all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-24-generic     3.13.0-24.47                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-30             3.13.0-30.55                         all          Header files related to Linux kernel version 3.13.0
@@ -557,7 +557,9 @@ ii  linux-headers-3.13.0-85             3.13.0-85.129                        all
 ii  linux-headers-3.13.0-85-generic     3.13.0-85.129                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-86             3.13.0-86.131                        all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-86-generic     3.13.0-86.131                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-generic               3.13.0.86.92                         amd64        Generic Linux kernel headers
+ii  linux-headers-3.13.0-87             3.13.0-87.133                        all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-87-generic     3.13.0-87.133                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-generic               3.13.0.87.93                         amd64        Generic Linux kernel headers
 rc  linux-image-3.13.0-24-generic       3.13.0-24.47                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-30-generic       3.13.0-30.55                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-37-generic       3.13.0-37.64                         amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -594,6 +596,7 @@ rc  linux-image-3.13.0-79-generic       3.13.0-79.123                        amd
 rc  linux-image-3.13.0-83-generic       3.13.0-83.127                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-85-generic       3.13.0-85.129                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-86-generic       3.13.0-86.131                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-3.13.0-87-generic       3.13.0-87.133                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-24-generic 3.13.0-24.47                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-30-generic 3.13.0-30.55                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-37-generic 3.13.0-37.64                         amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
@@ -630,9 +633,10 @@ rc  linux-image-extra-3.13.0-79-generic 3.13.0-79.123                        amd
 rc  linux-image-extra-3.13.0-83-generic 3.13.0-83.127                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-85-generic 3.13.0-85.129                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-86-generic 3.13.0-86.131                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-generic                 3.13.0.86.92                         amd64        Generic Linux kernel image
-ii  linux-libc-dev:amd64                3.13.0-86.131                        amd64        Linux Kernel Headers for development
-ii  linux-source-3.13.0                 3.13.0-86.131                        all          Linux kernel source for version 3.13.0 with Ubuntu patches
+ii  linux-image-extra-3.13.0-87-generic 3.13.0-87.133                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-generic                 3.13.0.87.93                         amd64        Generic Linux kernel image
+ii  linux-libc-dev:amd64                3.13.0-87.133                        amd64        Linux Kernel Headers for development
+ii  linux-source-3.13.0                 3.13.0-87.133                        all          Linux kernel source for version 3.13.0 with Ubuntu patches
 ii  linux-tools-3.13.0-30               3.13.0-30.55                         amd64        Linux kernel version specific tools for version 3.13.0-30
 ii  linux-tools-3.13.0-30-generic       3.13.0-30.55                         amd64        Linux kernel version specific tools for version 3.13.0-30
 ii  linux-tools-3.13.0-39               3.13.0-39.66                         amd64        Linux kernel version specific tools for version 3.13.0-39
@@ -655,9 +659,11 @@ ii  linux-tools-3.13.0-85               3.13.0-85.129                        amd
 ii  linux-tools-3.13.0-85-generic       3.13.0-85.129                        amd64        Linux kernel version specific tools for version 3.13.0-85
 ii  linux-tools-3.13.0-86               3.13.0-86.131                        amd64        Linux kernel version specific tools for version 3.13.0-86
 ii  linux-tools-3.13.0-86-generic       3.13.0-86.131                        amd64        Linux kernel version specific tools for version 3.13.0-86
-ii  linux-tools-common                  3.13.0-86.131                        all          Linux kernel version specific tools for version 3.13.0
-ii  linux-tools-generic                 3.13.0.86.92                         amd64        Generic Linux kernel tools
-ii  linux-tools-generic-lts-trusty      3.13.0.86.92                         amd64        Generic Linux kernel tools
+ii  linux-tools-3.13.0-87               3.13.0-87.133                        amd64        Linux kernel version specific tools for version 3.13.0-87
+ii  linux-tools-3.13.0-87-generic       3.13.0-87.133                        amd64        Linux kernel version specific tools for version 3.13.0-87
+ii  linux-tools-common                  3.13.0-87.133                        all          Linux kernel version specific tools for version 3.13.0
+ii  linux-tools-generic                 3.13.0.87.93                         amd64        Generic Linux kernel tools
+ii  linux-tools-generic-lts-trusty      3.13.0.87.93                         amd64        Generic Linux kernel tools
 ii  lksctp-tools                        1.0.15+dfsg-1                        amd64        user-space access to Linux Kernel SCTP - commandline tools
 ii  lm-sensors                          1:3.3.4-2ubuntu1                     amd64        utilities to read temperature/voltage/fan sensors
 ii  locales                             2.13+git20120306-12.1                all          common files for locale support
