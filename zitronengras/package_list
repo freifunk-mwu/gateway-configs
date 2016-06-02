@@ -14,9 +14,9 @@ ii  apache2-utils                      2.4.18-2ubuntu3                 amd64    
 ii  apparmor                           2.10.95-0ubuntu2                amd64        user-space parser utility for AppArmor
 ii  apport                             2.20.1-0ubuntu2.1               all          automatically generate crash reports for debugging
 ii  apport-symptoms                    0.20                            all          symptom scripts for apport
-ii  apt                                1.2.10ubuntu1                   amd64        commandline package manager
-ii  apt-transport-https                1.2.10ubuntu1                   amd64        https download transport for APT
-ii  apt-utils                          1.2.10ubuntu1                   amd64        package management related utility programs
+ii  apt                                1.2.12~ubuntu16.04.1            amd64        commandline package manager
+ii  apt-transport-https                1.2.12~ubuntu16.04.1            amd64        https download transport for APT
+ii  apt-utils                          1.2.12~ubuntu16.04.1            amd64        package management related utility programs
 ii  at                                 3.1.18-2ubuntu1                 amd64        Delayed job execution and batch processing
 ii  base-files                         9.4ubuntu4                      amd64        Debian base system miscellaneous files
 ii  base-passwd                        3.5.39                          amd64        Debian base system master password and group files
@@ -148,8 +148,8 @@ ii  libapr1:amd64                      1.5.2-3                         amd64    
 ii  libaprutil1:amd64                  1.5.4-1build1                   amd64        Apache Portable Runtime Utility Library
 ii  libaprutil1-dbd-sqlite3:amd64      1.5.4-1build1                   amd64        Apache Portable Runtime Utility Library - SQLite3 Driver
 ii  libaprutil1-ldap:amd64             1.5.4-1build1                   amd64        Apache Portable Runtime Utility Library - LDAP Driver
-ii  libapt-inst2.0:amd64               1.2.10ubuntu1                   amd64        deb package format runtime library
-ii  libapt-pkg5.0:amd64                1.2.10ubuntu1                   amd64        package management runtime library
+ii  libapt-inst2.0:amd64               1.2.12~ubuntu16.04.1            amd64        deb package format runtime library
+ii  libapt-pkg5.0:amd64                1.2.12~ubuntu16.04.1            amd64        package management runtime library
 ii  libasan2:amd64                     5.3.1-14ubuntu2.1               amd64        AddressSanitizer -- a fast memory error detector
 ii  libasn1-8-heimdal:amd64            1.7~git20150920+dfsg-4ubuntu1   amd64        Heimdal Kerberos - ASN.1 library
 ii  libasprintf0v5:amd64               0.19.7-2ubuntu3                 amd64        GNU library to use fprintf and friends in C++
