@@ -12,7 +12,7 @@ ii  apache2                              2.4.7-1ubuntu4.9                     am
 ii  apache2-bin                          2.4.7-1ubuntu4.9                     amd64        Apache HTTP Server (binary files and modules)
 ii  apache2-data                         2.4.7-1ubuntu4.9                     all          Apache HTTP Server (common files)
 ii  apache2-doc                          2.4.7-1ubuntu4.9                     all          Apache HTTP Server (on-site documentation)
-ii  apport                               2.14.1-0ubuntu3.20                   all          automatically generate crash reports for debugging
+ii  apport                               2.14.1-0ubuntu3.21                   all          automatically generate crash reports for debugging
 ii  apport-symptoms                      0.20                                 all          symptom scripts for apport
 ii  apt                                  1.0.1ubuntu2.14                      amd64        commandline package manager
 ii  apt-transport-https                  1.0.1ubuntu2.14                      amd64        https download transport for APT
@@ -302,8 +302,8 @@ ii  libnewt0.52:amd64                    0.52.15-2ubuntu5                     am
 ii  libnfnetlink0:amd64                  1.0.1-2                              amd64        Netfilter netlink library
 ii  libnih-dbus1:amd64                   1.0.3-4ubuntu25                      amd64        NIH D-Bus Bindings Library
 ii  libnih1:amd64                        1.0.3-4ubuntu25                      amd64        NIH Utility Library
-ii  libnl-3-200:amd64                    3.2.21-1ubuntu1.1                    amd64        library for dealing with netlink sockets
-ii  libnl-genl-3-200:amd64               3.2.21-1ubuntu1.1                    amd64        library for dealing with netlink sockets - generic netlink
+ii  libnl-3-200:amd64                    3.2.21-1ubuntu3                      amd64        library for dealing with netlink sockets
+ii  libnl-genl-3-200:amd64               3.2.21-1ubuntu3                      amd64        library for dealing with netlink sockets - generic netlink
 ii  libnl1:amd64                         1.1-8ubuntu1                         amd64        library for dealing with netlink sockets
 ii  libopts25:amd64                      1:5.18-2ubuntu2                      amd64        automated option processing library based on autogen
 ii  libp11-kit0:amd64                    0.20.2-2ubuntu2                      amd64        Library for loading and coordinating access to PKCS#11 modules - runtime
@@ -456,8 +456,6 @@ ii  linux-headers-3.13.0-59              3.13.0-59.98                         al
 ii  linux-headers-3.13.0-59-generic      3.13.0-59.98                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-61              3.13.0-61.100                        all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-61-generic      3.13.0-61.100                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-85              3.13.0-85.129                        all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-85-generic      3.13.0-85.129                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-86              3.13.0-86.131                        all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-86-generic      3.13.0-86.131                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-87              3.13.0-87.133                        all          Header files related to Linux kernel version 3.13.0
@@ -506,12 +504,12 @@ rc  linux-image-3.13.0-76-generic        3.13.0-76.120                        am
 rc  linux-image-3.13.0-77-generic        3.13.0-77.121                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-79-generic        3.13.0-79.123                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-83-generic        3.13.0-83.127                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-85-generic        3.13.0-85.129                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-85-generic        3.13.0-85.129                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-86-generic        3.13.0-86.131                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-87-generic        3.13.0-87.133                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-79-generic  3.13.0-79.123                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-83-generic  3.13.0-83.127                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-85-generic  3.13.0-85.129                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-85-generic  3.13.0-85.129                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-86-generic  3.13.0-86.131                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-87-generic  3.13.0-87.133                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-generic                  3.13.0.87.93                         amd64        Generic Linux kernel image
@@ -619,7 +617,7 @@ ii  python2.7                            2.7.6-8ubuntu0.2                     am
 ii  python2.7-dev                        2.7.6-8ubuntu0.2                     amd64        Header files and a static library for Python (v2.7)
 ii  python2.7-minimal                    2.7.6-8ubuntu0.2                     amd64        Minimal subset of the Python language (version 2.7)
 ii  python3                              3.4.0-0ubuntu2                       amd64        interactive high-level object-oriented language (default python3 version)
-ii  python3-apport                       2.14.1-0ubuntu3.20                   all          Python 3 library for Apport crash report handling
+ii  python3-apport                       2.14.1-0ubuntu3.21                   all          Python 3 library for Apport crash report handling
 ii  python3-apt                          0.9.3.5ubuntu2                       amd64        Python 3 interface to libapt-pkg
 ii  python3-chardet                      2.2.1-2~ubuntu1                      all          universal character encoding detector for Python3
 ii  python3-colorama                     0.2.5-0.1ubuntu2                     all          Cross-platform colored terminal text in Python - Python 3.x
@@ -640,7 +638,7 @@ ii  python3-newt                         0.52.15-2ubuntu5                     am
 ii  python3-openssl                      0.13-2ubuntu6                        amd64        Python 3 wrapper around the OpenSSL library
 ii  python3-pip                          1.5.4-1ubuntu3                       all          alternative Python package installer - Python 3 version of the package
 ii  python3-pkg-resources                3.3-1ubuntu2                         all          Package Discovery and Resource Access using pkg_resources
-ii  python3-problem-report               2.14.1-0ubuntu3.20                   all          Python 3 library to handle problem reports
+ii  python3-problem-report               2.14.1-0ubuntu3.21                   all          Python 3 library to handle problem reports
 ii  python3-pycurl                       7.19.3-0ubuntu3                      amd64        Python 3 bindings to libcurl
 ii  python3-pyinotify                    0.9.4-1build1                        all          simple Linux inotify Python bindings
 ii  python3-requests                     2.2.1-1ubuntu0.3                     all          elegant and simple HTTP library for Python3, built for human beings
