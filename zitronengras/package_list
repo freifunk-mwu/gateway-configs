@@ -188,7 +188,7 @@ ii  libdevmapper1.02.1:amd64           2:1.02.110-1ubuntu10            amd64    
 ii  libdns-export162                   1:9.10.3.dfsg.P4-8ubuntu1       amd64        Exported DNS Shared Library
 ii  libdns162:amd64                    1:9.10.3.dfsg.P4-8ubuntu1       amd64        DNS Shared Library used by BIND
 ii  libdpkg-perl                       1.18.4ubuntu1.1                 all          Dpkg perl modules
-ii  libdrm2:amd64                      2.4.67-1                        amd64        Userspace interface to kernel DRM services -- runtime
+ii  libdrm2:amd64                      2.4.67-1ubuntu0.16.04.1         amd64        Userspace interface to kernel DRM services -- runtime
 ii  libdumbnet1:amd64                  1.12-7                          amd64        dumb, portable networking library -- shared library
 ii  libedit2:amd64                     3.1-20150325-1ubuntu2           amd64        BSD editline and history libraries
 ii  liberror-perl                      0.17-1.2                        all          Perl module for error/exception handling in an OO-ish way
