@@ -20,11 +20,8 @@ ip -4 rule add from 10.37.0.0/16 lookup mwu priority 7
 ip -4 rule add to 10.37.0.0/16 lookup mwu priority 7
 ip -4 rule add from 10.56.0.0/16 lookup mwu priority 7
 ip -4 rule add to 10.56.0.0/16 lookup mwu priority 7
-ip -4 rule add from all iif mzBR lookup mwu priority 7
 ip -4 rule add from all oif mzBR lookup mwu priority 7
-ip -4 rule add from all iif wiBR lookup mwu priority 7
 ip -4 rule add from all oif wiBR lookup mwu priority 7
-ip -4 rule add from all iif icVPN lookup mwu priority 7
 ip -4 rule add from all oif icVPN lookup mwu priority 7
 ip -6 rule add from fd37:b4dc:4b1e::/48 lookup mwu priority 7
 ip -6 rule add to fd37:b4dc:4b1e::/48 lookup mwu priority 7
@@ -34,11 +31,8 @@ ip -6 rule add from fd56:b4dc:4b1e::/48 lookup mwu priority 7
 ip -6 rule add to fd56:b4dc:4b1e::/48 lookup mwu priority 7
 ip -6 rule add from 2a03:2260:11b::/48 lookup mwu priority 7
 ip -6 rule add to 2a03:2260:11b::/48 lookup mwu priority 7
-ip -6 rule add from all iif mzBR lookup mwu priority 7
 ip -6 rule add from all oif mzBR lookup mwu priority 7
-ip -6 rule add from all iif wiBR lookup mwu priority 7
 ip -6 rule add from all oif wiBR lookup mwu priority 7
-ip -6 rule add from all iif icVPN lookup mwu priority 7
 ip -6 rule add from all oif icVPN lookup mwu priority 7
 
 # lookup rt_table icvpn for all incoming traffic of freifunk bridges
