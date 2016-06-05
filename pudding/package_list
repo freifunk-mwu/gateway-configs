@@ -11,11 +11,11 @@ ii  apache2-bin                         2.4.7-1ubuntu4.9                     amd
 ii  apache2-data                        2.4.7-1ubuntu4.9                     all          Apache HTTP Server (common files)
 ii  apache2-dev                         2.4.7-1ubuntu4.9                     amd64        Apache HTTP Server (development headers)
 ii  apparmor                            2.8.95~2430-0ubuntu5.3               amd64        User-space parser utility for AppArmor
-ii  apport                              2.14.1-0ubuntu3.19                   all          automatically generate crash reports for debugging
+ii  apport                              2.14.1-0ubuntu3.21                   all          automatically generate crash reports for debugging
 ii  apport-symptoms                     0.20                                 all          symptom scripts for apport
-ii  apt                                 1.0.1ubuntu2.13                      amd64        commandline package manager
-ii  apt-transport-https                 1.0.1ubuntu2.13                      amd64        https download transport for APT
-ii  apt-utils                           1.0.1ubuntu2.13                      amd64        package management related utility programs
+ii  apt                                 1.0.1ubuntu2.14                      amd64        commandline package manager
+ii  apt-transport-https                 1.0.1ubuntu2.14                      amd64        https download transport for APT
+ii  apt-utils                           1.0.1ubuntu2.14                      amd64        package management related utility programs
 ii  apt-xapian-index                    0.45ubuntu4                          all          maintenance and search tools for a Xapian index of Debian packages
 ii  aptitude                            0.6.8.2-1ubuntu4                     amd64        terminal-based package manager
 ii  aptitude-common                     0.6.8.2-1ubuntu4                     all          architecture indepedent files for the aptitude package manager
@@ -26,7 +26,7 @@ ii  autotools-dev                       20130810.1                           all
 ii  base-files                          7.2ubuntu5.4                         amd64        Debian base system miscellaneous files
 ii  base-passwd                         3.5.33                               amd64        Debian base system master password and group files
 ii  bash                                4.3-7ubuntu1.5                       amd64        GNU Bourne Again SHell
-ii  bash-completion                     1:2.1-4ubuntu0.1                     all          programmable completion for the bash shell
+ii  bash-completion                     1:2.1-4ubuntu0.2                     all          programmable completion for the bash shell
 ii  bc                                  1.06.95-8ubuntu1                     amd64        GNU bc arbitrary precision calculator language
 ii  bind9-host                          1:9.9.5.dfsg-3ubuntu0.8              amd64        Version of 'host' bundled with BIND 9.X
 ii  binutils                            2.24-5ubuntu14.1                     amd64        GNU assembler, linker and binary utilities
@@ -106,8 +106,8 @@ ii  geoip-database                      20140313-1                           all
 ii  gettext                             0.18.3.1-1ubuntu3                    amd64        GNU Internationalization utilities
 ii  gettext-base                        0.18.3.1-1ubuntu3                    amd64        GNU Internationalization utilities for the base system
 ii  gir1.2-glib-2.0                     1.40.0-1ubuntu0.2                    amd64        Introspection data for GLib, GObject, Gio and GModule
-ii  git                                 1:2.8.2-0ppa1~ubuntu14.04.1          amd64        fast, scalable, distributed revision control system
-ii  git-man                             1:2.8.2-0ppa1~ubuntu14.04.1          all          fast, scalable, distributed revision control system (manual pages)
+ii  git                                 1:2.8.3-0ppa1~ubuntu14.04.1          amd64        fast, scalable, distributed revision control system
+ii  git-man                             1:2.8.3-0ppa1~ubuntu14.04.1          all          fast, scalable, distributed revision control system (manual pages)
 ii  gnupg                               1.4.16-1ubuntu2.3                    amd64        GNU privacy guard - a free PGP replacement
 ii  gpgv                                1.4.16-1ubuntu2.3                    amd64        GNU privacy guard - signature verification tool
 ii  grep                                2.16-1                               amd64        GNU grep, egrep and fgrep
@@ -143,7 +143,7 @@ ii  iso-codes                           3.52-1                               all
 ii  joe                                 3.7-2.3ubuntu1                       amd64        user friendly full screen text editor
 ii  kbd                                 1.15.5-1ubuntu1                      amd64        Linux console font and keytable utilities
 ii  keyboard-configuration              1.70ubuntu8                          all          system-wide keyboard preferences
-ii  klibc-utils                         2.0.3-0ubuntu1                       amd64        small utilities built with klibc for early boot
+ii  klibc-utils                         2.0.3-0ubuntu1.14.04.1               amd64        small utilities built with klibc for early boot
 ii  kmod                                15-0ubuntu6                          amd64        tools for managing Linux kernel modules
 ii  krb5-locales                        1.12+dfsg-2ubuntu5.2                 all          Internationalization support for MIT Kerberos
 ii  krb5-multidev                       1.12+dfsg-2ubuntu5.2                 amd64        Development files for MIT Kerberos without Heimdal conflict
@@ -177,8 +177,8 @@ ii  libaprutil1:amd64                   1.5.3-1                              amd
 ii  libaprutil1-dbd-sqlite3:amd64       1.5.3-1                              amd64        Apache Portable Runtime Utility Library - SQLite3 Driver
 ii  libaprutil1-dev                     1.5.3-1                              amd64        Apache Portable Runtime Utility Library - Development Headers
 ii  libaprutil1-ldap:amd64              1.5.3-1                              amd64        Apache Portable Runtime Utility Library - LDAP Driver
-ii  libapt-inst1.5:amd64                1.0.1ubuntu2.13                      amd64        deb package format runtime library
-ii  libapt-pkg4.12:amd64                1.0.1ubuntu2.13                      amd64        package management runtime library
+ii  libapt-inst1.5:amd64                1.0.1ubuntu2.14                      amd64        deb package format runtime library
+ii  libapt-pkg4.12:amd64                1.0.1ubuntu2.14                      amd64        package management runtime library
 ii  libarchive-extract-perl             0.70-1                               all          generic archive extracting module
 ii  libarchive13:amd64                  3.1.2-7ubuntu2.2                     amd64        Multi-format archive and compression library (shared library)
 ii  libasan0:amd64                      4.8.4-2ubuntu1~14.04.3               amd64        AddressSanitizer -- a fast memory error detector
@@ -327,7 +327,7 @@ ii  libkadm5clnt-mit9:amd64             1.12+dfsg-2ubuntu5.2                 amd
 ii  libkadm5srv-mit9:amd64              1.12+dfsg-2ubuntu5.2                 amd64        MIT Kerberos runtime libraries - KDC and Admin Server
 ii  libkdb5-7:amd64                     1.12+dfsg-2ubuntu5.2                 amd64        MIT Kerberos runtime libraries - Kerberos database
 ii  libkeyutils1:amd64                  1.5.6-1                              amd64        Linux Key Management Utilities (library)
-ii  libklibc                            2.0.3-0ubuntu1                       amd64        minimal libc subset for use with initramfs
+ii  libklibc                            2.0.3-0ubuntu1.14.04.1               amd64        minimal libc subset for use with initramfs
 ii  libkmod2:amd64                      15-0ubuntu6                          amd64        libkmod shared library
 ii  libkrb5-26-heimdal:amd64            1.6~git20131207+dfsg-1ubuntu1.1      amd64        Heimdal Kerberos - libraries
 ii  libkrb5-3:amd64                     1.12+dfsg-2ubuntu5.2                 amd64        MIT Kerberos runtime libraries
@@ -368,8 +368,8 @@ ii  libnewt0.52:amd64                   0.52.15-2ubuntu5                     amd
 ii  libnfnetlink0:amd64                 1.0.1-2                              amd64        Netfilter netlink library
 ii  libnih-dbus1:amd64                  1.0.3-4ubuntu25                      amd64        NIH D-Bus Bindings Library
 ii  libnih1:amd64                       1.0.3-4ubuntu25                      amd64        NIH Utility Library
-ii  libnl-3-200:amd64                   3.2.21-1                             amd64        library for dealing with netlink sockets
-ii  libnl-genl-3-200:amd64              3.2.21-1                             amd64        library for dealing with netlink sockets - generic netlink
+ii  libnl-3-200:amd64                   3.2.21-1ubuntu3                      amd64        library for dealing with netlink sockets
+ii  libnl-genl-3-200:amd64              3.2.21-1ubuntu3                      amd64        library for dealing with netlink sockets - generic netlink
 ii  libnuma1:amd64                      2.0.9~rc5-1ubuntu3.14.04.2           amd64        Libraries for controlling NUMA policy
 rc  libodbc1:amd64                      2.2.14p2-5ubuntu5                    amd64        ODBC library for Unix
 rc  libopenipmi0                        2.0.18-0ubuntu7.1                    amd64        Intelligent Platform Management Interface - runtime
@@ -403,8 +403,8 @@ ii  libpolkit-agent-1-0:amd64           0.105-4ubuntu3.14.04.1               amd
 ii  libpolkit-backend-1-0:amd64         0.105-4ubuntu3.14.04.1               amd64        PolicyKit backend API
 ii  libpolkit-gobject-1-0:amd64         0.105-4ubuntu3.14.04.1               amd64        PolicyKit Authorization API
 ii  libpopt0:amd64                      1.16-8ubuntu1                        amd64        lib for parsing cmdline parameters
-ii  libpq-dev                           9.3.12-0ubuntu0.14.04                amd64        header files for libpq5 (PostgreSQL library)
-ii  libpq5                              9.3.12-0ubuntu0.14.04                amd64        PostgreSQL C client library
+ii  libpq-dev                           9.3.13-0ubuntu0.14.04                amd64        header files for libpq5 (PostgreSQL library)
+ii  libpq5                              9.3.13-0ubuntu0.14.04                amd64        PostgreSQL C client library
 ii  libprocps3:amd64                    1:3.3.9-1ubuntu2.2                   amd64        library for accessing process information from /proc
 ii  libprotobuf8:amd64                  2.5.0-9ubuntu1                       amd64        protocol buffers C++ library
 ii  libpython-dev:amd64                 2.7.5-5ubuntu3                       amd64        header files and a static library for Python (default)
@@ -670,8 +670,8 @@ ii  locales                             2.13+git20120306-12.1                all
 ii  lockfile-progs                      0.1.17                               amd64        Programs for locking and unlocking files and mailboxes
 ii  login                               1:4.1.5.1-1ubuntu9.2                 amd64        system login tools
 ii  logrotate                           3.8.7-1ubuntu1                       amd64        Log rotation utility
-ii  lsb-base                            4.1+Debian11ubuntu6                  all          Linux Standard Base 4.1 init script functionality
-ii  lsb-release                         4.1+Debian11ubuntu6                  all          Linux Standard Base version reporting utility
+ii  lsb-base                            4.1+Debian11ubuntu6.1                all          Linux Standard Base 4.1 init script functionality
+ii  lsb-release                         4.1+Debian11ubuntu6.1                all          Linux Standard Base version reporting utility
 ii  lshw                                02.16-2ubuntu1.3                     amd64        information about hardware configuration
 ii  lsof                                4.86+dfsg-1ubuntu2                   amd64        Utility to list open files
 ii  ltrace                              0.7.3-4ubuntu5.1                     amd64        Tracks runtime library calls in dynamically linked programs
@@ -778,7 +778,7 @@ ii  python2.7                           2.7.6-8ubuntu0.2                     amd
 ii  python2.7-dev                       2.7.6-8ubuntu0.2                     amd64        Header files and a static library for Python (v2.7)
 ii  python2.7-minimal                   2.7.6-8ubuntu0.2                     amd64        Minimal subset of the Python language (version 2.7)
 ii  python3                             3.4.0-0ubuntu2                       amd64        interactive high-level object-oriented language (default python3 version)
-ii  python3-apport                      2.14.1-0ubuntu3.19                   all          Python 3 library for Apport crash report handling
+ii  python3-apport                      2.14.1-0ubuntu3.21                   all          Python 3 library for Apport crash report handling
 ii  python3-apt                         0.9.3.5ubuntu2                       amd64        Python 3 interface to libapt-pkg
 ii  python3-chardet                     2.2.1-2~ubuntu1                      all          universal character encoding detector for Python3
 ii  python3-colorama                    0.2.5-0.1ubuntu2                     all          Cross-platform colored terminal text in Python - Python 3.x
@@ -794,7 +794,7 @@ ii  python3-minimal                     3.4.0-0ubuntu2                       amd
 ii  python3-newt                        0.52.15-2ubuntu5                     amd64        NEWT module for Python3
 ii  python3-pip                         1.5.4-1ubuntu3                       all          alternative Python package installer - Python 3 version of the package
 ii  python3-pkg-resources               3.3-1ubuntu2                         all          Package Discovery and Resource Access using pkg_resources
-ii  python3-problem-report              2.14.1-0ubuntu3.19                   all          Python 3 library to handle problem reports
+ii  python3-problem-report              2.14.1-0ubuntu3.21                   all          Python 3 library to handle problem reports
 ii  python3-pycurl                      7.19.3-0ubuntu3                      amd64        Python 3 bindings to libcurl
 ii  python3-requests                    2.2.1-1ubuntu0.3                     all          elegant and simple HTTP library for Python3, built for human beings
 ii  python3-setuptools                  3.3-1ubuntu2                         all          Python3 Distutils Enhancements
