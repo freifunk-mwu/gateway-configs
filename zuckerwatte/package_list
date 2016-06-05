@@ -167,6 +167,7 @@ ii  libalgorithm-diff-perl              1.19.02-3                           all 
 ii  libalgorithm-diff-xs-perl           0.04-2build4                        amd64        module to find differences between files (XS accelerated)
 ii  libalgorithm-merge-perl             0.08-2                              all          Perl module for three-way merge of textual data
 ii  libapache2-mod-php5                 5.5.9+dfsg-1ubuntu4.17              amd64        server-side, HTML-embedded scripting language (Apache 2 module)
+ii  libapache2-mod-removeip             1.0b-5.1                            amd64        Module to remove IP from apache2's logs
 ii  libapparmor-perl                    2.8.95~2430-0ubuntu5.3              amd64        AppArmor library Perl bindings
 ii  libapparmor1:amd64                  2.8.95~2430-0ubuntu5.3              amd64        changehat AppArmor library
 ii  libapr1:amd64                       1.5.0-1                             amd64        Apache Portable Runtime Library
