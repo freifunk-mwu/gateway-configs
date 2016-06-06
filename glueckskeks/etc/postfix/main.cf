@@ -111,6 +111,9 @@ postscreen_access_list = permit_mynetworks,
         cidr:/etc/postfix/access_postscreen.cidr
 postscreen_cache_map = proxy:btree:$data_directory/postscreen_cache
 postscreen_command_count_limit = 7
+postscreen_greet_ttl = 30d
+postscreen_cache_retention_time = 30d
+postscreen_cache_cleanup_interval = 24h
 
 # TLS parameters
 tls_preempt_cipherlist = yes
