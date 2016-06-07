@@ -2,7 +2,7 @@ accounts:
     a: &A
         login: 'ffmwu'
         provider: 'Rheinland'
-        until: '01.01.2017'
+        until: '01.01.2018'
     b: &B
         login: 'kasperle'
         provider: 'perfect-privacy'
@@ -14,9 +14,9 @@ conf:
     date_format: '%d.%m.%Y'
     # http://strftime.org/
 gateways:
-    Kaschu: *B
+    Kaschu: *A
     Lotuswurzel: *A
     Spinat: *A
     Wasserfloh: *A
     zitronengras: *A
-    parmesan: *B
+    parmesan: *A
