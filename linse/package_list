@@ -5,10 +5,10 @@ Desired=Unknown/Install/Remove/Purge/Hold
 +++-================================-================================-============-===============================================================================
 ii  acpid                            1:2.0.21-1ubuntu2                amd64        Advanced Configuration and Power Interface event daemon
 ii  adduser                          3.113+nmu3ubuntu3                all          add and remove users and groups
-ii  apport                           2.14.1-0ubuntu3.20               all          automatically generate crash reports for debugging
+ii  apport                           2.14.1-0ubuntu3.21               all          automatically generate crash reports for debugging
 ii  apport-symptoms                  0.20                             all          symptom scripts for apport
-ii  apt                              1.0.1ubuntu2.13                  amd64        commandline package manager
-ii  apt-utils                        1.0.1ubuntu2.13                  amd64        package management related utility programs
+ii  apt                              1.0.1ubuntu2.14                  amd64        commandline package manager
+ii  apt-utils                        1.0.1ubuntu2.14                  amd64        package management related utility programs
 ii  apt-xapian-index                 0.45ubuntu4                      all          maintenance and search tools for a Xapian index of Debian packages
 ii  aptitude                         0.6.8.2-1ubuntu4                 amd64        terminal-based package manager
 ii  aptitude-common                  0.6.8.2-1ubuntu4                 all          architecture indepedent files for the aptitude package manager
@@ -111,8 +111,8 @@ ii  libalgorithm-diff-perl           1.19.02-3                        all       
 ii  libalgorithm-diff-xs-perl        0.04-2build4                     amd64        module to find differences between files (XS accelerated)
 ii  libalgorithm-merge-perl          0.08-2                           all          Perl module for three-way merge of textual data
 ii  libapparmor1:amd64               2.8.95~2430-0ubuntu5.3           amd64        changehat AppArmor library
-ii  libapt-inst1.5:amd64             1.0.1ubuntu2.13                  amd64        deb package format runtime library
-ii  libapt-pkg4.12:amd64             1.0.1ubuntu2.13                  amd64        package management runtime library
+ii  libapt-inst1.5:amd64             1.0.1ubuntu2.14                  amd64        deb package format runtime library
+ii  libapt-pkg4.12:amd64             1.0.1ubuntu2.14                  amd64        package management runtime library
 ii  libarchive-extract-perl          0.70-1                           all          generic archive extracting module
 ii  libasan0:amd64                   4.8.4-2ubuntu1~14.04.3           amd64        AddressSanitizer -- a fast memory error detector
 ii  libasn1-8-heimdal:amd64          1.6~git20131207+dfsg-1ubuntu1.1  amd64        Heimdal Kerberos - ASN.1 library
@@ -224,8 +224,8 @@ ii  libnewt0.52:amd64                0.52.15-2ubuntu5                 amd64     
 ii  libnfnetlink0:amd64              1.0.1-2                          amd64        Netfilter netlink library
 ii  libnih-dbus1:amd64               1.0.3-4ubuntu25                  amd64        NIH D-Bus Bindings Library
 ii  libnih1:amd64                    1.0.3-4ubuntu25                  amd64        NIH Utility Library
-ii  libnl-3-200:amd64                3.2.21-1ubuntu1.1                amd64        library for dealing with netlink sockets
-ii  libnl-genl-3-200:amd64           3.2.21-1ubuntu1.1                amd64        library for dealing with netlink sockets - generic netlink
+ii  libnl-3-200:amd64                3.2.21-1ubuntu3                  amd64        library for dealing with netlink sockets
+ii  libnl-genl-3-200:amd64           3.2.21-1ubuntu3                  amd64        library for dealing with netlink sockets - generic netlink
 ii  libntlm0:amd64                   1.4-1                            amd64        NTLM authentication library
 ii  libopts25:amd64                  1:5.18-2ubuntu2                  amd64        automated option processing library based on autogen
 ii  libp11-kit0:amd64                0.20.2-2ubuntu2                  amd64        Library for loading and coordinating access to PKCS#11 modules - runtime
@@ -306,7 +306,7 @@ ii  libxau6:amd64                    1:1.0.8-1                        amd64     
 ii  libxcb1:amd64                    1.10-2ubuntu1                    amd64        X C Binding
 ii  libxdmcp6:amd64                  1:1.1.1-1                        amd64        X11 Display Manager Control Protocol library
 ii  libxext6:amd64                   2:1.3.2-1ubuntu0.0.14.04.1       amd64        X11 miscellaneous extension library
-ii  libxml2:amd64                    2.9.1+dfsg1-3ubuntu4.7           amd64        GNOME XML library
+ii  libxml2:amd64                    2.9.1+dfsg1-3ubuntu4.8           amd64        GNOME XML library
 ii  libxmuu1:amd64                   2:1.1.1-1                        amd64        X11 miscellaneous micro-utility library
 ii  libxtables10                     1.4.21-1ubuntu1                  amd64        netfilter xtables library
 ii  linux-headers-3.13.0-37          3.13.0-37.64                     all          Header files related to Linux kernel version 3.13.0
@@ -323,10 +323,6 @@ ii  linux-headers-3.13.0-59          3.13.0-59.98                     all       
 ii  linux-headers-3.13.0-59-generic  3.13.0-59.98                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-61          3.13.0-61.100                    all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-61-generic  3.13.0-61.100                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-79          3.13.0-79.123                    all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-79-generic  3.13.0-79.123                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-83          3.13.0-83.127                    all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-83-generic  3.13.0-83.127                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-85          3.13.0-85.129                    all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-85-generic  3.13.0-85.129                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-86          3.13.0-86.131                    all          Header files related to Linux kernel version 3.13.0
@@ -369,8 +365,8 @@ rc  linux-image-3.13.0-73-generic    3.13.0-73.116                    amd64     
 rc  linux-image-3.13.0-74-generic    3.13.0-74.118                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-76-generic    3.13.0-76.120                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-77-generic    3.13.0-77.121                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-79-generic    3.13.0-79.123                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-83-generic    3.13.0-83.127                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-79-generic    3.13.0-79.123                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-83-generic    3.13.0-83.127                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-85-generic    3.13.0-85.129                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-86-generic    3.13.0-86.131                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-87-generic    3.13.0-87.133                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -460,7 +456,7 @@ ii  python-zope.interface            4.0.5-1ubuntu4                   amd64     
 ii  python2.7                        2.7.6-8ubuntu0.2                 amd64        Interactive high-level object-oriented language (version 2.7)
 ii  python2.7-minimal                2.7.6-8ubuntu0.2                 amd64        Minimal subset of the Python language (version 2.7)
 ii  python3                          3.4.0-0ubuntu2                   amd64        interactive high-level object-oriented language (default python3 version)
-ii  python3-apport                   2.14.1-0ubuntu3.20               all          Python 3 library for Apport crash report handling
+ii  python3-apport                   2.14.1-0ubuntu3.21               all          Python 3 library for Apport crash report handling
 ii  python3-apt                      0.9.3.5ubuntu2                   amd64        Python 3 interface to libapt-pkg
 ii  python3-chardet                  2.2.1-2~ubuntu1                  all          universal character encoding detector for Python3
 ii  python3-colorama                 0.2.5-0.1ubuntu2                 all          Cross-platform colored terminal text in Python - Python 3.x
@@ -473,7 +469,7 @@ ii  python3-minimal                  3.4.0-0ubuntu2                   amd64     
 ii  python3-newt                     0.52.15-2ubuntu5                 amd64        NEWT module for Python3
 ii  python3-pip                      1.5.4-1ubuntu3                   all          alternative Python package installer - Python 3 version of the package
 ii  python3-pkg-resources            3.3-1ubuntu2                     all          Package Discovery and Resource Access using pkg_resources
-ii  python3-problem-report           2.14.1-0ubuntu3.20               all          Python 3 library to handle problem reports
+ii  python3-problem-report           2.14.1-0ubuntu3.21               all          Python 3 library to handle problem reports
 ii  python3-pycurl                   7.19.3-0ubuntu3                  amd64        Python 3 bindings to libcurl
 ii  python3-requests                 2.2.1-1ubuntu0.3                 all          elegant and simple HTTP library for Python3, built for human beings
 ii  python3-setuptools               3.3-1ubuntu2                     all          Python3 Distutils Enhancements
