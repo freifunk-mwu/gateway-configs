@@ -47,6 +47,7 @@ roa fda0:747e:ab29:e054::/64 max  64 as      64869; # euskirchen
 roa 2001:bf7:10::/44         max  64 as      65056; # flensburg
 roa fda0:747e:ab29:9375::/64 max  64 as      65125; # flingern
 roa fdff:49:461::/48         max  64 as 4242420420; # foerdefunk-flensburg
+roa fddb:2cb:9699::/48       max  64 as      64890; # frankenberg
 roa fddd:5d16:b5dd::/48      max  64 as      65026; # frankfurt
 roa 2001:bf7:2810::/44       max  64 as      65060; # freiburg
 roa fdf0:09bb:7814::/48      max  64 as      65060; # freiburg

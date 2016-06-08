@@ -46,6 +46,7 @@ roa 10.155.0.0/20   max  20 as      65125; # flingern
 roa 10.65.0.0/20    max  20 as 4242420420; # foerdefunk-flensburg
 roa 10.50.0.0/16    max  20 as      65024; # franken
 roa 10.83.0.0/16    max  20 as      65024; # franken
+roa 10.15.128.0/18  max  20 as      64890; # frankenberg
 roa 10.126.0.0/16   max  20 as      65026; # frankfurt
 roa 10.60.0.0/16    max  20 as      65060; # freiburg
 roa 10.185.0.0/16   max  20 as      65142; # fulda
