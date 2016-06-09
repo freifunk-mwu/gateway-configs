@@ -114,6 +114,7 @@ postscreen_command_count_limit = 7
 postscreen_greet_ttl = 30d
 postscreen_cache_retention_time = 30d
 postscreen_cache_cleanup_interval = 24h
+postscreen_blacklist_action = drop
 
 # TLS parameters
 tls_preempt_cipherlist = yes
