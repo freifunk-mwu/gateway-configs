@@ -2,7 +2,7 @@
 ;
 $TTL	600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2016052001		; Serial
+		     2016060900		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -37,6 +37,7 @@ gate231		IN	CNAME	wasserfloh.freifunk-mwu.de.
 ; services and stuff
 www		IN	CNAME	zuckerwatte.freifunk-mwu.de.
 blog		IN	CNAME	zuckerwatte.freifunk-mwu.de.
+map		IN	CNAME	suesskartoffel.freifunk-mwu.de.
 
 ; IC-VPN
 ic-wiesbaden1	IN	CNAME	lotuswurzel.freifunk-mwu.de.
