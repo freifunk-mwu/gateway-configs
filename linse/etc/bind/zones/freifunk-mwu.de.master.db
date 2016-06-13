@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2016052000		; Serial
+		     2016061300		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -43,9 +43,6 @@ gate208		IN	CNAME	kaschu
 wasserfloh	IN	A	136.243.184.91
 wasserfloh	IN	AAAA	2a01:4f8:190:7008:2800::1
 gate231		IN	CNAME	wasserfloh
-
-zitronengras	IN	A	195.72.110.33
-gate29		IN	CNAME	zitronengras
 
 ; test gateway
 mettigel	IN	A	5.45.106.31
