@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2016061300		; Serial
+		     2016061400		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -17,7 +17,7 @@ $TTL	3600
 @		IN	MX	10	glueckskeks
 @		IN	TXT	"v=spf1 ip4:5.199.136.244/32 ip6:2001:4ba0:fffc:3d:0:b4dc:4b1e:3/128 mx ?all"
 lists		IN	MX	10	glueckskeks
-@		IN	TXT	"v=spf1 ip4:5.199.136.244/32 ip6:2001:4ba0:fffc:3d:0:b4dc:4b1e:3/128 mx include:freifunk-mwu.de ?all"
+lists		IN	TXT	"v=spf1 ip4:5.199.136.244/32 ip6:2001:4ba0:fffc:3d:0:b4dc:4b1e:3/128 mx include:freifunk-mwu.de ?all"
 
 ; master dns
 linse		IN	A	144.76.209.101
