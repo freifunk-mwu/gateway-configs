@@ -11,6 +11,7 @@ ii  alfred-json                         0.3.1-0ffmwu1~trusty                amd6
 ii  apache2                             2.4.7-1ubuntu4.9                    amd64        Apache HTTP Server
 ii  apache2-bin                         2.4.7-1ubuntu4.9                    amd64        Apache HTTP Server (binary files and modules)
 ii  apache2-data                        2.4.7-1ubuntu4.9                    all          Apache HTTP Server (common files)
+ii  apg                                 2.2.3.dfsg.1-2ubuntu1               amd64        Automated Password Generator - Standalone version
 ii  apparmor                            2.8.95~2430-0ubuntu5.3              amd64        User-space parser utility for AppArmor
 ii  apport                              2.14.1-0ubuntu3.21                  all          automatically generate crash reports for debugging
 ii  apport-symptoms                     0.20                                all          symptom scripts for apport
