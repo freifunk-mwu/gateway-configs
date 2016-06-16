@@ -42,6 +42,10 @@ kaschu.icvpn		IN	A	10.207.1.56
 kaschu.icvpn		IN	AAAA	fec0::a:cf:1:38
 gate208.icvpn          	IN      CNAME   kaschu.icvpn
 
+ingwer                  IN      A       10.56.0.161
+ingwer                  IN      AAAA    fd56:b4dc:4b1e::a25:a1
+gate161                 IN      CNAME   ingwer
+
 wasserfloh  	   	IN      A       10.56.0.231
 wasserfloh     		IN      AAAA    fd56:b4dc:4b1e::a38:e7
 gate231          	IN      CNAME   wasserfloh
