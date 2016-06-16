@@ -27,7 +27,6 @@ ii  batctl                           2016.0-0ffmwu0~trusty            amd64     
 ii  batman-adv-dkms                  2016.0-0ffmwu0~trusty            all          DKMS Source for the batman-advanced kernel module
 ii  bc                               1.06.95-8ubuntu1                 amd64        GNU bc arbitrary precision calculator language
 ii  bind9-host                       1:9.9.5.dfsg-3ubuntu0.8          amd64        Version of 'host' bundled with BIND 9.X
-ii  bind9utils                       1:9.9.5.dfsg-3ubuntu0.8          amd64        Utilities for BIND
 ii  binutils                         2.24-5ubuntu14.1                 amd64        GNU assembler, linker and binary utilities
 ii  biosdevname                      0.4.1-0ubuntu6.3                 amd64        apply BIOS-given names to network devices
 ii  bird                             1.6.0-1+trusty+1                 amd64        Internet Routing Daemon
@@ -39,6 +38,7 @@ ii  busybox-initramfs                1:1.21.0-1ubuntu1                amd64     
 ii  byobu                            5.77-0ubuntu1.2                  all          powerful, text based window manager and shell multiplexer
 ii  bzip2                            1.0.6-5                          amd64        high-quality block-sorting file compressor - utilities
 ii  ca-certificates                  20160104ubuntu0.14.04.1          all          Common CA certificates
+ii  check-mk-agent                   1.2.6p12-1                       all          Check_MK Agent for Linux
 ii  console-setup                    1.70ubuntu8                      all          console font and keymap setup program
 ii  coreutils                        8.21-1ubuntu5.4                  amd64        GNU core utilities
 ii  cpio                             2.11+dfsg-1ubuntu1.2             amd64        GNU cpio -- a program to manage archives of files
@@ -371,8 +371,6 @@ ii  libxtables10                     1.4.21-1ubuntu1                  amd64     
 ii  libyaml-0-2:amd64                0.1.4-3ubuntu3.1                 amd64        Fast YAML 1.1 parser and emitter library
 ii  linux-headers-3.13.0-85          3.13.0-85.129                    all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-85-generic  3.13.0-85.129                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-86          3.13.0-86.131                    all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-86-generic  3.13.0-86.131                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-87          3.13.0-87.133                    all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-87-generic  3.13.0-87.133                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-88          3.13.0-88.135                    all          Header files related to Linux kernel version 3.13.0
@@ -380,7 +378,7 @@ ii  linux-headers-3.13.0-88-generic  3.13.0-88.135                    amd64     
 ii  linux-headers-generic            3.13.0.88.94                     amd64        Generic Linux kernel headers
 ii  linux-headers-virtual            3.13.0.88.94                     amd64        Transitional package.
 ii  linux-image-3.13.0-85-generic    3.13.0-85.129                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-86-generic    3.13.0-86.131                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-86-generic    3.13.0-86.131                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-87-generic    3.13.0-87.133                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-88-generic    3.13.0-88.135                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-virtual              3.13.0.88.94                     amd64        This package will always depend on the latest minimal generic kernel image.
