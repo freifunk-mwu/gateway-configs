@@ -18,6 +18,7 @@ $TTL    600
 7.0     PTR     spinat.ffmz.org.
 23.0    PTR     lotuswurzel.ffmz.org.
 42.0    PTR     parmesan.ffmz.org.
+161.0	PTR	ingwer.ffmz.org.
 208.0   PTR     kaschu.ffmz.org.
 231.0   PTR     wasserfloh.ffmz.org.
 0.1	PTR	zwiebel.ffmz.org.
