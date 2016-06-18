@@ -18,6 +18,7 @@ $TTL    600
 7.0     PTR     spinat.ffwi.org.
 23.0    PTR     lotuswurzel.ffwi.org.
 42.0    PTR     parmesan.ffwi.org.
+161.0	PTR	ingwer.ffwi.org.
 208.0   PTR     kaschu.ffwi.org.
 231.0   PTR     wasserfloh.ffwi.org.
 0.1	PTR	zwiebel.ffwi.org.
