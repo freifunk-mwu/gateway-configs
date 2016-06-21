@@ -1,0 +1,16 @@
+#
+# reserved values
+#
+255	local
+254	main
+253	default
+0	unspec
+#
+# local
+#
+# icvpn table
+23	icvpn
+#local community table
+41	mwu
+# internet exit table
+61	ffinetexit
