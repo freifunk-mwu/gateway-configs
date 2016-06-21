@@ -469,6 +469,7 @@ ii  nano                           2.2.6-3                     amd64        smal
 ii  ncurses-base                   5.9+20140913-1              all          basic terminal type definitions
 ii  ncurses-bin                    5.9+20140913-1+b1           amd64        terminal-related programs and man pages
 ii  ncurses-term                   5.9+20140913-1              all          additional terminal type definitions
+ii  ndisc6                         1.0.1-1+b1                  amd64        IPv6 diagnostic tools
 ii  net-tools                      1.60-26+b1                  amd64        NET-3 networking toolkit
 ii  netbase                        5.3                         all          Basic TCP/IP networking system
 ii  netcat-traditional             1.10-41                     amd64        TCP/IP swiss army knife
