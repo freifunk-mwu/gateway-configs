@@ -1,0 +1,117 @@
+//
+// Do any local configuration here
+//
+
+// ACLs
+
+masters "ns-master-mz" {
+        fd37:b4dc:4b1e::a25:103;
+};
+
+masters "ns-master-wi" {
+        fd56:b4dc:4b1e::a38:103;
+};
+
+masters "ns-master-bin" {
+        fd37:b4dc:4b1e::a25:10c;
+};
+
+acl "intern-mz" {
+        10.37.0.0/16;
+        fd37:b4dc:4b1e::/48;
+};
+
+acl "intern-wi" {
+        10.56.0.0/16;
+        fd56:b4dc:4b1e::/48;
+};
+
+
+// Intern Zones for Freifunk
+
+zone "ffmwu.org." {
+        type slave;
+        file "ffmwu.org.db";
+        masters { ns-master-wi; };
+};
+
+zone "ffmz.org." {
+        type slave;
+        file "ffmz.org.db";
+        masters { ns-master-mz; };
+};
+
+zone "user.ffmz.org." {
+        type slave;
+        file "user.ffmz.org.db";
+        masters { ns-master-mz; };
+};
+
+zone "bb.ffmz.org." {
+        type slave;
+        file "bb.ffmz.org.db";
+        masters { ns-master-mz; };
+};
+
+zone "ffwi.org." {
+        type slave;
+        file "ffwi.org.db";
+        masters { ns-master-wi; };
+};
+
+zone "user.ffwi.org." {
+        type slave;
+        file "user.ffwi.org.db";
+        masters { ns-master-wi; };
+};
+
+zone "bb.ffwi.org." {
+        type slave;
+        file "bb.ffwi.org.db";
+        masters { ns-master-wi; };
+};
+
+zone "nodes.ffwi.org." {
+        type slave;
+        file "nodes.ffwi.org.db";
+        masters { ns-master-wi; };
+};
+
+zone "nodes.ffmz.org." {
+        type slave;
+        file "nodes.ffmz.org.db";
+        masters { ns-master-mz; };
+};
+
+// Reverse Zones
+
+zone "37.10.in-addr.arpa" {
+        type slave;
+        file "37.10.in-addr.arpa.db";
+        masters { ns-master-mz; };
+};
+
+zone "0.0.0.0.e.1.b.4.c.d.4.b.7.3.d.f.ip6.arpa" {
+        type slave;
+        file "fd37:b4dc:4b1e:0000_64.ip6.arpa.db";
+        masters { ns-master-mz; };
+};
+
+zone "56.10.in-addr.arpa" {
+        type slave;
+        file "56.10.in-addr.arpa.db";
+        masters { ns-master-wi; };
+};
+
+zone "0.0.0.0.e.1.b.4.c.d.4.b.6.5.d.f.ip6.arpa" {
+        type slave;
+        file "fd56:b4dc:4b1e:0000_64.ip6.arpa.db";
+        masters { ns-master-wi; };
+};
+
+// freifunk bingen
+zone "ffbin." {
+        type slave;
+        file "ffbin.db";
+        masters { ns-master-bin; };
+};
