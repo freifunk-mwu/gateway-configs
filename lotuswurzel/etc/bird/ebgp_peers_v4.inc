@@ -267,6 +267,13 @@ protocol bgp icvpn_herford2 from ebgp_ic {
     neighbor 10.207.0.24 as 64866;
     passive yes;
 }
+protocol bgp icvpn_ffibk1 from ebgp_ic {
+    neighbor 10.207.0.67 as 65052;
+    passive yes;
+}
+protocol bgp icvpn_ffibk2 from ebgp_ic {
+    neighbor 10.207.0.69 as 65052;
+}
 protocol bgp icvpn_kassel1 from ebgp_ic {
     neighbor 10.207.10.10 as 65514;
     passive yes;
@@ -457,7 +464,6 @@ protocol bgp icvpn_weimar1 from ebgp_ic {
 }
 protocol bgp icvpn_westkueste1 from ebgp_ic {
     neighbor 10.207.0.12 as 65432;
-    passive yes;
 }
 protocol bgp icvpn_westpfalz1 from ebgp_ic {
     neighbor 10.207.0.85 as 65242;
@@ -467,6 +473,7 @@ protocol bgp icvpn_westpfalz2 from ebgp_ic {
 }
 protocol bgp icvpn_westpfalz3 from ebgp_ic {
     neighbor 10.207.0.87 as 65242;
+    passive yes;
 }
 protocol bgp icvpn_westpfalz4 from ebgp_ic {
     neighbor 10.207.0.88 as 65242;

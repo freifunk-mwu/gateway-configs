@@ -2,4 +2,4 @@
 postmaster:     root
 admin:          root
 # root:         admin+lotuswurzel@freifunk-mwu.de
-root:           admin@freifunk-mainz.de
+root:           admin@lists.freifunk-mwu.de
