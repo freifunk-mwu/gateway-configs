@@ -78,7 +78,6 @@ protocol bgp icvpn_bremen3 from ebgp_ic {
 }
 protocol bgp icvpn_bremen4 from ebgp_ic {
     neighbor 10.207.4.196 as 65196;
-    passive yes;
 }
 protocol bgp icvpn_bremen5 from ebgp_ic {
     neighbor 10.207.5.196 as 65196;
@@ -249,6 +248,7 @@ protocol bgp icvpn_ffhmgw01 from ebgp_ic {
 }
 protocol bgp icvpn_hannover1 from ebgp_ic {
     neighbor 10.207.0.22 as 65511;
+    passive yes;
 }
 protocol bgp icvpn_harz1 from ebgp_ic {
     neighbor 10.207.0.11 as 65134;
@@ -271,7 +271,6 @@ protocol bgp icvpn_herford2 from ebgp_ic {
 }
 protocol bgp icvpn_ffibk1 from ebgp_ic {
     neighbor 10.207.0.67 as 65052;
-    passive yes;
 }
 protocol bgp icvpn_ffibk2 from ebgp_ic {
     neighbor 10.207.0.69 as 65052;
