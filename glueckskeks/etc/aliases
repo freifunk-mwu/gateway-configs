@@ -1,4 +1,4 @@
 # See man 5 aliases for format
 postmaster:    root
 clamav: root
-root:	admin@freifunk-mainz.de
+root:	admin@lists.freifunk-mwu.de
