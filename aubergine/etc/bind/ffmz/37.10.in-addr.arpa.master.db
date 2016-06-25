@@ -3,7 +3,7 @@ $ORIGIN 37.10.in-addr.arpa.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffmz.org. hostmaster.ffmz.org. (
-                     2016041300         ; Serial
+                     2016062500         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
