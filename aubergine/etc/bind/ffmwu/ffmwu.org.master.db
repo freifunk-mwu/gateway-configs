@@ -3,7 +3,7 @@ $ORIGIN ffmwu.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffmwu.org. hostmaster.ffmwu.org. (
-                     2016061300         ; Serial
+                     2016062500         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -14,6 +14,7 @@ $TTL    600
 @			IN      NS      spinat.ffmwu.org.
 @			IN      NS      lotuswurzel.ffmwu.org.
 @			IN      NS      kaschu.ffmwu.org.
+@			IN	NS	ingwer.ffmwu.org.
 
 ; gluon gateways
 spinat			IN      A       10.56.0.7
@@ -26,6 +27,10 @@ gate23			IN      CNAME   lotuswurzel
 lotuswurzel.icvpn	IN	A	10.207.0.56
 lotuswurzel.icvpn	IN	AAAA	fec0::a:cf:0:38
 gate23.icvpn		IN	CNAME	lotuswurzel.icvpn
+
+ingwer			IN	A	10.56.0.161
+ingwer			IN	AAAA	fd56:b4dc:4b1e::a38:a1
+gate161			IN	CNAME	ingwer
 
 kaschu  	   	IN      A       10.56.0.208
 kaschu	     		IN      AAAA    fd56:b4dc:4b1e::a38:d0

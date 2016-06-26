@@ -3,7 +3,7 @@ $ORIGIN bb.ffmz.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffmz.org. hostmaster.ffmz.org. (
-                     2015102801         ; Serial
+                     2016062500         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -14,6 +14,7 @@ $TTL    600
 @       		IN      NS      spinat.ffmz.org.
 @       		IN      NS      lotuswurzel.ffmz.org.
 @       		IN      NS      kaschu.ffmz.org.
+@			IN	NS	ingwer.ffmz.org.
 
 ; freifunk backbone
 uk-master.bb            IN      A       10.37.2.1
