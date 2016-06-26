@@ -3,7 +3,7 @@ $ORIGIN ffmz.org.
 
 $TTL    600
 @       IN      SOA     aubergine.ffmz.org. hostmaster.ffmz.org. (
-                     2016041300         ; Serial
+                     2016062500         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire

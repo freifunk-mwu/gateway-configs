@@ -3,7 +3,7 @@ $ORIGIN ffwi.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffwi.org. hostmaster.ffwi.org. (
-                     2016061300         ; Serial
+                     2016062500         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
