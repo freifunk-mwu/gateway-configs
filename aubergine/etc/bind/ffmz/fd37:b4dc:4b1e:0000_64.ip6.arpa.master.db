@@ -13,6 +13,7 @@ $TTL    600
 @       IN      NS      spinat.ffmz.org.
 @       IN      NS      lotuswurzel.ffmz.org.
 @       IN      NS      kaschu.ffmz.org.
+@	IN	NS	ingwer.ffmz.org.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR     nextnode.ffmz.org.
 7.0.0.0.5.2.a.0.0.0.0.0.0.0.0.0 PTR     spinat.ffmz.org.
