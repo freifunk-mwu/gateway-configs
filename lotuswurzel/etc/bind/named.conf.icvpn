@@ -1121,6 +1121,273 @@ zone "fftdf" {
     server-addresses { 10.188.1.100; 10.188.1.23; };
 };
 # 
+# tuttlingen
+# 
+zone "fftut" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "128.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "129.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "130.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "131.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "132.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "133.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "134.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "135.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "136.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "137.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "138.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "139.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "140.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "141.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "142.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "143.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "144.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "145.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "146.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "147.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "148.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "149.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "150.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "151.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "152.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "153.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "154.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "155.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "156.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "157.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "158.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "159.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "160.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "161.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "162.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "163.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "164.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "165.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "166.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "167.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "168.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "169.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "170.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "171.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "172.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "173.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "174.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "175.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "176.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "177.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "178.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "179.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "180.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "181.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "182.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "183.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "184.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "185.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "186.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "187.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "188.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "189.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "190.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "191.30.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "0.3.0.0.4.8.3.5.7.c.d.f.ip6.arpa." {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+# 
 # uelzen
 # 
 zone "ffue" {
