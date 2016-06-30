@@ -158,6 +158,8 @@ roa 10.210.0.0/18   max  20 as      65502; # suedwest
 roa 10.24.0.0/20    max  20 as      65045; # treuenbrietzen
 roa 10.172.0.0/16   max  20 as      65022; # trier
 roa 10.188.0.0/16   max  20 as      65066; # troisdorf
+roa 10.30.128.0/18  max  20 as      64930; # tuttlingen
+roa 10.30.128.0/18  max  20 as      65043; # tuttlingen (delegation)
 roa 10.134.0.0/16   max  20 as      64525; # uelzen
 roa 10.33.0.0/16    max  20 as      64860; # ulm
 roa 10.11.80.0/20   max  20 as      64870; # velbert
