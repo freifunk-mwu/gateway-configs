@@ -2,7 +2,7 @@
 ;
 $TTL	600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2016060900		; Serial
+		     2016063000		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -33,6 +33,8 @@ kaschu		IN	CNAME	kaschu.freifunk-mwu.de.
 gate208		IN	CNAME	kaschu.freifunk-mwu.de.
 wasserfloh	IN	CNAME	wasserfloh.freifunk-mwu.de.
 gate231		IN	CNAME	wasserfloh.freifunk-mwu.de.
+ingwer		IN	CNAME	ingwer.freifunk-mwu.de.
+gate161		IN	CNAME	ingwer.freifunk-mwu.de.
 
 ; services and stuff
 www		IN	CNAME	zuckerwatte.freifunk-mwu.de.
