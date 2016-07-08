@@ -584,6 +584,7 @@ ii  vim                            2:7.4.488-7                 amd64        Vi I
 ii  vim-common                     2:7.4.488-7                 amd64        Vi IMproved - Common files
 ii  vim-runtime                    2:7.4.488-7                 all          Vi IMproved - Runtime files
 ii  vim-tiny                       2:7.4.488-7                 amd64        Vi IMproved - enhanced vi editor - compact version
+ii  virt-what                      1.14-1                      amd64        detect if we are running in a virtual machine
 ii  vnstat                         1.12-2                      amd64        console-based network traffic monitor
 ii  vnstati                        1.12-2                      amd64        image output support for vnStat
 ii  w3m                            0.5.3-19                    amd64        WWW browsable pager with excellent tables/frames support
