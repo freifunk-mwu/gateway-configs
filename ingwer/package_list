@@ -19,6 +19,7 @@ ii  apt-file                       2.5.4                       all          sear
 ii  apt-listchanges                2.85.13+nmu1                all          package change history notification tool
 ii  apt-transport-https            1.0.9.8.3                   amd64        https download transport for APT
 ii  apt-utils                      1.0.9.8.3                   amd64        package management related utility programs
+ii  apticron                       1.1.57                      all          Simple tool to mail about pending package updates
 ii  aptitude                       0.6.11-1+b1                 amd64        terminal-based package manager
 ii  aptitude-common                0.6.11-1                    all          architecture independent files for the aptitude package manager
 ii  aptitude-doc-en                0.6.11-1                    all          English manual for aptitude, a terminal-based package manager
