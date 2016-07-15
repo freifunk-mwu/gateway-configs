@@ -29,6 +29,8 @@ PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bi
 * * * * * $HOME/clones/ffmap-backend/mkmap-mwu.sh > /dev/null 2>&1
 */15 * * * * $HOME/clones/ffmap-backend/mk-rrd-images.sh > /dev/null 2>&1
 42 1 * * * $HOME/bin/backup-map.sh > /dev/null 2>&1
+# temp: save biwe rrd
+0 5 * * 5,6,7 $HOME/bilderwerfer2016stats/cpbiwerrd.sh
 # backend scripts
 */5 * * * * $HOME/clones/backend-scripts/draw_traffic_all.py > $HOME/.cronlog/draw_traffic.log
 23 * * * * $HOME/clones/backend-scripts/gen_website_all.py > $HOME/.cronlog/gen_website.log
