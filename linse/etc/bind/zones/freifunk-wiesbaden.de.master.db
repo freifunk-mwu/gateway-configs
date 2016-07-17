@@ -2,7 +2,7 @@
 ;
 $TTL	600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2016063000		; Serial
+		     2016071500		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -29,8 +29,6 @@ spinat		IN	CNAME	spinat.freifunk-mwu.de.
 gate07		IN	CNAME	spinat.freifunk-mwu.de.
 lotuswurzel	IN	CNAME	lotuswurzel.freifunk-mwu.de.
 gate23		IN	CNAME	lotuswurzel.freifunk-mwu.de.
-kaschu		IN	CNAME	kaschu.freifunk-mwu.de.
-gate208		IN	CNAME	kaschu.freifunk-mwu.de.
 wasserfloh	IN	CNAME	wasserfloh.freifunk-mwu.de.
 gate231		IN	CNAME	wasserfloh.freifunk-mwu.de.
 ingwer		IN	CNAME	ingwer.freifunk-mwu.de.
@@ -43,7 +41,6 @@ map		IN	CNAME	suesskartoffel.freifunk-mwu.de.
 
 ; IC-VPN
 ic-wiesbaden1	IN	CNAME	lotuswurzel.freifunk-mwu.de.
-ic-wiesbaden2	IN	CNAME	kaschu.freifunk-mwu.de.
 
 ; key#4 2048 bits, i=mail201507, d=freifunk-wiesbaden.de, /var/lib/amavis/db/freifunk-wiesbaden.de
 mail201507._domainkey	3600 TXT (

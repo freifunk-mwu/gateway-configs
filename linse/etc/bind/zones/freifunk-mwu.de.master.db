@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2016063000		; Serial
+		     2016071500		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -37,11 +37,6 @@ lotuswurzel	IN	A	144.76.209.100
 lotuswurzel	IN	AAAA	2a01:4f8:192:520::b4dc:4b1e
 gate23		IN	CNAME	lotuswurzel
 icvpn23		IN	CNAME	lotuswurzel
-
-kaschu		IN	A	178.63.230.157
-kaschu		IN	AAAA	2a01:4f8:110:4523::2
-gate208		IN	CNAME	kaschu
-icvpn208	IN	CNAME	kaschu
 
 ingwer          IN      A       164.132.135.215
 ingwer          IN      AAAA    2001:41d0:2:32cb::b4dc:4b1e
