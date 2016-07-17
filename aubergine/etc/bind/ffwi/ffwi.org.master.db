@@ -3,7 +3,7 @@ $ORIGIN ffwi.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffwi.org. hostmaster.ffwi.org. (
-                     2016063000         ; Serial
+                     2016071500         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -13,7 +13,6 @@ $TTL    600
 @			IN      NS      wasserfloh.ffwi.org.
 @			IN      NS      spinat.ffwi.org.
 @			IN      NS      lotuswurzel.ffwi.org.
-@			IN      NS      kaschu.ffwi.org.
 @			IN	NS	ingwer.ffwi.org.
 
 ; ACHTUNG: IPs der aubergine hier fuers portal - nachfuehren
@@ -36,13 +35,6 @@ lotuswurzel.icvpn	IN	A	10.207.0.56
 lotuswurzel.icvpn	IN	AAAA	fec0::a:cf:0:38
 gate23.icvpn		IN	CNAME	lotuswurzel.icvpn
 
-kaschu  	   	IN      A       10.56.0.208
-kaschu	     		IN      AAAA    fd56:b4dc:4b1e::a38:d0
-gate208          	IN      CNAME   kaschu
-kaschu.icvpn		IN	A	10.207.1.56
-kaschu.icvpn		IN	AAAA	fec0::a:cf:1:38
-gate208.icvpn          	IN      CNAME   kaschu.icvpn
-
 ingwer                  IN      A       10.56.0.161
 ingwer                  IN      AAAA    fd56:b4dc:4b1e::a38:a1
 gate161                 IN      CNAME   ingwer
@@ -62,7 +54,6 @@ gate42			IN      CNAME   parmesan
 7.ntp			IN      CNAME   spinat
 23.ntp			IN      CNAME   lotuswurzel
 161.ntp			IN      CNAME   ingwer
-208.ntp			IN      CNAME   kaschu
 231.ntp			IN      CNAME   wasserfloh
 
 aubergine		IN	A	10.56.1.3

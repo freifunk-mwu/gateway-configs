@@ -3,7 +3,7 @@ $ORIGIN ffmwu.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffmwu.org. hostmaster.ffmwu.org. (
-                     2016063000         ; Serial
+                     2016071500         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -13,7 +13,6 @@ $TTL    600
 @			IN      NS      wasserfloh.ffmwu.org.
 @			IN      NS      spinat.ffmwu.org.
 @			IN      NS      lotuswurzel.ffmwu.org.
-@			IN      NS      kaschu.ffmwu.org.
 @			IN	NS	ingwer.ffmwu.org.
 
 ; gluon gateways
@@ -32,13 +31,6 @@ ingwer			IN	A	10.56.0.161
 ingwer			IN	AAAA	fd56:b4dc:4b1e::a38:a1
 gate161			IN	CNAME	ingwer
 
-kaschu  	   	IN      A       10.56.0.208
-kaschu	     		IN      AAAA    fd56:b4dc:4b1e::a38:d0
-gate208          	IN      CNAME   kaschu
-kaschu.icvpn		IN	A	10.207.1.56
-kaschu.icvpn		IN	AAAA	fec0::a:cf:1:38
-gate208.icvpn          	IN      CNAME   kaschu.icvpn
-
 wasserfloh  	   	IN      A       10.56.0.231
 wasserfloh     		IN      AAAA    fd56:b4dc:4b1e::a38:e7
 gate231          	IN      CNAME   wasserfloh
@@ -51,7 +43,6 @@ gate42			IN      CNAME   parmesan
 7.ntp			IN      CNAME   spinat
 23.ntp			IN      CNAME   lotuswurzel
 161.ntp			IN      CNAME   ingwer
-208.ntp			IN      CNAME   kaschu
 231.ntp			IN      CNAME   wasserfloh
 
 aubergine		IN	A	10.56.1.3

@@ -3,7 +3,7 @@ $ORIGIN ffmz.org.
 
 $TTL    600
 @       IN      SOA     aubergine.ffmz.org. hostmaster.ffmz.org. (
-                     2016063000         ; Serial
+                     2016071500         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -13,7 +13,6 @@ $TTL    600
 @       		IN      NS      wasserfloh.ffmz.org.
 @       		IN      NS      spinat.ffmz.org.
 @       		IN      NS      lotuswurzel.ffmz.org.
-@       		IN      NS      kaschu.ffmz.org.
 @			IN	NS	ingwer.ffmz.org.
 
 ; ACHTUNG: IPs der aubergine hier fuers portal - nachfuehren
@@ -40,10 +39,6 @@ ingwer                  IN      A       10.37.0.161
 ingwer                  IN      AAAA    fd37:b4dc:4b1e::a25:a1
 gate161                 IN      CNAME   ingwer
 
-kaschu  	   	IN      A       10.37.0.208
-kaschu	     		IN      AAAA    fd37:b4dc:4b1e::a25:d0
-gate208          	IN      CNAME   kaschu
-
 wasserfloh  	   	IN      A       10.37.0.231
 wasserfloh     		IN      AAAA    fd37:b4dc:4b1e::a25:e7
 gate231          	IN      CNAME   wasserfloh
@@ -56,7 +51,6 @@ gate42          	IN      CNAME   parmesan
 7.ntp           	IN      CNAME   spinat
 23.ntp          	IN      CNAME   lotuswurzel
 161.ntp                 IN      CNAME   ingwer
-208.ntp           	IN      CNAME   kaschu
 231.ntp           	IN      CNAME   wasserfloh
 
 aubergine		IN	A	10.37.1.3
