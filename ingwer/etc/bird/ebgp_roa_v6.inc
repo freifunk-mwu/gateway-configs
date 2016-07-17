@@ -110,6 +110,8 @@ roa 2a06:4b00:1000::/56      max  64 as      64877; # marburg
 roa fd42:100c:7121::/48      max  64 as      64877; # marburg
 roa fdd9:a0b1:5bd0::/48      max  64 as      64863; # mettmann
 roa 2a03:2260:10::/48        max  64 as      65057; # moehne
+roa 2001:608:a01::/48        max  64 as      65080; # muenchen
+roa fdef:ffc0:4fff::/48      max  64 as      65080; # muenchen
 roa 2a03:2260:115::/48       max  64 as      65251; # muensterland
 roa fd39:e4e3:eee1::/48      max  64 as      65534; # mueritz
 roa fd73:111:e824::/48       max  64 as      65152; # ostholstein
