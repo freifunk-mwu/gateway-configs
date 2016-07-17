@@ -3,7 +3,7 @@ $ORIGIN bb.ffmz.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffmz.org. hostmaster.ffmz.org. (
-                     2016062500         ; Serial
+                     2016071500         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -13,7 +13,6 @@ $TTL    600
 @       		IN      NS      wasserfloh.ffmz.org.
 @       		IN      NS      spinat.ffmz.org.
 @       		IN      NS      lotuswurzel.ffmz.org.
-@       		IN      NS      kaschu.ffmz.org.
 @			IN	NS	ingwer.ffmz.org.
 
 ; freifunk backbone

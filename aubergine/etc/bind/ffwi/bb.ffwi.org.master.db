@@ -3,7 +3,7 @@ $ORIGIN bb.ffwi.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffwi.org. hostmaster.ffwi.org. (
-                     2016062500         ; Serial
+                     2016071500         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -13,7 +13,6 @@ $TTL    600
 @       	IN      NS      wasserfloh.ffwi.org. 
 @       	IN      NS      spinat.ffwi.org.
 @       	IN      NS      lotuswurzel.ffwi.org.
-@       	IN      NS      kaschu.ffwi.org.
 @		IN	NS	ingwer.ffwi.org.
 
 
