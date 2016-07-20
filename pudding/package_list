@@ -6,10 +6,10 @@ Desired=Unknown/Install/Remove/Purge/Hold
 ii  accountsservice                     0.6.35-0ubuntu7.2                    amd64        query and manipulate user account information
 ii  acpid                               1:2.0.21-1ubuntu2                    amd64        Advanced Configuration and Power Interface event daemon
 ii  adduser                             3.113+nmu3ubuntu3                    all          add and remove users and groups
-ii  apache2                             2.4.7-1ubuntu4.11                    amd64        Apache HTTP Server
-ii  apache2-bin                         2.4.7-1ubuntu4.11                    amd64        Apache HTTP Server (binary files and modules)
-ii  apache2-data                        2.4.7-1ubuntu4.11                    all          Apache HTTP Server (common files)
-ii  apache2-dev                         2.4.7-1ubuntu4.11                    amd64        Apache HTTP Server (development headers)
+ii  apache2                             2.4.7-1ubuntu4.13                    amd64        Apache HTTP Server
+ii  apache2-bin                         2.4.7-1ubuntu4.13                    amd64        Apache HTTP Server (binary files and modules)
+ii  apache2-data                        2.4.7-1ubuntu4.13                    all          Apache HTTP Server (common files)
+ii  apache2-dev                         2.4.7-1ubuntu4.13                    amd64        Apache HTTP Server (development headers)
 ii  apparmor                            2.8.95~2430-0ubuntu5.3               amd64        User-space parser utility for AppArmor
 ii  apport                              2.14.1-0ubuntu3.21                   all          automatically generate crash reports for debugging
 ii  apport-symptoms                     0.20                                 all          symptom scripts for apport

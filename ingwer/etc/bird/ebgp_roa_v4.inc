@@ -57,6 +57,7 @@ roa 10.156.0.0/16   max  20 as      65120; # glwupper
 roa 10.109.0.0/16   max  20 as      65527; # goettingen
 roa 10.12.0.0/16    max  20 as      65048; # graz
 roa 193.33.150.0/23 max  23 as      65048; # graz
+roa 10.143.0.0/18   max  20 as      65489; # greifswald
 roa 10.206.0.0/16   max  20 as      65530; # gronau (delegation)
 roa 10.234.0.0/16   max  20 as      65533; # guetersloh
 roa 10.235.0.0/16   max  20 as      65533; # guetersloh
