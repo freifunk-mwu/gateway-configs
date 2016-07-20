@@ -609,6 +609,21 @@ zone "0.0.0.0.5.8.9.c.c.f.6.3.6.e.d.f.ip6.arpa" {
     server-addresses { 10.109.0.42; fde6:36fc:c985::42; };
 };
 # 
+# greifswald
+# 
+zone "ffhgw" {
+    type static-stub;
+    server-addresses { 10.143.0.2; fdef:affe:edda::2; };
+};
+zone "143.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.143.0.2; fdef:affe:edda::2; };
+};
+zone "a.d.d.e.e.f.f.a.f.e.d.f.ip6.arpa" {
+    type static-stub;
+    server-addresses { 10.143.0.2; fdef:affe:edda::2; };
+};
+# 
 # guetersloh
 # 
 zone "ffgt" {
