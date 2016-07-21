@@ -458,6 +458,7 @@ ii  python-pip-whl                   1.5.4-1ubuntu3                   all       
 ii  python-pkg-resources             3.3-1ubuntu2                     all          Package Discovery and Resource Access using pkg_resources
 ii  python-requests                  2.2.1-1ubuntu0.3                 all          elegant and simple HTTP library for Python, built for human beings
 ii  python-requests-whl              2.2.1-1ubuntu0.3                 all          elegant and simple HTTP library for Python, built for human beings
+ii  python-rrdtool                   1.4.7-2ubuntu5                   amd64        time-series data storage and display system (Python interface)
 ii  python-serial                    2.6-1build1                      all          pyserial - module encapsulating access for the serial port
 ii  python-setuptools                3.3-1ubuntu2                     all          Python Distutils Enhancements
 ii  python-setuptools-whl            3.3-1ubuntu2                     all          Python Distutils Enhancements (wheel package)
