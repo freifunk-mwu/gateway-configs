@@ -59,6 +59,7 @@ roa fdb5:078b:64cc::/48      max  64 as      65181; # gera-greiz
 roa 2001:4dd0:ff00:9d18::/64 max  64 as      64865; # giessen
 roa fda0:747e:ab29:5142::/64 max  64 as      65120; # glwupper
 roa fde6:36fc:c985::/64      max  64 as      65527; # goettingen
+roa fdef:affe:edda::/48      max  64 as      65489; # greifswald
 roa 2001:bf7:100:4859::/64   max  64 as      65530; # gronau (delegation)
 roa fddf:ebfd:a801:4859::/64 max  64 as      65530; # gronau (delegation)
 roa 2001:bf7:1310::/44       max  64 as      65533; # guetersloh
