@@ -3,7 +3,7 @@ $ORIGIN user.ffmz.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffmz.org. hostmaster.ffmz.org. (
-                     2016062500         ; Serial
+                     2016073100         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -21,6 +21,7 @@ tracker.faultier		IN	A	10.37.4.1
 tracker.faultier		IN	AAAA	fd37:b4dc:4b1e:0:5054:ff:fec7:da39
 
 mobilcam			IN	A	10.37.4.2
+erik				IN	A	10.37.4.3
 pengspace                       IN	A	10.37.4.10
 wetter                          IN	A	10.37.4.18
 wackelpeter			IN	A	10.37.4.23

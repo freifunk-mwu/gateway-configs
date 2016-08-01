@@ -232,7 +232,7 @@ ii  libgcc-4.8-dev:amd64           4.8.4-1                     amd64        GCC 
 ii  libgcc-4.9-dev:amd64           4.9.2-10                    amd64        GCC support library (development files)
 ii  libgcc1:amd64                  1:4.9.2-10                  amd64        GCC support library
 ii  libgcrypt20:amd64              1.6.3-2+deb8u1              amd64        LGPL Crypto library - runtime library
-ii  libgd3:amd64                   2.1.0-5+deb8u4              amd64        GD Graphics Library
+ii  libgd3:amd64                   2.1.0-5+deb8u6              amd64        GD Graphics Library
 ii  libgdbm3:amd64                 1.8.3-13.1                  amd64        GNU dbm database routines (runtime version)
 ii  libgdk-pixbuf2.0-0:amd64       2.31.1-2+deb8u5             amd64        GDK Pixbuf library
 ii  libgdk-pixbuf2.0-common        2.31.1-2+deb8u5             all          GDK Pixbuf library - data files
@@ -475,7 +475,7 @@ ii  netcat-traditional             1.10-41                     amd64        TCP/
 ii  netfilter-persistent           1.0.3+deb8u1                all          boot-time loader for netfilter configuration
 ii  netperf                        2.6.0-2                     amd64        Network performance benchmark
 ii  nfacct                         1.0.1-1.1                   amd64        netfilter accounting object tool
-ii  ntp                            1:4.2.6.p5+dfsg-7+deb8u1    amd64        Network Time Protocol daemon and utility programs
+ii  ntp                            1:4.2.6.p5+dfsg-7+deb8u2    amd64        Network Time Protocol daemon and utility programs
 ii  openssh-client                 1:6.7p1-5+deb8u3            amd64        secure shell (SSH) client, for secure access to remote machines
 ii  openssh-server                 1:6.7p1-5+deb8u3            amd64        secure shell (SSH) server, for secure access from remote machines
 ii  openssh-sftp-server            1:6.7p1-5+deb8u3            amd64        secure shell (SSH) sftp server module, for SFTP access from remote machines
