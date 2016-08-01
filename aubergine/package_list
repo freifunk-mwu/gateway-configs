@@ -66,7 +66,7 @@ ii  debconf-i18n                        1.5.51ubuntu2                    all    
 ii  debianutils                         4.4                              amd64        Miscellaneous utilities specific to Debian
 ii  dh-python                           1.20140128-1ubuntu8.2            all          Debian helper tools for packaging Python libraries and applications
 ii  diffutils                           1:3.3-1                          amd64        File comparison utilities
-ii  dkms                                2.2.0.3-1.1ubuntu5.14.04.6       all          Dynamic Kernel Module Support Framework
+ii  dkms                                2.2.0.3-1.1ubuntu5.14.04.7       all          Dynamic Kernel Module Support Framework
 ii  dmidecode                           2.12-2                           amd64        SMBIOS/DMI table decoder
 ii  dmsetup                             2:1.02.77-6ubuntu2               amd64        Linux Kernel Device Mapper userspace library
 ii  dnsutils                            1:9.9.5.dfsg-3ubuntu0.8          amd64        Clients provided with BIND
@@ -202,7 +202,7 @@ ii  libdevmapper1.02.1:amd64            2:1.02.77-6ubuntu2               amd64  
 ii  libdigest-hmac-perl                 1.03+dfsg-1                      all          module for creating standard message integrity checks
 ii  libdns100                           1:9.9.5.dfsg-3ubuntu0.8          amd64        DNS Shared Library used by BIND
 ii  libdpkg-perl                        1.17.5ubuntu5.7                  all          Dpkg perl modules
-ii  libdrm2:amd64                       2.4.64-1~ubuntu14.04.1           amd64        Userspace interface to kernel DRM services -- runtime
+ii  libdrm2:amd64                       2.4.67-1ubuntu0.14.04.1          amd64        Userspace interface to kernel DRM services -- runtime
 ii  libedit2:amd64                      3.1-20130712-2                   amd64        BSD editline and history libraries
 rc  libelf1:amd64                       0.158-0ubuntu5.1                 amd64        library to read and write ELF files
 ii  libencode-locale-perl               1.03-1                           all          utility to determine the locale encoding
@@ -473,8 +473,6 @@ ii  libxss1:amd64                       1:1.2.2-1                        amd64  
 ii  libxt6:amd64                        1:1.1.4-1                        amd64        X11 toolkit intrinsics library
 ii  libyaml-0-2:amd64                   0.1.4-3ubuntu3.1                 amd64        Fast YAML 1.1 parser and emitter library
 ii  linux-firmware                      1.127.22                         all          Firmware for Linux kernel drivers
-ii  linux-headers-3.13.0-85             3.13.0-85.129                    all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-85-generic     3.13.0-85.129                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-91             3.13.0-91.138                    all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-91-generic     3.13.0-91.138                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-92             3.13.0-92.139                    all          Header files related to Linux kernel version 3.13.0
@@ -513,7 +511,7 @@ rc  linux-image-3.13.0-76-generic       3.13.0-76.120                    amd64  
 rc  linux-image-3.13.0-77-generic       3.13.0-77.121                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-79-generic       3.13.0-79.123                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-83-generic       3.13.0-83.127                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-85-generic       3.13.0-85.129                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-85-generic       3.13.0-85.129                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-86-generic       3.13.0-86.131                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-87-generic       3.13.0-87.133                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-88-generic       3.13.0-88.135                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -521,7 +519,7 @@ ii  linux-image-3.13.0-91-generic       3.13.0-91.138                    amd64  
 ii  linux-image-3.13.0-92-generic       3.13.0-92.139                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-79-generic 3.13.0-79.123                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-83-generic 3.13.0-83.127                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-85-generic 3.13.0-85.129                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-85-generic 3.13.0-85.129                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-86-generic 3.13.0-86.131                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-87-generic 3.13.0-87.133                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-88-generic 3.13.0-88.135                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
