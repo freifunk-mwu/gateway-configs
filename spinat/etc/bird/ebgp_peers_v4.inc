@@ -211,7 +211,6 @@ protocol bgp icvpn_gueterslohbgp1 from ebgp_ic {
 }
 protocol bgp icvpn_gueterslohbgp2 from ebgp_ic {
     neighbor 10.207.0.133 as 65533;
-    passive yes;
 }
 protocol bgp icvpn_gueterslohbgp3 from ebgp_ic {
     neighbor 10.207.0.132 as 65533;
@@ -381,7 +380,6 @@ protocol bgp icvpn_nordwest2 from ebgp_ic {
 }
 protocol bgp icvpn_paderborn01 from ebgp_ic {
     neighbor 10.207.0.231 as 65132;
-    passive yes;
 }
 protocol bgp icvpn_paderborn02 from ebgp_ic {
     neighbor 10.207.0.232 as 65132;
@@ -453,6 +451,7 @@ protocol bgp icvpn_waldheim1 from ebgp_ic {
 }
 protocol bgp icvpn_waldheim2 from ebgp_ic {
     neighbor 10.207.0.46 as 65210;
+    passive yes;
 }
 protocol bgp icvpn_waldheim3 from ebgp_ic {
     neighbor 10.207.0.47 as 65210;
