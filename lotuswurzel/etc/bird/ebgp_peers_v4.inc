@@ -320,6 +320,9 @@ protocol bgp icvpn_myk3 from ebgp_ic {
 }
 protocol bgp icvpn_moehne1 from ebgp_ic {
     neighbor 10.207.0.120 as 65057;
+}
+protocol bgp icvpn_muenchen1 from ebgp_ic {
+    neighbor 10.207.1.80 as 65080;
     passive yes;
 }
 protocol bgp icvpn_mueritz_bgp1 from ebgp_ic {
@@ -464,7 +467,6 @@ protocol bgp icvpn_westpfalz1 from ebgp_ic {
 }
 protocol bgp icvpn_westpfalz2 from ebgp_ic {
     neighbor 10.207.0.86 as 65242;
-    passive yes;
 }
 protocol bgp icvpn_westpfalz3 from ebgp_ic {
     neighbor 10.207.0.87 as 65242;
