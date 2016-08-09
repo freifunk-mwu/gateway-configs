@@ -35,9 +35,7 @@ roa fd2f:5119:f2c::/48       max  64 as      65196; # bremen
 roa 2001:470:743f::/48       max  64 as      64861; # celle
 roa fd92:2dff:d232::/48      max  64 as      64861; # celle
 roa 2001:67c:2ed8::/48       max  64 as      65038; # darmstadt
-roa 2a03:2260:118::/48       max  64 as      65038; # darmstadt
 roa fd01:67c:2ed8::/48       max  64 as      65038; # darmstadt
-roa fdca:ffee:ffda::/48      max  64 as      65038; # darmstadt
 roa fdc4:d762:2143::/48      max  64 as      64874; # donau-ries
 roa fdc7:3c9d:b889:a272::/64 max  64 as      65043; # dreilaendereck
 roa fdc7:3c9d:ff31::/48      max  64 as      65043; # dreilaendereck
