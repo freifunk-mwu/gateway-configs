@@ -387,21 +387,17 @@ zone "149.10.in-addr.arpa" {
 # 
 # darmstadt
 # 
-zone "ffda" {
-    type static-stub;
-    server-addresses { 10.223.0.1; 10.223.0.2; 10.223.0.3; 10.223.0.4; fdca:ffee:ffda::1; fdca:ffee:ffda::2; fdca:ffee:ffda::3; fdca:ffee:ffda::4; };
-};
 zone "ffda.io" {
     type static-stub;
-    server-addresses { 10.223.0.1; 10.223.0.2; 10.223.0.3; 10.223.0.4; fdca:ffee:ffda::1; fdca:ffee:ffda::2; fdca:ffee:ffda::3; fdca:ffee:ffda::4; };
+    server-addresses { 10.223.254.55; 10.223.254.56; fd01:67c:2ed8:a::55:1; fd01:67c:2ed8:a::56:1; };
 };
-zone "a.d.f.f.e.e.f.f.a.c.d.f.ip6.arpa" {
+zone "8.d.e.2.c.7.6.0.1.0.d.f.ip6.arpa" {
     type static-stub;
-    server-addresses { 10.223.0.1; 10.223.0.2; 10.223.0.3; 10.223.0.4; fdca:ffee:ffda::1; fdca:ffee:ffda::2; fdca:ffee:ffda::3; fdca:ffee:ffda::4; };
+    server-addresses { 10.223.254.55; 10.223.254.56; fd01:67c:2ed8:a::55:1; fd01:67c:2ed8:a::56:1; };
 };
 zone "223.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.223.0.1; 10.223.0.2; 10.223.0.3; 10.223.0.4; fdca:ffee:ffda::1; fdca:ffee:ffda::2; fdca:ffee:ffda::3; fdca:ffee:ffda::4; };
+    server-addresses { 10.223.254.55; 10.223.254.56; fd01:67c:2ed8:a::55:1; fd01:67c:2ed8:a::56:1; };
 };
 # 
 # diepholz
