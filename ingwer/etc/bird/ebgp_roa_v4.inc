@@ -12,6 +12,7 @@ roa 10.144.0.0/16   max  20 as      64859; # badoldesloe
 roa 10.239.0.0/16   max  20 as      65090; # basel
 roa 10.195.0.0/16   max  20 as      65025; # bayreuth
 roa 10.1.160.0/19   max  20 as      64646; # bergstrasse
+roa 10.58.0.0/17    max  20 as      64646; # bergstrasse
 roa 10.230.0.0/16   max  20 as      44194; # berlin
 roa 10.31.0.0/16    max  20 as      44194; # berlin
 roa 10.36.0.0/16    max  20 as      44194; # berlin
