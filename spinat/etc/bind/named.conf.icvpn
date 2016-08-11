@@ -389,15 +389,15 @@ zone "149.10.in-addr.arpa" {
 # 
 zone "ffda.io" {
     type static-stub;
-    server-addresses { 10.223.254.55; 10.223.254.56; fd01:67c:2ed8:a::55:1; fd01:67c:2ed8:a::56:1; };
+    server-addresses { 10.223.254.53; 10.223.254.54; fd01:67c:2ed8:a::53:1; fd01:67c:2ed8:a::54:1; };
 };
 zone "8.d.e.2.c.7.6.0.1.0.d.f.ip6.arpa" {
     type static-stub;
-    server-addresses { 10.223.254.55; 10.223.254.56; fd01:67c:2ed8:a::55:1; fd01:67c:2ed8:a::56:1; };
+    server-addresses { 10.223.254.53; 10.223.254.54; fd01:67c:2ed8:a::53:1; fd01:67c:2ed8:a::54:1; };
 };
 zone "223.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.223.254.55; 10.223.254.56; fd01:67c:2ed8:a::55:1; fd01:67c:2ed8:a::56:1; };
+    server-addresses { 10.223.254.53; 10.223.254.54; fd01:67c:2ed8:a::53:1; fd01:67c:2ed8:a::54:1; };
 };
 # 
 # diepholz
