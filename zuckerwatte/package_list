@@ -129,6 +129,7 @@ ii  haveged                             1.7c-1                              amd6
 ii  hdparm                              9.43-1ubuntu3                       amd64        tune hard disk parameters for high performance
 ii  hicolor-icon-theme                  0.13-1                              all          default fallback theme for FreeDesktop.org icon themes
 ii  hostname                            3.15ubuntu1                         amd64        utility to set/show the host name or domain name
+ii  htop                                1.0.2-3                             amd64        interactive processes viewer
 ii  ifupdown                            0.7.47.2ubuntu4.4                   amd64        high level tools to configure network interfaces
 ii  imagemagick                         8:6.7.7.10-6ubuntu3.1               amd64        image manipulation programs
 ii  imagemagick-common                  8:6.7.7.10-6ubuntu3.1               all          image manipulation programs -- infrastructure
@@ -257,7 +258,7 @@ ii  libgck-1-0:amd64                    3.10.1-1                            amd6
 ii  libgcr-3-common                     3.10.1-1                            all          Library for Crypto UI related tasks - common files
 ii  libgcr-base-3-1:amd64               3.10.1-1                            amd64        Library for Crypto related tasks
 ii  libgcrypt11:amd64                   1.5.3-2ubuntu4.3                    amd64        LGPL Crypto library - runtime library
-ii  libgd3:amd64                        2.1.0-3ubuntu0.2                    amd64        GD Graphics Library
+ii  libgd3:amd64                        2.1.0-3ubuntu0.3                    amd64        GD Graphics Library
 ii  libgdbm-dev                         1.8.3-12build1                      amd64        GNU dbm database routines (development files)
 ii  libgdbm3:amd64                      1.8.3-12build1                      amd64        GNU dbm database routines (runtime version)
 ii  libgdk-pixbuf2.0-0:amd64            2.30.7-0ubuntu1.2                   amd64        GDK Pixbuf library
