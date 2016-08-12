@@ -37,7 +37,7 @@ roa 10.200.0.0/16   max  20 as      65051; # dresden
 roa 10.201.0.0/16   max  20 as      65051; # dresden
 roa 10.11.184.0/22  max  22 as      65520; # ebersdorf
 roa 10.138.0.0/16   max  20 as      65138; # elm-lappwald
-roa 10.13.160.0/19  max  20 as      65402; # emscherland
+roa 10.13.192.0/18  max  20 as      65402; # emscherland
 roa 10.141.128.0/17 max  20 as      65530; # engelskirchen (delegation)
 roa 10.99.0.0/16    max  20 as      65099; # erfurt
 roa 10.228.0.0/16   max  20 as      65406; # essen
