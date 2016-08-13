@@ -116,6 +116,7 @@ roa fdca:abcd:58ca:affe::/64 max  64 as      64856; # muenden
 roa 2a03:2260:115::/48       max  64 as      65251; # muensterland
 roa fd39:e4e3:eee1::/48      max  64 as      65534; # mueritz
 roa fd73:111:e824::/48       max  64 as      65152; # ostholstein
+roa 2a03:2260:200c::/48      max  64 as      64862; # ostvest
 roa 2001:470:6d:860::/64     max  64 as      65132; # paderborn
 roa fdca:ffee:ff12::/48      max  64 as      65132; # paderborn
 roa fde8:21c6:9d82::/48      max  64 as      65433; # pinneberg
