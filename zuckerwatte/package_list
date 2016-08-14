@@ -22,6 +22,7 @@ ii  apt-xapian-index                    0.45ubuntu4                         all 
 ii  aptitude                            0.6.8.2-1ubuntu4                    amd64        terminal-based package manager
 ii  aptitude-common                     0.6.8.2-1ubuntu4                    all          architecture indepedent files for the aptitude package manager
 ii  at                                  3.1.14-1ubuntu1                     amd64        Delayed job execution and batch processing
+ii  aufs-tools                          1:3.2+20130722-1.1                  amd64        Tools to manage aufs filesystems
 ii  autoconf                            2.69-6                              all          automatic configure script builder
 ii  automake                            1:1.14.1-2ubuntu1                   all          Tool for generating GNU Standards-compliant Makefiles
 ii  autotools-dev                       20130810.1                          all          Update infrastructure for config.{guess,sub} files
@@ -47,6 +48,7 @@ ii  busybox-static                      1:1.21.0-1ubuntu1                   amd6
 ii  byobu                               5.77-0ubuntu1.2                     all          powerful, text based window manager and shell multiplexer
 ii  bzip2                               1.0.6-5                             amd64        high-quality block-sorting file compressor - utilities
 ii  ca-certificates                     20160104ubuntu0.14.04.1             all          Common CA certificates
+ii  cgroup-lite                         1.9                                 all          Light-weight package to set up cgroups at system boot
 ii  check-mk-agent                      1.2.6p12-1                          all          Check_MK Agent for Linux
 ii  command-not-found                   0.3ubuntu12                         all          Suggest installation of packages in interactive bash sessions
 ii  command-not-found-data              0.3ubuntu12                         amd64        Set of data files for command-not-found.
@@ -70,6 +72,7 @@ ii  dkms                                2.2.0.3-1.1ubuntu5.14.04.7          all 
 ii  dmidecode                           2.12-2                              amd64        SMBIOS/DMI table decoder
 ii  dmsetup                             2:1.02.77-6ubuntu2                  amd64        Linux Kernel Device Mapper userspace library
 ii  dnsutils                            1:9.9.5.dfsg-3ubuntu0.8             amd64        Clients provided with BIND
+ii  docker-engine                       1.12.0-0~trusty                     amd64        Docker: the open-source application container engine
 ii  docutils-common                     0.11-3                              all          text processing system for reStructuredText - common data
 ii  dosfstools                          3.0.26-1ubuntu0.1                   amd64        utilities for making and checking MS-DOS FAT filesystems
 ii  dpkg                                1.17.5ubuntu5.7                     amd64        Debian package management system
@@ -106,6 +109,7 @@ ii  ghostscript                         9.10~dfsg-0ubuntu10.4               amd6
 ii  gir1.2-glib-2.0                     1.40.0-1ubuntu0.2                   amd64        Introspection data for GLib, GObject, Gio and GModule
 ii  git                                 1:1.9.1-1ubuntu0.3                  amd64        fast, scalable, distributed revision control system
 ii  git-man                             1:1.9.1-1ubuntu0.3                  all          fast, scalable, distributed revision control system (manual pages)
+ii  glances                             1.7.3-2ubuntu1                      all          CLI curses based monitoring tool
 ii  gnupg                               1.4.16-1ubuntu2.3                   amd64        GNU privacy guard - a free PGP replacement
 ii  golang                              2:1.4.2                             all          Go programming language compiler - metapackage
 ii  golang-doc                          2:1.4.2                             all          Go programming language compiler - documentation
@@ -465,6 +469,7 @@ ii  libstdc++6:amd64                    4.8.4-2ubuntu1~14.04.3              amd6
 ii  libsub-name-perl                    0.05-1build4                        amd64        module for assigning a new name to referenced sub
 ii  libsysfs2:amd64                     2.1.0+repack-3ubuntu1               amd64        interface library to sysfs
 ii  libsystemd-daemon0:amd64            204-5ubuntu20.19                    amd64        systemd utility library
+ii  libsystemd-journal0:amd64           204-5ubuntu20.19                    amd64        systemd journal utility library
 ii  libsystemd-login0:amd64             204-5ubuntu20.19                    amd64        systemd login utility library
 rc  libtamuanova-0.2                    0.2-3                               amd64        Library to calculate an ANOVA
 ii  libtasn1-6:amd64                    3.4-3ubuntu0.4                      amd64        Manage ASN.1 structures (runtime)
@@ -718,12 +723,15 @@ ii  python-distlib-whl                  0.1.8-1ubuntu1                      all 
 ii  python-gdbm                         2.7.5-1ubuntu1                      amd64        GNU dbm database support for Python
 ii  python-html5lib                     0.999-3~ubuntu1                     all          HTML parser/tokenizer based on the WHATWG HTML5 specification (Python 2)
 ii  python-html5lib-whl                 0.999-3~ubuntu1                     all          HTML parser/tokenizer based on the WHATWG HTML5 specification
+ii  python-jinja2                       2.7.2-2                             all          small but fast and easy to use stand-alone template engine
+ii  python-markupsafe                   0.18-1build2                        amd64        HTML/XHTML/XML string library for Python
 ii  python-minimal                      2.7.5-5ubuntu3                      amd64        minimal subset of the Python language (default version)
 ii  python-openssl                      0.13-2ubuntu6                       amd64        Python 2 wrapper around the OpenSSL library
 ii  python-pam                          0.4.2-13.1ubuntu3                   amd64        Python interface to the PAM library
 ii  python-pip                          1.5.4-1ubuntu4                      all          alternative Python package installer
 ii  python-pip-whl                      1.5.4-1ubuntu4                      all          alternative Python package installer
 ii  python-pkg-resources                3.3-1ubuntu2                        all          Package Discovery and Resource Access using pkg_resources
+ii  python-psutil                       1.2.1-1ubuntu2                      amd64        module providing convenience functions for managing processes
 rc  python-pygments                     1.6+dfsg-1ubuntu1.1                 all          syntax highlighting package written in Python
 ii  python-requests                     2.2.1-1ubuntu0.3                    all          elegant and simple HTTP library for Python, built for human beings
 ii  python-requests-whl                 2.2.1-1ubuntu0.3                    all          elegant and simple HTTP library for Python, built for human beings
