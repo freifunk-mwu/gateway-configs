@@ -80,8 +80,8 @@ ii  fakeroot                            1.20-3ubuntu2                    amd64  
 ii  fastd                               17-4                             amd64        Fastd and Secure Tunneling Daemon
 ii  file                                1:5.14-2ubuntu3.3                amd64        Determines file type using "magic" numbers
 ii  findutils                           4.4.2-7                          amd64        utilities for finding files--find, xargs
-ii  fontconfig                          2.11.0-0ubuntu4.1                amd64        generic font configuration library - support binaries
-ii  fontconfig-config                   2.11.0-0ubuntu4.1                all          generic font configuration library - configuration
+ii  fontconfig                          2.11.0-0ubuntu4.2                amd64        generic font configuration library - support binaries
+ii  fontconfig-config                   2.11.0-0ubuntu4.2                all          generic font configuration library - configuration
 ii  fonts-dejavu                        2.34-1ubuntu1                    all          metapackage to pull in fonts-dejavu-core and fonts-dejavu-extra
 ii  fonts-dejavu-core                   2.34-1ubuntu1                    all          Vera font family derivate with additional characters
 ii  fonts-dejavu-extra                  2.34-1ubuntu1                    all          Vera font family derivate with additional characters (extra variants)
@@ -217,7 +217,7 @@ ii  libffi6:amd64                       3.1~rc1+r3.0.13-12ubuntu0.1      amd64  
 ii  libfile-fcntllock-perl              0.14-2build1                     amd64        Perl module for file locking with fcntl(2)
 ii  libfile-listing-perl                6.04-1                           all          module to parse directory listings
 ii  libfont-afm-perl                    1.20-1                           all          Font::AFM - Interface to Adobe Font Metrics files
-ii  libfontconfig1:amd64                2.11.0-0ubuntu4.1                amd64        generic font configuration library - runtime
+ii  libfontconfig1:amd64                2.11.0-0ubuntu4.2                amd64        generic font configuration library - runtime
 ii  libfreetype6:amd64                  2.5.2-1ubuntu2.5                 amd64        FreeType 2 font engine, shared library files
 ii  libfribidi0:amd64                   0.19.6-1                         amd64        Free Implementation of the Unicode BiDi algorithm
 ii  libfuse2:amd64                      2.9.2-4ubuntu4.14.04.1           amd64        Filesystem in Userspace (library)
