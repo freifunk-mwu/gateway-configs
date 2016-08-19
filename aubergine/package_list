@@ -99,8 +99,8 @@ ii  gettext-base                        0.18.3.1-1ubuntu3                amd64  
 ii  gir1.2-glib-2.0                     1.40.0-1ubuntu0.2                amd64        Introspection data for GLib, GObject, Gio and GModule
 ii  git                                 1:1.9.1-1ubuntu0.3               amd64        fast, scalable, distributed revision control system
 ii  git-man                             1:1.9.1-1ubuntu0.3               all          fast, scalable, distributed revision control system (manual pages)
-ii  gnupg                               1.4.16-1ubuntu2.3                amd64        GNU privacy guard - a free PGP replacement
-ii  gpgv                                1.4.16-1ubuntu2.3                amd64        GNU privacy guard - signature verification tool
+ii  gnupg                               1.4.16-1ubuntu2.4                amd64        GNU privacy guard - a free PGP replacement
+ii  gpgv                                1.4.16-1ubuntu2.4                amd64        GNU privacy guard - signature verification tool
 ii  graphviz                            2.36.0-0ubuntu3.1                amd64        rich set of graph drawing tools
 ii  grep                                2.16-1                           amd64        GNU grep, egrep and fgrep
 ii  groff-base                          1.22.2-5                         amd64        GNU troff text-formatting system (base system components)
@@ -224,8 +224,8 @@ ii  libfuse2:amd64                      2.9.2-4ubuntu4.14.04.1           amd64  
 ii  libgc1c2:amd64                      1:7.2d-5ubuntu2                  amd64        conservative garbage collector for C and C++
 ii  libgcc-4.8-dev:amd64                4.8.4-2ubuntu1~14.04.3           amd64        GCC support library (development files)
 ii  libgcc1:amd64                       1:4.9.3-0ubuntu4                 amd64        GCC support library
-ii  libgcrypt11:amd64                   1.5.3-2ubuntu4.3                 amd64        LGPL Crypto library - runtime library
-ii  libgcrypt11-dev                     1.5.3-2ubuntu4.3                 amd64        LGPL Crypto library - development files
+ii  libgcrypt11:amd64                   1.5.3-2ubuntu4.4                 amd64        LGPL Crypto library - runtime library
+ii  libgcrypt11-dev                     1.5.3-2ubuntu4.4                 amd64        LGPL Crypto library - development files
 ii  libgd3:amd64                        2.1.0-3ubuntu0.3                 amd64        GD Graphics Library
 ii  libgdbm3:amd64                      1.8.3-12build1                   amd64        GNU dbm database routines (runtime version)
 ii  libgeoip1:amd64                     1.6.0-1                          amd64        non-DNS IP-to-country resolver library
@@ -363,7 +363,7 @@ ii  libpolkit-agent-1-0:amd64           0.105-4ubuntu3.14.04.1           amd64  
 ii  libpolkit-backend-1-0:amd64         0.105-4ubuntu3.14.04.1           amd64        PolicyKit backend API
 ii  libpolkit-gobject-1-0:amd64         0.105-4ubuntu3.14.04.1           amd64        PolicyKit Authorization API
 ii  libpopt0:amd64                      1.16-8ubuntu1                    amd64        lib for parsing cmdline parameters
-ii  libpq5                              9.3.13-0ubuntu0.14.04            amd64        PostgreSQL C client library
+ii  libpq5                              9.3.14-0ubuntu0.14.04            amd64        PostgreSQL C client library
 ii  libprocps3:amd64                    1:3.3.9-1ubuntu2.2               amd64        library for accessing process information from /proc
 ii  libpython-dev:amd64                 2.7.5-5ubuntu3                   amd64        header files and a static library for Python (default)
 ii  libpython-stdlib:amd64              2.7.5-5ubuntu3                   amd64        interactive high-level object-oriented language (default python version)
