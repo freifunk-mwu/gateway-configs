@@ -119,6 +119,7 @@ ii  heirloom-mailx                 12.5-4                      amd64        feat
 ii  hicolor-icon-theme             0.13-1                      all          default fallback theme for FreeDesktop.org icon themes
 ii  host                           1:9.9.5.dfsg-9+deb8u6       all          Transitional package
 ii  hostname                       3.15                        amd64        utility to set/show the host name or domain name
+ii  htop                           1.0.3-1                     amd64        interactive processes viewer
 ii  iamerican                      3.3.02-6                    all          American English dictionary for ispell (standard version)
 ii  ibritish                       3.3.02-6                    all          British English dictionary for ispell (standard version)
 ii  ienglish-common                3.3.02-6                    all          Common files for British and American ispell dictionaries
