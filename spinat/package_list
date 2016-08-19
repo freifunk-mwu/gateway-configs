@@ -101,8 +101,8 @@ ii  gettext-base                        0.18.3.1-1ubuntu3                amd64  
 ii  gir1.2-glib-2.0                     1.40.0-1ubuntu0.2                amd64        Introspection data for GLib, GObject, Gio and GModule
 ii  git                                 1:1.9.1-1ubuntu0.3               amd64        fast, scalable, distributed revision control system
 ii  git-man                             1:1.9.1-1ubuntu0.3               all          fast, scalable, distributed revision control system (manual pages)
-ii  gnupg                               1.4.16-1ubuntu2.3                amd64        GNU privacy guard - a free PGP replacement
-ii  gpgv                                1.4.16-1ubuntu2.3                amd64        GNU privacy guard - signature verification tool
+ii  gnupg                               1.4.16-1ubuntu2.4                amd64        GNU privacy guard - a free PGP replacement
+ii  gpgv                                1.4.16-1ubuntu2.4                amd64        GNU privacy guard - signature verification tool
 ii  graphviz                            2.36.0-0ubuntu3.1                amd64        rich set of graph drawing tools
 ii  grep                                2.16-1                           amd64        GNU grep, egrep and fgrep
 ii  groff-base                          1.22.2-5                         amd64        GNU troff text-formatting system (base system components)
@@ -227,7 +227,7 @@ ii  libgcc1:amd64                       1:4.9.3-0ubuntu4                 amd64  
 ii  libgck-1-0:amd64                    3.10.1-1                         amd64        Glib wrapper library for PKCS#11 - runtime
 ii  libgcr-3-common                     3.10.1-1                         all          Library for Crypto UI related tasks - common files
 ii  libgcr-base-3-1:amd64               3.10.1-1                         amd64        Library for Crypto related tasks
-ii  libgcrypt11:amd64                   1.5.3-2ubuntu4.3                 amd64        LGPL Crypto library - runtime library
+ii  libgcrypt11:amd64                   1.5.3-2ubuntu4.4                 amd64        LGPL Crypto library - runtime library
 ii  libgd3:amd64                        2.1.0-3ubuntu0.3                 amd64        GD Graphics Library
 ii  libgdbm3:amd64                      1.8.3-12build1                   amd64        GNU dbm database routines (runtime version)
 ii  libgeoip1:amd64                     1.6.0-1                          amd64        non-DNS IP-to-country resolver library
