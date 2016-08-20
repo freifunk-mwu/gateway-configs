@@ -83,8 +83,8 @@ ii  fdutils                             5.5-20060227-6                       amd
 ii  file                                1:5.14-2ubuntu3.3                    amd64        Determines file type using "magic" numbers
 ii  findutils                           4.4.2-7                              amd64        utilities for finding files--find, xargs
 ii  flex                                2.5.35-10.1ubuntu2                   amd64        A fast lexical analyzer generator.
-ii  fontconfig                          2.11.0-0ubuntu4.1                    amd64        generic font configuration library - support binaries
-ii  fontconfig-config                   2.11.0-0ubuntu4.1                    all          generic font configuration library - configuration
+ii  fontconfig                          2.11.0-0ubuntu4.2                    amd64        generic font configuration library - support binaries
+ii  fontconfig-config                   2.11.0-0ubuntu4.2                    all          generic font configuration library - configuration
 ii  fonts-baekmuk                       2.2-9                                all          Baekmuk series Korean fonts
 ii  fonts-dejavu                        2.34-1ubuntu1                        all          metapackage to pull in fonts-dejavu-core and fonts-dejavu-extra
 ii  fonts-dejavu-core                   2.34-1ubuntu1                        all          Vera font family derivate with additional characters
@@ -108,8 +108,8 @@ ii  gettext-base                        0.18.3.1-1ubuntu3                    amd
 ii  gir1.2-glib-2.0                     1.40.0-1ubuntu0.2                    amd64        Introspection data for GLib, GObject, Gio and GModule
 ii  git                                 1:2.9.2-0ppa1~ubuntu14.04.1          amd64        fast, scalable, distributed revision control system
 ii  git-man                             1:2.9.2-0ppa1~ubuntu14.04.1          all          fast, scalable, distributed revision control system (manual pages)
-ii  gnupg                               1.4.16-1ubuntu2.3                    amd64        GNU privacy guard - a free PGP replacement
-ii  gpgv                                1.4.16-1ubuntu2.3                    amd64        GNU privacy guard - signature verification tool
+ii  gnupg                               1.4.16-1ubuntu2.4                    amd64        GNU privacy guard - a free PGP replacement
+ii  gpgv                                1.4.16-1ubuntu2.4                    amd64        GNU privacy guard - signature verification tool
 ii  grep                                2.16-1                               amd64        GNU grep, egrep and fgrep
 ii  groff-base                          1.22.2-5                             amd64        GNU troff text-formatting system (base system components)
 ii  grub-common                         2.02~beta2-9ubuntu1.12               amd64        GRand Unified Bootloader (common files)
@@ -253,7 +253,7 @@ ii  libfile-fcntllock-perl              0.14-2build1                         amd
 ii  libfile-listing-perl                6.04-1                               all          module to parse directory listings
 ii  libfl-dev:amd64                     2.5.35-10.1ubuntu2                   amd64        static library for flex (a fast lexical analyzer generator).
 ii  libfont-afm-perl                    1.20-1                               all          Font::AFM - Interface to Adobe Font Metrics files
-ii  libfontconfig1:amd64                2.11.0-0ubuntu4.1                    amd64        generic font configuration library - runtime
+ii  libfontconfig1:amd64                2.11.0-0ubuntu4.2                    amd64        generic font configuration library - runtime
 ii  libfreetype6:amd64                  2.5.2-1ubuntu2.5                     amd64        FreeType 2 font engine, shared library files
 ii  libfribidi0:amd64                   0.19.6-1                             amd64        Free Implementation of the Unicode BiDi algorithm
 ii  libfuse2:amd64                      2.9.2-4ubuntu4.14.04.1               amd64        Filesystem in Userspace (library)
@@ -263,8 +263,8 @@ ii  libgcc1:amd64                       1:4.9.3-0ubuntu4                     amd
 ii  libgck-1-0:amd64                    3.10.1-1                             amd64        Glib wrapper library for PKCS#11 - runtime
 ii  libgcr-3-common                     3.10.1-1                             all          Library for Crypto UI related tasks - common files
 ii  libgcr-base-3-1:amd64               3.10.1-1                             amd64        Library for Crypto related tasks
-ii  libgcrypt11:amd64                   1.5.3-2ubuntu4.3                     amd64        LGPL Crypto library - runtime library
-ii  libgcrypt11-dev                     1.5.3-2ubuntu4.3                     amd64        LGPL Crypto library - development files
+ii  libgcrypt11:amd64                   1.5.3-2ubuntu4.4                     amd64        LGPL Crypto library - runtime library
+ii  libgcrypt11-dev                     1.5.3-2ubuntu4.4                     amd64        LGPL Crypto library - development files
 ii  libgd3:amd64                        2.1.0-3ubuntu0.3                     amd64        GD Graphics Library
 ii  libgdbm-dev                         1.8.3-12build1                       amd64        GNU dbm database routines (development files)
 ii  libgdbm3:amd64                      1.8.3-12build1                       amd64        GNU dbm database routines (runtime version)
@@ -405,8 +405,8 @@ ii  libpolkit-agent-1-0:amd64           0.105-4ubuntu3.14.04.1               amd
 ii  libpolkit-backend-1-0:amd64         0.105-4ubuntu3.14.04.1               amd64        PolicyKit backend API
 ii  libpolkit-gobject-1-0:amd64         0.105-4ubuntu3.14.04.1               amd64        PolicyKit Authorization API
 ii  libpopt0:amd64                      1.16-8ubuntu1                        amd64        lib for parsing cmdline parameters
-ii  libpq-dev                           9.3.13-0ubuntu0.14.04                amd64        header files for libpq5 (PostgreSQL library)
-ii  libpq5                              9.3.13-0ubuntu0.14.04                amd64        PostgreSQL C client library
+ii  libpq-dev                           9.3.14-0ubuntu0.14.04                amd64        header files for libpq5 (PostgreSQL library)
+ii  libpq5                              9.3.14-0ubuntu0.14.04                amd64        PostgreSQL C client library
 ii  libprocps3:amd64                    1:3.3.9-1ubuntu2.2                   amd64        library for accessing process information from /proc
 ii  libprotobuf8:amd64                  2.5.0-9ubuntu1                       amd64        protocol buffers C++ library
 ii  libpython-dev:amd64                 2.7.5-5ubuntu3                       amd64        header files and a static library for Python (default)
@@ -721,9 +721,9 @@ ii  netcat-openbsd                      1.105-7ubuntu1                       amd
 ii  ntfs-3g                             1:2013.1.13AR.1-2ubuntu2             amd64        read/write NTFS driver for FUSE
 ii  ntp                                 1:4.2.6.p5+dfsg-3ubuntu2.14.04.8     amd64        Network Time Protocol daemon and utility programs
 ii  ntpdate                             1:4.2.6.p5+dfsg-3ubuntu2.14.04.8     amd64        client for setting system time from NTP servers
-ii  openssh-client                      1:6.6p1-2ubuntu2.7                   amd64        secure shell (SSH) client, for secure access to remote machines
-ii  openssh-server                      1:6.6p1-2ubuntu2.7                   amd64        secure shell (SSH) server, for secure access from remote machines
-ii  openssh-sftp-server                 1:6.6p1-2ubuntu2.7                   amd64        secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii  openssh-client                      1:6.6p1-2ubuntu2.8                   amd64        secure shell (SSH) client, for secure access to remote machines
+ii  openssh-server                      1:6.6p1-2ubuntu2.8                   amd64        secure shell (SSH) server, for secure access from remote machines
+ii  openssh-sftp-server                 1:6.6p1-2ubuntu2.8                   amd64        secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii  openssl                             1.0.1f-1ubuntu2.19                   amd64        Secure Sockets Layer toolkit - cryptographic utility
 ii  os-prober                           1.63ubuntu1.1                        amd64        utility to detect other OSes on a set of drives
 ii  parted                              2.3-19ubuntu1.14.04.1                amd64        disk partition manipulator
