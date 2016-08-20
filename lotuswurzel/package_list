@@ -39,7 +39,7 @@ ii  bind9-host                           1:9.9.5.dfsg-3ubuntu0.8              am
 ii  bind9utils                           1:9.9.5.dfsg-3ubuntu0.8              amd64        Utilities for BIND
 ii  binutils                             2.24-5ubuntu14.1                     amd64        GNU assembler, linker and binary utilities
 ii  biosdevname                          0.4.1-0ubuntu6.3                     amd64        apply BIOS-given names to network devices
-ii  bird                                 1.6.0-1+trusty+1                     amd64        Internet Routing Daemon
+ii  bird                                 1.6.0-2+trusty+1                     amd64        Internet Routing Daemon
 ii  bison                                2:3.0.2.dfsg-2                       amd64        YACC-compatible parser generator
 ii  bridge-utils                         1.5-6ubuntu2                         amd64        Utilities for configuring the Linux Ethernet bridge
 ii  bsd-mailx                            8.1.2-0.20131005cvs-1ubuntu0.14.04.1 amd64        simple mail user agent
@@ -634,6 +634,7 @@ ii  python3-colorama                     0.2.5-0.1ubuntu2                     al
 ii  python3-dbus                         1.2.0-2build2                        amd64        simple interprocess messaging system (Python 3 interface)
 ii  python3-dev                          3.4.0-0ubuntu2                       amd64        header files and a static library for Python (default)
 ii  python3-distlib                      0.1.8-1ubuntu1                       all          low-level components of python distutils2/packaging
+ii  python3-distupgrade                  1:0.220.8                            all          manage release upgrades
 ii  python3-dnspython                    1.11.1-1                             all          DNS toolkit for Python (Python 3)
 ii  python3-flask                        0.10.1-2build1                       all          micro web framework based on Werkzeug, Jinja2 and good intentions
 ii  python3-gi                           3.12.0-1ubuntu1                      amd64        Python 3 bindings for gobject-introspection libraries
@@ -655,6 +656,7 @@ ii  python3-requests                     2.2.1-1ubuntu0.3                     al
 ii  python3-setuptools                   3.3-1ubuntu2                         all          Python3 Distutils Enhancements
 ii  python3-six                          1.5.2-1ubuntu1                       all          Python 2 and 3 compatibility library (Python 3 interface)
 ii  python3-software-properties          0.92.37.7                            all          manage the repositories that you install software from
+ii  python3-update-manager               1:0.196.19                           all          python 3.x module for update-manager
 ii  python3-urllib3                      1.7.1-1ubuntu4                       all          HTTP library with thread-safe connection pooling for Python3
 ii  python3-werkzeug                     0.9.4+dfsg-1.1ubuntu2                all          collection of utilities for WSGI applications
 ii  python3-wheel                        0.24.0-1~ubuntu1                     all          built-package format for Python
@@ -711,11 +713,13 @@ ii  ttf-dejavu-extra                     2.34-1ubuntu1                        al
 ii  tzdata                               2016f-0ubuntu0.14.04                 all          time zone and daylight-saving time data
 ii  ubuntu-keyring                       2012.05.19                           all          GnuPG keys of the Ubuntu archive
 ii  ubuntu-minimal                       1.325                                amd64        Minimal core of Ubuntu
+ii  ubuntu-release-upgrader-core         1:0.220.8                            all          manage release upgrades
 ii  ucf                                  3.0027+nmu1                          all          Update Configuration File(s): preserve user changes to config files
 ii  udev                                 204-5ubuntu20.19                     amd64        /dev/ and hotplug management daemon
 ii  unattended-upgrades                  0.82.1ubuntu2.4                      all          automatic installation of security upgrades
 ii  unzip                                6.0-9ubuntu1.5                       amd64        De-archiver for .zip files
-ii  update-notifier-common               0.154.1ubuntu1                       all          Files shared between update-notifier and other packages
+ii  update-manager-core                  1:0.196.19                           all          manage release upgrades
+ii  update-notifier-common               0.154.1ubuntu2                       all          Files shared between update-notifier and other packages
 ii  upstart                              1.12.1-0ubuntu4.2                    amd64        event-based init daemon
 ii  ureadahead                           0.100.0-16                           amd64        Read required files in advance
 ii  usbutils                             1:007-2ubuntu1.1                     amd64        Linux USB utilities
