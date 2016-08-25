@@ -285,7 +285,7 @@ ii  libgsasl7                           1.8.0-2ubuntu2                      amd6
 rc  libgsl0ldbl                         1.16+dfsg-1ubuntu1                  amd64        GNU Scientific Library (GSL) -- library package
 ii  libgssapi-krb5-2:amd64              1.12+dfsg-2ubuntu5.2                amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii  libgssapi3-heimdal:amd64            1.6~git20131207+dfsg-1ubuntu1.1     amd64        Heimdal Kerberos - GSSAPI support library
-ii  libharfbuzz0b:amd64                 0.9.27-1ubuntu1                     amd64        OpenType text shaping engine (shared library)
+ii  libharfbuzz0b:amd64                 0.9.27-1ubuntu1.1                   amd64        OpenType text shaping engine (shared library)
 ii  libhavege1:amd64                    1.7c-1                              amd64        entropy source using the HAVEGE algorithm - shared library
 ii  libhcrypto4-heimdal:amd64           1.6~git20131207+dfsg-1ubuntu1.1     amd64        Heimdal Kerberos - crypto library
 ii  libheimbase1-heimdal:amd64          1.6~git20131207+dfsg-1ubuntu1.1     amd64        Heimdal Kerberos - Base library
@@ -303,7 +303,7 @@ ii  libhttp-message-perl                6.06-1                              all 
 ii  libhttp-negotiate-perl              6.00-2                              all          implementation of content negotiation
 ii  libhx509-5-heimdal:amd64            1.6~git20131207+dfsg-1ubuntu1.1     amd64        Heimdal Kerberos - X509 support library
 rc  libice6:amd64                       2:1.0.8-2                           amd64        X11 Inter-Client Exchange library
-ii  libidn11:amd64                      1.28-1ubuntu2                       amd64        GNU Libidn library, implementation of IETF IDN specifications
+ii  libidn11:amd64                      1.28-1ubuntu2.1                     amd64        GNU Libidn library, implementation of IETF IDN specifications
 ii  libijs-0.35                         0.35-8build1                        amd64        IJS raster image transport protocol: shared library
 ii  libilmbase6:amd64                   1.0.1-6ubuntu1                      amd64        several utility libraries from ILM used by OpenEXR
 ii  libio-html-perl                     1.00-1                              all          open an HTML file with automatic charset detection
