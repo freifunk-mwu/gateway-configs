@@ -347,27 +347,27 @@ zone "f.3.4.7.0.7.4.0.1.0.0.2.ip6.arpa" {
 # 
 zone "hack" {
     type static-stub;
-    server-addresses { 172.31.255.53; };
+    server-addresses { 172.31.0.5; 172.31.255.53; };
 };
 zone "31.172.in-addr.arpa" {
     type static-stub;
-    server-addresses { 172.31.255.53; };
+    server-addresses { 172.31.0.5; 172.31.255.53; };
 };
 zone "100.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 172.31.255.53; };
+    server-addresses { 172.31.0.5; 172.31.255.53; };
 };
 zone "101.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 172.31.255.53; };
+    server-addresses { 172.31.0.5; 172.31.255.53; };
 };
 zone "102.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 172.31.255.53; };
+    server-addresses { 172.31.0.5; 172.31.255.53; };
 };
 zone "103.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 172.31.255.53; };
+    server-addresses { 172.31.0.5; 172.31.255.53; };
 };
 # 
 # chemnitz
