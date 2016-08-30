@@ -49,6 +49,7 @@ roa 10.50.0.0/16    max  20 as      65024; # franken
 roa 10.83.0.0/16    max  20 as      65024; # franken
 roa 10.15.128.0/18  max  20 as      64890; # frankenberg
 roa 10.126.0.0/16   max  20 as      65026; # frankfurt
+roa 10.212.0.0/20   max  20 as      64879; # freemesh-denmark
 roa 10.60.0.0/16    max  20 as      65060; # freiburg
 roa 10.185.0.0/16   max  20 as      65142; # fulda
 roa 10.28.0.0/16    max  20 as      65397; # gelsenkirchen
