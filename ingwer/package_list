@@ -267,7 +267,7 @@ ii  libhttp-date-perl              6.02-1                      all          modu
 ii  libhttp-message-perl           6.06-1                      all          perl interface to HTTP style messages
 ii  libhttp-negotiate-perl         6.00-2                      all          implementation of content negotiation
 ii  libicu52:amd64                 52.1-8+deb8u3               amd64        International Components for Unicode
-ii  libidn11:amd64                 1.29-1+deb8u1               amd64        GNU Libidn library, implementation of IETF IDN specifications
+ii  libidn11:amd64                 1.29-1+deb8u2               amd64        GNU Libidn library, implementation of IETF IDN specifications
 ii  libintl-perl                   1.23-1+deb8u1               all          Uniforum message translations system compatible i18n library
 ii  libio-html-perl                1.001-1                     all          open an HTML file with automatic charset detection
 ii  libio-socket-ip-perl           0.32-1                      all          module for using IPv4 and IPv6 sockets in a protocol-independent way
@@ -439,14 +439,14 @@ ii  libxrender1:amd64              1:0.9.8-1+b1                amd64        X Re
 ii  libxtables10                   1.4.21-2+b1                 amd64        netfilter xtables library
 ii  libyaml-0-2:amd64              0.1.6-3                     amd64        Fast YAML 1.1 parser and emitter library
 ii  linux-base                     3.5                         all          Linux image base package
-ii  linux-compiler-gcc-4.8-x86     3.16.7-ckt25-2+deb8u3       amd64        Compiler for Linux on x86 (meta-package)
-ii  linux-headers-3.16.0-4-amd64   3.16.7-ckt25-2+deb8u3       amd64        Header files for Linux 3.16.0-4-amd64
-ii  linux-headers-3.16.0-4-common  3.16.7-ckt25-2+deb8u3       amd64        Common header files for Linux 3.16.0-4
+ii  linux-compiler-gcc-4.8-x86     3.16.36-1+deb8u1            amd64        Compiler for Linux on x86 (meta-package)
+ii  linux-headers-3.16.0-4-amd64   3.16.36-1+deb8u1            amd64        Header files for Linux 3.16.0-4-amd64
+ii  linux-headers-3.16.0-4-common  3.16.36-1+deb8u1            amd64        Common header files for Linux 3.16.0-4
 ii  linux-headers-amd64            3.16+63                     amd64        Header files for Linux amd64 configuration (meta-package)
-ii  linux-image-3.16.0-4-amd64     3.16.7-ckt25-2+deb8u3       amd64        Linux 3.16 for 64-bit PCs
+ii  linux-image-3.16.0-4-amd64     3.16.36-1+deb8u1            amd64        Linux 3.16 for 64-bit PCs
 ii  linux-image-amd64              3.16+63                     amd64        Linux for 64-bit PCs (meta-package)
 ii  linux-kbuild-3.16              3.16.7-ckt20-1              amd64        Kbuild infrastructure for Linux 3.16
-ii  linux-libc-dev:amd64           3.16.7-ckt25-2+deb8u3       amd64        Linux support headers for userspace development
+ii  linux-libc-dev:amd64           3.16.36-1+deb8u1            amd64        Linux support headers for userspace development
 ii  locales                        2.19-18+deb8u4              all          GNU C Library: National Language (locale) data [support]
 ii  login                          1:4.2-3+deb8u1              amd64        system login tools
 ii  logrotate                      3.8.7-1+b1                  amd64        Log rotation utility
