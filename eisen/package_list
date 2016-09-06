@@ -520,6 +520,7 @@ ii  sgml-base                           1.26+nmu4ubuntu1                      al
 ii  shared-mime-info                    1.2-0ubuntu3                          amd64        FreeDesktop.org shared MIME database and spec
 ii  sharutils                           1:4.14-1ubuntu1                       amd64        shar, unshar, uuencode, uudecode
 ii  smartmontools                       6.2+svn3841-1.2                       amd64        control and monitor storage systems using S.M.A.R.T.
+ii  spice-client                        0.12.4-0nocelt2ubuntu1.3              amd64        Implements the client side of the SPICE protocol
 ii  ssh                                 1:6.6p1-2ubuntu2.7                    all          secure shell client and server (metapackage)
 ii  ssh-import-id                       3.21-0ubuntu1                         all          securely retrieve an SSH public key and install it locally
 ii  ssl-cert                            1.0.33                                all          simple debconf wrapper for OpenSSL
