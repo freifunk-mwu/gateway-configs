@@ -3,6 +3,7 @@
 # 
 protocol bgp icvpn_aachen1 from ebgp_ic {
     neighbor fec0::a:cf:0:72 as 65077;
+    passive yes;
 }
 protocol bgp icvpn_augsburg1 from ebgp_ic {
     neighbor fec0::a:cf:0:a as 65050;
@@ -19,6 +20,7 @@ protocol bgp icvpn_berlin2 from ebgp_ic {
 }
 protocol bgp icvpn_bielefeldbgp1 from ebgp_ic {
     neighbor fec0::a:cf:0:36 as 65529;
+    passive yes;
 }
 protocol bgp icvpn_bielefeldbgp2 from ebgp_ic {
     neighbor fec0::a:cf:0:3b as 65529;
@@ -127,7 +129,6 @@ protocol bgp icvpn_frankenberg2 from ebgp_ic {
 }
 protocol bgp icvpn_freiburg1 from ebgp_ic {
     neighbor fec0::a:cf:0:21 as 65060;
-    passive yes;
 }
 protocol bgp icvpn_freiburg2 from ebgp_ic {
     neighbor fec0::a:cf:0:30 as 65060;
