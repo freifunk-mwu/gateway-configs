@@ -257,6 +257,7 @@ protocol bgp icvpn_innsbruck_ffibk1 from ebgp_ic {
 }
 protocol bgp icvpn_innsbruck_ffibk2 from ebgp_ic {
     neighbor 10.207.0.69 as 65052;
+    passive yes;
 }
 protocol bgp icvpn_kassel1 from ebgp_ic {
     neighbor 10.207.10.10 as 65514;
