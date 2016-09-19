@@ -37,7 +37,7 @@ ii  bc                                  1.06.95-8ubuntu1                    amd6
 ii  bind9-host                          1:9.9.5.dfsg-3ubuntu0.8             amd64        Version of 'host' bundled with BIND 9.X
 ii  binutils                            2.24-5ubuntu14.1                    amd64        GNU assembler, linker and binary utilities
 ii  biosdevname                         0.4.1-0ubuntu6.3                    amd64        apply BIOS-given names to network devices
-ii  bird                                1.6.0-2+trusty+1                    amd64        Internet Routing Daemon
+ii  bird                                1.6.0-3+trusty+1                    amd64        Internet Routing Daemon
 ii  bison                               2:3.0.2.dfsg-2                      amd64        YACC-compatible parser generator
 ii  bridge-utils                        1.5-6ubuntu2                        amd64        Utilities for configuring the Linux Ethernet bridge
 ii  bsdmainutils                        9.0.5ubuntu1                        amd64        collection of more utilities from FreeBSD
@@ -59,7 +59,7 @@ ii  cpp                                 4:4.8.2-1ubuntu6                    amd6
 ii  cpp-4.8                             4.8.4-2ubuntu1~14.04.3              amd64        GNU C preprocessor
 ii  crda                                1.1.2-1ubuntu2                      amd64        wireless Central Regulatory Domain Agent
 ii  cron                                3.0pl1-124ubuntu2                   amd64        process scheduling daemon
-ii  curl                                7.35.0-1ubuntu2.8                   amd64        command line tool for transferring data with URL syntax
+ii  curl                                7.35.0-1ubuntu2.9                   amd64        command line tool for transferring data with URL syntax
 ii  dash                                0.5.7-4ubuntu1                      amd64        POSIX-compliant shell
 ii  dbconfig-common                     1.8.47+nmu1                         all          common framework for packaging database applications
 ii  dbus                                1.6.18-0ubuntu4.3                   amd64        simple interprocess messaging system (daemon and utilities)
@@ -152,8 +152,8 @@ ii  iptables-persistent                 0.5.7                               all 
 ii  iputils-ping                        3:20121221-4ubuntu1.1               amd64        Tools to test the reachability of network hosts
 ii  iputils-tracepath                   3:20121221-4ubuntu1.1               amd64        Tools to trace the network path to a remote host
 ii  irqbalance                          1.0.6-2ubuntu0.14.04.4              amd64        Daemon to balance interrupts for SMP systems
-ii  isc-dhcp-client                     4.2.4-7ubuntu12.5                   amd64        ISC DHCP client
-ii  isc-dhcp-common                     4.2.4-7ubuntu12.5                   amd64        common files used by all the isc-dhcp* packages
+ii  isc-dhcp-client                     4.2.4-7ubuntu12.6                   amd64        ISC DHCP client
+ii  isc-dhcp-common                     4.2.4-7ubuntu12.6                   amd64        common files used by all the isc-dhcp* packages
 ii  iso-codes                           3.52-1                              all          ISO language, territory, currency, script codes and their translations
 ii  javascript-common                   11                                  all          Base support for JavaScript library packages
 ii  joe                                 3.7-2.3ubuntu1                      amd64        user friendly full screen text editor
@@ -219,8 +219,8 @@ ii  libcroco3:amd64                     0.6.8-2ubuntu1                      amd6
 ii  libcups2:amd64                      1.7.2-0ubuntu1.7                    amd64        Common UNIX Printing System(tm) - Core library
 ii  libcupsfilters1:amd64               1.0.52-0ubuntu1.7                   amd64        OpenPrinting CUPS Filters - Shared library
 ii  libcupsimage2:amd64                 1.7.2-0ubuntu1.7                    amd64        Common UNIX Printing System(tm) - Raster image library
-ii  libcurl3:amd64                      7.35.0-1ubuntu2.8                   amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
-ii  libcurl3-gnutls:amd64               7.35.0-1ubuntu2.8                   amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii  libcurl3:amd64                      7.35.0-1ubuntu2.9                   amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii  libcurl3-gnutls:amd64               7.35.0-1ubuntu2.9                   amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii  libcwidget3                         0.5.16-3.5ubuntu1                   amd64        high-level terminal interface library for C++ (runtime files)
 ii  libdatrie1:amd64                    0.2.8-1                             amd64        Double-array trie library
 ii  libdb5.3:amd64                      5.3.28-3ubuntu3                     amd64        Berkeley v5.3 Database Libraries [runtime]
@@ -582,8 +582,8 @@ ii  locales                             2.13+git20120306-12.1               all 
 ii  lockfile-progs                      0.1.17                              amd64        Programs for locking and unlocking files and mailboxes
 ii  login                               1:4.1.5.1-1ubuntu9.2                amd64        system login tools
 ii  logrotate                           3.8.7-1ubuntu1                      amd64        Log rotation utility
-ii  lsb-base                            4.1+Debian11ubuntu6.1               all          Linux Standard Base 4.1 init script functionality
-ii  lsb-release                         4.1+Debian11ubuntu6.1               all          Linux Standard Base version reporting utility
+ii  lsb-base                            4.1+Debian11ubuntu6.2               all          Linux Standard Base 4.1 init script functionality
+ii  lsb-release                         4.1+Debian11ubuntu6.2               all          Linux Standard Base version reporting utility
 ii  lshw                                02.16-2ubuntu1.3                    amd64        information about hardware configuration
 ii  lsof                                4.86+dfsg-1ubuntu2                  amd64        Utility to list open files
 ii  ltrace                              0.7.3-4ubuntu5.1                    amd64        Tracks runtime library calls in dynamically linked programs
@@ -785,7 +785,7 @@ ii  python3-setuptools                  3.3-1ubuntu2                        all 
 ii  python3-six                         1.5.2-1ubuntu1                      all          Python 2 and 3 compatibility library (Python 3 interface)
 ii  python3-software-properties         0.92.37.7                           all          manage the repositories that you install software from
 ii  python3-sphinx                      1.2.2+dfsg-1ubuntu1.1               all          documentation generator for Python projects (implemented in Python 3)
-ii  python3-update-manager              1:0.196.19                          all          python 3.x module for update-manager
+ii  python3-update-manager              1:0.196.21                          all          python 3.x module for update-manager
 ii  python3-urllib3                     1.7.1-1ubuntu4                      all          HTTP library with thread-safe connection pooling for Python3
 ii  python3-wheel                       0.24.0-1~ubuntu1                    all          built-package format for Python
 ii  python3.4                           3.4.3-1ubuntu1~14.04.3              amd64        Interactive high-level object-oriented language (version 3.4)
@@ -839,7 +839,7 @@ ii  udev                                204-5ubuntu20.19                    amd6
 ii  ufw                                 0.34~rc-0ubuntu2                    all          program for managing a Netfilter firewall
 ii  unattended-upgrades                 0.82.1ubuntu2.4                     all          automatic installation of security upgrades
 ii  unzip                               6.0-9ubuntu1.5                      amd64        De-archiver for .zip files
-ii  update-manager-core                 1:0.196.19                          all          manage release upgrades
+ii  update-manager-core                 1:0.196.21                          all          manage release upgrades
 ii  update-notifier-common              0.154.1ubuntu2                      all          Files shared between update-notifier and other packages
 ii  upstart                             1.12.1-0ubuntu4.2                   amd64        event-based init daemon
 ii  ureadahead                          0.100.0-16                          amd64        Read required files in advance
