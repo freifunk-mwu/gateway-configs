@@ -17,12 +17,12 @@
 /sbin/ip -6 rule add from all iif mzBR lookup mainz priority 7
 /sbin/ip -6 rule add from fd37:b4dc:4b1e::a25:102/128 lookup mainz priority 7
 
-/sbin/ip -4 rule add from all iif wiBR lookup wiesbaden priority 7
-/sbin/ip -4 rule add from 10.56.1.2/32 lookup wiesbaden priority 7
-/sbin/ip -6 rule add from all iif wiBR lookup wiesbaden priority 7
-/sbin/ip -6 rule add from fd56:b4dc:4b1e::a38:102/128 lookup wiesbaden priority 7
+/sbin/ip -4 rule add from all iif wiBR lookup mainz priority 7
+/sbin/ip -4 rule add from 10.56.1.2/32 lookup mainz priority 7
+/sbin/ip -6 rule add from all iif wiBR lookup mainz priority 7
+/sbin/ip -6 rule add from fd56:b4dc:4b1e::a38:102/128 lookup mainz priority 7
 
-/sbin/ip route add 10.207.0.0/16 via 10.56.0.23
-/sbin/ip route add fec0::a:cf:0:0/96 via fd56:b4dc:4b1e::a38:17
+/sbin/ip route add 10.207.0.0/16 via 10.37.0.23
+/sbin/ip route add fec0::a:cf:0:0/96 via fd37:b4dc:4b1e::a25:17
 
 exit 0
