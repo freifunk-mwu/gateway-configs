@@ -67,7 +67,7 @@ ii  debconf-i18n                         1.5.51ubuntu2                        al
 ii  debianutils                          4.4                                  amd64        Miscellaneous utilities specific to Debian
 ii  dh-python                            1.20140128-1ubuntu8.2                all          Debian helper tools for packaging Python libraries and applications
 ii  diffutils                            1:3.3-1                              amd64        File comparison utilities
-ii  dkms                                 2.2.0.3-1.1ubuntu5.14.04.7           all          Dynamic Kernel Module Support Framework
+ii  dkms                                 2.2.0.3-1.1ubuntu5.14.04.8           all          Dynamic Kernel Module Support Framework
 ii  dmidecode                            2.12-2                               amd64        SMBIOS/DMI table decoder
 ii  dmsetup                              2:1.02.77-6ubuntu2                   amd64        Linux Kernel Device Mapper userspace library
 ii  dnsutils                             1:9.9.5.dfsg-3ubuntu0.8              amd64        Clients provided with BIND
@@ -347,10 +347,10 @@ ii  libpython2.7-minimal:amd64           2.7.6-8ubuntu0.2                     am
 ii  libpython2.7-stdlib:amd64            2.7.6-8ubuntu0.2                     amd64        Interactive high-level object-oriented language (standard library, version 2.7)
 ii  libpython3-dev:amd64                 3.4.0-0ubuntu2                       amd64        header files and a static library for Python (default)
 ii  libpython3-stdlib:amd64              3.4.0-0ubuntu2                       amd64        interactive high-level object-oriented language (default python3 version)
-ii  libpython3.4:amd64                   3.4.3-1ubuntu1~14.04.3               amd64        Shared Python runtime library (version 3.4)
-ii  libpython3.4-dev:amd64               3.4.3-1ubuntu1~14.04.3               amd64        Header files and a static library for Python (v3.4)
-ii  libpython3.4-minimal:amd64           3.4.3-1ubuntu1~14.04.3               amd64        Minimal subset of the Python language (version 3.4)
-ii  libpython3.4-stdlib:amd64            3.4.3-1ubuntu1~14.04.3               amd64        Interactive high-level object-oriented language (standard library, version 3.4)
+ii  libpython3.4:amd64                   3.4.3-1ubuntu1~14.04.4               amd64        Shared Python runtime library (version 3.4)
+ii  libpython3.4-dev:amd64               3.4.3-1ubuntu1~14.04.4               amd64        Header files and a static library for Python (v3.4)
+ii  libpython3.4-minimal:amd64           3.4.3-1ubuntu1~14.04.4               amd64        Minimal subset of the Python language (version 3.4)
+ii  libpython3.4-stdlib:amd64            3.4.3-1ubuntu1~14.04.4               amd64        Interactive high-level object-oriented language (standard library, version 3.4)
 ii  libquadmath0:amd64                   4.8.4-2ubuntu1~14.04.3               amd64        GCC Quad-Precision Math Library
 ii  libreadline5:amd64                   5.2+dfsg-2                           amd64        GNU readline and history libraries, run-time libraries
 ii  libreadline6:amd64                   6.3-4ubuntu2                         amd64        GNU readline and history libraries, run-time libraries
@@ -456,14 +456,8 @@ ii  linux-headers-3.13.0-59              3.13.0-59.98                         al
 ii  linux-headers-3.13.0-59-generic      3.13.0-59.98                         amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-61              3.13.0-61.100                        all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-61-generic      3.13.0-61.100                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-88              3.13.0-88.135                        all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-88-generic      3.13.0-88.135                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-92              3.13.0-92.139                        all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-92-generic      3.13.0-92.139                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-93              3.13.0-93.140                        all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-93-generic      3.13.0-93.140                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-95              3.13.0-95.142                        all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-95-generic      3.13.0-95.142                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-96              3.13.0-96.143                        all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-96-generic      3.13.0-96.143                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-generic                3.13.0.96.104                        amd64        Generic Linux kernel headers
@@ -513,22 +507,22 @@ rc  linux-image-3.13.0-83-generic        3.13.0-83.127                        am
 rc  linux-image-3.13.0-85-generic        3.13.0-85.129                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-86-generic        3.13.0-86.131                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-87-generic        3.13.0-87.133                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-88-generic        3.13.0-88.135                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-88-generic        3.13.0-88.135                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-91-generic        3.13.0-91.138                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-92-generic        3.13.0-92.139                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-92-generic        3.13.0-92.139                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-93-generic        3.13.0-93.140                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-95-generic        3.13.0-95.142                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-95-generic        3.13.0-95.142                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-96-generic        3.13.0-96.143                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-79-generic  3.13.0-79.123                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-83-generic  3.13.0-83.127                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-85-generic  3.13.0-85.129                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-86-generic  3.13.0-86.131                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-87-generic  3.13.0-87.133                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-88-generic  3.13.0-88.135                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-88-generic  3.13.0-88.135                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-91-generic  3.13.0-91.138                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-92-generic  3.13.0-92.139                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-92-generic  3.13.0-92.139                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-93-generic  3.13.0-93.140                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-95-generic  3.13.0-95.142                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-95-generic  3.13.0-95.142                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-96-generic  3.13.0-96.143                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-generic                  3.13.0.96.104                        amd64        Generic Linux kernel image
 ii  linux-image-virtual                  3.13.0.96.104                        amd64        This package will always depend on the latest minimal generic kernel image.
@@ -669,9 +663,9 @@ ii  python3-urllib3                      1.7.1-1ubuntu4                       al
 ii  python3-werkzeug                     0.9.4+dfsg-1.1ubuntu2                all          collection of utilities for WSGI applications
 ii  python3-wheel                        0.24.0-1~ubuntu1                     all          built-package format for Python
 ii  python3-yaml                         3.10-4ubuntu0.1                      amd64        YAML parser and emitter for Python3
-ii  python3.4                            3.4.3-1ubuntu1~14.04.3               amd64        Interactive high-level object-oriented language (version 3.4)
-ii  python3.4-dev                        3.4.3-1ubuntu1~14.04.3               amd64        Header files and a static library for Python (v3.4)
-ii  python3.4-minimal                    3.4.3-1ubuntu1~14.04.3               amd64        Minimal subset of the Python language (version 3.4)
+ii  python3.4                            3.4.3-1ubuntu1~14.04.4               amd64        Interactive high-level object-oriented language (version 3.4)
+ii  python3.4-dev                        3.4.3-1ubuntu1~14.04.4               amd64        Header files and a static library for Python (v3.4)
+ii  python3.4-minimal                    3.4.3-1ubuntu1~14.04.4               amd64        Minimal subset of the Python language (version 3.4)
 rc  quagga                               0.99.22.4-3ubuntu1                   amd64        BGP/OSPF/RIP routing daemon
 ii  radvd                                1:1.9.1-1.1ubuntu2                   amd64        Router Advertisement Daemon
 ii  readline-common                      6.3-4ubuntu2                         all          GNU readline and history libraries, common files
