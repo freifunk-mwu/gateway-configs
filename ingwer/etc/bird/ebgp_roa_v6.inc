@@ -4,6 +4,9 @@
 # So Include it via:
 #   roa table icvpn { include "roa.con?" }
 # 
+roa 2001:bf7:1310::/44       max  64 as      65533; # Kreis_GT
+roa 2a03:2260:117::/48       max  64 as      65533; # Kreis_GT
+roa fd42:ffee:ff12::/48      max  64 as      65533; # Kreis_GT
 roa 2a03:2260:114::/48       max  64 as      65077; # aachen
 roa fdca:ffee:ffa1::/48      max  64 as      65522; # altmuehltal
 roa 2001:bf7:2520::/44       max  64 as      65050; # augsburg
@@ -62,10 +65,6 @@ roa fde6:36fc:c985::/64      max  64 as      65527; # goettingen
 roa fdef:affe:edda::/48      max  64 as      65489; # greifswald
 roa 2001:bf7:100:4859::/64   max  64 as      65530; # gronau (delegation)
 roa fddf:ebfd:a801:4859::/64 max  64 as      65530; # gronau (delegation)
-roa 2001:bf7:1310::/44       max  64 as      65533; # guetersloh
-roa fd42:ffee:ff12::/48      max  64 as      65533; # guetersloh
-roa fd42:ffee:ff13::/48      max  64 as      65533; # guetersloh
-roa fd42:ffee:ff14::/48      max  64 as      65533; # guetersloh
 roa 2001:bf7:100:2261::/64   max  64 as      65530; # gummersbach (delegation)
 roa fddf:ebfd:a801:2261::/64 max  64 as      65530; # gummersbach (delegation)
 roa 2001:bf7:100:2331::/64   max  64 as      65530; # hagen (delegation)
