@@ -377,7 +377,7 @@ ii  libsodium13:amd64              1.0.3-1~wheezy0             amd64        Netw
 ii  libsqlite3-0:amd64             3.8.7.1-1+deb8u2            amd64        SQLite 3 shared library
 ii  libss2:amd64                   1.42.12-2                   amd64        command-line interface parsing library
 ii  libssh2-1:amd64                1.4.3-4.1+deb8u1            amd64        SSH2 client-side library
-ii  libssl1.0.0:amd64              1.0.1t-1+deb8u3             amd64        Secure Sockets Layer toolkit - shared libraries
+ii  libssl1.0.0:amd64              1.0.1t-1+deb8u5             amd64        Secure Sockets Layer toolkit - shared libraries
 ii  libstdc++-4.9-dev:amd64        4.9.2-10                    amd64        GNU Standard C++ Library v3 (development files)
 ii  libstdc++6:amd64               4.9.2-10                    amd64        GNU Standard C++ Library v3
 ii  libsub-name-perl               0.12-1                      amd64        module for assigning a new name to referenced sub
@@ -480,7 +480,7 @@ ii  ntp                            1:4.2.6.p5+dfsg-7+deb8u2    amd64        Netw
 ii  openssh-client                 1:6.7p1-5+deb8u3            amd64        secure shell (SSH) client, for secure access to remote machines
 ii  openssh-server                 1:6.7p1-5+deb8u3            amd64        secure shell (SSH) server, for secure access from remote machines
 ii  openssh-sftp-server            1:6.7p1-5+deb8u3            amd64        secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii  openssl                        1.0.1t-1+deb8u3             amd64        Secure Sockets Layer toolkit - cryptographic utility
+ii  openssl                        1.0.1t-1+deb8u5             amd64        Secure Sockets Layer toolkit - cryptographic utility
 ii  os-prober                      1.65                        amd64        utility to detect other OSes on a set of drives
 ii  passwd                         1:4.2-3+deb8u1              amd64        change and administer password and group data
 ii  patch                          2.7.5-1                     amd64        Apply a diff file to an original
