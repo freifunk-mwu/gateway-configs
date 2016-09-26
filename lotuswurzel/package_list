@@ -535,6 +535,7 @@ ii  logrotate                            3.8.7-1ubuntu1                       am
 ii  lsb-base                             4.1+Debian11ubuntu6.2                all          Linux Standard Base 4.1 init script functionality
 ii  lsb-release                          4.1+Debian11ubuntu6.2                all          Linux Standard Base version reporting utility
 ii  lshw                                 02.16-2ubuntu1.3                     amd64        information about hardware configuration
+ii  lsof                                 4.86+dfsg-1ubuntu2                   amd64        Utility to list open files
 ii  m4                                   1.4.17-2ubuntu1                      amd64        a macro processing language
 ii  make                                 3.81-8.2ubuntu3                      amd64        An utility for Directing compilation.
 ii  makedev                              2.3.1-93ubuntu1                      all          creates device files in /dev
