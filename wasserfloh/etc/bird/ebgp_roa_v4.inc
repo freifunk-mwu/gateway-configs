@@ -169,6 +169,7 @@ roa 10.1.0.0/17     max  20 as      65530; # vfnnrw
 roa 10.171.0.0/16   max  20 as      65530; # vfnnrw
 roa 10.45.0.0/17    max  20 as      65530; # vfnnrw
 roa 10.45.128.0/17  max  20 as      65530; # vfnnrw
+roa 10.204.0.0/16   max  20 as      64857; # vogtland
 roa 10.23.0.0/16    max  20 as      65210; # waldheim
 roa 10.63.0.0/16    max  20 as      65042; # weimar
 roa 10.64.0.0/16    max  20 as      65042; # weimar
