@@ -35,7 +35,7 @@ ii  bind9-host                          1:9.9.5.dfsg-3ubuntu0.9          amd64  
 ii  bind9utils                          1:9.9.5.dfsg-3ubuntu0.9          amd64        Utilities for BIND
 ii  binutils                            2.24-5ubuntu14.1                 amd64        GNU assembler, linker and binary utilities
 ii  biosdevname                         0.4.1-0ubuntu6.3                 amd64        apply BIOS-given names to network devices
-ii  bird                                1.6.0-3+trusty+1                 amd64        Internet Routing Daemon
+ii  bird                                1.6.2-1+trusty+1                 amd64        Internet Routing Daemon
 ii  bridge-utils                        1.5-6ubuntu2                     amd64        Utilities for configuring the Linux Ethernet bridge
 ii  bsdmainutils                        9.0.5ubuntu1                     amd64        collection of more utilities from FreeBSD
 ii  bsdutils                            1:2.20.1-5.1ubuntu20.7           amd64        Basic utilities from 4.4BSD-Lite
@@ -63,7 +63,7 @@ ii  debconf-i18n                        1.5.51ubuntu2                    all    
 ii  debianutils                         4.4                              amd64        Miscellaneous utilities specific to Debian
 ii  dh-python                           1.20140128-1ubuntu8.2            all          Debian helper tools for packaging Python libraries and applications
 ii  diffutils                           1:3.3-1                          amd64        File comparison utilities
-ii  dkms                                2.2.0.3-1.1ubuntu5.14.04.7       all          Dynamic Kernel Module Support Framework
+ii  dkms                                2.2.0.3-1.1ubuntu5.14.04.8       all          Dynamic Kernel Module Support Framework
 ii  dmidecode                           2.12-2                           amd64        SMBIOS/DMI table decoder
 ii  dmsetup                             2:1.02.77-6ubuntu2               amd64        Linux Kernel Device Mapper userspace library
 ii  dnsutils                            1:9.9.5.dfsg-3ubuntu0.9          amd64        Clients provided with BIND
@@ -135,9 +135,9 @@ ii  iptables-persistent                 0.5.7                            all    
 ii  iputils-ping                        3:20121221-4ubuntu1.1            amd64        Tools to test the reachability of network hosts
 ii  iputils-tracepath                   3:20121221-4ubuntu1.1            amd64        Tools to trace the network path to a remote host
 ii  irqbalance                          1.0.6-2ubuntu0.14.04.4           amd64        Daemon to balance interrupts for SMP systems
-ii  isc-dhcp-client                     4.2.4-7ubuntu12.6                amd64        ISC DHCP client
-ii  isc-dhcp-common                     4.2.4-7ubuntu12.6                amd64        common files used by all the isc-dhcp* packages
-ii  isc-dhcp-server                     4.2.4-7ubuntu12.6                amd64        ISC DHCP server for automatic IP address assignment
+ii  isc-dhcp-client                     4.2.4-7ubuntu12.7                amd64        ISC DHCP client
+ii  isc-dhcp-common                     4.2.4-7ubuntu12.7                amd64        common files used by all the isc-dhcp* packages
+ii  isc-dhcp-server                     4.2.4-7ubuntu12.7                amd64        ISC DHCP server for automatic IP address assignment
 ii  iso-codes                           3.52-1                           all          ISO language, territory, currency, script codes and their translations
 ii  joe                                 3.7-2.3ubuntu1                   amd64        user friendly full screen text editor
 ii  jq                                  1.3-1.1ubuntu1                   amd64        lightweight and flexible command-line JSON processor
@@ -339,10 +339,10 @@ ii  libpython2.7-minimal:amd64          2.7.6-8ubuntu0.2                 amd64  
 ii  libpython2.7-stdlib:amd64           2.7.6-8ubuntu0.2                 amd64        Interactive high-level object-oriented language (standard library, version 2.7)
 ii  libpython3-dev:amd64                3.4.0-0ubuntu2                   amd64        header files and a static library for Python (default)
 ii  libpython3-stdlib:amd64             3.4.0-0ubuntu2                   amd64        interactive high-level object-oriented language (default python3 version)
-ii  libpython3.4:amd64                  3.4.3-1ubuntu1~14.04.3           amd64        Shared Python runtime library (version 3.4)
-ii  libpython3.4-dev:amd64              3.4.3-1ubuntu1~14.04.3           amd64        Header files and a static library for Python (v3.4)
-ii  libpython3.4-minimal:amd64          3.4.3-1ubuntu1~14.04.3           amd64        Minimal subset of the Python language (version 3.4)
-ii  libpython3.4-stdlib:amd64           3.4.3-1ubuntu1~14.04.3           amd64        Interactive high-level object-oriented language (standard library, version 3.4)
+ii  libpython3.4:amd64                  3.4.3-1ubuntu1~14.04.4           amd64        Shared Python runtime library (version 3.4)
+ii  libpython3.4-dev:amd64              3.4.3-1ubuntu1~14.04.4           amd64        Header files and a static library for Python (v3.4)
+ii  libpython3.4-minimal:amd64          3.4.3-1ubuntu1~14.04.4           amd64        Minimal subset of the Python language (version 3.4)
+ii  libpython3.4-stdlib:amd64           3.4.3-1ubuntu1~14.04.4           amd64        Interactive high-level object-oriented language (standard library, version 3.4)
 ii  libquadmath0:amd64                  4.8.4-2ubuntu1~14.04.3           amd64        GCC Quad-Precision Math Library
 ii  libreadline5:amd64                  5.2+dfsg-2                       amd64        GNU readline and history libraries, run-time libraries
 ii  libreadline6:amd64                  6.3-4ubuntu2                     amd64        GNU readline and history libraries, run-time libraries
@@ -605,9 +605,9 @@ ii  python3-update-manager              1:0.196.21                       all    
 ii  python3-urllib3                     1.7.1-1ubuntu4                   all          HTTP library with thread-safe connection pooling for Python3
 ii  python3-wheel                       0.24.0-1~ubuntu1                 all          built-package format for Python
 ii  python3-yaml                        3.10-4ubuntu0.1                  amd64        YAML parser and emitter for Python3
-ii  python3.4                           3.4.3-1ubuntu1~14.04.3           amd64        Interactive high-level object-oriented language (version 3.4)
-ii  python3.4-dev                       3.4.3-1ubuntu1~14.04.3           amd64        Header files and a static library for Python (v3.4)
-ii  python3.4-minimal                   3.4.3-1ubuntu1~14.04.3           amd64        Minimal subset of the Python language (version 3.4)
+ii  python3.4                           3.4.3-1ubuntu1~14.04.4           amd64        Interactive high-level object-oriented language (version 3.4)
+ii  python3.4-dev                       3.4.3-1ubuntu1~14.04.4           amd64        Header files and a static library for Python (v3.4)
+ii  python3.4-minimal                   3.4.3-1ubuntu1~14.04.4           amd64        Minimal subset of the Python language (version 3.4)
 ii  radvd                               1:1.9.1-1.1ubuntu2               amd64        Router Advertisement Daemon
 ii  readline-common                     6.3-4ubuntu2                     all          GNU readline and history libraries, common files
 ii  resolvconf                          1.69ubuntu1.1                    all          name server information handler
