@@ -23,7 +23,6 @@ protocol bgp icvpn_kreisgt_tst2 from ebgp_ic {
 }
 protocol bgp icvpn_aachen1 from ebgp_ic {
     neighbor 10.207.0.114 as 65077;
-    passive yes;
 }
 protocol bgp icvpn_amsterdam1 from ebgp_ic {
     neighbor 10.207.0.205 as 65205;
@@ -58,7 +57,6 @@ protocol bgp icvpn_bielefeldbgp2 from ebgp_ic {
 }
 protocol bgp icvpn_bitburg1 from ebgp_ic {
     neighbor 10.207.0.50 as 65408;
-    passive yes;
 }
 protocol bgp icvpn_bodensee1 from ebgp_ic {
     neighbor 10.207.0.43 as 64875;
@@ -90,6 +88,7 @@ protocol bgp icvpn_bremen1 from ebgp_ic {
 }
 protocol bgp icvpn_bremen2 from ebgp_ic {
     neighbor 10.207.2.196 as 65196;
+    passive yes;
 }
 protocol bgp icvpn_bremen3 from ebgp_ic {
     neighbor 10.207.3.196 as 65196;
@@ -306,6 +305,7 @@ protocol bgp icvpn_luxembourg1 from ebgp_ic {
 }
 protocol bgp icvpn_luxembourg2 from ebgp_ic {
     neighbor 10.207.10.102 as 64769;
+    passive yes;
 }
 protocol bgp icvpn_mayen_koblenz_myk1 from ebgp_ic {
     neighbor 10.207.0.80 as 65032;
@@ -450,6 +450,14 @@ protocol bgp icvpn_nrw4 from ebgp_ic {
 }
 protocol bgp icvpn_nrw5 from ebgp_ic {
     neighbor 10.207.66.66 as 65530;
+    passive yes;
+}
+protocol bgp icvpn_ffv01 from ebgp_ic {
+    neighbor 10.207.0.29 as 64857;
+    passive yes;
+}
+protocol bgp icvpn_ffv03 from ebgp_ic {
+    neighbor 10.207.0.37 as 64857;
     passive yes;
 }
 protocol bgp icvpn_waldheim1 from ebgp_ic {
