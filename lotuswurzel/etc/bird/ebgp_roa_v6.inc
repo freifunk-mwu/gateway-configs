@@ -184,6 +184,7 @@ roa fddf:ebfd:a801:5922::/64 max  64 as      65530; # vfnnrw
 roa fddf:ebfd:a801:a::/64    max  64 as      65530; # vfnnrw
 roa fddf:ebfd:a801:abcd::/64 max  64 as      65530; # vfnnrw
 roa fddf:ebfd:a801:ff::/64   max  64 as      65530; # vfnnrw
+roa 2a03:2260:200f::/48      max  64 as      64857; # vogtland
 roa 2001:bf7:1930::/44       max  64 as      65042; # weimar
 roa 2001:bf7:100:2196::/64   max  64 as      65530; # wermelskirchen (delegation)
 roa fddf:ebfd:a801:2196::/64 max  64 as      65530; # wermelskirchen (delegation)
