@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2016090700		; Serial
+		     2016100900		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -57,7 +57,9 @@ mettigel	IN	A	5.45.106.31
 mettigel	IN	AAAA	2a03:4000:6:10c6::1
 
 ; service hosts
-zwiebel		IN	A	212.129.62.76
+; pre 161009 zwiebel		IN	A	212.129.62.76
+; pre 161009 zwiebel		IN	AAAA	2001:bc8:2058:101::b4dc:4b1e
+zwiebel		IN	A	195.154.42.87
 zwiebel		IN	AAAA	2001:bc8:2058:101::b4dc:4b1e
 aubergine	IN	A	144.76.209.103
 aubergine	IN	AAAA	2a01:4f8:192:523::b4dc:4b1e
