@@ -80,6 +80,13 @@ zone "mein.stormarn.freifunk.net" {
     server-addresses { 10.144.0.3; fddf:0bf7:80::a38:3; };
 };
 # 
+# bitburg
+# 
+zone "ffbit" {
+    type static-stub;
+    server-addresses { fda0:cab1:e1e5:5b11:c0ff:ee::0; };
+};
+# 
 # bodensee
 # 
 zone "ffbsee" {
@@ -882,6 +889,13 @@ zone "207.10.in-addr.arpa" {
 zone "f.c.0.0.a.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.c.e.f.ip6.arpa." {
     type static-stub;
     server-addresses { 10.169.1.1; 10.255.128.53; fec0::a:cf:0:8a; };
+};
+# 
+# muensterland
+# 
+zone "ffms" {
+    type static-stub;
+    server-addresses { 10.43.8.2; 2a03:2260:115:100::2; 10.43.8.3; 2a03:2260:115:100::3; 10.43.16.2; 2a03:2260:115:200::2; 10.43.16.3; 2a03:2260:115:200::3; };
 };
 # 
 # mueritz
