@@ -80,6 +80,13 @@ zone "mein.stormarn.freifunk.net" {
     server-addresses { 10.144.0.3; fddf:0bf7:80::a38:3; };
 };
 # 
+# bitburg
+# 
+zone "ffbit" {
+    type static-stub;
+    server-addresses { fda0:cab1:e1e5:5b11:c0ff:ee::0; };
+};
+# 
 # bodensee
 # 
 zone "ffbsee" {
@@ -99,271 +106,271 @@ zone "e.e.5.b.1.0.7.1.f.e.d.f.ip6.arpa" {
 # 
 zone "freifunk-celle.de" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "0.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "1.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "2.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "3.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "4.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "5.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "6.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "7.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "8.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "9.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "10.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "11.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "12.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "13.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "14.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "15.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "16.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "17.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "18.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "19.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "20.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "21.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "22.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "23.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "24.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "25.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "26.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "27.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "28.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "29.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "30.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "31.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "32.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "33.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "34.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "35.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "36.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "37.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "38.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "39.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "40.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "41.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "42.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "43.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "44.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "45.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "46.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "47.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "48.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "49.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "50.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "51.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "52.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "53.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "54.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "55.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "56.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "57.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "58.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "59.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "60.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "61.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "62.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "63.252.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "2.3.2.d.f.f.d.2.2.9.d.f.ip6.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 zone "f.3.4.7.0.7.4.0.1.0.0.2.ip6.arpa" {
     type static-stub;
-    server-addresses { 10.252.0.1; fd92:2dff:d232::1; 2001:470:743f::1; };
+    server-addresses { 10.252.0.1; 10.252.0.2; fd92:2dff:d232::1; fd92:2dff:d232::2; };
 };
 # 
 # chaosvpn
@@ -882,6 +889,13 @@ zone "207.10.in-addr.arpa" {
 zone "f.c.0.0.a.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.c.e.f.ip6.arpa." {
     type static-stub;
     server-addresses { 10.169.1.1; 10.255.128.53; fec0::a:cf:0:8a; };
+};
+# 
+# muensterland
+# 
+zone "ffms" {
+    type static-stub;
+    server-addresses { 10.43.8.2; 2a03:2260:115:100::2; 10.43.8.3; 2a03:2260:115:100::3; 10.43.16.2; 2a03:2260:115:200::2; 10.43.16.3; 2a03:2260:115:200::3; };
 };
 # 
 # mueritz
