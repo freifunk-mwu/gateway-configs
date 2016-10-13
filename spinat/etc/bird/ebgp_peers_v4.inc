@@ -49,14 +49,12 @@ protocol bgp icvpn_berlin1 from ebgp_ic {
 }
 protocol bgp icvpn_berlin2 from ebgp_ic {
     neighbor 10.207.0.6 as 44194;
-    passive yes;
 }
 protocol bgp icvpn_bielefeldbgp1 from ebgp_ic {
     neighbor 10.207.0.54 as 65529;
 }
 protocol bgp icvpn_bielefeldbgp2 from ebgp_ic {
     neighbor 10.207.0.59 as 65529;
-    passive yes;
 }
 protocol bgp icvpn_bitburg1 from ebgp_ic {
     neighbor 10.207.0.50 as 65408;
@@ -244,7 +242,6 @@ protocol bgp icvpn_hameln_ffhmgw01 from ebgp_ic {
 }
 protocol bgp icvpn_hannover1 from ebgp_ic {
     neighbor 10.207.0.22 as 65511;
-    passive yes;
 }
 protocol bgp icvpn_harz1 from ebgp_ic {
     neighbor 10.207.0.11 as 65134;
