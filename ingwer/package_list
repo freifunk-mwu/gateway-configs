@@ -36,7 +36,7 @@ ii  bind9                          1:9.9.5.dfsg-9+deb8u7       amd64        Inte
 ii  bind9-host                     1:9.9.5.dfsg-9+deb8u7       amd64        Version of 'host' bundled with BIND 9.X
 ii  bind9utils                     1:9.9.5.dfsg-9+deb8u7       amd64        Utilities for BIND
 ii  binutils                       2.25-5                      amd64        GNU assembler, linker and binary utilities
-hi  bird                           1.6.0-1~bpo80+1             amd64        Internet Routing Daemon
+ii  bird                           1.6.2-1~bpo8+1              amd64        Internet Routing Daemon
 ii  bridge-utils                   1.5-9                       amd64        Utilities for configuring the Linux Ethernet bridge
 ii  bsd-mailx                      8.1.2-0.20141216cvs-2       amd64        simple mail user agent
 ii  bsdmainutils                   9.0.6                       amd64        collection of more utilities from FreeBSD
