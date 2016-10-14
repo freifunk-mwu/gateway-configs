@@ -39,7 +39,7 @@ ii  bind9-host                           1:9.9.5.dfsg-3ubuntu0.9              am
 ii  bind9utils                           1:9.9.5.dfsg-3ubuntu0.9              amd64        Utilities for BIND
 ii  binutils                             2.24-5ubuntu14.1                     amd64        GNU assembler, linker and binary utilities
 ii  biosdevname                          0.4.1-0ubuntu6.3                     amd64        apply BIOS-given names to network devices
-ii  bird                                 1.6.2-1+trusty+1                     amd64        Internet Routing Daemon
+ii  bird                                 1.6.2-2+trusty+1                     amd64        Internet Routing Daemon
 ii  bison                                2:3.0.2.dfsg-2                       amd64        YACC-compatible parser generator
 ii  bridge-utils                         1.5-6ubuntu2                         amd64        Utilities for configuring the Linux Ethernet bridge
 ii  bsd-mailx                            8.1.2-0.20131005cvs-1ubuntu0.14.04.1 amd64        simple mail user agent
