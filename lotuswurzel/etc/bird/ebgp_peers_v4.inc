@@ -36,7 +36,7 @@ protocol bgp icvpn_augsburg2 from ebgp_ic {
     neighbor 10.207.0.68 as 65050;
     passive yes;
 }
-protocol bgp icvpn_badoldesloe3 from ebgp_ic {
+protocol bgp icvpn_badoldesloe from ebgp_ic {
     neighbor 10.207.0.90 as 64859;
     passive yes;
 }
