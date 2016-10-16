@@ -10,6 +10,7 @@ protocol bgp icvpn_kreisgt_bgp2 from ebgp_ic {
 }
 protocol bgp icvpn_kreisgt_bgp3 from ebgp_ic {
     neighbor 10.207.0.132 as 65533;
+    passive yes;
 }
 protocol bgp icvpn_kreisgt_bgp4 from ebgp_ic {
     neighbor 10.207.0.1 as 65533;
@@ -224,6 +225,7 @@ protocol bgp icvpn_halle1 from ebgp_ic {
 }
 protocol bgp icvpn_halle2 from ebgp_ic {
     neighbor 10.207.0.14 as 65046;
+    passive yes;
 }
 protocol bgp icvpn_hamburg01 from ebgp_ic {
     neighbor 10.207.0.61 as 49009;
