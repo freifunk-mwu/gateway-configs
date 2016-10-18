@@ -75,9 +75,9 @@ zone "11.10.in-addr.arpa" {
 # 
 # badoldesloe
 # 
-zone "mein.stormarn.freifunk.net" {
+zone "m.freifunk-stormarn.de" {
     type static-stub;
-    server-addresses { 10.144.0.3; fddf:0bf7:80::a38:3; };
+    server-addresses { 10.144.0.8; fddf:0bf7:80::a38:8; 10.144.0.13; fddf:0bf7:80::a38:13; };
 };
 # 
 # bitburg
