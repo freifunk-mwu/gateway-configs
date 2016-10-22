@@ -453,13 +453,13 @@ ii  libxrender1:amd64              1:0.9.8-1+b1                amd64        X Re
 ii  libxtables10                   1.4.21-2+b1                 amd64        netfilter xtables library
 ii  libyaml-0-2:amd64              0.1.6-3                     amd64        Fast YAML 1.1 parser and emitter library
 ii  linux-base                     4.3~bpo8+1                  all          Linux image base package
-ii  linux-compiler-gcc-4.8-x86     3.16.36-1+deb8u1            amd64        Compiler for Linux on x86 (meta-package)
-ii  linux-headers-3.16.0-4-amd64   3.16.36-1+deb8u1            amd64        Header files for Linux 3.16.0-4-amd64
-ii  linux-headers-3.16.0-4-common  3.16.36-1+deb8u1            amd64        Common header files for Linux 3.16.0-4
-ii  linux-image-3.16.0-4-amd64     3.16.36-1+deb8u1            amd64        Linux 3.16 for 64-bit PCs
+ii  linux-compiler-gcc-4.8-x86     3.16.36-1+deb8u2            amd64        Compiler for Linux on x86 (meta-package)
+ii  linux-headers-3.16.0-4-amd64   3.16.36-1+deb8u2            amd64        Header files for Linux 3.16.0-4-amd64
+ii  linux-headers-3.16.0-4-common  3.16.36-1+deb8u2            amd64        Common header files for Linux 3.16.0-4
+ii  linux-image-3.16.0-4-amd64     3.16.36-1+deb8u2            amd64        Linux 3.16 for 64-bit PCs
 ii  linux-image-amd64              3.16+63                     amd64        Linux for 64-bit PCs (meta-package)
 ii  linux-kbuild-3.16              3.16.7-ckt20-1              amd64        Kbuild infrastructure for Linux 3.16
-ii  linux-libc-dev:amd64           3.16.36-1+deb8u1            amd64        Linux support headers for userspace development
+ii  linux-libc-dev:amd64           3.16.36-1+deb8u2            amd64        Linux support headers for userspace development
 ii  locales                        2.19-18+deb8u6              all          GNU C Library: National Language (locale) data [support]
 ii  login                          1:4.2-3+deb8u1              amd64        system login tools
 ii  logrotate                      3.8.7-1+b1                  amd64        Log rotation utility
