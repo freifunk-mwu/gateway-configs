@@ -84,6 +84,7 @@ ii  heirloom-mailx                      12.5-2+deb7u1build0.14.04.1           am
 ii  hicolor-icon-theme                  0.13-1                                all          default fallback theme for FreeDesktop.org icon themes
 ii  hostname                            3.15ubuntu1                           amd64        utility to set/show the host name or domain name
 ii  htop                                1.0.2-3                               amd64        interactive processes viewer
+ii  iftop                               1.0~pre2-5                            amd64        displays bandwidth usage information on an network interface
 ii  ifupdown                            0.7.47.2ubuntu4.4                     amd64        high level tools to configure network interfaces
 ii  init-system-helpers                 1.14                                  all          helper tools for all init systems
 ii  initramfs-tools                     0.103ubuntu4.4                        all          tools for generating an initramfs
