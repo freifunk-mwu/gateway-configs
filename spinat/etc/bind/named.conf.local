@@ -27,6 +27,10 @@ acl "intern-wi" {
 };
 
 
+acl "prismas-test" {
+	217.240.125.87;
+};
+
 // Intern Zones for Freifunk
 
 zone "ffmwu.org." {
