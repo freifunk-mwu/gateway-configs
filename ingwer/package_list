@@ -29,8 +29,8 @@ ii  base-files                     8+deb8u6                    amd64        Debi
 ii  base-passwd                    3.5.37                      amd64        Debian base system master password and group files
 ii  bash                           4.3-11+b1                   amd64        GNU Bourne Again SHell
 ii  bash-completion                1:2.1-4                     all          programmable completion for the bash shell
-ii  batctl                         2016.3-1                    amd64        Package created with checkinstall 1.6.2
-ii  batman-adv                     2016.3-1                    amd64        Package created with checkinstall 1.6.2
+ii  batctl                         2016.2-1                    amd64        Package created with checkinstall 1.6.2
+ii  batman-adv                     2016.2-1                    amd64        Package created with checkinstall 1.6.2
 ii  bc                             1.06.95-9                   amd64        GNU bc arbitrary precision calculator language
 ii  bind9                          1:9.9.5.dfsg-9+deb8u7       amd64        Internet Domain Name Server
 ii  bind9-host                     1:9.9.5.dfsg-9+deb8u7       amd64        Version of 'host' bundled with BIND 9.X
