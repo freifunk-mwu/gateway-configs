@@ -63,7 +63,7 @@ ii  debconf-i18n                         1.5.51ubuntu2                     all  
 ii  debianutils                          4.4                               amd64        Miscellaneous utilities specific to Debian
 ii  dh-python                            1.20140128-1ubuntu8.2             all          Debian helper tools for packaging Python libraries and applications
 ii  diffutils                            1:3.3-1                           amd64        File comparison utilities
-ii  dkms                                 2.2.0.3-1.1ubuntu5.14.04.8        all          Dynamic Kernel Module Support Framework
+ii  dkms                                 2.2.0.3-1.1ubuntu5.14.04.9        all          Dynamic Kernel Module Support Framework
 ii  dmidecode                            2.12-2                            amd64        SMBIOS/DMI table decoder
 ii  dmsetup                              2:1.02.77-6ubuntu2                amd64        Linux Kernel Device Mapper userspace library
 ii  dnsutils                             1:9.9.5.dfsg-3ubuntu0.9           amd64        Clients provided with BIND
@@ -419,12 +419,8 @@ ii  linux-generic                        3.13.0.100.108                    amd64
 ii  linux-generic-lts-trusty             3.13.0.100.108                    amd64        Generic Linux kernel image and headers
 ii  linux-headers-3.13.0-100             3.13.0-100.147                    all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-100-generic     3.13.0-100.147                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-88              3.13.0-88.135                     all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-88-generic      3.13.0-88.135                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-96              3.13.0-96.143                     all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-96-generic      3.13.0-96.143                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-98              3.13.0-98.145                     all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-98-generic      3.13.0-98.145                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-generic                3.13.0.100.108                    amd64        Generic Linux kernel headers
 ii  linux-headers-generic-lts-trusty     3.13.0.100.108                    amd64        Generic Linux kernel headers
 ii  linux-image-3.13.0-100-generic       3.13.0-100.147                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -433,13 +429,13 @@ rc  linux-image-3.13.0-83-generic        3.13.0-83.127                     amd64
 rc  linux-image-3.13.0-85-generic        3.13.0-85.129                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-86-generic        3.13.0-86.131                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-87-generic        3.13.0-87.133                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-88-generic        3.13.0-88.135                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-88-generic        3.13.0-88.135                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-91-generic        3.13.0-91.138                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-92-generic        3.13.0-92.139                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-93-generic        3.13.0-93.140                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-95-generic        3.13.0-95.142                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-96-generic        3.13.0-96.143                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-98-generic        3.13.0-98.145                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-98-generic        3.13.0-98.145                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.19.0-25-generic        3.19.0-25.26~14.04.1              amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-3.19.0-30-generic        3.19.0-30.34~14.04.1              amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-3.19.0-31-generic        3.19.0-31.36~14.04.1              amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
@@ -457,13 +453,13 @@ rc  linux-image-extra-3.13.0-83-generic  3.13.0-83.127                     amd64
 rc  linux-image-extra-3.13.0-85-generic  3.13.0-85.129                     amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-86-generic  3.13.0-86.131                     amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-87-generic  3.13.0-87.133                     amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-88-generic  3.13.0-88.135                     amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-88-generic  3.13.0-88.135                     amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-91-generic  3.13.0-91.138                     amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-92-generic  3.13.0-92.139                     amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-93-generic  3.13.0-93.140                     amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-95-generic  3.13.0-95.142                     amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-96-generic  3.13.0-96.143                     amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-98-generic  3.13.0-98.145                     amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-98-generic  3.13.0-98.145                     amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-25-generic  3.19.0-25.26~14.04.1              amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-30-generic  3.19.0-30.34~14.04.1              amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-31-generic  3.19.0-31.36~14.04.1              amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
@@ -635,7 +631,7 @@ ii  ssh                                  1:6.6p1-2ubuntu2.8                all  
 ii  ssh-import-id                        3.21-0ubuntu1                     all          securely retrieve an SSH public key and install it locally
 ii  ssl-cert                             1.0.33                            all          simple debconf wrapper for OpenSSL
 ii  strace                               4.8-1ubuntu5                      amd64        A system call tracer
-ii  sudo                                 1.8.9p5-1ubuntu1.2                amd64        Provide limited super user privileges to specific users
+ii  sudo                                 1.8.9p5-1ubuntu1.3                amd64        Provide limited super user privileges to specific users
 ii  sysfsutils                           2.1.0+repack-3ubuntu1             amd64        sysfs query tool and boot-time setup
 ii  systemd-services                     204-5ubuntu20.19                  amd64        systemd runtime services
 ii  systemd-shim                         6-2bzr1                           amd64        shim for systemd
