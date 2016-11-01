@@ -14,7 +14,7 @@ PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bi
 * * * * * $HOME/clones/ffnord-alfred-announce/announce.sh -i mzBR -b mzBAT -f mzVPN -u /var/run/alfred-mz.sock -s ffmz > /dev/null 2>&1
 * * * * * $HOME/clones/ffnord-alfred-announce/announce.sh -i wiBR -b wiBAT -f wiVPN -u /var/run/alfred-wi.sock -s ffwi > /dev/null 2>&1
 # firmware sync
-23 */2 * * * /usr/bin/rsync -avh --delete rsync://pudding.freifunk-mwu.de:2873/firmware /var/www/html/firmware > $HOME/.cronlog/firmware_rsync.log 2>&1
+23 */2 * * * /usr/bin/rsync -avh6 --delete rsync://milchreis.freifunk-mwu.de:873/firmware /var/www/html/firmware > $HOME/.cronlog/firmware_rsync.log 2>&1
 # backend scripts
 */5 * * * * $HOME/clones/backend-scripts/draw_traffic_all.py > $HOME/.cronlog/draw_traffic.log
 */5 * * * * $HOME/clones/backend-scripts/check_bind_gw.py > $HOME/.cronlog/check_bind.log
