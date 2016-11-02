@@ -59,7 +59,7 @@ iface wiVPN inet6 manual
 	pre-up		/sbin/modprobe batman-adv
 	pre-up          /sbin/ip link set address 02:00:0a:38:00:a1 dev $IFACE
 	post-up		/sbin/ip link set dev $IFACE up
-        post-up		/usr/local/sbin/batctl -m wiBAT if add $IFACE
+        post-up		/usr/sbin/batctl -m wiBAT if add $IFACE
         post-up		/sbin/ip link set dev wiBAT up
 
 allow-hotplug mzigVPN
