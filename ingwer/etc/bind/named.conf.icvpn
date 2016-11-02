@@ -494,6 +494,17 @@ zone "1.3.f.f.d.9.c.3.7.c.d.f.ip6.arpa" {
     server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
 };
 # 
+# erzgebirge
+# 
+zone "fferz" {
+    type static-stub;
+    server-addresses { 10.13.80.241; 10.13.80.242; };
+};
+zone "13.10.in-addr.arpa." {
+    type static-stub;
+    server-addresses { 10.13.80.241; 10.13.80.242; };
+};
+# 
 # euskirchen
 # 
 zone "ffeu" {
