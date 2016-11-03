@@ -4,8 +4,8 @@
 # So Include it via:
 #   roa table icvpn { include "roa.con?" }
 # 
-roa 10.234.0.0/15   max  20 as      65533; # Kreis_GT
-roa 10.255.0.0/16   max  20 as      65533; # Kreis_GT
+roa 10.234.0.0/15   max  20 as     206813; # Kreis_GT
+roa 10.255.0.0/16   max  20 as     206813; # Kreis_GT
 roa 10.5.0.0/16     max  20 as      65077; # aachen
 roa 10.202.0.0/18   max  20 as      65522; # altmuehltal
 roa 10.205.0.0/16   max  20 as      65205; # amsterdam
