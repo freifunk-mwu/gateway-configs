@@ -14,7 +14,7 @@ ii  augeas-lenses                        1.2.0-0ubuntu1.2                      a
 ii  base-files                           7.2ubuntu5.5                          amd64        Debian base system miscellaneous files
 ii  base-passwd                          3.5.33                                amd64        Debian base system master password and group files
 ii  bash                                 4.3-7ubuntu1.5                        amd64        GNU Bourne Again SHell
-ii  bind9-host                           1:9.9.5.dfsg-3ubuntu0.9               amd64        Version of 'host' bundled with BIND 9.X
+ii  bind9-host                           1:9.9.5.dfsg-3ubuntu0.10              amd64        Version of 'host' bundled with BIND 9.X
 ii  binutils                             2.24-5ubuntu14.1                      amd64        GNU assembler, linker and binary utilities
 ii  bridge-utils                         1.5-6ubuntu2                          amd64        Utilities for configuring the Linux Ethernet bridge
 ii  bsdutils                             1:2.20.1-5.1ubuntu20.7                amd64        Basic utilities from 4.4BSD-Lite
@@ -34,7 +34,7 @@ ii  cpufrequtils                         008-1                                 a
 ii  crda                                 1.1.2-1ubuntu2                        amd64        wireless Central Regulatory Domain Agent
 ii  cron                                 3.0pl1-124ubuntu2                     amd64        process scheduling daemon
 ii  dash                                 0.5.7-4ubuntu1                        amd64        POSIX-compliant shell
-ii  dbus                                 1.6.18-0ubuntu4.3                     amd64        simple interprocess messaging system (daemon and utilities)
+ii  dbus                                 1.6.18-0ubuntu4.4                     amd64        simple interprocess messaging system (daemon and utilities)
 ii  debconf                              1.5.51ubuntu2                         all          Debian configuration management system
 ii  debconf-i18n                         1.5.51ubuntu2                         all          full internationalization support for debconf
 ii  debianutils                          4.4                                   amd64        Miscellaneous utilities specific to Debian
@@ -43,7 +43,7 @@ ii  diffutils                            1:3.3-1                               a
 ii  dmidecode                            2.12-2                                amd64        SMBIOS/DMI table decoder
 ii  dmsetup                              2:1.02.77-6ubuntu2                    amd64        Linux Kernel Device Mapper userspace library
 ii  dnsmasq-base                         2.68-1ubuntu0.1                       amd64        Small caching DNS proxy and DHCP/TFTP server
-ii  dnsutils                             1:9.9.5.dfsg-3ubuntu0.9               amd64        Clients provided with BIND
+ii  dnsutils                             1:9.9.5.dfsg-3ubuntu0.10              amd64        Clients provided with BIND
 ii  dpkg                                 1.17.5ubuntu5.7                       amd64        Debian package management system
 ii  dpkg-dev                             1.17.5ubuntu5.7                       all          Debian package development tools
 ii  e2fslibs:amd64                       1.42.9-3ubuntu1.3                     amd64        ext2/ext3/ext4 file system libraries
@@ -139,7 +139,7 @@ ii  libaugeas0                           1.2.0-0ubuntu1.2                      a
 ii  libavahi-client3:amd64               0.6.31-4ubuntu1.1                     amd64        Avahi client library
 ii  libavahi-common-data:amd64           0.6.31-4ubuntu1.1                     amd64        Avahi common data files
 ii  libavahi-common3:amd64               0.6.31-4ubuntu1.1                     amd64        Avahi common library
-ii  libbind9-90                          1:9.9.5.dfsg-3ubuntu0.9               amd64        BIND9 Shared Library used by BIND
+ii  libbind9-90                          1:9.9.5.dfsg-3ubuntu0.10              amd64        BIND9 Shared Library used by BIND
 ii  libblkid1:amd64                      2.20.1-5.1ubuntu20.7                  amd64        block device id library
 ii  libbluetooth3:amd64                  4.101-0ubuntu13.1                     amd64        Library to use the BlueZ Linux Bluetooth stack
 ii  libboost-system1.54.0:amd64          1.54.0-4ubuntu3.1                     amd64        Operating system (e.g. diagnostics support) library
@@ -165,11 +165,11 @@ ii  libcups2:amd64                       1.7.2-0ubuntu1.7                      a
 ii  libcurl3-gnutls:amd64                7.35.0-1ubuntu2.9                     amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii  libdatrie1:amd64                     0.2.8-1                               amd64        Double-array trie library
 ii  libdb5.3:amd64                       5.3.28-3ubuntu3                       amd64        Berkeley v5.3 Database Libraries [runtime]
-ii  libdbus-1-3:amd64                    1.6.18-0ubuntu4.3                     amd64        simple interprocess messaging system (library)
+ii  libdbus-1-3:amd64                    1.6.18-0ubuntu4.4                     amd64        simple interprocess messaging system (library)
 ii  libdebconfclient0:amd64              0.187ubuntu1                          amd64        Debian Configuration Management System (C-implementation library)
 ii  libdevmapper-event1.02.1:amd64       2:1.02.77-6ubuntu2                    amd64        Linux Kernel Device Mapper event support library
 ii  libdevmapper1.02.1:amd64             2:1.02.77-6ubuntu2                    amd64        Linux Kernel Device Mapper userspace library
-ii  libdns100                            1:9.9.5.dfsg-3ubuntu0.9               amd64        DNS Shared Library used by BIND
+ii  libdns100                            1:9.9.5.dfsg-3ubuntu0.10              amd64        DNS Shared Library used by BIND
 ii  libdpkg-perl                         1.17.5ubuntu5.7                       all          Dpkg perl modules
 ii  libdrm2:amd64                        2.4.67-1ubuntu0.14.04.1               amd64        Userspace interface to kernel DRM services -- runtime
 ii  libedit2:amd64                       3.1-20130712-2                        amd64        BSD editline and history libraries
@@ -189,7 +189,7 @@ ii  libfuse2:amd64                       2.9.2-4ubuntu4.14.04.1                a
 ii  libgcc-4.8-dev:amd64                 4.8.4-2ubuntu1~14.04.3                amd64        GCC support library (development files)
 ii  libgcc1:amd64                        1:4.9.3-0ubuntu4                      amd64        GCC support library
 ii  libgcrypt11:amd64                    1.5.3-2ubuntu4.4                      amd64        LGPL Crypto library - runtime library
-ii  libgd3:amd64                         2.1.0-3ubuntu0.3                      amd64        GD Graphics Library
+ii  libgd3:amd64                         2.1.0-3ubuntu0.5                      amd64        GD Graphics Library
 ii  libgdbm3:amd64                       1.8.3-12build1                        amd64        GNU dbm database routines (runtime version)
 ii  libgdk-pixbuf2.0-0:amd64             2.30.7-0ubuntu1.6                     amd64        GDK Pixbuf library
 ii  libgdk-pixbuf2.0-common              2.30.7-0ubuntu1.6                     all          GDK Pixbuf library - data files
@@ -216,9 +216,9 @@ ii  libhx509-5-heimdal:amd64             1.6~git20131207+dfsg-1ubuntu1.1       a
 ii  libidn11:amd64                       1.28-1ubuntu2.1                       amd64        GNU Libidn library, implementation of IETF IDN specifications
 ii  libio-multiplex-perl                 1.13-1                                all          object-oriented interface to select() for Perl
 ii  libio-socket-inet6-perl              2.71-1                                all          object interface for AF_INET6 domain sockets
-ii  libisc95                             1:9.9.5.dfsg-3ubuntu0.9               amd64        ISC Shared Library used by BIND
-ii  libisccc90                           1:9.9.5.dfsg-3ubuntu0.9               amd64        Command Channel Library used by BIND
-ii  libisccfg90                          1:9.9.5.dfsg-3ubuntu0.9               amd64        Config File Handling Library used by BIND
+ii  libisc95                             1:9.9.5.dfsg-3ubuntu0.10              amd64        ISC Shared Library used by BIND
+ii  libisccc90                           1:9.9.5.dfsg-3ubuntu0.10              amd64        Command Channel Library used by BIND
+ii  libisccfg90                          1:9.9.5.dfsg-3ubuntu0.10              amd64        Config File Handling Library used by BIND
 ii  libisl10:amd64                       0.12.2-1                              amd64        manipulating sets and relations of integer points bounded by linear constraints
 ii  libitm1:amd64                        4.8.4-2ubuntu1~14.04.3                amd64        GNU Transactional Memory Library
 ii  libjasper1:amd64                     1.900.1-14ubuntu3.3                   amd64        JasPer JPEG-2000 runtime library
@@ -240,7 +240,7 @@ ii  liblocale-gettext-perl               1.05-7build3                          a
 ii  liblockfile-bin                      1.09-6ubuntu1                         amd64        support binaries for and cli utilities based on liblockfile
 ii  liblockfile1:amd64                   1.09-6ubuntu1                         amd64        NFS-safe locking library
 ii  liblog-message-simple-perl           0.10-1                                all          simplified interface to Log::Message
-ii  liblwres90                           1:9.9.5.dfsg-3ubuntu0.9               amd64        Lightweight Resolver Library used by BIND
+ii  liblwres90                           1:9.9.5.dfsg-3ubuntu0.10              amd64        Lightweight Resolver Library used by BIND
 ii  liblzma5:amd64                       5.1.1alpha+20120614-2ubuntu2          amd64        XZ-format compression library
 ii  libmagic1:amd64                      1:5.14-2ubuntu3.3                     amd64        File type determination library using "magic" numbers
 ii  libmnl0:amd64                        1.0.3-3ubuntu1                        amd64        minimalistic Netlink communication library
@@ -260,9 +260,9 @@ ii  libnewt0.52:amd64                    0.52.15-2ubuntu5                      a
 ii  libnfnetlink0:amd64                  1.0.1-2                               amd64        Netfilter netlink library
 ii  libnih-dbus1:amd64                   1.0.3-4ubuntu25                       amd64        NIH D-Bus Bindings Library
 ii  libnih1:amd64                        1.0.3-4ubuntu25                       amd64        NIH Utility Library
-ii  libnl-3-200:amd64                    3.2.21-1ubuntu3                       amd64        library for dealing with netlink sockets
-ii  libnl-genl-3-200:amd64               3.2.21-1ubuntu3                       amd64        library for dealing with netlink sockets - generic netlink
-ii  libnl-route-3-200:amd64              3.2.21-1ubuntu3                       amd64        library for dealing with netlink sockets - route interface
+ii  libnl-3-200:amd64                    3.2.21-1ubuntu4                       amd64        library for dealing with netlink sockets
+ii  libnl-genl-3-200:amd64               3.2.21-1ubuntu4                       amd64        library for dealing with netlink sockets - generic netlink
+ii  libnl-route-3-200:amd64              3.2.21-1ubuntu4                       amd64        library for dealing with netlink sockets - route interface
 ii  libnspr4:amd64                       2:4.12-0ubuntu0.14.04.1               amd64        NetScape Portable Runtime Library
 ii  libnss3:amd64                        2:3.23-0ubuntu0.14.04.1               amd64        Network Security Service libraries
 ii  libnss3-nssdb                        2:3.23-0ubuntu0.14.04.1               all          Network Security Security libraries - shared databases
