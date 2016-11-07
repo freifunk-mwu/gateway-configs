@@ -865,15 +865,15 @@ zone "130.10.in-addr.arpa" {
 # 
 zone "fflux" {
     type static-stub;
-    server-addresses { 10.24.128.6; 10.24.128.7; fd4e:f2d7:88d2:fffe::6; fd4e:f2d7:88d2:fffe::7; };
+    server-addresses { 10.24.128.10; fd4e:f2d7:88d2:fffe::10; };
 };
 zone "e.f.f.f.2.d.8.8.7.d.2.f.e.4.d.f.ip6.arpa" {
     type static-stub;
-    server-addresses { 10.24.128.6; 10.24.128.7; fd4e:f2d7:88d2:fffe::6; fd4e:f2d7:88d2:fffe::7; };
+    server-addresses { 10.24.128.10; fd4e:f2d7:88d2:fffe::10; };
 };
 zone "128/18.24.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.24.128.6; 10.24.128.7; fd4e:f2d7:88d2:fffe::6; fd4e:f2d7:88d2:fffe::7; };
+    server-addresses { 10.24.128.10; fd4e:f2d7:88d2:fffe::10; };
 };
 # 
 # merzig
