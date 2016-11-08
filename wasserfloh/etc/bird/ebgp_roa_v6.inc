@@ -4,9 +4,10 @@
 # So Include it via:
 #   roa table icvpn { include "roa.con?" }
 # 
-roa 2001:bf7:1310::/44       max  64 as      65533; # Kreis_GT
-roa 2a03:2260:117::/48       max  64 as      65533; # Kreis_GT
-roa fd42:ffee:ff12::/48      max  64 as      65533; # Kreis_GT
+roa 2001:bf7:1310::/44       max  64 as     206813; # Kreis_GT
+roa 2a03:2260:117::/48       max  64 as     206813; # Kreis_GT
+roa 2a06:e881:1700::/44      max  64 as     206813; # Kreis_GT
+roa fd42:ffee:ff12::/48      max  64 as     206813; # Kreis_GT
 roa 2a03:2260:114::/48       max  64 as      65077; # aachen
 roa fdca:ffee:ffa1::/48      max  64 as      65522; # altmuehltal
 roa 2001:bf7:2520::/44       max  64 as      65050; # augsburg
@@ -47,6 +48,7 @@ roa fdec:4562:434f::/64      max  64 as      65520; # ebersdorf
 roa 2001:bf7:130::/44        max  64 as      65138; # elm-lappwald
 roa 2001:bf7:100:2263::/64   max  64 as      65530; # engelskirchen (delegation)
 roa fddf:ebfd:a801:2263::/64 max  64 as      65530; # engelskirchen (delegation)
+roa 2001:bf8:100:100::/64    max  64 as      64886; # erzgebirge
 roa fda0:747e:ab29:e054::/64 max  64 as      64869; # euskirchen
 roa 2001:bf7:10::/44         max  64 as      65056; # flensburg
 roa fda0:747e:ab29:9375::/64 max  64 as      65125; # flingern
