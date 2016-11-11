@@ -224,8 +224,8 @@ ii  libnewt0.52:amd64                0.52.15-2ubuntu5                  amd64    
 ii  libnfnetlink0:amd64              1.0.1-2                           amd64        Netfilter netlink library
 ii  libnih-dbus1:amd64               1.0.3-4ubuntu25                   amd64        NIH D-Bus Bindings Library
 ii  libnih1:amd64                    1.0.3-4ubuntu25                   amd64        NIH Utility Library
-ii  libnl-3-200:amd64                3.2.21-1ubuntu3                   amd64        library for dealing with netlink sockets
-ii  libnl-genl-3-200:amd64           3.2.21-1ubuntu3                   amd64        library for dealing with netlink sockets - generic netlink
+ii  libnl-3-200:amd64                3.2.21-1ubuntu4                   amd64        library for dealing with netlink sockets
+ii  libnl-genl-3-200:amd64           3.2.21-1ubuntu4                   amd64        library for dealing with netlink sockets - generic netlink
 ii  libntlm0:amd64                   1.4-1                             amd64        NTLM authentication library
 ii  libopts25:amd64                  1:5.18-2ubuntu2                   amd64        automated option processing library based on autogen
 ii  libp11-kit0:amd64                0.20.2-2ubuntu2                   amd64        Library for loading and coordinating access to PKCS#11 modules - runtime
@@ -327,14 +327,8 @@ ii  linux-headers-3.13.0-59          3.13.0-59.98                      all      
 ii  linux-headers-3.13.0-59-generic  3.13.0-59.98                      amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-61          3.13.0-61.100                     all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-61-generic  3.13.0-61.100                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-87          3.13.0-87.133                     all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-87-generic  3.13.0-87.133                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-95          3.13.0-95.142                     all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-95-generic  3.13.0-95.142                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-96          3.13.0-96.143                     all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-96-generic  3.13.0-96.143                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-98          3.13.0-98.145                     all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-98-generic  3.13.0-98.145                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-generic            3.13.0.101.109                    amd64        Generic Linux kernel headers
 ii  linux-headers-virtual            3.13.0.101.109                    amd64        Transitional package.
 ii  linux-image-3.13.0-100-generic   3.13.0-100.147                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -377,14 +371,14 @@ rc  linux-image-3.13.0-79-generic    3.13.0-79.123                     amd64    
 rc  linux-image-3.13.0-83-generic    3.13.0-83.127                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-85-generic    3.13.0-85.129                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-86-generic    3.13.0-86.131                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-87-generic    3.13.0-87.133                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-87-generic    3.13.0-87.133                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-88-generic    3.13.0-88.135                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-91-generic    3.13.0-91.138                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-92-generic    3.13.0-92.139                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-93-generic    3.13.0-93.140                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-95-generic    3.13.0-95.142                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-95-generic    3.13.0-95.142                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-96-generic    3.13.0-96.143                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-98-generic    3.13.0-98.145                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-98-generic    3.13.0-98.145                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-virtual              3.13.0.101.109                    amd64        This package will always depend on the latest minimal generic kernel image.
 ii  linux-libc-dev:amd64             3.13.0-101.148                    amd64        Linux Kernel Headers for development
 ii  linux-virtual                    3.13.0.101.109                    amd64        Minimal Generic Linux kernel and headers
@@ -510,7 +504,7 @@ ii  shared-mime-info                 1.2-0ubuntu3                      amd64    
 ii  software-properties-common       0.92.37.7                         all          manage the repositories that you install software from (common)
 ii  ssh-import-id                    3.21-0ubuntu1                     all          securely retrieve an SSH public key and install it locally
 ii  ssl-cert                         1.0.33                            all          simple debconf wrapper for OpenSSL
-ii  sudo                             1.8.9p5-1ubuntu1.2                amd64        Provide limited super user privileges to specific users
+ii  sudo                             1.8.9p5-1ubuntu1.3                amd64        Provide limited super user privileges to specific users
 ii  systemd-services                 204-5ubuntu20.19                  amd64        systemd runtime services
 ii  systemd-shim                     6-2bzr1                           amd64        shim for systemd
 ii  sysv-rc                          2.88dsf-41ubuntu6.3               all          System-V-like runlevel change mechanism
