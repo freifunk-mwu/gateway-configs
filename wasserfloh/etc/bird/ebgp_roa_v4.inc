@@ -78,7 +78,7 @@ roa 10.189.0.0/18   max  20 as      65189; # helgoland
 roa 10.186.0.0/16   max  20 as      65100; # hennef
 roa 10.34.0.0/16    max  20 as      64866; # herford
 roa 10.11.128.0/20  max  20 as      64872; # hilden
-roa 10.146.0.0/16   max  20 as      65530; # hueckeswagen (delegation)
+roa 10.146.0.0/16   max  20 as      64887; # hueckeswagen
 roa 10.10.0.0/16    max  20 as      65252; # ingolstadt
 roa 10.13.144.0/20  max  20 as      65052; # innsbruck
 roa 10.17.0.0/16    max  20 as      65055; # jena
