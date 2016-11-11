@@ -3,7 +3,7 @@ Desired=Unknown/Install/Remove/Purge/Hold
 |/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
 ||/ Name                                 Version                             Architecture Description
 +++-====================================-===================================-============-===================================================================================
-ii  accountsservice                      0.6.35-0ubuntu7.2                   amd64        query and manipulate user account information
+ii  accountsservice                      0.6.35-0ubuntu7.3                   amd64        query and manipulate user account information
 ii  acpid                                1:2.0.21-1ubuntu2                   amd64        Advanced Configuration and Power Interface event daemon
 ii  adduser                              3.113+nmu3ubuntu3                   all          add and remove users and groups
 ii  alfred                               2016.0-0ffmwu0~trusty               amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
@@ -166,7 +166,7 @@ ii  landscape-common                     14.12-0ubuntu0.14.04                amd
 ii  language-selector-common             0.129.3                             all          Language selector for Ubuntu
 ii  laptop-detect                        0.13.7ubuntu2                       amd64        attempt to detect a laptop
 ii  less                                 458-2                               amd64        pager program similar to more
-ii  libaccountsservice0:amd64            0.6.35-0ubuntu7.2                   amd64        query and manipulate user account information - shared libraries
+ii  libaccountsservice0:amd64            0.6.35-0ubuntu7.3                   amd64        query and manipulate user account information - shared libraries
 ii  libacl1:amd64                        2.2.52-1                            amd64        Access control list shared library
 ii  libaio1:amd64                        0.3.109-4                           amd64        Linux kernel AIO access library - shared library
 ii  libalgorithm-diff-perl               1.19.02-3                           all          module to find differences between files
@@ -383,8 +383,8 @@ ii  libnewt0.52:amd64                    0.52.15-2ubuntu5                    amd
 ii  libnfnetlink0:amd64                  1.0.1-2                             amd64        Netfilter netlink library
 ii  libnih-dbus1:amd64                   1.0.3-4ubuntu25                     amd64        NIH D-Bus Bindings Library
 ii  libnih1:amd64                        1.0.3-4ubuntu25                     amd64        NIH Utility Library
-ii  libnl-3-200:amd64                    3.2.21-1ubuntu3                     amd64        library for dealing with netlink sockets
-ii  libnl-genl-3-200:amd64               3.2.21-1ubuntu3                     amd64        library for dealing with netlink sockets - generic netlink
+ii  libnl-3-200:amd64                    3.2.21-1ubuntu4                     amd64        library for dealing with netlink sockets
+ii  libnl-genl-3-200:amd64               3.2.21-1ubuntu4                     amd64        library for dealing with netlink sockets - generic netlink
 ii  libntlm0:amd64                       1.4-1                               amd64        NTLM authentication library
 ii  libnuma1:amd64                       2.0.9~rc5-1ubuntu3.14.04.2          amd64        Libraries for controlling NUMA policy
 ii  libopenexr6:amd64                    1.6.1-7ubuntu1                      amd64        runtime files for the OpenEXR image library
@@ -528,19 +528,15 @@ ii  libxtables10                         1.4.21-1ubuntu1                     amd
 ii  libyaml-0-2:amd64                    0.1.4-3ubuntu3.1                    amd64        Fast YAML 1.1 parser and emitter library
 ii  libyaml-dev:amd64                    0.1.4-3ubuntu3.1                    amd64        Fast YAML 1.1 parser and emitter library (development)
 ii  linux-firmware                       1.127.22                            all          Firmware for Linux kernel drivers
-ii  linux-headers-3.13.0-100             3.13.0-100.147                      all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-100-generic     3.13.0-100.147                      amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-101             3.13.0-101.148                      all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-101-generic     3.13.0-101.148                      amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-86              3.13.0-86.131                       all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-86-generic      3.13.0-86.131                       amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-96              3.13.0-96.143                       all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-96-generic      3.13.0-96.143                       amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-98              3.13.0-98.145                       all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-98-generic      3.13.0-98.145                       amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-generic                3.13.0.101.109                      amd64        Generic Linux kernel headers
 ii  linux-headers-generic-lts-trusty     3.13.0.101.109                      amd64        Generic Linux kernel headers
-ii  linux-image-3.13.0-100-generic       3.13.0-100.147                      amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-100-generic       3.13.0-100.147                      amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-101-generic       3.13.0-101.148                      amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-79-generic        3.13.0-79.123                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-83-generic        3.13.0-83.127                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -553,7 +549,7 @@ rc  linux-image-3.13.0-92-generic        3.13.0-92.139                       amd
 rc  linux-image-3.13.0-93-generic        3.13.0-93.140                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-95-generic        3.13.0-95.142                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-96-generic        3.13.0-96.143                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-98-generic        3.13.0-98.145                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-98-generic        3.13.0-98.145                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.19.0-31-generic        3.19.0-31.36~14.04.1                amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-3.19.0-32-generic        3.19.0-32.37~14.04.1                amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-3.19.0-33-generic        3.19.0-33.38~14.04.1                amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
@@ -563,7 +559,7 @@ rc  linux-image-3.19.0-41-generic        3.19.0-41.46~14.04.2                amd
 rc  linux-image-3.19.0-42-generic        3.19.0-42.48~14.04.1                amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-3.19.0-47-generic        3.19.0-47.53~14.04.1                amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-3.19.0-49-generic        3.19.0-49.55~14.04.1                amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-100-generic 3.13.0-100.147                      amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-100-generic 3.13.0-100.147                      amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-101-generic 3.13.0-101.148                      amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-79-generic  3.13.0-79.123                       amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-83-generic  3.13.0-83.127                       amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
@@ -576,7 +572,7 @@ rc  linux-image-extra-3.13.0-92-generic  3.13.0-92.139                       amd
 rc  linux-image-extra-3.13.0-93-generic  3.13.0-93.140                       amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-95-generic  3.13.0-95.142                       amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-96-generic  3.13.0-96.143                       amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-98-generic  3.13.0-98.145                       amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-98-generic  3.13.0-98.145                       amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-31-generic  3.19.0-31.36~14.04.1                amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-32-generic  3.19.0-32.37~14.04.1                amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-33-generic  3.19.0-33.38~14.04.1                amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
