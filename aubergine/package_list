@@ -14,9 +14,9 @@ ii  apache2-doc                          2.4.7-1ubuntu4.13                 all  
 ii  apache2-utils                        2.4.7-1ubuntu4.13                 amd64        Apache HTTP Server (utility programs for web servers)
 ii  apport                               2.14.1-0ubuntu3.21                all          automatically generate crash reports for debugging
 ii  apport-symptoms                      0.20                              all          symptom scripts for apport
-ii  apt                                  1.0.1ubuntu2.14                   amd64        commandline package manager
-ii  apt-transport-https                  1.0.1ubuntu2.14                   amd64        https download transport for APT
-ii  apt-utils                            1.0.1ubuntu2.14                   amd64        package management related utility programs
+ii  apt                                  1.0.1ubuntu2.15                   amd64        commandline package manager
+ii  apt-transport-https                  1.0.1ubuntu2.15                   amd64        https download transport for APT
+ii  apt-utils                            1.0.1ubuntu2.15                   amd64        package management related utility programs
 ii  apt-xapian-index                     0.45ubuntu4                       all          maintenance and search tools for a Xapian index of Debian packages
 ii  aptitude                             0.6.8.2-1ubuntu4                  amd64        terminal-based package manager
 ii  aptitude-common                      0.6.8.2-1ubuntu4                  all          architecture indepedent files for the aptitude package manager
@@ -36,7 +36,7 @@ ii  bind9-host                           1:9.9.5.dfsg-3ubuntu0.10          amd64
 ii  bind9utils                           1:9.9.5.dfsg-3ubuntu0.10          amd64        Utilities for BIND
 ii  binutils                             2.24-5ubuntu14.1                  amd64        GNU assembler, linker and binary utilities
 ii  biosdevname                          0.4.1-0ubuntu6.3                  amd64        apply BIOS-given names to network devices
-ii  bird                                 1.6.2-1+trusty+1                  amd64        Internet Routing Daemon
+ii  bird                                 1.6.2-2+trusty+1                  amd64        Internet Routing Daemon
 ii  bird6                                1.5.0-1+trusty+1                  all          Internet Routing Daemon [transitional packages]
 ii  bridge-utils                         1.5-6ubuntu2                      amd64        Utilities for configuring the Linux Ethernet bridge
 ii  bsdmainutils                         9.0.5ubuntu1                      amd64        collection of more utilities from FreeBSD
@@ -66,7 +66,7 @@ ii  debconf-i18n                         1.5.51ubuntu2                     all  
 ii  debianutils                          4.4                               amd64        Miscellaneous utilities specific to Debian
 ii  dh-python                            1.20140128-1ubuntu8.2             all          Debian helper tools for packaging Python libraries and applications
 ii  diffutils                            1:3.3-1                           amd64        File comparison utilities
-ii  dkms                                 2.2.0.3-1.1ubuntu5.14.04.8        all          Dynamic Kernel Module Support Framework
+ii  dkms                                 2.2.0.3-1.1ubuntu5.14.04.9        all          Dynamic Kernel Module Support Framework
 ii  dmidecode                            2.12-2                            amd64        SMBIOS/DMI table decoder
 ii  dmsetup                              2:1.02.77-6ubuntu2                amd64        Linux Kernel Device Mapper userspace library
 ii  dnsutils                             1:9.9.5.dfsg-3ubuntu0.10          amd64        Clients provided with BIND
@@ -153,8 +153,8 @@ ii  libapr1:amd64                        1.5.0-1                           amd64
 ii  libaprutil1:amd64                    1.5.3-1                           amd64        Apache Portable Runtime Utility Library
 ii  libaprutil1-dbd-sqlite3:amd64        1.5.3-1                           amd64        Apache Portable Runtime Utility Library - SQLite3 Driver
 ii  libaprutil1-ldap:amd64               1.5.3-1                           amd64        Apache Portable Runtime Utility Library - LDAP Driver
-ii  libapt-inst1.5:amd64                 1.0.1ubuntu2.14                   amd64        deb package format runtime library
-ii  libapt-pkg4.12:amd64                 1.0.1ubuntu2.14                   amd64        package management runtime library
+ii  libapt-inst1.5:amd64                 1.0.1ubuntu2.15                   amd64        deb package format runtime library
+ii  libapt-pkg4.12:amd64                 1.0.1ubuntu2.15                   amd64        package management runtime library
 ii  libarchive-extract-perl              0.70-1                            all          generic archive extracting module
 ii  libasan0:amd64                       4.8.4-2ubuntu1~14.04.3            amd64        AddressSanitizer -- a fast memory error detector
 ii  libasn1-8-heimdal:amd64              1.6~git20131207+dfsg-1ubuntu1.1   amd64        Heimdal Kerberos - ASN.1 library
@@ -329,8 +329,8 @@ rc  libnettle4:amd64                     2.7.1-1ubuntu0.1                  amd64
 ii  libnewt0.52:amd64                    0.52.15-2ubuntu5                  amd64        Not Erik's Windowing Toolkit - text mode windowing with slang
 ii  libnih-dbus1:amd64                   1.0.3-4ubuntu25                   amd64        NIH D-Bus Bindings Library
 ii  libnih1:amd64                        1.0.3-4ubuntu25                   amd64        NIH Utility Library
-ii  libnl-3-200:amd64                    3.2.21-1ubuntu3                   amd64        library for dealing with netlink sockets
-ii  libnl-genl-3-200:amd64               3.2.21-1ubuntu3                   amd64        library for dealing with netlink sockets - generic netlink
+ii  libnl-3-200:amd64                    3.2.21-1ubuntu4                   amd64        library for dealing with netlink sockets
+ii  libnl-genl-3-200:amd64               3.2.21-1ubuntu4                   amd64        library for dealing with netlink sockets - generic netlink
 rc  libnspr4:amd64                       2:4.10.7-0ubuntu0.14.04.1         amd64        NetScape Portable Runtime Library
 rc  libnss3:amd64                        2:3.17.1-0ubuntu0.14.04.1         amd64        Network Security Service libraries
 ii  libntlm0:amd64                       1.4-1                             amd64        NTLM authentication library
@@ -363,7 +363,7 @@ ii  libpolkit-agent-1-0:amd64            0.105-4ubuntu3.14.04.1            amd64
 ii  libpolkit-backend-1-0:amd64          0.105-4ubuntu3.14.04.1            amd64        PolicyKit backend API
 ii  libpolkit-gobject-1-0:amd64          0.105-4ubuntu3.14.04.1            amd64        PolicyKit Authorization API
 ii  libpopt0:amd64                       1.16-8ubuntu1                     amd64        lib for parsing cmdline parameters
-ii  libpq5                               9.3.14-0ubuntu0.14.04             amd64        PostgreSQL C client library
+ii  libpq5                               9.3.15-0ubuntu0.14.04             amd64        PostgreSQL C client library
 ii  libprocps3:amd64                     1:3.3.9-1ubuntu2.2                amd64        library for accessing process information from /proc
 ii  libpython-dev:amd64                  2.7.5-5ubuntu3                    amd64        header files and a static library for Python (default)
 ii  libpython-stdlib:amd64               2.7.5-5ubuntu3                    amd64        interactive high-level object-oriented language (default python version)
@@ -473,20 +473,14 @@ ii  libxss1:amd64                        1:1.2.2-1                         amd64
 ii  libxt6:amd64                         1:1.1.4-1                         amd64        X11 toolkit intrinsics library
 ii  libyaml-0-2:amd64                    0.1.4-3ubuntu3.1                  amd64        Fast YAML 1.1 parser and emitter library
 ii  linux-firmware                       1.127.22                          all          Firmware for Linux kernel drivers
-ii  linux-headers-3.13.0-100             3.13.0-100.147                    all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-100-generic     3.13.0-100.147                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-101             3.13.0-101.148                    all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-101-generic     3.13.0-101.148                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-93              3.13.0-93.140                     all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-93-generic      3.13.0-93.140                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-96              3.13.0-96.143                     all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-96-generic      3.13.0-96.143                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-98              3.13.0-98.145                     all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-98-generic      3.13.0-98.145                     amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-generic                3.13.0.101.109                    amd64        Generic Linux kernel headers
 ii  linux-headers-generic-lts-trusty     3.13.0.101.109                    amd64        Generic Linux kernel headers
 ii  linux-headers-virtual                3.13.0.101.109                    amd64        Transitional package.
-ii  linux-image-3.13.0-100-generic       3.13.0-100.147                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-100-generic       3.13.0-100.147                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-101-generic       3.13.0-101.148                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-32-generic        3.13.0-32.57                      amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-40-generic        3.13.0-40.69                      amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -525,11 +519,11 @@ rc  linux-image-3.13.0-87-generic        3.13.0-87.133                     amd64
 rc  linux-image-3.13.0-88-generic        3.13.0-88.135                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-91-generic        3.13.0-91.138                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-92-generic        3.13.0-92.139                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-93-generic        3.13.0-93.140                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-93-generic        3.13.0-93.140                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-95-generic        3.13.0-95.142                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-96-generic        3.13.0-96.143                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-98-generic        3.13.0-98.145                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-100-generic 3.13.0-100.147                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-98-generic        3.13.0-98.145                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-100-generic 3.13.0-100.147                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-101-generic 3.13.0-101.148                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-79-generic  3.13.0-79.123                     amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-83-generic  3.13.0-83.127                     amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
@@ -539,10 +533,10 @@ rc  linux-image-extra-3.13.0-87-generic  3.13.0-87.133                     amd64
 rc  linux-image-extra-3.13.0-88-generic  3.13.0-88.135                     amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-91-generic  3.13.0-91.138                     amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-92-generic  3.13.0-92.139                     amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-93-generic  3.13.0-93.140                     amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-93-generic  3.13.0-93.140                     amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-95-generic  3.13.0-95.142                     amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-96-generic  3.13.0-96.143                     amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-98-generic  3.13.0-98.145                     amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-98-generic  3.13.0-98.145                     amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-generic                  3.13.0.101.109                    amd64        Generic Linux kernel image
 ii  linux-image-generic-lts-trusty       3.13.0.101.109                    amd64        Generic Linux kernel image
 ii  linux-image-virtual                  3.13.0.101.109                    amd64        This package will always depend on the latest minimal generic kernel image.
@@ -762,7 +756,7 @@ ii  python3-requests                     2.2.1-1ubuntu0.3                  all  
 ii  python3-setuptools                   3.3-1ubuntu2                      all          Python3 Distutils Enhancements
 ii  python3-six                          1.5.2-1ubuntu1                    all          Python 2 and 3 compatibility library (Python 3 interface)
 ii  python3-software-properties          0.92.37.7                         all          manage the repositories that you install software from
-ii  python3-update-manager               1:0.196.21                        all          python 3.x module for update-manager
+ii  python3-update-manager               1:0.196.22                        all          python 3.x module for update-manager
 ii  python3-urllib3                      1.7.1-1ubuntu4                    all          HTTP library with thread-safe connection pooling for Python3
 ii  python3-werkzeug                     0.9.4+dfsg-1.1ubuntu2             all          collection of utilities for WSGI applications
 ii  python3-wheel                        0.24.0-1~ubuntu1                  all          built-package format for Python
@@ -813,7 +807,7 @@ ii  sqlite3                              3.8.2-1ubuntu2.1                  amd64
 ii  ssh                                  1:6.6p1-2ubuntu2.8                all          secure shell client and server (metapackage)
 ii  ssh-import-id                        3.21-0ubuntu1                     all          securely retrieve an SSH public key and install it locally
 ii  ssl-cert                             1.0.33                            all          simple debconf wrapper for OpenSSL
-ii  sudo                                 1.8.9p5-1ubuntu1.2                amd64        Provide limited super user privileges to specific users
+ii  sudo                                 1.8.9p5-1ubuntu1.3                amd64        Provide limited super user privileges to specific users
 ii  sysfsutils                           2.1.0+repack-3ubuntu1             amd64        sysfs query tool and boot-time setup
 ii  sysstat                              10.2.0-1                          amd64        system performance tools for Linux
 ii  systemd-services                     204-5ubuntu20.19                  amd64        systemd runtime services
@@ -837,7 +831,7 @@ ii  ubuntu-release-upgrader-core         1:0.220.8                         all  
 ii  ucf                                  3.0027+nmu1                       all          Update Configuration File(s): preserve user changes to config files
 ii  udev                                 204-5ubuntu20.19                  amd64        /dev/ and hotplug management daemon
 ii  unattended-upgrades                  0.82.1ubuntu2.4                   all          automatic installation of security upgrades
-ii  update-manager-core                  1:0.196.21                        all          manage release upgrades
+ii  update-manager-core                  1:0.196.22                        all          manage release upgrades
 ii  update-notifier-common               0.154.1ubuntu2                    all          Files shared between update-notifier and other packages
 ii  upstart                              1.12.1-0ubuntu4.2                 amd64        event-based init daemon
 ii  ureadahead                           0.100.0-16                        amd64        Read required files in advance
