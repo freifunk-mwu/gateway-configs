@@ -209,6 +209,7 @@ ii  libgtk2.0-0:amd64                    2.24.23-0ubuntu1.4                    a
 ii  libgtk2.0-bin                        2.24.23-0ubuntu1.4                    amd64        programs for the GTK+ graphical user interface library
 ii  libgtk2.0-common                     2.24.23-0ubuntu1.4                    all          common files for the GTK+ graphical user interface library
 ii  libharfbuzz0b:amd64                  0.9.27-1ubuntu1.1                     amd64        OpenType text shaping engine (shared library)
+ii  libhavege1:amd64                     1.7c-1                                amd64        entropy source using the HAVEGE algorithm - shared library
 ii  libhcrypto4-heimdal:amd64            1.6~git20131207+dfsg-1ubuntu1.1       amd64        Heimdal Kerberos - crypto library
 ii  libheimbase1-heimdal:amd64           1.6~git20131207+dfsg-1ubuntu1.1       amd64        Heimdal Kerberos - Base library
 ii  libheimntlm0-heimdal:amd64           1.6~git20131207+dfsg-1ubuntu1.1       amd64        Heimdal Kerberos - NTLM support library
