@@ -595,6 +595,7 @@ ii  lsb-release                          4.1+Debian11ubuntu6.2               all
 ii  lshw                                 02.16-2ubuntu1.3                    amd64        information about hardware configuration
 ii  lsof                                 4.86+dfsg-1ubuntu2                  amd64        Utility to list open files
 ii  ltrace                               0.7.3-4ubuntu5.1                    amd64        Tracks runtime library calls in dynamically linked programs
+ii  lynx-cur                             2.8.8pre4-1                         amd64        Text-mode WWW Browser with NLS support (development version)
 ii  m4                                   1.4.17-2ubuntu1                     amd64        a macro processing language
 ii  mailutils                            1:2.99.98-1.1                       amd64        GNU mailutils utilities for handling mail
 ii  mailutils-common                     1:2.99.98-1.1                       all          Common files for GNU mailutils
