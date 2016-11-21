@@ -3,7 +3,7 @@ $ORIGIN ffmz.org.
 
 $TTL    600
 @       IN      SOA     aubergine.ffmz.org. hostmaster.ffmz.org. (
-                     2016111100         ; Serial
+                     2016112000         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -43,9 +43,9 @@ wasserfloh  	   	IN      A       10.37.0.231
 wasserfloh     		IN      AAAA    fd37:b4dc:4b1e::a25:e7
 gate231          	IN      CNAME   wasserfloh
 
-parmesan        	IN      A       10.37.0.42
-parmesan        	IN      AAAA    fd37:b4dc:4b1e::a25:2a
-gate42          	IN      CNAME   parmesan
+extrasahne        	IN      A       10.37.0.42
+extrasahne        	IN      AAAA    fd37:b4dc:4b1e::a25:2a
+gate42          	IN      CNAME   extrasahne
 
 ; internal services and stuff
 7.ntp           	IN      CNAME   spinat
