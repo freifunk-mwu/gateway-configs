@@ -33,6 +33,8 @@ wasserfloh	IN	CNAME	wasserfloh.freifunk-mwu.de.
 gate231		IN	CNAME	wasserfloh.freifunk-mwu.de.
 ingwer		IN	CNAME	ingwer.freifunk-mwu.de.
 gate161		IN	CNAME	ingwer.freifunk-mwu.de.
+extrasahne	IN	CNAME	extrasahne.freifunk-mwu.de.
+gate42		IN	CNAME	extrasahne.freifunk-mwu.de.
 
 ; services and stuff
 www		IN	CNAME	zuckerwatte.freifunk-mwu.de.
