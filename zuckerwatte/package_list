@@ -135,8 +135,8 @@ ii  hicolor-icon-theme                   0.13-1                              all
 ii  hostname                             3.15ubuntu1                         amd64        utility to set/show the host name or domain name
 ii  htop                                 1.0.2-3                             amd64        interactive processes viewer
 ii  ifupdown                             0.7.47.2ubuntu4.4                   amd64        high level tools to configure network interfaces
-ii  imagemagick                          8:6.7.7.10-6ubuntu3.1               amd64        image manipulation programs
-ii  imagemagick-common                   8:6.7.7.10-6ubuntu3.1               all          image manipulation programs -- infrastructure
+ii  imagemagick                          8:6.7.7.10-6ubuntu3.2               amd64        image manipulation programs
+ii  imagemagick-common                   8:6.7.7.10-6ubuntu3.2               all          image manipulation programs -- infrastructure
 ii  info                                 5.2.0.dfsg.1-2                      amd64        Standalone GNU Info documentation browser
 ii  init-system-helpers                  1.14                                all          helper tools for all init systems
 ii  initramfs-tools                      0.103ubuntu4.4                      all          tools for generating an initramfs
@@ -360,9 +360,9 @@ ii  liblwres90                           1:9.9.5.dfsg-3ubuntu0.10            amd
 ii  liblzma5:amd64                       5.1.1alpha+20120614-2ubuntu2        amd64        XZ-format compression library
 ii  liblzo2-2:amd64                      2.06-1.2ubuntu1.1                   amd64        data compression library
 ii  libmagic1:amd64                      1:5.14-2ubuntu3.3                   amd64        File type determination library using "magic" numbers
-ii  libmagickcore5:amd64                 8:6.7.7.10-6ubuntu3.1               amd64        low-level image manipulation library
-ii  libmagickcore5-extra:amd64           8:6.7.7.10-6ubuntu3.1               amd64        low-level image manipulation library - extra codecs
-ii  libmagickwand5:amd64                 8:6.7.7.10-6ubuntu3.1               amd64        image manipulation library
+ii  libmagickcore5:amd64                 8:6.7.7.10-6ubuntu3.2               amd64        low-level image manipulation library
+ii  libmagickcore5-extra:amd64           8:6.7.7.10-6ubuntu3.2               amd64        low-level image manipulation library - extra codecs
+ii  libmagickwand5:amd64                 8:6.7.7.10-6ubuntu3.2               amd64        image manipulation library
 ii  libmailtools-perl                    2.12-1                              all          Manipulate email in perl programs
 ii  libmailutils4                        1:2.99.98-1.1                       amd64        GNU Mail abstraction library
 ii  libmcrypt4                           2.5.8-3.1ubuntu1                    amd64        De-/Encryption Library
@@ -828,7 +828,7 @@ ii  systemd-services                     204-5ubuntu20.19                    amd
 ii  systemd-shim                         6-2bzr1                             amd64        shim for systemd
 ii  sysv-rc                              2.88dsf-41ubuntu6.3                 all          System-V-like runlevel change mechanism
 ii  sysvinit-utils                       2.88dsf-41ubuntu6.3                 amd64        System-V-like utilities
-ii  tar                                  1.27.1-1                            amd64        GNU version of the tar archiving utility
+ii  tar                                  1.27.1-1ubuntu0.1                   amd64        GNU version of the tar archiving utility
 ii  tasksel                              2.88ubuntu15                        all          Tool for selecting tasks for installation on Debian systems
 ii  tasksel-data                         2.88ubuntu15                        all          Official tasks used for installation of Debian systems
 ii  tcpd                                 7.6.q-25                            amd64        Wietse Venema's TCP wrapper utilities
