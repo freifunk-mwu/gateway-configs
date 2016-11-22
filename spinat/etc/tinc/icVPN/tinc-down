@@ -1,7 +1,7 @@
 #!/bin/sh
 # primary address: mainz2
-/sbin/ip addr del dev ${INTERFACE} 10.207.1.37/16 broadcast 10.207.255.255
-/sbin/ip -6 addr del dev ${INTERFACE} fec0::a:cf:1:25/96
+/sbin/ip addr del dev ${INTERFACE} 10.207.37.7/16 broadcast 10.207.255.255
+/sbin/ip -6 addr del dev ${INTERFACE} fec0::a:cf:25:7/96
 
 # Remove routes for icvpn transfer-net
 /sbin/ip -4 route del 10.207.0.0/16 proto static dev ${INTERFACE} table icvpn
