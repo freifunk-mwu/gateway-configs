@@ -54,6 +54,20 @@ iface wiVPN inet6 manual
         post-up		/usr/sbin/batctl -m wiBAT if add $IFACE
         post-up		/sbin/ip link set dev wiBAT up
 
+allow-hotplug mzigVPN
+iface mzigVPN inet6 manual
+        pre-up          /sbin/modprobe batman_adv
+        pre-up          /sbin/ip link set address 02:00:0a:25:01:17 dev $IFACE
+        post-up         /usr/sbin/batctl -m mzBAT if add $IFACE
+        post-up         /sbin/ip link set dev mzBAT up
+
+allow-hotplug wiigVPN
+iface wiigVPN inet6 manual
+        pre-up          /sbin/modprobe batman_adv
+        pre-up          /sbin/ip link set address 02:00:0a:38:01:17 dev $IFACE
+        post-up         /usr/sbin/batctl -m wiBAT if add $IFACE
+        post-up         /sbin/ip link set dev wiBAT up
+
 allow-hotplug mzBAT
 iface mzBAT inet6 manual
 	hwaddress 02:41:0a:25:00:17
@@ -61,6 +75,8 @@ iface mzBAT inet6 manual
 	post-up		/sbin/brctl addif mzBR $IFACE
 	post-up 	/usr/sbin/batctl -m $IFACE it 10000
 	post-up 	/usr/sbin/batctl -m $IFACE gw server 96mbit/96mbit
+	post-up 	/usr/sbin/batctl -m $IFACE mm 0
+	post-up 	/usr/sbin/batctl -m $IFACE dat 0
 	pre-down	/sbin/brctl delif mzBR $IFACE || true
 
 allow-hotplug wiBAT
@@ -70,6 +86,8 @@ iface wiBAT inet6 manual
 	post-up         /sbin/brctl addif wiBR $IFACE
 	post-up 	/usr/sbin/batctl -m $IFACE it 10000
 	post-up 	/usr/sbin/batctl -m $IFACE gw server 96mbit/96mbit
+	post-up 	/usr/sbin/batctl -m $IFACE mm 0
+	post-up 	/usr/sbin/batctl -m $IFACE dat 0
         pre-down        /sbin/brctl delif wiBR $IFACE || true
 
 auto ffrl-a-ak-ber
