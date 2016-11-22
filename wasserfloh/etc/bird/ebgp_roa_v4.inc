@@ -4,6 +4,8 @@
 # So Include it via:
 #   roa table icvpn { include "roa.con?" }
 # 
+roa 10.234.0.0/15   max  20 as     206813; # Kreis_GT
+roa 10.255.0.0/16   max  20 as     206813; # Kreis_GT
 roa 10.5.0.0/16     max  20 as      65077; # aachen
 roa 10.202.0.0/18   max  20 as      65522; # altmuehltal
 roa 10.205.0.0/16   max  20 as      65205; # amsterdam
@@ -40,6 +42,7 @@ roa 10.138.0.0/16   max  20 as      65138; # elm-lappwald
 roa 10.13.192.0/18  max  20 as      65402; # emscherland
 roa 10.141.128.0/17 max  20 as      65530; # engelskirchen (delegation)
 roa 10.99.0.0/16    max  20 as      65099; # erfurt
+roa 10.13.80.0/20   max  20 as      64886; # erzgebirge
 roa 10.228.0.0/16   max  20 as      65406; # essen
 roa 10.19.0.0/16    max  20 as      64869; # euskirchen
 roa 10.129.0.0/16   max  20 as      65056; # flensburg
@@ -49,6 +52,7 @@ roa 10.50.0.0/16    max  20 as      65024; # franken
 roa 10.83.0.0/16    max  20 as      65024; # franken
 roa 10.15.128.0/18  max  20 as      64890; # frankenberg
 roa 10.126.0.0/16   max  20 as      65026; # frankfurt
+roa 10.212.0.0/20   max  20 as      64879; # freemesh-denmark
 roa 10.60.0.0/16    max  20 as      65060; # freiburg
 roa 10.185.0.0/16   max  20 as      65142; # fulda
 roa 10.28.0.0/16    max  20 as      65397; # gelsenkirchen
@@ -60,9 +64,6 @@ roa 10.12.0.0/16    max  20 as      65048; # graz
 roa 193.33.150.0/23 max  23 as      65048; # graz
 roa 10.143.0.0/18   max  20 as      65489; # greifswald
 roa 10.206.0.0/16   max  20 as      65530; # gronau (delegation)
-roa 10.234.0.0/16   max  20 as      65533; # guetersloh
-roa 10.235.0.0/16   max  20 as      65533; # guetersloh
-roa 10.255.0.0/16   max  20 as      65533; # guetersloh
 roa 10.253.128.0/17 max  20 as      65530; # gummersbach (delegation)
 roa 10.154.0.0/16   max  20 as      65530; # hagen (delegation)
 roa 10.62.0.0/16    max  20 as      65046; # halle
@@ -77,7 +78,7 @@ roa 10.189.0.0/18   max  20 as      65189; # helgoland
 roa 10.186.0.0/16   max  20 as      65100; # hennef
 roa 10.34.0.0/16    max  20 as      64866; # herford
 roa 10.11.128.0/20  max  20 as      64872; # hilden
-roa 10.146.0.0/16   max  20 as      65530; # hueckeswagen (delegation)
+roa 10.146.0.0/16   max  20 as      64887; # hueckeswagen
 roa 10.10.0.0/16    max  20 as      65252; # ingolstadt
 roa 10.13.144.0/20  max  20 as      65052; # innsbruck
 roa 10.17.0.0/16    max  20 as      65055; # jena
@@ -169,6 +170,7 @@ roa 10.1.0.0/17     max  20 as      65530; # vfnnrw
 roa 10.171.0.0/16   max  20 as      65530; # vfnnrw
 roa 10.45.0.0/17    max  20 as      65530; # vfnnrw
 roa 10.45.128.0/17  max  20 as      65530; # vfnnrw
+roa 10.204.0.0/16   max  20 as      64857; # vogtland
 roa 10.23.0.0/16    max  20 as      65210; # waldheim
 roa 10.63.0.0/16    max  20 as      65042; # weimar
 roa 10.64.0.0/16    max  20 as      65042; # weimar

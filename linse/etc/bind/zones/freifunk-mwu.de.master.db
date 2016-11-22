@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2016081500		; Serial
+		     2016112200		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -52,12 +52,17 @@ wasserfloh	IN	AAAA	2a01:4f8:190:7008:2800::1
 gate231		IN	CNAME	wasserfloh
 icvpn231	IN	CNAME	wasserfloh
 
+extrasahne	IN	A	82.149.226.105
+;extrasahne	IN	AAAA	2a01:4f8:190:7008:2800::1
+gate42		IN	CNAME	extrasahne
+icvpn42		IN	CNAME	extrasahne
+
 ; test gateway
 mettigel	IN	A	5.45.106.31
 mettigel	IN	AAAA	2a03:4000:6:10c6::1
 
 ; service hosts
-zwiebel		IN	A	212.129.62.76
+zwiebel		IN	A	195.154.42.87
 zwiebel		IN	AAAA	2001:bc8:2058:101::b4dc:4b1e
 aubergine	IN	A	144.76.209.103
 aubergine	IN	AAAA	2a01:4f8:192:523::b4dc:4b1e
@@ -67,13 +72,18 @@ zuckerwatte	IN	A	89.163.245.179
 zuckerwatte	IN	AAAA	2001:4ba0:fffc:3d::b4dc:4b1e:2
 suesskartoffel	IN	A	188.68.53.133
 suesskartoffel	IN	AAAA	2a03:4000:6:e046::b4dc:4b1e
+churro		IN	A	85.14.253.122
+churro		IN	AAAA	2001:4ba0:fffc:3d::b4dc:4b1e:4
+okra		IN	A	136.243.198.170
+okra		IN	AAAA	2a01:4f8:192:570::b4dc:4b1e
+viprivpn	IN	A	193.25.173.41
+viprivpn-wan	IN	A	193.25.173.42
 
 ; service cnames
 map		IN	CNAME	suesskartoffel
 nextmap		IN	CNAME	suesskartoffel
 einzugsgebiet	IN	CNAME	zuckerwatte
 rtfm		IN	CNAME	zuckerwatte
-pudding		IN	CNAME	web.igeh.me.
 brokkoli	IN	CNAME	kokel.ddns.net.
 mailadmin	IN	CNAME	glueckskeks
 webmail		IN	CNAME	glueckskeks
@@ -83,7 +93,7 @@ pad		IN	CNAME	zuckerwatte
 dudel		IN	CNAME	zuckerwatte
 nms		IN	CNAME	zwiebel
 librenms	IN	CNAME	zwiebel
-fwtest		IN	CNAME	pudding
+repo		IN	CNAME	okra
 
 ; mail
 lists		IN	A	5.199.136.244
@@ -91,6 +101,10 @@ lists		IN	AAAA	2001:4ba0:fffc:3d::b4dc:4b1e:3
 mail		IN	CNAME	glueckskeks
 autoconfig	IN	CNAME	glueckskeks
 autodiscover	IN	CNAME	glueckskeks
+
+; build host
+milchreis	IN	A	188.40.89.185
+milchreis	IN	AAAA	2a01:4f8:100:63ca:2000::3
 
 ; firmware
 ; wasserfloh
