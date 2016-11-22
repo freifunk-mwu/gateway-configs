@@ -11,4 +11,6 @@
 #
 # By default this script does nothing.
 
+/sbin/ethtool -K eth0 gso off gro off rx off tx off sg off
+
 exit 0

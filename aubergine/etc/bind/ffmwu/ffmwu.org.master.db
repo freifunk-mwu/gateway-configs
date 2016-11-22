@@ -3,7 +3,7 @@ $ORIGIN ffmwu.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffmwu.org. hostmaster.ffmwu.org. (
-                     2016071500         ; Serial
+                     2016112000         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -35,9 +35,9 @@ wasserfloh  	   	IN      A       10.56.0.231
 wasserfloh     		IN      AAAA    fd56:b4dc:4b1e::a38:e7
 gate231          	IN      CNAME   wasserfloh
 
-parmesan		IN      A       10.56.0.42
-parmesan		IN      AAAA    fd56:b4dc:4b1e::a38:2a
-gate42			IN      CNAME   parmesan
+extrasahne		IN      A       10.56.0.42
+extrasahne		IN      AAAA    fd56:b4dc:4b1e::a38:2a
+gate42			IN      CNAME   extrasahne
 
 ; internal services and stuff
 7.ntp			IN      CNAME   spinat

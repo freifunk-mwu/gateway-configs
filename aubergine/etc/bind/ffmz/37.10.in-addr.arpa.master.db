@@ -25,7 +25,7 @@ $TTL    600
 3.1	PTR	aubergine.ffmz.org.
 ; freifunk bingen
 12.1	PTR	mettbroetchen.ffmz.org.
-; freifunk rheingau
+; freifunk rheingau-taunus
 13.1	PTR	spundekaes.ffmz.org.
 
 ; bb

@@ -12,14 +12,17 @@
 # By default this script does nothing.
 
 # ip rules
-/sbin/ip -4 rule add from all iif mzBR lookup mainz priority 7
-/sbin/ip -4 rule add from 10.37.1.1/32 lookup mainz priority 7
-/sbin/ip -6 rule add from all iif mzBR lookup mainz priority 7
-/sbin/ip -6 rule add from fd37:b4dc:4b1e::a25:101/128 lookup mainz priority 7
 
-/sbin/ip -4 rule add from all iif wiBR lookup wiesbaden priority 7
-/sbin/ip -4 rule add from 10.56.1.1/32 lookup wiesbaden priority 7
-/sbin/ip -6 rule add from all iif wiBR lookup wiesbaden priority 7
-/sbin/ip -6 rule add from fd56:b4dc:4b1e::a38:101/128 lookup wiesbaden priority 7
+/sbin/ip -4 rule add from all iif mzBR lookup mwu priority 7
+/sbin/ip -4 rule add from all iif wiBR lookup mwu priority 7
+/sbin/ip -4 rule add from 10.37.1.1/32 lookup mwu priority 7
+/sbin/ip -4 rule add from 10.56.1.1/32 lookup mwu priority 7
+/sbin/ip -6 rule add from all iif mzBR lookup mwu priority 7
+/sbin/ip -6 rule add from all iif wiBR lookup mwu priority 7
+/sbin/ip -6 rule add from fd37:b4dc:4b1e::a25:101/128 lookup mwu priority 7
+/sbin/ip -6 rule add from fd56:b4dc:4b1e::a38:101/128 lookup mwu priority 7
+
+/sbin/ip route add 10.207.0.0/16 nexthop via 10.37.0.7 nexthop via 10.37.0.23 nexthop via 10.37.0.161 nexthop via 10.37.0.231
+/sbin/ip route add fec0::a:cf:0:0/96 nexthop via fd37:b4dc:4b1e::a25:7 nexthop via fd37:b4dc:4b1e::a25:17 nexthop via fd37:b4dc:4b1e::a25:a1 nexthop via fd37:b4dc:4b1e::a25:e7
 
 exit 0
