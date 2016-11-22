@@ -4,8 +4,8 @@
 # So Include it via:
 #   roa table icvpn { include "roa.con?" }
 # 
-roa 10.234.0.0/15   max  20 as      65533; # Kreis_GT
-roa 10.255.0.0/16   max  20 as      65533; # Kreis_GT
+roa 10.234.0.0/15   max  20 as     206813; # Kreis_GT
+roa 10.255.0.0/16   max  20 as     206813; # Kreis_GT
 roa 10.5.0.0/16     max  20 as      65077; # aachen
 roa 10.202.0.0/18   max  20 as      65522; # altmuehltal
 roa 10.205.0.0/16   max  20 as      65205; # amsterdam
@@ -42,6 +42,7 @@ roa 10.138.0.0/16   max  20 as      65138; # elm-lappwald
 roa 10.13.192.0/18  max  20 as      65402; # emscherland
 roa 10.141.128.0/17 max  20 as      65530; # engelskirchen (delegation)
 roa 10.99.0.0/16    max  20 as      65099; # erfurt
+roa 10.13.80.0/20   max  20 as      64886; # erzgebirge
 roa 10.228.0.0/16   max  20 as      65406; # essen
 roa 10.19.0.0/16    max  20 as      64869; # euskirchen
 roa 10.129.0.0/16   max  20 as      65056; # flensburg
@@ -77,7 +78,7 @@ roa 10.189.0.0/18   max  20 as      65189; # helgoland
 roa 10.186.0.0/16   max  20 as      65100; # hennef
 roa 10.34.0.0/16    max  20 as      64866; # herford
 roa 10.11.128.0/20  max  20 as      64872; # hilden
-roa 10.146.0.0/16   max  20 as      65530; # hueckeswagen (delegation)
+roa 10.146.0.0/16   max  20 as      64887; # hueckeswagen
 roa 10.10.0.0/16    max  20 as      65252; # ingolstadt
 roa 10.13.144.0/20  max  20 as      65052; # innsbruck
 roa 10.17.0.0/16    max  20 as      65055; # jena
