@@ -48,7 +48,7 @@ roa fdec:4562:434f::/64      max  64 as      65520; # ebersdorf
 roa 2001:bf7:130::/44        max  64 as      65138; # elm-lappwald
 roa 2001:bf7:100:2263::/64   max  64 as      65530; # engelskirchen (delegation)
 roa fddf:ebfd:a801:2263::/64 max  64 as      65530; # engelskirchen (delegation)
-roa 2001:bf8:100:100::/64    max  64 as      64886; # erzgebirge
+roa fd99:b29a:7c20::/64      max  64 as      64886; # erzgebirge
 roa fda0:747e:ab29:e054::/64 max  64 as      64869; # euskirchen
 roa 2001:bf7:10::/44         max  64 as      65056; # flensburg
 roa fda0:747e:ab29:9375::/64 max  64 as      65125; # flingern
