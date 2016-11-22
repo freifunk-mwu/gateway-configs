@@ -4,6 +4,10 @@
 # So Include it via:
 #   roa table icvpn { include "roa.con?" }
 # 
+roa 2001:bf7:1310::/44       max  64 as     206813; # Kreis_GT
+roa 2a03:2260:117::/48       max  64 as     206813; # Kreis_GT
+roa 2a06:e881:1700::/44      max  64 as     206813; # Kreis_GT
+roa fd42:ffee:ff12::/48      max  64 as     206813; # Kreis_GT
 roa 2a03:2260:114::/48       max  64 as      65077; # aachen
 roa fdca:ffee:ffa1::/48      max  64 as      65522; # altmuehltal
 roa 2001:bf7:2520::/44       max  64 as      65050; # augsburg
@@ -44,12 +48,14 @@ roa fdec:4562:434f::/64      max  64 as      65520; # ebersdorf
 roa 2001:bf7:130::/44        max  64 as      65138; # elm-lappwald
 roa 2001:bf7:100:2263::/64   max  64 as      65530; # engelskirchen (delegation)
 roa fddf:ebfd:a801:2263::/64 max  64 as      65530; # engelskirchen (delegation)
+roa fd99:b29a:7c20::/64      max  64 as      64886; # erzgebirge
 roa fda0:747e:ab29:e054::/64 max  64 as      64869; # euskirchen
 roa 2001:bf7:10::/44         max  64 as      65056; # flensburg
 roa fda0:747e:ab29:9375::/64 max  64 as      65125; # flingern
 roa fdff:49:461::/48         max  64 as 4242420420; # foerdefunk-flensburg
 roa fddb:2cb:9699::/48       max  64 as      64890; # frankenberg
 roa fddd:5d16:b5dd::/48      max  64 as      65026; # frankfurt
+roa fdf4:a50a:5c1f::/64      max  64 as      64879; # freemesh-denmark
 roa 2001:bf7:2810::/44       max  64 as      65060; # freiburg
 roa fdf0:09bb:7814::/48      max  64 as      65060; # freiburg
 roa fd00:65a8:93a4::/48      max  64 as      65142; # fulda
@@ -61,10 +67,6 @@ roa fde6:36fc:c985::/64      max  64 as      65527; # goettingen
 roa fdef:affe:edda::/48      max  64 as      65489; # greifswald
 roa 2001:bf7:100:4859::/64   max  64 as      65530; # gronau (delegation)
 roa fddf:ebfd:a801:4859::/64 max  64 as      65530; # gronau (delegation)
-roa 2001:bf7:1310::/44       max  64 as      65533; # guetersloh
-roa fd42:ffee:ff12::/48      max  64 as      65533; # guetersloh
-roa fd42:ffee:ff13::/48      max  64 as      65533; # guetersloh
-roa fd42:ffee:ff14::/48      max  64 as      65533; # guetersloh
 roa 2001:bf7:100:2261::/64   max  64 as      65530; # gummersbach (delegation)
 roa fddf:ebfd:a801:2261::/64 max  64 as      65530; # gummersbach (delegation)
 roa 2001:bf7:100:2331::/64   max  64 as      65530; # hagen (delegation)
@@ -81,8 +83,7 @@ roa fd0c:9a97:47dc::/48      max  64 as      64864; # heiligkreuztal
 roa fda0:747e:ab29:7406::/64 max  64 as      65100; # hennef
 roa fdf3:2049:5152::/48      max  64 as      64866; # herford
 roa fd06:b047:f7de::/48      max  64 as      64872; # hilden
-roa 2001:bf7:100:2192::/64   max  64 as      65530; # hueckeswagen (delegation)
-roa fddf:ebfd:a801:2192::/64 max  64 as      65530; # hueckeswagen (delegation)
+roa fddf:ebfd:a801:2192::/64 max  64 as      64887; # hueckeswagen
 roa 2a03:2260:116::/64       max  64 as      65252; # ingolstadt
 roa fd13:b4dc:4b1e::/64      max  64 as      65052; # innsbruck
 roa fd14:b4dc:4b1e::/64      max  64 as      65052; # innsbruck
@@ -184,6 +185,7 @@ roa fddf:ebfd:a801:5922::/64 max  64 as      65530; # vfnnrw
 roa fddf:ebfd:a801:a::/64    max  64 as      65530; # vfnnrw
 roa fddf:ebfd:a801:abcd::/64 max  64 as      65530; # vfnnrw
 roa fddf:ebfd:a801:ff::/64   max  64 as      65530; # vfnnrw
+roa 2a03:2260:200f::/48      max  64 as      64857; # vogtland
 roa 2001:bf7:1930::/44       max  64 as      65042; # weimar
 roa 2001:bf7:100:2196::/64   max  64 as      65530; # wermelskirchen (delegation)
 roa fddf:ebfd:a801:2196::/64 max  64 as      65530; # wermelskirchen (delegation)
