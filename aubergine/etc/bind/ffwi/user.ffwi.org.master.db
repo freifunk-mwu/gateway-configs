@@ -3,7 +3,7 @@ $ORIGIN user.ffwi.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffwi.org. hostmaster.ffwi.org. (
-                     2016071500         ; Serial
+                     2016102700         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -18,11 +18,7 @@ $TTL    600
 antigua		IN	A	10.56.4.1
 radio		IN	A	10.56.4.2
 voip		IN	A	10.56.4.3
-flugzeug        IN      A       10.56.4.23
-stonegate       IN      A       10.56.4.42
 camp		IN	A	10.56.4.53
-brunhilde	IN	A	10.56.4.56
-brunhilde	IN	AAAA	fd56:b4dc:4b1e::a38:438
 magic		IN	A	10.56.4.88
 magic		IN	AAAA	fd56:b4dc:4b1e:0:ba27:ebff:fe62:72af
 piratebox	IN	A	10.56.4.99

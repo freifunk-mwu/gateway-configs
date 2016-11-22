@@ -1,5 +1,5 @@
 #!/bin/sh
-/sbin/ifconfig ${INTERFACE} hw ether 02:00:0a:cf:00:38
+/sbin/ifconfig ${INTERFACE} hw ether 02:00:0a:cf:25:17
 /sbin/ip link set dev ${INTERFACE} up
 
 # Insert routes for icvpn transfer-net
@@ -7,5 +7,5 @@
 /sbin/ip -6 route add fec0::/96 proto static dev ${INTERFACE} table icvpn
 
 # primary address: wiesbaden1
-/sbin/ip addr add dev ${INTERFACE} 10.207.0.56/16 broadcast 10.207.255.255 scope link
-/sbin/ip -6 addr add dev ${INTERFACE} fec0::a:cf:0:38/96 preferred_lft 0
+/sbin/ip addr add dev ${INTERFACE} 10.207.37.23/16 broadcast 10.207.255.255 scope link
+/sbin/ip -6 addr add dev ${INTERFACE} fec0::a:cf:25:17/96 preferred_lft 0
