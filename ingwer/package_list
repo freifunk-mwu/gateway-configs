@@ -621,10 +621,10 @@ ii  unzip                              6.0-16+deb8u2               amd64        
 ii  usbutils                           1:007-2                     amd64        Linux USB utilities
 ii  util-linux                         2.25.2-6                    amd64        Miscellaneous system utilities
 ii  util-linux-locales                 2.25.2-6                    all          Locales files for util-linux
-ii  vim                                2:7.4.488-7                 amd64        Vi IMproved - enhanced vi editor
-ii  vim-common                         2:7.4.488-7                 amd64        Vi IMproved - Common files
-ii  vim-runtime                        2:7.4.488-7                 all          Vi IMproved - Runtime files
-ii  vim-tiny                           2:7.4.488-7                 amd64        Vi IMproved - enhanced vi editor - compact version
+ii  vim                                2:7.4.488-7+deb8u1          amd64        Vi IMproved - enhanced vi editor
+ii  vim-common                         2:7.4.488-7+deb8u1          amd64        Vi IMproved - Common files
+ii  vim-runtime                        2:7.4.488-7+deb8u1          all          Vi IMproved - Runtime files
+ii  vim-tiny                           2:7.4.488-7+deb8u1          amd64        Vi IMproved - enhanced vi editor - compact version
 ii  virt-what                          1.14-1                      amd64        detect if we are running in a virtual machine
 ii  vnstat                             1.12-2                      amd64        console-based network traffic monitor
 ii  vnstati                            1.12-2                      amd64        image output support for vnStat
