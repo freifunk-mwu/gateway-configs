@@ -108,9 +108,11 @@ protocol bgp icvpn_bremen6 from ebgp_ic {
 }
 protocol bgp icvpn_celle1 from ebgp_ic {
     neighbor 10.207.0.44 as 64861;
+    passive yes;
 }
 protocol bgp icvpn_celle2 from ebgp_ic {
     neighbor 10.207.0.56 as 64861;
+    passive yes;
 }
 protocol bgp icvpn_chemnitz1 from ebgp_ic {
     neighbor 10.207.0.36 as 65053;
@@ -297,7 +299,6 @@ protocol bgp icvpn_kassel3 from ebgp_ic {
 }
 protocol bgp icvpn_kbutest from ebgp_ic {
     neighbor 10.207.0.42 as 65528;
-    passive yes;
 }
 protocol bgp icvpn_koeln1 from ebgp_ic {
     neighbor 10.207.0.57 as 65528;
