@@ -362,6 +362,7 @@ ii  libmount1:amd64                      2.20.1-5.1ubuntu20.7                 am
 ii  libmpc3:amd64                        1.0.1-1ubuntu1                       amd64        multiple precision complex floating-point library
 ii  libmpdec2:amd64                      2.4.0-6                              amd64        library for decimal floating point arithmetic (runtime library)
 ii  libmpfr4:amd64                       3.1.2-1                              amd64        multiple precision floating-point computation
+ii  libmysqlclient-dev                   5.5.53-0ubuntu0.14.04.1              amd64        MySQL database development files
 ii  libmysqlclient18:amd64               5.5.53-0ubuntu0.14.04.1              amd64        MySQL database client library
 ii  libncurses5:amd64                    5.9+20140118-1ubuntu1                amd64        shared libraries for terminal handling
 ii  libncursesw5:amd64                   5.9+20140118-1ubuntu1                amd64        shared libraries for terminal handling (wide character support)
@@ -715,6 +716,7 @@ ii  python-twisted-bin                   13.2.0-1ubuntu1                      am
 ii  python-twisted-core                  13.2.0-1ubuntu1                      all          Event-based framework for internet applications
 ii  python-urllib3                       1.7.1-1ubuntu4                       all          HTTP library with thread-safe connection pooling for Python
 ii  python-urllib3-whl                   1.7.1-1ubuntu4                       all          HTTP library with thread-safe connection pooling
+ii  python-virtualenv                    1.11.4-1ubuntu1                      all          Python virtual environment creator
 ii  python-wheel                         0.24.0-1~ubuntu1                     all          built-package format for Python
 ii  python-xapian                        1.2.16-2ubuntu1                      amd64        Xapian search engine interface for Python
 ii  python-yaml                          3.10-4ubuntu0.1                      amd64        YAML parser and emitter for Python
