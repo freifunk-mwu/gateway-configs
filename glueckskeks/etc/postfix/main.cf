@@ -144,6 +144,7 @@ smtp_dns_support_level = dnssec
 smtpd_sender_login_maps =
         proxy:mysql:/etc/postfix/sql/sql-sender-login-mailboxes.cf
         proxy:mysql:/etc/postfix/sql/sql-sender-login-aliases.cf
+        proxy:mysql:/etc/postfix/sql/sql-sender-login-mailboxes-extra.cf
 
 smtpd_client_restrictions =
 smtpd_helo_restrictions =
