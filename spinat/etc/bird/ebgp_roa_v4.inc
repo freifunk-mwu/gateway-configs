@@ -117,6 +117,7 @@ roa 10.169.0.0/16   max  20 as      65534; # mueritz
 roa 10.55.192.0/18  max  20 as      65003; # neunkirchen
 roa 10.46.0.0/18    max  20 as      64883; # neuwied
 roa 10.187.0.0/16   max  20 as      65187; # nord
+roa 10.15.64.0/18   max  20 as      64889; # nordheide
 roa 10.18.0.0/16    max  20 as      65513; # nordwest
 roa 10.135.0.0/16   max  20 as      65152; # ostholstein
 roa 10.47.0.0/16    max  20 as      64862; # ostvest
