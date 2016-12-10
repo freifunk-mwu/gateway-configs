@@ -121,8 +121,8 @@ tls_preempt_cipherlist = yes
 
 # SMTP Daemon TLS parameters
 smtpd_tls_exclude_ciphers = aNULL, eNULL, EXPORT, DES, RC4, MD5, PSK, aECDH, EDH-DSS-DES-CBC3-SHA, EDH-RSA-DES-CDB3-SHA, KRB5-DES, CBC3-SHA
-smtpd_tls_cert_file=/etc/ssl/certs/wildcard.freifunk-mwu.de_cert.pem
-smtpd_tls_key_file=/etc/ssl/private/wildcard.freifunk-mwu.de_private.key
+smtpd_tls_cert_file=/etc/apache2/ssl/freifunk-mwu.de/fullchain.pem
+smtpd_tls_key_file=/etc/apache2/ssl/freifunk-mwu.de/privkey.pem
 smtpd_use_tls=yes
 smtpd_tls_session_cache_database = btree:${data_directory}/smtpd_scache
 smtpd_tls_security_level = may
