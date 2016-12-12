@@ -9,6 +9,7 @@ ii  adduser                              3.113+nmu3ubuntu3                    al
 ii  alfred                               2016.0-0ffmwu0~trusty                amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
 ii  alfred-json                          0.3.1-0ffmwu1~trusty                 amd64        A.L.F.R.E.D client supporting GZIP decompression and JSON, string and binary output
 ii  amavisd-new                          1:2.10.1-0ffmwu2~trusty              all          Interface between MTA and virus scanner/content filters
+ii  ansible                              1.5.4+dfsg-1                         all          Configuration management, deployment, and task execution system
 ii  apache2                              2.4.7-1ubuntu4.13                    amd64        Apache HTTP Server
 ii  apache2-bin                          2.4.7-1ubuntu4.13                    amd64        Apache HTTP Server (binary files and modules)
 ii  apache2-data                         2.4.7-1ubuntu4.13                    all          Apache HTTP Server (common files)
@@ -36,7 +37,7 @@ ii  bind9-host                           1:9.9.5.dfsg-3ubuntu0.10             am
 ii  bind9utils                           1:9.9.5.dfsg-3ubuntu0.10             amd64        Utilities for BIND
 ii  binutils                             2.24-5ubuntu14.1                     amd64        GNU assembler, linker and binary utilities
 ii  biosdevname                          0.4.1-0ubuntu6.3                     amd64        apply BIOS-given names to network devices
-ii  bird                                 1.6.2-2+trusty+1                     amd64        Internet Routing Daemon
+ii  bird                                 1.6.2-3+trusty+1                     amd64        Internet Routing Daemon
 ii  bridge-utils                         1.5-6ubuntu2                         amd64        Utilities for configuring the Linux Ethernet bridge
 ii  bsdmainutils                         9.0.5ubuntu1                         amd64        collection of more utilities from FreeBSD
 ii  bsdutils                             1:2.20.1-5.1ubuntu20.7               amd64        Basic utilities from 4.4BSD-Lite
@@ -130,7 +131,7 @@ ii  hdparm                               9.43-1ubuntu3                        am
 ii  hostname                             3.15ubuntu1                          amd64        utility to set/show the host name or domain name
 ii  ifupdown                             0.7.47.2ubuntu4.4                    amd64        high level tools to configure network interfaces
 ii  info                                 5.2.0.dfsg.1-2                       amd64        Standalone GNU Info documentation browser
-ii  init-system-helpers                  1.14                                 all          helper tools for all init systems
+ii  init-system-helpers                  1.14ubuntu1                          all          helper tools for all init systems
 ii  initramfs-tools                      0.103ubuntu4.4                       all          tools for generating an initramfs
 ii  initramfs-tools-bin                  0.103ubuntu4.4                       amd64        binaries used by initramfs-tools
 ii  initscripts                          2.88dsf-41ubuntu6.3                  amd64        scripts for initializing and shutting down the system
@@ -144,13 +145,13 @@ ii  iptables                             1.4.21-1ubuntu1                      am
 ii  iputils-ping                         3:20121221-4ubuntu1.1                amd64        Tools to test the reachability of network hosts
 ii  iputils-tracepath                    3:20121221-4ubuntu1.1                amd64        Tools to trace the network path to a remote host
 ii  irqbalance                           1.0.6-2ubuntu0.14.04.4               amd64        Daemon to balance interrupts for SMP systems
-ii  isc-dhcp-client                      4.2.4-7ubuntu12.7                    amd64        ISC DHCP client
-ii  isc-dhcp-common                      4.2.4-7ubuntu12.7                    amd64        common files used by all the isc-dhcp* packages
+ii  isc-dhcp-client                      4.2.4-7ubuntu12.8                    amd64        ISC DHCP client
+ii  isc-dhcp-common                      4.2.4-7ubuntu12.8                    amd64        common files used by all the isc-dhcp* packages
 ii  iso-codes                            3.52-1                               all          ISO language, territory, currency, script codes and their translations
 ii  joe                                  3.7-2.3ubuntu1                       amd64        user friendly full screen text editor
 ii  kbd                                  1.15.5-1ubuntu1                      amd64        Linux console font and keytable utilities
 ii  keyboard-configuration               1.70ubuntu8                          all          system-wide keyboard preferences
-ii  klibc-utils                          2.0.3-0ubuntu1.14.04.1               amd64        small utilities built with klibc for early boot
+ii  klibc-utils                          2.0.3-0ubuntu1.14.04.2               amd64        small utilities built with klibc for early boot
 ii  kmod                                 15-0ubuntu6                          amd64        tools for managing Linux kernel modules
 ii  krb5-locales                         1.12+dfsg-2ubuntu5.2                 all          Internationalization support for MIT Kerberos
 ii  landscape-common                     14.12-0ubuntu0.14.04                 amd64        The Landscape administration system client - Common files
@@ -328,7 +329,7 @@ ii  libjson-c2:amd64                     0.11-3ubuntu1.2                      am
 ii  libjson0:amd64                       0.11-3ubuntu1.2                      amd64        JSON manipulation library (transitional package)
 ii  libk5crypto3:amd64                   1.12+dfsg-2ubuntu5.2                 amd64        MIT Kerberos runtime libraries - Crypto Library
 ii  libkeyutils1:amd64                   1.5.6-1                              amd64        Linux Key Management Utilities (library)
-ii  libklibc                             2.0.3-0ubuntu1.14.04.1               amd64        minimal libc subset for use with initramfs
+ii  libklibc                             2.0.3-0ubuntu1.14.04.2               amd64        minimal libc subset for use with initramfs
 ii  libkmod2:amd64                       15-0ubuntu6                          amd64        libkmod shared library
 ii  libkrb5-26-heimdal:amd64             1.6~git20131207+dfsg-1ubuntu1.1      amd64        Heimdal Kerberos - libraries
 ii  libkrb5-3:amd64                      1.12+dfsg-2ubuntu5.2                 amd64        MIT Kerberos runtime libraries
@@ -392,7 +393,7 @@ ii  libpam-cap:amd64                     1:2.24-0ubuntu2                      am
 ii  libpam-modules:amd64                 1.1.8-1ubuntu2.2                     amd64        Pluggable Authentication Modules for PAM
 ii  libpam-modules-bin                   1.1.8-1ubuntu2.2                     amd64        Pluggable Authentication Modules for PAM - helper binaries
 ii  libpam-runtime                       1.1.8-1ubuntu2.2                     all          Runtime support for the PAM library
-ii  libpam-systemd:amd64                 204-5ubuntu20.19                     amd64        system and service manager - PAM module
+ii  libpam-systemd:amd64                 204-5ubuntu20.20                     amd64        system and service manager - PAM module
 ii  libpam0g:amd64                       1.1.8-1ubuntu2.2                     amd64        Pluggable Authentication Modules library
 ii  libpango-1.0-0:amd64                 1.36.3-1ubuntu1.1                    amd64        Layout and rendering of internationalized text
 ii  libpango1.0-dev                      1.36.3-1ubuntu1.1                    amd64        Development files for the Pango
@@ -469,8 +470,8 @@ ii  libstdc++-4.8-dev:amd64              4.8.4-2ubuntu1~14.04.3               am
 ii  libstdc++6:amd64                     4.8.4-2ubuntu1~14.04.3               amd64        GNU Standard C++ Library v3
 ii  libsub-name-perl                     0.05-1build4                         amd64        module for assigning a new name to referenced sub
 ii  libsys-hostname-long-perl            1.4-3                                all          Figure out the long (fully-qualified) hostname
-ii  libsystemd-daemon0:amd64             204-5ubuntu20.19                     amd64        systemd utility library
-ii  libsystemd-login0:amd64              204-5ubuntu20.19                     amd64        systemd login utility library
+ii  libsystemd-daemon0:amd64             204-5ubuntu20.20                     amd64        systemd utility library
+ii  libsystemd-login0:amd64              204-5ubuntu20.20                     amd64        systemd login utility library
 ii  libtasn1-6:amd64                     3.4-3ubuntu0.4                       amd64        Manage ASN.1 structures (runtime)
 ii  libterm-readkey-perl                 2.31-1                               amd64        perl module for simple terminal control
 ii  libterm-ui-perl                      0.42-1                               all          Term::ReadLine UI made easy
@@ -484,7 +485,7 @@ ii  libtiff5:amd64                       4.0.3-7ubuntu0.4                     am
 ii  libtimedate-perl                     2.3000-1                             all          collection of modules to manipulate date/time information
 ii  libtinfo5:amd64                      5.9+20140118-1ubuntu1                amd64        shared low-level terminfo library for terminal handling
 ii  libtsan0:amd64                       4.8.4-2ubuntu1~14.04.3               amd64        ThreadSanitizer -- a Valgrind-based detector of data races (runtime)
-ii  libudev1:amd64                       204-5ubuntu20.19                     amd64        libudev shared library
+ii  libudev1:amd64                       204-5ubuntu20.20                     amd64        libudev shared library
 ii  libuecc0                             6-0uf1                               amd64        very small Elliptic Curve Cryptography library
 ii  libunbound2:amd64                    1.4.22-1ubuntu4.14.04.2              amd64        library implementing DNS resolution and validation
 ii  libunistring0:amd64                  0.9.3-5ubuntu3                       amd64        Unicode string library for C
@@ -694,6 +695,7 @@ ii  python-chardet-whl                   2.2.1-2~ubuntu1                      al
 ii  python-colorama                      0.2.5-0.1ubuntu2                     all          Cross-platform colored terminal text in Python - Python 2.x
 ii  python-colorama-whl                  0.2.5-0.1ubuntu2                     all          Cross-platform colored terminal text in Python - Wheels
 ii  python-configobj                     4.7.2+ds-5build1                     all          simple but powerful config file reader and writer for Python
+ii  python-crypto                        2.6.1-4build1                        amd64        cryptographic algorithms and protocols for Python
 ii  python-debian                        0.1.21+nmu2ubuntu2                   all          Python modules to work with Debian-related data formats
 ii  python-dev                           2.7.5-5ubuntu3                       amd64        header files and a static library for Python (default)
 ii  python-distlib                       0.1.8-1ubuntu1                       all          low-level components of python distutils2/packaging
@@ -703,6 +705,9 @@ ii  python-exif                          1.1.0-1                              al
 ii  python-gdbm                          2.7.5-1ubuntu1                       amd64        GNU dbm database support for Python
 ii  python-html5lib                      0.999-3~ubuntu1                      all          HTML parser/tokenizer based on the WHATWG HTML5 specification (Python 2)
 ii  python-html5lib-whl                  0.999-3~ubuntu1                      all          HTML parser/tokenizer based on the WHATWG HTML5 specification
+ii  python-httplib2                      0.8-2build1                          all          comprehensive HTTP client library written for Python
+ii  python-jinja2                        2.7.2-2                              all          small but fast and easy to use stand-alone template engine
+ii  python-markupsafe                    0.18-1build2                         amd64        HTML/XHTML/XML string library for Python
 ii  python-minimal                       2.7.5-5ubuntu3                       amd64        minimal subset of the Python language (default version)
 ii  python-mysqldb                       1.2.3-2ubuntu1                       amd64        Python interface to MySQL
 ii  python-openssl                       0.13-2ubuntu6                        amd64        Python 2 wrapper around the OpenSSL library
@@ -739,7 +744,7 @@ ii  python3-commandnotfound              0.3ubuntu12                          al
 ii  python3-dbus                         1.2.0-2build2                        amd64        simple interprocess messaging system (Python 3 interface)
 ii  python3-dev                          3.4.0-0ubuntu2                       amd64        header files and a static library for Python (default)
 ii  python3-distlib                      0.1.8-1ubuntu1                       all          low-level components of python distutils2/packaging
-ii  python3-distupgrade                  1:0.220.8                            all          manage release upgrades
+ii  python3-distupgrade                  1:0.220.9                            all          manage release upgrades
 ii  python3-gdbm:amd64                   3.4.3-1~14.04.2                      amd64        GNU dbm database support for Python 3.x
 ii  python3-gi                           3.12.0-1ubuntu1                      amd64        Python 3 bindings for gobject-introspection libraries
 ii  python3-html5lib                     0.999-3~ubuntu1                      all          HTML parser/tokenizer based on the WHATWG HTML5 specification (Python 3)
@@ -787,7 +792,7 @@ ii  ssl-cert                             1.0.33                               al
 ii  strace                               4.8-1ubuntu5                         amd64        A system call tracer
 ii  sudo                                 1.8.9p5-1ubuntu1.3                   amd64        Provide limited super user privileges to specific users
 ii  sysstat                              10.2.0-1                             amd64        system performance tools for Linux
-ii  systemd-services                     204-5ubuntu20.19                     amd64        systemd runtime services
+ii  systemd-services                     204-5ubuntu20.20                     amd64        systemd runtime services
 ii  systemd-shim                         6-2bzr1                              amd64        shim for systemd
 ii  sysv-rc                              2.88dsf-41ubuntu6.3                  all          System-V-like runlevel change mechanism
 ii  sysvinit-utils                       2.88dsf-41ubuntu6.3                  amd64        System-V-like utilities
@@ -806,10 +811,10 @@ ii  ttf-dejavu-extra                     2.34-1ubuntu1                        al
 ii  tzdata                               2016j-0ubuntu0.14.04                 all          time zone and daylight-saving time data
 ii  ubuntu-keyring                       2012.05.19                           all          GnuPG keys of the Ubuntu archive
 ii  ubuntu-minimal                       1.325                                amd64        Minimal core of Ubuntu
-ii  ubuntu-release-upgrader-core         1:0.220.8                            all          manage release upgrades
+ii  ubuntu-release-upgrader-core         1:0.220.9                            all          manage release upgrades
 ii  ubuntu-standard                      1.325                                amd64        The Ubuntu standard system
 ii  ucf                                  3.0027+nmu1                          all          Update Configuration File(s): preserve user changes to config files
-ii  udev                                 204-5ubuntu20.19                     amd64        /dev/ and hotplug management daemon
+ii  udev                                 204-5ubuntu20.20                     amd64        /dev/ and hotplug management daemon
 ii  ufw                                  0.34~rc-0ubuntu2                     all          program for managing a Netfilter firewall
 ii  unattended-upgrades                  0.82.1ubuntu2.4                      all          automatic installation of security upgrades
 ii  unbound                              1.4.22-1ubuntu4.14.04.2              amd64        validating, recursive, caching DNS resolver

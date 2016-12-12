@@ -47,6 +47,7 @@ ii  build-essential                    11.7                        amd64        
 ii  busybox                            1:1.22.0-9+deb8u1           amd64        Tiny utilities for small and embedded systems
 ii  bzip2                              1.0.6-7+b3                  amd64        high-quality block-sorting file compressor - utilities
 ii  ca-certificates                    20141019+deb8u1             all          Common CA certificates
+ii  check-mk-agent                     1.2.6p12-1~bpo8+1           amd64        general purpose nagios-plugin for retrieving data
 ii  checkinstall                       1.6.2-4                     amd64        installation tracker
 ii  cmake                              3.0.2-1+deb8u1              amd64        cross-platform, open-source make system
 ii  cmake-data                         3.0.2-1+deb8u1              all          CMake data files (modules, templates and documentation)
