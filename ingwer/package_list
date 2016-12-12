@@ -159,6 +159,7 @@ ii  isc-dhcp-server                    4.3.1-6+deb8u2              amd64        
 ii  iso-codes                          3.57-1                      all          ISO language, territory, currency, script codes and their translations
 ii  ispell                             3.3.02-6                    amd64        International Ispell (an interactive spelling corrector)
 ii  iucode-tool                        1.1.1-1                     amd64        Intel processor microcode tool
+ii  joe                                3.7-2.4                     amd64        user friendly full screen text editor
 ii  jq                                 1.4-2.1                     amd64        lightweight and flexible command-line JSON processor
 ii  kbd                                1.15.5-2                    amd64        Linux console font and keytable utilities
 ii  keyboard-configuration             1.123                       all          system-wide keyboard preferences
