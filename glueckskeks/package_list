@@ -9,16 +9,15 @@ ii  adduser                              3.113+nmu3ubuntu3                    al
 ii  alfred                               2016.0-0ffmwu0~trusty                amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
 ii  alfred-json                          0.3.1-0ffmwu1~trusty                 amd64        A.L.F.R.E.D client supporting GZIP decompression and JSON, string and binary output
 ii  amavisd-new                          1:2.10.1-0ffmwu2~trusty              all          Interface between MTA and virus scanner/content filters
-ii  ansible                              1.5.4+dfsg-1                         all          Configuration management, deployment, and task execution system
 ii  apache2                              2.4.7-1ubuntu4.13                    amd64        Apache HTTP Server
 ii  apache2-bin                          2.4.7-1ubuntu4.13                    amd64        Apache HTTP Server (binary files and modules)
 ii  apache2-data                         2.4.7-1ubuntu4.13                    all          Apache HTTP Server (common files)
 ii  apparmor                             2.8.95~2430-0ubuntu5.3               amd64        User-space parser utility for AppArmor
 ii  apport                               2.14.1-0ubuntu3.21                   all          automatically generate crash reports for debugging
 ii  apport-symptoms                      0.20                                 all          symptom scripts for apport
-ii  apt                                  1.0.1ubuntu2.15                      amd64        commandline package manager
-ii  apt-transport-https                  1.0.1ubuntu2.15                      amd64        https download transport for APT
-ii  apt-utils                            1.0.1ubuntu2.15                      amd64        package management related utility programs
+ii  apt                                  1.0.1ubuntu2.17                      amd64        commandline package manager
+ii  apt-transport-https                  1.0.1ubuntu2.17                      amd64        https download transport for APT
+ii  apt-utils                            1.0.1ubuntu2.17                      amd64        package management related utility programs
 ii  apt-xapian-index                     0.45ubuntu4                          all          maintenance and search tools for a Xapian index of Debian packages
 ii  aptitude                             0.6.8.2-1ubuntu4                     amd64        terminal-based package manager
 ii  aptitude-common                      0.6.8.2-1ubuntu4                     all          architecture indepedent files for the aptitude package manager
@@ -173,8 +172,8 @@ ii  libapr1:amd64                        1.5.0-1                              am
 ii  libaprutil1:amd64                    1.5.3-1                              amd64        Apache Portable Runtime Utility Library
 ii  libaprutil1-dbd-sqlite3:amd64        1.5.3-1                              amd64        Apache Portable Runtime Utility Library - SQLite3 Driver
 ii  libaprutil1-ldap:amd64               1.5.3-1                              amd64        Apache Portable Runtime Utility Library - LDAP Driver
-ii  libapt-inst1.5:amd64                 1.0.1ubuntu2.15                      amd64        deb package format runtime library
-ii  libapt-pkg4.12:amd64                 1.0.1ubuntu2.15                      amd64        package management runtime library
+ii  libapt-inst1.5:amd64                 1.0.1ubuntu2.17                      amd64        deb package format runtime library
+ii  libapt-pkg4.12:amd64                 1.0.1ubuntu2.17                      amd64        package management runtime library
 ii  libarchive-extract-perl              0.70-1                               all          generic archive extracting module
 ii  libarchive-zip-perl                  1.30-7                               all          Perl module for manipulation of ZIP archives
 ii  libasan0:amd64                       4.8.4-2ubuntu1~14.04.3               amd64        AddressSanitizer -- a fast memory error detector
@@ -533,17 +532,12 @@ ii  libyaml-0-2:amd64                    0.1.4-3ubuntu3.1                     am
 ii  linux-firmware                       1.127.22                             all          Firmware for Linux kernel drivers
 ii  linux-headers-3.13.0-101             3.13.0-101.148                       all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-101-generic     3.13.0-101.148                       amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-103             3.13.0-103.150                       all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-103-generic     3.13.0-103.150                       amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-105             3.13.0-105.152                       all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-105-generic     3.13.0-105.152                       amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-96              3.13.0-96.143                        all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-96-generic      3.13.0-96.143                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-generic                3.13.0.105.113                       amd64        Generic Linux kernel headers
 ii  linux-headers-generic-lts-trusty     3.13.0.105.113                       amd64        Generic Linux kernel headers
 rc  linux-image-3.13.0-100-generic       3.13.0-100.147                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-101-generic       3.13.0-101.148                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-103-generic       3.13.0-103.150                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-105-generic       3.13.0-105.152                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-79-generic        3.13.0-79.123                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-83-generic        3.13.0-83.127                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -555,7 +549,6 @@ rc  linux-image-3.13.0-91-generic        3.13.0-91.138                        am
 rc  linux-image-3.13.0-92-generic        3.13.0-92.139                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-93-generic        3.13.0-93.140                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-95-generic        3.13.0-95.142                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-96-generic        3.13.0-96.143                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-98-generic        3.13.0-98.145                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.19.0-25-generic        3.19.0-25.26~14.04.1                 amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-3.19.0-31-generic        3.19.0-31.36~14.04.1                 amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
@@ -570,7 +563,6 @@ rc  linux-image-3.19.0-47-generic        3.19.0-47.53~14.04.1                 am
 rc  linux-image-3.19.0-49-generic        3.19.0-49.55~14.04.1                 amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-100-generic 3.13.0-100.147                       amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-101-generic 3.13.0-101.148                       amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-103-generic 3.13.0-103.150                       amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-105-generic 3.13.0-105.152                       amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-79-generic  3.13.0-79.123                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-83-generic  3.13.0-83.127                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
@@ -582,7 +574,6 @@ rc  linux-image-extra-3.13.0-91-generic  3.13.0-91.138                        am
 rc  linux-image-extra-3.13.0-92-generic  3.13.0-92.139                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-93-generic  3.13.0-93.140                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-95-generic  3.13.0-95.142                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-96-generic  3.13.0-96.143                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-98-generic  3.13.0-98.145                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-25-generic  3.19.0-25.26~14.04.1                 amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-31-generic  3.19.0-31.36~14.04.1                 amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
@@ -695,7 +686,6 @@ ii  python-chardet-whl                   2.2.1-2~ubuntu1                      al
 ii  python-colorama                      0.2.5-0.1ubuntu2                     all          Cross-platform colored terminal text in Python - Python 2.x
 ii  python-colorama-whl                  0.2.5-0.1ubuntu2                     all          Cross-platform colored terminal text in Python - Wheels
 ii  python-configobj                     4.7.2+ds-5build1                     all          simple but powerful config file reader and writer for Python
-ii  python-crypto                        2.6.1-4build1                        amd64        cryptographic algorithms and protocols for Python
 ii  python-debian                        0.1.21+nmu2ubuntu2                   all          Python modules to work with Debian-related data formats
 ii  python-dev                           2.7.5-5ubuntu3                       amd64        header files and a static library for Python (default)
 ii  python-distlib                       0.1.8-1ubuntu1                       all          low-level components of python distutils2/packaging
@@ -705,9 +695,6 @@ ii  python-exif                          1.1.0-1                              al
 ii  python-gdbm                          2.7.5-1ubuntu1                       amd64        GNU dbm database support for Python
 ii  python-html5lib                      0.999-3~ubuntu1                      all          HTML parser/tokenizer based on the WHATWG HTML5 specification (Python 2)
 ii  python-html5lib-whl                  0.999-3~ubuntu1                      all          HTML parser/tokenizer based on the WHATWG HTML5 specification
-ii  python-httplib2                      0.8-2build1                          all          comprehensive HTTP client library written for Python
-ii  python-jinja2                        2.7.2-2                              all          small but fast and easy to use stand-alone template engine
-ii  python-markupsafe                    0.18-1build2                         amd64        HTML/XHTML/XML string library for Python
 ii  python-minimal                       2.7.5-5ubuntu3                       amd64        minimal subset of the Python language (default version)
 ii  python-mysqldb                       1.2.3-2ubuntu1                       amd64        Python interface to MySQL
 ii  python-openssl                       0.13-2ubuntu6                        amd64        Python 2 wrapper around the OpenSSL library
