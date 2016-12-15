@@ -15,9 +15,9 @@ ii  apache2-data                         2.4.7-1ubuntu4.13                 all  
 ii  apparmor                             2.8.95~2430-0ubuntu5.3            amd64        User-space parser utility for AppArmor
 ii  apport                               2.14.1-0ubuntu3.21                all          automatically generate crash reports for debugging
 ii  apport-symptoms                      0.20                              all          symptom scripts for apport
-ii  apt                                  1.0.1ubuntu2.15                   amd64        commandline package manager
-ii  apt-transport-https                  1.0.1ubuntu2.15                   amd64        https download transport for APT
-ii  apt-utils                            1.0.1ubuntu2.15                   amd64        package management related utility programs
+ii  apt                                  1.0.1ubuntu2.17                   amd64        commandline package manager
+ii  apt-transport-https                  1.0.1ubuntu2.17                   amd64        https download transport for APT
+ii  apt-utils                            1.0.1ubuntu2.17                   amd64        package management related utility programs
 ii  apt-xapian-index                     0.45ubuntu4                       all          maintenance and search tools for a Xapian index of Debian packages
 ii  aptitude                             0.6.8.2-1ubuntu4                  amd64        terminal-based package manager
 ii  aptitude-common                      0.6.8.2-1ubuntu4                  all          architecture indepedent files for the aptitude package manager
@@ -171,8 +171,8 @@ ii  libapr1:amd64                        1.5.0-1                           amd64
 ii  libaprutil1:amd64                    1.5.3-1                           amd64        Apache Portable Runtime Utility Library
 ii  libaprutil1-dbd-sqlite3:amd64        1.5.3-1                           amd64        Apache Portable Runtime Utility Library - SQLite3 Driver
 ii  libaprutil1-ldap:amd64               1.5.3-1                           amd64        Apache Portable Runtime Utility Library - LDAP Driver
-ii  libapt-inst1.5:amd64                 1.0.1ubuntu2.15                   amd64        deb package format runtime library
-ii  libapt-pkg4.12:amd64                 1.0.1ubuntu2.15                   amd64        package management runtime library
+ii  libapt-inst1.5:amd64                 1.0.1ubuntu2.17                   amd64        deb package format runtime library
+ii  libapt-pkg4.12:amd64                 1.0.1ubuntu2.17                   amd64        package management runtime library
 ii  libarchive-extract-perl              0.70-1                            all          generic archive extracting module
 ii  libasan0:amd64                       4.8.4-2ubuntu1~14.04.3            amd64        AddressSanitizer -- a fast memory error detector
 ii  libasn1-8-heimdal:amd64              1.6~git20131207+dfsg-1ubuntu1.1   amd64        Heimdal Kerberos - ASN.1 library
