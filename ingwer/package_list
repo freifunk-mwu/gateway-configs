@@ -353,8 +353,11 @@ ii  libpam-modules-bin                 1.1.8-3.1+deb8u1+b1         amd64        
 ii  libpam-runtime                     1.1.8-3.1+deb8u1            all          Runtime support for the PAM library
 ii  libpam0g:amd64                     1.1.8-3.1+deb8u1+b1         amd64        Pluggable Authentication Modules library
 ii  libpango-1.0-0:amd64               1.36.8-3                    amd64        Layout and rendering of internationalized text
+ii  libpango1.0-0:amd64                1.36.8-3                    amd64        Layout and rendering of internationalized text
 ii  libpangocairo-1.0-0:amd64          1.36.8-3                    amd64        Layout and rendering of internationalized text
 ii  libpangoft2-1.0-0:amd64            1.36.8-3                    amd64        Layout and rendering of internationalized text
+ii  libpangox-1.0-0:amd64              0.0.2-5                     amd64        pango library X backend
+ii  libpangoxft-1.0-0:amd64            1.36.8-3                    amd64        Layout and rendering of internationalized text
 ii  libparse-debianchangelog-perl      1.2.0-1.1                   all          parse Debian changelogs and output them in other formats
 ii  libpcap0.8:amd64                   1.6.2-2                     amd64        system interface for user-level packet capture
 ii  libpci3:amd64                      1:3.2.1-3                   amd64        Linux PCI Utilities (shared library)
@@ -443,6 +446,7 @@ ii  libxdamage1:amd64                  1:1.1.4-2+b1                amd64        
 ii  libxdmcp6:amd64                    1:1.1.1-1+b1                amd64        X11 Display Manager Control Protocol library
 ii  libxext6:amd64                     2:1.3.3-1                   amd64        X11 miscellaneous extension library
 ii  libxfixes3:amd64                   1:5.0.1-2+b2                amd64        X11 miscellaneous 'fixes' extension library
+ii  libxft2:amd64                      2.3.2-1                     amd64        FreeType-based font drawing library for X
 ii  libxi6:amd64                       2:1.7.4-1+b2                amd64        X11 Input extension library
 ii  libxinerama1:amd64                 2:1.1.3-1+b1                amd64        X11 Xinerama extension library
 ii  libxml-libxml-perl                 2.0116+dfsg-1+deb8u1        amd64        Perl interface to the libxml2 library
@@ -490,6 +494,7 @@ ii  mime-support                       3.58                        all          
 ii  mlocate                            0.26-1                      amd64        quickly find files on the filesystem based on their name
 ii  mosh                               1.2.4a-1+b2                 amd64        Mobile shell that supports roaming and intelligent local echo
 ii  mount                              2.25.2-6                    amd64        Tools for mounting and manipulating filesystems
+ii  mtr                                0.85-3                      amd64        Full screen ncurses and X11 traceroute tool
 ii  multiarch-support                  2.19-18+deb8u6              amd64        Transitional package to ensure multiarch compatibility
 ii  mutt                               1.5.23-3                    amd64        text-based mailreader supporting MIME, GPG, PGP and threading
 ii  nano                               2.2.6-3                     amd64        small, friendly text editor inspired by Pico
