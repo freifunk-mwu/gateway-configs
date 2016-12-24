@@ -92,7 +92,6 @@ protocol bgp icvpn_bremen1 from ebgp_ic {
 }
 protocol bgp icvpn_bremen2 from ebgp_ic {
     neighbor 10.207.2.196 as 65196;
-    passive yes;
 }
 protocol bgp icvpn_bremen3 from ebgp_ic {
     neighbor 10.207.3.196 as 65196;
@@ -179,7 +178,6 @@ protocol bgp icvpn_flensburg_foer_schleuse02 from ebgp_ic {
 }
 protocol bgp icvpn_franken_fff_gw_m1 from ebgp_ic {
     neighbor 10.207.0.26 as 65024;
-    passive yes;
 }
 protocol bgp icvpn_franken_ro1 from ebgp_ic {
     neighbor 10.207.0.23 as 65024;
@@ -451,6 +449,7 @@ protocol bgp icvpn_trier2 from ebgp_ic {
 }
 protocol bgp icvpn_trier3 from ebgp_ic {
     neighbor 10.207.0.222 as 65022;
+    passive yes;
 }
 protocol bgp icvpn_trier4 from ebgp_ic {
     neighbor 10.207.0.223 as 65022;
