@@ -250,7 +250,6 @@ protocol bgp icvpn_hameln_ffhmgw01 from ebgp_ic {
 }
 protocol bgp icvpn_hannover1 from ebgp_ic {
     neighbor 10.207.0.22 as 65511;
-    passive yes;
 }
 protocol bgp icvpn_harz1 from ebgp_ic {
     neighbor 10.207.0.11 as 65134;
