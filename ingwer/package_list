@@ -250,7 +250,7 @@ ii  libgcc-4.8-dev:amd64               4.8.4-1                     amd64        
 ii  libgcc-4.9-dev:amd64               4.9.2-10                    amd64        GCC support library (development files)
 ii  libgcc1:amd64                      1:4.9.2-10                  amd64        GCC support library
 ii  libgcrypt20:amd64                  1.6.3-2+deb8u2              amd64        LGPL Crypto library - runtime library
-ii  libgd3:amd64                       2.1.0-5+deb8u7              amd64        GD Graphics Library
+ii  libgd3:amd64                       2.1.0-5+deb8u8              amd64        GD Graphics Library
 ii  libgdbm3:amd64                     1.8.3-13.1                  amd64        GNU dbm database routines (runtime version)
 ii  libgdk-pixbuf2.0-0:amd64           2.31.1-2+deb8u5             amd64        GDK Pixbuf library
 ii  libgdk-pixbuf2.0-common            2.31.1-2+deb8u5             all          GDK Pixbuf library - data files
@@ -463,20 +463,15 @@ ii  libxrender1:amd64                  1:0.9.8-1+b1                amd64        
 ii  libxtables10                       1.4.21-2+b1                 amd64        netfilter xtables library
 ii  libyaml-0-2:amd64                  0.1.6-3                     amd64        Fast YAML 1.1 parser and emitter library
 ii  linux-base                         4.3~bpo8+1                  all          Linux image base package
-ii  linux-compiler-gcc-4.8-x86         3.16.36-1+deb8u2            amd64        Compiler for Linux on x86 (meta-package)
 ii  linux-compiler-gcc-4.9-x86         4.8.11-1~bpo8+1             amd64        Compiler for Linux on x86 (meta-package)
-ii  linux-headers-3.16.0-4-amd64       3.16.36-1+deb8u2            amd64        Header files for Linux 3.16.0-4-amd64
-ii  linux-headers-3.16.0-4-common      3.16.36-1+deb8u2            amd64        Common header files for Linux 3.16.0-4
 ii  linux-headers-4.7.0-0.bpo.1-amd64  4.7.8-1~bpo8+1              amd64        Header files for Linux 4.7.0-0.bpo.1-amd64
 ii  linux-headers-4.7.0-0.bpo.1-common 4.7.8-1~bpo8+1              amd64        Common header files for Linux 4.7.0-0.bpo.1
 ii  linux-headers-4.8.0-0.bpo.2-amd64  4.8.11-1~bpo8+1             amd64        Header files for Linux 4.8.0-0.bpo.2-amd64
 ii  linux-headers-4.8.0-0.bpo.2-common 4.8.11-1~bpo8+1             amd64        Common header files for Linux 4.8.0-0.bpo.2
 ii  linux-headers-amd64                4.8+77~bpo8+1               amd64        Header files for Linux amd64 configuration (meta-package)
-ii  linux-image-3.16.0-4-amd64         3.16.36-1+deb8u2            amd64        Linux 3.16 for 64-bit PCs
 ii  linux-image-4.7.0-0.bpo.1-amd64    4.7.8-1~bpo8+1              amd64        Linux 4.7 for 64-bit PCs (signed)
 ii  linux-image-4.8.0-0.bpo.2-amd64    4.8.11-1~bpo8+1             amd64        Linux 4.8 for 64-bit PCs (signed)
 ii  linux-image-amd64                  4.8+77~bpo8+1               amd64        Linux for 64-bit PCs (meta-package)
-ii  linux-kbuild-3.16                  3.16.7-ckt20-1              amd64        Kbuild infrastructure for Linux 3.16
 ii  linux-kbuild-4.7                   4.7.8-1~bpo8+1              amd64        Kbuild infrastructure for Linux 4.7
 ii  linux-kbuild-4.8                   4.8.11-1~bpo8+1             amd64        Kbuild infrastructure for Linux 4.8
 ii  linux-libc-dev:amd64               3.16.36-1+deb8u2            amd64        Linux support headers for userspace development
