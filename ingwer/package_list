@@ -463,7 +463,7 @@ ii  libxrender1:amd64                  1:0.9.8-1+b1                amd64        
 ii  libxtables10                       1.4.21-2+b1                 amd64        netfilter xtables library
 ii  libyaml-0-2:amd64                  0.1.6-3                     amd64        Fast YAML 1.1 parser and emitter library
 ii  linux-base                         4.3~bpo8+1                  all          Linux image base package
-ii  linux-compiler-gcc-4.9-x86         4.8.11-1~bpo8+1             amd64        Compiler for Linux on x86 (meta-package)
+ii  linux-compiler-gcc-4.9-x86         4.7.8-1~bpo8+1              amd64        Compiler for Linux on x86 (meta-package)
 ii  linux-headers-4.7.0-0.bpo.1-amd64  4.7.8-1~bpo8+1              amd64        Header files for Linux 4.7.0-0.bpo.1-amd64
 ii  linux-headers-4.7.0-0.bpo.1-common 4.7.8-1~bpo8+1              amd64        Common header files for Linux 4.7.0-0.bpo.1
 ii  linux-headers-4.8.0-0.bpo.2-amd64  4.8.11-1~bpo8+1             amd64        Header files for Linux 4.8.0-0.bpo.2-amd64
