@@ -794,6 +794,17 @@ zone "ffin" {
     server-addresses { 10.10.0.2; 10.10.0.4; };
 };
 # 
+# ireland
+# 
+zone "fmie" {
+    type static-stub;
+    server-addresses { 2001:678:358::ffff; 2001:678:358::fffe; };
+};
+zone "8.5.3.0.8.7.6.0.1.0.0.2.ip6.arpa" {
+    type static-stub;
+    server-addresses { 2001:678:358::ffff; 2001:678:358::fffe; };
+};
+# 
 # jena
 # 
 zone "ffj" {
