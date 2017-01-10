@@ -87,6 +87,7 @@ roa fddf:ebfd:a801:2192::/64 max  64 as      64887; # hueckeswagen
 roa 2a03:2260:116::/64       max  64 as      65252; # ingolstadt
 roa fd13:b4dc:4b1e::/64      max  64 as      65052; # innsbruck
 roa fd14:b4dc:4b1e::/64      max  64 as      65052; # innsbruck
+roa 2001:678:358::/48        max  64 as     206514; # ireland
 roa fd59:b1b7:1d1f::/48      max  64 as      65055; # jena
 roa 2a03:2260:a::/48         max  64 as      65081; # karlsruhe
 roa fdca:55e1:baca:baca::/64 max  64 as      65514; # kassel
