@@ -1,8 +1,8 @@
-; BIND data file for zone freifunk-mainz.de
+; BIND data file for zone freifunk-mwu.de
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2016123000		; Serial
+		     2017011501		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -78,6 +78,7 @@ okra		IN	A	136.243.198.170
 okra		IN	AAAA	2a01:4f8:192:570::b4dc:4b1e
 viprivpn	IN	A	193.25.173.41
 viprivpn-wan	IN	A	193.25.173.42
+unifi		IN	AAAA	2001:4ba0:fffc:3d::b4dc:4b1e:5
 
 ; service cnames
 map		IN	CNAME	suesskartoffel
