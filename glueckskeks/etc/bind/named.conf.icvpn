@@ -1114,6 +1114,21 @@ zone "64-127.55.10.in-addr.arpa" {
     server-addresses { 10.55.66.55; 10.55.64.3; };
 };
 # 
+# siegburg
+# 
+zone "ffsu" {
+    type static-stub;
+    server-addresses { 10.152.0.10; 10.152.16.10; fda4:1721:8450:100::1; fda4:1721:8450:200::1; };
+};
+zone "152.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.152.0.10; 10.152.16.10; fda4:1721:8450:100::1; fda4:1721:8450:200::1; };
+};
+zone "0.5.4.8.1.2.7.1.4.a.d.f.ip6.arpa" {
+    type static-stub;
+    server-addresses { 10.152.0.10; 10.152.16.10; fda4:1721:8450:100::1; fda4:1721:8450:200::1; };
+};
+# 
 # suedwest
 # 
 zone "ffws" {
