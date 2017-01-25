@@ -477,7 +477,6 @@ protocol bgp icvpn_trier4 from ebgp_ic {
 }
 protocol bgp icvpn_trier5 from ebgp_ic {
     neighbor 10.207.0.93 as 65022;
-    passive yes;
 }
 protocol bgp icvpn_troisdorf1 from ebgp_ic {
     neighbor 10.207.0.185 as 65066;
