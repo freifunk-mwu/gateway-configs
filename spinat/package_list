@@ -45,7 +45,7 @@ ii  busybox-static                       1:1.21.0-1ubuntu1                 amd64
 ii  byobu                                5.77-0ubuntu1.2                   all          powerful, text based window manager and shell multiplexer
 ii  bzip2                                1.0.6-5                           amd64        high-quality block-sorting file compressor - utilities
 ii  ca-certificates                      20160104ubuntu0.14.04.1           all          Common CA certificates
-ii  check-mk-agent                       1.2.6p12-1                        all          Check_MK Agent for Linux
+ii  check-mk-agent                       1.2.8p15-1                        all          Check_MK Agent for Linux
 ii  command-not-found                    0.3ubuntu12                       all          Suggest installation of packages in interactive bash sessions
 ii  command-not-found-data               0.3ubuntu12                       amd64        Set of data files for command-not-found.
 ii  console-setup                        1.70ubuntu8                       all          console font and keymap setup program
