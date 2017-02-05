@@ -334,7 +334,6 @@ protocol bgp icvpn_nordgw10 from ebgp_ic {
 }
 protocol bgp icvpn_nordgw11 from ebgp_ic {
     neighbor fec0::a:cf:b:15 as 65187;
-    passive yes;
 }
 protocol bgp icvpn_nordgw12 from ebgp_ic {
     neighbor fec0::a:cf:b:16 as 65187;
