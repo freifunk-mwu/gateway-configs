@@ -123,6 +123,7 @@ roa 2a03:2260:200c::/48      max  64 as      64862; # ostvest
 roa 2001:470:6d:860::/64     max  64 as      65132; # paderborn
 roa fdca:ffee:ff12::/48      max  64 as      65132; # paderborn
 roa fde8:21c6:9d82::/48      max  64 as      65433; # pinneberg
+roa fde8:21c6:370b::/48      max  64 as      64891; # prignitz
 roa fda0:747e:ab29:2195::/64 max  64 as      65067; # radevormwald
 roa fde0:105b:1d87::/48      max  64 as      64867; # ratingen
 roa fdef:f00f:1337:cafe::/64 max  64 as      65190; # regensburg
