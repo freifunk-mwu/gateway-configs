@@ -123,12 +123,13 @@ roa 10.135.0.0/16   max  20 as      65152; # ostholstein
 roa 10.47.0.0/16    max  20 as      64862; # ostvest
 roa 10.132.0.0/16   max  20 as      65132; # paderborn
 roa 10.137.0.0/16   max  20 as      65433; # pinneberg
+roa 10.15.192.0/20  max  20 as      64891; # prignitz
 roa 10.57.0.0/16    max  20 as      65067; # radevormwald
 roa 10.11.64.0/20   max  20 as      64867; # ratingen
 roa 10.90.0.0/16    max  20 as      65190; # regensburg
 roa 10.69.0.0/16    max  20 as      65530; # remscheid (delegation)
 roa 10.219.0.0/18   max  20 as      64888; # rhein-erft-kreis
-roa 10.142.0.0/16   max  20 as      76118; # rhein-neckar
+roa 10.142.0.0/16   max  20 as      64946; # rhein-neckar
 roa 10.111.0.0/16   max  20 as      65111; # rheinsiegkreis
 roa 10.40.0.0/16    max  20 as      65078; # rheinufer
 roa 10.67.0.0/16    max  20 as      64885; # rothenburg

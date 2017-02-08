@@ -391,8 +391,12 @@ protocol bgp icvpn_pinneberg from ebgp_ic {
     neighbor fec0::a:cf:0:1e as 65433;
     passive yes;
 }
+protocol bgp icvpn_prignitz from ebgp_ic {
+    neighbor fec0::a:cf:0:5e as 64891;
+    passive yes;
+}
 protocol bgp icvpn_rhein_neckar from ebgp_ic {
-    neighbor fec0::a:cf:0:142 as 76118;
+    neighbor fec0::a:cf:0:142 as 64946;
 }
 protocol bgp icvpn_rheinsiegkreis_rsk1 from ebgp_ic {
     neighbor fec0::a:cf:0:6f as 65111;
