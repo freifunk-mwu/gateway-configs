@@ -45,6 +45,7 @@ roa fdc7:3c9d:b889:a272::/64 max  64 as      65043; # dreilaendereck
 roa fdc7:3c9d:ff31::/48      max  64 as      65043; # dreilaendereck
 roa fd11:11ae:7466::/48      max  64 as      65051; # dresden
 roa fdec:4562:434f::/64      max  64 as      65520; # ebersdorf
+roa 2001:bf7:360::/44        max  64 as      64900; # einbeck
 roa 2001:bf7:130::/44        max  64 as      65138; # elm-lappwald
 roa 2001:bf7:100:2263::/64   max  64 as      65530; # engelskirchen (delegation)
 roa fddf:ebfd:a801:2263::/64 max  64 as      65530; # engelskirchen (delegation)
@@ -123,14 +124,15 @@ roa 2a03:2260:200c::/48      max  64 as      64862; # ostvest
 roa 2001:470:6d:860::/64     max  64 as      65132; # paderborn
 roa fdca:ffee:ff12::/48      max  64 as      65132; # paderborn
 roa fde8:21c6:9d82::/48      max  64 as      65433; # pinneberg
+roa fde8:21c6:370b::/48      max  64 as      64891; # prignitz
 roa fda0:747e:ab29:2195::/64 max  64 as      65067; # radevormwald
 roa fde0:105b:1d87::/48      max  64 as      64867; # ratingen
 roa fdef:f00f:1337:cafe::/64 max  64 as      65190; # regensburg
 roa 2001:bf7:100:2191::/64   max  64 as      65530; # remscheid (delegation)
 roa fddf:ebfd:a801:2191::/64 max  64 as      65530; # remscheid (delegation)
 roa fda0:747e:ab29:5016::/64 max  64 as      64888; # rhein-erft-kreis
-roa 2a01:4f8:100:57ff::/64   max  64 as      76118; # rhein-neckar
-roa fd42:23:138::/48         max  64 as      76118; # rhein-neckar
+roa 2a01:4f8:100:57ff::/64   max  64 as      64946; # rhein-neckar
+roa fd42:23:138::/48         max  64 as      64946; # rhein-neckar
 roa fda0:747e:ab29:2241::/64 max  64 as      65111; # rheinsiegkreis
 roa fda0:747e:ab29:cafe::/64 max  64 as      65078; # rheinufer
 roa 2001:470:1f15:6d9::/64   max  64 as      64885; # rothenburg

@@ -3,7 +3,6 @@
 # 
 protocol bgp icvpn_kreisgt_bgp1 from ebgp_ic {
     neighbor 10.207.0.136 as 206813;
-    passive yes;
 }
 protocol bgp icvpn_kreisgt_bgp2 from ebgp_ic {
     neighbor 10.207.0.133 as 206813;
@@ -108,6 +107,7 @@ protocol bgp icvpn_bremen6 from ebgp_ic {
 }
 protocol bgp icvpn_celle1 from ebgp_ic {
     neighbor 10.207.0.44 as 64861;
+    passive yes;
 }
 protocol bgp icvpn_celle2 from ebgp_ic {
     neighbor 10.207.0.56 as 64861;
@@ -143,6 +143,10 @@ protocol bgp icvpn_dresden1 from ebgp_ic {
 }
 protocol bgp icvpn_dresden2 from ebgp_ic {
     neighbor 10.207.0.20 as 65051;
+    passive yes;
+}
+protocol bgp icvpn_einbeck1 from ebgp_ic {
+    neighbor 10.207.0.95 as 64900;
     passive yes;
 }
 protocol bgp icvpn_erfurt1 from ebgp_ic {
@@ -243,7 +247,6 @@ protocol bgp icvpn_hamburg02 from ebgp_ic {
 }
 protocol bgp icvpn_hamburg03 from ebgp_ic {
     neighbor 10.207.0.63 as 49009;
-    passive yes;
 }
 protocol bgp icvpn_hameln_ffhmgw01 from ebgp_ic {
     neighbor 10.207.0.31 as 64873;
@@ -439,8 +442,12 @@ protocol bgp icvpn_paderborn02 from ebgp_ic {
 protocol bgp icvpn_pinneberg from ebgp_ic {
     neighbor 10.207.0.30 as 65433;
 }
+protocol bgp icvpn_prignitz from ebgp_ic {
+    neighbor 10.207.0.94 as 64891;
+    passive yes;
+}
 protocol bgp icvpn_rhein_neckar from ebgp_ic {
-    neighbor 10.207.0.142 as 76118;
+    neighbor 10.207.0.142 as 64946;
 }
 protocol bgp icvpn_rheinsiegkreis_rsk1 from ebgp_ic {
     neighbor 10.207.0.111 as 65111;
@@ -476,7 +483,6 @@ protocol bgp icvpn_trier4 from ebgp_ic {
 }
 protocol bgp icvpn_trier5 from ebgp_ic {
     neighbor 10.207.0.93 as 65022;
-    passive yes;
 }
 protocol bgp icvpn_troisdorf1 from ebgp_ic {
     neighbor 10.207.0.185 as 65066;
