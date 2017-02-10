@@ -415,6 +415,21 @@ zone "149.10.in-addr.arpa" {
     server-addresses { 10.8.6.6; };
 };
 # 
+# cuxhaven
+# 
+zone "ffcux" {
+    type static-stub;
+    server-addresses { fdec:c0f1:afda:0::ff01; fdec:c0f1:afda:0::ff02; fdec:c0f1:afda:0::ff03; fdec:c0f1:afda:0::ff04; fdec:c0f1:afda:0::ff05; };
+};
+zone "0.0.0.0.a.d.f.a.1.f.0.c.c.e.d.f.ip6.arpa" {
+    type static-stub;
+    server-addresses { fdec:c0f1:afda:0::ff01; fdec:c0f1:afda:0::ff02; fdec:c0f1:afda:0::ff03; fdec:c0f1:afda:0::ff04; fdec:c0f1:afda:0::ff05; };
+};
+zone "115.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { fdec:c0f1:afda:0::ff01; fdec:c0f1:afda:0::ff02; fdec:c0f1:afda:0::ff03; fdec:c0f1:afda:0::ff04; fdec:c0f1:afda:0::ff05; };
+};
+# 
 # darmstadt
 # 
 zone "ffda.io" {
@@ -1003,6 +1018,21 @@ zone "137.10.in-addr.arpa" {
 zone "2.8.d.9.6.c.1.2.8.e.d.f.ip6.arpa" {
     type static-stub;
     server-addresses { 10.137.12.1; 10.137.13.1; 10.137.10.1; fde8:21c6:9d82::0c01; fde8:21c6:9d82::0d01; fde8:21c6:9d82::0a01; };
+};
+# 
+# prignitz
+# 
+zone "ffpr" {
+    type static-stub;
+    server-addresses { 10.15.192.1; 10.15.192.2; fde8:21c6:370b::0a01; fde8:21c6:370b::0b01; };
+};
+zone "192.15.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.15.192.1; 10.15.192.2; fde8:21c6:370b::0a01; fde8:21c6:370b::0b01; };
+};
+zone "b.0.7.3.6.c.1.2.8.e.d.f.ip6.arpa" {
+    type static-stub;
+    server-addresses { 10.15.192.1; 10.15.192.2; fde8:21c6:370b::0a01; fde8:21c6:370b::0b01; };
 };
 # 
 # radevormwald
