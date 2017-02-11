@@ -30,6 +30,7 @@ roa 10.252.0.0/18   max  20 as      64861; # celle
 roa 10.149.0.0/16   max  20 as      65053; # chemnitz
 roa 10.8.0.0/16     max  20 as      65053; # chemnitz
 roa 10.35.0.0/16    max  20 as      64868; # cottbus
+roa 10.115.0.0/19   max  20 as      65115; # cuxhaven
 roa 10.223.0.0/16   max  20 as      65038; # darmstadt
 roa 10.213.0.0/16   max  20 as      65501; # diepholz
 roa 10.55.0.0/18    max  20 as      65000; # dillingen
@@ -38,6 +39,7 @@ roa 10.119.0.0/16   max  20 as      65043; # dreilaendereck
 roa 10.200.0.0/16   max  20 as      65051; # dresden
 roa 10.201.0.0/16   max  20 as      65051; # dresden
 roa 10.11.184.0/22  max  22 as      65520; # ebersdorf
+roa 10.49.0.0/18    max  20 as      64900; # einbeck
 roa 10.138.0.0/16   max  20 as      65138; # elm-lappwald
 roa 10.13.192.0/18  max  20 as      65402; # emscherland
 roa 10.141.128.0/17 max  20 as      65530; # engelskirchen (delegation)
