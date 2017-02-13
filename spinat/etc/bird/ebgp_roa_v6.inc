@@ -38,6 +38,7 @@ roa 2a06:8782::/32           max  64 as      65196; # bremen
 roa fd2f:5119:f2c::/48       max  64 as      65196; # bremen
 roa 2001:470:743f::/48       max  64 as      64861; # celle
 roa fd92:2dff:d232::/48      max  64 as      64861; # celle
+roa fdec:c0f1:afda::/64      max  64 as      65115; # cuxhaven
 roa 2001:67c:2ed8::/48       max  64 as      65038; # darmstadt
 roa fd01:67c:2ed8::/48       max  64 as      65038; # darmstadt
 roa fdc4:d762:2143::/48      max  64 as      64874; # donau-ries
