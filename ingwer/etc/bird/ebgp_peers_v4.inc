@@ -3,7 +3,6 @@
 # 
 protocol bgp icvpn_kreisgt_bgp1 from ebgp_ic {
     neighbor 10.207.0.136 as 206813;
-    passive yes;
 }
 protocol bgp icvpn_kreisgt_bgp2 from ebgp_ic {
     neighbor 10.207.0.133 as 206813;
@@ -248,6 +247,7 @@ protocol bgp icvpn_hamburg02 from ebgp_ic {
 }
 protocol bgp icvpn_hamburg03 from ebgp_ic {
     neighbor 10.207.0.63 as 49009;
+    passive yes;
 }
 protocol bgp icvpn_hameln_ffhmgw01 from ebgp_ic {
     neighbor 10.207.0.31 as 64873;
@@ -360,68 +360,12 @@ protocol bgp icvpn_muenchen1 from ebgp_ic {
 protocol bgp icvpn_mueritz_bgp1 from ebgp_ic {
     neighbor 10.207.0.138 as 65534;
 }
-protocol bgp icvpn_nordgw0 from ebgp_ic {
-    neighbor 10.207.11.10 as 65187;
-    passive yes;
-}
-protocol bgp icvpn_nordgw1 from ebgp_ic {
-    neighbor 10.207.11.11 as 65187;
-    passive yes;
-}
-protocol bgp icvpn_nordgw10 from ebgp_ic {
-    neighbor 10.207.11.20 as 65187;
-    passive yes;
-}
-protocol bgp icvpn_nordgw11 from ebgp_ic {
-    neighbor 10.207.11.21 as 65187;
-    passive yes;
-}
-protocol bgp icvpn_nordgw12 from ebgp_ic {
-    neighbor 10.207.11.22 as 65187;
-    passive yes;
-}
-protocol bgp icvpn_nordgw13 from ebgp_ic {
-    neighbor 10.207.11.23 as 65187;
-    passive yes;
-}
-protocol bgp icvpn_nordgw14 from ebgp_ic {
-    neighbor 10.207.11.24 as 65187;
-    passive yes;
-}
-protocol bgp icvpn_nordgw15 from ebgp_ic {
-    neighbor 10.207.11.25 as 65187;
-    passive yes;
-}
 protocol bgp icvpn_nordgw2 from ebgp_ic {
     neighbor 10.207.11.12 as 65187;
     passive yes;
 }
-protocol bgp icvpn_nordgw3 from ebgp_ic {
-    neighbor 10.207.11.13 as 65187;
-    passive yes;
-}
-protocol bgp icvpn_nordgw4 from ebgp_ic {
-    neighbor 10.207.11.14 as 65187;
-    passive yes;
-}
-protocol bgp icvpn_nordgw5 from ebgp_ic {
-    neighbor 10.207.11.15 as 65187;
-    passive yes;
-}
-protocol bgp icvpn_nordgw6 from ebgp_ic {
-    neighbor 10.207.11.16 as 65187;
-    passive yes;
-}
 protocol bgp icvpn_nordgw7 from ebgp_ic {
     neighbor 10.207.11.17 as 65187;
-    passive yes;
-}
-protocol bgp icvpn_nordgw8 from ebgp_ic {
-    neighbor 10.207.11.18 as 65187;
-    passive yes;
-}
-protocol bgp icvpn_nordgw9 from ebgp_ic {
-    neighbor 10.207.11.19 as 65187;
     passive yes;
 }
 protocol bgp icvpn_nordheide1 from ebgp_ic {
@@ -481,6 +425,7 @@ protocol bgp icvpn_trier3 from ebgp_ic {
 }
 protocol bgp icvpn_trier4 from ebgp_ic {
     neighbor 10.207.0.223 as 65022;
+    passive yes;
 }
 protocol bgp icvpn_trier5 from ebgp_ic {
     neighbor 10.207.0.93 as 65022;
