@@ -13,6 +13,7 @@ roa fdca:ffee:ffa1::/48      max  64 as      65522; # altmuehltal
 roa 2001:bf7:2520::/44       max  64 as      65050; # augsburg
 roa fdca:ffee:ffa::/48       max  64 as      65050; # augsburg
 roa fddf:bf7:80::/48         max  64 as      64859; # badoldesloe
+roa fdbe:12d0:03d2::/64      max  64 as      64892; # belgien
 roa 2001:bf7:750::/44        max  64 as      44194; # berlin
 roa 2001:bf7:760::/44        max  64 as      44194; # berlin
 roa 2001:bf7:770::/44        max  64 as      44194; # berlin
