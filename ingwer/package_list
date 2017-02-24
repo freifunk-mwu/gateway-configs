@@ -480,7 +480,7 @@ ii  linux-image-amd64                        4.9+78~bpo8+1               amd64  
 ii  linux-kbuild-4.7                         4.7.8-1~bpo8+1              amd64        Kbuild infrastructure for Linux 4.7
 ii  linux-kbuild-4.8                         4.8.15-2~bpo8+2             amd64        Kbuild infrastructure for Linux 4.8
 ii  linux-kbuild-4.9                         4.9.2-2~bpo8+1              amd64        Kbuild infrastructure for Linux 4.9
-ii  linux-libc-dev:amd64                     3.16.39-1                   amd64        Linux support headers for userspace development
+ii  linux-libc-dev:amd64                     3.16.39-1+deb8u1            amd64        Linux support headers for userspace development
 ii  locales                                  2.19-18+deb8u7              all          GNU C Library: National Language (locale) data [support]
 ii  login                                    1:4.2-3+deb8u1              amd64        system login tools
 ii  logrotate                                3.8.7-1+b1                  amd64        Log rotation utility
