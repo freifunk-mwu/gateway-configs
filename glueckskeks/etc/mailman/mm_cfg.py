@@ -114,8 +114,8 @@ MTA='Postfix'
 #      that of the list.  Also see REMOVE_DKIM_HEADERS above.
 # 2 -> Do not modify the From: of the message, but wrap the message in an outer
 #      message From the list address.
-DEFAULT_FROM_IS_LIST = 0
-ALLOW_FROM_IS_LIST = No
+DEFAULT_FROM_IS_LIST = 1
+ALLOW_FROM_IS_LIST = Yes
 
 # Do not break existing DKIM signatures
 DEFAULT_SUBJECT_PREFIX  = ""
