@@ -227,7 +227,7 @@ ii  libgcc-4.8-dev:amd64                 4.8.4-2ubuntu1~14.04.3            amd64
 ii  libgcc1:amd64                        1:4.9.3-0ubuntu4                  amd64        GCC support library
 ii  libgcrypt11:amd64                    1.5.3-2ubuntu4.4                  amd64        LGPL Crypto library - runtime library
 ii  libgcrypt11-dev                      1.5.3-2ubuntu4.4                  amd64        LGPL Crypto library - development files
-ii  libgd3:amd64                         2.1.0-3ubuntu0.5                  amd64        GD Graphics Library
+ii  libgd3:amd64                         2.1.0-3ubuntu0.6                  amd64        GD Graphics Library
 ii  libgdbm3:amd64                       1.8.3-12build1                    amd64        GNU dbm database routines (runtime version)
 ii  libgeoip1:amd64                      1.6.0-1                           amd64        non-DNS IP-to-country resolver library
 ii  libgirepository-1.0-1                1.40.0-1ubuntu0.2                 amd64        Library for handling GObject introspection data (runtime library)
@@ -433,7 +433,7 @@ ii  libtext-soundex-perl                 3.4-1build1                       amd64
 ii  libtext-wrapi18n-perl                0.06-7                            all          internationalized substitute of Text::Wrap
 ii  libthai-data                         0.1.20-3                          all          Data files for Thai language support library
 ii  libthai0:amd64                       0.1.20-3                          amd64        Thai language support library
-ii  libtiff5:amd64                       4.0.3-7ubuntu0.4                  amd64        Tag Image File Format (TIFF) library
+ii  libtiff5:amd64                       4.0.3-7ubuntu0.6                  amd64        Tag Image File Format (TIFF) library
 ii  libtimedate-perl                     2.3000-1                          all          collection of modules to manipulate date/time information
 ii  libtinfo-dev:amd64                   5.9+20140118-1ubuntu1             amd64        developer's library for the low-level terminfo library
 ii  libtinfo5:amd64                      5.9+20140118-1ubuntu1             amd64        shared low-level terminfo library for terminal handling
@@ -865,7 +865,7 @@ ii  vim-runtime                          2:7.4.052-1ubuntu3.1              all  
 ii  vim-tiny                             2:7.4.052-1ubuntu3.1              amd64        Vi IMproved - enhanced vi editor - compact version
 ii  vnstat                               1.11-2                            amd64        console-based network traffic monitor
 ii  vnstati                              1.11-2                            amd64        image output support for vnStat
-ii  w3m                                  0.5.3-15                          amd64        WWW browsable pager with excellent tables/frames support
+ii  w3m                                  0.5.3-15ubuntu0.1                 amd64        WWW browsable pager with excellent tables/frames support
 ii  watershed                            7                                 amd64        reduce superfluous executions of idempotent command
 ii  wget                                 1.15-1ubuntu1.14.04.2             amd64        retrieves files from the web
 ii  whiptail                             0.52.15-2ubuntu5                  amd64        Displays user-friendly dialog boxes from shell scripts
