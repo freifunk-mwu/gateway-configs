@@ -135,8 +135,8 @@ ii  hicolor-icon-theme                   0.13-1                              all
 ii  hostname                             3.15ubuntu1                         amd64        utility to set/show the host name or domain name
 ii  htop                                 1.0.2-3                             amd64        interactive processes viewer
 ii  ifupdown                             0.7.47.2ubuntu4.4                   amd64        high level tools to configure network interfaces
-ii  imagemagick                          8:6.7.7.10-6ubuntu3.3               amd64        image manipulation programs
-ii  imagemagick-common                   8:6.7.7.10-6ubuntu3.3               all          image manipulation programs -- infrastructure
+ii  imagemagick                          8:6.7.7.10-6ubuntu3.4               amd64        image manipulation programs
+ii  imagemagick-common                   8:6.7.7.10-6ubuntu3.4               all          image manipulation programs -- infrastructure
 ii  info                                 5.2.0.dfsg.1-2                      amd64        Standalone GNU Info documentation browser
 ii  init-system-helpers                  1.14ubuntu1                         all          helper tools for all init systems
 ii  initramfs-tools                      0.103ubuntu4.6                      all          tools for generating an initramfs
@@ -262,7 +262,7 @@ ii  libgck-1-0:amd64                     3.10.1-1                            amd
 ii  libgcr-3-common                      3.10.1-1                            all          Library for Crypto UI related tasks - common files
 ii  libgcr-base-3-1:amd64                3.10.1-1                            amd64        Library for Crypto related tasks
 ii  libgcrypt11:amd64                    1.5.3-2ubuntu4.4                    amd64        LGPL Crypto library - runtime library
-ii  libgd3:amd64                         2.1.0-3ubuntu0.5                    amd64        GD Graphics Library
+ii  libgd3:amd64                         2.1.0-3ubuntu0.6                    amd64        GD Graphics Library
 ii  libgdbm-dev                          1.8.3-12build1                      amd64        GNU dbm database routines (development files)
 ii  libgdbm3:amd64                       1.8.3-12build1                      amd64        GNU dbm database routines (runtime version)
 ii  libgdk-pixbuf2.0-0:amd64             2.30.7-0ubuntu1.6                   amd64        GDK Pixbuf library
@@ -361,9 +361,9 @@ ii  liblwres90                           1:9.9.5.dfsg-3ubuntu0.13            amd
 ii  liblzma5:amd64                       5.1.1alpha+20120614-2ubuntu2        amd64        XZ-format compression library
 ii  liblzo2-2:amd64                      2.06-1.2ubuntu1.1                   amd64        data compression library
 ii  libmagic1:amd64                      1:5.14-2ubuntu3.3                   amd64        File type determination library using "magic" numbers
-ii  libmagickcore5:amd64                 8:6.7.7.10-6ubuntu3.3               amd64        low-level image manipulation library
-ii  libmagickcore5-extra:amd64           8:6.7.7.10-6ubuntu3.3               amd64        low-level image manipulation library - extra codecs
-ii  libmagickwand5:amd64                 8:6.7.7.10-6ubuntu3.3               amd64        image manipulation library
+ii  libmagickcore5:amd64                 8:6.7.7.10-6ubuntu3.4               amd64        low-level image manipulation library
+ii  libmagickcore5-extra:amd64           8:6.7.7.10-6ubuntu3.4               amd64        low-level image manipulation library - extra codecs
+ii  libmagickwand5:amd64                 8:6.7.7.10-6ubuntu3.4               amd64        image manipulation library
 ii  libmailtools-perl                    2.12-1                              all          Manipulate email in perl programs
 ii  libmailutils4                        1:2.99.98-1.1                       amd64        GNU Mail abstraction library
 ii  libmcrypt4                           2.5.8-3.1ubuntu1                    amd64        De-/Encryption Library
@@ -483,7 +483,7 @@ ii  libtext-wrapi18n-perl                0.06-7                              all
 ii  libthai-data                         0.1.20-3                            all          Data files for Thai language support library
 ii  libthai0:amd64                       0.1.20-3                            amd64        Thai language support library
 ii  libtidy-0.99-0                       20091223cvs-1.2ubuntu1.1            amd64        HTML syntax checker and reformatter - library
-ii  libtiff5:amd64                       4.0.3-7ubuntu0.4                    amd64        Tag Image File Format (TIFF) library
+ii  libtiff5:amd64                       4.0.3-7ubuntu0.6                    amd64        Tag Image File Format (TIFF) library
 ii  libtimedate-perl                     2.3000-1                            all          collection of modules to manipulate date/time information
 ii  libtinfo-dev:amd64                   5.9+20140118-1ubuntu1               amd64        developer's library for the low-level terminfo library
 ii  libtinfo5:amd64                      5.9+20140118-1ubuntu1               amd64        shared low-level terminfo library for terminal handling
@@ -535,15 +535,18 @@ ii  linux-headers-3.13.0-108             3.13.0-108.155                      all
 ii  linux-headers-3.13.0-108-generic     3.13.0-108.155                      amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-109             3.13.0-109.156                      all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-109-generic     3.13.0-109.156                      amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-3.13.0-110             3.13.0-110.157                      all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-110-generic     3.13.0-110.157                      amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-86              3.13.0-86.131                       all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-86-generic      3.13.0-86.131                       amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-generic                3.13.0.109.117                      amd64        Generic Linux kernel headers
-ii  linux-headers-generic-lts-trusty     3.13.0.109.117                      amd64        Generic Linux kernel headers
+ii  linux-headers-generic                3.13.0.110.118                      amd64        Generic Linux kernel headers
+ii  linux-headers-generic-lts-trusty     3.13.0.110.118                      amd64        Generic Linux kernel headers
 rc  linux-image-3.13.0-100-generic       3.13.0-100.147                      amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-106-generic       3.13.0-106.153                      amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-107-generic       3.13.0-107.154                      amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-108-generic       3.13.0-108.155                      amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-109-generic       3.13.0-109.156                      amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-3.13.0-110-generic       3.13.0-110.157                      amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-79-generic        3.13.0-79.123                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-83-generic        3.13.0-83.127                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-85-generic        3.13.0-85.129                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -569,6 +572,7 @@ ii  linux-image-extra-3.13.0-106-generic 3.13.0-106.153                      amd
 rc  linux-image-extra-3.13.0-107-generic 3.13.0-107.154                      amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-108-generic 3.13.0-108.155                      amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-109-generic 3.13.0-109.156                      amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-extra-3.13.0-110-generic 3.13.0-110.157                      amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-79-generic  3.13.0-79.123                       amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-83-generic  3.13.0-83.127                       amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-85-generic  3.13.0-85.129                       amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
@@ -589,10 +593,10 @@ rc  linux-image-extra-3.19.0-41-generic  3.19.0-41.46~14.04.2                amd
 rc  linux-image-extra-3.19.0-42-generic  3.19.0-42.48~14.04.1                amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-47-generic  3.19.0-47.53~14.04.1                amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-49-generic  3.19.0-49.55~14.04.1                amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
-ii  linux-image-generic                  3.13.0.109.117                      amd64        Generic Linux kernel image
-ii  linux-image-generic-lts-trusty       3.13.0.109.117                      amd64        Generic Linux kernel image
-ii  linux-image-virtual                  3.13.0.109.117                      amd64        This package will always depend on the latest minimal generic kernel image.
-ii  linux-libc-dev:amd64                 3.13.0-109.156                      amd64        Linux Kernel Headers for development
+ii  linux-image-generic                  3.13.0.110.118                      amd64        Generic Linux kernel image
+ii  linux-image-generic-lts-trusty       3.13.0.110.118                      amd64        Generic Linux kernel image
+ii  linux-image-virtual                  3.13.0.110.118                      amd64        This package will always depend on the latest minimal generic kernel image.
+ii  linux-libc-dev:amd64                 3.13.0-110.157                      amd64        Linux Kernel Headers for development
 ii  locales                              2.13+git20120306-12.1               all          common files for locale support
 ii  lockfile-progs                       0.1.17                              amd64        Programs for locking and unlocking files and mailboxes
 ii  login                                1:4.1.5.1-1ubuntu9.2                amd64        system login tools
@@ -847,7 +851,7 @@ ii  tar                                  1.27.1-1ubuntu0.1                   amd
 ii  tasksel                              2.88ubuntu15                        all          Tool for selecting tasks for installation on Debian systems
 ii  tasksel-data                         2.88ubuntu15                        all          Official tasks used for installation of Debian systems
 ii  tcpd                                 7.6.q-25                            amd64        Wietse Venema's TCP wrapper utilities
-ii  tcpdump                              4.5.1-2ubuntu1.2                    amd64        command-line network traffic analyzer
+ii  tcpdump                              4.9.0-1ubuntu1~ubuntu14.04.1        amd64        command-line network traffic analyzer
 ii  telnet                               0.17-36build2                       amd64        The telnet client
 ii  tidy                                 20091223cvs-1.2ubuntu1.1            amd64        HTML syntax checker and reformatter
 ii  time                                 1.7-24                              amd64        GNU time program for measuring CPU resource usage
@@ -878,7 +882,7 @@ ii  vim-runtime                          2:7.4.052-1ubuntu3.1                all
 ii  vim-tiny                             2:7.4.052-1ubuntu3.1                amd64        Vi IMproved - enhanced vi editor - compact version
 ii  vnstat                               1.11-2                              amd64        console-based network traffic monitor
 ii  vnstati                              1.11-2                              amd64        image output support for vnStat
-ii  w3m                                  0.5.3-15                            amd64        WWW browsable pager with excellent tables/frames support
+ii  w3m                                  0.5.3-15ubuntu0.1                   amd64        WWW browsable pager with excellent tables/frames support
 ii  wget                                 1.15-1ubuntu1.14.04.2               amd64        retrieves files from the web
 ii  whiptail                             0.52.15-2ubuntu5                    amd64        Displays user-friendly dialog boxes from shell scripts
 ii  whois                                5.1.1                               amd64        intelligent WHOIS client
