@@ -72,7 +72,7 @@ ii  dkms                                 2.2.0.3-1.1ubuntu5.14.04.9          all
 ii  dmidecode                            2.12-2                              amd64        SMBIOS/DMI table decoder
 ii  dmsetup                              2:1.02.77-6ubuntu2                  amd64        Linux Kernel Device Mapper userspace library
 ii  dnsutils                             1:9.9.5.dfsg-3ubuntu0.13            amd64        Clients provided with BIND
-ii  docker-engine                        1.13.1-0~ubuntu-trusty              amd64        Docker: the open-source application container engine
+ii  docker-engine                        17.03.0~ce-0~ubuntu-trusty          amd64        Docker: the open-source application container engine
 ii  docutils-common                      0.11-3                              all          text processing system for reStructuredText - common data
 ii  dosfstools                           3.0.26-1ubuntu0.1                   amd64        utilities for making and checking MS-DOS FAT filesystems
 ii  dpkg                                 1.17.5ubuntu5.7                     amd64        Debian package management system
@@ -135,8 +135,8 @@ ii  hicolor-icon-theme                   0.13-1                              all
 ii  hostname                             3.15ubuntu1                         amd64        utility to set/show the host name or domain name
 ii  htop                                 1.0.2-3                             amd64        interactive processes viewer
 ii  ifupdown                             0.7.47.2ubuntu4.4                   amd64        high level tools to configure network interfaces
-ii  imagemagick                          8:6.7.7.10-6ubuntu3.4               amd64        image manipulation programs
-ii  imagemagick-common                   8:6.7.7.10-6ubuntu3.4               all          image manipulation programs -- infrastructure
+ii  imagemagick                          8:6.7.7.10-6ubuntu3.5               amd64        image manipulation programs
+ii  imagemagick-common                   8:6.7.7.10-6ubuntu3.5               all          image manipulation programs -- infrastructure
 ii  info                                 5.2.0.dfsg.1-2                      amd64        Standalone GNU Info documentation browser
 ii  init-system-helpers                  1.14ubuntu1                         all          helper tools for all init systems
 ii  initramfs-tools                      0.103ubuntu4.6                      all          tools for generating an initramfs
@@ -216,9 +216,9 @@ ii  libclass-accessor-perl               0.34-1                              all
 ii  libcloog-isl4:amd64                  0.18.2-1                            amd64        Chunky Loop Generator (runtime library)
 ii  libcomerr2:amd64                     1.42.9-3ubuntu1.3                   amd64        common error description library
 ii  libcroco3:amd64                      0.6.8-2ubuntu1                      amd64        Cascading Style Sheet (CSS) parsing and manipulation toolkit
-ii  libcups2:amd64                       1.7.2-0ubuntu1.7                    amd64        Common UNIX Printing System(tm) - Core library
+ii  libcups2:amd64                       1.7.2-0ubuntu1.8                    amd64        Common UNIX Printing System(tm) - Core library
 ii  libcupsfilters1:amd64                1.0.52-0ubuntu1.7                   amd64        OpenPrinting CUPS Filters - Shared library
-ii  libcupsimage2:amd64                  1.7.2-0ubuntu1.7                    amd64        Common UNIX Printing System(tm) - Raster image library
+ii  libcupsimage2:amd64                  1.7.2-0ubuntu1.8                    amd64        Common UNIX Printing System(tm) - Raster image library
 ii  libcurl3:amd64                       7.35.0-1ubuntu2.10                  amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii  libcurl3-gnutls:amd64                7.35.0-1ubuntu2.10                  amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii  libcwidget3                          0.5.16-3.5ubuntu1                   amd64        high-level terminal interface library for C++ (runtime files)
@@ -361,9 +361,9 @@ ii  liblwres90                           1:9.9.5.dfsg-3ubuntu0.13            amd
 ii  liblzma5:amd64                       5.1.1alpha+20120614-2ubuntu2        amd64        XZ-format compression library
 ii  liblzo2-2:amd64                      2.06-1.2ubuntu1.1                   amd64        data compression library
 ii  libmagic1:amd64                      1:5.14-2ubuntu3.3                   amd64        File type determination library using "magic" numbers
-ii  libmagickcore5:amd64                 8:6.7.7.10-6ubuntu3.4               amd64        low-level image manipulation library
-ii  libmagickcore5-extra:amd64           8:6.7.7.10-6ubuntu3.4               amd64        low-level image manipulation library - extra codecs
-ii  libmagickwand5:amd64                 8:6.7.7.10-6ubuntu3.4               amd64        image manipulation library
+ii  libmagickcore5:amd64                 8:6.7.7.10-6ubuntu3.5               amd64        low-level image manipulation library
+ii  libmagickcore5-extra:amd64           8:6.7.7.10-6ubuntu3.5               amd64        low-level image manipulation library - extra codecs
+ii  libmagickwand5:amd64                 8:6.7.7.10-6ubuntu3.5               amd64        image manipulation library
 ii  libmailtools-perl                    2.12-1                              all          Manipulate email in perl programs
 ii  libmailutils4                        1:2.99.98-1.1                       amd64        GNU Mail abstraction library
 ii  libmcrypt4                           2.5.8-3.1ubuntu1                    amd64        De-/Encryption Library
@@ -531,12 +531,6 @@ ii  libyaml-dev:amd64                    0.1.4-3ubuntu3.1                    amd
 ii  linux-firmware                       1.127.23                            all          Firmware for Linux kernel drivers
 ii  linux-headers-3.13.0-106             3.13.0-106.153                      all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-106-generic     3.13.0-106.153                      amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-108             3.13.0-108.155                      all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-108-generic     3.13.0-108.155                      amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-109             3.13.0-109.156                      all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-109-generic     3.13.0-109.156                      amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-110             3.13.0-110.157                      all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-110-generic     3.13.0-110.157                      amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-112             3.13.0-112.159                      all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-112-generic     3.13.0-112.159                      amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-86              3.13.0-86.131                       all          Header files related to Linux kernel version 3.13.0
@@ -546,9 +540,9 @@ ii  linux-headers-generic-lts-trusty     3.13.0.112.120                      amd
 rc  linux-image-3.13.0-100-generic       3.13.0-100.147                      amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-106-generic       3.13.0-106.153                      amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-107-generic       3.13.0-107.154                      amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-108-generic       3.13.0-108.155                      amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-109-generic       3.13.0-109.156                      amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-110-generic       3.13.0-110.157                      amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-108-generic       3.13.0-108.155                      amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-109-generic       3.13.0-109.156                      amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-110-generic       3.13.0-110.157                      amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-112-generic       3.13.0-112.159                      amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-79-generic        3.13.0-79.123                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-83-generic        3.13.0-83.127                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -573,9 +567,9 @@ rc  linux-image-3.19.0-49-generic        3.19.0-49.55~14.04.1                amd
 rc  linux-image-extra-3.13.0-100-generic 3.13.0-100.147                      amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-106-generic 3.13.0-106.153                      amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-107-generic 3.13.0-107.154                      amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-108-generic 3.13.0-108.155                      amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-109-generic 3.13.0-109.156                      amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-110-generic 3.13.0-110.157                      amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-108-generic 3.13.0-108.155                      amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-109-generic 3.13.0-109.156                      amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-110-generic 3.13.0-110.157                      amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-112-generic 3.13.0-112.159                      amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-79-generic  3.13.0-79.123                       amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-83-generic  3.13.0-83.127                       amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
@@ -620,8 +614,8 @@ ii  man-db                               2.6.7.1-1ubuntu1                    amd
 ii  manpages                             3.54-1ubuntu1                       all          Manual pages about using a GNU/Linux system
 ii  manpages-dev                         3.54-1ubuntu1                       all          Manual pages about using GNU/Linux for development
 ii  mawk                                 1.3.3-17ubuntu2                     amd64        a pattern scanning and text processing language
-ii  mediawiki                            1:1.27.1-2ppa2~trusty1              all          website engine for collaborative work
-ii  mediawiki-classes                    1:1.27.1-2ppa2~trusty1              all          website engine for collaborative work - standalone classes
+iF  mediawiki                            1:1.27.1-3ppa1~trusty1              all          website engine for collaborative work
+ii  mediawiki-classes                    1:1.27.1-3ppa1~trusty1              all          website engine for collaborative work - standalone classes
 rc  mediawiki-extensions-base            3.6                                 all          Extensions for MediaWiki -- Base package
 ii  memcached                            1.4.14-0ubuntu9.1                   amd64        A high-performance memory object caching system
 ii  memtest86+                           4.20-1.1ubuntu8                     amd64        thorough real-mode memory tester
@@ -718,7 +712,7 @@ ii  php-mail-mime                        1.8.8-1                             all
 ii  php-net-smtp                         1.6.1-1                             all          PHP PEAR module implementing SMTP protocol
 ii  php-net-socket                       1.0.14-1                            all          PHP PEAR Network Socket Interface module
 ii  php-pear                             5.5.9+dfsg-1ubuntu4.21              all          PEAR - PHP Extension and Application Repository
-ii  php-wikidiff2                        0.0.1+svn109581-1ubuntu1            amd64        external diff engine for mediawiki
+ii  php-wikidiff2                        1.4.1-1ppa1~trusty1                 amd64        external diff engine for mediawiki
 ii  php5                                 5.5.9+dfsg-1ubuntu4.21              all          server-side, HTML-embedded scripting language (metapackage)
 ii  php5-apcu                            4.0.2-2build1                       amd64        APC User Cache for PHP 5
 ii  php5-cli                             5.5.9+dfsg-1ubuntu4.21              amd64        command-line interpreter for the php5 scripting language
