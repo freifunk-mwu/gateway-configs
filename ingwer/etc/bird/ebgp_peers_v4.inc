@@ -157,7 +157,6 @@ protocol bgp icvpn_bremen3 from ebgp_ic {
 
 protocol bgp icvpn_bremen4 from ebgp_ic {
     neighbor 10.207.4.196 as 65196;
-    passive yes;
 }
 
 
