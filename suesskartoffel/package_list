@@ -592,6 +592,7 @@ ii  xauth                            1:1.0.7-1ubuntu1                  amd64    
 ii  xkb-data                         2.10.1-1ubuntu1                   all          X Keyboard Extension (XKB) configuration data
 ii  xml-core                         0.13+nmu2                         all          XML infrastructure and XML catalog file support
 ii  xz-utils                         5.1.1alpha+20120614-2ubuntu2      amd64        XZ-format compression utilities
+ii  yarn                             0.21.3-1                          all          Fast, reliable, and secure dependency management.
 ii  zlib-bin                         1:1.2.8.dfsg-1ubuntu1             amd64        compression library - sample programs
 ii  zlib1g:amd64                     1:1.2.8.dfsg-1ubuntu1             amd64        compression library - runtime
 ii  zopfli                           1.0.0-1                           amd64        zlib (gzip, deflate) compatible compressor
