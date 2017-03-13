@@ -3,7 +3,7 @@ $ORIGIN ffmwu.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffmwu.org. hostmaster.ffmwu.org. (
-                     2016112000         ; Serial
+                     2017031200         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -61,8 +61,6 @@ glueckskeks		IN	A	10.56.1.1
 glueckskeks		IN	AAAA	fd56:b4dc:4b1e::a38:101
 
 map			IN	CNAME	suesskartoffel
-hopglass		IN	CNAME	suesskartoffel
-meshdata		IN	CNAME	suesskartoffel
 openwrt			IN	CNAME	aubergine
 rtfm			IN	CNAME	zuckerwatte 
 einzugsgebiet		IN	CNAME	zuckerwatte
