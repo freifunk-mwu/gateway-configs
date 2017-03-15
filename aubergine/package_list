@@ -210,7 +210,7 @@ ii  libencode-locale-perl                1.03-1                            all  
 ii  libept1.4.12:amd64                   1.0.12                            amd64        High-level library for managing Debian package information
 ii  liberror-perl                        0.17-1.1                          all          Perl module for error/exception handling in an OO-ish way
 ii  libestr0                             0.1.9-0ubuntu2                    amd64        Helper functions for handling strings (lib)
-ii  libevent-2.0-5:amd64                 2.0.21-stable-1ubuntu1.14.04.1    amd64        Asynchronous event notification library
+ii  libevent-2.0-5:amd64                 2.0.21-stable-1ubuntu1.14.04.2    amd64        Asynchronous event notification library
 ii  libexpat1:amd64                      2.1.0-4ubuntu1.3                  amd64        XML parsing C library - runtime library
 ii  libexpat1-dev:amd64                  2.1.0-4ubuntu1.3                  amd64        XML parsing C library - development kit
 ii  libfakeroot:amd64                    1.20-3ubuntu2                     amd64        tool for simulating superuser privileges - shared libraries
@@ -270,7 +270,7 @@ ii  libhttp-message-perl                 6.06-1                            all  
 ii  libhttp-negotiate-perl               6.00-2                            all          implementation of content negotiation
 ii  libhx509-5-heimdal:amd64             1.6~git20131207+dfsg-1ubuntu1.1   amd64        Heimdal Kerberos - X509 support library
 ii  libice6:amd64                        2:1.0.8-2                         amd64        X11 Inter-Client Exchange library
-ii  libicu52:amd64                       52.1-3ubuntu0.4                   amd64        International Components for Unicode
+ii  libicu52:amd64                       52.1-3ubuntu0.5                   amd64        International Components for Unicode
 ii  libidn11:amd64                       1.28-1ubuntu2.1                   amd64        GNU Libidn library, implementation of IETF IDN specifications
 ii  libio-html-perl                      1.00-1                            all          open an HTML file with automatic charset detection
 ii  libio-socket-inet6-perl              2.71-1                            all          object interface for AF_INET6 domain sockets
