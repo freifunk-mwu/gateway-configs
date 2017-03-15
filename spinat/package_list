@@ -213,7 +213,7 @@ ii  libelf1:amd64                        0.158-0ubuntu5.2                  amd64
 ii  libept1.4.12:amd64                   1.0.12                            amd64        High-level library for managing Debian package information
 ii  liberror-perl                        0.17-1.1                          all          Perl module for error/exception handling in an OO-ish way
 ii  libestr0                             0.1.9-0ubuntu2                    amd64        Helper functions for handling strings (lib)
-ii  libevent-2.0-5:amd64                 2.0.21-stable-1ubuntu1.14.04.1    amd64        Asynchronous event notification library
+ii  libevent-2.0-5:amd64                 2.0.21-stable-1ubuntu1.14.04.2    amd64        Asynchronous event notification library
 ii  libexpat1:amd64                      2.1.0-4ubuntu1.3                  amd64        XML parsing C library - runtime library
 ii  libexpat1-dev:amd64                  2.1.0-4ubuntu1.3                  amd64        XML parsing C library - development kit
 ii  libfakeroot:amd64                    1.20-3ubuntu2                     amd64        tool for simulating superuser privileges - shared libraries
