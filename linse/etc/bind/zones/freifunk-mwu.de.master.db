@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2017011501		; Serial
+		     2017031300		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -82,10 +82,10 @@ unifi		IN	AAAA	2001:4ba0:fffc:3d::b4dc:4b1e:5
 
 ; service cnames
 map		IN	CNAME	suesskartoffel
-nextmap		IN	CNAME	suesskartoffel
+mapng		IN	CNAME	suesskartoffel
+stats		IN	CNAME	suesskartoffel
 einzugsgebiet	IN	CNAME	zuckerwatte
 rtfm		IN	CNAME	zuckerwatte
-brokkoli	IN	CNAME	kokel.ddns.net.
 mailadmin	IN	CNAME	glueckskeks
 webmail		IN	CNAME	glueckskeks
 lg		IN	CNAME	aubergine

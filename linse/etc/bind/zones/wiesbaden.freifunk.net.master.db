@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2016041600		; Serial
+		     2017031100		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -20,6 +20,7 @@ $TTL	3600
 www		IN	CNAME	zuckerwatte.freifunk-mwu.de.
 wwwtest		IN	CNAME	zuckerwatte.freifunk-mwu.de.
 api		IN	CNAME	zuckerwatte.freifunk-mwu.de.
+firmwareng	IN	CNAME	zuckerwatte.freifunk-mwu.de.
 firmware	IN	CNAME	firmware.freifunk-mwu.de.
 map		IN	CNAME	suesskartoffel.freifunk-mwu.de.
 einzugsgebiet	IN	CNAME	zuckerwatte.freifunk-mwu.de.
