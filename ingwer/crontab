@@ -32,7 +32,7 @@ PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bi
 #*/5 * * * * $HOME/clones/backend-scripts/check_radvd_gw.py > $HOME/.cronlog/check_radvd.log
 23 * * * * $HOME/clones/backend-scripts/gen_website_all.py > $HOME/.cronlog/gen_website.log
 */5 * * * * $HOME/clones/backend-scripts/limit_fastd_peers_gw.py > $HOME/.cronlog/limit_fastd_peers.log 2>&1
-*/15 * * * * $HOME/clones/backend-scripts/sync_meshkeys_gw.sh 2>&1 > $HOME/.cronlog/sync_meshkeys.log
+*/15 * * * * $HOME/clones/backend-scripts/sync_meshkeys_gw.sh > $HOME/.cronlog/sync_meshkeys.log 2>&1
 42 5,23 * * * $HOME/clones/backend-scripts/snapshot_configs_all.py > $HOME/.cronlog/snapshot_configs.log
 # icvpn prototypes
 01 3 * * 3,6,7 $HOME/clones/backend-scripts/gen_icvpn_bgp_gw.sh > $HOME/.cronlog/gen_icvpn_bgp_gw.log
