@@ -421,7 +421,6 @@ protocol bgp icvpn_koeln1 from ebgp_ic {
 
 protocol bgp icvpn_kiel0 from ebgp_ic {
     neighbor fec0::a:cf:0:34 as 65525;
-    passive yes;
 }
 
 
@@ -551,6 +550,18 @@ protocol bgp icvpn_siegburg1 from ebgp_ic {
 
 protocol bgp icvpn_siegburg2 from ebgp_ic {
     neighbor fec0::a:cf:1:98 as 65200;
+    passive yes;
+}
+
+
+protocol bgp icvpn_slfl1 from ebgp_ic {
+    neighbor fec0::a:cf:0:63 as 64901;
+    passive yes;
+}
+
+
+protocol bgp icvpn_slfl2 from ebgp_ic {
+    neighbor fec0::a:cf:0:62 as 64901;
     passive yes;
 }
 
