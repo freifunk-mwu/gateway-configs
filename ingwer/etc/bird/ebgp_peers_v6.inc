@@ -26,7 +26,6 @@ protocol bgp icvpn_kreisgt_bgp4 from ebgp_ic {
 
 protocol bgp icvpn_kreisgt_tst1 from ebgp_ic {
     neighbor fec0::a:cf:0:86 as 206813;
-    passive yes;
 }
 
 
@@ -54,6 +53,7 @@ protocol bgp icvpn_badoldesloe from ebgp_ic {
 
 protocol bgp icvpn_berlin1 from ebgp_ic {
     neighbor fec0::a:cf:0:5 as 44194;
+    passive yes;
 }
 
 
@@ -487,7 +487,6 @@ protocol bgp icvpn_nordgw2 from ebgp_ic {
 
 protocol bgp icvpn_nordgw7 from ebgp_ic {
     neighbor fec0::a:cf:b:11 as 65187;
-    passive yes;
 }
 
 
