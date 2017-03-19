@@ -208,6 +208,7 @@ protocol bgp icvpn_darmstadt1 from ebgp_ic {
 
 protocol bgp icvpn_dreilaendereck3 from ebgp_ic {
     neighbor 10.207.0.71 as 65043;
+    passive yes;
 }
 
 
@@ -648,6 +649,18 @@ protocol bgp icvpn_siegburg1 from ebgp_ic {
 
 protocol bgp icvpn_siegburg2 from ebgp_ic {
     neighbor 10.207.1.152 as 65200;
+    passive yes;
+}
+
+
+protocol bgp icvpn_slfl1 from ebgp_ic {
+    neighbor 10.207.0.99 as 64901;
+    passive yes;
+}
+
+
+protocol bgp icvpn_slfl2 from ebgp_ic {
+    neighbor 10.207.0.98 as 64901;
     passive yes;
 }
 
