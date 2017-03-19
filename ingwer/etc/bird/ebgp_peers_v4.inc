@@ -26,7 +26,6 @@ protocol bgp icvpn_kreisgt_bgp4 from ebgp_ic {
 
 protocol bgp icvpn_kreisgt_tst1 from ebgp_ic {
     neighbor 10.207.0.134 as 206813;
-    passive yes;
 }
 
 
@@ -208,7 +207,6 @@ protocol bgp icvpn_darmstadt1 from ebgp_ic {
 
 protocol bgp icvpn_dreilaendereck3 from ebgp_ic {
     neighbor 10.207.0.71 as 65043;
-    passive yes;
 }
 
 
