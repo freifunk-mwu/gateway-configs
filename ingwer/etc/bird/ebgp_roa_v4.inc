@@ -6,6 +6,7 @@
 # 
 roa 10.234.0.0/15   max  20 as     206813; # Kreis_GT
 roa 10.255.0.0/16   max  20 as     206813; # Kreis_GT
+roa 10.145.0.0/16   max  20 as      65077; # aachen
 roa 10.5.0.0/16     max  20 as      65077; # aachen
 roa 10.202.0.0/18   max  20 as      65522; # altmuehltal
 roa 10.205.0.0/16   max  20 as      65205; # amsterdam
@@ -161,6 +162,7 @@ roa 10.24.192.0/18  max  20 as      64770; # saar
 roa 10.252.64.0/18  max  20 as      64770; # saar
 roa 10.55.64.0/18   max  20 as      65001; # saarlouis
 roa 10.152.0.0/18   max  20 as      65200; # siegburg
+roa 10.24.32.0/19   max  20 as      64901; # slfl
 roa 10.6.0.0/16     max  20 as      65530; # solingen (delegation)
 roa 10.190.0.0/15   max  20 as      65019; # stuttgart
 roa 10.215.0.0/16   max  20 as      65083; # suedpfalz
