@@ -12,5 +12,6 @@
 # By default this script does nothing.
 
 /sbin/ethtool -K eth0 gso off gro off rx off tx off sg off
+nohup socat TCP4-LISTEN:8080,fork,su=nobody TCP6:[2001:4ba0:fffc:3d:0:b4dc:4b1e:5]:8080 &
 
 exit 0
