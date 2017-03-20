@@ -4,10 +4,7 @@
 # So Include it via:
 #   roa table icvpn { include "roa.con?" }
 # 
-roa 2001:bf7:1310::/44       max  64 as     206813; # Kreis_GT
 roa 2a03:2260:117::/48       max  64 as     206813; # Kreis_GT
-roa 2a06:e881:1700::/44      max  64 as     206813; # Kreis_GT
-roa fd42:ffee:ff12::/48      max  64 as     206813; # Kreis_GT
 roa 2a03:2260:114::/48       max  64 as      65077; # aachen
 roa fdca:ffee:ffa1::/48      max  64 as      65522; # altmuehltal
 roa 2001:bf7:2520::/44       max  64 as      65050; # augsburg
@@ -96,6 +93,8 @@ roa 2a03:2260:a::/48         max  64 as      65081; # karlsruhe
 roa fdca:55e1:baca:baca::/64 max  64 as      65514; # kassel
 roa fdd3:5d16:b5dd::/48      max  64 as      65528; # kbu
 roa fda1:384a:74de::/48      max  64 as      65525; # kiel
+roa 2001:bf7:1310::/44       max  64 as      65533; # kreisgt
+roa 2a06:e881:1700::/44      max  64 as      65533; # kreisgt
 roa 2001:bf7:100:2268::/64   max  64 as      65530; # kuerten (delegation)
 roa fddf:ebfd:a801:2268::/64 max  64 as      65530; # kuerten (delegation)
 roa fd25:1952:c72e::/48      max  64 as      64876; # lausitz
@@ -173,6 +172,7 @@ roa 2a03:2260:50:2400::/56   max  64 as      64862; # ruhrgebiet (delegation)
 roa fd4e:f2d7:88d2:fffd::/64 max  64 as      64770; # saar
 roa fd4e:f2d7:88d2:ffff::/64 max  64 as      64770; # saar
 roa fda4:1721:8450::/48      max  64 as      65200; # siegburg
+roa fd07:96ae:572e::/48      max  64 as      64901; # slfl
 roa 2001:bf7:100:212::/64    max  64 as      65530; # solingen (delegation)
 roa fddf:ebfd:a801:212::/64  max  64 as      65530; # solingen (delegation)
 roa 2a03:2260:100a::/48      max  64 as      65083; # suedpfalz
