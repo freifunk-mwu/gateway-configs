@@ -158,7 +158,7 @@ ii  libexpat1-dev:amd64              2.1.0-4ubuntu1.3                  amd64    
 ii  libfakeroot:amd64                1.20-3ubuntu2                     amd64        tool for simulating superuser privileges - shared libraries
 ii  libffi6:amd64                    3.1~rc1+r3.0.13-12ubuntu0.1       amd64        Foreign Function Interface library runtime
 ii  libfile-fcntllock-perl           0.14-2build1                      amd64        Perl module for file locking with fcntl(2)
-ii  libfreetype6:amd64               2.5.2-1ubuntu2.5                  amd64        FreeType 2 font engine, shared library files
+ii  libfreetype6:amd64               2.5.2-1ubuntu2.6                  amd64        FreeType 2 font engine, shared library files
 ii  libfribidi0:amd64                0.19.6-1                          amd64        Free Implementation of the Unicode BiDi algorithm
 ii  libfuse2:amd64                   2.9.2-4ubuntu4.14.04.1            amd64        Filesystem in Userspace (library)
 ii  libgc1c2:amd64                   1:7.2d-5ubuntu2.1                 amd64        conservative garbage collector for C and C++
@@ -171,8 +171,8 @@ ii  libgirepository-1.0-1            1.40.0-1ubuntu0.2                 amd64    
 ii  libglib2.0-0:amd64               2.40.2-0ubuntu1                   amd64        GLib library of C routines
 ii  libglib2.0-data                  2.40.2-0ubuntu1                   all          Common files for GLib library
 ii  libgmp10:amd64                   2:5.1.3+dfsg-1ubuntu1             amd64        Multiprecision arithmetic library
-ii  libgnutls-openssl27:amd64        2.12.23-12ubuntu2.6               amd64        GNU TLS library - OpenSSL wrapper
-ii  libgnutls26:amd64                2.12.23-12ubuntu2.6               amd64        GNU TLS library - runtime library
+ii  libgnutls-openssl27:amd64        2.12.23-12ubuntu2.7               amd64        GNU TLS library - OpenSSL wrapper
+ii  libgnutls26:amd64                2.12.23-12ubuntu2.7               amd64        GNU TLS library - runtime library
 ii  libgomp1:amd64                   4.8.4-2ubuntu1~14.04.3            amd64        GCC OpenMP (GOMP) support library
 ii  libgpg-error0:amd64              1.12-0.2ubuntu1                   amd64        library for common error values and messages in GnuPG components
 ii  libgpm2:amd64                    1.20.4-6.1                        amd64        General Purpose Mouse - shared library
