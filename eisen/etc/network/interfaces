@@ -24,3 +24,7 @@ iface br0 inet6 static
         down /sbin/ip -6 route del 2001:4ba0:fffc:1:beef::1 dev $IFACE
         up /sbin/ip -6 route add 2000::/3 via 2001:4ba0:fffc:1:beef::1 dev $IFACE
         down /sbin/ip -6 route del 2000::/3 via 2001:4ba0:fffc:1:beef::1 dev $IFACE
+
+auto br1
+iface br1 inet static
+	bridge-ports ''
