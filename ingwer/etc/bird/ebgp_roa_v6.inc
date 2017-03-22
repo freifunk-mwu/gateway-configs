@@ -4,10 +4,7 @@
 # So Include it via:
 #   roa table icvpn { include "roa.con?" }
 # 
-roa 2001:bf7:1310::/44       max  64 as     206813; # Kreis_GT
 roa 2a03:2260:117::/48       max  64 as     206813; # Kreis_GT
-roa 2a06:e881:1700::/44      max  64 as     206813; # Kreis_GT
-roa fd42:ffee:ff12::/48      max  64 as     206813; # Kreis_GT
 roa 2a03:2260:114::/48       max  64 as      65077; # aachen
 roa fdca:ffee:ffa1::/48      max  64 as      65522; # altmuehltal
 roa 2001:bf7:2520::/44       max  64 as      65050; # augsburg
@@ -96,6 +93,8 @@ roa 2a03:2260:a::/48         max  64 as      65081; # karlsruhe
 roa fdca:55e1:baca:baca::/64 max  64 as      65514; # kassel
 roa fdd3:5d16:b5dd::/48      max  64 as      65528; # kbu
 roa fda1:384a:74de::/48      max  64 as      65525; # kiel
+roa 2001:bf7:1310::/44       max  64 as      65533; # kreisgt
+roa 2a06:e881:1700::/44      max  64 as      65533; # kreisgt
 roa 2001:bf7:100:2268::/64   max  64 as      65530; # kuerten (delegation)
 roa fddf:ebfd:a801:2268::/64 max  64 as      65530; # kuerten (delegation)
 roa fd25:1952:c72e::/48      max  64 as      64876; # lausitz
@@ -204,3 +203,5 @@ roa 2a03:2260:300d::/48      max  64 as      64881; # winterberg
 roa 2001:bf7:100:2267::/64   max  64 as      65530; # wipperfuerth (delegation)
 roa fddf:ebfd:a801:2267::/64 max  64 as      65530; # wipperfuerth (delegation)
 roa fda0:747e:ab29:e1ba::/64 max  64 as      65523; # wuppertal
+roa 2a05:ff01:a::/48         max  64 as      65065; # zollernalb
+roa 2a05:ff01:b::/48         max  64 as      65065; # zollernalb
