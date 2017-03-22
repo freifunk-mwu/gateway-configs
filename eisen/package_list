@@ -432,6 +432,7 @@ ii  login                                1:4.1.5.1-1ubuntu9.2                  a
 ii  logrotate                            3.8.7-1ubuntu1                        amd64        Log rotation utility
 ii  lsb-base                             4.1+Debian11ubuntu6.2                 all          Linux Standard Base 4.1 init script functionality
 ii  lsb-release                          4.1+Debian11ubuntu6.2                 all          Linux Standard Base version reporting utility
+ii  lsof                                 4.86+dfsg-1ubuntu2                    amd64        Utility to list open files
 ii  lvm2                                 2.02.98-6ubuntu2                      amd64        Linux Logical Volume Manager
 ii  make                                 3.81-8.2ubuntu3                       amd64        An utility for Directing compilation.
 ii  makedev                              2.3.1-93ubuntu1                       all          creates device files in /dev
@@ -555,6 +556,7 @@ ii  sysvinit-utils                       2.88dsf-41ubuntu6.3                   a
 ii  tar                                  1.27.1-1                              amd64        GNU version of the tar archiving utility
 ii  tcpd                                 7.6.q-25                              amd64        Wietse Venema's TCP wrapper utilities
 ii  tcpdump                              4.5.1-2ubuntu1.2                      amd64        command-line network traffic analyzer
+ii  telnet                               0.17-36build2                         amd64        The telnet client
 ii  traceroute                           1:2.0.20-0ubuntu0.1                   amd64        Traces the route taken by packets over an IPv4/IPv6 network
 ii  tzdata                               2016h-0ubuntu0.14.04                  all          time zone and daylight-saving time data
 ii  ubuntu-keyring                       2012.05.19                            all          GnuPG keys of the Ubuntu archive
