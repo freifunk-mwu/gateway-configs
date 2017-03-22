@@ -187,10 +187,10 @@ ii  libblkid1:amd64                      2.20.1-5.1ubuntu20.9              amd64
 ii  libboost-iostreams1.54.0:amd64       1.54.0-4ubuntu3.1                 amd64        Boost.Iostreams Library
 ii  libbsd0:amd64                        0.6.0-2ubuntu1                    amd64        utility functions from BSD systems - shared library
 ii  libbz2-1.0:amd64                     1.0.6-5                           amd64        high-quality block-sorting file compressor library - runtime
-ii  libc-bin                             2.19-0ubuntu6.9                   amd64        Embedded GNU C Library: Binaries
-ii  libc-dev-bin                         2.19-0ubuntu6.9                   amd64        Embedded GNU C Library: Development binaries
-ii  libc6:amd64                          2.19-0ubuntu6.9                   amd64        Embedded GNU C Library: Shared libraries
-ii  libc6-dev:amd64                      2.19-0ubuntu6.9                   amd64        Embedded GNU C Library: Development Libraries and Header Files
+ii  libc-bin                             2.19-0ubuntu6.10                  amd64        Embedded GNU C Library: Binaries
+ii  libc-dev-bin                         2.19-0ubuntu6.10                  amd64        Embedded GNU C Library: Development binaries
+ii  libc6:amd64                          2.19-0ubuntu6.10                  amd64        Embedded GNU C Library: Shared libraries
+ii  libc6-dev:amd64                      2.19-0ubuntu6.10                  amd64        Embedded GNU C Library: Development Libraries and Header Files
 ii  libcairo2:amd64                      1.13.0~20140204-0ubuntu1.1        amd64        The Cairo 2D vector graphics library
 ii  libcap-ng0                           0.7.3-1ubuntu2                    amd64        An alternate POSIX capabilities library
 ii  libcap2:amd64                        1:2.24-0ubuntu2                   amd64        support for getting/setting POSIX.1e capabilities
@@ -228,7 +228,7 @@ ii  libfakeroot:amd64                    1.20-3ubuntu2                     amd64
 ii  libffi6:amd64                        3.1~rc1+r3.0.13-12ubuntu0.1       amd64        Foreign Function Interface library runtime
 ii  libfile-fcntllock-perl               0.14-2build1                      amd64        Perl module for file locking with fcntl(2)
 ii  libfontconfig1:amd64                 2.11.0-0ubuntu4.2                 amd64        generic font configuration library - runtime
-ii  libfreetype6:amd64                   2.5.2-1ubuntu2.5                  amd64        FreeType 2 font engine, shared library files
+ii  libfreetype6:amd64                   2.5.2-1ubuntu2.6                  amd64        FreeType 2 font engine, shared library files
 ii  libfribidi0:amd64                    0.19.6-1                          amd64        Free Implementation of the Unicode BiDi algorithm
 ii  libfuse2:amd64                       2.9.2-4ubuntu4.14.04.1            amd64        Filesystem in Userspace (library)
 ii  libgc1c2:amd64                       1:7.2d-5ubuntu2.1                 amd64        conservative garbage collector for C and C++
@@ -245,8 +245,8 @@ ii  libgirepository-1.0-1                1.40.0-1ubuntu0.2                 amd64
 ii  libglib2.0-0:amd64                   2.40.2-0ubuntu1                   amd64        GLib library of C routines
 ii  libglib2.0-data                      2.40.2-0ubuntu1                   all          Common files for GLib library
 ii  libgmp10:amd64                       2:5.1.3+dfsg-1ubuntu1             amd64        Multiprecision arithmetic library
-ii  libgnutls-openssl27:amd64            2.12.23-12ubuntu2.6               amd64        GNU TLS library - OpenSSL wrapper
-ii  libgnutls26:amd64                    2.12.23-12ubuntu2.6               amd64        GNU TLS library - runtime library
+ii  libgnutls-openssl27:amd64            2.12.23-12ubuntu2.7               amd64        GNU TLS library - OpenSSL wrapper
+ii  libgnutls26:amd64                    2.12.23-12ubuntu2.7               amd64        GNU TLS library - runtime library
 ii  libgomp1:amd64                       4.8.4-2ubuntu1~14.04.3            amd64        GCC OpenMP (GOMP) support library
 ii  libgpg-error0:amd64                  1.12-0.2ubuntu1                   amd64        library for common error values and messages in GnuPG components
 ii  libgpm2:amd64                        1.20.4-6.1                        amd64        General Purpose Mouse - shared library
@@ -501,6 +501,7 @@ ii  lsb-release                          4.1+Debian11ubuntu6.2             all  
 ii  lshw                                 02.16-2ubuntu1.3                  amd64        information about hardware configuration
 ii  lsof                                 4.86+dfsg-1ubuntu2                amd64        Utility to list open files
 ii  ltrace                               0.7.3-4ubuntu5.1                  amd64        Tracks runtime library calls in dynamically linked programs
+ii  lynx-cur                             2.8.8pre4-1                       amd64        Text-mode WWW Browser with NLS support (development version)
 ii  make                                 3.81-8.2ubuntu3                   amd64        An utility for Directing compilation.
 ii  makedev                              2.3.1-93ubuntu1                   all          creates device files in /dev
 ii  man-db                               2.6.7.1-1ubuntu1                  amd64        on-line manual pager
@@ -516,7 +517,7 @@ ii  mosh                                 1.2.4a-1ubuntu1                   amd64
 ii  mount                                2.20.1-5.1ubuntu20.9              amd64        Tools for mounting and manipulating filesystems
 ii  mountall                             2.53                              amd64        filesystem mounting tool
 ii  mtr-tiny                             0.85-2                            amd64        Full screen ncurses traceroute tool
-ii  multiarch-support                    2.19-0ubuntu6.9                   amd64        Transitional package to ensure multiarch compatibility
+ii  multiarch-support                    2.19-0ubuntu6.10                  amd64        Transitional package to ensure multiarch compatibility
 ii  nano                                 2.2.6-1ubuntu1                    amd64        small, friendly text editor inspired by Pico
 ii  ncurses-base                         5.9+20140118-1ubuntu1             all          basic terminal type definitions
 ii  ncurses-bin                          5.9+20140118-1ubuntu1             amd64        terminal-related programs and man pages
