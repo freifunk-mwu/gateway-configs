@@ -8,7 +8,7 @@ ii  acpi                               1.7-1                       amd64        
 ii  acpi-support-base                  0.142-6                     all          scripts for handling base ACPI events such as the power button
 ii  acpid                              1:2.0.23-2                  amd64        Advanced Configuration and Power Interface event daemon
 ii  adduser                            3.113+nmu3                  all          add and remove users and groups
-ii  alfred                             2016.4-1+ffmwu0             amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
+ii  alfred                             2017.0-1+ffmwu0             amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
 ii  amd64-microcode                    2.20160316.1~deb8u1         amd64        Processor microcode firmware for AMD CPUs
 ii  analog                             2:6.0-20+b2                 amd64        web server log analyzer
 ii  apache2                            2.4.10-10+deb8u8            amd64        Apache HTTP Server
@@ -30,9 +30,9 @@ ii  base-files                         8+deb8u7                    amd64        
 ii  base-passwd                        3.5.37                      amd64        Debian base system master password and group files
 ii  bash                               4.3-11+deb8u1               amd64        GNU Bourne Again SHell
 ii  bash-completion                    1:2.1-4                     all          programmable completion for the bash shell
-ii  batadv-vis                         2016.4-1+ffmwu0             amd64        batadv-vis - visualize your batman-adv mesh network
-ii  batctl                             2016.4-1+ffmwu0             amd64        B.A.T.M.A.N. advanced control and management tool
-ii  batman-adv-dkms                    2016.4-1+ffmwu0             all          DKMS Source for the batman-advanced kernel module
+ii  batadv-vis                         2017.0-1+ffmwu0             amd64        batadv-vis - visualize your batman-adv mesh network
+ii  batctl                             2017.0-1+ffmwu0             amd64        B.A.T.M.A.N. advanced control and management tool
+ii  batman-adv-dkms                    2017.0.1-1+ffmwu0           all          DKMS Source for the batman-advanced kernel module
 ii  bc                                 1.06.95-9                   amd64        GNU bc arbitrary precision calculator language
 ii  bind9                              1:9.9.5.dfsg-9+deb8u10      amd64        Internet Domain Name Server
 ii  bind9-host                         1:9.9.5.dfsg-9+deb8u10      amd64        Version of 'host' bundled with BIND 9.X
