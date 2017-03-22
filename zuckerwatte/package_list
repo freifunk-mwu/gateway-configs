@@ -207,10 +207,10 @@ ii  libbsd0:amd64                        0.6.0-2ubuntu1                      amd
 ii  libbz2-1.0:amd64                     1.0.6-5                             amd64        high-quality block-sorting file compressor library - runtime
 ii  libc-ares-dev:amd64                  1.10.0-2ubuntu0.1                   amd64        asynchronous name resolver - development files
 ii  libc-ares2:amd64                     1.10.0-2ubuntu0.1                   amd64        asynchronous name resolver
-ii  libc-bin                             2.19-0ubuntu6.10                    amd64        Embedded GNU C Library: Binaries
-ii  libc-dev-bin                         2.19-0ubuntu6.10                    amd64        Embedded GNU C Library: Development binaries
-ii  libc6:amd64                          2.19-0ubuntu6.10                    amd64        Embedded GNU C Library: Shared libraries
-ii  libc6-dev:amd64                      2.19-0ubuntu6.10                    amd64        Embedded GNU C Library: Development Libraries and Header Files
+ii  libc-bin                             2.19-0ubuntu6.11                    amd64        Embedded GNU C Library: Binaries
+ii  libc-dev-bin                         2.19-0ubuntu6.11                    amd64        Embedded GNU C Library: Development binaries
+ii  libc6:amd64                          2.19-0ubuntu6.11                    amd64        Embedded GNU C Library: Shared libraries
+ii  libc6-dev:amd64                      2.19-0ubuntu6.11                    amd64        Embedded GNU C Library: Development Libraries and Header Files
 ii  libcairo2:amd64                      1.13.0~20140204-0ubuntu1.1          amd64        The Cairo 2D vector graphics library
 ii  libcap-ng0                           0.7.3-1ubuntu2                      amd64        An alternate POSIX capabilities library
 ii  libcap2:amd64                        1:2.24-0ubuntu2                     amd64        support for getting/setting POSIX.1e capabilities
@@ -636,7 +636,7 @@ ii  mosh                                 1.2.4a-1ubuntu1                     amd
 ii  mount                                2.20.1-5.1ubuntu20.9                amd64        Tools for mounting and manipulating filesystems
 ii  mountall                             2.53                                amd64        filesystem mounting tool
 ii  mtr-tiny                             0.85-2                              amd64        Full screen ncurses traceroute tool
-ii  multiarch-support                    2.19-0ubuntu6.10                    amd64        Transitional package to ensure multiarch compatibility
+ii  multiarch-support                    2.19-0ubuntu6.11                    amd64        Transitional package to ensure multiarch compatibility
 ii  mysql-client-5.5                     5.5.54-0ubuntu0.14.04.1             amd64        MySQL database client binaries
 ii  mysql-client-core-5.5                5.5.54-0ubuntu0.14.04.1             amd64        MySQL database core client binaries
 ii  mysql-common                         5.5.54-0ubuntu0.14.04.1             all          MySQL database common files, e.g. /etc/mysql/my.cnf
