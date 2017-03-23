@@ -24,17 +24,6 @@ protocol bgp icvpn_kreisgt_bgp4 from ebgp_ic {
 }
 
 
-protocol bgp icvpn_kreisgt_tst1 from ebgp_ic {
-    neighbor fec0::a:cf:0:86 as 206813;
-}
-
-
-protocol bgp icvpn_kreisgt_tst2 from ebgp_ic {
-    neighbor fec0::a:cf:0:89 as 206813;
-    passive yes;
-}
-
-
 protocol bgp icvpn_aachen1 from ebgp_ic {
     neighbor fec0::a:cf:0:72 as 65077;
 }
@@ -421,6 +410,17 @@ protocol bgp icvpn_koeln1 from ebgp_ic {
 
 protocol bgp icvpn_kiel0 from ebgp_ic {
     neighbor fec0::a:cf:0:34 as 65525;
+    passive yes;
+}
+
+
+protocol bgp icvpn_kreisgt_fks from ebgp_ic {
+    neighbor fec0::a:cf:0:86 as 65533;
+}
+
+
+protocol bgp icvpn_kreisgt_gut from ebgp_ic {
+    neighbor fec0::a:cf:0:89 as 65533;
 }
 
 
@@ -680,11 +680,30 @@ protocol bgp icvpn_westpfalz3 from ebgp_ic {
 
 protocol bgp icvpn_westpfalz4 from ebgp_ic {
     neighbor fec0::a:cf:0:5a as 65242;
+    passive yes;
 }
 
 
 protocol bgp icvpn_wuppertal1 from ebgp_ic {
     neighbor fec0::a:cf:0:71 as 65523;
+    passive yes;
+}
+
+
+protocol bgp icvpn_zollernalb1 from ebgp_ic {
+    neighbor fec0::a:cf:1:46 as 65065;
+    passive yes;
+}
+
+
+protocol bgp icvpn_zollernalb2 from ebgp_ic {
+    neighbor fec0::a:cf:1:47 as 65065;
+    passive yes;
+}
+
+
+protocol bgp icvpn_zollernalb3 from ebgp_ic {
+    neighbor fec0::a:cf:1:49 as 65065;
     passive yes;
 }
 

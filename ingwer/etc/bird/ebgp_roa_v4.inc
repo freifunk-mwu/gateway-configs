@@ -4,8 +4,6 @@
 # So Include it via:
 #   roa table icvpn { include "roa.con?" }
 # 
-roa 10.234.0.0/15   max  20 as     206813; # Kreis_GT
-roa 10.255.0.0/16   max  20 as     206813; # Kreis_GT
 roa 10.145.0.0/16   max  20 as      65077; # aachen
 roa 10.5.0.0/16     max  20 as      65077; # aachen
 roa 10.202.0.0/18   max  20 as      65522; # altmuehltal
@@ -92,6 +90,8 @@ roa 10.54.0.0/16    max  20 as      65514; # kassel
 roa 10.158.0.0/15   max  20 as      65528; # kbu
 roa 172.26.0.0/15   max  20 as      65528; # kbu
 roa 10.116.0.0/16   max  20 as      65525; # kiel
+roa 10.234.0.0/15   max  20 as      65533; # kreisgt
+roa 10.255.0.0/16   max  20 as      65533; # kreisgt
 roa 10.16.0.0/17    max  20 as      65530; # kuerten (delegation)
 roa 10.39.0.0/18    max  20 as      64876; # lausitz
 roa 10.21.0.0/16    max  20 as      64780; # leichlingen
@@ -190,3 +190,4 @@ roa 10.51.0.0/16    max  20 as      65054; # weststeiermark
 roa 10.16.128.0/18  max  20 as      64881; # winterberg
 roa 10.224.0.0/16   max  20 as      65530; # wipperfuerth (delegation)
 roa 10.3.0.0/16     max  20 as      65523; # wuppertal
+roa 10.70.0.0/18    max  20 as      65065; # zollernalb
