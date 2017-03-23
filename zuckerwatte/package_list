@@ -6,7 +6,7 @@ Desired=Unknown/Install/Remove/Purge/Hold
 ii  accountsservice                      0.6.35-0ubuntu7.3                   amd64        query and manipulate user account information
 ii  acpid                                1:2.0.21-1ubuntu2                   amd64        Advanced Configuration and Power Interface event daemon
 ii  adduser                              3.113+nmu3ubuntu3                   all          add and remove users and groups
-ii  alfred                               2016.0-0ffmwu0~trusty               amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
+ii  alfred                               2017.0-0ffmwu2~trusty               amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
 ii  alfred-json                          0.3.1-0ffmwu1~trusty                amd64        A.L.F.R.E.D client supporting GZIP decompression and JSON, string and binary output
 ii  apache2                              2.4.7-1ubuntu4.13                   amd64        Apache HTTP Server
 ii  apache2-bin                          2.4.7-1ubuntu4.13                   amd64        Apache HTTP Server (binary files and modules)
@@ -30,9 +30,9 @@ ii  base-files                           7.2ubuntu5.5                        amd
 ii  base-passwd                          3.5.33                              amd64        Debian base system master password and group files
 ii  bash                                 4.3-7ubuntu1.5                      amd64        GNU Bourne Again SHell
 ii  bash-completion                      1:2.1-4ubuntu0.2                    all          programmable completion for the bash shell
-ii  batadv-vis                           2016.0-0ffmwu0~trusty               amd64        batadv-vis - visualize your batman-adv mesh network
-ii  batctl                               2016.2-0ffmwu0~trusty               amd64        B.A.T.M.A.N. advanced control and management tool
-ii  batman-adv-dkms                      2016.2-0ffmwu0~trusty               all          DKMS Source for the batman-advanced kernel module
+ii  batadv-vis                           2017.0-0ffmwu2~trusty               amd64        batadv-vis - visualize your batman-adv mesh network
+ii  batctl                               2017.0-0ffmwu0~trusty               amd64        B.A.T.M.A.N. advanced control and management tool
+ii  batman-adv-dkms                      2017.0.1-0ffmwu0~trusty             all          DKMS Source for the batman-advanced kernel module
 ii  bc                                   1.06.95-8ubuntu1                    amd64        GNU bc arbitrary precision calculator language
 ii  bind9-host                           1:9.9.5.dfsg-3ubuntu0.13            amd64        Version of 'host' bundled with BIND 9.X
 ii  binutils                             2.24-5ubuntu14.1                    amd64        GNU assembler, linker and binary utilities
@@ -110,8 +110,8 @@ ii  gettext                              0.18.3.1-1ubuntu3                   amd
 ii  gettext-base                         0.18.3.1-1ubuntu3                   amd64        GNU Internationalization utilities for the base system
 ii  ghostscript                          9.10~dfsg-0ubuntu10.6               amd64        interpreter for the PostScript language and for PDF
 ii  gir1.2-glib-2.0                      1.40.0-1ubuntu0.2                   amd64        Introspection data for GLib, GObject, Gio and GModule
-ii  git                                  1:1.9.1-1ubuntu0.3                  amd64        fast, scalable, distributed revision control system
-ii  git-man                              1:1.9.1-1ubuntu0.3                  all          fast, scalable, distributed revision control system (manual pages)
+ii  git                                  1:1.9.1-1ubuntu0.4                  amd64        fast, scalable, distributed revision control system
+ii  git-man                              1:1.9.1-1ubuntu0.4                  all          fast, scalable, distributed revision control system (manual pages)
 ii  glances                              1.7.3-2ubuntu1                      all          CLI curses based monitoring tool
 ii  gnupg                                1.4.16-1ubuntu2.4                   amd64        GNU privacy guard - a free PGP replacement
 ii  golang                               2:1.4.2                             all          Go programming language compiler - metapackage
@@ -207,10 +207,10 @@ ii  libbsd0:amd64                        0.6.0-2ubuntu1                      amd
 ii  libbz2-1.0:amd64                     1.0.6-5                             amd64        high-quality block-sorting file compressor library - runtime
 ii  libc-ares-dev:amd64                  1.10.0-2ubuntu0.1                   amd64        asynchronous name resolver - development files
 ii  libc-ares2:amd64                     1.10.0-2ubuntu0.1                   amd64        asynchronous name resolver
-ii  libc-bin                             2.19-0ubuntu6.9                     amd64        Embedded GNU C Library: Binaries
-ii  libc-dev-bin                         2.19-0ubuntu6.9                     amd64        Embedded GNU C Library: Development binaries
-ii  libc6:amd64                          2.19-0ubuntu6.9                     amd64        Embedded GNU C Library: Shared libraries
-ii  libc6-dev:amd64                      2.19-0ubuntu6.9                     amd64        Embedded GNU C Library: Development Libraries and Header Files
+ii  libc-bin                             2.19-0ubuntu6.11                    amd64        Embedded GNU C Library: Binaries
+ii  libc-dev-bin                         2.19-0ubuntu6.11                    amd64        Embedded GNU C Library: Development binaries
+ii  libc6:amd64                          2.19-0ubuntu6.11                    amd64        Embedded GNU C Library: Shared libraries
+ii  libc6-dev:amd64                      2.19-0ubuntu6.11                    amd64        Embedded GNU C Library: Development Libraries and Header Files
 ii  libcairo2:amd64                      1.13.0~20140204-0ubuntu1.1          amd64        The Cairo 2D vector graphics library
 ii  libcap-ng0                           0.7.3-1ubuntu2                      amd64        An alternate POSIX capabilities library
 ii  libcap2:amd64                        1:2.24-0ubuntu2                     amd64        support for getting/setting POSIX.1e capabilities
@@ -257,7 +257,7 @@ ii  libfile-fcntllock-perl               0.14-2build1                        amd
 ii  libfile-listing-perl                 6.04-1                              all          module to parse directory listings
 ii  libfont-afm-perl                     1.20-1                              all          Font::AFM - Interface to Adobe Font Metrics files
 ii  libfontconfig1:amd64                 2.11.0-0ubuntu4.2                   amd64        generic font configuration library - runtime
-ii  libfreetype6:amd64                   2.5.2-1ubuntu2.5                    amd64        FreeType 2 font engine, shared library files
+ii  libfreetype6:amd64                   2.5.2-1ubuntu2.6                    amd64        FreeType 2 font engine, shared library files
 ii  libfribidi0:amd64                    0.19.6-1                            amd64        Free Implementation of the Unicode BiDi algorithm
 ii  libfuse2:amd64                       2.9.2-4ubuntu4.14.04.1              amd64        Filesystem in Userspace (library)
 ii  libgc1c2:amd64                       1:7.2d-5ubuntu2.1                   amd64        conservative garbage collector for C and C++
@@ -279,8 +279,8 @@ ii  libgirepository-1.0-1                1.40.0-1ubuntu0.2                   amd
 ii  libglib2.0-0:amd64                   2.40.2-0ubuntu1                     amd64        GLib library of C routines
 ii  libglib2.0-data                      2.40.2-0ubuntu1                     all          Common files for GLib library
 ii  libgmp10:amd64                       2:5.1.3+dfsg-1ubuntu1               amd64        Multiprecision arithmetic library
-ii  libgnutls-openssl27:amd64            2.12.23-12ubuntu2.6                 amd64        GNU TLS library - OpenSSL wrapper
-ii  libgnutls26:amd64                    2.12.23-12ubuntu2.6                 amd64        GNU TLS library - runtime library
+ii  libgnutls-openssl27:amd64            2.12.23-12ubuntu2.7                 amd64        GNU TLS library - OpenSSL wrapper
+ii  libgnutls26:amd64                    2.12.23-12ubuntu2.7                 amd64        GNU TLS library - runtime library
 ii  libgo5:amd64                         4.9.3-0ubuntu4                      amd64        Runtime library for GNU Go applications
 ii  libgomp1:amd64                       4.8.4-2ubuntu1~14.04.3              amd64        GCC OpenMP (GOMP) support library
 ii  libgpg-error0:amd64                  1.12-0.2ubuntu1                     amd64        library for common error values and messages in GnuPG components
@@ -527,7 +527,7 @@ ii  libxcb-shm0:amd64                    1.10-2ubuntu1                       amd
 ii  libxcb1:amd64                        1.10-2ubuntu1                       amd64        X C Binding
 ii  libxdmcp6:amd64                      1:1.1.1-1                           amd64        X11 Display Manager Control Protocol library
 ii  libxext6:amd64                       2:1.3.2-1ubuntu0.0.14.04.1          amd64        X11 miscellaneous extension library
-ii  libxml2:amd64                        2.9.1+dfsg1-3ubuntu4.8              amd64        GNOME XML library
+ii  libxml2:amd64                        2.9.1+dfsg1-3ubuntu4.9              amd64        GNOME XML library
 rc  libxmu6:amd64                        2:1.1.1-1                           amd64        X11 miscellaneous utility library
 ii  libxmuu1:amd64                       2:1.1.1-1                           amd64        X11 miscellaneous micro-utility library
 ii  libxpm4:amd64                        1:3.5.10-1ubuntu0.1                 amd64        X11 pixmap library
@@ -603,7 +603,7 @@ rc  linux-image-extra-3.19.0-49-generic  3.19.0-49.55~14.04.1                amd
 ii  linux-image-generic                  3.13.0.112.120                      amd64        Generic Linux kernel image
 ii  linux-image-generic-lts-trusty       3.13.0.112.120                      amd64        Generic Linux kernel image
 ii  linux-image-virtual                  3.13.0.112.120                      amd64        This package will always depend on the latest minimal generic kernel image.
-ii  linux-libc-dev:amd64                 3.13.0-112.159                      amd64        Linux Kernel Headers for development
+ii  linux-libc-dev:amd64                 3.13.0-113.160                      amd64        Linux Kernel Headers for development
 ii  locales                              2.13+git20120306-12.1               all          common files for locale support
 ii  lockfile-progs                       0.1.17                              amd64        Programs for locking and unlocking files and mailboxes
 ii  login                                1:4.1.5.1-1ubuntu9.2                amd64        system login tools
@@ -636,7 +636,7 @@ ii  mosh                                 1.2.4a-1ubuntu1                     amd
 ii  mount                                2.20.1-5.1ubuntu20.9                amd64        Tools for mounting and manipulating filesystems
 ii  mountall                             2.53                                amd64        filesystem mounting tool
 ii  mtr-tiny                             0.85-2                              amd64        Full screen ncurses traceroute tool
-ii  multiarch-support                    2.19-0ubuntu6.9                     amd64        Transitional package to ensure multiarch compatibility
+ii  multiarch-support                    2.19-0ubuntu6.11                    amd64        Transitional package to ensure multiarch compatibility
 ii  mysql-client-5.5                     5.5.54-0ubuntu0.14.04.1             amd64        MySQL database client binaries
 ii  mysql-client-core-5.5                5.5.54-0ubuntu0.14.04.1             amd64        MySQL database core client binaries
 ii  mysql-common                         5.5.54-0ubuntu0.14.04.1             all          MySQL database common files, e.g. /etc/mysql/my.cnf
