@@ -189,3 +189,4 @@ roa 10.51.0.0/16    max  20 as      65054; # weststeiermark
 roa 10.16.128.0/18  max  20 as      64881; # winterberg
 roa 10.224.0.0/16   max  20 as      65530; # wipperfuerth (delegation)
 roa 10.3.0.0/16     max  20 as      65523; # wuppertal
+roa 10.70.0.0/18    max  20 as      65065; # zollernalb
