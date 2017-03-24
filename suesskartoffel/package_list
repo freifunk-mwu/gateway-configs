@@ -5,7 +5,7 @@ Desired=Unknown/Install/Remove/Purge/Hold
 +++-================================-=================================-============-===================================================================================
 ii  acpid                            1:2.0.21-1ubuntu2                 amd64        Advanced Configuration and Power Interface event daemon
 ii  adduser                          3.113+nmu3ubuntu3                 all          add and remove users and groups
-ii  alfred                           2016.0-0ffmwu0~trusty             amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
+ii  alfred                           2017.0-0ffmwu2~trusty             amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
 ii  alfred-json                      0.3.1-0ffmwu1~trusty              amd64        A.L.F.R.E.D client supporting GZIP decompression and JSON, string and binary output
 ii  apache2                          2.4.7-1ubuntu4.13                 amd64        Apache HTTP Server
 ii  apache2-bin                      2.4.7-1ubuntu4.13                 amd64        Apache HTTP Server (binary files and modules)
@@ -22,9 +22,9 @@ ii  at                               3.1.14-1ubuntu1                   amd64    
 ii  base-files                       7.2ubuntu5.5                      amd64        Debian base system miscellaneous files
 ii  base-passwd                      3.5.33                            amd64        Debian base system master password and group files
 ii  bash                             4.3-7ubuntu1.5                    amd64        GNU Bourne Again SHell
-ii  batadv-vis                       2016.0-0ffmwu0~trusty             amd64        batadv-vis - visualize your batman-adv mesh network
-ii  batctl                           2016.2-0ffmwu0~trusty             amd64        B.A.T.M.A.N. advanced control and management tool
-ii  batman-adv-dkms                  2016.2-0ffmwu0~trusty             all          DKMS Source for the batman-advanced kernel module
+ii  batadv-vis                       2017.0-0ffmwu2~trusty             amd64        batadv-vis - visualize your batman-adv mesh network
+ii  batctl                           2017.0-0ffmwu0~trusty             amd64        B.A.T.M.A.N. advanced control and management tool
+ii  batman-adv-dkms                  2017.0.1-0ffmwu0~trusty           all          DKMS Source for the batman-advanced kernel module
 ii  bc                               1.06.95-8ubuntu1                  amd64        GNU bc arbitrary precision calculator language
 ii  bind9-host                       1:9.9.5.dfsg-3ubuntu0.13          amd64        Version of 'host' bundled with BIND 9.X
 ii  binutils                         2.24-5ubuntu14.1                  amd64        GNU assembler, linker and binary utilities
@@ -83,11 +83,11 @@ ii  gcc-4.9-base:amd64               4.9.3-0ubuntu4                    amd64    
 ii  geoip-database                   20140313-1                        all          IP lookup command line tools that use the GeoIP library (country database)
 ii  gettext-base                     0.18.3.1-1ubuntu3                 amd64        GNU Internationalization utilities for the base system
 ii  gir1.2-glib-2.0                  1.40.0-1ubuntu0.2                 amd64        Introspection data for GLib, GObject, Gio and GModule
-ii  git                              1:1.9.1-1ubuntu0.3                amd64        fast, scalable, distributed revision control system
-ii  git-man                          1:1.9.1-1ubuntu0.3                all          fast, scalable, distributed revision control system (manual pages)
+ii  git                              1:1.9.1-1ubuntu0.4                amd64        fast, scalable, distributed revision control system
+ii  git-man                          1:1.9.1-1ubuntu0.4                all          fast, scalable, distributed revision control system (manual pages)
 ii  gnupg                            1.4.16-1ubuntu2.4                 amd64        GNU privacy guard - a free PGP replacement
 ii  gpgv                             1.4.16-1ubuntu2.4                 amd64        GNU privacy guard - signature verification tool
-ii  grafana                          4.1.2-1486989747                  amd64        Grafana
+ii  grafana                          4.2.0                             amd64        Grafana
 ii  grep                             2.16-1                            amd64        GNU grep, egrep and fgrep
 ii  groff-base                       1.22.2-5                          amd64        GNU troff text-formatting system (base system components)
 ii  grub-common                      2.02~beta2-9ubuntu1.12            amd64        GRand Unified Bootloader (common files)
@@ -155,10 +155,10 @@ ii  libboost-iostreams1.54.0:amd64   1.54.0-4ubuntu3.1                 amd64    
 ii  libbsd0:amd64                    0.6.0-2ubuntu1                    amd64        utility functions from BSD systems - shared library
 ii  libbz2-1.0:amd64                 1.0.6-5                           amd64        high-quality block-sorting file compressor library - runtime
 rc  libc-ares2:amd64                 1.10.0-2                          amd64        asynchronous name resolver
-ii  libc-bin                         2.19-0ubuntu6.10                  amd64        Embedded GNU C Library: Binaries
-ii  libc-dev-bin                     2.19-0ubuntu6.10                  amd64        Embedded GNU C Library: Development binaries
-ii  libc6:amd64                      2.19-0ubuntu6.10                  amd64        Embedded GNU C Library: Shared libraries
-ii  libc6-dev:amd64                  2.19-0ubuntu6.10                  amd64        Embedded GNU C Library: Development Libraries and Header Files
+ii  libc-bin                         2.19-0ubuntu6.11                  amd64        Embedded GNU C Library: Binaries
+ii  libc-dev-bin                     2.19-0ubuntu6.11                  amd64        Embedded GNU C Library: Development binaries
+ii  libc6:amd64                      2.19-0ubuntu6.11                  amd64        Embedded GNU C Library: Shared libraries
+ii  libc6-dev:amd64                  2.19-0ubuntu6.11                  amd64        Embedded GNU C Library: Development Libraries and Header Files
 ii  libcairo2:amd64                  1.13.0~20140204-0ubuntu1.1        amd64        The Cairo 2D vector graphics library
 ii  libcap2:amd64                    1:2.24-0ubuntu2                   amd64        support for getting/setting POSIX.1e capabilities
 ii  libcap2-bin                      1:2.24-0ubuntu2                   amd64        basic utility programs for using capabilities
@@ -405,7 +405,7 @@ rc  linux-image-3.13.0-95-generic    3.13.0-95.142                     amd64    
 rc  linux-image-3.13.0-96-generic    3.13.0-96.143                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-98-generic    3.13.0-98.145                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-virtual              3.13.0.112.120                    amd64        This package will always depend on the latest minimal generic kernel image.
-ii  linux-libc-dev:amd64             3.13.0-112.159                    amd64        Linux Kernel Headers for development
+ii  linux-libc-dev:amd64             3.13.0-113.160                    amd64        Linux Kernel Headers for development
 ii  linux-virtual                    3.13.0.112.120                    amd64        Minimal Generic Linux kernel and headers
 ii  locales                          2.13+git20120306-12.1             all          common files for locale support
 ii  locate                           4.4.2-7                           amd64        maintain and query an index of a directory tree
@@ -430,7 +430,7 @@ ii  module-init-tools                15-0ubuntu6                       all      
 ii  mosh                             1.2.4a-1ubuntu1                   amd64        Mobile shell that supports roaming and intelligent local echo
 ii  mount                            2.20.1-5.1ubuntu20.9              amd64        Tools for mounting and manipulating filesystems
 ii  mountall                         2.53                              amd64        filesystem mounting tool
-ii  multiarch-support                2.19-0ubuntu6.10                  amd64        Transitional package to ensure multiarch compatibility
+ii  multiarch-support                2.19-0ubuntu6.11                  amd64        Transitional package to ensure multiarch compatibility
 ii  mysql-common                     5.5.54-0ubuntu0.14.04.1           all          MySQL database common files, e.g. /etc/mysql/my.cnf
 ii  ncurses-base                     5.9+20140118-1ubuntu1             all          basic terminal type definitions
 ii  ncurses-bin                      5.9+20140118-1ubuntu1             amd64        terminal-related programs and man pages
@@ -440,7 +440,7 @@ ii  netbase                          5.2                               all      
 ii  netcat-openbsd                   1.105-7ubuntu1                    amd64        TCP/IP swiss army knife
 ii  netcat6                          1.0-8                             amd64        TCP/IP swiss army knife with IPv6 support
 ii  nmap                             6.40-0.2ubuntu1                   amd64        The Network Mapper
-ii  nodejs                           6.10.0-1nodesource1~trusty1       amd64        Node.js event-based server-side javascript engine
+ii  nodejs                           6.10.1-1nodesource1~trusty1       amd64        Node.js event-based server-side javascript engine
 ii  ntp                              1:4.2.6.p5+dfsg-3ubuntu2.14.04.10 amd64        Network Time Protocol daemon and utility programs
 ii  ntpdate                          1:4.2.6.p5+dfsg-3ubuntu2.14.04.10 amd64        client for setting system time from NTP servers
 ii  openssh-client                   1:6.6p1-2ubuntu2.8                amd64        secure shell (SSH) client, for secure access to remote machines
