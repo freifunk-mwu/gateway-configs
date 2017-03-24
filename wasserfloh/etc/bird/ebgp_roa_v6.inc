@@ -203,3 +203,5 @@ roa 2a03:2260:300d::/48      max  64 as      64881; # winterberg
 roa 2001:bf7:100:2267::/64   max  64 as      65530; # wipperfuerth (delegation)
 roa fddf:ebfd:a801:2267::/64 max  64 as      65530; # wipperfuerth (delegation)
 roa fda0:747e:ab29:e1ba::/64 max  64 as      65523; # wuppertal
+roa 2a05:ff01:a::/48         max  64 as      65065; # zollernalb
+roa 2a05:ff01:b::/48         max  64 as      65065; # zollernalb
