@@ -7,7 +7,7 @@ ii  accountsservice                      0.6.35-0ubuntu7.3                 amd64
 ii  acl                                  2.2.52-1                          amd64        Access control list utilities
 ii  acpid                                1:2.0.21-1ubuntu2                 amd64        Advanced Configuration and Power Interface event daemon
 ii  adduser                              3.113+nmu3ubuntu3                 all          add and remove users and groups
-ii  alfred                               2016.0-0ffmwu0~trusty             amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
+ii  alfred                               2017.0-0ffmwu2~trusty             amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
 ii  alfred-json                          0.3.1-0ffmwu1~trusty              amd64        A.L.F.R.E.D client supporting GZIP decompression and JSON, string and binary output
 ii  apache2                              2.4.7-1ubuntu4.13                 amd64        Apache HTTP Server
 ii  apache2-bin                          2.4.7-1ubuntu4.13                 amd64        Apache HTTP Server (binary files and modules)
@@ -26,9 +26,9 @@ ii  base-files                           7.2ubuntu5.5                      amd64
 ii  base-passwd                          3.5.33                            amd64        Debian base system master password and group files
 ii  bash                                 4.3-7ubuntu1.5                    amd64        GNU Bourne Again SHell
 ii  bash-completion                      1:2.1-4ubuntu0.2                  all          programmable completion for the bash shell
-ii  batadv-vis                           2016.0-0ffmwu0~trusty             amd64        batadv-vis - visualize your batman-adv mesh network
-ii  batctl                               2016.2-0ffmwu0~trusty             amd64        B.A.T.M.A.N. advanced control and management tool
-ii  batman-adv-dkms                      2016.2-0ffmwu0~trusty             all          DKMS Source for the batman-advanced kernel module
+ii  batadv-vis                           2017.0-0ffmwu2~trusty             amd64        batadv-vis - visualize your batman-adv mesh network
+ii  batctl                               2017.0-0ffmwu0~trusty             amd64        B.A.T.M.A.N. advanced control and management tool
+ii  batman-adv-dkms                      2017.0.1-0ffmwu0~trusty           all          DKMS Source for the batman-advanced kernel module
 ii  bc                                   1.06.95-8ubuntu1                  amd64        GNU bc arbitrary precision calculator language
 ii  bind9                                1:9.9.5.dfsg-3ubuntu0.13          amd64        Internet Domain Name Server
 ii  bind9-host                           1:9.9.5.dfsg-3ubuntu0.13          amd64        Version of 'host' bundled with BIND 9.X
@@ -99,8 +99,8 @@ ii  gcc-4.9-base:amd64                   4.9.3-0ubuntu4                    amd64
 ii  geoip-database                       20140313-1                        all          IP lookup command line tools that use the GeoIP library (country database)
 ii  gettext-base                         0.18.3.1-1ubuntu3                 amd64        GNU Internationalization utilities for the base system
 ii  gir1.2-glib-2.0                      1.40.0-1ubuntu0.2                 amd64        Introspection data for GLib, GObject, Gio and GModule
-ii  git                                  1:1.9.1-1ubuntu0.3                amd64        fast, scalable, distributed revision control system
-ii  git-man                              1:1.9.1-1ubuntu0.3                all          fast, scalable, distributed revision control system (manual pages)
+ii  git                                  1:1.9.1-1ubuntu0.4                amd64        fast, scalable, distributed revision control system
+ii  git-man                              1:1.9.1-1ubuntu0.4                all          fast, scalable, distributed revision control system (manual pages)
 ii  gnupg                                1.4.16-1ubuntu2.4                 amd64        GNU privacy guard - a free PGP replacement
 ii  gpgv                                 1.4.16-1ubuntu2.4                 amd64        GNU privacy guard - signature verification tool
 ii  graphviz                             2.36.0-0ubuntu3.1                 amd64        rich set of graph drawing tools
@@ -417,12 +417,6 @@ ii  linux-base                           3.5ubuntu4                        all  
 ii  linux-firmware                       1.127.23                          all          Firmware for Linux kernel drivers
 ii  linux-generic                        3.13.0.112.120                    amd64        Complete Generic Linux kernel and headers
 ii  linux-generic-lts-trusty             3.13.0.112.120                    amd64        Generic Linux kernel image and headers
-ii  linux-headers-3.13.0-107             3.13.0-107.154                    all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-107-generic     3.13.0-107.154                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-108             3.13.0-108.155                    all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-108-generic     3.13.0-108.155                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-109             3.13.0-109.156                    all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-109-generic     3.13.0-109.156                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-110             3.13.0-110.157                    all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-110-generic     3.13.0-110.157                    amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-112             3.13.0-112.159                    all          Header files related to Linux kernel version 3.13.0
@@ -434,9 +428,9 @@ rc  linux-image-3.13.0-101-generic       3.13.0-101.148                    amd64
 rc  linux-image-3.13.0-103-generic       3.13.0-103.150                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-105-generic       3.13.0-105.152                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-106-generic       3.13.0-106.153                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-107-generic       3.13.0-107.154                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-108-generic       3.13.0-108.155                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-109-generic       3.13.0-109.156                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-107-generic       3.13.0-107.154                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-108-generic       3.13.0-108.155                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-109-generic       3.13.0-109.156                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-110-generic       3.13.0-110.157                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-112-generic       3.13.0-112.159                    amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-79-generic        3.13.0-79.123                     amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -467,9 +461,9 @@ rc  linux-image-extra-3.13.0-101-generic 3.13.0-101.148                    amd64
 rc  linux-image-extra-3.13.0-103-generic 3.13.0-103.150                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-105-generic 3.13.0-105.152                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-106-generic 3.13.0-106.153                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-107-generic 3.13.0-107.154                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-108-generic 3.13.0-108.155                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-109-generic 3.13.0-109.156                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-107-generic 3.13.0-107.154                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-108-generic 3.13.0-108.155                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-109-generic 3.13.0-109.156                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-110-generic 3.13.0-110.157                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-112-generic 3.13.0-112.159                    amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-79-generic  3.13.0-79.123                     amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
@@ -496,18 +490,12 @@ rc  linux-image-extra-3.19.0-42-generic  3.19.0-42.48~14.04.1              amd64
 rc  linux-image-extra-3.19.0-43-generic  3.19.0-43.49~14.04.1              amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-47-generic  3.19.0-47.53~14.04.1              amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 ii  linux-image-generic                  3.13.0.112.120                    amd64        Generic Linux kernel image
-ii  linux-libc-dev:amd64                 3.13.0-112.159                    amd64        Linux Kernel Headers for development
-ii  linux-tools-3.13.0-107               3.13.0-107.154                    amd64        Linux kernel version specific tools for version 3.13.0-107
-ii  linux-tools-3.13.0-107-generic       3.13.0-107.154                    amd64        Linux kernel version specific tools for version 3.13.0-107
-ii  linux-tools-3.13.0-108               3.13.0-108.155                    amd64        Linux kernel version specific tools for version 3.13.0-108
-ii  linux-tools-3.13.0-108-generic       3.13.0-108.155                    amd64        Linux kernel version specific tools for version 3.13.0-108
-ii  linux-tools-3.13.0-109               3.13.0-109.156                    amd64        Linux kernel version specific tools for version 3.13.0-109
-ii  linux-tools-3.13.0-109-generic       3.13.0-109.156                    amd64        Linux kernel version specific tools for version 3.13.0-109
+ii  linux-libc-dev:amd64                 3.13.0-113.160                    amd64        Linux Kernel Headers for development
 ii  linux-tools-3.13.0-110               3.13.0-110.157                    amd64        Linux kernel version specific tools for version 3.13.0-110
 ii  linux-tools-3.13.0-110-generic       3.13.0-110.157                    amd64        Linux kernel version specific tools for version 3.13.0-110
 ii  linux-tools-3.13.0-112               3.13.0-112.159                    amd64        Linux kernel version specific tools for version 3.13.0-112
 ii  linux-tools-3.13.0-112-generic       3.13.0-112.159                    amd64        Linux kernel version specific tools for version 3.13.0-112
-ii  linux-tools-common                   3.13.0-112.159                    all          Linux kernel version specific tools for version 3.13.0
+ii  linux-tools-common                   3.13.0-113.160                    all          Linux kernel version specific tools for version 3.13.0
 ii  linux-tools-generic                  3.13.0.112.120                    amd64        Generic Linux kernel tools
 ii  locales                              2.13+git20120306-12.1             all          common files for locale support
 ii  lockfile-progs                       0.1.17                            amd64        Programs for locking and unlocking files and mailboxes
