@@ -1540,3 +1540,22 @@ zone "a.b.1.e.9.2.b.a.e.7.4.7.0.a.d.f.ip6.arpa" {
     type static-stub;
     server-addresses { 10.3.0.247; 10.3.0.249; 10.3.0.250; 10.3.0.251; fda0:747e:ab29:e1ba:ff07::1; };
 };
+# 
+# zollernalb
+# 
+zone "ffza" {
+    type static-stub;
+    server-addresses { 10.70.2.2; 10.70.3.3; 2a05:ff01:a:1::a; 2a05:ff01:a:1::b; 2a05:ff01:b:1::a; 2a05:ff01:b:1::b; };
+};
+zone "70.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.70.2.2; 10.70.3.3; 2a05:ff01:a:1::a; 2a05:ff01:a:1::b; 2a05:ff01:b:1::a; 2a05:ff01:b:1::b; };
+};
+zone "a.0.0.0.1.0.f.f.5.0.a.2.ip6.arpa" {
+    type static-stub;
+    server-addresses { 10.70.2.2; 10.70.3.3; 2a05:ff01:a:1::a; 2a05:ff01:a:1::b; 2a05:ff01:b:1::a; 2a05:ff01:b:1::b; };
+};
+zone "b.0.0.0.1.0.f.f.5.0.a.2.ip6.arpa" {
+    type static-stub;
+    server-addresses { 10.70.2.2; 10.70.3.3; 2a05:ff01:a:1::a; 2a05:ff01:a:1::b; 2a05:ff01:b:1::a; 2a05:ff01:b:1::b; };
+};
