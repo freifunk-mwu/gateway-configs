@@ -55,6 +55,7 @@ iface wiVPN inet6 manual
 
 allow-hotplug mzBAT
 iface mzBAT inet6 manual
+        hwaddress 02:41:0a:25:01:03
 	pre-up          /sbin/modprobe batman-adv
 	post-up         /sbin/brctl addif mzBR $IFACE
 	post-up         /usr/sbin/batctl -m $IFACE it 10000
@@ -63,6 +64,7 @@ iface mzBAT inet6 manual
 
 allow-hotplug wiBAT
 iface wiBAT inet6 manual
+        hwaddress 02:41:0a:38:01:03
 	pre-up          /sbin/modprobe batman-adv
 	post-up         /sbin/brctl addif wiBR $IFACE
 	post-up         /usr/sbin/batctl -m $IFACE it 10000
