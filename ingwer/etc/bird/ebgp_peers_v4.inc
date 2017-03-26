@@ -64,6 +64,7 @@ protocol bgp icvpn_berlin1 from ebgp_ic {
 
 protocol bgp icvpn_berlin2 from ebgp_ic {
     neighbor 10.207.0.6 as 44194;
+    passive yes;
 }
 
 
@@ -205,6 +206,7 @@ protocol bgp icvpn_dreilaendereck7 from ebgp_ic {
 
 protocol bgp icvpn_dreilaendereck9 from ebgp_ic {
     neighbor 10.207.0.74 as 65043;
+    passive yes;
 }
 
 
@@ -669,7 +671,6 @@ protocol bgp icvpn_trier1 from ebgp_ic {
 
 protocol bgp icvpn_trier2 from ebgp_ic {
     neighbor 10.207.0.221 as 65022;
-    passive yes;
 }
 
 
