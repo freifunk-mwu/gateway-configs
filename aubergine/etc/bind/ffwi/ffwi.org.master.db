@@ -3,7 +3,7 @@ $ORIGIN ffwi.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffwi.org. hostmaster.ffwi.org. (
-                     2017030201         ; Serial
+                     2017032800         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -67,6 +67,9 @@ zuckerwatte		IN	AAAA	fd56:b4dc:4b1e::a38:102
 
 suesskartoffel		IN	A	10.56.1.4
 suesskartoffel		IN	AAAA	fd56:b4dc:4b1e::a38:104
+
+unifi			IN	A	10.56.1.5
+unifi			IN	AAAA	fd56:b4dc:4b1e::a38:105
 
 map			IN	CNAME	suesskartoffel
 openwrt			IN	CNAME	aubergine
