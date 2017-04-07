@@ -28,3 +28,5 @@ PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bi
 42 17 * * 2 /usr/local/bin/photon-dangerous-selfupgrade.py --sudo --repos $HOME/clones/backend-scripts
 # openwrt mirror 
 19 1 1 * * /usr/local/bin/lftp -f $HOME/clones/backend-scripts/common/lftp_commands > $HOME/.cronlog/mirror_openwrt_repo.log 2>&1
+# lede mirror
+0 2 * * * $HOME/clones/backend-scripts/mirror_lede_repo.sh > $HOME/.cronlog/mirror_lede_repo.log 2>&1
