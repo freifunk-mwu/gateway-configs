@@ -203,6 +203,7 @@ ii  libdbi1:amd64                        0.9.0-1                                
 ii  libdbus-1-3:amd64                    1.6.18-0ubuntu4.5                          amd64        simple interprocess messaging system (library)
 ii  libdbus-glib-1-2:amd64               0.100.2-1                                  amd64        simple interprocess messaging system (GLib-based shared library)
 ii  libdebconfclient0:amd64              0.187ubuntu1                               amd64        Debian Configuration Management System (C-implementation library)
+ii  libdevmapper-event1.02.1:amd64       2:1.02.77-6ubuntu2                         amd64        Linux Kernel Device Mapper event support library
 ii  libdevmapper1.02.1:amd64             2:1.02.77-6ubuntu2                         amd64        Linux Kernel Device Mapper userspace library
 ii  libdns100                            1:9.9.5.dfsg-3ubuntu0.13                   amd64        DNS Shared Library used by BIND
 ii  libdpkg-perl                         1.17.5ubuntu5.7                            all          Dpkg perl modules
@@ -518,6 +519,7 @@ ii  lsb-release                          4.1+Debian11ubuntu6.2                  
 ii  lshw                                 02.16-2ubuntu1.3                           amd64        information about hardware configuration
 ii  lsof                                 4.86+dfsg-1ubuntu2                         amd64        Utility to list open files
 ii  ltrace                               0.7.3-4ubuntu5.1                           amd64        Tracks runtime library calls in dynamically linked programs
+ii  lvm2                                 2.02.98-6ubuntu2                           amd64        Linux Logical Volume Manager
 ii  make                                 3.81-8.2ubuntu3                            amd64        An utility for Directing compilation.
 ii  makedev                              2.3.1-93ubuntu1                            all          creates device files in /dev
 ii  man-db                               2.6.7.1-1ubuntu1                           amd64        on-line manual pager
@@ -708,6 +710,7 @@ ii  vnstat                               1.11-2                                 
 ii  vnstati                              1.11-2                                     amd64        image output support for vnStat
 ii  w3m                                  0.5.3-15ubuntu0.1                          amd64        WWW browsable pager with excellent tables/frames support
 ii  watchdog                             5.13-1                                     amd64        system health checker and software/hardware watchdog handler
+ii  watershed                            7                                          amd64        reduce superfluous executions of idempotent command
 ii  wget                                 1.15-1ubuntu1.14.04.2                      amd64        retrieves files from the web
 ii  whiptail                             0.52.15-2ubuntu5                           amd64        Displays user-friendly dialog boxes from shell scripts
 ii  wireless-regdb                       2013.02.13-1ubuntu1                        all          wireless regulatory database
