@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2017032801		; Serial
+		     2017041101		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -30,17 +30,19 @@ linse		IN	AAAA	2a01:4f8:192:521::b4dc:4b1e
 ; vereinshost
 eisen		IN	A	193.111.140.90
 eisen		IN	AAAA	2001:4ba0:fffc:3d::b4dc:4b1e
+sushi		IN	A	88.99.213.66
+sushi		IN	AAAA	2a01:4f8:10a:3e41::1
 
 ; gluon gateways
 spinat          IN      A       46.20.37.226
 spinat          IN      AAAA    2001:4ba0:fffc:3d:0:b4dc:4b1e:1
 gate07          IN      CNAME   spinat
 icvpn7          IN      CNAME   spinat
-
+[A
 lotuswurzel	IN	A	144.76.209.100
 lotuswurzel	IN	AAAA	2a01:4f8:192:520::b4dc:4b1e
 gate23		IN	CNAME	lotuswurzel
-icvpn23		IN	CNAME	lotuswurzel
+ivpn23		IN	CNAME	lotuswurzel
 
 ingwer          IN      A       164.132.135.215
 ingwer          IN      AAAA    2001:41d0:2:32cb::b4dc:4b1e
@@ -56,6 +58,9 @@ extrasahne	IN	A	82.149.226.105
 ;extrasahne	IN	AAAA	2a01:4f8:190:7008:2800::1
 gate42		IN	CNAME	extrasahne
 icvpn42		IN	CNAME	extrasahne
+
+uffschnitt	IN	A	88.99.213.125
+uffschnitt	IN	AAAA	2a01:4f8:10a:3e41::2
 
 ; test gateway
 mettigel	IN	A	5.45.106.31
