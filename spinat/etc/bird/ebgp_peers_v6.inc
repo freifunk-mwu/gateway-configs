@@ -27,13 +27,13 @@ protocol bgp icvpn_badoldesloe from ebgp_ic {
 }
 protocol bgp icvpn_berlin1 from ebgp_ic {
     neighbor fec0::a:cf:0:5 as 44194;
+    passive yes;
 }
 protocol bgp icvpn_berlin2 from ebgp_ic {
     neighbor fec0::a:cf:0:6 as 44194;
 }
 protocol bgp icvpn_bielefeldbgp1 from ebgp_ic {
     neighbor fec0::a:cf:0:36 as 65529;
-    passive yes;
 }
 protocol bgp icvpn_bielefeldbgp2 from ebgp_ic {
     neighbor fec0::a:cf:0:3b as 65529;
