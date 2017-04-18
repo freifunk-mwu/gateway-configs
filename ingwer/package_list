@@ -472,7 +472,7 @@ ii  linux-headers-4.9.0-0.bpo.2-amd64  4.9.18-1~bpo8+1                    amd64 
 ii  linux-headers-4.9.0-0.bpo.2-common 4.9.18-1~bpo8+1                    all          Common header files for Linux 4.9.0-0.bpo.2
 ii  linux-headers-amd64                4.9+79~bpo8+1                      amd64        Header files for Linux amd64 configuration (meta-package)
 ii  linux-image-4.8.0-0.bpo.2-amd64    4.8.15-2~bpo8+2                    amd64        Linux 4.8 for 64-bit PCs (signed)
-ii  linux-image-4.9.0-0.bpo.2-amd64    4.9.13-1~bpo8+1                    amd64        Linux 4.9 for 64-bit PCs (signed)
+ii  linux-image-4.9.0-0.bpo.2-amd64    4.9.18-1~bpo8+1                    amd64        Linux 4.9 for 64-bit PCs (signed)
 ii  linux-image-amd64                  4.9+79~bpo8+1                      amd64        Linux for 64-bit PCs (meta-package)
 ii  linux-kbuild-4.8                   4.8.15-2~bpo8+2                    amd64        Kbuild infrastructure for Linux 4.8
 ii  linux-kbuild-4.9                   4.9.18-1~bpo8+1                    amd64        Kbuild infrastructure for Linux 4.9
@@ -623,7 +623,7 @@ ii  texinfo                            5.2.0.dfsg.1-6                     amd64 
 ii  time                               1.7-25                             amd64        GNU time program for measuring CPU resource usage
 ii  tinc                               1.0.24-2.1+b1                      amd64        Virtual Private Network daemon
 ii  traceroute                         1:2.0.20-2+b1                      amd64        Traces the route taken by packets over an IPv4/IPv6 network
-ii  tzdata                             2017a-0+deb8u1                     all          time zone and daylight-saving time data
+ii  tzdata                             2017b-0+deb8u1                     all          time zone and daylight-saving time data
 ii  ucf                                3.0030                             all          Update Configuration File(s): preserve user changes to config files
 ii  udev                               215-17+deb8u6                      amd64        /dev/ and hotplug management daemon
 ii  unattended-upgrades                0.83.3.2+deb8u1                    all          automatic installation of security upgrades
