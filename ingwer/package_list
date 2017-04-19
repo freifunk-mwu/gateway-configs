@@ -284,7 +284,7 @@ ii  libhttp-daemon-perl                6.01-1                             all   
 ii  libhttp-date-perl                  6.02-1                             all          module of date conversion routines
 ii  libhttp-message-perl               6.06-1                             all          perl interface to HTTP style messages
 ii  libhttp-negotiate-perl             6.00-2                             all          implementation of content negotiation
-ii  libicu52:amd64                     52.1-8+deb8u4                      amd64        International Components for Unicode
+ii  libicu52:amd64                     52.1-8+deb8u5                      amd64        International Components for Unicode
 ii  libidn11:amd64                     1.29-1+deb8u2                      amd64        GNU Libidn library, implementation of IETF IDN specifications
 ii  libintl-perl                       1.23-1+deb8u1                      all          Uniforum message translations system compatible i18n library
 ii  libio-html-perl                    1.001-1                            all          open an HTML file with automatic charset detection
