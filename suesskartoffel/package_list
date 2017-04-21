@@ -100,10 +100,10 @@ ii  gzip                             1.6-3ubuntu1                               
 ii  haveged                          1.7c-1                                     amd64        Linux entropy source using the HAVEGE algorithm
 ii  hostname                         3.15ubuntu1                                amd64        utility to set/show the host name or domain name
 ii  ifupdown                         0.7.47.2ubuntu4.4                          amd64        high level tools to configure network interfaces
-ii  influxdb                         1.2.1-1                                    amd64        Distributed time-series database.
+ii  influxdb                         1.2.2-1                                    amd64        Distributed time-series database.
 ii  init-system-helpers              1.14ubuntu1                                all          helper tools for all init systems
-ii  initramfs-tools                  0.103ubuntu4.6                             all          tools for generating an initramfs
-ii  initramfs-tools-bin              0.103ubuntu4.6                             amd64        binaries used by initramfs-tools
+ii  initramfs-tools                  0.103ubuntu4.7                             all          tools for generating an initramfs
+ii  initramfs-tools-bin              0.103ubuntu4.7                             amd64        binaries used by initramfs-tools
 ii  initscripts                      2.88dsf-41ubuntu6.3                        amd64        scripts for initializing and shutting down the system
 ii  insserv                          1.14.0-5ubuntu2                            amd64        boot sequence organizer using LSB init.d script dependency information
 ii  installation-report              2.54ubuntu1                                all          system installation report
@@ -123,7 +123,7 @@ ii  keyboard-configuration           1.70ubuntu8                                
 ii  klibc-utils                      2.0.3-0ubuntu1.14.04.2                     amd64        small utilities built with klibc for early boot
 ii  kmod                             15-0ubuntu6                                amd64        tools for managing Linux kernel modules
 ii  krb5-locales                     1.12+dfsg-2ubuntu5.3                       all          Internationalization support for MIT Kerberos
-ii  landscape-common                 14.12-0ubuntu0.14.04                       amd64        The Landscape administration system client - Common files
+ii  landscape-common                 14.12-0ubuntu5.14.04                       amd64        The Landscape administration system client - Common files
 ii  language-pack-en                 1:14.04+20160720                           all          translation updates for language English
 ii  language-pack-en-base            1:14.04+20160720                           all          translations for language English
 ii  laptop-detect                    0.13.7ubuntu2                              amd64        attempt to detect a laptop
@@ -425,7 +425,7 @@ ii  lvm2                             2.02.98-6ubuntu2                           
 ii  mailutils                        1:2.99.98-1.1                              amd64        GNU mailutils utilities for handling mail
 ii  mailutils-common                 1:2.99.98-1.1                              all          Common files for GNU mailutils
 ii  make                             3.81-8.2ubuntu3                            amd64        An utility for Directing compilation.
-ii  makedev                          2.3.1-93ubuntu1                            all          creates device files in /dev
+ii  makedev                          2.3.1-93ubuntu2~ubuntu14.04.1              all          creates device files in /dev
 ii  man-db                           2.6.7.1-1ubuntu1                           amd64        on-line manual pager
 ii  manpages                         3.54-1ubuntu1                              all          Manual pages about using a GNU/Linux system
 ii  manpages-dev                     3.54-1ubuntu1                              all          Manual pages about using GNU/Linux for development
@@ -446,7 +446,7 @@ ii  netbase                          5.2                                        
 ii  netcat-openbsd                   1.105-7ubuntu1                             amd64        TCP/IP swiss army knife
 ii  netcat6                          1.0-8                                      amd64        TCP/IP swiss army knife with IPv6 support
 ii  nmap                             6.40-0.2ubuntu1                            amd64        The Network Mapper
-ii  nodejs                           6.10.1-1nodesource1~trusty1                amd64        Node.js event-based server-side javascript engine
+ii  nodejs                           6.10.2-1nodesource1~trusty1                amd64        Node.js event-based server-side javascript engine
 ii  ntp                              1:4.2.6.p5+dfsg-3ubuntu2.14.04.10          amd64        Network Time Protocol daemon and utility programs
 ii  ntpdate                          1:4.2.6.p5+dfsg-3ubuntu2.14.04.10          amd64        client for setting system time from NTP servers
 ii  openssh-client                   1:6.6p1-2ubuntu2.8                         amd64        secure shell (SSH) client, for secure access to remote machines
@@ -525,7 +525,7 @@ ii  python3-requests                 2.2.1-1ubuntu0.3                           
 ii  python3-setuptools               3.3-1ubuntu2                               all          Python3 Distutils Enhancements
 ii  python3-six                      1.5.2-1ubuntu1                             all          Python 2 and 3 compatibility library (Python 3 interface)
 ii  python3-software-properties      0.92.37.7                                  all          manage the repositories that you install software from
-ii  python3-update-manager           1:0.196.22                                 all          python 3.x module for update-manager
+ii  python3-update-manager           1:0.196.23                                 all          python 3.x module for update-manager
 ii  python3-urllib3                  1.7.1-1ubuntu4                             all          HTTP library with thread-safe connection pooling for Python3
 ii  python3-wheel                    0.24.0-1~ubuntu1                           all          built-package format for Python
 ii  python3.4                        3.4.3-1ubuntu1~14.04.5                     amd64        Interactive high-level object-oriented language (version 3.4)
@@ -571,8 +571,8 @@ ii  ubuntu-release-upgrader-core     1:0.220.9                                  
 ii  ucf                              3.0027+nmu1                                all          Update Configuration File(s): preserve user changes to config files
 ii  udev                             204-5ubuntu20.24                           amd64        /dev/ and hotplug management daemon
 ii  unattended-upgrades              0.82.1ubuntu2.4                            all          automatic installation of security upgrades
-ii  update-manager-core              1:0.196.22                                 all          manage release upgrades
-ii  update-notifier-common           0.154.1ubuntu2                             all          Files shared between update-notifier and other packages
+ii  update-manager-core              1:0.196.23                                 all          manage release upgrades
+ii  update-notifier-common           0.154.1ubuntu3                             all          Files shared between update-notifier and other packages
 ii  upstart                          1.12.1-0ubuntu4.2                          amd64        event-based init daemon
 ii  ureadahead                       0.100.0-16                                 amd64        Read required files in advance
 ii  usbutils                         1:007-2ubuntu1.1                           amd64        Linux USB utilities
@@ -593,7 +593,7 @@ ii  xauth                            1:1.0.7-1ubuntu1                           
 ii  xkb-data                         2.10.1-1ubuntu1                            all          X Keyboard Extension (XKB) configuration data
 ii  xml-core                         0.13+nmu2                                  all          XML infrastructure and XML catalog file support
 ii  xz-utils                         5.1.1alpha+20120614-2ubuntu2               amd64        XZ-format compression utilities
-ii  yarn                             0.21.3-1                                   all          Fast, reliable, and secure dependency management.
+ii  yarn                             0.23.2-1                                   all          Fast, reliable, and secure dependency management.
 ii  zlib-bin                         1:1.2.8.dfsg-1ubuntu1                      amd64        compression library - sample programs
 ii  zlib1g:amd64                     1:1.2.8.dfsg-1ubuntu1                      amd64        compression library - runtime
 ii  zopfli                           1.0.0-1                                    amd64        zlib (gzip, deflate) compatible compressor
