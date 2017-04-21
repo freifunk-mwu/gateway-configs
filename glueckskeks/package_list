@@ -251,8 +251,8 @@ ii  libfile-listing-perl                 6.04-1                                 
 ii  libfont-afm-perl                     1.20-1                                     all          Font::AFM - Interface to Adobe Font Metrics files
 ii  libfontconfig1:amd64                 2.11.0-0ubuntu4.2                          amd64        generic font configuration library - runtime
 ii  libfontconfig1-dev                   2.11.0-0ubuntu4.2                          amd64        generic font configuration library - development
-ii  libfreetype6:amd64                   2.5.2-1ubuntu2.6                           amd64        FreeType 2 font engine, shared library files
-ii  libfreetype6-dev                     2.5.2-1ubuntu2.6                           amd64        FreeType 2 font engine, development files
+ii  libfreetype6:amd64                   2.5.2-1ubuntu2.7                           amd64        FreeType 2 font engine, shared library files
+ii  libfreetype6-dev                     2.5.2-1ubuntu2.7                           amd64        FreeType 2 font engine, development files
 ii  libfribidi0:amd64                    0.19.6-1                                   amd64        Free Implementation of the Unicode BiDi algorithm
 ii  libfuse2:amd64                       2.9.2-4ubuntu4.14.04.1                     amd64        Filesystem in Userspace (library)
 ii  libgc1c2:amd64                       1:7.2d-5ubuntu2.1                          amd64        conservative garbage collector for C and C++
