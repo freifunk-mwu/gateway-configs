@@ -37,8 +37,8 @@ PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bi
 # expansion map
 #23 4 * * * $HOME/clones/backend-scripts/gen_expansion_map_srv.py > $HOME/.cronlog/gen_expansion_map.log
 # knotenalarm at twitter
-#37 * * * * cd ~/clones/mz-knotenalarm && ~/clones/mz-knotenalarm/knotenalarm >> ~/.cronlog/mz-knotenalarm.log.cron 2>&1
-#56 * * * * cd ~/clones/wi-knotenalarm && ~/clones/wi-knotenalarm/knotenalarm >> ~/.cronlog/wi-knotenalarm.log.cron 2>&1
+37 * * * * cd ~/clones/mz-knotenalarm && ~/clones/mz-knotenalarm/knotenalarm >> ~/.cronlog/mz-knotenalarm.log.cron 2>&1
+56 * * * * cd ~/clones/wi-knotenalarm && ~/clones/wi-knotenalarm/knotenalarm >> ~/.cronlog/wi-knotenalarm.log.cron 2>&1
 # delete pending members
 28 2 * * * find /var/www/freifunk-mainz.de/mitglieder/pending_members -mindepth 1 -mtime +2 -exec rm {} \;
 # pull mz homepage
