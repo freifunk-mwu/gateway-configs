@@ -259,6 +259,9 @@ protocol bgp icvpn_koeln1 from ebgp_ic {
 protocol bgp icvpn_kiel0 from ebgp_ic {
     neighbor 10.207.0.52 as 65525;
 }
+protocol bgp icvpn_koenigswinter1 from ebgp_ic {
+    neighbor 10.207.0.53 as 64893;
+}
 protocol bgp icvpn_kreisgt_fks from ebgp_ic {
     neighbor 10.207.0.134 as 65533;
 }
