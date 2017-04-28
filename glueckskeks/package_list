@@ -365,8 +365,8 @@ ii  libmount1:amd64                      2.20.1-5.1ubuntu20.9                   
 ii  libmpc3:amd64                        1.0.1-1ubuntu1                             amd64        multiple precision complex floating-point library
 ii  libmpdec2:amd64                      2.4.0-6                                    amd64        library for decimal floating point arithmetic (runtime library)
 ii  libmpfr4:amd64                       3.1.2-1                                    amd64        multiple precision floating-point computation
-ii  libmysqlclient-dev                   5.5.54-0ubuntu0.14.04.1                    amd64        MySQL database development files
-ii  libmysqlclient18:amd64               5.5.54-0ubuntu0.14.04.1                    amd64        MySQL database client library
+ii  libmysqlclient-dev                   5.5.55-0ubuntu0.14.04.1                    amd64        MySQL database development files
+ii  libmysqlclient18:amd64               5.5.55-0ubuntu0.14.04.1                    amd64        MySQL database client library
 ii  libncurses5:amd64                    5.9+20140118-1ubuntu1                      amd64        shared libraries for terminal handling
 ii  libncursesw5:amd64                   5.9+20140118-1ubuntu1                      amd64        shared libraries for terminal handling (wide character support)
 ii  libnet-cidr-perl                     0.17-1                                     all          Manipulate IPv4/IPv6 netblocks in CIDR notation
@@ -384,9 +384,9 @@ ii  libnih-dbus1:amd64                   1.0.3-4ubuntu25                        
 ii  libnih1:amd64                        1.0.3-4ubuntu25                            amd64        NIH Utility Library
 ii  libnl-3-200:amd64                    3.2.21-1ubuntu4                            amd64        library for dealing with netlink sockets
 ii  libnl-genl-3-200:amd64               3.2.21-1ubuntu4                            amd64        library for dealing with netlink sockets - generic netlink
-ii  libnspr4:amd64                       2:4.12-0ubuntu0.14.04.1                    amd64        NetScape Portable Runtime Library
-ii  libnss3:amd64                        2:3.26.2-0ubuntu0.14.04.3                  amd64        Network Security Service libraries
-ii  libnss3-nssdb                        2:3.26.2-0ubuntu0.14.04.3                  all          Network Security Security libraries - shared databases
+ii  libnspr4:amd64                       2:4.13.1-0ubuntu0.14.04.1                  amd64        NetScape Portable Runtime Library
+ii  libnss3:amd64                        2:3.28.4-0ubuntu0.14.04.1                  amd64        Network Security Service libraries
+ii  libnss3-nssdb                        2:3.28.4-0ubuntu0.14.04.1                  all          Network Security Security libraries - shared databases
 ii  libntlm0:amd64                       1.4-1                                      amd64        NTLM authentication library
 ii  libnuma1:amd64                       2.0.9~rc5-1ubuntu3.14.04.2                 amd64        Libraries for controlling NUMA policy
 ii  libopts25:amd64                      1:5.18-2ubuntu2                            amd64        automated option processing library based on autogen
@@ -528,8 +528,8 @@ ii  libxmuu1:amd64                       2:1.1.1-1                              
 ii  libxpm4:amd64                        1:3.5.10-1ubuntu0.1                        amd64        X11 pixmap library
 ii  libxrender-dev:amd64                 1:0.9.8-1build0.14.04.1                    amd64        X Rendering Extension client library (development files)
 ii  libxrender1:amd64                    1:0.9.8-1build0.14.04.1                    amd64        X Rendering Extension client library
-ii  libxslt1-dev:amd64                   1.1.28-2build1                             amd64        XSLT 1.0 processing library - development kit
-ii  libxslt1.1:amd64                     1.1.28-2build1                             amd64        XSLT 1.0 processing library - runtime library
+ii  libxslt1-dev:amd64                   1.1.28-2ubuntu0.1                          amd64        XSLT 1.0 processing library - development kit
+ii  libxslt1.1:amd64                     1.1.28-2ubuntu0.1                          amd64        XSLT 1.0 processing library - runtime library
 ii  libxtables10                         1.4.21-1ubuntu1                            amd64        netfilter xtables library
 ii  libyaml-0-2:amd64                    0.1.4-3ubuntu3.1                           amd64        Fast YAML 1.1 parser and emitter library
 ii  linux-firmware                       1.127.23                                   all          Firmware for Linux kernel drivers
@@ -648,12 +648,12 @@ ii  mount                                2.20.1-5.1ubuntu20.9                   
 ii  mountall                             2.53                                       amd64        filesystem mounting tool
 ii  mtr-tiny                             0.85-2                                     amd64        Full screen ncurses traceroute tool
 ii  multiarch-support                    2.19-0ubuntu6.11                           amd64        Transitional package to ensure multiarch compatibility
-ii  mysql-client-5.5                     5.5.54-0ubuntu0.14.04.1                    amd64        MySQL database client binaries
-ii  mysql-client-core-5.5                5.5.54-0ubuntu0.14.04.1                    amd64        MySQL database core client binaries
-ii  mysql-common                         5.5.54-0ubuntu0.14.04.1                    all          MySQL database common files, e.g. /etc/mysql/my.cnf
-ii  mysql-server                         5.5.54-0ubuntu0.14.04.1                    all          MySQL database server (metapackage depending on the latest version)
-ii  mysql-server-5.5                     5.5.54-0ubuntu0.14.04.1                    amd64        MySQL database server binaries and system database setup
-ii  mysql-server-core-5.5                5.5.54-0ubuntu0.14.04.1                    amd64        MySQL database server binaries
+ii  mysql-client-5.5                     5.5.55-0ubuntu0.14.04.1                    amd64        MySQL database client binaries
+ii  mysql-client-core-5.5                5.5.55-0ubuntu0.14.04.1                    amd64        MySQL database core client binaries
+ii  mysql-common                         5.5.55-0ubuntu0.14.04.1                    all          MySQL database common files, e.g. /etc/mysql/my.cnf
+ii  mysql-server                         5.5.55-0ubuntu0.14.04.1                    all          MySQL database server (metapackage depending on the latest version)
+ii  mysql-server-5.5                     5.5.55-0ubuntu0.14.04.1                    amd64        MySQL database server binaries and system database setup
+ii  mysql-server-core-5.5                5.5.55-0ubuntu0.14.04.1                    amd64        MySQL database server binaries
 ii  nano                                 2.2.6-1ubuntu1                             amd64        small, friendly text editor inspired by Pico
 ii  ncurses-base                         5.9+20140118-1ubuntu1                      all          basic terminal type definitions
 ii  ncurses-bin                          5.9+20140118-1ubuntu1                      amd64        terminal-related programs and man pages
