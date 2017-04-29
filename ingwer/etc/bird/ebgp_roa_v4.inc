@@ -90,6 +90,7 @@ roa 10.54.0.0/16    max  20 as      65514; # kassel
 roa 10.158.0.0/15   max  20 as      65528; # kbu
 roa 172.26.0.0/15   max  20 as      65528; # kbu
 roa 10.116.0.0/16   max  20 as      65525; # kiel
+roa 10.15.64.0/18   max  20 as      64893; # koenigswinter
 roa 10.234.0.0/15   max  20 as      65533; # kreisgt
 roa 10.255.0.0/16   max  20 as      65533; # kreisgt
 roa 10.16.0.0/17    max  20 as      65530; # kuerten (delegation)
