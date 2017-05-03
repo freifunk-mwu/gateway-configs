@@ -270,7 +270,7 @@ ii  libhttp-message-perl                 6.06-1                                 
 ii  libhttp-negotiate-perl               6.00-2                                     all          implementation of content negotiation
 ii  libhx509-5-heimdal:amd64             1.6~git20131207+dfsg-1ubuntu1.1            amd64        Heimdal Kerberos - X509 support library
 ii  libice6:amd64                        2:1.0.8-2                                  amd64        X11 Inter-Client Exchange library
-ii  libicu52:amd64                       52.1-3ubuntu0.5                            amd64        International Components for Unicode
+ii  libicu52:amd64                       52.1-3ubuntu0.6                            amd64        International Components for Unicode
 ii  libidn11:amd64                       1.28-1ubuntu2.1                            amd64        GNU Libidn library, implementation of IETF IDN specifications
 ii  libio-html-perl                      1.00-1                                     all          open an HTML file with automatic charset detection
 ii  libio-socket-inet6-perl              2.71-1                                     all          object interface for AF_INET6 domain sockets
