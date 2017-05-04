@@ -304,7 +304,7 @@ ii  libhttp-negotiate-perl               6.00-2                                 
 ii  libhx509-5-heimdal:amd64             1.6~git20131207+dfsg-1ubuntu1.1            amd64        Heimdal Kerberos - X509 support library
 ii  libice-dev:amd64                     2:1.0.8-2                                  amd64        X11 Inter-Client Exchange library (development headers)
 ii  libice6:amd64                        2:1.0.8-2                                  amd64        X11 Inter-Client Exchange library
-ii  libicu52:amd64                       52.1-3ubuntu0.5                            amd64        International Components for Unicode
+ii  libicu52:amd64                       52.1-3ubuntu0.6                            amd64        International Components for Unicode
 ii  libidn11:amd64                       1.28-1ubuntu2.1                            amd64        GNU Libidn library, implementation of IETF IDN specifications
 ii  libio-html-perl                      1.00-1                                     all          open an HTML file with automatic charset detection
 ii  libio-multiplex-perl                 1.13-1                                     all          object-oriented interface to select() for Perl
@@ -582,15 +582,15 @@ rc  linux-image-3.19.0-43-generic        3.19.0-43.49~14.04.1                   
 rc  linux-image-3.19.0-47-generic        3.19.0-47.53~14.04.1                       amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-3.19.0-49-generic        3.19.0-49.55~14.04.1                       amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-100-generic 3.13.0-100.147                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-101-generic 3.13.0-101.148                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-101-generic 3.13.0-101.148                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-105-generic 3.13.0-105.152                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-106-generic 3.13.0-106.153                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-107-generic 3.13.0-107.154                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-108-generic 3.13.0-108.155                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-109-generic 3.13.0-109.156                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-110-generic 3.13.0-110.157                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-112-generic 3.13.0-112.159                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-115-generic 3.13.0-115.162                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-110-generic 3.13.0-110.157                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-112-generic 3.13.0-112.159                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-115-generic 3.13.0-115.162                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-116-generic 3.13.0-116.163                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-117-generic 3.13.0-117.164                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-79-generic  3.13.0-79.123                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
