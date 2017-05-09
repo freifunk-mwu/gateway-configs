@@ -15,13 +15,13 @@ ii  aptitude-common                  0.6.8.2-1ubuntu4                           
 ii  at                               3.1.14-1ubuntu1                            amd64        Delayed job execution and batch processing
 ii  base-files                       7.2ubuntu5.5                               amd64        Debian base system miscellaneous files
 ii  base-passwd                      3.5.33                                     amd64        Debian base system master password and group files
-ii  bash                             4.3-7ubuntu1.5                             amd64        GNU Bourne Again SHell
+ii  bash                             4.3-7ubuntu1.6                             amd64        GNU Bourne Again SHell
 ii  bc                               1.06.95-8ubuntu1                           amd64        GNU bc arbitrary precision calculator language
 ii  bind9                            1:9.9.5.dfsg-3ubuntu0.14                   amd64        Internet Domain Name Server
 ii  bind9-doc                        1:9.9.5.dfsg-3ubuntu0.14                   all          Documentation for BIND
 ii  bind9-host                       1:9.9.5.dfsg-3ubuntu0.14                   amd64        Version of 'host' bundled with BIND 9.X
 ii  bind9utils                       1:9.9.5.dfsg-3ubuntu0.14                   amd64        Utilities for BIND
-ii  binutils                         2.24-5ubuntu14.1                           amd64        GNU assembler, linker and binary utilities
+ii  binutils                         2.24-5ubuntu14.2                           amd64        GNU assembler, linker and binary utilities
 ii  biosdevname                      0.4.1-0ubuntu6.3                           amd64        apply BIOS-given names to network devices
 ii  bsdutils                         1:2.20.1-5.1ubuntu20.9                     amd64        Basic utilities from 4.4BSD-Lite
 ii  build-essential                  11.6ubuntu6                                amd64        Informational list of build-essential packages
