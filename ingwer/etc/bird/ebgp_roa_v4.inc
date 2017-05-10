@@ -61,6 +61,7 @@ roa 10.185.0.0/16   max  20 as      65142; # fulda
 roa 10.28.0.0/16    max  20 as      65397; # gelsenkirchen
 roa 10.181.0.0/16   max  20 as      65181; # gera-greiz
 roa 87.239.143.0/25 max  25 as      64865; # giessen
+roa 10.16.192.0/18  max  20 as      64894; # glienicke-nordbahn
 roa 10.156.0.0/16   max  20 as      65120; # glwupper
 roa 10.109.0.0/16   max  20 as      65527; # goettingen
 roa 10.12.0.0/16    max  20 as      65048; # graz
