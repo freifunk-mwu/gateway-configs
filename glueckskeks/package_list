@@ -9,9 +9,9 @@ ii  adduser                              3.113+nmu3ubuntu3                      
 ii  alfred                               2017.0-0ffmwu2~trusty                      amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
 ii  alfred-json                          0.3.1-0ffmwu1~trusty                       amd64        A.L.F.R.E.D client supporting GZIP decompression and JSON, string and binary output
 ii  amavisd-new                          1:2.10.1-0ffmwu2~trusty                    all          Interface between MTA and virus scanner/content filters
-ii  apache2                              2.4.7-1ubuntu4.13                          amd64        Apache HTTP Server
-ii  apache2-bin                          2.4.7-1ubuntu4.13                          amd64        Apache HTTP Server (binary files and modules)
-ii  apache2-data                         2.4.7-1ubuntu4.13                          all          Apache HTTP Server (common files)
+ii  apache2                              2.4.7-1ubuntu4.15                          amd64        Apache HTTP Server
+ii  apache2-bin                          2.4.7-1ubuntu4.15                          amd64        Apache HTTP Server (binary files and modules)
+ii  apache2-data                         2.4.7-1ubuntu4.15                          all          Apache HTTP Server (common files)
 ii  apparmor                             2.10.95-0ubuntu2.6~14.04.1                 amd64        user-space parser utility for AppArmor
 ii  apport                               2.14.1-0ubuntu3.23                         all          automatically generate crash reports for debugging
 ii  apport-symptoms                      0.20                                       all          symptom scripts for apport
@@ -25,7 +25,7 @@ ii  arj                                  3.10.22-11                             
 ii  at                                   3.1.14-1ubuntu1                            amd64        Delayed job execution and batch processing
 ii  base-files                           7.2ubuntu5.5                               amd64        Debian base system miscellaneous files
 ii  base-passwd                          3.5.33                                     amd64        Debian base system master password and group files
-ii  bash                                 4.3-7ubuntu1.5                             amd64        GNU Bourne Again SHell
+ii  bash                                 4.3-7ubuntu1.6                             amd64        GNU Bourne Again SHell
 ii  bash-completion                      1:2.1-4ubuntu0.2                           all          programmable completion for the bash shell
 ii  batadv-vis                           2017.0-0ffmwu2~trusty                      amd64        batadv-vis - visualize your batman-adv mesh network
 ii  batctl                               2017.0-0ffmwu0~trusty                      amd64        B.A.T.M.A.N. advanced control and management tool
@@ -34,7 +34,7 @@ ii  bc                                   1.06.95-8ubuntu1                       
 ii  bind9                                1:9.9.5.dfsg-3ubuntu0.14                   amd64        Internet Domain Name Server
 ii  bind9-host                           1:9.9.5.dfsg-3ubuntu0.14                   amd64        Version of 'host' bundled with BIND 9.X
 ii  bind9utils                           1:9.9.5.dfsg-3ubuntu0.14                   amd64        Utilities for BIND
-ii  binutils                             2.24-5ubuntu14.1                           amd64        GNU assembler, linker and binary utilities
+ii  binutils                             2.24-5ubuntu14.2                           amd64        GNU assembler, linker and binary utilities
 ii  biosdevname                          0.4.1-0ubuntu6.3                           amd64        apply BIOS-given names to network devices
 ii  bird                                 1.6.3-1+trusty+1                           amd64        Internet Routing Daemon
 ii  bridge-utils                         1.5-6ubuntu2                               amd64        Utilities for configuring the Linux Ethernet bridge
@@ -251,8 +251,8 @@ ii  libfile-listing-perl                 6.04-1                                 
 ii  libfont-afm-perl                     1.20-1                                     all          Font::AFM - Interface to Adobe Font Metrics files
 ii  libfontconfig1:amd64                 2.11.0-0ubuntu4.2                          amd64        generic font configuration library - runtime
 ii  libfontconfig1-dev                   2.11.0-0ubuntu4.2                          amd64        generic font configuration library - development
-ii  libfreetype6:amd64                   2.5.2-1ubuntu2.7                           amd64        FreeType 2 font engine, shared library files
-ii  libfreetype6-dev                     2.5.2-1ubuntu2.7                           amd64        FreeType 2 font engine, development files
+ii  libfreetype6:amd64                   2.5.2-1ubuntu2.8                           amd64        FreeType 2 font engine, shared library files
+ii  libfreetype6-dev                     2.5.2-1ubuntu2.8                           amd64        FreeType 2 font engine, development files
 ii  libfribidi0:amd64                    0.19.6-1                                   amd64        Free Implementation of the Unicode BiDi algorithm
 ii  libfuse2:amd64                       2.9.2-4ubuntu4.14.04.1                     amd64        Filesystem in Userspace (library)
 ii  libgc1c2:amd64                       1:7.2d-5ubuntu2.1                          amd64        conservative garbage collector for C and C++
@@ -447,7 +447,7 @@ ii  librpmio3                            4.11.1-3ubuntu0.1                      
 ii  librpmsign1                          4.11.1-3ubuntu0.1                          amd64        RPM signing shared library
 ii  librrd-dev                           1.4.7-2ubuntu5                             amd64        time-series data storage and display system (development)
 ii  librrd4                              1.4.7-2ubuntu5                             amd64        time-series data storage and display system (runtime library)
-ii  librtmp0:amd64                       2.4+20121230.gitdf6c518-1                  amd64        toolkit for RTMP streams (shared library)
+ii  librtmp0:amd64                       2.4+20121230.gitdf6c518-1ubuntu0.1         amd64        toolkit for RTMP streams (shared library)
 ii  libsasl2-2:amd64                     2.1.25.dfsg1-17build1                      amd64        Cyrus SASL - authentication abstraction library
 ii  libsasl2-modules:amd64               2.1.25.dfsg1-17build1                      amd64        Cyrus SASL - pluggable authentication modules
 ii  libsasl2-modules-db:amd64            2.1.25.dfsg1-17build1                      amd64        Cyrus SASL - pluggable authentication modules (DB)
