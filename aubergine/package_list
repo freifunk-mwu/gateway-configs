@@ -7,11 +7,11 @@ ii  acpid                                1:2.0.21-1ubuntu2                      
 ii  adduser                              3.113+nmu3ubuntu3                          all          add and remove users and groups
 ii  alfred                               2017.0-0ffmwu2~trusty                      amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
 ii  alfred-json                          0.3.1-0ffmwu1~trusty                       amd64        A.L.F.R.E.D client supporting GZIP decompression and JSON, string and binary output
-ii  apache2                              2.4.7-1ubuntu4.13                          amd64        Apache HTTP Server
-ii  apache2-bin                          2.4.7-1ubuntu4.13                          amd64        Apache HTTP Server (binary files and modules)
-ii  apache2-data                         2.4.7-1ubuntu4.13                          all          Apache HTTP Server (common files)
-ii  apache2-doc                          2.4.7-1ubuntu4.13                          all          Apache HTTP Server (on-site documentation)
-ii  apache2-utils                        2.4.7-1ubuntu4.13                          amd64        Apache HTTP Server (utility programs for web servers)
+ii  apache2                              2.4.7-1ubuntu4.15                          amd64        Apache HTTP Server
+ii  apache2-bin                          2.4.7-1ubuntu4.15                          amd64        Apache HTTP Server (binary files and modules)
+ii  apache2-data                         2.4.7-1ubuntu4.15                          all          Apache HTTP Server (common files)
+ii  apache2-doc                          2.4.7-1ubuntu4.15                          all          Apache HTTP Server (on-site documentation)
+ii  apache2-utils                        2.4.7-1ubuntu4.15                          amd64        Apache HTTP Server (utility programs for web servers)
 ii  apport                               2.14.1-0ubuntu3.23                         all          automatically generate crash reports for debugging
 ii  apport-symptoms                      0.20                                       all          symptom scripts for apport
 ii  apt                                  1.0.1ubuntu2.17                            amd64        commandline package manager
@@ -26,7 +26,7 @@ ii  automake1.9                          1.9.6+nogfdl-4ubuntu1                  
 ii  autotools-dev                        20130810.1                                 all          Update infrastructure for config.{guess,sub} files
 ii  base-files                           7.2ubuntu5.5                               amd64        Debian base system miscellaneous files
 ii  base-passwd                          3.5.33                                     amd64        Debian base system master password and group files
-ii  bash                                 4.3-7ubuntu1.5                             amd64        GNU Bourne Again SHell
+ii  bash                                 4.3-7ubuntu1.6                             amd64        GNU Bourne Again SHell
 ii  batadv-vis                           2017.0-0ffmwu2~trusty                      amd64        batadv-vis - visualize your batman-adv mesh network
 ii  batctl                               2017.0-0ffmwu0~trusty                      amd64        B.A.T.M.A.N. advanced control and management tool
 ii  batman-adv-dkms                      2017.0.1-0ffmwu0~trusty                    all          DKMS Source for the batman-advanced kernel module
@@ -34,7 +34,7 @@ ii  bc                                   1.06.95-8ubuntu1                       
 ii  bind9                                1:9.9.5.dfsg-3ubuntu0.14                   amd64        Internet Domain Name Server
 ii  bind9-host                           1:9.9.5.dfsg-3ubuntu0.14                   amd64        Version of 'host' bundled with BIND 9.X
 ii  bind9utils                           1:9.9.5.dfsg-3ubuntu0.14                   amd64        Utilities for BIND
-ii  binutils                             2.24-5ubuntu14.1                           amd64        GNU assembler, linker and binary utilities
+ii  binutils                             2.24-5ubuntu14.2                           amd64        GNU assembler, linker and binary utilities
 ii  biosdevname                          0.4.1-0ubuntu6.3                           amd64        apply BIOS-given names to network devices
 ii  bird                                 1.6.3-1+trusty+1                           amd64        Internet Routing Daemon
 ii  bird6                                1.5.0-1+trusty+1                           all          Internet Routing Daemon [transitional packages]
@@ -101,7 +101,7 @@ ii  git                                  1:1.9.1-1ubuntu0.4                     
 ii  git-man                              1:1.9.1-1ubuntu0.4                         all          fast, scalable, distributed revision control system (manual pages)
 ii  gnupg                                1.4.16-1ubuntu2.4                          amd64        GNU privacy guard - a free PGP replacement
 ii  gpgv                                 1.4.16-1ubuntu2.4                          amd64        GNU privacy guard - signature verification tool
-ii  graphviz                             2.36.0-0ubuntu3.1                          amd64        rich set of graph drawing tools
+ii  graphviz                             2.36.0-0ubuntu3.2                          amd64        rich set of graph drawing tools
 ii  grep                                 2.16-1                                     amd64        GNU grep, egrep and fgrep
 ii  groff-base                           1.22.2-5                                   amd64        GNU troff text-formatting system (base system components)
 ii  grub-common                          2.02~beta2-9ubuntu1.12                     amd64        GRand Unified Bootloader (common files)
@@ -181,9 +181,9 @@ ii  libcairo2:amd64                      1.13.0~20140204-0ubuntu1.1             
 ii  libcap2:amd64                        1:2.24-0ubuntu2                            amd64        support for getting/setting POSIX.1e capabilities
 ii  libcap2-bin                          1:2.24-0ubuntu2                            amd64        basic utility programs for using capabilities
 ii  libcdb1:amd64                        0.78                                       amd64        shared library for constant databases (cdb)
-ii  libcdt5                              2.36.0-0ubuntu3.1                          amd64        rich set of graph drawing tools - cdt library
+ii  libcdt5                              2.36.0-0ubuntu3.2                          amd64        rich set of graph drawing tools - cdt library
 ii  libcgmanager0:amd64                  0.24-0ubuntu7.5                            amd64        Central cgroup manager daemon (client library)
-ii  libcgraph6                           2.36.0-0ubuntu3.1                          amd64        rich set of graph drawing tools - cgraph library
+ii  libcgraph6                           2.36.0-0ubuntu3.2                          amd64        rich set of graph drawing tools - cgraph library
 ii  libck-connector0:amd64               0.4.5-3.1ubuntu2                           amd64        ConsoleKit libraries
 rc  libclamav6                           0.98.1+dfsg-4ubuntu1.1                     amd64        anti-virus utility for Unix - library
 ii  libclass-accessor-perl               0.34-1                                     all          Perl module that automatically generates accessors
@@ -219,7 +219,7 @@ ii  libfile-fcntllock-perl               0.14-2build1                           
 ii  libfile-listing-perl                 6.04-1                                     all          module to parse directory listings
 ii  libfont-afm-perl                     1.20-1                                     all          Font::AFM - Interface to Adobe Font Metrics files
 ii  libfontconfig1:amd64                 2.11.0-0ubuntu4.2                          amd64        generic font configuration library - runtime
-ii  libfreetype6:amd64                   2.5.2-1ubuntu2.7                           amd64        FreeType 2 font engine, shared library files
+ii  libfreetype6:amd64                   2.5.2-1ubuntu2.8                           amd64        FreeType 2 font engine, shared library files
 ii  libfribidi0:amd64                    0.19.6-1                                   amd64        Free Implementation of the Unicode BiDi algorithm
 ii  libfuse2:amd64                       2.9.2-4ubuntu4.14.04.1                     amd64        Filesystem in Userspace (library)
 ii  libgc1c2:amd64                       1:7.2d-5ubuntu2.1                          amd64        conservative garbage collector for C and C++
@@ -248,9 +248,9 @@ ii  libgsasl7                            1.8.0-2ubuntu2                         
 ii  libgsl0ldbl                          1.16+dfsg-1ubuntu1                         amd64        GNU Scientific Library (GSL) -- library package
 ii  libgssapi-krb5-2:amd64               1.12+dfsg-2ubuntu5.3                       amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii  libgssapi3-heimdal:amd64             1.6~git20131207+dfsg-1ubuntu1.1            amd64        Heimdal Kerberos - GSSAPI support library
-ii  libgv-python                         2.36.0-0ubuntu3.1                          amd64        Python bindings for graphviz
-ii  libgvc6                              2.36.0-0ubuntu3.1                          amd64        rich set of graph drawing tools - gvc library
-ii  libgvpr2                             2.36.0-0ubuntu3.1                          amd64        rich set of graph drawing tools - gvpr library
+ii  libgv-python                         2.36.0-0ubuntu3.2                          amd64        Python bindings for graphviz
+ii  libgvc6                              2.36.0-0ubuntu3.2                          amd64        rich set of graph drawing tools - gvc library
+ii  libgvpr2                             2.36.0-0ubuntu3.2                          amd64        rich set of graph drawing tools - gvpr library
 ii  libharfbuzz0b:amd64                  0.9.27-1ubuntu1.1                          amd64        OpenType text shaping engine (shared library)
 ii  libhavege1:amd64                     1.7c-1                                     amd64        entropy source using the HAVEGE algorithm - shared library
 ii  libhcrypto4-heimdal:amd64            1.6~git20131207+dfsg-1ubuntu1.1            amd64        Heimdal Kerberos - crypto library
@@ -351,7 +351,7 @@ ii  libpango-1.0-0:amd64                 1.36.3-1ubuntu1.1                      
 ii  libpangocairo-1.0-0:amd64            1.36.3-1ubuntu1.1                          amd64        Layout and rendering of internationalized text
 ii  libpangoft2-1.0-0:amd64              1.36.3-1ubuntu1.1                          amd64        Layout and rendering of internationalized text
 ii  libparse-debianchangelog-perl        1.2.0-1ubuntu1                             all          parse Debian changelogs and output them in other formats
-ii  libpathplan4                         2.36.0-0ubuntu3.1                          amd64        rich set of graph drawing tools - pathplan library
+ii  libpathplan4                         2.36.0-0ubuntu3.2                          amd64        rich set of graph drawing tools - pathplan library
 ii  libpcap0.8:amd64                     1.5.3-2                                    amd64        system interface for user-level packet capture
 ii  libpci3:amd64                        1:3.2.1-1ubuntu5.1                         amd64        Linux PCI Utilities (shared library)
 ii  libpcre3:amd64                       1:8.31-2ubuntu2.3                          amd64        Perl 5 Compatible Regular Expression Library - runtime files
@@ -391,7 +391,7 @@ rc  librpmbuild3                         4.11.1-3                               
 rc  librpmio3                            4.11.1-3                                   amd64        RPM IO shared library
 rc  librpmsign1                          4.11.1-3                                   amd64        RPM signing shared library
 ii  librrd4                              1.4.7-2ubuntu5                             amd64        time-series data storage and display system (runtime library)
-ii  librtmp0:amd64                       2.4+20121230.gitdf6c518-1                  amd64        toolkit for RTMP streams (shared library)
+ii  librtmp0:amd64                       2.4+20121230.gitdf6c518-1ubuntu0.1         amd64        toolkit for RTMP streams (shared library)
 ii  libruby1.9.1                         1.9.3.484-2ubuntu1.2                       amd64        Libraries necessary to run Ruby 1.9.1
 ii  libruby1.9.1-dbg                     1.9.3.484-2ubuntu1.2                       amd64        Debugging symbols for Ruby 1.9.1
 ii  libruby2.0:amd64                     2.0.0.484-1ubuntu2.2                       amd64        Libraries necessary to run Ruby 2.0
