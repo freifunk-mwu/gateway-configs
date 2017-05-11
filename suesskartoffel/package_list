@@ -7,9 +7,9 @@ ii  acpid                            1:2.0.21-1ubuntu2                          
 ii  adduser                          3.113+nmu3ubuntu3                          all          add and remove users and groups
 ii  alfred                           2017.0-0ffmwu2~trusty                      amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
 ii  alfred-json                      0.3.1-0ffmwu1~trusty                       amd64        A.L.F.R.E.D client supporting GZIP decompression and JSON, string and binary output
-ii  apache2                          2.4.7-1ubuntu4.13                          amd64        Apache HTTP Server
-ii  apache2-bin                      2.4.7-1ubuntu4.13                          amd64        Apache HTTP Server (binary files and modules)
-ii  apache2-data                     2.4.7-1ubuntu4.13                          all          Apache HTTP Server (common files)
+ii  apache2                          2.4.7-1ubuntu4.15                          amd64        Apache HTTP Server
+ii  apache2-bin                      2.4.7-1ubuntu4.15                          amd64        Apache HTTP Server (binary files and modules)
+ii  apache2-data                     2.4.7-1ubuntu4.15                          all          Apache HTTP Server (common files)
 ii  apport                           2.14.1-0ubuntu3.23                         all          automatically generate crash reports for debugging
 ii  apport-symptoms                  0.20                                       all          symptom scripts for apport
 ii  apt                              1.0.1ubuntu2.17                            amd64        commandline package manager
@@ -21,13 +21,13 @@ ii  aptitude-common                  0.6.8.2-1ubuntu4                           
 ii  at                               3.1.14-1ubuntu1                            amd64        Delayed job execution and batch processing
 ii  base-files                       7.2ubuntu5.5                               amd64        Debian base system miscellaneous files
 ii  base-passwd                      3.5.33                                     amd64        Debian base system master password and group files
-ii  bash                             4.3-7ubuntu1.5                             amd64        GNU Bourne Again SHell
+ii  bash                             4.3-7ubuntu1.6                             amd64        GNU Bourne Again SHell
 ii  batadv-vis                       2017.0-0ffmwu2~trusty                      amd64        batadv-vis - visualize your batman-adv mesh network
 ii  batctl                           2017.0-0ffmwu0~trusty                      amd64        B.A.T.M.A.N. advanced control and management tool
 ii  batman-adv-dkms                  2017.0.1-0ffmwu0~trusty                    all          DKMS Source for the batman-advanced kernel module
 ii  bc                               1.06.95-8ubuntu1                           amd64        GNU bc arbitrary precision calculator language
 ii  bind9-host                       1:9.9.5.dfsg-3ubuntu0.14                   amd64        Version of 'host' bundled with BIND 9.X
-ii  binutils                         2.24-5ubuntu14.1                           amd64        GNU assembler, linker and binary utilities
+ii  binutils                         2.24-5ubuntu14.2                           amd64        GNU assembler, linker and binary utilities
 ii  biosdevname                      0.4.1-0ubuntu6.3                           amd64        apply BIOS-given names to network devices
 ii  bird                             1.6.3-1+trusty+1                           amd64        Internet Routing Daemon
 ii  bridge-utils                     1.5-6ubuntu2                               amd64        Utilities for configuring the Linux Ethernet bridge
@@ -192,7 +192,7 @@ ii  libfakeroot:amd64                1.20-3ubuntu2                              
 ii  libffi6:amd64                    3.1~rc1+r3.0.13-12ubuntu0.1                amd64        Foreign Function Interface library runtime
 ii  libfile-fcntllock-perl           0.14-2build1                               amd64        Perl module for file locking with fcntl(2)
 ii  libfontconfig1:amd64             2.11.0-0ubuntu4.2                          amd64        generic font configuration library - runtime
-ii  libfreetype6:amd64               2.5.2-1ubuntu2.7                           amd64        FreeType 2 font engine, shared library files
+ii  libfreetype6:amd64               2.5.2-1ubuntu2.8                           amd64        FreeType 2 font engine, shared library files
 ii  libfribidi0:amd64                0.19.6-1                                   amd64        Free Implementation of the Unicode BiDi algorithm
 ii  libfuse2:amd64                   2.9.2-4ubuntu4.14.04.1                     amd64        Filesystem in Userspace (library)
 ii  libgc1c2:amd64                   1:7.2d-5ubuntu2.1                          amd64        conservative garbage collector for C and C++
@@ -314,7 +314,7 @@ ii  libreadline5:amd64               5.2+dfsg-2                                 
 ii  libreadline6:amd64               6.3-4ubuntu2                               amd64        GNU readline and history libraries, run-time libraries
 ii  libroken18-heimdal:amd64         1.6~git20131207+dfsg-1ubuntu1.1            amd64        Heimdal Kerberos - roken support library
 ii  librrd4                          1.4.7-2ubuntu5                             amd64        time-series data storage and display system (runtime library)
-ii  librtmp0:amd64                   2.4+20121230.gitdf6c518-1                  amd64        toolkit for RTMP streams (shared library)
+ii  librtmp0:amd64                   2.4+20121230.gitdf6c518-1ubuntu0.1         amd64        toolkit for RTMP streams (shared library)
 ii  libruby1.9.1                     1.9.3.484-2ubuntu1.2                       amd64        Libraries necessary to run Ruby 1.9.1
 ii  libsasl2-2:amd64                 2.1.25.dfsg1-17build1                      amd64        Cyrus SASL - authentication abstraction library
 ii  libsasl2-modules:amd64           2.1.25.dfsg1-17build1                      amd64        Cyrus SASL - pluggable authentication modules
@@ -449,7 +449,7 @@ ii  netbase                          5.2                                        
 ii  netcat-openbsd                   1.105-7ubuntu1                             amd64        TCP/IP swiss army knife
 ii  netcat6                          1.0-8                                      amd64        TCP/IP swiss army knife with IPv6 support
 ii  nmap                             6.40-0.2ubuntu1                            amd64        The Network Mapper
-ii  nodejs                           6.10.2-1nodesource1~trusty1                amd64        Node.js event-based server-side javascript engine
+ii  nodejs                           6.10.3-1nodesource1~trusty1                amd64        Node.js event-based server-side javascript engine
 ii  ntp                              1:4.2.6.p5+dfsg-3ubuntu2.14.04.10          amd64        Network Time Protocol daemon and utility programs
 ii  ntpdate                          1:4.2.6.p5+dfsg-3ubuntu2.14.04.10          amd64        client for setting system time from NTP servers
 ii  openssh-client                   1:6.6p1-2ubuntu2.8                         amd64        secure shell (SSH) client, for secure access to remote machines
@@ -596,7 +596,7 @@ ii  xauth                            1:1.0.7-1ubuntu1                           
 ii  xkb-data                         2.10.1-1ubuntu1                            all          X Keyboard Extension (XKB) configuration data
 ii  xml-core                         0.13+nmu2                                  all          XML infrastructure and XML catalog file support
 ii  xz-utils                         5.1.1alpha+20120614-2ubuntu2               amd64        XZ-format compression utilities
-ii  yarn                             0.23.2-1                                   all          Fast, reliable, and secure dependency management.
+ii  yarn                             0.23.4-1                                   all          Fast, reliable, and secure dependency management.
 ii  zlib-bin                         1:1.2.8.dfsg-1ubuntu1                      amd64        compression library - sample programs
 ii  zlib1g:amd64                     1:1.2.8.dfsg-1ubuntu1                      amd64        compression library - runtime
 ii  zopfli                           1.0.0-1                                    amd64        zlib (gzip, deflate) compatible compressor
