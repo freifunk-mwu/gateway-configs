@@ -27,12 +27,14 @@ protocol bgp icvpn_badoldesloe from ebgp_ic {
 }
 protocol bgp icvpn_berlin1 from ebgp_ic {
     neighbor fec0::a:cf:0:5 as 44194;
+    passive yes;
 }
 protocol bgp icvpn_berlin2 from ebgp_ic {
     neighbor fec0::a:cf:0:6 as 44194;
 }
 protocol bgp icvpn_bielefeldbgp1 from ebgp_ic {
     neighbor fec0::a:cf:0:36 as 65529;
+    passive yes;
 }
 protocol bgp icvpn_bielefeldbgp2 from ebgp_ic {
     neighbor fec0::a:cf:0:3b as 65529;
@@ -82,6 +84,7 @@ protocol bgp icvpn_bremen4 from ebgp_ic {
 }
 protocol bgp icvpn_bremen5 from ebgp_ic {
     neighbor fec0::a:cf:5:c4 as 65196;
+    passive yes;
 }
 protocol bgp icvpn_bremen6 from ebgp_ic {
     neighbor fec0::a:cf:6:c4 as 65196;
@@ -114,7 +117,6 @@ protocol bgp icvpn_dreilaendereck7 from ebgp_ic {
 }
 protocol bgp icvpn_dreilaendereck9 from ebgp_ic {
     neighbor fec0::a:cf:0:ba as 65043;
-    passive yes;
 }
 protocol bgp icvpn_dresden1 from ebgp_ic {
     neighbor fec0::a:cf:dd:1 as 65051;

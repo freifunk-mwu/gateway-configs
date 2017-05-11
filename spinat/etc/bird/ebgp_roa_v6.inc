@@ -62,6 +62,7 @@ roa fd00:65a8:93a4::/48      max  64 as      65142; # fulda
 roa fda0:747e:ab29:209::/64  max  64 as      65397; # gelsenkirchen
 roa fdb5:078b:64cc::/48      max  64 as      65181; # gera-greiz
 roa 2001:4dd0:ff00:9d18::/64 max  64 as      64865; # giessen
+roa fd10:2ea2:4dae::/48      max  64 as      64894; # glienicke-nordbahn
 roa fda0:747e:ab29:5142::/64 max  64 as      65120; # glwupper
 roa fde6:36fc:c985::/64      max  64 as      65527; # goettingen
 roa fdef:affe:edda::/48      max  64 as      65489; # greifswald
