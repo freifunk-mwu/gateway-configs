@@ -949,11 +949,11 @@ zone "192-255.55.10.in-addr.arpa" {
 # 
 zone "ffnord" {
     type static-stub;
-    server-addresses { 10.187.136.1; 10.187.210.1; 2a03:2267:4e6f:7264::fd02; 2a03:2267:4e6f:7264::fd07; };
+    server-addresses { 10.187.1.1; fd42:eb49:c0b5:4242::fd00; };
 };
 zone "187.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.187.136.1; 10.187.210.1; 2a03:2267:4e6f:7264::fd02; 2a03:2267:4e6f:7264::fd07; };
+    server-addresses { 10.187.1.1; fd42:eb49:c0b5:4242::fd00; };
 };
 # 
 # nordheide
