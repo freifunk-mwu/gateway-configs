@@ -15,7 +15,7 @@ ii  aptitude-common                  0.6.8.2-1ubuntu4                           
 ii  at                               3.1.14-1ubuntu1                            amd64        Delayed job execution and batch processing
 ii  base-files                       7.2ubuntu5.5                               amd64        Debian base system miscellaneous files
 ii  base-passwd                      3.5.33                                     amd64        Debian base system master password and group files
-ii  bash                             4.3-7ubuntu1.6                             amd64        GNU Bourne Again SHell
+ii  bash                             4.3-7ubuntu1.7                             amd64        GNU Bourne Again SHell
 ii  bc                               1.06.95-8ubuntu1                           amd64        GNU bc arbitrary precision calculator language
 ii  bind9                            1:9.9.5.dfsg-3ubuntu0.14                   amd64        Internet Domain Name Server
 ii  bind9-doc                        1:9.9.5.dfsg-3ubuntu0.14                   all          Documentation for BIND
