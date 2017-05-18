@@ -26,7 +26,7 @@ ii  automake1.9                          1.9.6+nogfdl-4ubuntu1                  
 ii  autotools-dev                        20130810.1                                 all          Update infrastructure for config.{guess,sub} files
 ii  base-files                           7.2ubuntu5.5                               amd64        Debian base system miscellaneous files
 ii  base-passwd                          3.5.33                                     amd64        Debian base system master password and group files
-ii  bash                                 4.3-7ubuntu1.6                             amd64        GNU Bourne Again SHell
+ii  bash                                 4.3-7ubuntu1.7                             amd64        GNU Bourne Again SHell
 ii  batadv-vis                           2017.0-0ffmwu2~trusty                      amd64        batadv-vis - visualize your batman-adv mesh network
 ii  batctl                               2017.0-0ffmwu0~trusty                      amd64        B.A.T.M.A.N. advanced control and management tool
 ii  batman-adv-dkms                      2017.0.1-0ffmwu0~trusty                    all          DKMS Source for the batman-advanced kernel module
