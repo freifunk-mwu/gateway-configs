@@ -28,7 +28,7 @@ ii  automake                             1:1.14.1-2ubuntu1                      
 ii  autotools-dev                        20130810.1                                 all          Update infrastructure for config.{guess,sub} files
 ii  base-files                           7.2ubuntu5.5                               amd64        Debian base system miscellaneous files
 ii  base-passwd                          3.5.33                                     amd64        Debian base system master password and group files
-ii  bash                                 4.3-7ubuntu1.5                             amd64        GNU Bourne Again SHell
+ii  bash                                 4.3-7ubuntu1.7                             amd64        GNU Bourne Again SHell
 ii  bash-completion                      1:2.1-4ubuntu0.2                           all          programmable completion for the bash shell
 ii  batadv-vis                           2017.0-0ffmwu2~trusty                      amd64        batadv-vis - visualize your batman-adv mesh network
 ii  batctl                               2017.0-0ffmwu0~trusty                      amd64        B.A.T.M.A.N. advanced control and management tool
