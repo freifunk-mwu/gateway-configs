@@ -28,7 +28,7 @@ ii  automake                             1:1.14.1-2ubuntu1                      
 ii  autotools-dev                        20130810.1                                 all          Update infrastructure for config.{guess,sub} files
 ii  base-files                           7.2ubuntu5.5                               amd64        Debian base system miscellaneous files
 ii  base-passwd                          3.5.33                                     amd64        Debian base system master password and group files
-ii  bash                                 4.3-7ubuntu1.5                             amd64        GNU Bourne Again SHell
+ii  bash                                 4.3-7ubuntu1.7                             amd64        GNU Bourne Again SHell
 ii  bash-completion                      1:2.1-4ubuntu0.2                           all          programmable completion for the bash shell
 ii  batadv-vis                           2017.0-0ffmwu2~trusty                      amd64        batadv-vis - visualize your batman-adv mesh network
 ii  batctl                               2017.0-0ffmwu0~trusty                      amd64        B.A.T.M.A.N. advanced control and management tool
@@ -325,7 +325,7 @@ ii  libisl10:amd64                       0.12.2-1                               
 ii  libitm1:amd64                        4.8.4-2ubuntu1~14.04.3                     amd64        GNU Transactional Memory Library
 ii  libiw30:amd64                        30~pre9-8ubuntu1                           amd64        Wireless tools - library
 ii  libjansson4:amd64                    2.5-2                                      amd64        C library for encoding, decoding and manipulating JSON data
-ii  libjasper1:amd64                     1.900.1-14ubuntu3.3                        amd64        JasPer JPEG-2000 runtime library
+ii  libjasper1:amd64                     1.900.1-14ubuntu3.4                        amd64        JasPer JPEG-2000 runtime library
 ii  libjbig0:amd64                       2.0-2ubuntu4.1                             amd64        JBIGkit libraries
 ii  libjbig2dec0                         0.11+20120125-1ubuntu1                     amd64        JBIG2 decoder library - shared libraries
 ii  libjpeg-turbo8:amd64                 1.3.0-0ubuntu2                             amd64        IJG JPEG compliant runtime library.
