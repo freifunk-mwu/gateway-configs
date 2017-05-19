@@ -482,6 +482,7 @@ protocol bgp icvpn_nrw5 from ebgp_ic {
 }
 protocol bgp icvpn_vogtland1 from ebgp_ic {
     neighbor 10.207.0.29 as 64857;
+    passive yes;
 }
 protocol bgp icvpn_vogtland3 from ebgp_ic {
     neighbor 10.207.0.37 as 64857;
