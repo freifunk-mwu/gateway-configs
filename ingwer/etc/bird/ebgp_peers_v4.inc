@@ -562,7 +562,6 @@ protocol bgp icvpn_mayen_koblenz_myk3 from ebgp_ic {
 
 protocol bgp icvpn_moehne1 from ebgp_ic {
     neighbor 10.207.0.120 as 65057;
-    passive yes;
 }
 
 
@@ -693,6 +692,7 @@ protocol bgp icvpn_trier5 from ebgp_ic {
 
 protocol bgp icvpn_trier6 from ebgp_ic {
     neighbor 10.207.0.224 as 65022;
+    passive yes;
 }
 
 
@@ -761,7 +761,6 @@ protocol bgp icvpn_waldheim1 from ebgp_ic {
 
 protocol bgp icvpn_waldheim2 from ebgp_ic {
     neighbor 10.207.0.46 as 65210;
-    passive yes;
 }
 
 
