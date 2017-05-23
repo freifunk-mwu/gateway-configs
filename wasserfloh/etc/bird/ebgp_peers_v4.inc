@@ -439,7 +439,6 @@ protocol bgp icvpn_trier3 from ebgp_ic {
 }
 protocol bgp icvpn_trier4 from ebgp_ic {
     neighbor 10.207.0.223 as 65022;
-    passive yes;
 }
 protocol bgp icvpn_trier5 from ebgp_ic {
     neighbor 10.207.0.93 as 65022;
@@ -482,7 +481,6 @@ protocol bgp icvpn_nrw5 from ebgp_ic {
 }
 protocol bgp icvpn_vogtland1 from ebgp_ic {
     neighbor 10.207.0.29 as 64857;
-    passive yes;
 }
 protocol bgp icvpn_vogtland3 from ebgp_ic {
     neighbor 10.207.0.37 as 64857;
