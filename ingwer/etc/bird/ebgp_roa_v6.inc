@@ -94,6 +94,7 @@ roa 2a03:2260:a::/48         max  64 as      65081; # karlsruhe
 roa fdca:55e1:baca:baca::/64 max  64 as      65514; # kassel
 roa fdd3:5d16:b5dd::/48      max  64 as      65528; # kbu
 roa fda1:384a:74de::/48      max  64 as      65525; # kiel
+roa fda0:747e:ab29:7407::/64 max  64 as      64893; # koenigswinter
 roa 2001:bf7:1310::/44       max  64 as      65533; # kreisgt
 roa 2a06:e881:1700::/44      max  64 as      65533; # kreisgt
 roa 2001:bf7:100:2268::/64   max  64 as      65530; # kuerten (delegation)
