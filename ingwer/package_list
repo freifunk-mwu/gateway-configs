@@ -411,7 +411,7 @@ ii  libsub-name-perl                   0.12-1                             amd64 
 ii  libswitch-perl                     2.17-2                             all          switch statement for Perl
 ii  libsysfs2:amd64                    2.1.0+repack-4                     amd64        interface library to sysfs
 ii  libsystemd0:amd64                  215-17+deb8u7                      amd64        systemd utility library
-ii  libtasn1-6:amd64                   4.2-3+deb8u2                       amd64        Manage ASN.1 structures (runtime)
+ii  libtasn1-6:amd64                   4.2-3+deb8u3                       amd64        Manage ASN.1 structures (runtime)
 ii  libtext-charwidth-perl             0.04-7+b3                          amd64        get display widths of characters on the terminal
 ii  libtext-iconv-perl                 1.7-5+b2                           amd64        converts between character sets in Perl
 ii  libtext-unidecode-perl             1.22-1                             all          Text::Unidecode -- US-ASCII transliterations of Unicode text
