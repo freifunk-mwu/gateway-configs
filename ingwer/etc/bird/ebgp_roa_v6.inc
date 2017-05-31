@@ -177,6 +177,7 @@ roa fda4:1721:8450::/48      max  64 as      65200; # siegburg
 roa fd07:96ae:572e::/48      max  64 as      64901; # slfl
 roa 2001:bf7:100:212::/64    max  64 as      65530; # solingen (delegation)
 roa fddf:ebfd:a801:212::/64  max  64 as      65530; # solingen (delegation)
+roa fd21:b4dc:4b00::/40      max  64 as      65019; # stuttgart
 roa 2a03:2260:100a::/48      max  64 as      65083; # suedpfalz
 roa fd00:ffba:ffba:0000::/64 max  64 as      65502; # suedwest
 roa 2001:bf7:fc00::/44       max  64 as      65022; # trier
