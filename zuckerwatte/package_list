@@ -138,8 +138,8 @@ ii  hicolor-icon-theme                   0.13-1                                 
 ii  hostname                             3.15ubuntu1                                amd64        utility to set/show the host name or domain name
 ii  htop                                 1.0.2-3                                    amd64        interactive processes viewer
 ii  ifupdown                             0.7.47.2ubuntu4.4                          amd64        high level tools to configure network interfaces
-ii  imagemagick                          8:6.7.7.10-6ubuntu3.6                      amd64        image manipulation programs
-ii  imagemagick-common                   8:6.7.7.10-6ubuntu3.6                      all          image manipulation programs -- infrastructure
+ii  imagemagick                          8:6.7.7.10-6ubuntu3.7                      amd64        image manipulation programs
+ii  imagemagick-common                   8:6.7.7.10-6ubuntu3.7                      all          image manipulation programs -- infrastructure
 ii  info                                 5.2.0.dfsg.1-2                             amd64        Standalone GNU Info documentation browser
 ii  init-system-helpers                  1.14ubuntu1                                all          helper tools for all init systems
 ii  initramfs-tools                      0.103ubuntu4.6                             all          tools for generating an initramfs
@@ -368,9 +368,9 @@ ii  liblwres90                           1:9.9.5.dfsg-3ubuntu0.14               
 ii  liblzma5:amd64                       5.1.1alpha+20120614-2ubuntu2               amd64        XZ-format compression library
 ii  liblzo2-2:amd64                      2.06-1.2ubuntu1.1                          amd64        data compression library
 ii  libmagic1:amd64                      1:5.14-2ubuntu3.3                          amd64        File type determination library using "magic" numbers
-ii  libmagickcore5:amd64                 8:6.7.7.10-6ubuntu3.6                      amd64        low-level image manipulation library
-ii  libmagickcore5-extra:amd64           8:6.7.7.10-6ubuntu3.6                      amd64        low-level image manipulation library - extra codecs
-ii  libmagickwand5:amd64                 8:6.7.7.10-6ubuntu3.6                      amd64        image manipulation library
+ii  libmagickcore5:amd64                 8:6.7.7.10-6ubuntu3.7                      amd64        low-level image manipulation library
+ii  libmagickcore5-extra:amd64           8:6.7.7.10-6ubuntu3.7                      amd64        low-level image manipulation library - extra codecs
+ii  libmagickwand5:amd64                 8:6.7.7.10-6ubuntu3.7                      amd64        image manipulation library
 ii  libmail-sendmail-perl                0.79.16-1                                  all          Send email from a perl script
 ii  libmailtools-perl                    2.12-1                                     all          Manipulate email in perl programs
 ii  libmailutils4                        1:2.99.98-1.1                              amd64        GNU Mail abstraction library
@@ -492,7 +492,7 @@ ii  libtext-wrapi18n-perl                0.06-7                                 
 ii  libthai-data                         0.1.20-3                                   all          Data files for Thai language support library
 ii  libthai0:amd64                       0.1.20-3                                   amd64        Thai language support library
 ii  libtidy-0.99-0                       20091223cvs-1.2ubuntu1.1                   amd64        HTML syntax checker and reformatter - library
-ii  libtiff5:amd64                       4.0.3-7ubuntu0.6                           amd64        Tag Image File Format (TIFF) library
+ii  libtiff5:amd64                       4.0.3-7ubuntu0.7                           amd64        Tag Image File Format (TIFF) library
 ii  libtimedate-perl                     2.3000-1                                   all          collection of modules to manipulate date/time information
 ii  libtinfo-dev:amd64                   5.9+20140118-1ubuntu1                      amd64        developer's library for the low-level terminfo library
 ii  libtinfo5:amd64                      5.9+20140118-1ubuntu1                      amd64        shared low-level terminfo library for terminal handling
@@ -865,7 +865,7 @@ ii  ssh                                  1:6.6p1-2ubuntu2.8                     
 ii  ssh-import-id                        3.21-0ubuntu1                              all          securely retrieve an SSH public key and install it locally
 ii  ssl-cert                             1.0.33                                     all          simple debconf wrapper for OpenSSL
 ii  strace                               4.8-1ubuntu5                               amd64        A system call tracer
-ii  sudo                                 1.8.9p5-1ubuntu1.3                         amd64        Provide limited super user privileges to specific users
+ii  sudo                                 1.8.9p5-1ubuntu1.4                         amd64        Provide limited super user privileges to specific users
 ii  sysfsutils                           2.1.0+repack-3ubuntu1                      amd64        sysfs query tool and boot-time setup
 ii  sysstat                              10.2.0-1                                   amd64        system performance tools for Linux
 ii  systemd-services                     204-5ubuntu20.24                           amd64        systemd runtime services
