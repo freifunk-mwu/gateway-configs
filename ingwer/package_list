@@ -314,7 +314,7 @@ ii  libkmod2:amd64                     18-3                               amd64 
 ii  libkrb5-3:amd64                    1.12.1+dfsg-19+deb8u2              amd64        MIT Kerberos runtime libraries
 ii  libkrb5support0:amd64              1.12.1+dfsg-19+deb8u2              amd64        MIT Kerberos runtime libraries - Support library
 ii  libksba8:amd64                     1.3.2-1+deb8u1                     amd64        X.509 and CMS support library
-ii  libldap-2.4-2:amd64                2.4.40+dfsg-1+deb8u2               amd64        OpenLDAP libraries
+ii  libldap-2.4-2:amd64                2.4.40+dfsg-1+deb8u3               amd64        OpenLDAP libraries
 ii  liblist-moreutils-perl             0.33-2+b1                          amd64        Perl module with additional list functions not found in List::Util
 ii  liblocale-gettext-perl             1.05-8+b1                          amd64        module using libc functions for internationalization in Perl
 ii  liblockfile-bin                    1.09-6                             amd64        support binaries for and cli utilities based on liblockfile
@@ -608,7 +608,7 @@ ii  software-properties-common         0.92.25debian1                     all   
 ii  spice-vdagent                      0.15.0-1.2                         amd64        Spice agent for Linux
 ii  ssl-cert                           1.0.35                             all          simple debconf wrapper for OpenSSL
 ii  startpar                           0.59-3                             amd64        run processes in parallel and multiplex their output
-ii  sudo                               1.8.10p3-1+deb8u3                  amd64        Provide limited super user privileges to specific users
+ii  sudo                               1.8.10p3-1+deb8u4                  amd64        Provide limited super user privileges to specific users
 ii  sysfsutils                         2.1.0+repack-4                     amd64        sysfs query tool and boot-time setup
 ii  systemd                            215-17+deb8u7                      amd64        system and service manager
 ii  systemd-sysv                       215-17+deb8u7                      amd64        system and service manager - SysV links
