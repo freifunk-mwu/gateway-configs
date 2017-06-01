@@ -518,7 +518,7 @@ ii  shared-mime-info                 1.2-0ubuntu3                               
 ii  software-properties-common       0.92.37.7                                  all          manage the repositories that you install software from (common)
 ii  ssh-import-id                    3.21-0ubuntu1                              all          securely retrieve an SSH public key and install it locally
 ii  ssl-cert                         1.0.33                                     all          simple debconf wrapper for OpenSSL
-ii  sudo                             1.8.9p5-1ubuntu1.3                         amd64        Provide limited super user privileges to specific users
+ii  sudo                             1.8.9p5-1ubuntu1.4                         amd64        Provide limited super user privileges to specific users
 ii  systemd-services                 204-5ubuntu20.24                           amd64        systemd runtime services
 ii  systemd-shim                     6-2bzr1                                    amd64        shim for systemd
 ii  sysv-rc                          2.88dsf-41ubuntu6.3                        all          System-V-like runlevel change mechanism
