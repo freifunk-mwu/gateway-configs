@@ -355,7 +355,7 @@ ii  libkrb5-3:amd64                      1.12+dfsg-2ubuntu5.3                   
 ii  libkrb5support0:amd64                1.12+dfsg-2ubuntu5.3                       amd64        MIT Kerberos runtime libraries - Support library
 ii  libkyotocabinet16:amd64              1.2.76-4                                   amd64        Straightforward implementation of DBM - shared library
 ii  liblcms2-2:amd64                     2.5-0ubuntu4.1                             amd64        Little CMS 2 color management library
-ii  libldap-2.4-2:amd64                  2.4.31-1+nmu2ubuntu8.3                     amd64        OpenLDAP libraries
+ii  libldap-2.4-2:amd64                  2.4.31-1+nmu2ubuntu8.4                     amd64        OpenLDAP libraries
 ii  liblocale-gettext-perl               1.05-7build3                               amd64        module using libc functions for internationalization in Perl
 ii  liblockfile-bin                      1.09-6ubuntu1                              amd64        support binaries for and cli utilities based on liblockfile
 ii  liblockfile1:amd64                   1.09-6ubuntu1                              amd64        NFS-safe locking library
