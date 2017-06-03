@@ -298,7 +298,7 @@ ii  libkrb5-26-heimdal:amd64             1.6~git20131207+dfsg-1ubuntu1.1        
 ii  libkrb5-3:amd64                      1.12+dfsg-2ubuntu5.3                       amd64        MIT Kerberos runtime libraries
 ii  libkrb5support0:amd64                1.12+dfsg-2ubuntu5.3                       amd64        MIT Kerberos runtime libraries - Support library
 ii  libkyotocabinet16:amd64              1.2.76-4                                   amd64        Straightforward implementation of DBM - shared library
-ii  libldap-2.4-2:amd64                  2.4.31-1+nmu2ubuntu8.3                     amd64        OpenLDAP libraries
+ii  libldap-2.4-2:amd64                  2.4.31-1+nmu2ubuntu8.4                     amd64        OpenLDAP libraries
 ii  liblinear-tools                      1.8+dfsg-1ubuntu1                          amd64        Standalone applications for LIBLINEAR
 ii  liblinear1                           1.8+dfsg-1ubuntu1                          amd64        Library for Large Linear Classification
 ii  liblocale-gettext-perl               1.05-7build3                               amd64        module using libc functions for internationalization in Perl
