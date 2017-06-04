@@ -132,6 +132,7 @@ protocol bgp icvpn_bremen5 from ebgp_ic {
 
 protocol bgp icvpn_bremen6 from ebgp_ic {
     neighbor fec0::a:cf:6:c4 as 65196;
+    passive yes;
 }
 
 
