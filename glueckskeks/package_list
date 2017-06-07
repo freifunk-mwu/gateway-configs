@@ -382,8 +382,8 @@ ii  libnewt0.52:amd64                    0.52.15-2ubuntu5                       
 ii  libnfnetlink0:amd64                  1.0.1-2                                    amd64        Netfilter netlink library
 ii  libnih-dbus1:amd64                   1.0.3-4ubuntu25                            amd64        NIH D-Bus Bindings Library
 ii  libnih1:amd64                        1.0.3-4ubuntu25                            amd64        NIH Utility Library
-ii  libnl-3-200:amd64                    3.2.21-1ubuntu4                            amd64        library for dealing with netlink sockets
-ii  libnl-genl-3-200:amd64               3.2.21-1ubuntu4                            amd64        library for dealing with netlink sockets - generic netlink
+ii  libnl-3-200:amd64                    3.2.21-1ubuntu4.1                          amd64        library for dealing with netlink sockets
+ii  libnl-genl-3-200:amd64               3.2.21-1ubuntu4.1                          amd64        library for dealing with netlink sockets - generic netlink
 ii  libnspr4:amd64                       2:4.13.1-0ubuntu0.14.04.1                  amd64        NetScape Portable Runtime Library
 ii  libnss3:amd64                        2:3.28.4-0ubuntu0.14.04.1                  amd64        Network Security Service libraries
 ii  libnss3-nssdb                        2:3.28.4-0ubuntu0.14.04.1                  all          Network Security Security libraries - shared databases
