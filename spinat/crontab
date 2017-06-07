@@ -12,7 +12,7 @@
 #
 PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 # firmware sync
-23 */2 * * * /usr/bin/rsync -avh6 --delete rsync://milchreis.freifunk-mwu.de:873/firmware /var/www/html/firmware > $HOME/.cronlog/firmware_rsync.log 2>&1
+23 */2 * * * /usr/bin/rsync -avh4 --delete rsync://milchreis.freifunk-mwu.de:873/firmware /var/www/html/firmware > $HOME/.cronlog/firmware_rsync.log 2>&1
 # backend scripts
 */5 * * * * $HOME/clones/backend-scripts/draw_traffic_all.py > $HOME/.cronlog/draw_traffic.log
 */5 * * * * $HOME/clones/backend-scripts/check_bind_gw.py > $HOME/.cronlog/check_bind.log
