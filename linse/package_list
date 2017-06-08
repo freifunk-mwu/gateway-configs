@@ -224,8 +224,8 @@ ii  libnewt0.52:amd64                0.52.15-2ubuntu5                           
 ii  libnfnetlink0:amd64              1.0.1-2                                    amd64        Netfilter netlink library
 ii  libnih-dbus1:amd64               1.0.3-4ubuntu25                            amd64        NIH D-Bus Bindings Library
 ii  libnih1:amd64                    1.0.3-4ubuntu25                            amd64        NIH Utility Library
-ii  libnl-3-200:amd64                3.2.21-1ubuntu4                            amd64        library for dealing with netlink sockets
-ii  libnl-genl-3-200:amd64           3.2.21-1ubuntu4                            amd64        library for dealing with netlink sockets - generic netlink
+ii  libnl-3-200:amd64                3.2.21-1ubuntu4.1                          amd64        library for dealing with netlink sockets
+ii  libnl-genl-3-200:amd64           3.2.21-1ubuntu4.1                          amd64        library for dealing with netlink sockets - generic netlink
 ii  libntlm0:amd64                   1.4-1                                      amd64        NTLM authentication library
 ii  libopts25:amd64                  1:5.18-2ubuntu2                            amd64        automated option processing library based on autogen
 ii  libp11-kit0:amd64                0.20.2-2ubuntu2                            amd64        Library for loading and coordinating access to PKCS#11 modules - runtime
