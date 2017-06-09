@@ -332,8 +332,8 @@ rc  libnettle4:amd64                     2.7.1-1ubuntu0.1                       
 ii  libnewt0.52:amd64                    0.52.15-2ubuntu5                           amd64        Not Erik's Windowing Toolkit - text mode windowing with slang
 ii  libnih-dbus1:amd64                   1.0.3-4ubuntu25                            amd64        NIH D-Bus Bindings Library
 ii  libnih1:amd64                        1.0.3-4ubuntu25                            amd64        NIH Utility Library
-ii  libnl-3-200:amd64                    3.2.21-1ubuntu4                            amd64        library for dealing with netlink sockets
-ii  libnl-genl-3-200:amd64               3.2.21-1ubuntu4                            amd64        library for dealing with netlink sockets - generic netlink
+ii  libnl-3-200:amd64                    3.2.21-1ubuntu4.1                          amd64        library for dealing with netlink sockets
+ii  libnl-genl-3-200:amd64               3.2.21-1ubuntu4.1                          amd64        library for dealing with netlink sockets - generic netlink
 rc  libnspr4:amd64                       2:4.10.7-0ubuntu0.14.04.1                  amd64        NetScape Portable Runtime Library
 rc  libnss3:amd64                        2:3.17.1-0ubuntu0.14.04.1                  amd64        Network Security Service libraries
 ii  libntlm0:amd64                       1.4-1                                      amd64        NTLM authentication library
