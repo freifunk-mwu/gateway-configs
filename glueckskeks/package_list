@@ -825,7 +825,7 @@ ii  tcpdump                              4.9.0-1ubuntu1~ubuntu14.04.1           
 ii  telnet                               0.17-36build2                              amd64        The telnet client
 ii  time                                 1.7-24                                     amd64        GNU time program for measuring CPU resource usage
 ii  tmux                                 1.8-5                                      amd64        terminal multiplexer
-ii  tnef                                 1.4.9-1+deb8u2build0.14.04.1               amd64        Tool to unpack MIME application/ms-tnef attachments
+ii  tnef                                 1.4.9-1+deb8u3build0.14.04.1               amd64        Tool to unpack MIME application/ms-tnef attachments
 ii  ttf-dejavu                           2.34-1ubuntu1                              all          transitional dummy package
 ii  ttf-dejavu-core                      2.34-1ubuntu1                              all          transitional dummy package
 ii  ttf-dejavu-extra                     2.34-1ubuntu1                              all          transitional dummy package
