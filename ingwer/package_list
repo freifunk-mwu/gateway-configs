@@ -251,7 +251,7 @@ ii  libgc1c2:amd64                     1:7.2d-6.4                         amd64 
 ii  libgcc-4.8-dev:amd64               4.8.4-1                            amd64        GCC support library (development files)
 ii  libgcc-4.9-dev:amd64               4.9.2-10                           amd64        GCC support library (development files)
 ii  libgcc1:amd64                      1:4.9.2-10                         amd64        GCC support library
-ii  libgcrypt20:amd64                  1.6.3-2+deb8u2                     amd64        LGPL Crypto library - runtime library
+ii  libgcrypt20:amd64                  1.6.3-2+deb8u3                     amd64        LGPL Crypto library - runtime library
 ii  libgd3:amd64                       2.1.0-5+deb8u9                     amd64        GD Graphics Library
 ii  libgdbm3:amd64                     1.8.3-13.1                         amd64        GNU dbm database routines (runtime version)
 ii  libgdk-pixbuf2.0-0:amd64           2.31.1-2+deb8u5                    amd64        GDK Pixbuf library
