@@ -279,8 +279,8 @@ ii  libgirepository-1.0-1                1.40.0-1ubuntu0.2                      
 ii  libglib2.0-0:amd64                   2.40.2-0ubuntu1                            amd64        GLib library of C routines
 ii  libglib2.0-data                      2.40.2-0ubuntu1                            all          Common files for GLib library
 ii  libgmp10:amd64                       2:5.1.3+dfsg-1ubuntu1                      amd64        Multiprecision arithmetic library
-ii  libgnutls-openssl27:amd64            2.12.23-12ubuntu2.7                        amd64        GNU TLS library - OpenSSL wrapper
-ii  libgnutls26:amd64                    2.12.23-12ubuntu2.7                        amd64        GNU TLS library - runtime library
+ii  libgnutls-openssl27:amd64            2.12.23-12ubuntu2.8                        amd64        GNU TLS library - OpenSSL wrapper
+ii  libgnutls26:amd64                    2.12.23-12ubuntu2.8                        amd64        GNU TLS library - runtime library
 ii  libgo5:amd64                         4.9.3-0ubuntu4                             amd64        Runtime library for GNU Go applications
 ii  libgomp1:amd64                       4.8.4-2ubuntu1~14.04.3                     amd64        GCC OpenMP (GOMP) support library
 ii  libgpg-error0:amd64                  1.12-0.2ubuntu1                            amd64        library for common error values and messages in GnuPG components
@@ -392,8 +392,8 @@ ii  libnewt0.52:amd64                    0.52.15-2ubuntu5                       
 ii  libnfnetlink0:amd64                  1.0.1-2                                    amd64        Netfilter netlink library
 ii  libnih-dbus1:amd64                   1.0.3-4ubuntu25                            amd64        NIH D-Bus Bindings Library
 ii  libnih1:amd64                        1.0.3-4ubuntu25                            amd64        NIH Utility Library
-ii  libnl-3-200:amd64                    3.2.21-1ubuntu4                            amd64        library for dealing with netlink sockets
-ii  libnl-genl-3-200:amd64               3.2.21-1ubuntu4                            amd64        library for dealing with netlink sockets - generic netlink
+ii  libnl-3-200:amd64                    3.2.21-1ubuntu4.1                          amd64        library for dealing with netlink sockets
+ii  libnl-genl-3-200:amd64               3.2.21-1ubuntu4.1                          amd64        library for dealing with netlink sockets - generic netlink
 ii  libntlm0:amd64                       1.4-1                                      amd64        NTLM authentication library
 ii  libnuma1:amd64                       2.0.9~rc5-1ubuntu3.14.04.2                 amd64        Libraries for controlling NUMA policy
 ii  libopenexr6:amd64                    1.6.1-7ubuntu1                             amd64        runtime files for the OpenEXR image library
@@ -482,7 +482,7 @@ ii  libsystemd-daemon0:amd64             204-5ubuntu20.24                       
 ii  libsystemd-journal0:amd64            204-5ubuntu20.24                           amd64        systemd journal utility library
 ii  libsystemd-login0:amd64              204-5ubuntu20.24                           amd64        systemd login utility library
 rc  libtamuanova-0.2                     0.2-3                                      amd64        Library to calculate an ANOVA
-ii  libtasn1-6:amd64                     3.4-3ubuntu0.4                             amd64        Manage ASN.1 structures (runtime)
+ii  libtasn1-6:amd64                     3.4-3ubuntu0.5                             amd64        Manage ASN.1 structures (runtime)
 ii  libterm-readkey-perl                 2.31-1                                     amd64        perl module for simple terminal control
 ii  libterm-ui-perl                      0.42-1                                     all          Term::ReadLine UI made easy
 ii  libtext-charwidth-perl               0.04-7build3                               amd64        get display widths of characters on the terminal
