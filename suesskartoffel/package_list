@@ -5,7 +5,7 @@ Desired=Unknown/Install/Remove/Purge/Hold
 +++-================================-==========================================-============-===================================================================================
 ii  acpid                            1:2.0.21-1ubuntu2                          amd64        Advanced Configuration and Power Interface event daemon
 ii  adduser                          3.113+nmu3ubuntu3                          all          add and remove users and groups
-ii  alfred                           2017.0-0ffmwu2~trusty                      amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
+ii  alfred                           2017.1-0ffmwu0~trusty                      amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
 ii  alfred-json                      0.3.1-0ffmwu1~trusty                       amd64        A.L.F.R.E.D client supporting GZIP decompression and JSON, string and binary output
 ii  apache2                          2.4.7-1ubuntu4.15                          amd64        Apache HTTP Server
 ii  apache2-bin                      2.4.7-1ubuntu4.15                          amd64        Apache HTTP Server (binary files and modules)
@@ -22,9 +22,9 @@ ii  at                               3.1.14-1ubuntu1                            
 ii  base-files                       7.2ubuntu5.5                               amd64        Debian base system miscellaneous files
 ii  base-passwd                      3.5.33                                     amd64        Debian base system master password and group files
 ii  bash                             4.3-7ubuntu1.7                             amd64        GNU Bourne Again SHell
-ii  batadv-vis                       2017.0-0ffmwu2~trusty                      amd64        batadv-vis - visualize your batman-adv mesh network
-ii  batctl                           2017.0-0ffmwu0~trusty                      amd64        B.A.T.M.A.N. advanced control and management tool
-ii  batman-adv-dkms                  2017.0.1-0ffmwu0~trusty                    all          DKMS Source for the batman-advanced kernel module
+ii  batadv-vis                       2017.1-0ffmwu0~trusty                      amd64        batadv-vis - visualize your batman-adv mesh network
+ii  batctl                           2017.1-0ffmwu0~trusty                      amd64        B.A.T.M.A.N. advanced control and management tool
+ii  batman-adv-dkms                  2017.1-0ffmwu0~trusty                      all          DKMS Source for the batman-advanced kernel module
 ii  bc                               1.06.95-8ubuntu1                           amd64        GNU bc arbitrary precision calculator language
 ii  bind9-host                       1:9.9.5.dfsg-3ubuntu0.14                   amd64        Version of 'host' bundled with BIND 9.X
 ii  binutils                         2.24-5ubuntu14.2                           amd64        GNU assembler, linker and binary utilities
@@ -87,7 +87,7 @@ ii  git                              1:1.9.1-1ubuntu0.5                         
 ii  git-man                          1:1.9.1-1ubuntu0.5                         all          fast, scalable, distributed revision control system (manual pages)
 ii  gnupg                            1.4.16-1ubuntu2.4                          amd64        GNU privacy guard - a free PGP replacement
 ii  gpgv                             1.4.16-1ubuntu2.4                          amd64        GNU privacy guard - signature verification tool
-ii  grafana                          4.3.1                                      amd64        Grafana
+ii  grafana                          4.3.2                                      amd64        Grafana
 ii  grep                             2.16-1                                     amd64        GNU grep, egrep and fgrep
 ii  groff-base                       1.22.2-5                                   amd64        GNU troff text-formatting system (base system components)
 ii  grub-common                      2.02~beta2-9ubuntu1.12                     amd64        GRand Unified Bootloader (common files)
@@ -112,8 +112,8 @@ ii  iproute2                         3.12.0-2ubuntu1                            
 ii  iptables                         1.4.21-1ubuntu1                            amd64        administration tools for packet filtering and NAT
 ii  iptables-persistent              0.5.7                                      all          boot-time loader for iptables rules
 ii  iputils-ping                     3:20121221-4ubuntu1.1                      amd64        Tools to test the reachability of network hosts
-ii  isc-dhcp-client                  4.2.4-7ubuntu12.9                          amd64        ISC DHCP client
-ii  isc-dhcp-common                  4.2.4-7ubuntu12.9                          amd64        common files used by all the isc-dhcp* packages
+ii  isc-dhcp-client                  4.2.4-7ubuntu12.10                         amd64        ISC DHCP client
+ii  isc-dhcp-common                  4.2.4-7ubuntu12.10                         amd64        common files used by all the isc-dhcp* packages
 ii  iso-codes                        3.52-1                                     all          ISO language, territory, currency, script codes and their translations
 rc  javascript-common                11                                         all          Base support for JavaScript library packages
 ii  joe                              3.7-2.3ubuntu1                             amd64        user friendly full screen text editor
@@ -423,7 +423,7 @@ ii  locales                          2.13+git20120306-12.1                      
 ii  locate                           4.4.2-7                                    amd64        maintain and query an index of a directory tree
 ii  lockfile-progs                   0.1.17                                     amd64        Programs for locking and unlocking files and mailboxes
 ii  login                            1:4.1.5.1-1ubuntu9.5                       amd64        system login tools
-ii  logrotate                        3.8.7-1ubuntu1                             amd64        Log rotation utility
+ii  logrotate                        3.8.7-1ubuntu1.1                           amd64        Log rotation utility
 ii  lsb-base                         4.1+Debian11ubuntu6.2                      all          Linux Standard Base 4.1 init script functionality
 ii  lsb-release                      4.1+Debian11ubuntu6.2                      all          Linux Standard Base version reporting utility
 ii  lshw                             02.16-2ubuntu1.3                           amd64        information about hardware configuration
@@ -453,7 +453,7 @@ ii  netbase                          5.2                                        
 ii  netcat-openbsd                   1.105-7ubuntu1                             amd64        TCP/IP swiss army knife
 ii  netcat6                          1.0-8                                      amd64        TCP/IP swiss army knife with IPv6 support
 ii  nmap                             6.40-0.2ubuntu1                            amd64        The Network Mapper
-ii  nodejs                           6.10.3-1nodesource1~trusty1                amd64        Node.js event-based server-side javascript engine
+ii  nodejs                           6.11.0-1nodesource1~trusty1                amd64        Node.js event-based server-side javascript engine
 ii  ntp                              1:4.2.6.p5+dfsg-3ubuntu2.14.04.10          amd64        Network Time Protocol daemon and utility programs
 ii  ntpdate                          1:4.2.6.p5+dfsg-3ubuntu2.14.04.10          amd64        client for setting system time from NTP servers
 ii  openssh-client                   1:6.6p1-2ubuntu2.8                         amd64        secure shell (SSH) client, for secure access to remote machines
@@ -601,7 +601,7 @@ ii  xauth                            1:1.0.7-1ubuntu1                           
 ii  xkb-data                         2.10.1-1ubuntu1                            all          X Keyboard Extension (XKB) configuration data
 ii  xml-core                         0.13+nmu2                                  all          XML infrastructure and XML catalog file support
 ii  xz-utils                         5.1.1alpha+20120614-2ubuntu2               amd64        XZ-format compression utilities
-ii  yarn                             0.24.5-1                                   all          Fast, reliable, and secure dependency management.
+ii  yarn                             0.24.6-1                                   all          Fast, reliable, and secure dependency management.
 ii  zlib-bin                         1:1.2.8.dfsg-1ubuntu1                      amd64        compression library - sample programs
 ii  zlib1g:amd64                     1:1.2.8.dfsg-1ubuntu1                      amd64        compression library - runtime
 ii  zopfli                           1.0.0-1                                    amd64        zlib (gzip, deflate) compatible compressor
