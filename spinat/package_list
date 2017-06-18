@@ -7,7 +7,7 @@ ii  accountsservice                      0.6.35-0ubuntu7.3                      
 ii  acl                                  2.2.52-1                                   amd64        Access control list utilities
 ii  acpid                                1:2.0.21-1ubuntu2                          amd64        Advanced Configuration and Power Interface event daemon
 ii  adduser                              3.113+nmu3ubuntu3                          all          add and remove users and groups
-ii  alfred                               2017.0-0ffmwu2~trusty                      amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
+ii  alfred                               2017.1-0ffmwu0~trusty                      amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
 ii  alfred-json                          0.3.1-0ffmwu1~trusty                       amd64        A.L.F.R.E.D client supporting GZIP decompression and JSON, string and binary output
 ii  apache2                              2.4.7-1ubuntu4.15                          amd64        Apache HTTP Server
 ii  apache2-bin                          2.4.7-1ubuntu4.15                          amd64        Apache HTTP Server (binary files and modules)
@@ -26,9 +26,9 @@ ii  base-files                           7.2ubuntu5.5                           
 ii  base-passwd                          3.5.33                                     amd64        Debian base system master password and group files
 ii  bash                                 4.3-7ubuntu1.7                             amd64        GNU Bourne Again SHell
 ii  bash-completion                      1:2.1-4ubuntu0.2                           all          programmable completion for the bash shell
-ii  batadv-vis                           2017.0-0ffmwu2~trusty                      amd64        batadv-vis - visualize your batman-adv mesh network
-ii  batctl                               2017.0-0ffmwu0~trusty                      amd64        B.A.T.M.A.N. advanced control and management tool
-ii  batman-adv-dkms                      2017.0.1-0ffmwu0~trusty                    all          DKMS Source for the batman-advanced kernel module
+ii  batadv-vis                           2017.1-0ffmwu0~trusty                      amd64        batadv-vis - visualize your batman-adv mesh network
+ii  batctl                               2017.1-0ffmwu0~trusty                      amd64        B.A.T.M.A.N. advanced control and management tool
+ii  batman-adv-dkms                      2017.1-0ffmwu0~trusty                      all          DKMS Source for the batman-advanced kernel module
 ii  bc                                   1.06.95-8ubuntu1                           amd64        GNU bc arbitrary precision calculator language
 ii  bind9                                1:9.9.5.dfsg-3ubuntu0.14                   amd64        Internet Domain Name Server
 ii  bind9-host                           1:9.9.5.dfsg-3ubuntu0.14                   amd64        Version of 'host' bundled with BIND 9.X
@@ -517,7 +517,7 @@ ii  linux-tools-generic                  3.13.0.119.129                         
 ii  locales                              2.13+git20120306-12.1                      all          common files for locale support
 ii  lockfile-progs                       0.1.17                                     amd64        Programs for locking and unlocking files and mailboxes
 ii  login                                1:4.1.5.1-1ubuntu9.5                       amd64        system login tools
-ii  logrotate                            3.8.7-1ubuntu1                             amd64        Log rotation utility
+ii  logrotate                            3.8.7-1ubuntu1.1                           amd64        Log rotation utility
 ii  lsb-base                             4.1+Debian11ubuntu6.2                      all          Linux Standard Base 4.1 init script functionality
 ii  lsb-release                          4.1+Debian11ubuntu6.2                      all          Linux Standard Base version reporting utility
 ii  lshw                                 02.16-2ubuntu1.3                           amd64        information about hardware configuration
