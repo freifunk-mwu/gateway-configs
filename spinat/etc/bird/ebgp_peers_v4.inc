@@ -121,7 +121,6 @@ protocol bgp icvpn_dreilaendereck3 from ebgp_ic {
 }
 protocol bgp icvpn_dreilaendereck7 from ebgp_ic {
     neighbor 10.207.0.75 as 65043;
-    passive yes;
 }
 protocol bgp icvpn_dreilaendereck9 from ebgp_ic {
     neighbor 10.207.0.74 as 65043;
@@ -396,7 +395,6 @@ protocol bgp icvpn_prignitz from ebgp_ic {
 }
 protocol bgp icvpn_rhein_neckar from ebgp_ic {
     neighbor 10.207.0.142 as 64946;
-    passive yes;
 }
 protocol bgp icvpn_rheinsiegkreis_rsk1 from ebgp_ic {
     neighbor 10.207.0.111 as 65111;
