@@ -66,7 +66,7 @@ ii  dc                                 1.06.95-9                          amd64 
 ii  dctrl-tools                        2.23                               amd64        Command-line tools to process Debian package information
 ii  debconf                            1.5.56                             all          Debian configuration management system
 ii  debconf-i18n                       1.5.56                             all          full internationalization support for debconf
-ii  debian-archive-keyring             2014.3                             all          GnuPG archive keys of the Debian archive
+ii  debian-archive-keyring             2017.5~deb8u1                      all          GnuPG archive keys of the Debian archive
 ii  debian-faq                         5.0.3                              all          Debian Frequently Asked Questions
 ii  debian-goodies                     0.63                               all          Small toolbox-style utilities for Debian systems
 ii  debianutils                        4.4+b1                             amd64        Miscellaneous utilities specific to Debian
@@ -261,8 +261,8 @@ ii  libgirepository-1.0-1:amd64        1.42.0-2.2                         amd64 
 ii  libglib2.0-0:amd64                 2.42.1-1+b1                        amd64        GLib library of C routines
 ii  libglib2.0-data                    2.42.1-1                           all          Common files for GLib library
 ii  libgmp10:amd64                     2:6.0.0+dfsg-6                     amd64        Multiprecision arithmetic library
-ii  libgnutls-deb0-28:amd64            3.3.8-6+deb8u5                     amd64        GNU TLS library - main runtime library
-ii  libgnutls-openssl27:amd64          3.3.8-6+deb8u5                     amd64        GNU TLS library - OpenSSL wrapper
+ii  libgnutls-deb0-28:amd64            3.3.8-6+deb8u6                     amd64        GNU TLS library - main runtime library
+ii  libgnutls-openssl27:amd64          3.3.8-6+deb8u6                     amd64        GNU TLS library - OpenSSL wrapper
 ii  libgomp1:amd64                     4.9.2-10                           amd64        GCC OpenMP (GOMP) support library
 ii  libgpg-error0:amd64                1.17-3                             amd64        library for common error values and messages in GnuPG components
 ii  libgpgme11:amd64                   1.5.1-6                            amd64        GPGME - GnuPG Made Easy (library)
