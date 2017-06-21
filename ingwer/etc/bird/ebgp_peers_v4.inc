@@ -54,6 +54,7 @@ protocol bgp icvpn_badoldesloe from ebgp_ic {
 
 protocol bgp icvpn_berlin1 from ebgp_ic {
     neighbor 10.207.0.5 as 44194;
+    passive yes;
 }
 
 
@@ -194,7 +195,6 @@ protocol bgp icvpn_dreilaendereck3 from ebgp_ic {
 
 protocol bgp icvpn_dreilaendereck7 from ebgp_ic {
     neighbor 10.207.0.75 as 65043;
-    passive yes;
 }
 
 
@@ -327,7 +327,6 @@ protocol bgp icvpn_fulda1 from ebgp_ic {
 
 protocol bgp icvpn_gera_greiz1 from ebgp_ic {
     neighbor 10.207.0.181 as 65181;
-    passive yes;
 }
 
 
@@ -501,7 +500,6 @@ protocol bgp icvpn_koenigswinter1 from ebgp_ic {
 
 protocol bgp icvpn_kreisgt_fks from ebgp_ic {
     neighbor 10.207.0.134 as 65533;
-    passive yes;
 }
 
 
