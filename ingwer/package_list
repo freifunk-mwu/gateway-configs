@@ -201,10 +201,10 @@ ii  libblkid1:amd64                    2.25.2-6                           amd64 
 ii  libboost-iostreams1.55.0:amd64     1.55.0+dfsg-3                      amd64        Boost.Iostreams Library
 ii  libbsd0:amd64                      0.7.0-2                            amd64        utility functions from BSD systems - shared library
 ii  libbz2-1.0:amd64                   1.0.6-7+b3                         amd64        high-quality block-sorting file compressor library - runtime
-ii  libc-bin                           2.19-18+deb8u9                     amd64        GNU C Library: Binaries
-ii  libc-dev-bin                       2.19-18+deb8u9                     amd64        GNU C Library: Development binaries
-ii  libc6:amd64                        2.19-18+deb8u9                     amd64        GNU C Library: Shared libraries
-ii  libc6-dev:amd64                    2.19-18+deb8u9                     amd64        GNU C Library: Development Libraries and Header Files
+ii  libc-bin                           2.19-18+deb8u10                    amd64        GNU C Library: Binaries
+ii  libc-dev-bin                       2.19-18+deb8u10                    amd64        GNU C Library: Development binaries
+ii  libc6:amd64                        2.19-18+deb8u10                    amd64        GNU C Library: Shared libraries
+ii  libc6-dev:amd64                    2.19-18+deb8u10                    amd64        GNU C Library: Development Libraries and Header Files
 ii  libcairo2:amd64                    1.14.0-2.1+deb8u2                  amd64        Cairo 2D vector graphics library
 ii  libcap-dev:amd64                   1:2.24-8                           amd64        POSIX 1003.1e capabilities (development)
 ii  libcap-ng0:amd64                   0.7.4-2                            amd64        An alternate POSIX capabilities library
@@ -240,7 +240,7 @@ ii  libestr0                           0.1.9-1.1                          amd64 
 ii  libexpat1:amd64                    2.1.0-6+deb8u3                     amd64        XML parsing C library - runtime library
 ii  libexpat1-dev:amd64                2.1.0-6+deb8u3                     amd64        XML parsing C library - development kit
 ii  libfakeroot:amd64                  1.20.2-1                           amd64        tool for simulating superuser privileges - shared libraries
-ii  libffi6:amd64                      3.1-2+b2                           amd64        Foreign Function Interface library runtime
+ii  libffi6:amd64                      3.1-2+deb8u1                       amd64        Foreign Function Interface library runtime
 ii  libfile-fcntllock-perl             0.22-1+b1                          amd64        Perl module for file locking with fcntl(2)
 ii  libfile-listing-perl               6.04-1                             all          module to parse directory listings
 ii  libfont-afm-perl                   1.20-1                             all          Font::AFM - Interface to Adobe Font Metrics files
@@ -480,8 +480,8 @@ ii  linux-image-4.9.0-0.bpo.3-amd64    4.9.25-1~bpo8+1                    amd64 
 ii  linux-image-amd64                  4.9+80~bpo8+1                      amd64        Linux for 64-bit PCs (meta-package)
 ii  linux-kbuild-4.8                   4.8.15-2~bpo8+2                    amd64        Kbuild infrastructure for Linux 4.8
 ii  linux-kbuild-4.9                   4.9.25-1~bpo8+1                    amd64        Kbuild infrastructure for Linux 4.9
-ii  linux-libc-dev:amd64               3.16.43-2                          amd64        Linux support headers for userspace development
-ii  locales                            2.19-18+deb8u9                     all          GNU C Library: National Language (locale) data [support]
+ii  linux-libc-dev:amd64               3.16.43-2+deb8u1                   amd64        Linux support headers for userspace development
+ii  locales                            2.19-18+deb8u10                    all          GNU C Library: National Language (locale) data [support]
 ii  login                              1:4.2-3+deb8u4                     amd64        system login tools
 ii  logrotate                          3.8.7-1+b1                         amd64        Log rotation utility
 ii  lsb-base                           4.1+Debian13+nmu1                  all          Linux Standard Base 4.1 init script functionality
@@ -500,7 +500,7 @@ ii  mlocate                            0.26-1                             amd64 
 ii  mosh                               1.2.4a-1+b2                        amd64        Mobile shell that supports roaming and intelligent local echo
 ii  mount                              2.25.2-6                           amd64        Tools for mounting and manipulating filesystems
 ii  mtr                                0.85-3                             amd64        Full screen ncurses and X11 traceroute tool
-ii  multiarch-support                  2.19-18+deb8u9                     amd64        Transitional package to ensure multiarch compatibility
+ii  multiarch-support                  2.19-18+deb8u10                    amd64        Transitional package to ensure multiarch compatibility
 ii  mutt                               1.5.23-3                           amd64        text-based mailreader supporting MIME, GPG, PGP and threading
 ii  nano                               2.2.6-3                            amd64        small, friendly text editor inspired by Pico
 ii  ncurses-base                       5.9+20140913-1                     all          basic terminal type definitions
