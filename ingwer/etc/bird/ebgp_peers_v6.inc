@@ -172,7 +172,6 @@ protocol bgp icvpn_dreilaendereck3 from ebgp_ic {
 
 protocol bgp icvpn_dreilaendereck7 from ebgp_ic {
     neighbor fec0::a:cf:0:be as 65043;
-    passive yes;
 }
 
 
@@ -273,7 +272,6 @@ protocol bgp icvpn_fulda1 from ebgp_ic {
 
 protocol bgp icvpn_gera_greiz1 from ebgp_ic {
     neighbor fec0::a:cf:0:b5 as 65181;
-    passive yes;
 }
 
 
@@ -422,7 +420,6 @@ protocol bgp icvpn_koenigswinter1 from ebgp_ic {
 
 protocol bgp icvpn_kreisgt_fks from ebgp_ic {
     neighbor fec0::a:cf:0:86 as 65533;
-    passive yes;
 }
 
 
