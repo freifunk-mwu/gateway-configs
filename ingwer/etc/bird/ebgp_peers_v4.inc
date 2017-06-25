@@ -127,6 +127,7 @@ protocol bgp icvpn_bremen1 from ebgp_ic {
 
 protocol bgp icvpn_bremen2 from ebgp_ic {
     neighbor 10.207.2.196 as 65196;
+    passive yes;
 }
 
 
