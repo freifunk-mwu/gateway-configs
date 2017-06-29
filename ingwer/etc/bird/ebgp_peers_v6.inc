@@ -4,11 +4,13 @@
 
 protocol bgp icvpn_kreisgt_bgp1 from ebgp_ic {
     neighbor fec0::a:cf:0:88 as 206813;
+    passive yes;
 }
 
 
 protocol bgp icvpn_kreisgt_bgp2 from ebgp_ic {
     neighbor fec0::a:cf:0:85 as 206813;
+    passive yes;
 }
 
 
@@ -110,7 +112,6 @@ protocol bgp icvpn_bremen1 from ebgp_ic {
 
 protocol bgp icvpn_bremen2 from ebgp_ic {
     neighbor fec0::a:cf:2:c4 as 65196;
-    passive yes;
 }
 
 
