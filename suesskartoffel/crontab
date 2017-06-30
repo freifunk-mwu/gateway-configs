@@ -21,8 +21,8 @@
 PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin 
 # m h  dom mon dow   command
 # yanic maintainance
-0 4 * * * sudo service yanic stop; sudo python3 /home/admin/mergefirstseen.py -o /var/www/freifunk-mwu.de/mapold/build/data/nodes.json -n /var/lib/collector/state.json; sudo service yanic start
-0 3 * * * /usr/bin/influx -database 'yanic' -execute 'delete from node where time < now() - 1w'
+#0 4 * * * sudo service yanic stop; sudo python3 /home/admin/mergefirstseen.py -o /var/www/freifunk-mwu.de/mapold/build/data/nodes.json -n /var/lib/collector/state.json; sudo service yanic start
+#0 3 * * * /usr/bin/influx -database 'yanic' -execute 'delete from node where time < now() - 30d'
 # backend scripts
 */5 * * * * $HOME/clones/backend-scripts/draw_traffic_all.py > $HOME/.cronlog/draw_traffic.log
 23 * * * * $HOME/clones/backend-scripts/gen_website_all.py > $HOME/.cronlog/gen_website.log
