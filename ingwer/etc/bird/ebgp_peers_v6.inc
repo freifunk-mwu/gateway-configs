@@ -418,7 +418,6 @@ protocol bgp icvpn_kiel0 from ebgp_ic {
 
 protocol bgp icvpn_koenigswinter1 from ebgp_ic {
     neighbor fec0::a:cf:0:35 as 64893;
-    passive yes;
 }
 
 
