@@ -670,8 +670,8 @@ ii  node-which                           1.0.5-2                                
 ii  nodejs                               0.10.25~dfsg2-2ubuntu1                     amd64        evented I/O for V8 javascript
 ii  nodejs-dev                           0.10.25~dfsg2-2ubuntu1                     amd64        evented I/O for V8 javascript (development files)
 ii  npm                                  1.3.10~dfsg-1                              all          package manager for Node.js
-ii  ntp                                  1:4.2.6.p5+dfsg-3ubuntu2.14.04.10          amd64        Network Time Protocol daemon and utility programs
-ii  ntpdate                              1:4.2.6.p5+dfsg-3ubuntu2.14.04.10          amd64        client for setting system time from NTP servers
+ii  ntp                                  1:4.2.6.p5+dfsg-3ubuntu2.14.04.11          amd64        Network Time Protocol daemon and utility programs
+ii  ntpdate                              1:4.2.6.p5+dfsg-3ubuntu2.14.04.11          amd64        client for setting system time from NTP servers
 ii  openssh-client                       1:6.6p1-2ubuntu2.8                         amd64        secure shell (SSH) client, for secure access to remote machines
 ii  openssh-server                       1:6.6p1-2ubuntu2.8                         amd64        secure shell (SSH) server, for secure access from remote machines
 ii  openssh-sftp-server                  1:6.6p1-2ubuntu2.8                         amd64        secure shell (SSH) sftp server module, for SFTP access from remote machines
