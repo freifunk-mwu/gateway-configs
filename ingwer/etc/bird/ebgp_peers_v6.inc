@@ -419,7 +419,6 @@ protocol bgp icvpn_kiel0 from ebgp_ic {
 
 protocol bgp icvpn_koenigswinter1 from ebgp_ic {
     neighbor fec0::a:cf:0:35 as 64893;
-    passive yes;
 }
 
 
@@ -589,13 +588,11 @@ protocol bgp icvpn_trier1 from ebgp_ic {
 
 protocol bgp icvpn_trier2 from ebgp_ic {
     neighbor fec0::a:cf:0:dd as 65022;
-    passive yes;
 }
 
 
 protocol bgp icvpn_trier3 from ebgp_ic {
     neighbor fec0::a:cf:0:de as 65022;
-    passive yes;
 }
 
 
