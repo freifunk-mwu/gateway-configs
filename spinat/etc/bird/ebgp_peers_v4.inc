@@ -97,6 +97,9 @@ protocol bgp icvpn_cottbus2 from ebgp_ic {
 protocol bgp icvpn_darmstadt1 from ebgp_ic {
     neighbor 10.207.0.216 as 65038;
 }
+protocol bgp icvpn_darmstadt2 from ebgp_ic {
+    neighbor 10.207.0.217 as 65038;
+}
 protocol bgp icvpn_dreilaendereck3 from ebgp_ic {
     neighbor 10.207.0.71 as 65043;
 }
@@ -145,7 +148,7 @@ protocol bgp icvpn_franken_fff_gw_m1 from ebgp_ic {
 protocol bgp icvpn_franken_fff_gw_m4 from ebgp_ic {
     neighbor 10.207.0.83 as 65024;
 }
-protocol bgp icvpn_franken_ro1 from ebgp_ic {
+protocol bgp icvpn_franken_fff_icvpn from ebgp_ic {
     neighbor 10.207.0.23 as 65024;
 }
 protocol bgp icvpn_frankenberg1 from ebgp_ic {
@@ -372,6 +375,9 @@ protocol bgp icvpn_troisdorf1 from ebgp_ic {
 }
 protocol bgp icvpn_uelzen_uegw1 from ebgp_ic {
     neighbor 10.207.0.18 as 64525;
+}
+protocol bgp icvpn_ulm10 from ebgp_ic {
+    neighbor 10.207.0.151 as 64860;
 }
 protocol bgp icvpn_ulm5 from ebgp_ic {
     neighbor 10.207.0.150 as 64860;

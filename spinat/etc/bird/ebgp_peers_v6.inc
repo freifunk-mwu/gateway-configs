@@ -88,6 +88,9 @@ protocol bgp icvpn_cottbus2 from ebgp_ic {
 protocol bgp icvpn_darmstadt1 from ebgp_ic {
     neighbor fec0::a:cf:0:d8 as 65038;
 }
+protocol bgp icvpn_darmstadt2 from ebgp_ic {
+    neighbor fec0::a:cf:0:d9 as 65038;
+}
 protocol bgp icvpn_dreilaendereck3 from ebgp_ic {
     neighbor fec0::a:cf:0:47 as 65043;
 }
@@ -327,6 +330,9 @@ protocol bgp icvpn_troisdorf1 from ebgp_ic {
 }
 protocol bgp icvpn_uelzen_uegw1 from ebgp_ic {
     neighbor fec0::a:cf:0:12 as 64525;
+}
+protocol bgp icvpn_ulm10 from ebgp_ic {
+    neighbor fec0::a:cf:0:97 as 64860;
 }
 protocol bgp icvpn_ulm5 from ebgp_ic {
     neighbor fec0::a:cf:0:96 as 64860;
