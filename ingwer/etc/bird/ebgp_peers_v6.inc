@@ -28,7 +28,6 @@ protocol bgp icvpn_kreisgt_bgp4 from ebgp_ic {
 
 protocol bgp icvpn_aachen1 from ebgp_ic {
     neighbor fec0::a:cf:0:72 as 65077;
-    passive yes;
 }
 
 
