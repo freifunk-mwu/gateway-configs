@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2017060900		; Serial
+		     2017071500		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -30,8 +30,8 @@ linse		IN	AAAA	2a01:4f8:192:521::b4dc:4b1e
 ; vereinshost
 eisen		IN	A	193.111.140.90
 eisen		IN	AAAA	2001:4ba0:fffc:3d::b4dc:4b1e
-sushi		IN	A	88.99.213.66
-sushi		IN	AAAA	2a01:4f8:10a:3e41::1
+sushi		IN	A	94.130.21.214
+sushi		IN	AAAA	2a01:4f8:10b:1b29::2
 
 ; gluon gateways
 spinat          IN      A       46.20.37.226
