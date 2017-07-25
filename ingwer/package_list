@@ -26,7 +26,7 @@ ii  aptitude                           0.6.11-1+b1                        amd64 
 ii  aptitude-common                    0.6.11-1                           all          architecture independent files for the aptitude package manager
 ii  aptitude-doc-en                    0.6.11-1                           all          English manual for aptitude, a terminal-based package manager
 ii  at                                 3.1.16-1                           amd64        Delayed job execution and batch processing
-ii  base-files                         8+deb8u8                           amd64        Debian base system miscellaneous files
+ii  base-files                         8+deb8u9                           amd64        Debian base system miscellaneous files
 ii  base-passwd                        3.5.37                             amd64        Debian base system master password and group files
 ii  bash                               4.3-11+deb8u1                      amd64        GNU Bourne Again SHell
 ii  bash-completion                    1:2.1-4                            all          programmable completion for the bash shell
@@ -34,9 +34,9 @@ ii  batadv-vis                         2017.0-1+ffmwu0                    amd64 
 ii  batctl                             2017.0-1+ffmwu0                    amd64        B.A.T.M.A.N. advanced control and management tool
 ii  batman-adv-dkms                    2017.0.1-1+ffmwu0                  all          DKMS Source for the batman-advanced kernel module
 ii  bc                                 1.06.95-9                          amd64        GNU bc arbitrary precision calculator language
-ii  bind9                              1:9.9.5.dfsg-9+deb8u12             amd64        Internet Domain Name Server
-ii  bind9-host                         1:9.9.5.dfsg-9+deb8u12             amd64        Version of 'host' bundled with BIND 9.X
-ii  bind9utils                         1:9.9.5.dfsg-9+deb8u12             amd64        Utilities for BIND
+ii  bind9                              1:9.9.5.dfsg-9+deb8u13             amd64        Internet Domain Name Server
+ii  bind9-host                         1:9.9.5.dfsg-9+deb8u13             amd64        Version of 'host' bundled with BIND 9.X
+ii  bind9utils                         1:9.9.5.dfsg-9+deb8u13             amd64        Utilities for BIND
 ii  binutils                           2.25-5+deb8u1                      amd64        GNU assembler, linker and binary utilities
 ii  bird                               1.6.3-1~bpo8+1                     amd64        Internet Routing Daemon
 ii  bridge-utils                       1.5-9                              amd64        Utilities for configuring the Linux Ethernet bridge
@@ -64,8 +64,8 @@ ii  dash                               0.5.7-4+b1                         amd64 
 ii  dbus                               1.8.22-0+deb8u1                    amd64        simple interprocess messaging system (daemon and utilities)
 ii  dc                                 1.06.95-9                          amd64        GNU dc arbitrary precision reverse-polish calculator
 ii  dctrl-tools                        2.23                               amd64        Command-line tools to process Debian package information
-ii  debconf                            1.5.56                             all          Debian configuration management system
-ii  debconf-i18n                       1.5.56                             all          full internationalization support for debconf
+ii  debconf                            1.5.56+deb8u1                      all          Debian configuration management system
+ii  debconf-i18n                       1.5.56+deb8u1                      all          full internationalization support for debconf
 ii  debian-archive-keyring             2017.5~deb8u1                      all          GnuPG archive keys of the Debian archive
 ii  debian-faq                         5.0.3                              all          Debian Frequently Asked Questions
 ii  debian-goodies                     0.63                               all          Small toolbox-style utilities for Debian systems
@@ -78,7 +78,7 @@ ii  discover-data                      2.2013.01.11                       all   
 ii  dkms                               2.2.0.3-2                          all          Dynamic Kernel Module Support Framework
 ii  dmidecode                          2.12-3                             amd64        SMBIOS/DMI table decoder
 ii  dmsetup                            2:1.02.90-2.2+deb8u1               amd64        Linux Kernel Device Mapper userspace library
-ii  dnsutils                           1:9.9.5.dfsg-9+deb8u12             amd64        Clients provided with BIND
+ii  dnsutils                           1:9.9.5.dfsg-9+deb8u13             amd64        Clients provided with BIND
 ii  doc-debian                         6.2                                all          Debian Project documentation and other documents
 ii  docutils-common                    0.12+dfsg-1                        all          text processing system for reStructuredText - common data
 ii  dpkg                               1.17.27                            amd64        Debian package management system
@@ -129,7 +129,7 @@ ii  gzip                               1.6-4                              amd64 
 ii  haveged                            1.9.1-1                            amd64        Linux entropy source using the HAVEGE algorithm
 ii  heirloom-mailx                     12.5-4                             amd64        feature-rich BSD mail(1)
 ii  hicolor-icon-theme                 0.13-1                             all          default fallback theme for FreeDesktop.org icon themes
-ii  host                               1:9.9.5.dfsg-9+deb8u12             all          Transitional package
+ii  host                               1:9.9.5.dfsg-9+deb8u13             all          Transitional package
 ii  hostname                           3.15                               amd64        utility to set/show the host name or domain name
 ii  htop                               1.0.3-1                            amd64        interactive processes viewer
 ii  iamerican                          3.3.02-6                           all          American English dictionary for ispell (standard version)
@@ -145,7 +145,7 @@ ii  initscripts                        2.88dsf-59                         amd64 
 ii  insserv                            1.14.0-5                           amd64        boot sequence organizer using LSB init.d script dependency information
 ii  install-info                       5.2.0.dfsg.1-6                     amd64        Manage installed documentation in info format
 ii  installation-report                2.58                               all          system installation report
-ii  intel-microcode                    3.20161104.1~deb8u1                amd64        Processor microcode firmware for Intel CPUs
+ii  intel-microcode                    3.20170707.1~deb8u1                amd64        Processor microcode firmware for Intel CPUs
 ii  iperf                              2.0.5+dfsg1-2                      amd64        Internet Protocol bandwidth measuring tool
 ii  iperf3                             3.0.7-1                            amd64        Internet Protocol bandwidth measuring tool
 ii  iproute                            1:3.16.0-2                         all          transitional dummy package for iproute2
@@ -196,7 +196,7 @@ ii  libauthen-sasl-perl                2.1600-1                           all   
 ii  libavahi-client3:amd64             0.6.31-5                           amd64        Avahi client library
 ii  libavahi-common-data:amd64         0.6.31-5                           amd64        Avahi common data files
 ii  libavahi-common3:amd64             0.6.31-5                           amd64        Avahi common library
-ii  libbind9-90                        1:9.9.5.dfsg-9+deb8u12             amd64        BIND9 Shared Library used by BIND
+ii  libbind9-90                        1:9.9.5.dfsg-9+deb8u13             amd64        BIND9 Shared Library used by BIND
 ii  libblkid1:amd64                    2.25.2-6                           amd64        block device id library
 ii  libboost-iostreams1.55.0:amd64     1.55.0+dfsg-3                      amd64        Boost.Iostreams Library
 ii  libbsd0:amd64                      0.7.0-2                            amd64        utility functions from BSD systems - shared library
@@ -230,8 +230,8 @@ ii  libdbus-glib-1-2:amd64             0.102-1                            amd64 
 ii  libdebconfclient0:amd64            0.192                              amd64        Debian Configuration Management System (C-implementation library)
 ii  libdevmapper1.02.1:amd64           2:1.02.90-2.2+deb8u1               amd64        Linux Kernel Device Mapper userspace library
 ii  libdiscover2                       2.1.2-7                            amd64        hardware identification library
-ii  libdns-export100                   1:9.9.5.dfsg-9+deb8u12             amd64        Exported DNS Shared Library
-ii  libdns100                          1:9.9.5.dfsg-9+deb8u12             amd64        DNS Shared Library used by BIND
+ii  libdns-export100                   1:9.9.5.dfsg-9+deb8u13             amd64        Exported DNS Shared Library
+ii  libdns100                          1:9.9.5.dfsg-9+deb8u13             amd64        DNS Shared Library used by BIND
 ii  libdpkg-perl                       1.17.27                            all          Dpkg perl modules
 ii  libedit2:amd64                     3.1-20140620-2                     amd64        BSD editline and history libraries
 ii  libencode-locale-perl              1.03-1                             all          utility to determine the locale encoding
@@ -261,17 +261,17 @@ ii  libgirepository-1.0-1:amd64        1.42.0-2.2                         amd64 
 ii  libglib2.0-0:amd64                 2.42.1-1+b1                        amd64        GLib library of C routines
 ii  libglib2.0-data                    2.42.1-1                           all          Common files for GLib library
 ii  libgmp10:amd64                     2:6.0.0+dfsg-6                     amd64        Multiprecision arithmetic library
-ii  libgnutls-deb0-28:amd64            3.3.8-6+deb8u6                     amd64        GNU TLS library - main runtime library
-ii  libgnutls-openssl27:amd64          3.3.8-6+deb8u6                     amd64        GNU TLS library - OpenSSL wrapper
+ii  libgnutls-deb0-28:amd64            3.3.8-6+deb8u7                     amd64        GNU TLS library - main runtime library
+ii  libgnutls-openssl27:amd64          3.3.8-6+deb8u7                     amd64        GNU TLS library - OpenSSL wrapper
 ii  libgomp1:amd64                     4.9.2-10                           amd64        GCC OpenMP (GOMP) support library
 ii  libgpg-error0:amd64                1.17-3                             amd64        library for common error values and messages in GnuPG components
 ii  libgpgme11:amd64                   1.5.1-6                            amd64        GPGME - GnuPG Made Easy (library)
 ii  libgpm2:amd64                      1.20.4-6.1+b2                      amd64        General Purpose Mouse - shared library
 ii  libgraphite2-3:amd64               1.3.10-1~deb8u1                    amd64        Font rendering engine for Complex Scripts -- library
 ii  libgssapi-krb5-2:amd64             1.12.1+dfsg-19+deb8u2              amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
-ii  libgtk2.0-0:amd64                  2.24.25-3+deb8u1                   amd64        GTK+ graphical user interface library
-ii  libgtk2.0-bin                      2.24.25-3+deb8u1                   amd64        programs for the GTK+ graphical user interface library
-ii  libgtk2.0-common                   2.24.25-3+deb8u1                   all          common files for the GTK+ graphical user interface library
+ii  libgtk2.0-0:amd64                  2.24.25-3+deb8u2                   amd64        GTK+ graphical user interface library
+ii  libgtk2.0-bin                      2.24.25-3+deb8u2                   amd64        programs for the GTK+ graphical user interface library
+ii  libgtk2.0-common                   2.24.25-3+deb8u2                   all          common files for the GTK+ graphical user interface library
 ii  libharfbuzz0b:amd64                0.9.35-2                           amd64        OpenType text shaping engine (shared library)
 ii  libhavege1:amd64                   1.9.1-1                            amd64        entropy source using the HAVEGE algorithm - shared library
 ii  libhogweed2:amd64                  2.7.1-5+deb8u2                     amd64        low level cryptographic library (public-key cryptos)
@@ -293,12 +293,12 @@ ii  libio-socket-ip-perl               0.32-1                             all   
 ii  libio-socket-ssl-perl              2.002-2+deb8u2                     all          Perl module implementing object oriented interface to SSL sockets
 ii  libio-string-perl                  1.08-3                             all          Emulate IO::File interface for in-core strings
 ii  libiperf0                          3.0.7-1                            amd64        Internet Protocol bandwidth measuring tool (runtime files)
-ii  libirs-export91                    1:9.9.5.dfsg-9+deb8u12             amd64        Exported IRS Shared Library
-ii  libisc-export95                    1:9.9.5.dfsg-9+deb8u12             amd64        Exported ISC Shared Library
-ii  libisc95                           1:9.9.5.dfsg-9+deb8u12             amd64        ISC Shared Library used by BIND
-ii  libisccc90                         1:9.9.5.dfsg-9+deb8u12             amd64        Command Channel Library used by BIND
-ii  libisccfg-export90                 1:9.9.5.dfsg-9+deb8u12             amd64        Exported ISC CFG Shared Library
-ii  libisccfg90                        1:9.9.5.dfsg-9+deb8u12             amd64        Config File Handling Library used by BIND
+ii  libirs-export91                    1:9.9.5.dfsg-9+deb8u13             amd64        Exported IRS Shared Library
+ii  libisc-export95                    1:9.9.5.dfsg-9+deb8u13             amd64        Exported ISC Shared Library
+ii  libisc95                           1:9.9.5.dfsg-9+deb8u13             amd64        ISC Shared Library used by BIND
+ii  libisccc90                         1:9.9.5.dfsg-9+deb8u13             amd64        Command Channel Library used by BIND
+ii  libisccfg-export90                 1:9.9.5.dfsg-9+deb8u13             amd64        Exported ISC CFG Shared Library
+ii  libisccfg90                        1:9.9.5.dfsg-9+deb8u13             amd64        Config File Handling Library used by BIND
 ii  libisl10:amd64                     0.12.2-2                           amd64        manipulating sets and relations of integer points bounded by linear constraints
 ii  libitm1:amd64                      4.9.2-10                           amd64        GNU Transactional Memory Library
 ii  libjansson-dev:amd64               2.7-1+deb8u1                       amd64        C library for encoding, decoding and manipulating JSON data (dev)
@@ -325,7 +325,7 @@ ii  liblsan0:amd64                     4.9.2-10                           amd64 
 ii  liblua5.1-0:amd64                  5.1.5-7.1                          amd64        Shared library for the Lua interpreter version 5.1
 ii  liblwp-mediatypes-perl             6.02-1                             all          module to guess media type for a file or a URL
 ii  liblwp-protocol-https-perl         6.06-2                             all          HTTPS driver for LWP::UserAgent
-ii  liblwres90                         1:9.9.5.dfsg-9+deb8u12             amd64        Lightweight Resolver Library used by BIND
+ii  liblwres90                         1:9.9.5.dfsg-9+deb8u13             amd64        Lightweight Resolver Library used by BIND
 ii  liblzma5:amd64                     5.1.1alpha+20120614-2+b3           amd64        XZ-format compression library
 ii  liblzo2-2:amd64                    2.08-1.2                           amd64        data compression library
 ii  libmagic1:amd64                    1:5.22+15-2+deb8u3                 amd64        File type determination library using "magic" numbers
@@ -351,10 +351,10 @@ ii  libnl-genl-3-dev                   3.2.24-2                           amd64 
 ii  libnuma1:amd64                     2.0.10-1                           amd64        Libraries for controlling NUMA policy
 ii  libopts25:amd64                    1:5.18.4-3                         amd64        automated option processing library based on autogen
 ii  libp11-kit0:amd64                  0.20.7-1                           amd64        Library for loading and coordinating access to PKCS#11 modules - runtime
-ii  libpam-modules:amd64               1.1.8-3.1+deb8u2                   amd64        Pluggable Authentication Modules for PAM
-ii  libpam-modules-bin                 1.1.8-3.1+deb8u2                   amd64        Pluggable Authentication Modules for PAM - helper binaries
+ii  libpam-modules:amd64               1.1.8-3.1+deb8u2+b1                amd64        Pluggable Authentication Modules for PAM
+ii  libpam-modules-bin                 1.1.8-3.1+deb8u2+b1                amd64        Pluggable Authentication Modules for PAM - helper binaries
 ii  libpam-runtime                     1.1.8-3.1+deb8u2                   all          Runtime support for the PAM library
-ii  libpam0g:amd64                     1.1.8-3.1+deb8u2                   amd64        Pluggable Authentication Modules library
+ii  libpam0g:amd64                     1.1.8-3.1+deb8u2+b1                amd64        Pluggable Authentication Modules library
 ii  libpango-1.0-0:amd64               1.36.8-3                           amd64        Layout and rendering of internationalized text
 ii  libpango1.0-0:amd64                1.36.8-3                           amd64        Layout and rendering of internationalized text
 ii  libpangocairo-1.0-0:amd64          1.36.8-3                           amd64        Layout and rendering of internationalized text
@@ -515,13 +515,13 @@ ii  openssh-client                     1:6.7p1-5+deb8u3                   amd64 
 ii  openssh-server                     1:6.7p1-5+deb8u3                   amd64        secure shell (SSH) server, for secure access from remote machines
 ii  openssh-sftp-server                1:6.7p1-5+deb8u3                   amd64        secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii  openssl                            1.0.1t-1+deb8u6                    amd64        Secure Sockets Layer toolkit - cryptographic utility
-ii  os-prober                          1.65                               amd64        utility to detect other OSes on a set of drives
+ii  os-prober                          1.65+deb8u1                        amd64        utility to detect other OSes on a set of drives
 ii  passwd                             1:4.2-3+deb8u4                     amd64        change and administer password and group data
 ii  patch                              2.7.5-1                            amd64        Apply a diff file to an original
 ii  pciutils                           1:3.2.1-3                          amd64        Linux PCI Utilities
-ii  perl                               5.20.2-3+deb8u7                    amd64        Larry Wall's Practical Extraction and Report Language
-ii  perl-base                          5.20.2-3+deb8u7                    amd64        minimal Perl system
-ii  perl-modules                       5.20.2-3+deb8u7                    all          Core Perl modules
+ii  perl                               5.20.2-3+deb8u8                    amd64        Larry Wall's Practical Extraction and Report Language
+ii  perl-base                          5.20.2-3+deb8u8                    amd64        minimal Perl system
+ii  perl-modules                       5.20.2-3+deb8u8                    all          Core Perl modules
 ii  pinentry-gtk2                      0.8.3-2                            amd64        GTK+-2-based PIN or pass-phrase entry dialog for GnuPG
 ii  pkg-config                         0.28-1                             amd64        manage compile and link flags for libraries
 ii  postfix                            2.11.3-1+deb8u2                    amd64        High-performance mail transport agent
@@ -638,7 +638,7 @@ ii  vim-tiny                           2:7.4.488-7+deb8u3                 amd64 
 ii  virt-what                          1.14-1                             amd64        detect if we are running in a virtual machine
 ii  vnstat                             1.12-2                             amd64        console-based network traffic monitor
 ii  vnstati                            1.12-2                             amd64        image output support for vnStat
-ii  w3m                                0.5.3-19+deb8u1                    amd64        WWW browsable pager with excellent tables/frames support
+ii  w3m                                0.5.3-19+deb8u2                    amd64        WWW browsable pager with excellent tables/frames support
 ii  wamerican                          7.1-1                              all          American English dictionary words for /usr/share/dict
 ii  wget                               1.16-1+deb8u2                      amd64        retrieves files from the web
 ii  whiptail                           0.52.17-1+b1                       amd64        Displays user-friendly dialog boxes from shell scripts
