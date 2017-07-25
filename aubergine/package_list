@@ -203,7 +203,7 @@ ii  libdevmapper1.02.1:amd64             2:1.02.77-6ubuntu2                     
 ii  libdigest-hmac-perl                  1.03+dfsg-1                                all          module for creating standard message integrity checks
 ii  libdns100                            1:9.9.5.dfsg-3ubuntu0.15                   amd64        DNS Shared Library used by BIND
 ii  libdpkg-perl                         1.17.5ubuntu5.7                            all          Dpkg perl modules
-ii  libdrm2:amd64                        2.4.67-1ubuntu0.14.04.1                    amd64        Userspace interface to kernel DRM services -- runtime
+ii  libdrm2:amd64                        2.4.67-1ubuntu0.14.04.2                    amd64        Userspace interface to kernel DRM services -- runtime
 ii  libedit2:amd64                       3.1-20130712-2                             amd64        BSD editline and history libraries
 rc  libelf1:amd64                        0.158-0ubuntu5.1                           amd64        library to read and write ELF files
 ii  libencode-locale-perl                1.03-1                                     all          utility to determine the locale encoding
