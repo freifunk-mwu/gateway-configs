@@ -180,7 +180,7 @@ ii  libdevmapper-event1.02.1:amd64   2:1.02.77-6ubuntu2                         
 ii  libdevmapper1.02.1:amd64         2:1.02.77-6ubuntu2                         amd64        Linux Kernel Device Mapper userspace library
 ii  libdns100                        1:9.9.5.dfsg-3ubuntu0.15                   amd64        DNS Shared Library used by BIND
 ii  libdpkg-perl                     1.17.5ubuntu5.7                            all          Dpkg perl modules
-ii  libdrm2:amd64                    2.4.67-1ubuntu0.14.04.1                    amd64        Userspace interface to kernel DRM services -- runtime
+ii  libdrm2:amd64                    2.4.67-1ubuntu0.14.04.2                    amd64        Userspace interface to kernel DRM services -- runtime
 ii  libedit2:amd64                   3.1-20130712-2                             amd64        BSD editline and history libraries
 ii  libept1.4.12:amd64               1.0.12                                     amd64        High-level library for managing Debian package information
 ii  liberror-perl                    0.17-1.1                                   all          Perl module for error/exception handling in an OO-ish way
