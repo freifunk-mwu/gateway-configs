@@ -283,6 +283,7 @@ protocol bgp icvpn_franken_fff_gw_m1 from ebgp_ic {
 
 protocol bgp icvpn_franken_fff_gw_m4 from ebgp_ic {
     neighbor 10.207.0.83 as 65024;
+    passive yes;
 }
 
 
@@ -454,6 +455,7 @@ protocol bgp icvpn_innsbruck_ffibk1 from ebgp_ic {
 
 protocol bgp icvpn_innsbruck_ffibk2 from ebgp_ic {
     neighbor 10.207.0.69 as 65052;
+    passive yes;
 }
 
 
@@ -694,6 +696,7 @@ protocol bgp icvpn_trier3 from ebgp_ic {
 
 protocol bgp icvpn_trier4 from ebgp_ic {
     neighbor 10.207.0.223 as 65022;
+    passive yes;
 }
 
 
