@@ -44,6 +44,7 @@ protocol bgp icvpn_badoldesloe from ebgp_ic {
 
 protocol bgp icvpn_berlin1 from ebgp_ic {
     neighbor fec0::a:cf:0:5 as 44194;
+    passive yes;
 }
 
 
@@ -377,6 +378,7 @@ protocol bgp icvpn_innsbruck_ffibk1 from ebgp_ic {
 
 protocol bgp icvpn_innsbruck_ffibk2 from ebgp_ic {
     neighbor fec0::a:cf:0:45 as 65052;
+    passive yes;
 }
 
 
@@ -604,6 +606,7 @@ protocol bgp icvpn_trier3 from ebgp_ic {
 
 protocol bgp icvpn_trier4 from ebgp_ic {
     neighbor fec0::a:cf:0:df as 65022;
+    passive yes;
 }
 
 
