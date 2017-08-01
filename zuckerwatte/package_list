@@ -8,9 +8,9 @@ ii  acpid                                1:2.0.21-1ubuntu2                      
 ii  adduser                              3.113+nmu3ubuntu3                          all          add and remove users and groups
 ii  alfred                               2017.1-0ffmwu0~trusty                      amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
 ii  alfred-json                          0.3.1-0ffmwu1~trusty                       amd64        A.L.F.R.E.D client supporting GZIP decompression and JSON, string and binary output
-ii  apache2                              2.4.7-1ubuntu4.16                          amd64        Apache HTTP Server
-ii  apache2-bin                          2.4.7-1ubuntu4.16                          amd64        Apache HTTP Server (binary files and modules)
-ii  apache2-data                         2.4.7-1ubuntu4.16                          all          Apache HTTP Server (common files)
+ii  apache2                              2.4.7-1ubuntu4.17                          amd64        Apache HTTP Server
+ii  apache2-bin                          2.4.7-1ubuntu4.17                          amd64        Apache HTTP Server (binary files and modules)
+ii  apache2-data                         2.4.7-1ubuntu4.17                          all          Apache HTTP Server (common files)
 ii  apg                                  2.2.3.dfsg.1-2ubuntu1                      amd64        Automated Password Generator - Standalone version
 ii  apparmor                             2.10.95-0ubuntu2.6~14.04.1                 amd64        user-space parser utility for AppArmor
 ii  apport                               2.14.1-0ubuntu3.25                         all          automatically generate crash reports for debugging
@@ -138,8 +138,8 @@ ii  hicolor-icon-theme                   0.13-1                                 
 ii  hostname                             3.15ubuntu1                                amd64        utility to set/show the host name or domain name
 ii  htop                                 1.0.2-3                                    amd64        interactive processes viewer
 ii  ifupdown                             0.7.47.2ubuntu4.4                          amd64        high level tools to configure network interfaces
-ii  imagemagick                          8:6.7.7.10-6ubuntu3.7                      amd64        image manipulation programs
-ii  imagemagick-common                   8:6.7.7.10-6ubuntu3.7                      all          image manipulation programs -- infrastructure
+ii  imagemagick                          8:6.7.7.10-6ubuntu3.8                      amd64        image manipulation programs
+ii  imagemagick-common                   8:6.7.7.10-6ubuntu3.8                      all          image manipulation programs -- infrastructure
 ii  info                                 5.2.0.dfsg.1-2                             amd64        Standalone GNU Info documentation browser
 ii  init-system-helpers                  1.14ubuntu1                                all          helper tools for all init systems
 ii  initramfs-tools                      0.103ubuntu4.7                             all          tools for generating an initramfs
@@ -239,7 +239,7 @@ ii  libdjvulibre-text                    3.5.25.4-3                             
 ii  libdjvulibre21:amd64                 3.5.25.4-3                                 amd64        Runtime support for the DjVu image format
 ii  libdns100                            1:9.9.5.dfsg-3ubuntu0.15                   amd64        DNS Shared Library used by BIND
 ii  libdpkg-perl                         1.17.5ubuntu5.7                            all          Dpkg perl modules
-ii  libdrm2:amd64                        2.4.67-1ubuntu0.14.04.1                    amd64        Userspace interface to kernel DRM services -- runtime
+ii  libdrm2:amd64                        2.4.67-1ubuntu0.14.04.2                    amd64        Userspace interface to kernel DRM services -- runtime
 ii  libedit2:amd64                       3.1-20130712-2                             amd64        BSD editline and history libraries
 ii  libelf1:amd64                        0.158-0ubuntu5.2                           amd64        library to read and write ELF files
 ii  libencode-locale-perl                1.03-1                                     all          utility to determine the locale encoding
@@ -368,9 +368,9 @@ ii  liblwres90                           1:9.9.5.dfsg-3ubuntu0.15               
 ii  liblzma5:amd64                       5.1.1alpha+20120614-2ubuntu2               amd64        XZ-format compression library
 ii  liblzo2-2:amd64                      2.06-1.2ubuntu1.1                          amd64        data compression library
 ii  libmagic1:amd64                      1:5.14-2ubuntu3.3                          amd64        File type determination library using "magic" numbers
-ii  libmagickcore5:amd64                 8:6.7.7.10-6ubuntu3.7                      amd64        low-level image manipulation library
-ii  libmagickcore5-extra:amd64           8:6.7.7.10-6ubuntu3.7                      amd64        low-level image manipulation library - extra codecs
-ii  libmagickwand5:amd64                 8:6.7.7.10-6ubuntu3.7                      amd64        image manipulation library
+ii  libmagickcore5:amd64                 8:6.7.7.10-6ubuntu3.8                      amd64        low-level image manipulation library
+ii  libmagickcore5-extra:amd64           8:6.7.7.10-6ubuntu3.8                      amd64        low-level image manipulation library - extra codecs
+ii  libmagickwand5:amd64                 8:6.7.7.10-6ubuntu3.8                      amd64        image manipulation library
 ii  libmail-sendmail-perl                0.79.16-1                                  all          Send email from a perl script
 ii  libmailtools-perl                    2.12-1                                     all          Manipulate email in perl programs
 ii  libmailutils4                        1:2.99.98-1.1                              amd64        GNU Mail abstraction library
