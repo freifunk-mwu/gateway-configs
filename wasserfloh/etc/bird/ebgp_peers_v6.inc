@@ -308,21 +308,9 @@ protocol bgp icvpn_stuttgart0503 from ebgp_ic {
     neighbor fec0::a:cf:0:4e as 65019;
 }
 protocol bgp icvpn_trier1 from ebgp_ic {
-    neighbor fec0::a:cf:0:dc as 65022;
-}
-protocol bgp icvpn_trier2 from ebgp_ic {
-    neighbor fec0::a:cf:0:dd as 65022;
-}
-protocol bgp icvpn_trier3 from ebgp_ic {
-    neighbor fec0::a:cf:0:de as 65022;
-}
-protocol bgp icvpn_trier4 from ebgp_ic {
     neighbor fec0::a:cf:0:df as 65022;
 }
-protocol bgp icvpn_trier5 from ebgp_ic {
-    neighbor fec0::a:cf:0:5d as 65022;
-}
-protocol bgp icvpn_trier6 from ebgp_ic {
+protocol bgp icvpn_trier2 from ebgp_ic {
     neighbor fec0::a:cf:0:e0 as 65022;
 }
 protocol bgp icvpn_troisdorf1 from ebgp_ic {
