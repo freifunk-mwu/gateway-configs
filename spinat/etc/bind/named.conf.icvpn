@@ -1186,15 +1186,15 @@ zone "210.10.in-addr.arpa" {
 # 
 zone "fftr" {
     type static-stub;
-    server-addresses { 10.172.0.11; 10.172.0.13; 2001:bf7:fc0f::11; 2001:bf7:fc0f::13; };
+    server-addresses { 10.172.0.14; 10.172.0.16; 2001:bf7:fc0f::14; 2001:bf7:fc0f::16; };
 };
 zone "0.c.f.7.f.b.0.1.0.0.2.ip6.arpa" {
     type static-stub;
-    server-addresses { 10.172.0.11; 10.172.0.13; 2001:bf7:fc0f::11; 2001:bf7:fc0f::13; };
+    server-addresses { 10.172.0.14; 10.172.0.16; 2001:bf7:fc0f::14; 2001:bf7:fc0f::16; };
 };
 zone "172.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.172.0.11; 10.172.0.13; 2001:bf7:fc0f::11; 2001:bf7:fc0f::13; };
+    server-addresses { 10.172.0.14; 10.172.0.16; 2001:bf7:fc0f::14; 2001:bf7:fc0f::16; };
 };
 # 
 # troisdorf
