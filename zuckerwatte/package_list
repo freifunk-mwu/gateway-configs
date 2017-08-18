@@ -205,8 +205,8 @@ ii  libblkid1:amd64                      2.20.1-5.1ubuntu20.9                   
 ii  libboost-iostreams1.54.0:amd64       1.54.0-4ubuntu3.1                          amd64        Boost.Iostreams Library
 ii  libbsd0:amd64                        0.6.0-2ubuntu1                             amd64        utility functions from BSD systems - shared library
 ii  libbz2-1.0:amd64                     1.0.6-5                                    amd64        high-quality block-sorting file compressor library - runtime
-ii  libc-ares-dev:amd64                  1.10.0-2ubuntu0.1                          amd64        asynchronous name resolver - development files
-ii  libc-ares2:amd64                     1.10.0-2ubuntu0.1                          amd64        asynchronous name resolver
+ii  libc-ares-dev:amd64                  1.10.0-2ubuntu0.2                          amd64        asynchronous name resolver - development files
+ii  libc-ares2:amd64                     1.10.0-2ubuntu0.2                          amd64        asynchronous name resolver
 ii  libc-bin                             2.19-0ubuntu6.13                           amd64        Embedded GNU C Library: Binaries
 ii  libc-dev-bin                         2.19-0ubuntu6.13                           amd64        Embedded GNU C Library: Development binaries
 ii  libc6:amd64                          2.19-0ubuntu6.13                           amd64        Embedded GNU C Library: Shared libraries
