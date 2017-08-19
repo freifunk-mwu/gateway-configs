@@ -139,12 +139,12 @@ protocol bgp icvpn_gera_greiz3 from ebgp_ic {
 
 protocol bgp icvpn_halle2 from ebgp_ic {
     neighbor 10.207.0.14 as 65046;
+    passive yes;
 }
 
 
 protocol bgp icvpn_hamburg03 from ebgp_ic {
     neighbor 10.207.0.63 as 49009;
-    passive yes;
 }
 
 
@@ -209,7 +209,6 @@ protocol bgp icvpn_pinneberg from ebgp_ic {
 
 protocol bgp icvpn_rhein_neckar from ebgp_ic {
     neighbor 10.207.0.142 as 64946;
-    passive yes;
 }
 
 
@@ -263,6 +262,7 @@ protocol bgp icvpn_waldheim1 from ebgp_ic {
 
 protocol bgp icvpn_waldheim2 from ebgp_ic {
     neighbor 10.207.0.46 as 65210;
+    passive yes;
 }
 
 
@@ -273,12 +273,11 @@ protocol bgp icvpn_weimar1 from ebgp_ic {
 
 protocol bgp icvpn_zollernalb1 from ebgp_ic {
     neighbor 10.207.1.70 as 65065;
-    passive yes;
 }
 
 
-protocol bgp icvpn_zollernalb3 from ebgp_ic {
-    neighbor 10.207.1.73 as 65065;
+protocol bgp icvpn_zollernalb2 from ebgp_ic {
+    neighbor 10.207.1.71 as 65065;
     passive yes;
 }
 
