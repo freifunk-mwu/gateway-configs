@@ -157,6 +157,6 @@ protocol bgp icvpn_weimar1 from ebgp_ic {
 protocol bgp icvpn_zollernalb1 from ebgp_ic {
     neighbor 10.207.1.70 as 65065;
 }
-protocol bgp icvpn_zollernalb3 from ebgp_ic {
-    neighbor 10.207.1.73 as 65065;
+protocol bgp icvpn_zollernalb2 from ebgp_ic {
+    neighbor 10.207.1.71 as 65065;
 }
