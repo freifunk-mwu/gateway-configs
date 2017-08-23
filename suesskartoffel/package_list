@@ -211,7 +211,7 @@ ii  libgnutls26:amd64                2.12.23-12ubuntu2.8                        
 ii  libgomp1:amd64                   4.8.4-2ubuntu1~14.04.3                     amd64        GCC OpenMP (GOMP) support library
 ii  libgpg-error0:amd64              1.12-0.2ubuntu1                            amd64        library for common error values and messages in GnuPG components
 ii  libgpm2:amd64                    1.20.4-6.1                                 amd64        General Purpose Mouse - shared library
-ii  libgraphite2-3:amd64             1.3.6-1ubuntu0.14.04.1                     amd64        Font rendering engine for Complex Scripts -- library
+ii  libgraphite2-3:amd64             1.3.10-0ubuntu0.14.04.1                    amd64        Font rendering engine for Complex Scripts -- library
 ii  libgsasl7                        1.8.0-2ubuntu2                             amd64        GNU SASL library
 ii  libgssapi-krb5-2:amd64           1.12+dfsg-2ubuntu5.3                       amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii  libgssapi3-heimdal:amd64         1.6~git20131207+dfsg-1ubuntu1.2            amd64        Heimdal Kerberos - GSSAPI support library
