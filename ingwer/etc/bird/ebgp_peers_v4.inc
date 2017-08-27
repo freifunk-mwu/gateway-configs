@@ -4,6 +4,7 @@
 
 protocol bgp icvpn_aachen1 from ebgp_ic {
     neighbor 10.207.0.114 as 65077;
+    passive yes;
 }
 
 
@@ -237,6 +238,7 @@ protocol bgp icvpn_trier1 from ebgp_ic {
 
 protocol bgp icvpn_trier2 from ebgp_ic {
     neighbor 10.207.0.224 as 65022;
+    passive yes;
 }
 
 
