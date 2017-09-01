@@ -97,18 +97,18 @@ ii  gcc-4.9-base:amd64                   4.9.3-0ubuntu4                         
 ii  geoip-database                       20140313-1                                 all          IP lookup command line tools that use the GeoIP library (country database)
 ii  gettext-base                         0.18.3.1-1ubuntu3                          amd64        GNU Internationalization utilities for the base system
 ii  gir1.2-glib-2.0                      1.40.0-1ubuntu0.2                          amd64        Introspection data for GLib, GObject, Gio and GModule
-ii  git                                  1:1.9.1-1ubuntu0.5                         amd64        fast, scalable, distributed revision control system
-ii  git-man                              1:1.9.1-1ubuntu0.5                         all          fast, scalable, distributed revision control system (manual pages)
+ii  git                                  1:1.9.1-1ubuntu0.6                         amd64        fast, scalable, distributed revision control system
+ii  git-man                              1:1.9.1-1ubuntu0.6                         all          fast, scalable, distributed revision control system (manual pages)
 ii  gnupg                                1.4.16-1ubuntu2.4                          amd64        GNU privacy guard - a free PGP replacement
 ii  gpgv                                 1.4.16-1ubuntu2.4                          amd64        GNU privacy guard - signature verification tool
 ii  graphviz                             2.36.0-0ubuntu3.2                          amd64        rich set of graph drawing tools
 ii  grep                                 2.16-1                                     amd64        GNU grep, egrep and fgrep
 ii  groff-base                           1.22.2-5                                   amd64        GNU troff text-formatting system (base system components)
-ii  grub-common                          2.02~beta2-9ubuntu1.12                     amd64        GRand Unified Bootloader (common files)
+ii  grub-common                          2.02~beta2-9ubuntu1.14                     amd64        GRand Unified Bootloader (common files)
 ii  grub-gfxpayload-lists                0.6                                        amd64        GRUB gfxpayload blacklist
-ii  grub-pc                              2.02~beta2-9ubuntu1.12                     amd64        GRand Unified Bootloader, version 2 (PC/BIOS version)
-ii  grub-pc-bin                          2.02~beta2-9ubuntu1.12                     amd64        GRand Unified Bootloader, version 2 (PC/BIOS binaries)
-ii  grub2-common                         2.02~beta2-9ubuntu1.12                     amd64        GRand Unified Bootloader (common files for version 2)
+ii  grub-pc                              2.02~beta2-9ubuntu1.14                     amd64        GRand Unified Bootloader, version 2 (PC/BIOS version)
+ii  grub-pc-bin                          2.02~beta2-9ubuntu1.14                     amd64        GRand Unified Bootloader, version 2 (PC/BIOS binaries)
+ii  grub2-common                         2.02~beta2-9ubuntu1.14                     amd64        GRand Unified Bootloader (common files for version 2)
 ii  guile-2.0-libs                       2.0.9+1-1ubuntu1                           amd64        Core Guile libraries
 ii  gyp                                  0.1~svn1729-3ubuntu1                       all          Cross-platform build script generator
 ii  gzip                                 1.6-3ubuntu1                               amd64        GNU compression utilities
@@ -134,10 +134,10 @@ ii  joe                                  3.7-2.3ubuntu1                         
 ii  jq                                   1.4-2.1                                    amd64        lightweight and flexible command-line JSON processor
 ii  kbd                                  1.15.5-1ubuntu1                            amd64        Linux console font and keytable utilities
 ii  keyboard-configuration               1.70ubuntu8                                all          system-wide keyboard preferences
-ii  klibc-utils                          2.0.3-0ubuntu1.14.04.2                     amd64        small utilities built with klibc for early boot
+ii  klibc-utils                          2.0.3-0ubuntu1.14.04.3                     amd64        small utilities built with klibc for early boot
 ii  kmod                                 15-0ubuntu6                                amd64        tools for managing Linux kernel modules
 ii  krb5-locales                         1.12+dfsg-2ubuntu5.3                       all          Internationalization support for MIT Kerberos
-ii  landscape-common                     14.12-0ubuntu5.14.04                       amd64        The Landscape administration system client - Common files
+ii  landscape-common                     14.12-0ubuntu6.14.04                       amd64        The Landscape administration system client - Common files
 ii  laptop-detect                        0.13.7ubuntu2                              amd64        attempt to detect a laptop
 ii  less                                 458-2                                      amd64        pager program similar to more
 ii  libacl1:amd64                        2.2.52-1                                   amd64        Access control list shared library
@@ -170,8 +170,8 @@ ii  libblkid1:amd64                      2.20.1-5.1ubuntu20.9                   
 ii  libboost-iostreams1.54.0:amd64       1.54.0-4ubuntu3.1                          amd64        Boost.Iostreams Library
 ii  libbsd0:amd64                        0.6.0-2ubuntu1                             amd64        utility functions from BSD systems - shared library
 ii  libbz2-1.0:amd64                     1.0.6-5                                    amd64        high-quality block-sorting file compressor library - runtime
-ii  libc-ares-dev:amd64                  1.10.0-2ubuntu0.1                          amd64        asynchronous name resolver - development files
-ii  libc-ares2:amd64                     1.10.0-2ubuntu0.1                          amd64        asynchronous name resolver
+ii  libc-ares-dev:amd64                  1.10.0-2ubuntu0.2                          amd64        asynchronous name resolver - development files
+ii  libc-ares2:amd64                     1.10.0-2ubuntu0.2                          amd64        asynchronous name resolver
 ii  libc-bin                             2.19-0ubuntu6.13                           amd64        Embedded GNU C Library: Binaries
 ii  libc-client2007e                     8:2007f~dfsg-2                             amd64        c-client library for mail protocols - library files
 ii  libc-dev-bin                         2.19-0ubuntu6.13                           amd64        Embedded GNU C Library: Development binaries
@@ -227,7 +227,7 @@ ii  libgcc-4.8-dev:amd64                 4.8.4-2ubuntu1~14.04.3                 
 ii  libgcc1:amd64                        1:4.9.3-0ubuntu4                           amd64        GCC support library
 ii  libgcrypt11:amd64                    1.5.3-2ubuntu4.5                           amd64        LGPL Crypto library - runtime library
 ii  libgcrypt11-dev                      1.5.3-2ubuntu4.5                           amd64        LGPL Crypto library - development files
-ii  libgd3:amd64                         2.1.0-3ubuntu0.6                           amd64        GD Graphics Library
+ii  libgd3:amd64                         2.1.0-3ubuntu0.7                           amd64        GD Graphics Library
 ii  libgdbm3:amd64                       1.8.3-12build1                             amd64        GNU dbm database routines (runtime version)
 ii  libgeoip1:amd64                      1.6.0-1                                    amd64        non-DNS IP-to-country resolver library
 ii  libgirepository-1.0-1                1.40.0-1ubuntu0.2                          amd64        Library for handling GObject introspection data (runtime library)
@@ -243,7 +243,7 @@ ii  libgomp1:amd64                       4.8.4-2ubuntu1~14.04.3                 
 ii  libgpg-error-dev                     1.12-0.2ubuntu1                            amd64        library for common error values and messages in GnuPG components (development)
 ii  libgpg-error0:amd64                  1.12-0.2ubuntu1                            amd64        library for common error values and messages in GnuPG components
 ii  libgpm2:amd64                        1.20.4-6.1                                 amd64        General Purpose Mouse - shared library
-ii  libgraphite2-3:amd64                 1.3.6-1ubuntu0.14.04.1                     amd64        Font rendering engine for Complex Scripts -- library
+ii  libgraphite2-3:amd64                 1.3.10-0ubuntu0.14.04.1                    amd64        Font rendering engine for Complex Scripts -- library
 ii  libgsasl7                            1.8.0-2ubuntu2                             amd64        GNU SASL library
 ii  libgsl0ldbl                          1.16+dfsg-1ubuntu1                         amd64        GNU Scientific Library (GSL) -- library package
 ii  libgssapi-krb5-2:amd64               1.12+dfsg-2ubuntu5.3                       amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
@@ -292,7 +292,7 @@ ii  libjson-c2:amd64                     0.11-3ubuntu1.2                        
 ii  libjson0:amd64                       0.11-3ubuntu1.2                            amd64        JSON manipulation library (transitional package)
 ii  libk5crypto3:amd64                   1.12+dfsg-2ubuntu5.3                       amd64        MIT Kerberos runtime libraries - Crypto Library
 ii  libkeyutils1:amd64                   1.5.6-1                                    amd64        Linux Key Management Utilities (library)
-ii  libklibc                             2.0.3-0ubuntu1.14.04.2                     amd64        minimal libc subset for use with initramfs
+ii  libklibc                             2.0.3-0ubuntu1.14.04.3                     amd64        minimal libc subset for use with initramfs
 ii  libkmod2:amd64                       15-0ubuntu6                                amd64        libkmod shared library
 ii  libkrb5-26-heimdal:amd64             1.6~git20131207+dfsg-1ubuntu1.2            amd64        Heimdal Kerberos - libraries
 ii  libkrb5-3:amd64                      1.12+dfsg-2ubuntu5.3                       amd64        MIT Kerberos runtime libraries
@@ -366,7 +366,7 @@ ii  libpolkit-agent-1-0:amd64            0.105-4ubuntu3.14.04.1                 
 ii  libpolkit-backend-1-0:amd64          0.105-4ubuntu3.14.04.1                     amd64        PolicyKit backend API
 ii  libpolkit-gobject-1-0:amd64          0.105-4ubuntu3.14.04.1                     amd64        PolicyKit Authorization API
 ii  libpopt0:amd64                       1.16-8ubuntu1                              amd64        lib for parsing cmdline parameters
-ii  libpq5                               9.3.17-0ubuntu0.14.04                      amd64        PostgreSQL C client library
+ii  libpq5                               9.3.18-0ubuntu0.14.04.1                    amd64        PostgreSQL C client library
 ii  libprocps3:amd64                     1:3.3.9-1ubuntu2.2                         amd64        library for accessing process information from /proc
 ii  libpython-dev:amd64                  2.7.5-5ubuntu3                             amd64        header files and a static library for Python (default)
 ii  libpython-stdlib:amd64               2.7.5-5ubuntu3                             amd64        interactive high-level object-oriented language (default python version)
@@ -496,13 +496,13 @@ ii  linux-headers-3.13.0-125             3.13.0-125.174                         
 ii  linux-headers-3.13.0-125-generic     3.13.0-125.174                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-126             3.13.0-126.175                             all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-126-generic     3.13.0-126.175                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-iU  linux-headers-3.13.0-128             3.13.0-128.177                             all          Header files related to Linux kernel version 3.13.0
-iU  linux-headers-3.13.0-128-generic     3.13.0-128.177                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-iU  linux-headers-3.13.0-129             3.13.0-129.178                             all          Header files related to Linux kernel version 3.13.0
-iU  linux-headers-3.13.0-129-generic     3.13.0-129.178                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-iU  linux-headers-generic                3.13.0.129.138                             amd64        Generic Linux kernel headers
-iU  linux-headers-generic-lts-trusty     3.13.0.128.137                             amd64        Generic Linux kernel headers
-iU  linux-headers-virtual                3.13.0.129.138                             amd64        Transitional package.
+ii  linux-headers-3.13.0-128             3.13.0-128.177                             all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-128-generic     3.13.0-128.177                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-3.13.0-129             3.13.0-129.178                             all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-129-generic     3.13.0-129.178                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-generic                3.13.0.129.138                             amd64        Generic Linux kernel headers
+ii  linux-headers-generic-lts-trusty     3.13.0.129.138                             amd64        Generic Linux kernel headers
+ii  linux-headers-virtual                3.13.0.129.138                             amd64        Transitional package.
 rc  linux-image-3.13.0-100-generic       3.13.0-100.147                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-101-generic       3.13.0-101.148                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-103-generic       3.13.0-103.150                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -520,7 +520,9 @@ ii  linux-image-3.13.0-119-generic       3.13.0-119.166                         
 ii  linux-image-3.13.0-121-generic       3.13.0-121.170                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-123-generic       3.13.0-123.172                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-125-generic       3.13.0-125.174                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-iF  linux-image-3.13.0-126-generic       3.13.0-126.175                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-3.13.0-126-generic       3.13.0-126.175                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-3.13.0-128-generic       3.13.0-128.177                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-3.13.0-129-generic       3.13.0-129.178                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-32-generic        3.13.0-32.57                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-40-generic        3.13.0-40.69                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-43-generic        3.13.0-43.72                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -571,16 +573,17 @@ rc  linux-image-extra-3.13.0-107-generic 3.13.0-107.154                         
 rc  linux-image-extra-3.13.0-108-generic 3.13.0-108.155                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-109-generic 3.13.0-109.156                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-110-generic 3.13.0-110.157                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-112-generic 3.13.0-112.159                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-112-generic 3.13.0-112.159                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-115-generic 3.13.0-115.162                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-116-generic 3.13.0-116.163                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-117-generic 3.13.0-117.164                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-119-generic 3.13.0-119.166                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-121-generic 3.13.0-121.170                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-123-generic 3.13.0-123.172                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-iF  linux-image-extra-3.13.0-125-generic 3.13.0-125.174                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-iU  linux-image-extra-3.13.0-126-generic 3.13.0-126.175                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-iU  linux-image-extra-3.13.0-128-generic 3.13.0-128.177                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-121-generic 3.13.0-121.170                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-123-generic 3.13.0-123.172                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-125-generic 3.13.0-125.174                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-126-generic 3.13.0-126.175                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-128-generic 3.13.0-128.177                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-extra-3.13.0-129-generic 3.13.0-129.178                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-79-generic  3.13.0-79.123                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-83-generic  3.13.0-83.127                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-85-generic  3.13.0-85.129                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
@@ -593,16 +596,16 @@ rc  linux-image-extra-3.13.0-93-generic  3.13.0-93.140                          
 rc  linux-image-extra-3.13.0-95-generic  3.13.0-95.142                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-96-generic  3.13.0-96.143                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-98-generic  3.13.0-98.145                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-iU  linux-image-generic                  3.13.0.128.137                             amd64        Generic Linux kernel image
-iU  linux-image-generic-lts-trusty       3.13.0.128.137                             amd64        Generic Linux kernel image
-iU  linux-image-virtual                  3.13.0.129.138                             amd64        This package will always depend on the latest minimal generic kernel image.
-iU  linux-libc-dev:amd64                 3.13.0-128.177                             amd64        Linux Kernel Headers for development
-iU  linux-virtual                        3.13.0.129.138                             amd64        Minimal Generic Linux kernel and headers
+ii  linux-image-generic                  3.13.0.129.138                             amd64        Generic Linux kernel image
+ii  linux-image-generic-lts-trusty       3.13.0.129.138                             amd64        Generic Linux kernel image
+ii  linux-image-virtual                  3.13.0.129.138                             amd64        This package will always depend on the latest minimal generic kernel image.
+ii  linux-libc-dev:amd64                 3.13.0-129.178                             amd64        Linux Kernel Headers for development
+ii  linux-virtual                        3.13.0.129.138                             amd64        Minimal Generic Linux kernel and headers
 ii  locales                              2.13+git20120306-12.1                      all          common files for locale support
 ii  locate                               4.4.2-7                                    amd64        maintain and query an index of a directory tree
 ii  lockfile-progs                       0.1.17                                     amd64        Programs for locking and unlocking files and mailboxes
 ii  login                                1:4.1.5.1-1ubuntu9.5                       amd64        system login tools
-ii  logrotate                            3.8.7-1ubuntu1.1                           amd64        Log rotation utility
+ii  logrotate                            3.8.7-1ubuntu1.2                           amd64        Log rotation utility
 ii  lsb-base                             4.1+Debian11ubuntu6.2                      all          Linux Standard Base 4.1 init script functionality
 ii  lsb-release                          4.1+Debian11ubuntu6.2                      all          Linux Standard Base version reporting utility
 ii  lshw                                 02.16-2ubuntu1.3                           amd64        information about hardware configuration
@@ -683,8 +686,8 @@ ii  node-which                           1.0.5-2                                
 ii  nodejs                               0.10.25~dfsg2-2ubuntu1                     amd64        evented I/O for V8 javascript
 ii  nodejs-dev                           0.10.25~dfsg2-2ubuntu1                     amd64        evented I/O for V8 javascript (development files)
 ii  npm                                  1.3.10~dfsg-1                              all          package manager for Node.js
-ii  ntp                                  1:4.2.6.p5+dfsg-3ubuntu2.14.04.11          amd64        Network Time Protocol daemon and utility programs
-ii  ntpdate                              1:4.2.6.p5+dfsg-3ubuntu2.14.04.11          amd64        client for setting system time from NTP servers
+ii  ntp                                  1:4.2.6.p5+dfsg-3ubuntu2.14.04.12          amd64        Network Time Protocol daemon and utility programs
+ii  ntpdate                              1:4.2.6.p5+dfsg-3ubuntu2.14.04.12          amd64        client for setting system time from NTP servers
 ii  openssh-client                       1:6.6p1-2ubuntu2.8                         amd64        secure shell (SSH) client, for secure access to remote machines
 ii  openssh-server                       1:6.6p1-2ubuntu2.8                         amd64        secure shell (SSH) server, for secure access from remote machines
 ii  openssh-sftp-server                  1:6.6p1-2ubuntu2.8                         amd64        secure shell (SSH) sftp server module, for SFTP access from remote machines
@@ -697,7 +700,7 @@ ii  perl                                 5.18.2-2ubuntu1.1                      
 ii  perl-base                            5.18.2-2ubuntu1.1                          amd64        minimal Perl system
 ii  perl-modules                         5.18.2-2ubuntu1.1                          all          Core Perl modules
 rc  php5-cli                             5.5.9+dfsg-1ubuntu4.14                     amd64        command-line interpreter for the php5 scripting language
-iU  php5-common                          5.5.9+dfsg-1ubuntu4.22                     amd64        Common files for packages built from the php5 source
+ii  php5-common                          5.5.9+dfsg-1ubuntu4.22                     amd64        Common files for packages built from the php5 source
 ii  php5-imap                            5.4.6-0ubuntu5                             amd64        IMAP module for php5
 ii  php5-json                            1.3.2-2build1                              amd64        JSON module for php5
 rc  php5-mysql                           5.5.9+dfsg-1ubuntu4.14                     amd64        MySQL module for php5
@@ -813,7 +816,7 @@ ii  python3-requests                     2.2.1-1ubuntu0.3                       
 ii  python3-setuptools                   3.3-1ubuntu2                               all          Python3 Distutils Enhancements
 ii  python3-six                          1.5.2-1ubuntu1                             all          Python 2 and 3 compatibility library (Python 3 interface)
 ii  python3-software-properties          0.92.37.8                                  all          manage the repositories that you install software from
-ii  python3-update-manager               1:0.196.23                                 all          python 3.x module for update-manager
+ii  python3-update-manager               1:0.196.24                                 all          python 3.x module for update-manager
 ii  python3-urllib3                      1.7.1-1ubuntu4                             all          HTTP library with thread-safe connection pooling for Python3
 ii  python3-werkzeug                     0.9.4+dfsg-1.1ubuntu2                      all          collection of utilities for WSGI applications
 ii  python3-wheel                        0.24.0-1~ubuntu1                           all          built-package format for Python
@@ -826,7 +829,7 @@ ii  resolvconf                           1.69ubuntu1.1                          
 ii  ri1.9.1                              1.9.3.484-2ubuntu1.3                       all          Ruby Interactive reference (for Ruby 1.9.1)
 ii  rrdtool                              1.4.7-2ubuntu5                             amd64        time-series data storage and display system (programs)
 ii  rsync                                3.1.0-2ubuntu0.2                           amd64        fast, versatile, remote (and local) file-copying tool
-ii  rsyslog                              7.4.4-1ubuntu2.6                           amd64        reliable system and kernel logging daemon
+ii  rsyslog                              7.4.4-1ubuntu2.7                           amd64        reliable system and kernel logging daemon
 ii  ruby                                 1:1.9.3.4                                  all          Interpreter of object-oriented scripting language Ruby (default version)
 ii  ruby-albino                          1.3.3-2                                    all          Ruby wrapper for pygmentize
 ii  ruby-classifier                      1.3.3-1                                    all          Ruby module to allow Bayesian and other types of classifications
@@ -888,7 +891,7 @@ ii  ubuntu-release-upgrader-core         1:0.220.9                              
 ii  ucf                                  3.0027+nmu1                                all          Update Configuration File(s): preserve user changes to config files
 ii  udev                                 204-5ubuntu20.24                           amd64        /dev/ and hotplug management daemon
 ii  unattended-upgrades                  0.82.1ubuntu2.5                            all          automatic installation of security upgrades
-ii  update-manager-core                  1:0.196.23                                 all          manage release upgrades
+ii  update-manager-core                  1:0.196.24                                 all          manage release upgrades
 ii  update-notifier-common               0.154.1ubuntu3                             all          Files shared between update-notifier and other packages
 ii  upstart                              1.12.1-0ubuntu4.2                          amd64        event-based init daemon
 ii  ureadahead                           0.100.0-16                                 amd64        Read required files in advance
