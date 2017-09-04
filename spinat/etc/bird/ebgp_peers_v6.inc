@@ -121,6 +121,9 @@ protocol bgp icvpn_vogtland1 from ebgp_ic {
 protocol bgp icvpn_vogtland3 from ebgp_ic {
     neighbor fec0::a:cf:0:25 as 64857;
 }
+protocol bgp icvpn_vogtland4 from ebgp_ic {
+    neighbor fec0::a:cf:0:5d as 64857;
+}
 protocol bgp icvpn_weimar1 from ebgp_ic {
     neighbor fec0::a:cf:0:3 as 65042;
 }
