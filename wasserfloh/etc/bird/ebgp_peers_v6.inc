@@ -112,6 +112,9 @@ protocol bgp icvpn_trier1 from ebgp_ic {
 protocol bgp icvpn_trier2 from ebgp_ic {
     neighbor fec0::a:cf:0:e0 as 65022;
 }
+protocol bgp icvpn_ulm10 from ebgp_ic {
+    neighbor fec0::a:cf:0:97 as 64860;
+}
 protocol bgp icvpn_ulm5 from ebgp_ic {
     neighbor fec0::a:cf:0:96 as 64860;
 }
@@ -120,6 +123,9 @@ protocol bgp icvpn_vogtland1 from ebgp_ic {
 }
 protocol bgp icvpn_vogtland3 from ebgp_ic {
     neighbor fec0::a:cf:0:25 as 64857;
+}
+protocol bgp icvpn_vogtland4 from ebgp_ic {
+    neighbor fec0::a:cf:0:5d as 64857;
 }
 protocol bgp icvpn_weimar1 from ebgp_ic {
     neighbor fec0::a:cf:0:3 as 65042;
