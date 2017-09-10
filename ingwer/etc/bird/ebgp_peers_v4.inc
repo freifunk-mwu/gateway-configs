@@ -127,6 +127,7 @@ protocol bgp icvpn_gera_greiz1 from ebgp_ic {
 
 protocol bgp icvpn_gera_greiz2 from ebgp_ic {
     neighbor 10.207.0.182 as 65181;
+    passive yes;
 }
 
 
@@ -139,6 +140,11 @@ protocol bgp icvpn_gera_greiz3 from ebgp_ic {
 protocol bgp icvpn_halle2 from ebgp_ic {
     neighbor 10.207.0.14 as 65046;
     passive yes;
+}
+
+
+protocol bgp icvpn_hamburg01 from ebgp_ic {
+    neighbor 10.207.0.61 as 49009;
 }
 
 
