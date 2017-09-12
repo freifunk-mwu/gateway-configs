@@ -19,6 +19,8 @@ roa 10.31.0.0/16    max  20 as      44194; # berlin
 roa 10.36.0.0/16    max  20 as      44194; # berlin
 roa 10.26.0.0/16    max  20 as      65529; # bielefeld
 roa 10.29.0.0/16    max  20 as      65529; # bielefeld
+roa 10.26.64.0/18   max  20 as 4242420022; # bielefeld (delegation)
+roa 10.26.48.0/20   max  20 as 4242420022; # bielefeld (delegation)
 roa 10.110.0.0/16   max  20 as      65110; # bochum
 roa 10.11.160.0/20  max  20 as      64875; # bodensee
 roa 10.79.0.0/16    max  20 as      65530; # bottrop (delegation)
@@ -70,13 +72,13 @@ roa 10.253.128.0/17 max  20 as      65530; # gummersbach (delegation)
 roa 10.154.0.0/16   max  20 as      65530; # hagen (delegation)
 roa 10.62.0.0/16    max  20 as      65046; # halle
 roa 10.112.0.0/16   max  20 as      49009; # hamburg
-roa 10.112.128.0/18 max  20 as      65112; # hamburg (delegation)
 roa 10.11.96.0/20   max  20 as      64873; # hameln
 roa 10.2.0.0/16     max  20 as      65511; # hannover
 roa 10.7.0.0/16     max  20 as      65134; # harz
 roa 10.11.112.0/20  max  20 as      64871; # heiligenhaus
 roa 10.1.128.0/19   max  20 as      64864; # heiligkreuztal
 roa 10.189.0.0/18   max  20 as      65189; # helgoland
+roa 10.189.0.0/18   max  20 as      49009; # helgoland (delegation)
 roa 10.186.0.0/16   max  20 as      65100; # hennef
 roa 10.34.0.0/16    max  20 as      64866; # herford
 roa 10.11.128.0/20  max  20 as      64872; # hilden
@@ -153,7 +155,7 @@ roa 10.53.0.0/16    max  20 as      65079; # ruhrgebiet
 roa 10.225.0.0/16   max  20 as      65409; # ruhrgebiet (delegation)
 roa 10.161.0.0/16   max  20 as      64878; # ruhrgebiet (delegation)
 roa 10.229.0.0/16   max  20 as      64880; # ruhrgebiet (delegation)
-roa 10.20.0.0/19    max  20 as      65400; # ruhrgebiet (delegation)
+roa 10.20.0.0/16    max  20 as      65400; # ruhrgebiet (delegation)
 roa 10.41.0.0/16    max  20 as      65401; # ruhrgebiet (delegation)
 roa 10.231.0.0/16   max  20 as      65402; # ruhrgebiet (delegation)
 roa 10.236.0.0/16   max  20 as      65404; # ruhrgebiet (delegation)
