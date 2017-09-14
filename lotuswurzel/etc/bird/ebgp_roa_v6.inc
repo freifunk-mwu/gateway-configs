@@ -4,15 +4,12 @@
 # So Include it via:
 #   roa table icvpn { include "roa.con?" }
 # 
-roa 2001:bf7:1310::/44       max  64 as     206813; # Kreis_GT
-roa 2a03:2260:117::/48       max  64 as     206813; # Kreis_GT
-roa 2a06:e881:1700::/44      max  64 as     206813; # Kreis_GT
-roa fd42:ffee:ff12::/48      max  64 as     206813; # Kreis_GT
 roa 2a03:2260:114::/48       max  64 as      65077; # aachen
 roa fdca:ffee:ffa1::/48      max  64 as      65522; # altmuehltal
 roa 2001:bf7:2520::/44       max  64 as      65050; # augsburg
 roa fdca:ffee:ffa::/48       max  64 as      65050; # augsburg
 roa fddf:bf7:80::/48         max  64 as      64859; # badoldesloe
+roa fdbe:12d0:03d2::/64      max  64 as      64892; # belgien
 roa 2001:bf7:750::/44        max  64 as      44194; # berlin
 roa 2001:bf7:760::/44        max  64 as      44194; # berlin
 roa 2001:bf7:770::/44        max  64 as      44194; # berlin
@@ -27,6 +24,7 @@ roa 2001:bf7:850::/44        max  64 as      44194; # berlin
 roa 2001:bf7:860::/44        max  64 as      44194; # berlin
 roa 2001:bf7:1320::/44       max  64 as      65529; # bielefeld
 roa fdef:17a0:ffb1::/48      max  64 as      65529; # bielefeld
+roa fdef:17a0:ffb1:ffff::/64 max  64 as 4242420022; # bielefeld (delegation)
 roa fda0:cab1:e1e5:5b11::/64 max  64 as      65408; # bitburg
 roa 2a03:2260:300b::/48      max  64 as      65110; # bochum
 roa fdef:1701:b5ee::/48      max  64 as      64875; # bodensee
@@ -38,6 +36,7 @@ roa 2a06:8782::/32           max  64 as      65196; # bremen
 roa fd2f:5119:f2c::/48       max  64 as      65196; # bremen
 roa 2001:470:743f::/48       max  64 as      64861; # celle
 roa fd92:2dff:d232::/48      max  64 as      64861; # celle
+roa fdec:c0f1:afda::/64      max  64 as      65115; # cuxhaven
 roa 2001:67c:2ed8::/48       max  64 as      65038; # darmstadt
 roa fd01:67c:2ed8::/48       max  64 as      65038; # darmstadt
 roa fdc4:d762:2143::/48      max  64 as      64874; # donau-ries
@@ -45,6 +44,7 @@ roa fdc7:3c9d:b889:a272::/64 max  64 as      65043; # dreilaendereck
 roa fdc7:3c9d:ff31::/48      max  64 as      65043; # dreilaendereck
 roa fd11:11ae:7466::/48      max  64 as      65051; # dresden
 roa fdec:4562:434f::/64      max  64 as      65520; # ebersdorf
+roa 2001:bf7:360::/44        max  64 as      64900; # einbeck
 roa 2001:bf7:130::/44        max  64 as      65138; # elm-lappwald
 roa 2001:bf7:100:2263::/64   max  64 as      65530; # engelskirchen (delegation)
 roa fddf:ebfd:a801:2263::/64 max  64 as      65530; # engelskirchen (delegation)
@@ -62,6 +62,7 @@ roa fd00:65a8:93a4::/48      max  64 as      65142; # fulda
 roa fda0:747e:ab29:209::/64  max  64 as      65397; # gelsenkirchen
 roa fdb5:078b:64cc::/48      max  64 as      65181; # gera-greiz
 roa 2001:4dd0:ff00:9d18::/64 max  64 as      64865; # giessen
+roa fd10:2ea2:4dae::/48      max  64 as      64894; # glienicke-nordbahn
 roa fda0:747e:ab29:5142::/64 max  64 as      65120; # glwupper
 roa fde6:36fc:c985::/64      max  64 as      65527; # goettingen
 roa fdef:affe:edda::/48      max  64 as      65489; # greifswald
@@ -72,8 +73,6 @@ roa fddf:ebfd:a801:2261::/64 max  64 as      65530; # gummersbach (delegation)
 roa 2001:bf7:100:2331::/64   max  64 as      65530; # hagen (delegation)
 roa fddf:ebfd:a801:2331::/64 max  64 as      65530; # hagen (delegation)
 roa 2a03:2267::/32           max  64 as      49009; # hamburg
-roa 2a03:2267:0ccc:2015::/64 max  64 as      65112; # hamburg (delegation)
-roa 2a03:2267:4e6f::/48      max  64 as      65187; # hamburg (delegation)
 roa 2a03:2267:4e16::/48      max  64 as      65189; # hamburg (delegation)
 roa fdc7:4c8d:b889:a272::/64 max  64 as      64873; # hameln
 roa fdca:ffee:8::/64         max  64 as      65511; # hannover
@@ -87,11 +86,15 @@ roa fddf:ebfd:a801:2192::/64 max  64 as      64887; # hueckeswagen
 roa 2a03:2260:116::/64       max  64 as      65252; # ingolstadt
 roa fd13:b4dc:4b1e::/64      max  64 as      65052; # innsbruck
 roa fd14:b4dc:4b1e::/64      max  64 as      65052; # innsbruck
+roa 2001:678:358::/48        max  64 as     206514; # ireland
 roa fd59:b1b7:1d1f::/48      max  64 as      65055; # jena
 roa 2a03:2260:a::/48         max  64 as      65081; # karlsruhe
 roa fdca:55e1:baca:baca::/64 max  64 as      65514; # kassel
 roa fdd3:5d16:b5dd::/48      max  64 as      65528; # kbu
 roa fda1:384a:74de::/48      max  64 as      65525; # kiel
+roa fda0:747e:ab29:7407::/64 max  64 as      64893; # koenigswinter
+roa 2001:bf7:1310::/44       max  64 as      65533; # kreisgt
+roa 2a06:e881:1700::/44      max  64 as      65533; # kreisgt
 roa 2001:bf7:100:2268::/64   max  64 as      65530; # kuerten (delegation)
 roa fddf:ebfd:a801:2268::/64 max  64 as      65530; # kuerten (delegation)
 roa fd25:1952:c72e::/48      max  64 as      64876; # lausitz
@@ -116,19 +119,21 @@ roa fdef:ffc0:4fff::/48      max  64 as      65080; # muenchen
 roa fdca:abcd:58ca:affe::/64 max  64 as      64856; # muenden
 roa 2a03:2260:115::/48       max  64 as      65251; # muensterland
 roa fd39:e4e3:eee1::/48      max  64 as      65534; # mueritz
+roa fd8f:14c7:d318::/48      max  64 as      64889; # nordheide
 roa fd73:111:e824::/48       max  64 as      65152; # ostholstein
 roa 2a03:2260:200c::/48      max  64 as      64862; # ostvest
 roa 2001:470:6d:860::/64     max  64 as      65132; # paderborn
 roa fdca:ffee:ff12::/48      max  64 as      65132; # paderborn
 roa fde8:21c6:9d82::/48      max  64 as      65433; # pinneberg
+roa fde8:21c6:370b::/48      max  64 as      64891; # prignitz
 roa fda0:747e:ab29:2195::/64 max  64 as      65067; # radevormwald
 roa fde0:105b:1d87::/48      max  64 as      64867; # ratingen
 roa fdef:f00f:1337:cafe::/64 max  64 as      65190; # regensburg
 roa 2001:bf7:100:2191::/64   max  64 as      65530; # remscheid (delegation)
 roa fddf:ebfd:a801:2191::/64 max  64 as      65530; # remscheid (delegation)
 roa fda0:747e:ab29:5016::/64 max  64 as      64888; # rhein-erft-kreis
-roa 2a01:4f8:100:57ff::/64   max  64 as      76118; # rhein-neckar
-roa fd42:23:138::/48         max  64 as      76118; # rhein-neckar
+roa 2a01:4f8:100:57ff::/64   max  64 as      64946; # rhein-neckar
+roa fd42:23:138::/48         max  64 as      64946; # rhein-neckar
 roa fda0:747e:ab29:2241::/64 max  64 as      65111; # rheinsiegkreis
 roa fda0:747e:ab29:cafe::/64 max  64 as      65078; # rheinufer
 roa 2001:470:1f15:6d9::/64   max  64 as      64885; # rothenburg
@@ -166,8 +171,11 @@ roa 2a03:2260:50:7f00::/56   max  64 as      65405; # ruhrgebiet (delegation)
 roa 2a03:2260:50:2400::/56   max  64 as      64862; # ruhrgebiet (delegation)
 roa fd4e:f2d7:88d2:fffd::/64 max  64 as      64770; # saar
 roa fd4e:f2d7:88d2:ffff::/64 max  64 as      64770; # saar
+roa fda4:1721:8450::/48      max  64 as      65200; # siegburg
+roa fd07:96ae:572e::/48      max  64 as      64901; # slfl
 roa 2001:bf7:100:212::/64    max  64 as      65530; # solingen (delegation)
 roa fddf:ebfd:a801:212::/64  max  64 as      65530; # solingen (delegation)
+roa fd21:b4dc:4b00::/40      max  64 as      65019; # stuttgart
 roa 2a03:2260:100a::/48      max  64 as      65083; # suedpfalz
 roa fd00:ffba:ffba:0000::/64 max  64 as      65502; # suedwest
 roa 2001:bf7:fc00::/44       max  64 as      65022; # trier
@@ -196,3 +204,5 @@ roa 2a03:2260:300d::/48      max  64 as      64881; # winterberg
 roa 2001:bf7:100:2267::/64   max  64 as      65530; # wipperfuerth (delegation)
 roa fddf:ebfd:a801:2267::/64 max  64 as      65530; # wipperfuerth (delegation)
 roa fda0:747e:ab29:e1ba::/64 max  64 as      65523; # wuppertal
+roa 2a05:ff01:a::/48         max  64 as      65065; # zollernalb
+roa 2a05:ff01:b::/48         max  64 as      65065; # zollernalb

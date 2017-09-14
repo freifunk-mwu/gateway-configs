@@ -4,15 +4,14 @@
 # So Include it via:
 #   roa table icvpn { include "roa.con?" }
 # 
-roa 10.234.0.0/15   max  20 as     206813; # Kreis_GT
-roa 10.255.0.0/16   max  20 as     206813; # Kreis_GT
+roa 10.145.0.0/16   max  20 as      65077; # aachen
 roa 10.5.0.0/16     max  20 as      65077; # aachen
 roa 10.202.0.0/18   max  20 as      65522; # altmuehltal
 roa 10.205.0.0/16   max  20 as      65205; # amsterdam
 roa 10.11.0.0/18    max  20 as      65050; # augsburg
 roa 10.144.0.0/16   max  20 as      64859; # badoldesloe
-roa 10.239.0.0/16   max  20 as      65090; # basel
 roa 10.195.0.0/16   max  20 as      65025; # bayreuth
+roa 10.68.0.0/20    max  20 as      64892; # belgien
 roa 10.1.160.0/19   max  20 as      64646; # bergstrasse
 roa 10.58.0.0/17    max  20 as      64646; # bergstrasse
 roa 10.230.0.0/16   max  20 as      44194; # berlin
@@ -20,6 +19,8 @@ roa 10.31.0.0/16    max  20 as      44194; # berlin
 roa 10.36.0.0/16    max  20 as      44194; # berlin
 roa 10.26.0.0/16    max  20 as      65529; # bielefeld
 roa 10.29.0.0/16    max  20 as      65529; # bielefeld
+roa 10.26.64.0/18   max  20 as 4242420022; # bielefeld (delegation)
+roa 10.26.48.0/20   max  20 as 4242420022; # bielefeld (delegation)
 roa 10.110.0.0/16   max  20 as      65110; # bochum
 roa 10.11.160.0/20  max  20 as      64875; # bodensee
 roa 10.79.0.0/16    max  20 as      65530; # bottrop (delegation)
@@ -30,6 +31,7 @@ roa 10.252.0.0/18   max  20 as      64861; # celle
 roa 10.149.0.0/16   max  20 as      65053; # chemnitz
 roa 10.8.0.0/16     max  20 as      65053; # chemnitz
 roa 10.35.0.0/16    max  20 as      64868; # cottbus
+roa 10.115.0.0/19   max  20 as      65115; # cuxhaven
 roa 10.223.0.0/16   max  20 as      65038; # darmstadt
 roa 10.213.0.0/16   max  20 as      65501; # diepholz
 roa 10.55.0.0/18    max  20 as      65000; # dillingen
@@ -38,6 +40,7 @@ roa 10.119.0.0/16   max  20 as      65043; # dreilaendereck
 roa 10.200.0.0/16   max  20 as      65051; # dresden
 roa 10.201.0.0/16   max  20 as      65051; # dresden
 roa 10.11.184.0/22  max  22 as      65520; # ebersdorf
+roa 10.49.0.0/18    max  20 as      64900; # einbeck
 roa 10.138.0.0/16   max  20 as      65138; # elm-lappwald
 roa 10.13.192.0/18  max  20 as      65402; # emscherland
 roa 10.141.128.0/17 max  20 as      65530; # engelskirchen (delegation)
@@ -58,6 +61,7 @@ roa 10.185.0.0/16   max  20 as      65142; # fulda
 roa 10.28.0.0/16    max  20 as      65397; # gelsenkirchen
 roa 10.181.0.0/16   max  20 as      65181; # gera-greiz
 roa 87.239.143.0/25 max  25 as      64865; # giessen
+roa 10.16.192.0/18  max  20 as      64894; # glienicke-nordbahn
 roa 10.156.0.0/16   max  20 as      65120; # glwupper
 roa 10.109.0.0/16   max  20 as      65527; # goettingen
 roa 10.12.0.0/16    max  20 as      65048; # graz
@@ -68,13 +72,13 @@ roa 10.253.128.0/17 max  20 as      65530; # gummersbach (delegation)
 roa 10.154.0.0/16   max  20 as      65530; # hagen (delegation)
 roa 10.62.0.0/16    max  20 as      65046; # halle
 roa 10.112.0.0/16   max  20 as      49009; # hamburg
-roa 10.112.128.0/18 max  20 as      65112; # hamburg (delegation)
 roa 10.11.96.0/20   max  20 as      64873; # hameln
 roa 10.2.0.0/16     max  20 as      65511; # hannover
 roa 10.7.0.0/16     max  20 as      65134; # harz
 roa 10.11.112.0/20  max  20 as      64871; # heiligenhaus
 roa 10.1.128.0/19   max  20 as      64864; # heiligkreuztal
 roa 10.189.0.0/18   max  20 as      65189; # helgoland
+roa 10.189.0.0/18   max  20 as      49009; # helgoland (delegation)
 roa 10.186.0.0/16   max  20 as      65100; # hennef
 roa 10.34.0.0/16    max  20 as      64866; # herford
 roa 10.11.128.0/20  max  20 as      64872; # hilden
@@ -87,6 +91,9 @@ roa 10.54.0.0/16    max  20 as      65514; # kassel
 roa 10.158.0.0/15   max  20 as      65528; # kbu
 roa 172.26.0.0/15   max  20 as      65528; # kbu
 roa 10.116.0.0/16   max  20 as      65525; # kiel
+roa 10.15.64.0/18   max  20 as      64893; # koenigswinter
+roa 10.234.0.0/15   max  20 as      65533; # kreisgt
+roa 10.255.0.0/16   max  20 as      65533; # kreisgt
 roa 10.16.0.0/17    max  20 as      65530; # kuerten (delegation)
 roa 10.39.0.0/18    max  20 as      64876; # lausitz
 roa 10.21.0.0/16    max  20 as      64780; # leichlingen
@@ -117,17 +124,19 @@ roa 10.169.0.0/16   max  20 as      65534; # mueritz
 roa 10.55.192.0/18  max  20 as      65003; # neunkirchen
 roa 10.46.0.0/18    max  20 as      64883; # neuwied
 roa 10.187.0.0/16   max  20 as      65187; # nord
+roa 10.71.0.0/18    max  20 as      64889; # nordheide
 roa 10.18.0.0/16    max  20 as      65513; # nordwest
 roa 10.135.0.0/16   max  20 as      65152; # ostholstein
 roa 10.47.0.0/16    max  20 as      64862; # ostvest
 roa 10.132.0.0/16   max  20 as      65132; # paderborn
 roa 10.137.0.0/16   max  20 as      65433; # pinneberg
+roa 10.15.192.0/20  max  20 as      64891; # prignitz
 roa 10.57.0.0/16    max  20 as      65067; # radevormwald
 roa 10.11.64.0/20   max  20 as      64867; # ratingen
 roa 10.90.0.0/16    max  20 as      65190; # regensburg
 roa 10.69.0.0/16    max  20 as      65530; # remscheid (delegation)
 roa 10.219.0.0/18   max  20 as      64888; # rhein-erft-kreis
-roa 10.142.0.0/16   max  20 as      76118; # rhein-neckar
+roa 10.142.0.0/16   max  20 as      64946; # rhein-neckar
 roa 10.111.0.0/16   max  20 as      65111; # rheinsiegkreis
 roa 10.40.0.0/16    max  20 as      65078; # rheinufer
 roa 10.67.0.0/16    max  20 as      64885; # rothenburg
@@ -146,7 +155,7 @@ roa 10.53.0.0/16    max  20 as      65079; # ruhrgebiet
 roa 10.225.0.0/16   max  20 as      65409; # ruhrgebiet (delegation)
 roa 10.161.0.0/16   max  20 as      64878; # ruhrgebiet (delegation)
 roa 10.229.0.0/16   max  20 as      64880; # ruhrgebiet (delegation)
-roa 10.20.0.0/19    max  20 as      65400; # ruhrgebiet (delegation)
+roa 10.20.0.0/16    max  20 as      65400; # ruhrgebiet (delegation)
 roa 10.41.0.0/16    max  20 as      65401; # ruhrgebiet (delegation)
 roa 10.231.0.0/16   max  20 as      65402; # ruhrgebiet (delegation)
 roa 10.236.0.0/16   max  20 as      65404; # ruhrgebiet (delegation)
@@ -154,6 +163,8 @@ roa 10.229.0.0/16   max  20 as      65405; # ruhrgebiet (delegation)
 roa 10.24.192.0/18  max  20 as      64770; # saar
 roa 10.252.64.0/18  max  20 as      64770; # saar
 roa 10.55.64.0/18   max  20 as      65001; # saarlouis
+roa 10.152.0.0/18   max  20 as      65200; # siegburg
+roa 10.24.32.0/19   max  20 as      64901; # slfl
 roa 10.6.0.0/16     max  20 as      65530; # solingen (delegation)
 roa 10.190.0.0/15   max  20 as      65019; # stuttgart
 roa 10.215.0.0/16   max  20 as      65083; # suedpfalz
@@ -181,3 +192,4 @@ roa 10.51.0.0/16    max  20 as      65054; # weststeiermark
 roa 10.16.128.0/18  max  20 as      64881; # winterberg
 roa 10.224.0.0/16   max  20 as      65530; # wipperfuerth (delegation)
 roa 10.3.0.0/16     max  20 as      65523; # wuppertal
+roa 10.70.0.0/18    max  20 as      65065; # zollernalb
