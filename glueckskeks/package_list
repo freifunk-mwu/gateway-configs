@@ -865,7 +865,7 @@ ii  unattended-upgrades                  0.82.1ubuntu2.5                        
 ii  unbound                              1.4.22-1ubuntu4.14.04.2                    amd64        validating, recursive, caching DNS resolver
 ii  unbound-anchor                       1.4.22-1ubuntu4.14.04.2                    amd64        utility to securely fetch the root DNS trust anchor
 ii  unrar                                1:5.0.10-1ubuntu0.14.04.1                  amd64        Unarchiver for .rar files (non-free version)
-ii  unrar-free                           1:0.0.1+cvs20071127-2                      amd64        Unarchiver for .rar files
+ii  unrar-free                           1:0.0.1+cvs20071127-2+deb7u1build0.14.04.1 amd64        Unarchiver for .rar files
 ii  unzip                                6.0-9ubuntu1.5                             amd64        De-archiver for .zip files
 ii  update-manager-core                  1:0.196.23                                 all          manage release upgrades
 ii  update-notifier-common               0.154.1ubuntu3                             all          Files shared between update-notifier and other packages
