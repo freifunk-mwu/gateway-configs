@@ -705,7 +705,7 @@ ii  tar                                  1.27.1-1ubuntu0.1                      
 ii  tasksel                              2.88ubuntu15                               all          Tool for selecting tasks for installation on Debian systems
 ii  tasksel-data                         2.88ubuntu15                               all          Official tasks used for installation of Debian systems
 ii  tcpd                                 7.6.q-25                                   amd64        Wietse Venema's TCP wrapper utilities
-ii  tcpdump                              4.9.0-1ubuntu1~ubuntu14.04.1               amd64        command-line network traffic analyzer
+ii  tcpdump                              4.9.2-0ubuntu0.14.04.1                     amd64        command-line network traffic analyzer
 ii  telnet                               0.17-36build2                              amd64        The telnet client
 ii  time                                 1.7-24                                     amd64        GNU time program for measuring CPU resource usage
 ii  tinc                                 1.0.26-0ffmwu0~trusty                      amd64        Virtual Private Network daemon
