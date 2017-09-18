@@ -584,7 +584,7 @@ ii  tar                              1.27.1-1ubuntu0.1                          
 ii  tasksel                          2.88ubuntu15                               all          Tool for selecting tasks for installation on Debian systems
 ii  tasksel-data                     2.88ubuntu15                               all          Official tasks used for installation of Debian systems
 ii  tcpd                             7.6.q-25                                   amd64        Wietse Venema's TCP wrapper utilities
-ii  tcpdump                          4.9.0-1ubuntu1~ubuntu14.04.1               amd64        command-line network traffic analyzer
+ii  tcpdump                          4.9.2-0ubuntu0.14.04.1                     amd64        command-line network traffic analyzer
 ii  telnet                           0.17-36build2                              amd64        The telnet client
 ii  tmux                             1.8-5                                      amd64        terminal multiplexer
 ii  ttf-dejavu                       2.34-1ubuntu1                              all          transitional dummy package
