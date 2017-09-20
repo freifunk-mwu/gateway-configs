@@ -34,7 +34,7 @@ ii  batadv-vis                           2017.1-0ffmwu0~trusty                  
 ii  batctl                               2017.1-0ffmwu0~trusty                      amd64        B.A.T.M.A.N. advanced control and management tool
 ii  batman-adv-dkms                      2017.1-0ffmwu0~trusty                      all          DKMS Source for the batman-advanced kernel module
 ii  bc                                   1.06.95-8ubuntu1                           amd64        GNU bc arbitrary precision calculator language
-ii  bind9-host                           1:9.9.5.dfsg-3ubuntu0.15                   amd64        Version of 'host' bundled with BIND 9.X
+ii  bind9-host                           1:9.9.5.dfsg-3ubuntu0.16                   amd64        Version of 'host' bundled with BIND 9.X
 ii  binutils                             2.24-5ubuntu14.2                           amd64        GNU assembler, linker and binary utilities
 ii  biosdevname                          0.4.1-0ubuntu6.3                           amd64        apply BIOS-given names to network devices
 ii  bird                                 1.6.3-1+trusty+1                           amd64        Internet Routing Daemon
@@ -73,7 +73,7 @@ ii  diffutils                            1:3.3-1                                
 ii  dkms                                 2.2.0.3-1.1ubuntu5.14.04.9                 all          Dynamic Kernel Module Support Framework
 ii  dmidecode                            2.12-2                                     amd64        SMBIOS/DMI table decoder
 ii  dmsetup                              2:1.02.77-6ubuntu2                         amd64        Linux Kernel Device Mapper userspace library
-ii  dnsutils                             1:9.9.5.dfsg-3ubuntu0.15                   amd64        Clients provided with BIND
+ii  dnsutils                             1:9.9.5.dfsg-3ubuntu0.16                   amd64        Clients provided with BIND
 ii  docker-engine                        17.05.0~ce-0~ubuntu-trusty                 amd64        Docker: the open-source application container engine
 ii  docutils-common                      0.11-3                                     all          text processing system for reStructuredText - common data
 ii  dosfstools                           3.0.26-1ubuntu0.1                          amd64        utilities for making and checking MS-DOS FAT filesystems
@@ -199,7 +199,7 @@ ii  libauthen-sasl-perl                  2.1500-1                               
 ii  libavahi-client3:amd64               0.6.31-4ubuntu1.1                          amd64        Avahi client library
 ii  libavahi-common-data:amd64           0.6.31-4ubuntu1.1                          amd64        Avahi common data files
 ii  libavahi-common3:amd64               0.6.31-4ubuntu1.1                          amd64        Avahi common library
-ii  libbind9-90                          1:9.9.5.dfsg-3ubuntu0.15                   amd64        BIND9 Shared Library used by BIND
+ii  libbind9-90                          1:9.9.5.dfsg-3ubuntu0.16                   amd64        BIND9 Shared Library used by BIND
 ii  libbison-dev:amd64                   2:3.0.2.dfsg-2                             amd64        YACC-compatible parser generator - development library
 ii  libblkid1:amd64                      2.20.1-5.1ubuntu20.9                       amd64        block device id library
 ii  libboost-iostreams1.54.0:amd64       1.54.0-4ubuntu3.1                          amd64        Boost.Iostreams Library
@@ -237,7 +237,7 @@ ii  libdebconfclient0:amd64              0.187ubuntu1                           
 ii  libdevmapper1.02.1:amd64             2:1.02.77-6ubuntu2                         amd64        Linux Kernel Device Mapper userspace library
 ii  libdjvulibre-text                    3.5.25.4-3                                 all          Linguistic support files for libdjvulibre
 ii  libdjvulibre21:amd64                 3.5.25.4-3                                 amd64        Runtime support for the DjVu image format
-ii  libdns100                            1:9.9.5.dfsg-3ubuntu0.15                   amd64        DNS Shared Library used by BIND
+ii  libdns100                            1:9.9.5.dfsg-3ubuntu0.16                   amd64        DNS Shared Library used by BIND
 ii  libdpkg-perl                         1.17.5ubuntu5.7                            all          Dpkg perl modules
 ii  libdrm2:amd64                        2.4.67-1ubuntu0.14.04.2                    amd64        Userspace interface to kernel DRM services -- runtime
 ii  libedit2:amd64                       3.1-20130712-2                             amd64        BSD editline and history libraries
@@ -270,8 +270,8 @@ ii  libgcrypt11:amd64                    1.5.3-2ubuntu4.5                       
 ii  libgd3:amd64                         2.1.0-3ubuntu0.8                           amd64        GD Graphics Library
 ii  libgdbm-dev                          1.8.3-12build1                             amd64        GNU dbm database routines (development files)
 ii  libgdbm3:amd64                       1.8.3-12build1                             amd64        GNU dbm database routines (runtime version)
-ii  libgdk-pixbuf2.0-0:amd64             2.30.7-0ubuntu1.6                          amd64        GDK Pixbuf library
-ii  libgdk-pixbuf2.0-common              2.30.7-0ubuntu1.6                          all          GDK Pixbuf library - data files
+ii  libgdk-pixbuf2.0-0:amd64             2.30.7-0ubuntu1.7                          amd64        GDK Pixbuf library
+ii  libgdk-pixbuf2.0-common              2.30.7-0ubuntu1.7                          all          GDK Pixbuf library - data files
 ii  libgeoip1:amd64                      1.6.0-1                                    amd64        non-DNS IP-to-country resolver library
 ii  libgettextpo-dev:amd64               0.18.3.1-1ubuntu3                          amd64        GNU Internationalization library development files
 ii  libgettextpo0:amd64                  0.18.3.1-1ubuntu3                          amd64        GNU Internationalization library
@@ -318,9 +318,9 @@ ii  libio-html-perl                      1.00-1                                 
 ii  libio-socket-inet6-perl              2.71-1                                     all          object interface for AF_INET6 domain sockets
 ii  libio-socket-ssl-perl                1.965-1ubuntu1                             all          Perl module implementing object oriented interface to SSL sockets
 ii  libio-string-perl                    1.08-3                                     all          Emulate IO::File interface for in-core strings
-ii  libisc95                             1:9.9.5.dfsg-3ubuntu0.15                   amd64        ISC Shared Library used by BIND
-ii  libisccc90                           1:9.9.5.dfsg-3ubuntu0.15                   amd64        Command Channel Library used by BIND
-ii  libisccfg90                          1:9.9.5.dfsg-3ubuntu0.15                   amd64        Config File Handling Library used by BIND
+ii  libisc95                             1:9.9.5.dfsg-3ubuntu0.16                   amd64        ISC Shared Library used by BIND
+ii  libisccc90                           1:9.9.5.dfsg-3ubuntu0.16                   amd64        Command Channel Library used by BIND
+ii  libisccfg90                          1:9.9.5.dfsg-3ubuntu0.16                   amd64        Config File Handling Library used by BIND
 ii  libisl10:amd64                       0.12.2-1                                   amd64        manipulating sets and relations of integer points bounded by linear constraints
 ii  libitm1:amd64                        4.8.4-2ubuntu1~14.04.3                     amd64        GNU Transactional Memory Library
 ii  libiw30:amd64                        30~pre9-8ubuntu1                           amd64        Wireless tools - library
@@ -364,7 +364,7 @@ ii  liblqr-1-0:amd64                     0.4.1-2ubuntu1                         
 ii  libltdl7:amd64                       2.4.2-1.7ubuntu1                           amd64        A system independent dlopen wrapper for GNU libtool
 ii  liblwp-mediatypes-perl               6.02-1                                     all          module to guess media type for a file or a URL
 ii  liblwp-protocol-https-perl           6.04-2ubuntu0.1                            all          HTTPS driver for LWP::UserAgent
-ii  liblwres90                           1:9.9.5.dfsg-3ubuntu0.15                   amd64        Lightweight Resolver Library used by BIND
+ii  liblwres90                           1:9.9.5.dfsg-3ubuntu0.16                   amd64        Lightweight Resolver Library used by BIND
 ii  liblzma5:amd64                       5.1.1alpha+20120614-2ubuntu2               amd64        XZ-format compression library
 ii  liblzo2-2:amd64                      2.06-1.2ubuntu1.1                          amd64        data compression library
 ii  libmagic1:amd64                      1:5.14-2ubuntu3.3                          amd64        File type determination library using "magic" numbers
@@ -527,7 +527,7 @@ ii  libxcb-shm0:amd64                    1.10-2ubuntu1                          
 ii  libxcb1:amd64                        1.10-2ubuntu1                              amd64        X C Binding
 ii  libxdmcp6:amd64                      1:1.1.1-1                                  amd64        X11 Display Manager Control Protocol library
 ii  libxext6:amd64                       2:1.3.2-1ubuntu0.0.14.04.1                 amd64        X11 miscellaneous extension library
-ii  libxml2:amd64                        2.9.1+dfsg1-3ubuntu4.9                     amd64        GNOME XML library
+ii  libxml2:amd64                        2.9.1+dfsg1-3ubuntu4.10                    amd64        GNOME XML library
 rc  libxmu6:amd64                        2:1.1.1-1                                  amd64        X11 miscellaneous utility library
 ii  libxmuu1:amd64                       2:1.1.1-1                                  amd64        X11 miscellaneous micro-utility library
 ii  libxpm4:amd64                        1:3.5.10-1ubuntu0.1                        amd64        X11 pixmap library
@@ -562,10 +562,12 @@ ii  linux-headers-3.13.0-128             3.13.0-128.177                         
 ii  linux-headers-3.13.0-128-generic     3.13.0-128.177                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-129             3.13.0-129.178                             all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-129-generic     3.13.0-129.178                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-3.13.0-132             3.13.0-132.181                             all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-132-generic     3.13.0-132.181                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-86              3.13.0-86.131                              all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-86-generic      3.13.0-86.131                              amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-generic                3.13.0.129.138                             amd64        Generic Linux kernel headers
-ii  linux-headers-generic-lts-trusty     3.13.0.129.138                             amd64        Generic Linux kernel headers
+ii  linux-headers-generic                3.13.0.132.141                             amd64        Generic Linux kernel headers
+ii  linux-headers-generic-lts-trusty     3.13.0.132.141                             amd64        Generic Linux kernel headers
 rc  linux-image-3.13.0-100-generic       3.13.0-100.147                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-106-generic       3.13.0-106.153                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-107-generic       3.13.0-107.154                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -583,6 +585,7 @@ ii  linux-image-3.13.0-125-generic       3.13.0-125.174                         
 ii  linux-image-3.13.0-126-generic       3.13.0-126.175                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-128-generic       3.13.0-128.177                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-129-generic       3.13.0-129.178                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-3.13.0-132-generic       3.13.0-132.181                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-79-generic        3.13.0-79.123                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-83-generic        3.13.0-83.127                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-85-generic        3.13.0-85.129                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -620,6 +623,7 @@ ii  linux-image-extra-3.13.0-125-generic 3.13.0-125.174                         
 ii  linux-image-extra-3.13.0-126-generic 3.13.0-126.175                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-128-generic 3.13.0-128.177                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-129-generic 3.13.0-129.178                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-extra-3.13.0-132-generic 3.13.0-132.181                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-79-generic  3.13.0-79.123                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-83-generic  3.13.0-83.127                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-85-generic  3.13.0-85.129                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
@@ -640,10 +644,10 @@ rc  linux-image-extra-3.19.0-41-generic  3.19.0-41.46~14.04.2                   
 rc  linux-image-extra-3.19.0-42-generic  3.19.0-42.48~14.04.1                       amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-47-generic  3.19.0-47.53~14.04.1                       amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-49-generic  3.19.0-49.55~14.04.1                       amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
-ii  linux-image-generic                  3.13.0.129.138                             amd64        Generic Linux kernel image
-ii  linux-image-generic-lts-trusty       3.13.0.129.138                             amd64        Generic Linux kernel image
-ii  linux-image-virtual                  3.13.0.129.138                             amd64        This package will always depend on the latest minimal generic kernel image.
-ii  linux-libc-dev:amd64                 3.13.0-129.178                             amd64        Linux Kernel Headers for development
+ii  linux-image-generic                  3.13.0.132.141                             amd64        Generic Linux kernel image
+ii  linux-image-generic-lts-trusty       3.13.0.132.141                             amd64        Generic Linux kernel image
+ii  linux-image-virtual                  3.13.0.132.141                             amd64        This package will always depend on the latest minimal generic kernel image.
+ii  linux-libc-dev:amd64                 3.13.0-132.181                             amd64        Linux Kernel Headers for development
 ii  locales                              2.13+git20120306-12.1                      all          common files for locale support
 ii  lockfile-progs                       0.1.17                                     amd64        Programs for locking and unlocking files and mailboxes
 ii  login                                1:4.1.5.1-1ubuntu9.5                       amd64        system login tools
@@ -900,7 +904,7 @@ ii  tar                                  1.27.1-1ubuntu0.1                      
 ii  tasksel                              2.88ubuntu15                               all          Tool for selecting tasks for installation on Debian systems
 ii  tasksel-data                         2.88ubuntu15                               all          Official tasks used for installation of Debian systems
 ii  tcpd                                 7.6.q-25                                   amd64        Wietse Venema's TCP wrapper utilities
-ii  tcpdump                              4.9.0-1ubuntu1~ubuntu14.04.1               amd64        command-line network traffic analyzer
+ii  tcpdump                              4.9.2-0ubuntu0.14.04.1                     amd64        command-line network traffic analyzer
 ii  telnet                               0.17-36build2                              amd64        The telnet client
 ii  tidy                                 20091223cvs-1.2ubuntu1.1                   amd64        HTML syntax checker and reformatter
 ii  time                                 1.7-24                                     amd64        GNU time program for measuring CPU resource usage
