@@ -17,10 +17,10 @@ ii  base-files                       7.2ubuntu5.5                               
 ii  base-passwd                      3.5.33                                     amd64        Debian base system master password and group files
 ii  bash                             4.3-7ubuntu1.7                             amd64        GNU Bourne Again SHell
 ii  bc                               1.06.95-8ubuntu1                           amd64        GNU bc arbitrary precision calculator language
-ii  bind9                            1:9.9.5.dfsg-3ubuntu0.15                   amd64        Internet Domain Name Server
-ii  bind9-doc                        1:9.9.5.dfsg-3ubuntu0.15                   all          Documentation for BIND
-ii  bind9-host                       1:9.9.5.dfsg-3ubuntu0.15                   amd64        Version of 'host' bundled with BIND 9.X
-ii  bind9utils                       1:9.9.5.dfsg-3ubuntu0.15                   amd64        Utilities for BIND
+ii  bind9                            1:9.9.5.dfsg-3ubuntu0.16                   amd64        Internet Domain Name Server
+ii  bind9-doc                        1:9.9.5.dfsg-3ubuntu0.16                   all          Documentation for BIND
+ii  bind9-host                       1:9.9.5.dfsg-3ubuntu0.16                   amd64        Version of 'host' bundled with BIND 9.X
+ii  bind9utils                       1:9.9.5.dfsg-3ubuntu0.16                   amd64        Utilities for BIND
 ii  binutils                         2.24-5ubuntu14.2                           amd64        GNU assembler, linker and binary utilities
 ii  biosdevname                      0.4.1-0ubuntu6.3                           amd64        apply BIOS-given names to network devices
 ii  bsdutils                         1:2.20.1-5.1ubuntu20.9                     amd64        Basic utilities from 4.4BSD-Lite
@@ -47,7 +47,7 @@ ii  dh-python                        1.20140128-1ubuntu8.2                      
 ii  diffutils                        1:3.3-1                                    amd64        File comparison utilities
 ii  dmidecode                        2.12-2                                     amd64        SMBIOS/DMI table decoder
 ii  dmsetup                          2:1.02.77-6ubuntu2                         amd64        Linux Kernel Device Mapper userspace library
-ii  dnsutils                         1:9.9.5.dfsg-3ubuntu0.15                   amd64        Clients provided with BIND
+ii  dnsutils                         1:9.9.5.dfsg-3ubuntu0.16                   amd64        Clients provided with BIND
 ii  dpkg                             1.17.5ubuntu5.7                            amd64        Debian package management system
 ii  dpkg-dev                         1.17.5ubuntu5.7                            all          Debian package development tools
 ii  e2fslibs:amd64                   1.42.9-3ubuntu1.3                          amd64        ext2/ext3/ext4 file system libraries
@@ -121,7 +121,7 @@ ii  libatomic1:amd64                 4.8.4-2ubuntu1~14.04.3                     
 ii  libattr1:amd64                   1:2.4.47-1ubuntu1                          amd64        Extended attribute shared library
 ii  libaudit-common                  1:2.3.2-2ubuntu1                           all          Dynamic library for security auditing - common files
 ii  libaudit1:amd64                  1:2.3.2-2ubuntu1                           amd64        Dynamic library for security auditing
-ii  libbind9-90                      1:9.9.5.dfsg-3ubuntu0.15                   amd64        BIND9 Shared Library used by BIND
+ii  libbind9-90                      1:9.9.5.dfsg-3ubuntu0.16                   amd64        BIND9 Shared Library used by BIND
 ii  libblkid1:amd64                  2.20.1-5.1ubuntu20.9                       amd64        block device id library
 ii  libboost-iostreams1.54.0:amd64   1.54.0-4ubuntu3.1                          amd64        Boost.Iostreams Library
 ii  libbsd0:amd64                    0.6.0-2ubuntu1                             amd64        utility functions from BSD systems - shared library
@@ -145,7 +145,7 @@ ii  libdbus-1-3:amd64                1.6.18-0ubuntu4.5                          
 ii  libdbus-glib-1-2:amd64           0.100.2-1                                  amd64        simple interprocess messaging system (GLib-based shared library)
 ii  libdebconfclient0:amd64          0.187ubuntu1                               amd64        Debian Configuration Management System (C-implementation library)
 ii  libdevmapper1.02.1:amd64         2:1.02.77-6ubuntu2                         amd64        Linux Kernel Device Mapper userspace library
-ii  libdns100                        1:9.9.5.dfsg-3ubuntu0.15                   amd64        DNS Shared Library used by BIND
+ii  libdns100                        1:9.9.5.dfsg-3ubuntu0.16                   amd64        DNS Shared Library used by BIND
 ii  libdpkg-perl                     1.17.5ubuntu5.7                            all          Dpkg perl modules
 ii  libdrm2:amd64                    2.4.67-1ubuntu0.14.04.2                    amd64        Userspace interface to kernel DRM services -- runtime
 ii  libedit2:amd64                   3.1-20130712-2                             amd64        BSD editline and history libraries
@@ -185,9 +185,9 @@ ii  libheimntlm0-heimdal:amd64       1.6~git20131207+dfsg-1ubuntu1.2            
 ii  libhx509-5-heimdal:amd64         1.6~git20131207+dfsg-1ubuntu1.2            amd64        Heimdal Kerberos - X509 support library
 ii  libidn11:amd64                   1.28-1ubuntu2.1                            amd64        GNU Libidn library, implementation of IETF IDN specifications
 ii  libio-string-perl                1.08-3                                     all          Emulate IO::File interface for in-core strings
-ii  libisc95                         1:9.9.5.dfsg-3ubuntu0.15                   amd64        ISC Shared Library used by BIND
-ii  libisccc90                       1:9.9.5.dfsg-3ubuntu0.15                   amd64        Command Channel Library used by BIND
-ii  libisccfg90                      1:9.9.5.dfsg-3ubuntu0.15                   amd64        Config File Handling Library used by BIND
+ii  libisc95                         1:9.9.5.dfsg-3ubuntu0.16                   amd64        ISC Shared Library used by BIND
+ii  libisccc90                       1:9.9.5.dfsg-3ubuntu0.16                   amd64        Command Channel Library used by BIND
+ii  libisccfg90                      1:9.9.5.dfsg-3ubuntu0.16                   amd64        Config File Handling Library used by BIND
 ii  libisl10:amd64                   0.12.2-1                                   amd64        manipulating sets and relations of integer points bounded by linear constraints
 ii  libitm1:amd64                    4.8.4-2ubuntu1~14.04.3                     amd64        GNU Transactional Memory Library
 ii  libiw30:amd64                    30~pre9-8ubuntu1                           amd64        Wireless tools - library
@@ -207,7 +207,7 @@ ii  liblockfile-bin                  1.09-6ubuntu1                              
 ii  liblockfile1:amd64               1.09-6ubuntu1                              amd64        NFS-safe locking library
 ii  liblog-message-simple-perl       0.10-1                                     all          simplified interface to Log::Message
 ii  libltdl7:amd64                   2.4.2-1.7ubuntu1                           amd64        A system independent dlopen wrapper for GNU libtool
-ii  liblwres90                       1:9.9.5.dfsg-3ubuntu0.15                   amd64        Lightweight Resolver Library used by BIND
+ii  liblwres90                       1:9.9.5.dfsg-3ubuntu0.16                   amd64        Lightweight Resolver Library used by BIND
 ii  liblzma5:amd64                   5.1.1alpha+20120614-2ubuntu2               amd64        XZ-format compression library
 ii  liblzo2-2:amd64                  2.06-1.2ubuntu1.1                          amd64        data compression library
 ii  libmagic1:amd64                  1:5.14-2ubuntu3.3                          amd64        File type determination library using "magic" numbers
@@ -306,7 +306,7 @@ ii  libxau6:amd64                    1:1.0.8-1                                  
 ii  libxcb1:amd64                    1.10-2ubuntu1                              amd64        X C Binding
 ii  libxdmcp6:amd64                  1:1.1.1-1                                  amd64        X11 Display Manager Control Protocol library
 ii  libxext6:amd64                   2:1.3.2-1ubuntu0.0.14.04.1                 amd64        X11 miscellaneous extension library
-ii  libxml2:amd64                    2.9.1+dfsg1-3ubuntu4.9                     amd64        GNOME XML library
+ii  libxml2:amd64                    2.9.1+dfsg1-3ubuntu4.10                    amd64        GNOME XML library
 ii  libxmuu1:amd64                   2:1.1.1-1                                  amd64        X11 miscellaneous micro-utility library
 ii  libxtables10                     1.4.21-1ubuntu1                            amd64        netfilter xtables library
 ii  linux-headers-3.13.0-119         3.13.0-119.166                             all          Header files related to Linux kernel version 3.13.0
@@ -315,6 +315,8 @@ ii  linux-headers-3.13.0-128         3.13.0-128.177                             
 ii  linux-headers-3.13.0-128-generic 3.13.0-128.177                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-129         3.13.0-129.178                             all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-129-generic 3.13.0-129.178                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-3.13.0-132         3.13.0-132.181                             all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-132-generic 3.13.0-132.181                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-37          3.13.0-37.64                               all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-37-generic  3.13.0-37.64                               amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-39          3.13.0-39.66                               all          Header files related to Linux kernel version 3.13.0
@@ -329,8 +331,8 @@ ii  linux-headers-3.13.0-59          3.13.0-59.98                               
 ii  linux-headers-3.13.0-59-generic  3.13.0-59.98                               amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-61          3.13.0-61.100                              all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-61-generic  3.13.0-61.100                              amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-generic            3.13.0.129.138                             amd64        Generic Linux kernel headers
-ii  linux-headers-virtual            3.13.0.129.138                             amd64        Transitional package.
+ii  linux-headers-generic            3.13.0.132.141                             amd64        Generic Linux kernel headers
+ii  linux-headers-virtual            3.13.0.132.141                             amd64        Transitional package.
 rc  linux-image-3.13.0-100-generic   3.13.0-100.147                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-101-generic   3.13.0-101.148                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-103-generic   3.13.0-103.150                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -351,6 +353,7 @@ rc  linux-image-3.13.0-125-generic   3.13.0-125.174                             
 rc  linux-image-3.13.0-126-generic   3.13.0-126.175                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-128-generic   3.13.0-128.177                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-129-generic   3.13.0-129.178                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-3.13.0-132-generic   3.13.0-132.181                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-34-generic    3.13.0-34.60                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-35-generic    3.13.0-35.62                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-36-generic    3.13.0-36.63                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -397,9 +400,9 @@ rc  linux-image-3.13.0-93-generic    3.13.0-93.140                              
 rc  linux-image-3.13.0-95-generic    3.13.0-95.142                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-96-generic    3.13.0-96.143                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-98-generic    3.13.0-98.145                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-virtual              3.13.0.129.138                             amd64        This package will always depend on the latest minimal generic kernel image.
-ii  linux-libc-dev:amd64             3.13.0-129.178                             amd64        Linux Kernel Headers for development
-ii  linux-virtual                    3.13.0.129.138                             amd64        Minimal Generic Linux kernel and headers
+ii  linux-image-virtual              3.13.0.132.141                             amd64        This package will always depend on the latest minimal generic kernel image.
+ii  linux-libc-dev:amd64             3.13.0-132.181                             amd64        Linux Kernel Headers for development
+ii  linux-virtual                    3.13.0.132.141                             amd64        Minimal Generic Linux kernel and headers
 ii  locales                          2.13+git20120306-12.1                      all          common files for locale support
 ii  lockfile-progs                   0.1.17                                     amd64        Programs for locking and unlocking files and mailboxes
 ii  login                            1:4.1.5.1-1ubuntu9.5                       amd64        system login tools
