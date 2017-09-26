@@ -16,6 +16,7 @@ protocol bgp icvpn_berlin2 from ebgp_ic {
 }
 protocol bgp icvpn_bielefeldbgp1 from ebgp_ic {
     neighbor fec0::a:cf:0:36 as 65529;
+    passive yes;
 }
 protocol bgp icvpn_bitburg1 from ebgp_ic {
     neighbor fec0::a:cf:0:32 as 65408;
@@ -67,6 +68,9 @@ protocol bgp icvpn_gera_greiz3 from ebgp_ic {
 }
 protocol bgp icvpn_hamburg01 from ebgp_ic {
     neighbor fec0::a:cf:0:3d as 49009;
+}
+protocol bgp icvpn_hamburg02 from ebgp_ic {
+    neighbor fec0::a:cf:0:40 as 49009;
 }
 protocol bgp icvpn_hamburg03 from ebgp_ic {
     neighbor fec0::a:cf:0:3f as 49009;
@@ -125,7 +129,6 @@ protocol bgp icvpn_stuttgart0503 from ebgp_ic {
 }
 protocol bgp icvpn_trier1 from ebgp_ic {
     neighbor fec0::a:cf:0:df as 65022;
-    passive yes;
 }
 protocol bgp icvpn_trier2 from ebgp_ic {
     neighbor fec0::a:cf:0:e0 as 65022;

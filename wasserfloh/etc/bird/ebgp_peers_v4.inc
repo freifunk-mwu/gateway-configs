@@ -90,6 +90,9 @@ protocol bgp icvpn_halle2 from ebgp_ic {
 protocol bgp icvpn_hamburg01 from ebgp_ic {
     neighbor 10.207.0.61 as 49009;
 }
+protocol bgp icvpn_hamburg02 from ebgp_ic {
+    neighbor 10.207.0.64 as 49009;
+}
 protocol bgp icvpn_hamburg03 from ebgp_ic {
     neighbor 10.207.0.63 as 49009;
 }
@@ -147,7 +150,6 @@ protocol bgp icvpn_stuttgart0503 from ebgp_ic {
 }
 protocol bgp icvpn_trier1 from ebgp_ic {
     neighbor 10.207.0.223 as 65022;
-    passive yes;
 }
 protocol bgp icvpn_trier2 from ebgp_ic {
     neighbor 10.207.0.224 as 65022;
