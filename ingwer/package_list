@@ -114,8 +114,8 @@ ii  gcc-4.9-base:amd64                 4.9.2-10                           amd64 
 ii  geoip-database                     20150317-1                         all          IP lookup command line tools that use the GeoIP library (country database)
 ii  gettext-base                       0.19.3-2                           amd64        GNU Internationalization utilities for the base system
 ii  gir1.2-glib-2.0:amd64              1.42.0-2.2                         amd64        Introspection data for GLib, GObject, Gio and GModule
-ii  git                                1:2.1.4-2.1+deb8u4                 amd64        fast, scalable, distributed revision control system
-ii  git-man                            1:2.1.4-2.1+deb8u4                 all          fast, scalable, distributed revision control system (manual pages)
+ii  git                                1:2.1.4-2.1+deb8u5                 amd64        fast, scalable, distributed revision control system
+ii  git-man                            1:2.1.4-2.1+deb8u5                 all          fast, scalable, distributed revision control system (manual pages)
 ii  gnupg                              1.4.18-7+deb8u4                    amd64        GNU privacy guard - a free PGP replacement
 ii  gnupg-agent                        2.0.26-6+deb8u1                    amd64        GNU privacy guard - password agent
 ii  gnupg2                             2.0.26-6+deb8u1                    amd64        GNU privacy guard - a free PGP replacement (new v2.x)
