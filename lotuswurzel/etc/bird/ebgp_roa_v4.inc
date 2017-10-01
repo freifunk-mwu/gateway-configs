@@ -126,6 +126,7 @@ roa 10.46.0.0/18    max  20 as      64883; # neuwied
 roa 10.187.0.0/16   max  20 as      65187; # nord
 roa 10.71.0.0/18    max  20 as      64889; # nordheide
 roa 10.18.0.0/16    max  20 as      65513; # nordwest
+roa 10.72.0.0/16    max  20 as      65513; # nordwest
 roa 10.135.0.0/16   max  20 as      65152; # ostholstein
 roa 10.47.0.0/16    max  20 as      64862; # ostvest
 roa 10.132.0.0/16   max  20 as      65132; # paderborn
