@@ -45,7 +45,7 @@ ii  build-essential                      11.6ubuntu6                            
 ii  busybox-initramfs                    1:1.21.0-1ubuntu1                          amd64        Standalone shell setup for initramfs
 ii  byobu                                5.77-0ubuntu1.2                            all          powerful, text based window manager and shell multiplexer
 ii  bzip2                                1.0.6-5                                    amd64        high-quality block-sorting file compressor - utilities
-ii  ca-certificates                      20160104ubuntu0.14.04.1                    all          Common CA certificates
+ii  ca-certificates                      20170717~14.04.1                           all          Common CA certificates
 ii  check-mk-agent                       1.2.6p5-1                                  all          Check_MK Agent for Linux
 ii  check-mk-agent-logwatch              1.2.4p5-2                                  all          Logwatch-Plugin for check_mk agent
 rc  clamav-base                          0.98.1+dfsg-4ubuntu1.1                     all          anti-virus utility for Unix - base package
@@ -271,7 +271,7 @@ ii  libhttp-negotiate-perl               6.00-2                                 
 ii  libhx509-5-heimdal:amd64             1.6~git20131207+dfsg-1ubuntu1.2            amd64        Heimdal Kerberos - X509 support library
 ii  libice6:amd64                        2:1.0.8-2                                  amd64        X11 Inter-Client Exchange library
 ii  libicu52:amd64                       52.1-3ubuntu0.6                            amd64        International Components for Unicode
-ii  libidn11:amd64                       1.28-1ubuntu2.1                            amd64        GNU Libidn library, implementation of IETF IDN specifications
+ii  libidn11:amd64                       1.28-1ubuntu2.2                            amd64        GNU Libidn library, implementation of IETF IDN specifications
 ii  libio-html-perl                      1.00-1                                     all          open an HTML file with automatic charset detection
 ii  libio-socket-inet6-perl              2.71-1                                     all          object interface for AF_INET6 domain sockets
 ii  libio-socket-ssl-perl                1.965-1ubuntu1                             all          Perl module implementing object oriented interface to SSL sockets
