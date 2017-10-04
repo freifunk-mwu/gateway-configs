@@ -44,7 +44,7 @@ ii  busybox-initramfs                    1:1.21.0-1ubuntu1                      
 ii  busybox-static                       1:1.21.0-1ubuntu1                          amd64        Standalone rescue shell with tons of builtin utilities
 ii  byobu                                5.77-0ubuntu1.2                            all          powerful, text based window manager and shell multiplexer
 ii  bzip2                                1.0.6-5                                    amd64        high-quality block-sorting file compressor - utilities
-ii  ca-certificates                      20160104ubuntu0.14.04.1                    all          Common CA certificates
+ii  ca-certificates                      20170717~14.04.1                           all          Common CA certificates
 ii  check-mk-agent                       1.2.8p15-1                                 all          Check_MK Agent for Linux
 ii  check-mk-agent-logwatch              1.2.2p3-1ubuntu0.1                         amd64        general purpose nagios-plugin for retrieving data
 ii  command-not-found                    0.3ubuntu12                                all          Suggest installation of packages in interactive bash sessions
@@ -264,7 +264,7 @@ ii  libheimbase1-heimdal:amd64           1.6~git20131207+dfsg-1ubuntu1.2        
 ii  libheimntlm0-heimdal:amd64           1.6~git20131207+dfsg-1ubuntu1.2            amd64        Heimdal Kerberos - NTLM support library
 ii  libhx509-5-heimdal:amd64             1.6~git20131207+dfsg-1ubuntu1.2            amd64        Heimdal Kerberos - X509 support library
 ii  libice6:amd64                        2:1.0.8-2                                  amd64        X11 Inter-Client Exchange library
-ii  libidn11:amd64                       1.28-1ubuntu2.1                            amd64        GNU Libidn library, implementation of IETF IDN specifications
+ii  libidn11:amd64                       1.28-1ubuntu2.2                            amd64        GNU Libidn library, implementation of IETF IDN specifications
 ii  libio-string-perl                    1.08-3                                     all          Emulate IO::File interface for in-core strings
 ii  libisc95                             1:9.9.5.dfsg-3ubuntu0.16                   amd64        ISC Shared Library used by BIND
 ii  libisccc90                           1:9.9.5.dfsg-3ubuntu0.16                   amd64        Command Channel Library used by BIND
