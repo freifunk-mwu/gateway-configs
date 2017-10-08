@@ -448,23 +448,23 @@ zone "0-63.55.10.in-addr.arpa" {
 # 
 zone "dn42" {
     type static-stub;
-    server-addresses { 172.23.0.53; };
+    server-addresses { 172.23.0.53; fd42:d42:d42:53::1; };
 };
 zone "20.172.in-addr.arpa" {
     type static-stub;
-    server-addresses { 172.23.0.53; };
+    server-addresses { 172.23.0.53; fd42:d42:d42:53::1; };
 };
 zone "21.172.in-addr.arpa" {
     type static-stub;
-    server-addresses { 172.23.0.53; };
+    server-addresses { 172.23.0.53; fd42:d42:d42:53::1; };
 };
 zone "22.172.in-addr.arpa" {
     type static-stub;
-    server-addresses { 172.23.0.53; };
+    server-addresses { 172.23.0.53; fd42:d42:d42:53::1; };
 };
 zone "23.172.in-addr.arpa" {
     type static-stub;
-    server-addresses { 172.23.0.53; };
+    server-addresses { 172.23.0.53; fd42:d42:d42:53::1; };
 };
 # 
 # dreilaendereck
