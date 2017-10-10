@@ -59,7 +59,7 @@ ii  cpp                                4:4.9.2-2                          amd64 
 ii  cpp-4.8                            4.8.4-1                            amd64        GNU C preprocessor
 ii  cpp-4.9                            4.9.2-10                           amd64        GNU C preprocessor
 ii  cron                               3.0pl1-127+deb8u1                  amd64        process scheduling daemon
-ii  curl                               7.38.0-4+deb8u5                    amd64        command line tool for transferring data with URL syntax
+ii  curl                               7.38.0-4+deb8u6                    amd64        command line tool for transferring data with URL syntax
 ii  dash                               0.5.7-4+b1                         amd64        POSIX-compliant shell
 ii  dbus                               1.8.22-0+deb8u1                    amd64        simple interprocess messaging system (daemon and utilities)
 ii  dc                                 1.06.95-9                          amd64        GNU dc arbitrary precision reverse-polish calculator
@@ -219,8 +219,8 @@ ii  libcomerr2:amd64                   1.42.12-2+b1                       amd64 
 ii  libconfig-file-perl                1.50-2                             all          Parses simple configuration files
 ii  libcryptsetup4:amd64               2:1.6.6-5                          amd64        disk encryption support - shared library
 ii  libcups2:amd64                     1.7.5-11+deb8u1                    amd64        Common UNIX Printing System(tm) - Core library
-ii  libcurl3:amd64                     7.38.0-4+deb8u5                    amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
-ii  libcurl3-gnutls:amd64              7.38.0-4+deb8u5                    amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii  libcurl3:amd64                     7.38.0-4+deb8u6                    amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii  libcurl3-gnutls:amd64              7.38.0-4+deb8u6                    amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii  libcwidget3:amd64                  0.5.17-2                           amd64        high-level terminal interface library for C++ (runtime files)
 ii  libdaemon0:amd64                   0.14-6                             amd64        lightweight C library for daemons - runtime library
 ii  libdatrie1:amd64                   0.2.8-1                            amd64        Double-array trie library
