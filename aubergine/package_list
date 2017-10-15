@@ -48,8 +48,6 @@ ii  bzip2                                1.0.6-5                                
 ii  ca-certificates                      20170717~14.04.1                           all          Common CA certificates
 ii  check-mk-agent                       1.2.6p5-1                                  all          Check_MK Agent for Linux
 ii  check-mk-agent-logwatch              1.2.4p5-2                                  all          Logwatch-Plugin for check_mk agent
-rc  clamav-base                          0.98.1+dfsg-4ubuntu1.1                     all          anti-virus utility for Unix - base package
-rc  clamav-freshclam                     0.98.1+dfsg-4ubuntu1.1                     amd64        anti-virus utility for Unix - virus database update utility
 ii  console-setup                        1.70ubuntu8                                all          console font and keymap setup program
 ii  coreutils                            8.21-1ubuntu5.4                            amd64        GNU core utilities
 ii  cpio                                 2.11+dfsg-1ubuntu1.2                       amd64        GNU cpio -- a program to manage archives of files
@@ -59,7 +57,6 @@ ii  crda                                 1.1.2-1ubuntu2                         
 ii  cron                                 3.0pl1-124ubuntu2                          amd64        process scheduling daemon
 ii  curl                                 7.35.0-1ubuntu2.11                         amd64        command line tool for transferring data with URL syntax
 ii  dash                                 0.5.7-4ubuntu1                             amd64        POSIX-compliant shell
-rc  dbconfig-common                      1.8.47+nmu1                                all          common framework for packaging database applications
 ii  dbus                                 1.6.18-0ubuntu4.5                          amd64        simple interprocess messaging system (daemon and utilities)
 ii  debconf                              1.5.51ubuntu2                              all          Debian configuration management system
 ii  debconf-i18n                         1.5.51ubuntu2                              all          full internationalization support for debconf
@@ -117,8 +114,8 @@ ii  hostname                             3.15ubuntu1                            
 ii  htop                                 1.0.2-3                                    amd64        interactive processes viewer
 ii  ifupdown                             0.7.47.2ubuntu4.4                          amd64        high level tools to configure network interfaces
 ii  init-system-helpers                  1.14ubuntu1                                all          helper tools for all init systems
-ii  initramfs-tools                      0.103ubuntu4.7                             all          tools for generating an initramfs
-ii  initramfs-tools-bin                  0.103ubuntu4.7                             amd64        binaries used by initramfs-tools
+ii  initramfs-tools                      0.103ubuntu4.8                             all          tools for generating an initramfs
+ii  initramfs-tools-bin                  0.103ubuntu4.8                             amd64        binaries used by initramfs-tools
 ii  initscripts                          2.88dsf-41ubuntu6.3                        amd64        scripts for initializing and shutting down the system
 ii  insserv                              1.14.0-5ubuntu2                            amd64        boot sequence organizer using LSB init.d script dependency information
 ii  installation-report                  2.54ubuntu1                                all          system installation report
@@ -141,11 +138,9 @@ ii  landscape-common                     14.12-0ubuntu6.14.04                   
 ii  laptop-detect                        0.13.7ubuntu2                              amd64        attempt to detect a laptop
 ii  less                                 458-2                                      amd64        pager program similar to more
 ii  libacl1:amd64                        2.2.52-1                                   amd64        Access control list shared library
-rc  libaio1:amd64                        0.3.109-4                                  amd64        Linux kernel AIO access library - shared library
 ii  libalgorithm-diff-perl               1.19.02-3                                  all          module to find differences between files
 ii  libalgorithm-diff-xs-perl            0.04-2build4                               amd64        module to find differences between files (XS accelerated)
 ii  libalgorithm-merge-perl              0.08-2                                     all          Perl module for three-way merge of textual data
-rc  libapache2-mod-php5                  5.5.9+dfsg-1ubuntu4.14                     amd64        server-side, HTML-embedded scripting language (Apache 2 module)
 ii  libapache2-mod-python                3.3.1-11ubuntu2                            amd64        Python-embedding module for Apache 2
 ii  libapache2-mod-wsgi                  3.4-4ubuntu2.1.14.04.2                     amd64        Python WSGI adapter module for Apache
 ii  libapparmor1:amd64                   2.10.95-0ubuntu2.6~14.04.1                 amd64        changehat AppArmor library
@@ -185,7 +180,6 @@ ii  libcdt5                              2.36.0-0ubuntu3.2                      
 ii  libcgmanager0:amd64                  0.24-0ubuntu7.5                            amd64        Central cgroup manager daemon (client library)
 ii  libcgraph6                           2.36.0-0ubuntu3.2                          amd64        rich set of graph drawing tools - cgraph library
 ii  libck-connector0:amd64               0.4.5-3.1ubuntu2                           amd64        ConsoleKit libraries
-rc  libclamav6                           0.98.1+dfsg-4ubuntu1.1                     amd64        anti-virus utility for Unix - library
 ii  libclass-accessor-perl               0.34-1                                     all          Perl module that automatically generates accessors
 ii  libcloog-isl4:amd64                  0.18.2-1                                   amd64        Chunky Loop Generator (runtime library)
 ii  libcomerr2:amd64                     1.42.9-3ubuntu1.3                          amd64        common error description library
@@ -205,7 +199,6 @@ ii  libdns100                            1:9.9.5.dfsg-3ubuntu0.16               
 ii  libdpkg-perl                         1.17.5ubuntu5.7                            all          Dpkg perl modules
 ii  libdrm2:amd64                        2.4.67-1ubuntu0.14.04.2                    amd64        Userspace interface to kernel DRM services -- runtime
 ii  libedit2:amd64                       3.1-20130712-2                             amd64        BSD editline and history libraries
-rc  libelf1:amd64                        0.158-0ubuntu5.1                           amd64        library to read and write ELF files
 ii  libencode-locale-perl                1.03-1                                     all          utility to determine the locale encoding
 ii  libept1.4.12:amd64                   1.0.12                                     amd64        High-level library for managing Debian package information
 ii  liberror-perl                        0.17-1.1                                   all          Perl module for error/exception handling in an OO-ish way
@@ -234,7 +227,6 @@ ii  libgirepository-1.0-1                1.40.0-1ubuntu0.2                      
 ii  libglib2.0-0:amd64                   2.40.2-0ubuntu1                            amd64        GLib library of C routines
 ii  libglib2.0-data                      2.40.2-0ubuntu1                            all          Common files for GLib library
 ii  libgmp10:amd64                       2:5.1.3+dfsg-1ubuntu1                      amd64        Multiprecision arithmetic library
-rc  libgnutls-deb0-28:amd64              3.3.8-3ubuntu3.2                           amd64        GNU TLS library - main runtime library
 ii  libgnutls-dev                        2.12.23-12ubuntu2.8                        amd64        GNU TLS library - development files
 ii  libgnutls-openssl27:amd64            2.12.23-12ubuntu2.8                        amd64        GNU TLS library - OpenSSL wrapper
 ii  libgnutls26:amd64                    2.12.23-12ubuntu2.8                        amd64        GNU TLS library - runtime library
@@ -256,7 +248,6 @@ ii  libhavege1:amd64                     1.7c-1                                 
 ii  libhcrypto4-heimdal:amd64            1.6~git20131207+dfsg-1ubuntu1.2            amd64        Heimdal Kerberos - crypto library
 ii  libheimbase1-heimdal:amd64           1.6~git20131207+dfsg-1ubuntu1.2            amd64        Heimdal Kerberos - Base library
 ii  libheimntlm0-heimdal:amd64           1.6~git20131207+dfsg-1ubuntu1.2            amd64        Heimdal Kerberos - NTLM support library
-rc  libhogweed2:amd64                    2.7.1-1ubuntu0.1                           amd64        low level cryptographic library (public-key cryptos)
 ii  libhtml-form-perl                    6.03-1                                     all          module that represents an HTML form element
 ii  libhtml-format-perl                  2.11-1                                     all          module for transforming HTML into various formats
 ii  libhtml-parser-perl                  3.71-1build1                               amd64        collection of modules that parse HTML text documents
@@ -328,16 +319,12 @@ ii  libnet-http-perl                     6.06-1                                 
 ii  libnet-libidn-perl                   0.12.ds-1build4                            amd64        Perl bindings for GNU Libidn
 ii  libnet-smtp-ssl-perl                 1.01-3                                     all          Perl module providing SSL support to Net::SMTP
 ii  libnet-ssleay-perl                   1.58-1                                     amd64        Perl module for Secure Sockets Layer (SSL)
-rc  libnettle4:amd64                     2.7.1-1ubuntu0.1                           amd64        low level cryptographic library (symmetric and one-way cryptos)
 ii  libnewt0.52:amd64                    0.52.15-2ubuntu5                           amd64        Not Erik's Windowing Toolkit - text mode windowing with slang
 ii  libnih-dbus1:amd64                   1.0.3-4ubuntu25                            amd64        NIH D-Bus Bindings Library
 ii  libnih1:amd64                        1.0.3-4ubuntu25                            amd64        NIH Utility Library
 ii  libnl-3-200:amd64                    3.2.21-1ubuntu4.1                          amd64        library for dealing with netlink sockets
 ii  libnl-genl-3-200:amd64               3.2.21-1ubuntu4.1                          amd64        library for dealing with netlink sockets - generic netlink
-rc  libnspr4:amd64                       2:4.10.7-0ubuntu0.14.04.1                  amd64        NetScape Portable Runtime Library
-rc  libnss3:amd64                        2:3.17.1-0ubuntu0.14.04.1                  amd64        Network Security Service libraries
 ii  libntlm0:amd64                       1.4-1                                      amd64        NTLM authentication library
-rc  libodbc1:amd64                       2.2.14p2-5ubuntu5                          amd64        ODBC library for Unix
 ii  libopts25:amd64                      1:5.18-2ubuntu2                            amd64        automated option processing library based on autogen
 ii  libp11-kit-dev                       0.20.2-2ubuntu2                            amd64        Library for loading and coordinating access to PKCS#11 modules - development
 ii  libp11-kit0:amd64                    0.20.2-2ubuntu2                            amd64        Library for loading and coordinating access to PKCS#11 modules - runtime
@@ -366,7 +353,7 @@ ii  libpolkit-agent-1-0:amd64            0.105-4ubuntu3.14.04.1                 
 ii  libpolkit-backend-1-0:amd64          0.105-4ubuntu3.14.04.1                     amd64        PolicyKit backend API
 ii  libpolkit-gobject-1-0:amd64          0.105-4ubuntu3.14.04.1                     amd64        PolicyKit Authorization API
 ii  libpopt0:amd64                       1.16-8ubuntu1                              amd64        lib for parsing cmdline parameters
-ii  libpq5                               9.3.18-0ubuntu0.14.04.1                    amd64        PostgreSQL C client library
+ii  libpq5                               9.3.19-0ubuntu0.14.04                      amd64        PostgreSQL C client library
 ii  libprocps3:amd64                     1:3.3.9-1ubuntu2.2                         amd64        library for accessing process information from /proc
 ii  libpython-dev:amd64                  2.7.5-5ubuntu3                             amd64        header files and a static library for Python (default)
 ii  libpython-stdlib:amd64               2.7.5-5ubuntu3                             amd64        interactive high-level object-oriented language (default python version)
@@ -386,10 +373,6 @@ ii  libreadline5:amd64                   5.2+dfsg-2                             
 ii  libreadline6:amd64                   6.3-4ubuntu2                               amd64        GNU readline and history libraries, run-time libraries
 ii  libreadline6-dev:amd64               6.3-4ubuntu2                               amd64        GNU readline and history libraries, development files
 ii  libroken18-heimdal:amd64             1.6~git20131207+dfsg-1ubuntu1.2            amd64        Heimdal Kerberos - roken support library
-rc  librpm3                              4.11.1-3                                   amd64        RPM shared library
-rc  librpmbuild3                         4.11.1-3                                   amd64        RPM build shared library
-rc  librpmio3                            4.11.1-3                                   amd64        RPM IO shared library
-rc  librpmsign1                          4.11.1-3                                   amd64        RPM signing shared library
 ii  librrd4                              1.4.7-2ubuntu5                             amd64        time-series data storage and display system (runtime library)
 ii  librtmp0:amd64                       2.4+20121230.gitdf6c518-1ubuntu0.1         amd64        toolkit for RTMP streams (shared library)
 ii  libruby1.9.1                         1.9.3.484-2ubuntu1.5                       amd64        Libraries necessary to run Ruby 1.9.1
@@ -406,7 +389,6 @@ ii  libsepol1:amd64                      2.2-1ubuntu0.1                         
 ii  libsigc++-2.0-0c2a:amd64             2.2.10-0.2ubuntu2                          amd64        type-safe Signal Framework for C++ - runtime
 ii  libsigsegv2:amd64                    2.10-2                                     amd64        Library for handling page faults in a portable way
 ii  libslang2:amd64                      2.2.4-15ubuntu1                            amd64        S-Lang programming library - runtime version
-rc  libslp1                              1.2.1-9ubuntu0.2                           amd64        OpenSLP libraries
 ii  libsm6:amd64                         2:1.2.1-2                                  amd64        X11 Session Management library
 ii  libsocket6-perl                      0.25-1                                     amd64        Perl extensions for IPv6
 ii  libsodium13:amd64                    1.0.3-1~wheezy0                            amd64        Network communication, cryptography and signaturing library
@@ -441,7 +423,6 @@ ii  libtk8.5:amd64                       8.5.15-2ubuntu3                        
 ii  libtsan0:amd64                       4.8.4-2ubuntu1~14.04.3                     amd64        ThreadSanitizer -- a Valgrind-based detector of data races (runtime)
 ii  libudev1:amd64                       204-5ubuntu20.24                           amd64        libudev shared library
 ii  libuecc0                             6-0uf1                                     amd64        very small Elliptic Curve Cryptography library
-rc  libunbound2:amd64                    1.4.22-1ubuntu4.14.04.2                    amd64        library implementing DNS resolution and validation
 ii  libunistring0:amd64                  0.9.3-5ubuntu3                             amd64        Unicode string library for C
 ii  liburi-perl                          1.60-1                                     all          module to manipulate and access URI strings
 ii  libusb-0.1-4:amd64                   2:0.1.12-23.3ubuntu1                       amd64        userspace USB programming library
@@ -507,103 +488,11 @@ ii  linux-headers-3.13.0-133-generic     3.13.0-133.182                         
 ii  linux-headers-generic                3.13.0.133.142                             amd64        Generic Linux kernel headers
 ii  linux-headers-generic-lts-trusty     3.13.0.133.142                             amd64        Generic Linux kernel headers
 ii  linux-headers-virtual                3.13.0.133.142                             amd64        Transitional package.
-rc  linux-image-3.13.0-100-generic       3.13.0-100.147                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-101-generic       3.13.0-101.148                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-103-generic       3.13.0-103.150                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-105-generic       3.13.0-105.152                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-106-generic       3.13.0-106.153                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-107-generic       3.13.0-107.154                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-108-generic       3.13.0-108.155                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-109-generic       3.13.0-109.156                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-110-generic       3.13.0-110.157                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-112-generic       3.13.0-112.159                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-115-generic       3.13.0-115.162                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-116-generic       3.13.0-116.163                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-117-generic       3.13.0-117.164                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-119-generic       3.13.0-119.166                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-121-generic       3.13.0-121.170                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-123-generic       3.13.0-123.172                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-125-generic       3.13.0-125.174                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-126-generic       3.13.0-126.175                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-128-generic       3.13.0-128.177                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-129-generic       3.13.0-129.178                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-132-generic       3.13.0-132.181                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-133-generic       3.13.0-133.182                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-32-generic        3.13.0-32.57                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-40-generic        3.13.0-40.69                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-43-generic        3.13.0-43.72                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-44-generic        3.13.0-44.73                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-45-generic        3.13.0-45.74                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-46-generic        3.13.0-46.79                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-48-generic        3.13.0-48.80                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-49-generic        3.13.0-49.83                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-51-generic        3.13.0-51.84                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-52-generic        3.13.0-52.86                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-53-generic        3.13.0-53.89                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-54-generic        3.13.0-54.91                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-55-generic        3.13.0-55.94                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-57-generic        3.13.0-57.95                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-58-generic        3.13.0-58.97                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-59-generic        3.13.0-59.98                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-61-generic        3.13.0-61.100                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-62-generic        3.13.0-62.102                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-63-generic        3.13.0-63.103                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-65-generic        3.13.0-65.106                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-66-generic        3.13.0-66.108                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-67-generic        3.13.0-67.110                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-68-generic        3.13.0-68.111                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-70-generic        3.13.0-70.113                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-71-generic        3.13.0-71.114                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-73-generic        3.13.0-73.116                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-74-generic        3.13.0-74.118                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-76-generic        3.13.0-76.120                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-77-generic        3.13.0-77.121                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-79-generic        3.13.0-79.123                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-83-generic        3.13.0-83.127                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-85-generic        3.13.0-85.129                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-86-generic        3.13.0-86.131                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-87-generic        3.13.0-87.133                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-88-generic        3.13.0-88.135                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-91-generic        3.13.0-91.138                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-92-generic        3.13.0-92.139                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-93-generic        3.13.0-93.140                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-95-generic        3.13.0-95.142                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-96-generic        3.13.0-96.143                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-98-generic        3.13.0-98.145                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-100-generic 3.13.0-100.147                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-101-generic 3.13.0-101.148                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-103-generic 3.13.0-103.150                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-105-generic 3.13.0-105.152                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-106-generic 3.13.0-106.153                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-107-generic 3.13.0-107.154                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-108-generic 3.13.0-108.155                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-109-generic 3.13.0-109.156                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-110-generic 3.13.0-110.157                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-112-generic 3.13.0-112.159                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-115-generic 3.13.0-115.162                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-116-generic 3.13.0-116.163                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-117-generic 3.13.0-117.164                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-119-generic 3.13.0-119.166                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-121-generic 3.13.0-121.170                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-123-generic 3.13.0-123.172                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-125-generic 3.13.0-125.174                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-126-generic 3.13.0-126.175                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-128-generic 3.13.0-128.177                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-129-generic 3.13.0-129.178                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-132-generic 3.13.0-132.181                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-133-generic 3.13.0-133.182                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-79-generic  3.13.0-79.123                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-83-generic  3.13.0-83.127                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-85-generic  3.13.0-85.129                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-86-generic  3.13.0-86.131                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-87-generic  3.13.0-87.133                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-88-generic  3.13.0-88.135                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-91-generic  3.13.0-91.138                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-92-generic  3.13.0-92.139                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-93-generic  3.13.0-93.140                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-95-generic  3.13.0-95.142                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-96-generic  3.13.0-96.143                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-98-generic  3.13.0-98.145                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-generic                  3.13.0.133.142                             amd64        Generic Linux kernel image
 ii  linux-image-generic-lts-trusty       3.13.0.133.142                             amd64        Generic Linux kernel image
 ii  linux-image-virtual                  3.13.0.133.142                             amd64        This package will always depend on the latest minimal generic kernel image.
@@ -637,7 +526,6 @@ ii  mount                                2.20.1-5.1ubuntu20.9                   
 ii  mountall                             2.53                                       amd64        filesystem mounting tool
 ii  multiarch-support                    2.19-0ubuntu6.13                           amd64        Transitional package to ensure multiarch compatibility
 ii  mysql-common                         5.5.57-0ubuntu0.14.04.1                    all          MySQL database common files, e.g. /etc/mysql/my.cnf
-rc  mysql-server-5.5                     5.5.46-0ubuntu0.14.04.2                    amd64        MySQL database server binaries and system database setup
 ii  nano                                 2.2.6-1ubuntu1                             amd64        small, friendly text editor inspired by Pico
 ii  ncdu                                 1.10-1                                     amd64        ncurses disk usage viewer
 ii  ncurses-base                         5.9+20140118-1ubuntu1                      all          basic terminal type definitions
@@ -707,12 +595,9 @@ ii  pciutils                             1:3.2.1-1ubuntu5.1                     
 ii  perl                                 5.18.2-2ubuntu1.1                          amd64        Larry Wall's Practical Extraction and Report Language
 ii  perl-base                            5.18.2-2ubuntu1.1                          amd64        minimal Perl system
 ii  perl-modules                         5.18.2-2ubuntu1.1                          all          Core Perl modules
-rc  php5-cli                             5.5.9+dfsg-1ubuntu4.14                     amd64        command-line interpreter for the php5 scripting language
 ii  php5-common                          5.5.9+dfsg-1ubuntu4.22                     amd64        Common files for packages built from the php5 source
 ii  php5-imap                            5.4.6-0ubuntu5                             amd64        IMAP module for php5
 ii  php5-json                            1.3.2-2build1                              amd64        JSON module for php5
-rc  php5-mysql                           5.5.9+dfsg-1ubuntu4.14                     amd64        MySQL module for php5
-rc  php5-readline                        5.5.9+dfsg-1ubuntu4.14                     amd64        Readline module for php5
 ii  pkg-config                           0.26-1ubuntu4                              amd64        manage compile and link flags for libraries
 ii  plotutils                            2.6-3ubuntu1                               amd64        GNU plotutils command line tools based on libplot
 ii  plymouth                             0.8.8-0ubuntu17.1                          amd64        graphical boot animation and logger - main package
