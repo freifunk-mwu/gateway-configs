@@ -121,8 +121,8 @@ ii  htop                                 1.0.2-3                                
 ii  iftop                                1.0~pre2-5                                 amd64        displays bandwidth usage information on an network interface
 ii  ifupdown                             0.7.47.2ubuntu4.4                          amd64        high level tools to configure network interfaces
 ii  init-system-helpers                  1.14ubuntu1                                all          helper tools for all init systems
-ii  initramfs-tools                      0.103ubuntu4.7                             all          tools for generating an initramfs
-ii  initramfs-tools-bin                  0.103ubuntu4.7                             amd64        binaries used by initramfs-tools
+ii  initramfs-tools                      0.103ubuntu4.8                             all          tools for generating an initramfs
+ii  initramfs-tools-bin                  0.103ubuntu4.8                             amd64        binaries used by initramfs-tools
 ii  initscripts                          2.88dsf-41ubuntu6.3                        amd64        scripts for initializing and shutting down the system
 ii  insserv                              1.14.0-5ubuntu2                            amd64        boot sequence organizer using LSB init.d script dependency information
 ii  installation-report                  2.54ubuntu1                                all          system installation report
@@ -140,7 +140,6 @@ ii  isc-dhcp-common                      4.2.4-7ubuntu12.10                     
 ii  isc-dhcp-server                      4.2.4-7ubuntu12.10                         amd64        ISC DHCP server for automatic IP address assignment
 ii  iso-codes                            3.52-1                                     all          ISO language, territory, currency, script codes and their translations
 ii  iw                                   3.4-1                                      amd64        tool for configuring Linux wireless devices
-rc  javascript-common                    11                                         all          Base support for JavaScript library packages
 ii  joe                                  3.7-2.3ubuntu1                             amd64        user friendly full screen text editor
 ii  jq                                   1.3-1.1ubuntu1                             amd64        lightweight and flexible command-line JSON processor
 ii  kbd                                  1.15.5-1ubuntu1                            amd64        Linux console font and keytable utilities
@@ -181,13 +180,11 @@ ii  libblkid1:amd64                      2.20.1-5.1ubuntu20.9                   
 ii  libboost-iostreams1.54.0:amd64       1.54.0-4ubuntu3.1                          amd64        Boost.Iostreams Library
 ii  libbsd0:amd64                        0.6.0-2ubuntu1                             amd64        utility functions from BSD systems - shared library
 ii  libbz2-1.0:amd64                     1.0.6-5                                    amd64        high-quality block-sorting file compressor library - runtime
-rc  libc-ares2:amd64                     1.10.0-2ubuntu0.1                          amd64        asynchronous name resolver
 ii  libc-bin                             2.19-0ubuntu6.13                           amd64        Embedded GNU C Library: Binaries
 ii  libc-dev-bin                         2.19-0ubuntu6.13                           amd64        Embedded GNU C Library: Development binaries
 ii  libc6:amd64                          2.19-0ubuntu6.13                           amd64        Embedded GNU C Library: Shared libraries
 ii  libc6-dev:amd64                      2.19-0ubuntu6.13                           amd64        Embedded GNU C Library: Development Libraries and Header Files
 ii  libcairo2:amd64                      1.13.0~20140204-0ubuntu1.1                 amd64        The Cairo 2D vector graphics library
-rc  libcap-ng0                           0.7.3-1ubuntu2                             amd64        An alternate POSIX capabilities library
 ii  libcap2:amd64                        1:2.24-0ubuntu5                            amd64        support for getting/setting POSIX.1e capabilities
 ii  libcap2-bin                          1:2.24-0ubuntu5                            amd64        basic utility programs for using capabilities
 ii  libcgmanager0:amd64                  0.24-0ubuntu7.5                            amd64        Central cgroup manager daemon (client library)
@@ -417,7 +414,6 @@ ii  libusb-1.0-0:amd64                   2:1.0.17-1ubuntu2                      
 ii  libustr-1.0-1:amd64                  1.0.4-3ubuntu2                             amd64        Micro string library: shared library
 ii  libutempter0                         1.1.5-4build1                              amd64        A privileged helper for utmp/wtmp updates (runtime)
 ii  libuuid1:amd64                       2.20.1-5.1ubuntu20.9                       amd64        Universally Unique ID library
-rc  libv8-3.14.5                         3.14.5.8-5ubuntu2                          amd64        V8 JavaScript engine - runtime library
 ii  libvpx1:amd64                        1.3.0-2                                    amd64        VP8 video codec (shared library)
 ii  libwind0-heimdal:amd64               1.6~git20131207+dfsg-1ubuntu1.2            amd64        Heimdal Kerberos - stringprep implementation
 ii  libwrap0:amd64                       7.6.q-25                                   amd64        Wietse Venema's TCP wrappers library
@@ -504,11 +500,6 @@ ii  linux-headers-3.13.0-61-generic      3.13.0-61.100                          
 ii  linux-headers-generic                3.13.0.133.142                             amd64        Generic Linux kernel headers
 ii  linux-headers-generic-lts-trusty     3.13.0.133.142                             amd64        Generic Linux kernel headers
 ii  linux-headers-virtual                3.13.0.133.142                             amd64        Transitional package.
-rc  linux-image-3.13.0-100-generic       3.13.0-100.147                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-101-generic       3.13.0-101.148                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-103-generic       3.13.0-103.150                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-105-generic       3.13.0-105.152                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-106-generic       3.13.0-106.153                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-107-generic       3.13.0-107.154                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-108-generic       3.13.0-108.155                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-109-generic       3.13.0-109.156                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -527,92 +518,10 @@ ii  linux-image-3.13.0-128-generic       3.13.0-128.177                         
 ii  linux-image-3.13.0-129-generic       3.13.0-129.178                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-132-generic       3.13.0-132.181                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-133-generic       3.13.0-133.182                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-24-generic        3.13.0-24.47                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-29-generic        3.13.0-29.53                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-30-generic        3.13.0-30.55                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-32-generic        3.13.0-32.57                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-33-generic        3.13.0-33.58                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-34-generic        3.13.0-34.60                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-35-generic        3.13.0-35.62                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-36-generic        3.13.0-36.63                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-37-generic        3.13.0-37.64                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-39-generic        3.13.0-39.66                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-40-generic        3.13.0-40.69                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-41-generic        3.13.0-41.70                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-43-generic        3.13.0-43.72                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-44-generic        3.13.0-44.73                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-45-generic        3.13.0-45.74                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-46-generic        3.13.0-46.79                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-48-generic        3.13.0-48.80                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-49-generic        3.13.0-49.83                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-51-generic        3.13.0-51.84                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-52-generic        3.13.0-52.86                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-53-generic        3.13.0-53.89                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-54-generic        3.13.0-54.91                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-55-generic        3.13.0-55.94                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-57-generic        3.13.0-57.95                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-58-generic        3.13.0-58.97                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-59-generic        3.13.0-59.98                               amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-61-generic        3.13.0-61.100                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-62-generic        3.13.0-62.102                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-63-generic        3.13.0-63.103                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-65-generic        3.13.0-65.106                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-66-generic        3.13.0-66.108                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-67-generic        3.13.0-67.110                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-68-generic        3.13.0-68.111                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-70-generic        3.13.0-70.113                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-71-generic        3.13.0-71.114                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-73-generic        3.13.0-73.116                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-74-generic        3.13.0-74.118                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-76-generic        3.13.0-76.120                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-77-generic        3.13.0-77.121                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-79-generic        3.13.0-79.123                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-83-generic        3.13.0-83.127                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-85-generic        3.13.0-85.129                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-86-generic        3.13.0-86.131                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-87-generic        3.13.0-87.133                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-88-generic        3.13.0-88.135                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-91-generic        3.13.0-91.138                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-92-generic        3.13.0-92.139                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-93-generic        3.13.0-93.140                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-95-generic        3.13.0-95.142                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-96-generic        3.13.0-96.143                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-3.13.0-98-generic        3.13.0-98.145                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-100-generic 3.13.0-100.147                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-101-generic 3.13.0-101.148                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-103-generic 3.13.0-103.150                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-105-generic 3.13.0-105.152                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-106-generic 3.13.0-106.153                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-107-generic 3.13.0-107.154                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-108-generic 3.13.0-108.155                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-109-generic 3.13.0-109.156                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-110-generic 3.13.0-110.157                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-112-generic 3.13.0-112.159                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-113-generic 3.13.0-113.160                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-115-generic 3.13.0-115.162                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-116-generic 3.13.0-116.163                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-117-generic 3.13.0-117.164                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-119-generic 3.13.0-119.166                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-121-generic 3.13.0-121.170                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-123-generic 3.13.0-123.172                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-125-generic 3.13.0-125.174                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-126-generic 3.13.0-126.175                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-128-generic 3.13.0-128.177                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-129-generic 3.13.0-129.178                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-132-generic 3.13.0-132.181                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-133-generic 3.13.0-133.182                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-79-generic  3.13.0-79.123                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-83-generic  3.13.0-83.127                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-85-generic  3.13.0-85.129                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-86-generic  3.13.0-86.131                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-87-generic  3.13.0-87.133                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-88-generic  3.13.0-88.135                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-91-generic  3.13.0-91.138                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-92-generic  3.13.0-92.139                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-93-generic  3.13.0-93.140                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-95-generic  3.13.0-95.142                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-96-generic  3.13.0-96.143                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-rc  linux-image-extra-3.13.0-98-generic  3.13.0-98.145                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-generic                  3.13.0.133.142                             amd64        Generic Linux kernel image
 ii  linux-image-virtual                  3.13.0.133.142                             amd64        This package will always depend on the latest minimal generic kernel image.
 ii  linux-libc-dev:amd64                 3.13.0-133.182                             amd64        Linux Kernel Headers for development
@@ -650,7 +559,7 @@ ii  netbase                              5.2                                    
 ii  netcat-openbsd                       1.105-7ubuntu1                             amd64        TCP/IP swiss army knife
 ii  netperf                              2.6.0-2                                    amd64        Network performance benchmark
 ii  nmap                                 6.40-0.2ubuntu1                            amd64        The Network Mapper
-ii  nodejs                               6.11.3-1nodesource1                        amd64        Node.js event-based server-side javascript engine
+ii  nodejs                               6.11.4-1nodesource1                        amd64        Node.js event-based server-side javascript engine
 ii  ntp                                  1:4.2.6.p5+dfsg-3ubuntu2.14.04.12          amd64        Network Time Protocol daemon and utility programs
 ii  ntpdate                              1:4.2.6.p5+dfsg-3ubuntu2.14.04.12          amd64        client for setting system time from NTP servers
 ii  openssh-client                       1:6.6p1-2ubuntu2.8                         amd64        secure shell (SSH) client, for secure access to remote machines
@@ -759,7 +668,6 @@ ii  python3-yaml                         3.10-4ubuntu0.1                        
 ii  python3.4                            3.4.3-1ubuntu1~14.04.5                     amd64        Interactive high-level object-oriented language (version 3.4)
 ii  python3.4-dev                        3.4.3-1ubuntu1~14.04.5                     amd64        Header files and a static library for Python (v3.4)
 ii  python3.4-minimal                    3.4.3-1ubuntu1~14.04.5                     amd64        Minimal subset of the Python language (version 3.4)
-rc  quagga                               0.99.22.4-3ubuntu1                         amd64        BGP/OSPF/RIP routing daemon
 ii  radvd                                1:1.9.1-1.1ubuntu2                         amd64        Router Advertisement Daemon
 ii  readline-common                      6.3-4ubuntu2                               all          GNU readline and history libraries, common files
 ii  resolvconf                           1.69ubuntu1.1                              all          name server information handler
@@ -779,7 +687,6 @@ ii  sed                                  4.2.2-4ubuntu1                         
 ii  sensible-utils                       0.0.9                                      all          Utilities for sensible alternative selection
 ii  sgml-base                            1.26+nmu4ubuntu1                           all          SGML infrastructure and SGML catalog file support
 ii  shared-mime-info                     1.2-0ubuntu3                               amd64        FreeDesktop.org shared MIME database and spec
-rc  smartmontools                        6.2+svn3841-1.2                            amd64        control and monitor storage systems using S.M.A.R.T.
 ii  snmp                                 5.7.2~dfsg-8.1ubuntu3.2                    amd64        SNMP (Simple Network Management Protocol) applications
 ii  snmpd                                5.7.2~dfsg-8.1ubuntu3.2                    amd64        SNMP (Simple Network Management Protocol) agents
 ii  software-properties-common           0.92.37.8                                  all          manage the repositories that you install software from (common)
@@ -798,7 +705,6 @@ ii  tasksel-data                         2.88ubuntu15                           
 ii  tcpd                                 7.6.q-25                                   amd64        Wietse Venema's TCP wrapper utilities
 ii  tcpdump                              4.9.2-0ubuntu0.14.04.1                     amd64        command-line network traffic analyzer
 ii  telnet                               0.17-36build2                              amd64        The telnet client
-rc  thermald                             1.4.3-5~14.04.1                            amd64        Thermal monitoring and controlling daemon
 ii  tinc                                 1.0.26-0ffmwu0~trusty                      amd64        Virtual Private Network daemon
 ii  tmux                                 1.8-5                                      amd64        terminal multiplexer
 ii  traceroute                           1:2.0.20-0ubuntu0.1                        amd64        Traces the route taken by packets over an IPv4/IPv6 network
