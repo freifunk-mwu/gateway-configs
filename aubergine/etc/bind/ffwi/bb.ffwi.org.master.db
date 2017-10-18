@@ -3,7 +3,7 @@ $ORIGIN bb.ffwi.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffwi.org. hostmaster.ffwi.org. (
-                     2016071500         ; Serial
+                     2017101801         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -26,6 +26,7 @@ tw-halle 		IN	A	10.56.2.35 ; Ubiquiti Loco m5 Silberbachhalle Station (ffwi-tw-1
 pb-m5-s-112		IN	A	10.56.2.36 ; Ubiquiti Loco m5 Philippsberg (ffwi-bb-pb-s-112) 
 pb-nb-w-auto		IN	A	10.56.2.37 ; Ubiquiti Nanobeam 5ac Philippsberg (ffwi-bb-pb-w-auto) 
 pb-nb-s-auto		IN	A	10.56.2.38 ; Ubiquiti Nanobeam 5ac Philippsberg (ffwi-bb-pb-s-auto) 	
+ffwi-pb-gue		IN	A	10.56.2.40 ; NSM5 Guenni - Philippsberg
 ffmwu-hsk-sim		IN	A	10.56.2.60 ; NBE-5AC-19 (ffmwu-hsk-sim-11ac)
 ffmwu-hsk-opelbad	IN	A	10.56.2.61 ; NBE-5AC-19 (ffmwu-opelbad-hsk-11ac)
 ffmwu-opelbad-hsk	IN	A	10.56.2.63 ; PBE-5AC-400 (ffmwu-opelbad-hsk-11ac)
