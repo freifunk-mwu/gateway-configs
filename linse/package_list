@@ -37,7 +37,7 @@ ii  cpio                             2.11+dfsg-1ubuntu1.2                       
 ii  cpp                              4:4.8.2-1ubuntu6                           amd64        GNU C preprocessor (cpp)
 ii  cpp-4.8                          4.8.4-2ubuntu1~14.04.3                     amd64        GNU C preprocessor
 ii  cron                             3.0pl1-124ubuntu2                          amd64        process scheduling daemon
-ii  curl                             7.35.0-1ubuntu2.11                         amd64        command line tool for transferring data with URL syntax
+ii  curl                             7.35.0-1ubuntu2.12                         amd64        command line tool for transferring data with URL syntax
 ii  dash                             0.5.7-4ubuntu1                             amd64        POSIX-compliant shell
 ii  dbus                             1.6.18-0ubuntu4.5                          amd64        simple interprocess messaging system (daemon and utilities)
 ii  debconf                          1.5.51ubuntu2                              all          Debian configuration management system
@@ -137,8 +137,8 @@ ii  libck-connector0:amd64           0.4.5-3.1ubuntu2                           
 ii  libclass-accessor-perl           0.34-1                                     all          Perl module that automatically generates accessors
 ii  libcloog-isl4:amd64              0.18.2-1                                   amd64        Chunky Loop Generator (runtime library)
 ii  libcomerr2:amd64                 1.42.9-3ubuntu1.3                          amd64        common error description library
-ii  libcurl3:amd64                   7.35.0-1ubuntu2.11                         amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
-ii  libcurl3-gnutls:amd64            7.35.0-1ubuntu2.11                         amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii  libcurl3:amd64                   7.35.0-1ubuntu2.12                         amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii  libcurl3-gnutls:amd64            7.35.0-1ubuntu2.12                         amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii  libcwidget3                      0.5.16-3.5ubuntu1                          amd64        high-level terminal interface library for C++ (runtime files)
 ii  libdb5.3:amd64                   5.3.28-3ubuntu3                            amd64        Berkeley v5.3 Database Libraries [runtime]
 ii  libdbus-1-3:amd64                1.6.18-0ubuntu4.5                          amd64        simple interprocess messaging system (library)
@@ -217,7 +217,7 @@ ii  libmount1:amd64                  2.20.1-5.1ubuntu20.9                       
 ii  libmpc3:amd64                    1.0.1-1ubuntu1                             amd64        multiple precision complex floating-point library
 ii  libmpdec2:amd64                  2.4.0-6                                    amd64        library for decimal floating point arithmetic (runtime library)
 ii  libmpfr4:amd64                   3.1.2-1                                    amd64        multiple precision floating-point computation
-ii  libmysqlclient18:amd64           5.5.57-0ubuntu0.14.04.1                    amd64        MySQL database client library
+ii  libmysqlclient18:amd64           5.5.58-0ubuntu0.14.04.1                    amd64        MySQL database client library
 ii  libncurses5:amd64                5.9+20140118-1ubuntu1                      amd64        shared libraries for terminal handling
 ii  libncursesw5:amd64               5.9+20140118-1ubuntu1                      amd64        shared libraries for terminal handling (wide character support)
 ii  libnewt0.52:amd64                0.52.15-2ubuntu5                           amd64        Not Erik's Windowing Toolkit - text mode windowing with slang
@@ -364,7 +364,7 @@ ii  mosh                             1.2.4a-1ubuntu1                            
 ii  mount                            2.20.1-5.1ubuntu20.9                       amd64        Tools for mounting and manipulating filesystems
 ii  mountall                         2.53                                       amd64        filesystem mounting tool
 ii  multiarch-support                2.19-0ubuntu6.13                           amd64        Transitional package to ensure multiarch compatibility
-ii  mysql-common                     5.5.57-0ubuntu0.14.04.1                    all          MySQL database common files, e.g. /etc/mysql/my.cnf
+ii  mysql-common                     5.5.58-0ubuntu0.14.04.1                    all          MySQL database common files, e.g. /etc/mysql/my.cnf
 ii  nano                             2.2.6-1ubuntu1                             amd64        small, friendly text editor inspired by Pico
 ii  ncurses-base                     5.9+20140118-1ubuntu1                      all          basic terminal type definitions
 ii  ncurses-bin                      5.9+20140118-1ubuntu1                      amd64        terminal-related programs and man pages
