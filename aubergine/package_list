@@ -669,7 +669,7 @@ ii  python-twisted-bin                   13.2.0-1ubuntu1                        
 ii  python-twisted-core                  13.2.0-1ubuntu1                            all          Event-based framework for internet applications
 ii  python-urllib3                       1.7.1-1ubuntu4                             all          HTTP library with thread-safe connection pooling for Python
 ii  python-urllib3-whl                   1.7.1-1ubuntu4                             all          HTTP library with thread-safe connection pooling
-ii  python-werkzeug                      0.9.4+dfsg-1.1ubuntu2                      all          collection of utilities for WSGI applications
+ii  python-werkzeug                      0.9.4+dfsg-1.1ubuntu2.1                    all          collection of utilities for WSGI applications
 ii  python-wheel                         0.24.0-1~ubuntu1                           all          built-package format for Python
 ii  python-xapian                        1.2.16-2ubuntu1                            amd64        Xapian search engine interface for Python
 ii  python-xappy                         0.5-5                                      all          easy-to-use interface to the Xapian search engine
@@ -711,7 +711,7 @@ ii  python3-six                          1.5.2-1ubuntu1                         
 ii  python3-software-properties          0.92.37.8                                  all          manage the repositories that you install software from
 ii  python3-update-manager               1:0.196.24                                 all          python 3.x module for update-manager
 ii  python3-urllib3                      1.7.1-1ubuntu4                             all          HTTP library with thread-safe connection pooling for Python3
-ii  python3-werkzeug                     0.9.4+dfsg-1.1ubuntu2                      all          collection of utilities for WSGI applications
+ii  python3-werkzeug                     0.9.4+dfsg-1.1ubuntu2.1                    all          collection of utilities for WSGI applications
 ii  python3-wheel                        0.24.0-1~ubuntu1                           all          built-package format for Python
 ii  python3-yaml                         3.10-4ubuntu0.1                            amd64        YAML parser and emitter for Python3
 ii  python3.4                            3.4.3-1ubuntu1~14.04.5                     amd64        Interactive high-level object-oriented language (version 3.4)

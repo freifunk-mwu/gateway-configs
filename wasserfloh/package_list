@@ -582,7 +582,7 @@ ii  python-twisted-bin                   13.2.0-1ubuntu1                        
 ii  python-twisted-core                  13.2.0-1ubuntu1                            all          Event-based framework for internet applications
 ii  python-urllib3                       1.7.1-1ubuntu4                             all          HTTP library with thread-safe connection pooling for Python
 ii  python-urllib3-whl                   1.7.1-1ubuntu4                             all          HTTP library with thread-safe connection pooling
-ii  python-werkzeug                      0.9.4+dfsg-1.1ubuntu2                      all          collection of utilities for WSGI applications
+ii  python-werkzeug                      0.9.4+dfsg-1.1ubuntu2.1                    all          collection of utilities for WSGI applications
 ii  python-xapian                        1.2.16-2ubuntu1                            amd64        Xapian search engine interface for Python
 ii  python-yaml                          3.10-4ubuntu0.1                            amd64        YAML parser and emitter for Python
 ii  python-zope.interface                4.0.5-1ubuntu4                             amd64        Interfaces for Python
