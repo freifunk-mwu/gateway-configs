@@ -59,7 +59,7 @@ ii  cpp                                4:4.9.2-2                          amd64 
 ii  cpp-4.8                            4.8.4-1                            amd64        GNU C preprocessor
 ii  cpp-4.9                            4.9.2-10                           amd64        GNU C preprocessor
 ii  cron                               3.0pl1-127+deb8u1                  amd64        process scheduling daemon
-ii  curl                               7.38.0-4+deb8u6                    amd64        command line tool for transferring data with URL syntax
+ii  curl                               7.38.0-4+deb8u7                    amd64        command line tool for transferring data with URL syntax
 ii  dash                               0.5.7-4+b1                         amd64        POSIX-compliant shell
 ii  dbus                               1.8.22-0+deb8u1                    amd64        simple interprocess messaging system (daemon and utilities)
 ii  dc                                 1.06.95-9                          amd64        GNU dc arbitrary precision reverse-polish calculator
@@ -219,8 +219,8 @@ ii  libcomerr2:amd64                   1.42.12-2+b1                       amd64 
 ii  libconfig-file-perl                1.50-2                             all          Parses simple configuration files
 ii  libcryptsetup4:amd64               2:1.6.6-5                          amd64        disk encryption support - shared library
 ii  libcups2:amd64                     1.7.5-11+deb8u1                    amd64        Common UNIX Printing System(tm) - Core library
-ii  libcurl3:amd64                     7.38.0-4+deb8u6                    amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
-ii  libcurl3-gnutls:amd64              7.38.0-4+deb8u6                    amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii  libcurl3:amd64                     7.38.0-4+deb8u7                    amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii  libcurl3-gnutls:amd64              7.38.0-4+deb8u7                    amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii  libcwidget3:amd64                  0.5.17-2                           amd64        high-level terminal interface library for C++ (runtime files)
 ii  libdaemon0:amd64                   0.14-6                             amd64        lightweight C library for daemons - runtime library
 ii  libdatrie1:amd64                   0.2.8-1                            amd64        Double-array trie library
@@ -624,7 +624,7 @@ ii  texinfo                            5.2.0.dfsg.1-6                     amd64 
 ii  time                               1.7-25                             amd64        GNU time program for measuring CPU resource usage
 ii  tinc                               1.0.24-2.1+b1                      amd64        Virtual Private Network daemon
 ii  traceroute                         1:2.0.20-2+b1                      amd64        Traces the route taken by packets over an IPv4/IPv6 network
-ii  tzdata                             2017b-0+deb8u1                     all          time zone and daylight-saving time data
+ii  tzdata                             2017c-0+deb8u1                     all          time zone and daylight-saving time data
 ii  ucf                                3.0030                             all          Update Configuration File(s): preserve user changes to config files
 ii  udev                               215-17+deb8u7                      amd64        /dev/ and hotplug management daemon
 ii  unattended-upgrades                0.83.3.2+deb8u1                    all          automatic installation of security upgrades
@@ -641,7 +641,7 @@ ii  vnstat                             1.12-2                             amd64 
 ii  vnstati                            1.12-2                             amd64        image output support for vnStat
 ii  w3m                                0.5.3-19+deb8u2                    amd64        WWW browsable pager with excellent tables/frames support
 ii  wamerican                          7.1-1                              all          American English dictionary words for /usr/share/dict
-ii  wget                               1.16-1+deb8u2                      amd64        retrieves files from the web
+ii  wget                               1.16-1+deb8u4                      amd64        retrieves files from the web
 ii  whiptail                           0.52.17-1+b1                       amd64        Displays user-friendly dialog boxes from shell scripts
 ii  whois                              5.2.7                              amd64        intelligent WHOIS client
 ii  xauth                              1:1.0.9-1                          amd64        X authentication utility
