@@ -132,6 +132,7 @@ ii  insserv                              1.14.0-5ubuntu2                        
 ii  install-info                         5.2.0.dfsg.1-2                             amd64        Manage installed documentation in info format
 ii  installation-report                  2.54ubuntu1                                all          system installation report
 ii  iperf                                2.0.5-3                                    amd64        Internet Protocol bandwidth measuring tool
+ii  iperf3                               3.0.7-1~ubuntu14.04.1                      amd64        Internet Protocol bandwidth measuring tool
 ii  iproute                              1:3.12.0-2ubuntu1                          all          transitional dummy package for iproute2
 ii  iproute2                             3.12.0-2ubuntu1                            amd64        networking and traffic control tools
 ii  iptables                             1.4.21-1ubuntu1                            amd64        administration tools for packet filtering and NAT
@@ -266,6 +267,7 @@ ii  libhx509-5-heimdal:amd64             1.6~git20131207+dfsg-1ubuntu1.2        
 ii  libice6:amd64                        2:1.0.8-2                                  amd64        X11 Inter-Client Exchange library
 ii  libidn11:amd64                       1.28-1ubuntu2.2                            amd64        GNU Libidn library, implementation of IETF IDN specifications
 ii  libio-string-perl                    1.08-3                                     all          Emulate IO::File interface for in-core strings
+ii  libiperf0                            3.0.7-1~ubuntu14.04.1                      amd64        Internet Protocol bandwidth measuring tool (runtime files)
 ii  libisc95                             1:9.9.5.dfsg-3ubuntu0.16                   amd64        ISC Shared Library used by BIND
 ii  libisccc90                           1:9.9.5.dfsg-3ubuntu0.16                   amd64        Command Channel Library used by BIND
 ii  libisccfg90                          1:9.9.5.dfsg-3ubuntu0.16                   amd64        Config File Handling Library used by BIND
