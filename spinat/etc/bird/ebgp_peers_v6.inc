@@ -54,6 +54,10 @@ protocol bgp icvpn_franken_fff_icvpn from ebgp_ic {
     neighbor fec0::a:cf:0:17 as 65024;
     passive yes;
 }
+protocol bgp icvpn_frankfurt2 from ebgp_ic {
+    neighbor fec0::a:cf:0:1 as 65026;
+    passive yes;
+}
 protocol bgp icvpn_gera_greiz1 from ebgp_ic {
     neighbor fec0::a:cf:0:b5 as 65181;
 }
