@@ -70,6 +70,9 @@ protocol bgp icvpn_franken_fff_icvpn from ebgp_ic {
 protocol bgp icvpn_frankfurt1 from ebgp_ic {
     neighbor 10.207.0.35 as 65026;
 }
+protocol bgp icvpn_frankfurt2 from ebgp_ic {
+    neighbor 10.207.0.1 as 65026;
+}
 protocol bgp icvpn_gera_greiz1 from ebgp_ic {
     neighbor 10.207.0.181 as 65181;
 }
