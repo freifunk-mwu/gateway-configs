@@ -405,7 +405,7 @@ ii  libsodium13:amd64                  1.0.3-1~wheezy0                    amd64 
 ii  libsqlite3-0:amd64                 3.8.7.1-1+deb8u2                   amd64        SQLite 3 shared library
 ii  libss2:amd64                       1.42.12-2+b1                       amd64        command-line interface parsing library
 ii  libssh2-1:amd64                    1.4.3-4.1+deb8u1                   amd64        SSH2 client-side library
-ii  libssl1.0.0:amd64                  1.0.1t-1+deb8u6                    amd64        Secure Sockets Layer toolkit - shared libraries
+ii  libssl1.0.0:amd64                  1.0.1t-1+deb8u7                    amd64        Secure Sockets Layer toolkit - shared libraries
 ii  libstdc++-4.9-dev:amd64            4.9.2-10                           amd64        GNU Standard C++ Library v3 (development files)
 ii  libstdc++6:amd64                   4.9.2-10                           amd64        GNU Standard C++ Library v3
 ii  libsub-name-perl                   0.12-1                             amd64        module for assigning a new name to referenced sub
@@ -467,16 +467,19 @@ ii  libxrender1:amd64                  1:0.9.8-1+b1                       amd64 
 ii  libxtables10                       1.4.21-2+b1                        amd64        netfilter xtables library
 ii  libyaml-0-2:amd64                  0.1.6-3                            amd64        Fast YAML 1.1 parser and emitter library
 ii  linux-base                         4.3~bpo8+1                         all          Linux image base package
-ii  linux-compiler-gcc-4.9-x86         4.9.30-2+deb9u5~bpo8+1             amd64        Compiler for Linux on x86 (meta-package)
+ii  linux-compiler-gcc-4.9-x86         4.9.51-1~bpo8+1                    amd64        Compiler for Linux on x86 (meta-package)
 ii  linux-headers-4.9.0-0.bpo.2-amd64  4.9.18-1~bpo8+1                    amd64        Header files for Linux 4.9.0-0.bpo.2-amd64
 ii  linux-headers-4.9.0-0.bpo.2-common 4.9.18-1~bpo8+1                    all          Common header files for Linux 4.9.0-0.bpo.2
 ii  linux-headers-4.9.0-0.bpo.3-amd64  4.9.30-2+deb9u5~bpo8+1             amd64        Header files for Linux 4.9.0-0.bpo.3-amd64
 ii  linux-headers-4.9.0-0.bpo.3-common 4.9.30-2+deb9u5~bpo8+1             all          Common header files for Linux 4.9.0-0.bpo.3
-ii  linux-headers-amd64                4.9+80~bpo8+1                      amd64        Header files for Linux amd64 configuration (meta-package)
+ii  linux-headers-4.9.0-0.bpo.4-amd64  4.9.51-1~bpo8+1                    amd64        Header files for Linux 4.9.0-0.bpo.4-amd64
+ii  linux-headers-4.9.0-0.bpo.4-common 4.9.51-1~bpo8+1                    all          Common header files for Linux 4.9.0-0.bpo.4
+ii  linux-headers-amd64                4.9+80+deb9u2~bpo8+1               amd64        Header files for Linux amd64 configuration (meta-package)
 ii  linux-image-4.9.0-0.bpo.2-amd64    4.9.18-1~bpo8+1                    amd64        Linux 4.9 for 64-bit PCs (signed)
 ii  linux-image-4.9.0-0.bpo.3-amd64    4.9.30-2+deb9u5~bpo8+1             amd64        Linux 4.9 for 64-bit PCs
-ii  linux-image-amd64                  4.9+80~bpo8+1                      amd64        Linux for 64-bit PCs (meta-package)
-ii  linux-kbuild-4.9                   4.9.30-2+deb9u5~bpo8+1             amd64        Kbuild infrastructure for Linux 4.9
+ii  linux-image-4.9.0-0.bpo.4-amd64    4.9.51-1~bpo8+1                    amd64        Linux 4.9 for 64-bit PCs
+ii  linux-image-amd64                  4.9+80+deb9u2~bpo8+1               amd64        Linux for 64-bit PCs (meta-package)
+ii  linux-kbuild-4.9                   4.9.51-1~bpo8+1                    amd64        Kbuild infrastructure for Linux 4.9
 ii  linux-libc-dev:amd64               3.16.43-2+deb8u5                   amd64        Linux support headers for userspace development
 ii  locales                            2.19-18+deb8u10                    all          GNU C Library: National Language (locale) data [support]
 ii  login                              1:4.2-3+deb8u4                     amd64        system login tools
@@ -515,7 +518,7 @@ ii  ntp                                1:4.2.6.p5+dfsg-7+deb8u2           amd64 
 ii  openssh-client                     1:6.7p1-5+deb8u3                   amd64        secure shell (SSH) client, for secure access to remote machines
 ii  openssh-server                     1:6.7p1-5+deb8u3                   amd64        secure shell (SSH) server, for secure access from remote machines
 ii  openssh-sftp-server                1:6.7p1-5+deb8u3                   amd64        secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii  openssl                            1.0.1t-1+deb8u6                    amd64        Secure Sockets Layer toolkit - cryptographic utility
+ii  openssl                            1.0.1t-1+deb8u7                    amd64        Secure Sockets Layer toolkit - cryptographic utility
 ii  os-prober                          1.65+deb8u1                        amd64        utility to detect other OSes on a set of drives
 ii  passwd                             1:4.2-3+deb8u4                     amd64        change and administer password and group data
 ii  patch                              2.7.5-1                            amd64        Apply a diff file to an original
