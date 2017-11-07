@@ -539,6 +539,10 @@ zone "ffffm" {
     type static-stub;
     server-addresses { 10.126.255.14; };
 };
+zone "b.f.7.8.1.8.6.0.d.f.ip6.arpa" {
+    type static-stub;
+    server-addresses { 10.126.255.14; };
+};
 zone "126.10.in-addr.arpa" {
     type static-stub;
     server-addresses { 10.126.255.14; };
