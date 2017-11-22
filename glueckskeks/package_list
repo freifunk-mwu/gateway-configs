@@ -221,7 +221,7 @@ ii  libcurl3:amd64                       7.35.0-1ubuntu2.12                     
 ii  libcurl3-gnutls:amd64                7.35.0-1ubuntu2.12                         amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii  libcwidget3                          0.5.16-3.5ubuntu1                          amd64        high-level terminal interface library for C++ (runtime files)
 ii  libdatrie1:amd64                     0.2.8-1                                    amd64        Double-array trie library
-ii  libdb5.3:amd64                       5.3.28-3ubuntu3                            amd64        Berkeley v5.3 Database Libraries [runtime]
+ii  libdb5.3:amd64                       5.3.28-3ubuntu3.1                          amd64        Berkeley v5.3 Database Libraries [runtime]
 ii  libdbd-mysql-perl                    4.025-1ubuntu0.1                           amd64        Perl5 database interface to the MySQL database
 ii  libdbi-perl                          1.630-1                                    amd64        Perl Database Interface (DBI)
 ii  libdbi1:amd64                        0.9.0-1                                    amd64        DB Independent Abstraction Layer for C -- shared library
