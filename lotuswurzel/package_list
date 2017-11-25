@@ -204,7 +204,7 @@ ii  libdatetime-locale-perl              1:0.45-2                               
 ii  libdatetime-perl                     2:1.06-1                                   amd64        module for manipulating dates, times and timestamps
 ii  libdatetime-timezone-perl            1:1.63-1+2013h                             all          framework exposing the Olson time zone database to Perl
 ii  libdatrie1:amd64                     0.2.8-1                                    amd64        Double-array trie library
-ii  libdb5.3:amd64                       5.3.28-3ubuntu3                            amd64        Berkeley v5.3 Database Libraries [runtime]
+ii  libdb5.3:amd64                       5.3.28-3ubuntu3.1                          amd64        Berkeley v5.3 Database Libraries [runtime]
 ii  libdbi1:amd64                        0.9.0-1                                    amd64        DB Independent Abstraction Layer for C -- shared library
 ii  libdbus-1-3:amd64                    1.6.18-0ubuntu4.5                          amd64        simple interprocess messaging system (library)
 ii  libdbus-glib-1-2:amd64               0.100.2-1                                  amd64        simple interprocess messaging system (GLib-based shared library)
