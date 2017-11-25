@@ -112,6 +112,7 @@ protocol bgp icvpn_muenchen1 from ebgp_ic {
 }
 protocol bgp icvpn_mueritz_bgp1 from ebgp_ic {
     neighbor fec0::a:cf:0:8a as 65534;
+    passive yes;
 }
 protocol bgp icvpn_pinneberg from ebgp_ic {
     neighbor fec0::a:cf:0:1e as 65433;
