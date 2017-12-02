@@ -59,7 +59,7 @@ ii  cpp                                4:4.9.2-2                          amd64 
 ii  cpp-4.8                            4.8.4-1                            amd64        GNU C preprocessor
 ii  cpp-4.9                            4.9.2-10                           amd64        GNU C preprocessor
 ii  cron                               3.0pl1-127+deb8u1                  amd64        process scheduling daemon
-ii  curl                               7.38.0-4+deb8u7                    amd64        command line tool for transferring data with URL syntax
+ii  curl                               7.38.0-4+deb8u8                    amd64        command line tool for transferring data with URL syntax
 ii  dash                               0.5.7-4+b1                         amd64        POSIX-compliant shell
 ii  dbus                               1.8.22-0+deb8u1                    amd64        simple interprocess messaging system (daemon and utilities)
 ii  dc                                 1.06.95-9                          amd64        GNU dc arbitrary precision reverse-polish calculator
@@ -219,8 +219,8 @@ ii  libcomerr2:amd64                   1.42.12-2+b1                       amd64 
 ii  libconfig-file-perl                1.50-2                             all          Parses simple configuration files
 ii  libcryptsetup4:amd64               2:1.6.6-5                          amd64        disk encryption support - shared library
 ii  libcups2:amd64                     1.7.5-11+deb8u1                    amd64        Common UNIX Printing System(tm) - Core library
-ii  libcurl3:amd64                     7.38.0-4+deb8u7                    amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
-ii  libcurl3-gnutls:amd64              7.38.0-4+deb8u7                    amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii  libcurl3:amd64                     7.38.0-4+deb8u8                    amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii  libcurl3-gnutls:amd64              7.38.0-4+deb8u8                    amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii  libcwidget3:amd64                  0.5.17-2                           amd64        high-level terminal interface library for C++ (runtime files)
 ii  libdaemon0:amd64                   0.14-6                             amd64        lightweight C library for daemons - runtime library
 ii  libdatrie1:amd64                   0.2.8-1                            amd64        Double-array trie library
@@ -468,14 +468,12 @@ ii  libxtables10                       1.4.21-2+b1                        amd64 
 ii  libyaml-0-2:amd64                  0.1.6-3                            amd64        Fast YAML 1.1 parser and emitter library
 ii  linux-base                         4.3~bpo8+1                         all          Linux image base package
 ii  linux-compiler-gcc-4.9-x86         4.9.51-1~bpo8+1                    amd64        Compiler for Linux on x86 (meta-package)
-ii  linux-headers-4.9.0-0.bpo.2-amd64  4.9.18-1~bpo8+1                    amd64        Header files for Linux 4.9.0-0.bpo.2-amd64
-ii  linux-headers-4.9.0-0.bpo.2-common 4.9.18-1~bpo8+1                    all          Common header files for Linux 4.9.0-0.bpo.2
 ii  linux-headers-4.9.0-0.bpo.3-amd64  4.9.30-2+deb9u5~bpo8+1             amd64        Header files for Linux 4.9.0-0.bpo.3-amd64
 ii  linux-headers-4.9.0-0.bpo.3-common 4.9.30-2+deb9u5~bpo8+1             all          Common header files for Linux 4.9.0-0.bpo.3
 ii  linux-headers-4.9.0-0.bpo.4-amd64  4.9.51-1~bpo8+1                    amd64        Header files for Linux 4.9.0-0.bpo.4-amd64
 ii  linux-headers-4.9.0-0.bpo.4-common 4.9.51-1~bpo8+1                    all          Common header files for Linux 4.9.0-0.bpo.4
 ii  linux-headers-amd64                4.9+80+deb9u2~bpo8+1               amd64        Header files for Linux amd64 configuration (meta-package)
-ii  linux-image-4.9.0-0.bpo.2-amd64    4.9.18-1~bpo8+1                    amd64        Linux 4.9 for 64-bit PCs (signed)
+rc  linux-image-4.9.0-0.bpo.2-amd64    4.9.18-1~bpo8+1                    amd64        Linux 4.9 for 64-bit PCs (signed)
 ii  linux-image-4.9.0-0.bpo.3-amd64    4.9.30-2+deb9u5~bpo8+1             amd64        Linux 4.9 for 64-bit PCs
 ii  linux-image-4.9.0-0.bpo.4-amd64    4.9.51-1~bpo8+1                    amd64        Linux 4.9 for 64-bit PCs
 ii  linux-image-amd64                  4.9+80+deb9u2~bpo8+1               amd64        Linux for 64-bit PCs (meta-package)
