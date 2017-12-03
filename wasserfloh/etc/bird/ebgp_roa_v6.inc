@@ -54,6 +54,8 @@ roa 2001:bf7:10::/44         max  64 as      65056; # flensburg
 roa fda0:747e:ab29:9375::/64 max  64 as      65125; # flingern
 roa fdff:49:461::/48         max  64 as 4242420420; # foerdefunk-flensburg
 roa fddb:2cb:9699::/48       max  64 as      64890; # frankenberg
+roa 2a06:8187:fb00::/40      max  64 as      65026; # frankfurt
+roa fd06:8187:fb00::/40      max  64 as      65026; # frankfurt
 roa fddd:5d16:b5dd::/48      max  64 as      65026; # frankfurt
 roa fdf4:a50a:5c1f::/64      max  64 as      64879; # freemesh-denmark
 roa 2001:bf7:2810::/44       max  64 as      65060; # freiburg

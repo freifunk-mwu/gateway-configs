@@ -59,7 +59,7 @@ ii  cpp                                  4:4.8.2-1ubuntu6                       
 ii  cpp-4.8                              4.8.4-2ubuntu1~14.04.3                     amd64        GNU C preprocessor
 ii  crda                                 1.1.2-1ubuntu2                             amd64        wireless Central Regulatory Domain Agent
 ii  cron                                 3.0pl1-124ubuntu2                          amd64        process scheduling daemon
-ii  curl                                 7.35.0-1ubuntu2.12                         amd64        command line tool for transferring data with URL syntax
+ii  curl                                 7.35.0-1ubuntu2.13                         amd64        command line tool for transferring data with URL syntax
 ii  dash                                 0.5.7-4ubuntu1                             amd64        POSIX-compliant shell
 ii  dbus                                 1.6.18-0ubuntu4.5                          amd64        simple interprocess messaging system (daemon and utilities)
 ii  debconf                              1.5.51ubuntu2                              all          Debian configuration management system
@@ -194,8 +194,8 @@ ii  libclass-load-perl                   0.20-1                                 
 ii  libclass-singleton-perl              1.4-1                                      all          implementation of a "Singleton" class
 ii  libcloog-isl4:amd64                  0.18.2-1                                   amd64        Chunky Loop Generator (runtime library)
 ii  libcomerr2:amd64                     1.42.9-3ubuntu1.3                          amd64        common error description library
-ii  libcurl3:amd64                       7.35.0-1ubuntu2.12                         amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
-ii  libcurl3-gnutls:amd64                7.35.0-1ubuntu2.12                         amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii  libcurl3:amd64                       7.35.0-1ubuntu2.13                         amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii  libcurl3-gnutls:amd64                7.35.0-1ubuntu2.13                         amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii  libcwidget3                          0.5.16-3.5ubuntu1                          amd64        high-level terminal interface library for C++ (runtime files)
 ii  libdaemon0                           0.14-2ubuntu1                              amd64        lightweight C library for daemons - runtime library
 ii  libdata-optlist-perl                 0.109-1                                    all          module to parse and validate simple name/value option pairs
@@ -347,16 +347,16 @@ ii  libprocps3:amd64                     1:3.3.9-1ubuntu2.2                     
 ii  libprotobuf8:amd64                   2.5.0-9ubuntu1                             amd64        protocol buffers C++ library
 ii  libpython-dev:amd64                  2.7.5-5ubuntu3                             amd64        header files and a static library for Python (default)
 ii  libpython-stdlib:amd64               2.7.5-5ubuntu3                             amd64        interactive high-level object-oriented language (default python version)
-ii  libpython2.7:amd64                   2.7.6-8ubuntu0.3                           amd64        Shared Python runtime library (version 2.7)
-ii  libpython2.7-dev:amd64               2.7.6-8ubuntu0.3                           amd64        Header files and a static library for Python (v2.7)
-ii  libpython2.7-minimal:amd64           2.7.6-8ubuntu0.3                           amd64        Minimal subset of the Python language (version 2.7)
-ii  libpython2.7-stdlib:amd64            2.7.6-8ubuntu0.3                           amd64        Interactive high-level object-oriented language (standard library, version 2.7)
+ii  libpython2.7:amd64                   2.7.6-8ubuntu0.4                           amd64        Shared Python runtime library (version 2.7)
+ii  libpython2.7-dev:amd64               2.7.6-8ubuntu0.4                           amd64        Header files and a static library for Python (v2.7)
+ii  libpython2.7-minimal:amd64           2.7.6-8ubuntu0.4                           amd64        Minimal subset of the Python language (version 2.7)
+ii  libpython2.7-stdlib:amd64            2.7.6-8ubuntu0.4                           amd64        Interactive high-level object-oriented language (standard library, version 2.7)
 ii  libpython3-dev:amd64                 3.4.0-0ubuntu2                             amd64        header files and a static library for Python (default)
 ii  libpython3-stdlib:amd64              3.4.0-0ubuntu2                             amd64        interactive high-level object-oriented language (default python3 version)
-ii  libpython3.4:amd64                   3.4.3-1ubuntu1~14.04.5                     amd64        Shared Python runtime library (version 3.4)
-ii  libpython3.4-dev:amd64               3.4.3-1ubuntu1~14.04.5                     amd64        Header files and a static library for Python (v3.4)
-ii  libpython3.4-minimal:amd64           3.4.3-1ubuntu1~14.04.5                     amd64        Minimal subset of the Python language (version 3.4)
-ii  libpython3.4-stdlib:amd64            3.4.3-1ubuntu1~14.04.5                     amd64        Interactive high-level object-oriented language (standard library, version 3.4)
+ii  libpython3.4:amd64                   3.4.3-1ubuntu1~14.04.6                     amd64        Shared Python runtime library (version 3.4)
+ii  libpython3.4-dev:amd64               3.4.3-1ubuntu1~14.04.6                     amd64        Header files and a static library for Python (v3.4)
+ii  libpython3.4-minimal:amd64           3.4.3-1ubuntu1~14.04.6                     amd64        Minimal subset of the Python language (version 3.4)
+ii  libpython3.4-stdlib:amd64            3.4.3-1ubuntu1~14.04.6                     amd64        Interactive high-level object-oriented language (standard library, version 3.4)
 ii  libquadmath0:amd64                   4.8.4-2ubuntu1~14.04.3                     amd64        GCC Quad-Precision Math Library
 ii  libreadline5:amd64                   5.2+dfsg-2                                 amd64        GNU readline and history libraries, run-time libraries
 ii  libreadline6:amd64                   6.3-4ubuntu2                               amd64        GNU readline and history libraries, run-time libraries
@@ -631,9 +631,9 @@ ii  python-wheel                         0.24.0-1~ubuntu1                       
 ii  python-xapian                        1.2.16-2ubuntu1                            amd64        Xapian search engine interface for Python
 ii  python-yaml                          3.10-4ubuntu0.1                            amd64        YAML parser and emitter for Python
 ii  python-zope.interface                4.0.5-1ubuntu4                             amd64        Interfaces for Python
-ii  python2.7                            2.7.6-8ubuntu0.3                           amd64        Interactive high-level object-oriented language (version 2.7)
-ii  python2.7-dev                        2.7.6-8ubuntu0.3                           amd64        Header files and a static library for Python (v2.7)
-ii  python2.7-minimal                    2.7.6-8ubuntu0.3                           amd64        Minimal subset of the Python language (version 2.7)
+ii  python2.7                            2.7.6-8ubuntu0.4                           amd64        Interactive high-level object-oriented language (version 2.7)
+ii  python2.7-dev                        2.7.6-8ubuntu0.4                           amd64        Header files and a static library for Python (v2.7)
+ii  python2.7-minimal                    2.7.6-8ubuntu0.4                           amd64        Minimal subset of the Python language (version 2.7)
 ii  python3                              3.4.0-0ubuntu2                             amd64        interactive high-level object-oriented language (default python3 version)
 ii  python3-apport                       2.14.1-0ubuntu3.27                         all          Python 3 library for Apport crash report handling
 ii  python3-apt                          0.9.3.5ubuntu2                             amd64        Python 3 interface to libapt-pkg
@@ -669,9 +669,9 @@ ii  python3-urllib3                      1.7.1-1ubuntu4                         
 ii  python3-werkzeug                     0.9.4+dfsg-1.1ubuntu2.1                    all          collection of utilities for WSGI applications
 ii  python3-wheel                        0.24.0-1~ubuntu1                           all          built-package format for Python
 ii  python3-yaml                         3.10-4ubuntu0.1                            amd64        YAML parser and emitter for Python3
-ii  python3.4                            3.4.3-1ubuntu1~14.04.5                     amd64        Interactive high-level object-oriented language (version 3.4)
-ii  python3.4-dev                        3.4.3-1ubuntu1~14.04.5                     amd64        Header files and a static library for Python (v3.4)
-ii  python3.4-minimal                    3.4.3-1ubuntu1~14.04.5                     amd64        Minimal subset of the Python language (version 3.4)
+ii  python3.4                            3.4.3-1ubuntu1~14.04.6                     amd64        Interactive high-level object-oriented language (version 3.4)
+ii  python3.4-dev                        3.4.3-1ubuntu1~14.04.6                     amd64        Header files and a static library for Python (v3.4)
+ii  python3.4-minimal                    3.4.3-1ubuntu1~14.04.6                     amd64        Minimal subset of the Python language (version 3.4)
 ii  radvd                                1:1.9.1-1.1ubuntu2                         amd64        Router Advertisement Daemon
 ii  readline-common                      6.3-4ubuntu2                               all          GNU readline and history libraries, common files
 ii  resolvconf                           1.69ubuntu1.1                              all          name server information handler
