@@ -2,7 +2,7 @@
 ;
 $TTL	600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2017022100		; Serial
+		     2017110700		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -35,6 +35,8 @@ ingwer		IN	CNAME	ingwer.freifunk-mwu.de.
 gate161		IN	CNAME	ingwer.freifunk-mwu.de.
 extrasahne	IN	CNAME	extrasahne.freifunk-mwu.de.
 gate42		IN	CNAME	extrasahne.freifunk-mwu.de.
+uffschnitt	IN	CNAME	uffschnitt.freifunk-mwu.de.
+gate101		IN	CNAME	uffschnitt.freifunk-mwu.de.
 
 ; services and stuff
 www		IN	CNAME	zuckerwatte.freifunk-mwu.de.

@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2017101901		; Serial
+		     2017110700		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -31,7 +31,7 @@ linse		IN	AAAA	2a01:4f8:192:521::b4dc:4b1e
 eisen		IN	A	193.111.140.90
 eisen		IN	AAAA	2001:4ba0:fffc:3d::b4dc:4b1e
 sushi		IN	A	94.130.21.214
-sushi		IN	AAAA	2a01:4f8:10b:1b29::2
+sushi		IN	AAAA	2a01:4f8:10b:1b29::1
 
 ; gluon gateways
 spinat          IN      A       46.20.37.226
@@ -55,7 +55,9 @@ gate231		IN	CNAME	wasserfloh
 icvpn231	IN	CNAME	wasserfloh
 
 uffschnitt	IN	A	94.130.21.201
-uffschnitt	IN	AAAA	2a01:4f8:10a:3e41::2
+uffschnitt	IN	AAAA	2a01:4f8:10b:1b29::2
+gate101		IN	CNAME	uffschnitt
+icvpn101	IN	CNAME	uffschnitt
 
 extrasahne	IN	A	82.149.226.105
 ;extrasahne	IN	AAAA	2a01:4f8:190:7008:2800::1

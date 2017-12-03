@@ -12,7 +12,7 @@ ii  apache2-bin                          2.4.7-1ubuntu4.18                      
 ii  apache2-data                         2.4.7-1ubuntu4.18                          all          Apache HTTP Server (common files)
 ii  apache2-doc                          2.4.7-1ubuntu4.18                          all          Apache HTTP Server (on-site documentation)
 ii  apache2-utils                        2.4.7-1ubuntu4.18                          amd64        Apache HTTP Server (utility programs for web servers)
-ii  apport                               2.14.1-0ubuntu3.25                         all          automatically generate crash reports for debugging
+ii  apport                               2.14.1-0ubuntu3.27                         all          automatically generate crash reports for debugging
 ii  apport-symptoms                      0.20                                       all          symptom scripts for apport
 ii  apt                                  1.0.1ubuntu2.17                            amd64        commandline package manager
 ii  apt-transport-https                  1.0.1ubuntu2.17                            amd64        https download transport for APT
@@ -187,7 +187,7 @@ ii  libcurl3:amd64                       7.35.0-1ubuntu2.12                     
 ii  libcurl3-gnutls:amd64                7.35.0-1ubuntu2.12                         amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii  libcwidget3                          0.5.16-3.5ubuntu1                          amd64        high-level terminal interface library for C++ (runtime files)
 ii  libdatrie1:amd64                     0.2.8-1                                    amd64        Double-array trie library
-ii  libdb5.3:amd64                       5.3.28-3ubuntu3                            amd64        Berkeley v5.3 Database Libraries [runtime]
+ii  libdb5.3:amd64                       5.3.28-3ubuntu3.1                          amd64        Berkeley v5.3 Database Libraries [runtime]
 ii  libdbi1:amd64                        0.9.0-1                                    amd64        DB Independent Abstraction Layer for C -- shared library
 ii  libdbus-1-3:amd64                    1.6.18-0ubuntu4.5                          amd64        simple interprocess messaging system (library)
 ii  libdbus-glib-1-2:amd64               0.100.2-1                                  amd64        simple interprocess messaging system (GLib-based shared library)
@@ -353,20 +353,20 @@ ii  libpolkit-agent-1-0:amd64            0.105-4ubuntu3.14.04.1                 
 ii  libpolkit-backend-1-0:amd64          0.105-4ubuntu3.14.04.1                     amd64        PolicyKit backend API
 ii  libpolkit-gobject-1-0:amd64          0.105-4ubuntu3.14.04.1                     amd64        PolicyKit Authorization API
 ii  libpopt0:amd64                       1.16-8ubuntu1                              amd64        lib for parsing cmdline parameters
-ii  libpq5                               9.3.19-0ubuntu0.14.04                      amd64        PostgreSQL C client library
+ii  libpq5                               9.3.20-0ubuntu0.14.04                      amd64        PostgreSQL C client library
 ii  libprocps3:amd64                     1:3.3.9-1ubuntu2.2                         amd64        library for accessing process information from /proc
 ii  libpython-dev:amd64                  2.7.5-5ubuntu3                             amd64        header files and a static library for Python (default)
 ii  libpython-stdlib:amd64               2.7.5-5ubuntu3                             amd64        interactive high-level object-oriented language (default python version)
-ii  libpython2.7:amd64                   2.7.6-8ubuntu0.3                           amd64        Shared Python runtime library (version 2.7)
-ii  libpython2.7-dev:amd64               2.7.6-8ubuntu0.3                           amd64        Header files and a static library for Python (v2.7)
-ii  libpython2.7-minimal:amd64           2.7.6-8ubuntu0.3                           amd64        Minimal subset of the Python language (version 2.7)
-ii  libpython2.7-stdlib:amd64            2.7.6-8ubuntu0.3                           amd64        Interactive high-level object-oriented language (standard library, version 2.7)
+ii  libpython2.7:amd64                   2.7.6-8ubuntu0.4                           amd64        Shared Python runtime library (version 2.7)
+ii  libpython2.7-dev:amd64               2.7.6-8ubuntu0.4                           amd64        Header files and a static library for Python (v2.7)
+ii  libpython2.7-minimal:amd64           2.7.6-8ubuntu0.4                           amd64        Minimal subset of the Python language (version 2.7)
+ii  libpython2.7-stdlib:amd64            2.7.6-8ubuntu0.4                           amd64        Interactive high-level object-oriented language (standard library, version 2.7)
 ii  libpython3-dev:amd64                 3.4.0-0ubuntu2                             amd64        header files and a static library for Python (default)
 ii  libpython3-stdlib:amd64              3.4.0-0ubuntu2                             amd64        interactive high-level object-oriented language (default python3 version)
-ii  libpython3.4:amd64                   3.4.3-1ubuntu1~14.04.5                     amd64        Shared Python runtime library (version 3.4)
-ii  libpython3.4-dev:amd64               3.4.3-1ubuntu1~14.04.5                     amd64        Header files and a static library for Python (v3.4)
-ii  libpython3.4-minimal:amd64           3.4.3-1ubuntu1~14.04.5                     amd64        Minimal subset of the Python language (version 3.4)
-ii  libpython3.4-stdlib:amd64            3.4.3-1ubuntu1~14.04.5                     amd64        Interactive high-level object-oriented language (standard library, version 3.4)
+ii  libpython3.4:amd64                   3.4.3-1ubuntu1~14.04.6                     amd64        Shared Python runtime library (version 3.4)
+ii  libpython3.4-dev:amd64               3.4.3-1ubuntu1~14.04.6                     amd64        Header files and a static library for Python (v3.4)
+ii  libpython3.4-minimal:amd64           3.4.3-1ubuntu1~14.04.6                     amd64        Minimal subset of the Python language (version 3.4)
+ii  libpython3.4-stdlib:amd64            3.4.3-1ubuntu1~14.04.6                     amd64        Interactive high-level object-oriented language (standard library, version 3.4)
 ii  libquadmath0:amd64                   4.8.4-2ubuntu1~14.04.3                     amd64        GCC Quad-Precision Math Library
 ii  libreadline-dev:amd64                6.3-4ubuntu2                               amd64        GNU readline and history libraries, development files
 ii  libreadline5:amd64                   5.2+dfsg-2                                 amd64        GNU readline and history libraries, run-time libraries
@@ -394,9 +394,9 @@ ii  libsocket6-perl                      0.25-1                                 
 ii  libsodium13:amd64                    1.0.3-1~wheezy0                            amd64        Network communication, cryptography and signaturing library
 ii  libsqlite3-0:amd64                   3.8.2-1ubuntu2.1                           amd64        SQLite 3 shared library
 ii  libss2:amd64                         1.42.9-3ubuntu1.3                          amd64        command-line interface parsing library
-ii  libssl-dev:amd64                     1.0.1f-1ubuntu2.22                         amd64        Secure Sockets Layer toolkit - development files
-ii  libssl-doc                           1.0.1f-1ubuntu2.22                         all          Secure Sockets Layer toolkit - development documentation
-ii  libssl1.0.0:amd64                    1.0.1f-1ubuntu2.22                         amd64        Secure Sockets Layer toolkit - shared libraries
+ii  libssl-dev:amd64                     1.0.1f-1ubuntu2.23                         amd64        Secure Sockets Layer toolkit - development files
+ii  libssl-doc                           1.0.1f-1ubuntu2.23                         all          Secure Sockets Layer toolkit - development documentation
+ii  libssl1.0.0:amd64                    1.0.1f-1ubuntu2.23                         amd64        Secure Sockets Layer toolkit - shared libraries
 ii  libstdc++-4.8-dev:amd64              4.8.4-2ubuntu1~14.04.3                     amd64        GNU Standard C++ Library v3 (development files)
 ii  libstdc++6:amd64                     4.8.4-2ubuntu1~14.04.3                     amd64        GNU Standard C++ Library v3
 ii  libsub-name-perl                     0.05-1build4                               amd64        module for assigning a new name to referenced sub
@@ -591,14 +591,14 @@ ii  ntpdate                              1:4.2.6.p5+dfsg-3ubuntu2.14.04.12      
 ii  openssh-client                       1:6.6p1-2ubuntu2.8                         amd64        secure shell (SSH) client, for secure access to remote machines
 ii  openssh-server                       1:6.6p1-2ubuntu2.8                         amd64        secure shell (SSH) server, for secure access from remote machines
 ii  openssh-sftp-server                  1:6.6p1-2ubuntu2.8                         amd64        secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii  openssl                              1.0.1f-1ubuntu2.22                         amd64        Secure Sockets Layer toolkit - cryptographic utility
+ii  openssl                              1.0.1f-1ubuntu2.23                         amd64        Secure Sockets Layer toolkit - cryptographic utility
 ii  os-prober                            1.63ubuntu1.1                              amd64        utility to detect other OSes on a set of drives
 ii  passwd                               1:4.1.5.1-1ubuntu9.5                       amd64        change and administer password and group data
 ii  patch                                2.7.1-4ubuntu2.3                           amd64        Apply a diff file to an original
 ii  pciutils                             1:3.2.1-1ubuntu5.1                         amd64        Linux PCI Utilities
-ii  perl                                 5.18.2-2ubuntu1.1                          amd64        Larry Wall's Practical Extraction and Report Language
-ii  perl-base                            5.18.2-2ubuntu1.1                          amd64        minimal Perl system
-ii  perl-modules                         5.18.2-2ubuntu1.1                          all          Core Perl modules
+ii  perl                                 5.18.2-2ubuntu1.3                          amd64        Larry Wall's Practical Extraction and Report Language
+ii  perl-base                            5.18.2-2ubuntu1.3                          amd64        minimal Perl system
+ii  perl-modules                         5.18.2-2ubuntu1.3                          all          Core Perl modules
 ii  php5-common                          5.5.9+dfsg-1ubuntu4.22                     amd64        Common files for packages built from the php5 source
 ii  php5-imap                            5.4.6-0ubuntu5                             amd64        IMAP module for php5
 ii  php5-json                            1.3.2-2build1                              amd64        JSON module for php5
@@ -679,11 +679,11 @@ ii  python-xapian                        1.2.16-2ubuntu1                        
 ii  python-xappy                         0.5-5                                      all          easy-to-use interface to the Xapian search engine
 ii  python-yaml                          3.10-4ubuntu0.1                            amd64        YAML parser and emitter for Python
 ii  python-zope.interface                4.0.5-1ubuntu4                             amd64        Interfaces for Python
-ii  python2.7                            2.7.6-8ubuntu0.3                           amd64        Interactive high-level object-oriented language (version 2.7)
-ii  python2.7-dev                        2.7.6-8ubuntu0.3                           amd64        Header files and a static library for Python (v2.7)
-ii  python2.7-minimal                    2.7.6-8ubuntu0.3                           amd64        Minimal subset of the Python language (version 2.7)
+ii  python2.7                            2.7.6-8ubuntu0.4                           amd64        Interactive high-level object-oriented language (version 2.7)
+ii  python2.7-dev                        2.7.6-8ubuntu0.4                           amd64        Header files and a static library for Python (v2.7)
+ii  python2.7-minimal                    2.7.6-8ubuntu0.4                           amd64        Minimal subset of the Python language (version 2.7)
 ii  python3                              3.4.0-0ubuntu2                             amd64        interactive high-level object-oriented language (default python3 version)
-ii  python3-apport                       2.14.1-0ubuntu3.25                         all          Python 3 library for Apport crash report handling
+ii  python3-apport                       2.14.1-0ubuntu3.27                         all          Python 3 library for Apport crash report handling
 ii  python3-apt                          0.9.3.5ubuntu2                             amd64        Python 3 interface to libapt-pkg
 ii  python3-chardet                      2.2.1-2~ubuntu1                            all          universal character encoding detector for Python3
 ii  python3-colorama                     0.2.5-0.1ubuntu2                           all          Cross-platform colored terminal text in Python - Python 3.x
@@ -706,7 +706,7 @@ ii  python3-newt                         0.52.15-2ubuntu5                       
 ii  python3-openssl                      0.13-2ubuntu6                              amd64        Python 3 wrapper around the OpenSSL library
 ii  python3-pip                          1.5.4-1ubuntu4                             all          alternative Python package installer - Python 3 version of the package
 ii  python3-pkg-resources                3.3-1ubuntu2                               all          Package Discovery and Resource Access using pkg_resources
-ii  python3-problem-report               2.14.1-0ubuntu3.25                         all          Python 3 library to handle problem reports
+ii  python3-problem-report               2.14.1-0ubuntu3.27                         all          Python 3 library to handle problem reports
 ii  python3-pycurl                       7.19.3-0ubuntu3                            amd64        Python 3 bindings to libcurl
 ii  python3-pyinotify                    0.9.4-1build1                              all          simple Linux inotify Python bindings
 ii  python3-requests                     2.2.1-1ubuntu0.3                           all          elegant and simple HTTP library for Python3, built for human beings
@@ -718,9 +718,9 @@ ii  python3-urllib3                      1.7.1-1ubuntu4                         
 ii  python3-werkzeug                     0.9.4+dfsg-1.1ubuntu2.1                    all          collection of utilities for WSGI applications
 ii  python3-wheel                        0.24.0-1~ubuntu1                           all          built-package format for Python
 ii  python3-yaml                         3.10-4ubuntu0.1                            amd64        YAML parser and emitter for Python3
-ii  python3.4                            3.4.3-1ubuntu1~14.04.5                     amd64        Interactive high-level object-oriented language (version 3.4)
-ii  python3.4-dev                        3.4.3-1ubuntu1~14.04.5                     amd64        Header files and a static library for Python (v3.4)
-ii  python3.4-minimal                    3.4.3-1ubuntu1~14.04.5                     amd64        Minimal subset of the Python language (version 3.4)
+ii  python3.4                            3.4.3-1ubuntu1~14.04.6                     amd64        Interactive high-level object-oriented language (version 3.4)
+ii  python3.4-dev                        3.4.3-1ubuntu1~14.04.6                     amd64        Header files and a static library for Python (v3.4)
+ii  python3.4-minimal                    3.4.3-1ubuntu1~14.04.6                     amd64        Minimal subset of the Python language (version 3.4)
 ii  readline-common                      6.3-4ubuntu2                               all          GNU readline and history libraries, common files
 ii  resolvconf                           1.69ubuntu1.1                              all          name server information handler
 ii  ri1.9.1                              1.9.3.484-2ubuntu1.5                       all          Ruby Interactive reference (for Ruby 1.9.1)
@@ -781,7 +781,7 @@ ii  traceroute                           1:2.0.20-0ubuntu0.1                    
 ii  ttf-dejavu                           2.34-1ubuntu1                              all          transitional dummy package
 ii  ttf-dejavu-core                      2.34-1ubuntu1                              all          transitional dummy package
 ii  ttf-dejavu-extra                     2.34-1ubuntu1                              all          transitional dummy package
-ii  tzdata                               2016j-0ubuntu0.14.04                       all          time zone and daylight-saving time data
+ii  tzdata                               2017c-0ubuntu0.14.04                       all          time zone and daylight-saving time data
 ii  ubuntu-keyring                       2012.05.19                                 all          GnuPG keys of the Ubuntu archive
 ii  ubuntu-minimal                       1.325                                      amd64        Minimal core of Ubuntu
 ii  ubuntu-release-upgrader-core         1:0.220.9                                  all          manage release upgrades
