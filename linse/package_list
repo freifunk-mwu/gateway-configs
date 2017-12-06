@@ -306,7 +306,7 @@ ii  libxau6:amd64                    1:1.0.8-1                                  
 ii  libxcb1:amd64                    1.10-2ubuntu1                              amd64        X C Binding
 ii  libxdmcp6:amd64                  1:1.1.1-1                                  amd64        X11 Display Manager Control Protocol library
 ii  libxext6:amd64                   2:1.3.2-1ubuntu0.0.14.04.1                 amd64        X11 miscellaneous extension library
-ii  libxml2:amd64                    2.9.1+dfsg1-3ubuntu4.10                    amd64        GNOME XML library
+ii  libxml2:amd64                    2.9.1+dfsg1-3ubuntu4.11                    amd64        GNOME XML library
 ii  libxmuu1:amd64                   2:1.1.1-1                                  amd64        X11 miscellaneous micro-utility library
 ii  libxtables10                     1.4.21-1ubuntu1                            amd64        netfilter xtables library
 ii  linux-headers-3.13.0-129         3.13.0-129.178                             all          Header files related to Linux kernel version 3.13.0
