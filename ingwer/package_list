@@ -603,7 +603,7 @@ ii  rsync                              3.1.1-3+deb8u1                     amd64 
 ii  rsyslog                            8.4.2-1+deb8u2                     amd64        reliable system and kernel logging daemon
 ii  screen                             4.2.1-3+deb8u1                     amd64        terminal multiplexer with VT100/ANSI terminal emulation
 ii  sed                                4.2.2-4+deb8u1                     amd64        The GNU sed stream editor
-ii  sensible-utils                     0.0.9                              all          Utilities for sensible alternative selection
+ii  sensible-utils                     0.0.9+deb8u1                       all          Utilities for sensible alternative selection
 ii  sgml-base                          1.26+nmu4                          all          SGML infrastructure and SGML catalog file support
 ii  shared-mime-info                   1.3-1                              amd64        FreeDesktop.org shared MIME database and spec
 ii  software-properties-common         0.92.25debian1                     all          manage the repositories that you install software from (common)
