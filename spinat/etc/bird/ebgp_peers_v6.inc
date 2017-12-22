@@ -81,9 +81,14 @@ protocol bgp icvpn_hamburg03 from ebgp_ic {
 }
 protocol bgp icvpn_innsbruck_ffibk1 from ebgp_ic {
     neighbor fec0::a:cf:0:43 as 65052;
+    passive yes;
 }
 protocol bgp icvpn_innsbruck_ffibk2 from ebgp_ic {
     neighbor fec0::a:cf:0:45 as 65052;
+    passive yes;
+}
+protocol bgp icvpn_jena1 from ebgp_ic {
+    neighbor fec0::a:cf:0:33 as 65055;
     passive yes;
 }
 protocol bgp icvpn_kiel0 from ebgp_ic {

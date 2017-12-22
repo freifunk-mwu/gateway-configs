@@ -99,6 +99,7 @@ roa 10.39.0.0/18    max  20 as      64876; # lausitz
 roa 10.21.0.0/16    max  20 as      64780; # leichlingen
 roa 10.59.0.0/21    max  21 as      65041; # leipzig
 roa 10.59.16.0/20   max  20 as      65041; # leipzig
+roa 10.59.32.0/20   max  20 as      65041; # leipzig
 roa 10.61.0.0/16    max  20 as      65041; # leipzig
 roa 10.76.0.0/16    max  20 as      65530; # leverkusen (delegation)
 roa 10.44.0.0/18    max  20 as      64882; # limburg
