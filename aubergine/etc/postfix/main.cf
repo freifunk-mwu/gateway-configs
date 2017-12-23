@@ -2,7 +2,7 @@ smtpd_banner = $myhostname ESMTP $mail_name
 biff = no
 
 append_dot_mydomain = no
-readme_directory = no
+readme_directory = /usr/share/doc/postfix
 
 # TLS parameters
 smtpd_tls_cert_file=/etc/ssl/certs/ssl-cert-snakeoil.pem
@@ -24,3 +24,4 @@ mailbox_size_limit = 0
 recipient_delimiter = +
 inet_interfaces = loopback-only
 inet_protocols = all
+html_directory = /usr/share/doc/postfix/html
