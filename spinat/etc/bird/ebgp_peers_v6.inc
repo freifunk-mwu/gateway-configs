@@ -101,9 +101,11 @@ protocol bgp icvpn_kreisgt_fks from ebgp_ic {
 }
 protocol bgp icvpn_kreisgt_gut from ebgp_ic {
     neighbor fec0::a:cf:0:89 as 65533;
+    passive yes;
 }
 protocol bgp icvpn_leipzig2 from ebgp_ic {
     neighbor fec0::a:cf:0:2 as 65041;
+    passive yes;
 }
 protocol bgp icvpn_luebeck1 from ebgp_ic {
     neighbor fec0::a:cf:0:82 as 201173;
@@ -154,9 +156,11 @@ protocol bgp icvpn_ulm5 from ebgp_ic {
 }
 protocol bgp icvpn_vogtland1 from ebgp_ic {
     neighbor fec0::a:cf:0:1d as 64857;
+    passive yes;
 }
 protocol bgp icvpn_vogtland3 from ebgp_ic {
     neighbor fec0::a:cf:0:25 as 64857;
+    passive yes;
 }
 protocol bgp icvpn_vogtland4 from ebgp_ic {
     neighbor fec0::a:cf:0:5d as 64857;
