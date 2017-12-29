@@ -470,17 +470,17 @@ ii  libxrender1:amd64                  1:0.9.8-1+b1                       amd64 
 ii  libxtables10                       1.4.21-2+b1                        amd64        netfilter xtables library
 ii  libyaml-0-2:amd64                  0.1.6-3                            amd64        Fast YAML 1.1 parser and emitter library
 ii  linux-base                         4.3~bpo8+1                         all          Linux image base package
-ii  linux-compiler-gcc-4.9-x86         4.9.51-1~bpo8+1                    amd64        Compiler for Linux on x86 (meta-package)
+ii  linux-compiler-gcc-4.9-x86         4.9.65-3+deb9u1~bpo8+1             amd64        Compiler for Linux on x86 (meta-package)
 ii  linux-headers-4.9.0-0.bpo.3-amd64  4.9.30-2+deb9u5~bpo8+1             amd64        Header files for Linux 4.9.0-0.bpo.3-amd64
 ii  linux-headers-4.9.0-0.bpo.3-common 4.9.30-2+deb9u5~bpo8+1             all          Common header files for Linux 4.9.0-0.bpo.3
-ii  linux-headers-4.9.0-0.bpo.4-amd64  4.9.51-1~bpo8+1                    amd64        Header files for Linux 4.9.0-0.bpo.4-amd64
-ii  linux-headers-4.9.0-0.bpo.4-common 4.9.51-1~bpo8+1                    all          Common header files for Linux 4.9.0-0.bpo.4
+ii  linux-headers-4.9.0-0.bpo.4-amd64  4.9.65-3+deb9u1~bpo8+1             amd64        Header files for Linux 4.9.0-0.bpo.4-amd64
+ii  linux-headers-4.9.0-0.bpo.4-common 4.9.65-3+deb9u1~bpo8+1             all          Common header files for Linux 4.9.0-0.bpo.4
 ii  linux-headers-amd64                4.9+80+deb9u2~bpo8+1               amd64        Header files for Linux amd64 configuration (meta-package)
 rc  linux-image-4.9.0-0.bpo.2-amd64    4.9.18-1~bpo8+1                    amd64        Linux 4.9 for 64-bit PCs (signed)
 ii  linux-image-4.9.0-0.bpo.3-amd64    4.9.30-2+deb9u5~bpo8+1             amd64        Linux 4.9 for 64-bit PCs
-ii  linux-image-4.9.0-0.bpo.4-amd64    4.9.51-1~bpo8+1                    amd64        Linux 4.9 for 64-bit PCs
+ii  linux-image-4.9.0-0.bpo.4-amd64    4.9.65-3+deb9u1~bpo8+1             amd64        Linux 4.9 for 64-bit PCs
 ii  linux-image-amd64                  4.9+80+deb9u2~bpo8+1               amd64        Linux for 64-bit PCs (meta-package)
-ii  linux-kbuild-4.9                   4.9.51-1~bpo8+1                    amd64        Kbuild infrastructure for Linux 4.9
+ii  linux-kbuild-4.9                   4.9.65-3+deb9u1~bpo8+1             amd64        Kbuild infrastructure for Linux 4.9
 ii  linux-libc-dev:amd64               3.16.51-3                          amd64        Linux support headers for userspace development
 ii  locales                            2.19-18+deb8u10                    all          GNU C Library: National Language (locale) data [support]
 ii  login                              1:4.2-3+deb8u4                     amd64        system login tools
