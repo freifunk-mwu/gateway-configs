@@ -32,6 +32,7 @@ roa 10.149.0.0/16   max  20 as      65053; # chemnitz
 roa 10.8.0.0/16     max  20 as      65053; # chemnitz
 roa 10.35.0.0/16    max  20 as      64868; # cottbus
 roa 10.115.0.0/19   max  20 as      65115; # cuxhaven
+roa 10.104.0.0/16   max  20 as      65038; # darmstadt
 roa 10.223.0.0/16   max  20 as      65038; # darmstadt
 roa 10.213.0.0/16   max  20 as      65501; # diepholz
 roa 10.55.0.0/18    max  20 as      65000; # dillingen
