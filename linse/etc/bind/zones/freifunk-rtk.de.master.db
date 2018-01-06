@@ -1,0 +1,36 @@
+; BIND data file for zone freifunk-rtk.de
+;
+$TTL	600
+@	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
+		     2018010500		; Serial
+			     2h		; Refresh
+			     1h		; Retry
+			    41d		; Expire
+			     1h )	; Negative Cache TTL
+
+; public ns server
+@		IN	NS	ns1.treck.de.
+@		IN	NS	ns2.treck.de.
+@		IN	NS	ns3.treck.de.
+
+; mx records
+@		MX	10	glueckskeks.freifunk-mwu.de.
+@		IN	TXT	"v=spf1 ip4:5.199.136.244/32 ip6:2001:4ba0:fffc:3d:0:b4dc:4b1e:3/128 mx include:freifunk-mwu.de ?all"
+
+; mail
+autoconfig	IN	CNAME	glueckskeks.freifunk-mwu.de.
+autodiscover	IN	CNAME	glueckskeks.freifunk-mwu.de.
+
+@		IN	A	89.163.245.179
+@		IN	AAAA	2001:4ba0:fffc:3d:0:b4dc:4b1e:2
+
+; services and stuff
+www		IN	CNAME	zuckerwatte.freifunk-mwu.de.
+map		IN	CNAME	suesskartoffel.freifunk-mwu.de.
+
+; firmware
+firmware        IN      CNAME   firmware.freifunk-mwu.de.
+
+; key#4 2048 bits, i=mail201507, d=freifunk-rtk.de, /var/lib/amavis/db/freifunk-rtk.de
+mail201507._domainkey	3600 TXT (
+  "v=DKIM1; p=")
