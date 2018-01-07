@@ -364,7 +364,7 @@ ii  librecode0:amd64                     3.6-21                                 
 ii  libroken18-heimdal:amd64             1.6~git20131207+dfsg-1ubuntu1.2            amd64        Heimdal Kerberos - roken support library
 ii  librrd4                              1.4.7-2ubuntu5                             amd64        time-series data storage and display system (runtime library)
 ii  librtmp0:amd64                       2.4+20121230.gitdf6c518-1ubuntu0.1         amd64        toolkit for RTMP streams (shared library)
-ii  libruby1.9.1                         1.9.3.484-2ubuntu1.5                       amd64        Libraries necessary to run Ruby 1.9.1
+ii  libruby1.9.1                         1.9.3.484-2ubuntu1.6                       amd64        Libraries necessary to run Ruby 1.9.1
 ii  libsasl2-2:amd64                     2.1.25.dfsg1-17build1                      amd64        Cyrus SASL - authentication abstraction library
 ii  libsasl2-modules:amd64               2.1.25.dfsg1-17build1                      amd64        Cyrus SASL - pluggable authentication modules
 ii  libsasl2-modules-db:amd64            2.1.25.dfsg1-17build1                      amd64        Cyrus SASL - pluggable authentication modules (DB)
@@ -687,7 +687,7 @@ ii  ruby-rack                            1.5.2-1                                
 ii  ruby-rack-protection                 1.5.1-1                                    all          Protects against typical web attacks for Rack apps
 ii  ruby-sinatra                         1.4.3-2                                    all          Ruby web-development dressed in a DSL
 ii  ruby-tilt                            2.0.0+really1.4.1-1                        all          Generic interface to multiple Ruby template engines
-ii  ruby1.9.1                            1.9.3.484-2ubuntu1.5                       amd64        Interpreter of object-oriented scripting language Ruby
+ii  ruby1.9.1                            1.9.3.484-2ubuntu1.6                       amd64        Interpreter of object-oriented scripting language Ruby
 ii  run-one                              1.17-0ubuntu1                              all          run just one instance of a command and its args at a time
 ii  screen                               4.1.0~20120320gitdb59704-9                 amd64        terminal multiplexer with VT100/ANSI terminal emulation
 ii  secure-delete                        3.1-6                                      amd64        tools to wipe files, free disk space, swap and memory
