@@ -475,11 +475,14 @@ ii  linux-headers-4.9.0-0.bpo.3-amd64  4.9.30-2+deb9u5~bpo8+1             amd64 
 ii  linux-headers-4.9.0-0.bpo.3-common 4.9.30-2+deb9u5~bpo8+1             all          Common header files for Linux 4.9.0-0.bpo.3
 ii  linux-headers-4.9.0-0.bpo.4-amd64  4.9.65-3+deb9u1~bpo8+1             amd64        Header files for Linux 4.9.0-0.bpo.4-amd64
 ii  linux-headers-4.9.0-0.bpo.4-common 4.9.65-3+deb9u1~bpo8+1             all          Common header files for Linux 4.9.0-0.bpo.4
-ii  linux-headers-amd64                4.9+80+deb9u2~bpo8+1               amd64        Header files for Linux amd64 configuration (meta-package)
+ii  linux-headers-4.9.0-0.bpo.5-amd64  4.9.65-3+deb9u2~bpo8+1             amd64        Header files for Linux 4.9.0-0.bpo.5-amd64
+ii  linux-headers-4.9.0-0.bpo.5-common 4.9.65-3+deb9u2~bpo8+1             all          Common header files for Linux 4.9.0-0.bpo.5
+ii  linux-headers-amd64                4.9+80+deb9u2~bpo8+2               amd64        Header files for Linux amd64 configuration (meta-package)
 rc  linux-image-4.9.0-0.bpo.2-amd64    4.9.18-1~bpo8+1                    amd64        Linux 4.9 for 64-bit PCs (signed)
 ii  linux-image-4.9.0-0.bpo.3-amd64    4.9.30-2+deb9u5~bpo8+1             amd64        Linux 4.9 for 64-bit PCs
 ii  linux-image-4.9.0-0.bpo.4-amd64    4.9.65-3+deb9u1~bpo8+1             amd64        Linux 4.9 for 64-bit PCs
-ii  linux-image-amd64                  4.9+80+deb9u2~bpo8+1               amd64        Linux for 64-bit PCs (meta-package)
+ii  linux-image-4.9.0-0.bpo.5-amd64    4.9.65-3+deb9u2~bpo8+1             amd64        Linux 4.9 for 64-bit PCs
+ii  linux-image-amd64                  4.9+80+deb9u2~bpo8+2               amd64        Linux for 64-bit PCs (meta-package)
 ii  linux-kbuild-4.9                   4.9.65-3+deb9u2~bpo8+1             amd64        Kbuild infrastructure for Linux 4.9
 ii  linux-libc-dev:amd64               3.16.51-3                          amd64        Linux support headers for userspace development
 ii  locales                            2.19-18+deb8u10                    all          GNU C Library: National Language (locale) data [support]
