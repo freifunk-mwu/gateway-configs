@@ -83,12 +83,12 @@ ii  gzip                             1.6-3ubuntu1                               
 ii  hostname                         3.15ubuntu1                                amd64        utility to set/show the host name or domain name
 ii  ifupdown                         0.7.47.2ubuntu4.4                          amd64        high level tools to configure network interfaces
 ii  init-system-helpers              1.14ubuntu1                                all          helper tools for all init systems
-ii  initramfs-tools                  0.103ubuntu4.9                             all          tools for generating an initramfs
-ii  initramfs-tools-bin              0.103ubuntu4.9                             amd64        binaries used by initramfs-tools
+ii  initramfs-tools                  0.103ubuntu4.10                            all          tools for generating an initramfs
+ii  initramfs-tools-bin              0.103ubuntu4.10                            amd64        binaries used by initramfs-tools
 ii  initscripts                      2.88dsf-41ubuntu6.3                        amd64        scripts for initializing and shutting down the system
 ii  insserv                          1.14.0-5ubuntu2                            amd64        boot sequence organizer using LSB init.d script dependency information
 ii  installation-report              2.54ubuntu1                                all          system installation report
-ii  iproute2                         3.12.0-2ubuntu1                            amd64        networking and traffic control tools
+ii  iproute2                         3.12.0-2ubuntu1.1                          amd64        networking and traffic control tools
 ii  iptables                         1.4.21-1ubuntu1                            amd64        administration tools for packet filtering and NAT
 ii  iptables-persistent              0.5.7                                      all          boot-time loader for iptables rules
 ii  iputils-ping                     3:20121221-4ubuntu1.1                      amd64        Tools to test the reachability of network hosts
@@ -101,7 +101,7 @@ ii  keyboard-configuration           1.70ubuntu8                                
 ii  klibc-utils                      2.0.3-0ubuntu1.14.04.3                     amd64        small utilities built with klibc for early boot
 ii  kmod                             15-0ubuntu6                                amd64        tools for managing Linux kernel modules
 ii  krb5-locales                     1.12+dfsg-2ubuntu5.3                       all          Internationalization support for MIT Kerberos
-ii  landscape-common                 14.12-0ubuntu6.14.04                       amd64        The Landscape administration system client - Common files
+ii  landscape-common                 14.12-0ubuntu6.14.04.1                     amd64        The Landscape administration system client - Common files
 ii  language-pack-en                 1:14.04+20160720                           all          translation updates for language English
 ii  language-pack-en-base            1:14.04+20160720                           all          translations for language English
 ii  laptop-detect                    0.13.7ubuntu2                              amd64        attempt to detect a laptop
@@ -456,7 +456,7 @@ ii  python3.4                        3.4.3-1ubuntu1~14.04.6                     
 ii  python3.4-dev                    3.4.3-1ubuntu1~14.04.6                     amd64        Header files and a static library for Python (v3.4)
 ii  python3.4-minimal                3.4.3-1ubuntu1~14.04.6                     amd64        Minimal subset of the Python language (version 3.4)
 ii  readline-common                  6.3-4ubuntu2                               all          GNU readline and history libraries, common files
-ii  resolvconf                       1.69ubuntu1.1                              all          name server information handler
+ii  resolvconf                       1.69ubuntu1.3                              all          name server information handler
 ii  rsync                            3.1.0-2ubuntu0.3                           amd64        fast, versatile, remote (and local) file-copying tool
 ii  rsyslog                          7.4.4-1ubuntu2.7                           amd64        reliable system and kernel logging daemon
 ii  run-one                          1.17-0ubuntu1                              all          run just one instance of a command and its args at a time
