@@ -121,16 +121,16 @@ ii  iftop                                1.0~pre2-5                             
 ii  ifupdown                             0.7.47.2ubuntu4.4                          amd64        high level tools to configure network interfaces
 ii  info                                 5.2.0.dfsg.1-2                             amd64        Standalone GNU Info documentation browser
 ii  init-system-helpers                  1.14ubuntu1                                all          helper tools for all init systems
-ii  initramfs-tools                      0.103ubuntu4.7                             all          tools for generating an initramfs
-ii  initramfs-tools-bin                  0.103ubuntu4.7                             amd64        binaries used by initramfs-tools
+ii  initramfs-tools                      0.103ubuntu4.10                            all          tools for generating an initramfs
+ii  initramfs-tools-bin                  0.103ubuntu4.10                            amd64        binaries used by initramfs-tools
 ii  initscripts                          2.88dsf-41ubuntu6.3                        amd64        scripts for initializing and shutting down the system
 ii  insserv                              1.14.0-5ubuntu2                            amd64        boot sequence organizer using LSB init.d script dependency information
 ii  install-info                         5.2.0.dfsg.1-2                             amd64        Manage installed documentation in info format
 ii  installation-report                  2.54ubuntu1                                all          system installation report
 ii  iperf                                2.0.5-3                                    amd64        Internet Protocol bandwidth measuring tool
 ii  iperf3                               3.0.7-1~ubuntu14.04.1                      amd64        Internet Protocol bandwidth measuring tool
-ii  iproute                              1:3.12.0-2ubuntu1                          all          transitional dummy package for iproute2
-ii  iproute2                             3.12.0-2ubuntu1                            amd64        networking and traffic control tools
+ii  iproute                              1:3.12.0-2ubuntu1.1                        all          transitional dummy package for iproute2
+ii  iproute2                             3.12.0-2ubuntu1.1                          amd64        networking and traffic control tools
 ii  iptables                             1.4.21-1ubuntu1                            amd64        administration tools for packet filtering and NAT
 ii  iptables-persistent                  0.5.7                                      all          boot-time loader for iptables rules
 ii  iptraf                               3.0.0-8.1                                  amd64        Interactive Colorful IP LAN Monitor
@@ -148,7 +148,7 @@ ii  keyboard-configuration               1.70ubuntu8                            
 ii  klibc-utils                          2.0.3-0ubuntu1.14.04.3                     amd64        small utilities built with klibc for early boot
 ii  kmod                                 15-0ubuntu6                                amd64        tools for managing Linux kernel modules
 ii  krb5-locales                         1.12+dfsg-2ubuntu5.3                       all          Internationalization support for MIT Kerberos
-ii  landscape-common                     14.12-0ubuntu6.14.04                       amd64        The Landscape administration system client - Common files
+ii  landscape-common                     14.12-0ubuntu6.14.04.1                     amd64        The Landscape administration system client - Common files
 ii  language-selector-common             0.129.3                                    all          Language selector for Ubuntu
 ii  laptop-detect                        0.13.7ubuntu2                              amd64        attempt to detect a laptop
 ii  less                                 458-2                                      amd64        pager program similar to more
@@ -313,7 +313,7 @@ ii  libpam-cap:amd64                     1:2.24-0ubuntu2                        
 ii  libpam-modules:amd64                 1.1.8-1ubuntu2.2                           amd64        Pluggable Authentication Modules for PAM
 ii  libpam-modules-bin                   1.1.8-1ubuntu2.2                           amd64        Pluggable Authentication Modules for PAM - helper binaries
 ii  libpam-runtime                       1.1.8-1ubuntu2.2                           all          Runtime support for the PAM library
-ii  libpam-systemd:amd64                 204-5ubuntu20.24                           amd64        system and service manager - PAM module
+ii  libpam-systemd:amd64                 204-5ubuntu20.25                           amd64        system and service manager - PAM module
 ii  libpam0g:amd64                       1.1.8-1ubuntu2.2                           amd64        Pluggable Authentication Modules library
 ii  libpango-1.0-0:amd64                 1.36.3-1ubuntu1.1                          amd64        Layout and rendering of internationalized text
 ii  libpangocairo-1.0-0:amd64            1.36.3-1ubuntu1.1                          amd64        Layout and rendering of internationalized text
@@ -372,8 +372,8 @@ ii  libstdc++-4.8-dev:amd64              4.8.4-2ubuntu1~14.04.3                 
 ii  libstdc++6:amd64                     4.8.4-2ubuntu1~14.04.3                     amd64        GNU Standard C++ Library v3
 ii  libsub-name-perl                     0.05-1build4                               amd64        module for assigning a new name to referenced sub
 ii  libsysfs2:amd64                      2.1.0+repack-3ubuntu1                      amd64        interface library to sysfs
-ii  libsystemd-daemon0:amd64             204-5ubuntu20.24                           amd64        systemd utility library
-ii  libsystemd-login0:amd64              204-5ubuntu20.24                           amd64        systemd login utility library
+ii  libsystemd-daemon0:amd64             204-5ubuntu20.25                           amd64        systemd utility library
+ii  libsystemd-login0:amd64              204-5ubuntu20.25                           amd64        systemd login utility library
 ii  libtasn1-6:amd64                     3.4-3ubuntu0.5                             amd64        Manage ASN.1 structures (runtime)
 ii  libterm-ui-perl                      0.42-1                                     all          Term::ReadLine UI made easy
 ii  libtext-charwidth-perl               0.04-7build3                               amd64        get display widths of characters on the terminal
@@ -386,7 +386,7 @@ ii  libtiff5:amd64                       4.0.3-7ubuntu0.7                       
 ii  libtimedate-perl                     2.3000-1                                   all          collection of modules to manipulate date/time information
 ii  libtinfo5:amd64                      5.9+20140118-1ubuntu1                      amd64        shared low-level terminfo library for terminal handling
 ii  libtsan0:amd64                       4.8.4-2ubuntu1~14.04.3                     amd64        ThreadSanitizer -- a Valgrind-based detector of data races (runtime)
-ii  libudev1:amd64                       204-5ubuntu20.24                           amd64        libudev shared library
+ii  libudev1:amd64                       204-5ubuntu20.25                           amd64        libudev shared library
 ii  libuecc0                             6-0uf1                                     amd64        very small Elliptic Curve Cryptography library
 ii  libunwind8                           1.1-2.2ubuntu3                             amd64        library to determine the call-chain of a program - runtime
 ii  libusb-0.1-4:amd64                   2:0.1.12-23.3ubuntu1                       amd64        userspace USB programming library
@@ -504,7 +504,7 @@ ii  login                                1:4.1.5.1-1ubuntu9.5                   
 ii  logrotate                            3.8.7-1ubuntu1.2                           amd64        Log rotation utility
 ii  lsb-base                             4.1+Debian11ubuntu6.2                      all          Linux Standard Base 4.1 init script functionality
 ii  lsb-release                          4.1+Debian11ubuntu6.2                      all          Linux Standard Base version reporting utility
-ii  lshw                                 02.16-2ubuntu1.3                           amd64        information about hardware configuration
+ii  lshw                                 02.16-2ubuntu1.4                           amd64        information about hardware configuration
 ii  lsof                                 4.86+dfsg-1ubuntu2                         amd64        Utility to list open files
 ii  ltrace                               0.7.3-4ubuntu5.1                           amd64        Tracks runtime library calls in dynamically linked programs
 ii  lvm2                                 2.02.98-6ubuntu2                           amd64        Linux Logical Volume Manager
@@ -551,7 +551,7 @@ ii  plymouth                             0.8.8-0ubuntu17.1                      
 ii  plymouth-theme-ubuntu-text           0.8.8-0ubuntu17.1                          amd64        graphical boot animation and logger - ubuntu-logo theme
 ii  policykit-1                          0.105-4ubuntu3.14.04.1                     amd64        framework for managing administrative policies and privileges
 ii  popularity-contest                   1.57ubuntu1                                all          Vote for your favourite packages automatically
-ii  postfix                              2.11.0-1ubuntu1                            amd64        High-performance mail transport agent
+ii  postfix                              2.11.0-1ubuntu1.2                          amd64        High-performance mail transport agent
 ii  powermgmt-base                       1.31build1                                 amd64        Common utils and configs for power management
 ii  ppp                                  2.4.5-5.1ubuntu2.2                         amd64        Point-to-Point Protocol (PPP) - daemon
 ii  pppconfig                            2.3.19ubuntu1                              all          A text menu based utility for configuring ppp
@@ -638,7 +638,7 @@ ii  python3.4-dev                        3.4.3-1ubuntu1~14.04.6                 
 ii  python3.4-minimal                    3.4.3-1ubuntu1~14.04.6                     amd64        Minimal subset of the Python language (version 3.4)
 ii  radvd                                1:1.9.1-1.1ubuntu2                         amd64        Router Advertisement Daemon
 ii  readline-common                      6.3-4ubuntu2                               all          GNU readline and history libraries, common files
-ii  resolvconf                           1.69ubuntu1.1                              all          name server information handler
+ii  resolvconf                           1.69ubuntu1.3                              all          name server information handler
 ii  rrdtool                              1.4.7-2ubuntu5                             amd64        time-series data storage and display system (programs)
 ii  rsync                                3.1.0-2ubuntu0.3                           amd64        fast, versatile, remote (and local) file-copying tool
 ii  rsyslog                              7.4.4-1ubuntu2.7                           amd64        reliable system and kernel logging daemon
@@ -655,7 +655,7 @@ ii  ssl-cert                             1.0.33                                 
 ii  strace                               4.8-1ubuntu5                               amd64        A system call tracer
 ii  sudo                                 1.8.9p5-1ubuntu1.4                         amd64        Provide limited super user privileges to specific users
 ii  sysfsutils                           2.1.0+repack-3ubuntu1                      amd64        sysfs query tool and boot-time setup
-ii  systemd-services                     204-5ubuntu20.24                           amd64        systemd runtime services
+ii  systemd-services                     204-5ubuntu20.25                           amd64        systemd runtime services
 ii  systemd-shim                         6-2bzr1                                    amd64        shim for systemd
 ii  sysv-rc                              2.88dsf-41ubuntu6.3                        all          System-V-like runlevel change mechanism
 ii  sysvinit-utils                       2.88dsf-41ubuntu6.3                        amd64        System-V-like utilities
@@ -678,7 +678,7 @@ ii  ubuntu-minimal                       1.325                                  
 ii  ubuntu-release-upgrader-core         1:0.220.9                                  all          manage release upgrades
 ii  ubuntu-standard                      1.325                                      amd64        The Ubuntu standard system
 ii  ucf                                  3.0027+nmu1                                all          Update Configuration File(s): preserve user changes to config files
-ii  udev                                 204-5ubuntu20.24                           amd64        /dev/ and hotplug management daemon
+ii  udev                                 204-5ubuntu20.25                           amd64        /dev/ and hotplug management daemon
 ii  ufw                                  0.34~rc-0ubuntu2                           all          program for managing a Netfilter firewall
 ii  uml-utilities                        20070815-1.3ubuntu1                        amd64        User-mode Linux (utility programs)
 ii  unattended-upgrades                  0.82.1ubuntu2.5                            all          automatic installation of security upgrades
