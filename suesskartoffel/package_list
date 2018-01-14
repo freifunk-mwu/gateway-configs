@@ -102,8 +102,8 @@ ii  hostname                         3.15ubuntu1                                
 ii  ifupdown                         0.7.47.2ubuntu4.4                          amd64        high level tools to configure network interfaces
 ii  influxdb                         1.4.2-1                                    amd64        Distributed time-series database.
 ii  init-system-helpers              1.14ubuntu1                                all          helper tools for all init systems
-ii  initramfs-tools                  0.103ubuntu4.9                             all          tools for generating an initramfs
-ii  initramfs-tools-bin              0.103ubuntu4.9                             amd64        binaries used by initramfs-tools
+ii  initramfs-tools                  0.103ubuntu4.10                            all          tools for generating an initramfs
+ii  initramfs-tools-bin              0.103ubuntu4.10                            amd64        binaries used by initramfs-tools
 ii  initscripts                      2.88dsf-41ubuntu6.3                        amd64        scripts for initializing and shutting down the system
 ii  insserv                          1.14.0-5ubuntu2                            amd64        boot sequence organizer using LSB init.d script dependency information
 ii  installation-report              2.54ubuntu1                                all          system installation report
@@ -487,7 +487,7 @@ ii  netbase                          5.2                                        
 ii  netcat-openbsd                   1.105-7ubuntu1                             amd64        TCP/IP swiss army knife
 ii  netcat6                          1.0-8                                      amd64        TCP/IP swiss army knife with IPv6 support
 ii  nmap                             6.40-0.2ubuntu1                            amd64        The Network Mapper
-ii  nodejs                           6.12.2-1nodesource1                        amd64        Node.js event-based server-side javascript engine
+ii  nodejs                           6.12.3-1nodesource1                        amd64        Node.js event-based server-side javascript engine
 ii  ntp                              1:4.2.6.p5+dfsg-3ubuntu2.14.04.12          amd64        Network Time Protocol daemon and utility programs
 ii  ntpdate                          1:4.2.6.p5+dfsg-3ubuntu2.14.04.12          amd64        client for setting system time from NTP servers
 ii  openssh-client                   1:6.6p1-2ubuntu2.8                         amd64        secure shell (SSH) client, for secure access to remote machines
@@ -604,6 +604,7 @@ ii  tcpd                             7.6.q-25                                   
 ii  tcpdump                          4.9.2-0ubuntu0.14.04.1                     amd64        command-line network traffic analyzer
 ii  telnet                           0.17-36build2                              amd64        The telnet client
 ii  tmux                             1.8-5                                      amd64        terminal multiplexer
+ii  traceroute                       1:2.0.20-0ubuntu0.1                        amd64        Traces the route taken by packets over an IPv4/IPv6 network
 ii  ttf-dejavu                       2.34-1ubuntu1                              all          transitional dummy package
 ii  ttf-dejavu-core                  2.34-1ubuntu1                              all          transitional dummy package
 ii  ttf-dejavu-extra                 2.34-1ubuntu1                              all          transitional dummy package
