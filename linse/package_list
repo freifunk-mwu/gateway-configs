@@ -83,12 +83,12 @@ ii  gzip                             1.6-3ubuntu1                               
 ii  hostname                         3.15ubuntu1                                amd64        utility to set/show the host name or domain name
 ii  ifupdown                         0.7.47.2ubuntu4.4                          amd64        high level tools to configure network interfaces
 ii  init-system-helpers              1.14ubuntu1                                all          helper tools for all init systems
-ii  initramfs-tools                  0.103ubuntu4.9                             all          tools for generating an initramfs
-ii  initramfs-tools-bin              0.103ubuntu4.9                             amd64        binaries used by initramfs-tools
+ii  initramfs-tools                  0.103ubuntu4.10                            all          tools for generating an initramfs
+ii  initramfs-tools-bin              0.103ubuntu4.10                            amd64        binaries used by initramfs-tools
 ii  initscripts                      2.88dsf-41ubuntu6.3                        amd64        scripts for initializing and shutting down the system
 ii  insserv                          1.14.0-5ubuntu2                            amd64        boot sequence organizer using LSB init.d script dependency information
 ii  installation-report              2.54ubuntu1                                all          system installation report
-ii  iproute2                         3.12.0-2ubuntu1                            amd64        networking and traffic control tools
+ii  iproute2                         3.12.0-2ubuntu1.1                          amd64        networking and traffic control tools
 ii  iptables                         1.4.21-1ubuntu1                            amd64        administration tools for packet filtering and NAT
 ii  iptables-persistent              0.5.7                                      all          boot-time loader for iptables rules
 ii  iputils-ping                     3:20121221-4ubuntu1.1                      amd64        Tools to test the reachability of network hosts
@@ -101,7 +101,7 @@ ii  keyboard-configuration           1.70ubuntu8                                
 ii  klibc-utils                      2.0.3-0ubuntu1.14.04.3                     amd64        small utilities built with klibc for early boot
 ii  kmod                             15-0ubuntu6                                amd64        tools for managing Linux kernel modules
 ii  krb5-locales                     1.12+dfsg-2ubuntu5.3                       all          Internationalization support for MIT Kerberos
-ii  landscape-common                 14.12-0ubuntu6.14.04                       amd64        The Landscape administration system client - Common files
+ii  landscape-common                 14.12-0ubuntu6.14.04.1                     amd64        The Landscape administration system client - Common files
 ii  language-pack-en                 1:14.04+20160720                           all          translation updates for language English
 ii  language-pack-en-base            1:14.04+20160720                           all          translations for language English
 ii  laptop-detect                    0.13.7ubuntu2                              amd64        attempt to detect a laptop
@@ -317,6 +317,8 @@ ii  linux-headers-3.13.0-135         3.13.0-135.184                             
 ii  linux-headers-3.13.0-135-generic 3.13.0-135.184                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-137         3.13.0-137.186                             all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-137-generic 3.13.0-137.186                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-3.13.0-139         3.13.0-139.188                             all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-139-generic 3.13.0-139.188                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-37          3.13.0-37.64                               all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-37-generic  3.13.0-37.64                               amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-39          3.13.0-39.66                               all          Header files related to Linux kernel version 3.13.0
@@ -331,8 +333,8 @@ ii  linux-headers-3.13.0-59          3.13.0-59.98                               
 ii  linux-headers-3.13.0-59-generic  3.13.0-59.98                               amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-61          3.13.0-61.100                              all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-61-generic  3.13.0-61.100                              amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-generic            3.13.0.137.146                             amd64        Generic Linux kernel headers
-ii  linux-headers-virtual            3.13.0.137.146                             amd64        Transitional package.
+ii  linux-headers-generic            3.13.0.139.148                             amd64        Generic Linux kernel headers
+ii  linux-headers-virtual            3.13.0.139.148                             amd64        Transitional package.
 rc  linux-image-3.13.0-119-generic   3.13.0-119.166                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-128-generic   3.13.0-128.177                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-129-generic   3.13.0-129.178                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -340,9 +342,10 @@ rc  linux-image-3.13.0-132-generic   3.13.0-132.181                             
 ii  linux-image-3.13.0-133-generic   3.13.0-133.182                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-135-generic   3.13.0-135.184                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-137-generic   3.13.0-137.186                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-virtual              3.13.0.137.146                             amd64        This package will always depend on the latest minimal generic kernel image.
-ii  linux-libc-dev:amd64             3.13.0-137.186                             amd64        Linux Kernel Headers for development
-ii  linux-virtual                    3.13.0.137.146                             amd64        Minimal Generic Linux kernel and headers
+ii  linux-image-3.13.0-139-generic   3.13.0-139.188                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-virtual              3.13.0.139.148                             amd64        This package will always depend on the latest minimal generic kernel image.
+ii  linux-libc-dev:amd64             3.13.0-139.188                             amd64        Linux Kernel Headers for development
+ii  linux-virtual                    3.13.0.139.148                             amd64        Minimal Generic Linux kernel and headers
 ii  locales                          2.13+git20120306-12.1                      all          common files for locale support
 ii  lockfile-progs                   0.1.17                                     amd64        Programs for locking and unlocking files and mailboxes
 ii  login                            1:4.1.5.1-1ubuntu9.5                       amd64        system login tools
@@ -453,7 +456,7 @@ ii  python3.4                        3.4.3-1ubuntu1~14.04.6                     
 ii  python3.4-dev                    3.4.3-1ubuntu1~14.04.6                     amd64        Header files and a static library for Python (v3.4)
 ii  python3.4-minimal                3.4.3-1ubuntu1~14.04.6                     amd64        Minimal subset of the Python language (version 3.4)
 ii  readline-common                  6.3-4ubuntu2                               all          GNU readline and history libraries, common files
-ii  resolvconf                       1.69ubuntu1.1                              all          name server information handler
+ii  resolvconf                       1.69ubuntu1.3                              all          name server information handler
 ii  rsync                            3.1.0-2ubuntu0.3                           amd64        fast, versatile, remote (and local) file-copying tool
 ii  rsyslog                          7.4.4-1ubuntu2.7                           amd64        reliable system and kernel logging daemon
 ii  run-one                          1.17-0ubuntu1                              all          run just one instance of a command and its args at a time
