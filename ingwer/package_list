@@ -255,8 +255,8 @@ ii  libgcc1:amd64                      1:4.9.2-10                         amd64 
 ii  libgcrypt20:amd64                  1.6.3-2+deb8u4                     amd64        LGPL Crypto library - runtime library
 ii  libgd3:amd64                       2.1.0-5+deb8u11                    amd64        GD Graphics Library
 ii  libgdbm3:amd64                     1.8.3-13.1                         amd64        GNU dbm database routines (runtime version)
-ii  libgdk-pixbuf2.0-0:amd64           2.31.1-2+deb8u6                    amd64        GDK Pixbuf library
-ii  libgdk-pixbuf2.0-common            2.31.1-2+deb8u6                    all          GDK Pixbuf library - data files
+ii  libgdk-pixbuf2.0-0:amd64           2.31.1-2+deb8u7                    amd64        GDK Pixbuf library
+ii  libgdk-pixbuf2.0-common            2.31.1-2+deb8u7                    all          GDK Pixbuf library - data files
 ii  libgeoip1:amd64                    1.6.2-4                            amd64        non-DNS IP-to-country resolver library
 ii  libgirepository-1.0-1:amd64        1.42.0-2.2                         amd64        Library for handling GObject introspection data (runtime library)
 ii  libglib2.0-0:amd64                 2.42.1-1+b1                        amd64        GLib library of C routines
