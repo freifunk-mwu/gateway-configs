@@ -30,9 +30,9 @@ ii  batadv-vis                           2017.1-0ffmwu0~trusty                  
 ii  batctl                               2017.1-0ffmwu0~trusty                      amd64        B.A.T.M.A.N. advanced control and management tool
 ii  batman-adv-dkms                      2017.1-0ffmwu0~trusty                      all          DKMS Source for the batman-advanced kernel module
 ii  bc                                   1.06.95-8ubuntu1                           amd64        GNU bc arbitrary precision calculator language
-ii  bind9                                1:9.9.5.dfsg-3ubuntu0.16                   amd64        Internet Domain Name Server
-ii  bind9-host                           1:9.9.5.dfsg-3ubuntu0.16                   amd64        Version of 'host' bundled with BIND 9.X
-ii  bind9utils                           1:9.9.5.dfsg-3ubuntu0.16                   amd64        Utilities for BIND
+ii  bind9                                1:9.9.5.dfsg-3ubuntu0.17                   amd64        Internet Domain Name Server
+ii  bind9-host                           1:9.9.5.dfsg-3ubuntu0.17                   amd64        Version of 'host' bundled with BIND 9.X
+ii  bind9utils                           1:9.9.5.dfsg-3ubuntu0.17                   amd64        Utilities for BIND
 ii  binutils                             2.24-5ubuntu14.2                           amd64        GNU assembler, linker and binary utilities
 ii  biosdevname                          0.4.1-0ubuntu6.3                           amd64        apply BIOS-given names to network devices
 ii  bird                                 1.6.3-1+trusty+1                           amd64        Internet Routing Daemon
@@ -66,7 +66,7 @@ ii  diffutils                            1:3.3-1                                
 ii  dkms                                 2.2.0.3-1.1ubuntu5.14.04.9                 all          Dynamic Kernel Module Support Framework
 ii  dmidecode                            2.12-2                                     amd64        SMBIOS/DMI table decoder
 ii  dmsetup                              2:1.02.77-6ubuntu2                         amd64        Linux Kernel Device Mapper userspace library
-ii  dnsutils                             1:9.9.5.dfsg-3ubuntu0.16                   amd64        Clients provided with BIND
+ii  dnsutils                             1:9.9.5.dfsg-3ubuntu0.17                   amd64        Clients provided with BIND
 ii  dosfstools                           3.0.26-1ubuntu0.1                          amd64        utilities for making and checking MS-DOS FAT filesystems
 ii  dpkg                                 1.17.5ubuntu5.7                            amd64        Debian package management system
 ii  dpkg-dev                             1.17.5ubuntu5.7                            all          Debian package development tools
@@ -174,16 +174,16 @@ ii  libatomic1:amd64                     4.8.4-2ubuntu1~14.04.3                 
 ii  libattr1:amd64                       1:2.4.47-1ubuntu1                          amd64        Extended attribute shared library
 ii  libaudit-common                      1:2.3.2-2ubuntu1                           all          Dynamic library for security auditing - common files
 ii  libaudit1:amd64                      1:2.3.2-2ubuntu1                           amd64        Dynamic library for security auditing
-ii  libbind9-90                          1:9.9.5.dfsg-3ubuntu0.16                   amd64        BIND9 Shared Library used by BIND
+ii  libbind9-90                          1:9.9.5.dfsg-3ubuntu0.17                   amd64        BIND9 Shared Library used by BIND
 ii  libblas3                             1.2.20110419-7                             amd64        Basic Linear Algebra Reference implementations, shared library
 ii  libblkid1:amd64                      2.20.1-5.1ubuntu20.9                       amd64        block device id library
 ii  libboost-iostreams1.54.0:amd64       1.54.0-4ubuntu3.1                          amd64        Boost.Iostreams Library
 ii  libbsd0:amd64                        0.6.0-2ubuntu1                             amd64        utility functions from BSD systems - shared library
 ii  libbz2-1.0:amd64                     1.0.6-5                                    amd64        high-quality block-sorting file compressor library - runtime
-ii  libc-bin                             2.19-0ubuntu6.13                           amd64        Embedded GNU C Library: Binaries
-ii  libc-dev-bin                         2.19-0ubuntu6.13                           amd64        Embedded GNU C Library: Development binaries
-ii  libc6:amd64                          2.19-0ubuntu6.13                           amd64        Embedded GNU C Library: Shared libraries
-ii  libc6-dev:amd64                      2.19-0ubuntu6.13                           amd64        Embedded GNU C Library: Development Libraries and Header Files
+ii  libc-bin                             2.19-0ubuntu6.14                           amd64        Embedded GNU C Library: Binaries
+ii  libc-dev-bin                         2.19-0ubuntu6.14                           amd64        Embedded GNU C Library: Development binaries
+ii  libc6:amd64                          2.19-0ubuntu6.14                           amd64        Embedded GNU C Library: Shared libraries
+ii  libc6-dev:amd64                      2.19-0ubuntu6.14                           amd64        Embedded GNU C Library: Development Libraries and Header Files
 ii  libcairo2:amd64                      1.13.0~20140204-0ubuntu1.1                 amd64        The Cairo 2D vector graphics library
 ii  libcap-ng0                           0.7.3-1ubuntu2                             amd64        An alternate POSIX capabilities library
 ii  libcap2:amd64                        1:2.24-0ubuntu2                            amd64        support for getting/setting POSIX.1e capabilities
@@ -207,7 +207,7 @@ ii  libdbus-glib-1-2:amd64               0.100.2-1                              
 ii  libdebconfclient0:amd64              0.187ubuntu1                               amd64        Debian Configuration Management System (C-implementation library)
 ii  libdevmapper-event1.02.1:amd64       2:1.02.77-6ubuntu2                         amd64        Linux Kernel Device Mapper event support library
 ii  libdevmapper1.02.1:amd64             2:1.02.77-6ubuntu2                         amd64        Linux Kernel Device Mapper userspace library
-ii  libdns100                            1:9.9.5.dfsg-3ubuntu0.16                   amd64        DNS Shared Library used by BIND
+ii  libdns100                            1:9.9.5.dfsg-3ubuntu0.17                   amd64        DNS Shared Library used by BIND
 ii  libdpkg-perl                         1.17.5ubuntu5.7                            all          Dpkg perl modules
 ii  libdrm2:amd64                        2.4.67-1ubuntu0.14.04.2                    amd64        Userspace interface to kernel DRM services -- runtime
 ii  libdw1:amd64                         0.158-0ubuntu5.2                           amd64        library that provides access to the DWARF debug information
@@ -260,9 +260,9 @@ ii  libice6:amd64                        2:1.0.8-2                              
 ii  libidn11:amd64                       1.28-1ubuntu2.2                            amd64        GNU Libidn library, implementation of IETF IDN specifications
 ii  libio-string-perl                    1.08-3                                     all          Emulate IO::File interface for in-core strings
 ii  libiperf0                            3.0.7-1~ubuntu14.04.1                      amd64        Internet Protocol bandwidth measuring tool (runtime files)
-ii  libisc95                             1:9.9.5.dfsg-3ubuntu0.16                   amd64        ISC Shared Library used by BIND
-ii  libisccc90                           1:9.9.5.dfsg-3ubuntu0.16                   amd64        Command Channel Library used by BIND
-ii  libisccfg90                          1:9.9.5.dfsg-3ubuntu0.16                   amd64        Config File Handling Library used by BIND
+ii  libisc95                             1:9.9.5.dfsg-3ubuntu0.17                   amd64        ISC Shared Library used by BIND
+ii  libisccc90                           1:9.9.5.dfsg-3ubuntu0.17                   amd64        Command Channel Library used by BIND
+ii  libisccfg90                          1:9.9.5.dfsg-3ubuntu0.17                   amd64        Config File Handling Library used by BIND
 ii  libisl10:amd64                       0.12.2-1                                   amd64        manipulating sets and relations of integer points bounded by linear constraints
 ii  libitm1:amd64                        4.8.4-2ubuntu1~14.04.3                     amd64        GNU Transactional Memory Library
 ii  libiw30:amd64                        30~pre9-8ubuntu1                           amd64        Wireless tools - library
@@ -289,7 +289,7 @@ ii  liblockfile1:amd64                   1.09-6ubuntu1                          
 ii  liblog-message-simple-perl           0.10-1                                     all          simplified interface to Log::Message
 ii  libltdl7:amd64                       2.4.2-1.7ubuntu1                           amd64        A system independent dlopen wrapper for GNU libtool
 ii  liblua5.2-0:amd64                    5.2.3-1                                    amd64        Shared library for the Lua interpreter version 5.2
-ii  liblwres90                           1:9.9.5.dfsg-3ubuntu0.16                   amd64        Lightweight Resolver Library used by BIND
+ii  liblwres90                           1:9.9.5.dfsg-3ubuntu0.17                   amd64        Lightweight Resolver Library used by BIND
 ii  liblzma5:amd64                       5.1.1alpha+20120614-2ubuntu2               amd64        XZ-format compression library
 ii  liblzo2-2:amd64                      2.06-1.2ubuntu1.1                          amd64        data compression library
 ii  libmagic1:amd64                      1:5.14-2ubuntu3.3                          amd64        File type determination library using "magic" numbers
@@ -522,7 +522,7 @@ ii  mosh                                 1.2.4a-1ubuntu1                        
 ii  mount                                2.20.1-5.1ubuntu20.9                       amd64        Tools for mounting and manipulating filesystems
 ii  mountall                             2.53                                       amd64        filesystem mounting tool
 ii  mtr-tiny                             0.85-2                                     amd64        Full screen ncurses traceroute tool
-ii  multiarch-support                    2.19-0ubuntu6.13                           amd64        Transitional package to ensure multiarch compatibility
+ii  multiarch-support                    2.19-0ubuntu6.14                           amd64        Transitional package to ensure multiarch compatibility
 ii  nano                                 2.2.6-1ubuntu1                             amd64        small, friendly text editor inspired by Pico
 ii  ncurses-base                         5.9+20140118-1ubuntu1                      all          basic terminal type definitions
 ii  ncurses-bin                          5.9+20140118-1ubuntu1                      amd64        terminal-related programs and man pages
