@@ -380,7 +380,7 @@ ii  libmount1:amd64                      2.20.1-5.1ubuntu20.9                   
 ii  libmpc3:amd64                        1.0.1-1ubuntu1                             amd64        multiple precision complex floating-point library
 ii  libmpdec2:amd64                      2.4.0-6                                    amd64        library for decimal floating point arithmetic (runtime library)
 ii  libmpfr4:amd64                       3.1.2-1                                    amd64        multiple precision floating-point computation
-ii  libmysqlclient18:amd64               5.5.58-0ubuntu0.14.04.1                    amd64        MySQL database client library
+ii  libmysqlclient18:amd64               5.5.59-0ubuntu0.14.04.1                    amd64        MySQL database client library
 ii  libncurses5:amd64                    5.9+20140118-1ubuntu1                      amd64        shared libraries for terminal handling
 ii  libncurses5-dev:amd64                5.9+20140118-1ubuntu1                      amd64        developer's libraries for ncurses
 ii  libncursesw5:amd64                   5.9+20140118-1ubuntu1                      amd64        shared libraries for terminal handling (wide character support)
@@ -572,10 +572,12 @@ ii  linux-headers-3.13.0-137             3.13.0-137.186                         
 ii  linux-headers-3.13.0-137-generic     3.13.0-137.186                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-139             3.13.0-139.188                             all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-139-generic     3.13.0-139.188                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-3.13.0-141             3.13.0-141.190                             all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-141-generic     3.13.0-141.190                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-86              3.13.0-86.131                              all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-86-generic      3.13.0-86.131                              amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-generic                3.13.0.139.148                             amd64        Generic Linux kernel headers
-ii  linux-headers-generic-lts-trusty     3.13.0.139.148                             amd64        Generic Linux kernel headers
+ii  linux-headers-generic                3.13.0.141.151                             amd64        Generic Linux kernel headers
+ii  linux-headers-generic-lts-trusty     3.13.0.141.151                             amd64        Generic Linux kernel headers
 rc  linux-image-3.13.0-100-generic       3.13.0-100.147                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-106-generic       3.13.0-106.153                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-107-generic       3.13.0-107.154                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -598,6 +600,7 @@ ii  linux-image-3.13.0-133-generic       3.13.0-133.182                         
 ii  linux-image-3.13.0-135-generic       3.13.0-135.184                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-137-generic       3.13.0-137.186                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-139-generic       3.13.0-139.188                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-3.13.0-141-generic       3.13.0-141.190                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-79-generic        3.13.0-79.123                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-83-generic        3.13.0-83.127                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-85-generic        3.13.0-85.129                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -640,6 +643,7 @@ ii  linux-image-extra-3.13.0-133-generic 3.13.0-133.182                         
 ii  linux-image-extra-3.13.0-135-generic 3.13.0-135.184                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-137-generic 3.13.0-137.186                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-139-generic 3.13.0-139.188                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-extra-3.13.0-141-generic 3.13.0-141.190                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-79-generic  3.13.0-79.123                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-83-generic  3.13.0-83.127                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-85-generic  3.13.0-85.129                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
@@ -660,10 +664,10 @@ rc  linux-image-extra-3.19.0-41-generic  3.19.0-41.46~14.04.2                   
 rc  linux-image-extra-3.19.0-42-generic  3.19.0-42.48~14.04.1                       amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-47-generic  3.19.0-47.53~14.04.1                       amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-49-generic  3.19.0-49.55~14.04.1                       amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
-ii  linux-image-generic                  3.13.0.139.148                             amd64        Generic Linux kernel image
-ii  linux-image-generic-lts-trusty       3.13.0.139.148                             amd64        Generic Linux kernel image
-ii  linux-image-virtual                  3.13.0.139.148                             amd64        This package will always depend on the latest minimal generic kernel image.
-ii  linux-libc-dev:amd64                 3.13.0-139.188                             amd64        Linux Kernel Headers for development
+ii  linux-image-generic                  3.13.0.141.151                             amd64        Generic Linux kernel image
+ii  linux-image-generic-lts-trusty       3.13.0.141.151                             amd64        Generic Linux kernel image
+ii  linux-image-virtual                  3.13.0.141.151                             amd64        This package will always depend on the latest minimal generic kernel image.
+ii  linux-libc-dev:amd64                 3.13.0-141.190                             amd64        Linux Kernel Headers for development
 ii  locales                              2.13+git20120306-12.1                      all          common files for locale support
 ii  lockfile-progs                       0.1.17                                     amd64        Programs for locking and unlocking files and mailboxes
 ii  login                                1:4.1.5.1-1ubuntu9.5                       amd64        system login tools
@@ -697,12 +701,12 @@ ii  mount                                2.20.1-5.1ubuntu20.9                   
 ii  mountall                             2.53                                       amd64        filesystem mounting tool
 ii  mtr-tiny                             0.85-2                                     amd64        Full screen ncurses traceroute tool
 ii  multiarch-support                    2.19-0ubuntu6.14                           amd64        Transitional package to ensure multiarch compatibility
-ii  mysql-client-5.5                     5.5.58-0ubuntu0.14.04.1                    amd64        MySQL database client binaries
-ii  mysql-client-core-5.5                5.5.58-0ubuntu0.14.04.1                    amd64        MySQL database core client binaries
-ii  mysql-common                         5.5.58-0ubuntu0.14.04.1                    all          MySQL database common files, e.g. /etc/mysql/my.cnf
-ii  mysql-server                         5.5.58-0ubuntu0.14.04.1                    all          MySQL database server (metapackage depending on the latest version)
-ii  mysql-server-5.5                     5.5.58-0ubuntu0.14.04.1                    amd64        MySQL database server binaries and system database setup
-ii  mysql-server-core-5.5                5.5.58-0ubuntu0.14.04.1                    amd64        MySQL database server binaries
+ii  mysql-client-5.5                     5.5.59-0ubuntu0.14.04.1                    amd64        MySQL database client binaries
+ii  mysql-client-core-5.5                5.5.59-0ubuntu0.14.04.1                    amd64        MySQL database core client binaries
+ii  mysql-common                         5.5.59-0ubuntu0.14.04.1                    all          MySQL database common files, e.g. /etc/mysql/my.cnf
+ii  mysql-server                         5.5.59-0ubuntu0.14.04.1                    all          MySQL database server (metapackage depending on the latest version)
+ii  mysql-server-5.5                     5.5.59-0ubuntu0.14.04.1                    amd64        MySQL database server binaries and system database setup
+ii  mysql-server-core-5.5                5.5.59-0ubuntu0.14.04.1                    amd64        MySQL database server binaries
 ii  nano                                 2.2.6-1ubuntu1                             amd64        small, friendly text editor inspired by Pico
 ii  ncdu                                 1.10-1                                     amd64        ncurses disk usage viewer
 ii  ncurses-base                         5.9+20140118-1ubuntu1                      all          basic terminal type definitions
@@ -762,9 +766,9 @@ ii  npm                                  1.3.10~dfsg-1                          
 ii  ntfs-3g                              1:2013.1.13AR.1-2ubuntu2                   amd64        read/write NTFS driver for FUSE
 ii  ntp                                  1:4.2.6.p5+dfsg-3ubuntu2.14.04.12          amd64        Network Time Protocol daemon and utility programs
 ii  ntpdate                              1:4.2.6.p5+dfsg-3ubuntu2.14.04.12          amd64        client for setting system time from NTP servers
-ii  openssh-client                       1:6.6p1-2ubuntu2.8                         amd64        secure shell (SSH) client, for secure access to remote machines
-ii  openssh-server                       1:6.6p1-2ubuntu2.8                         amd64        secure shell (SSH) server, for secure access from remote machines
-ii  openssh-sftp-server                  1:6.6p1-2ubuntu2.8                         amd64        secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii  openssh-client                       1:6.6p1-2ubuntu2.10                        amd64        secure shell (SSH) client, for secure access to remote machines
+ii  openssh-server                       1:6.6p1-2ubuntu2.10                        amd64        secure shell (SSH) server, for secure access from remote machines
+ii  openssh-sftp-server                  1:6.6p1-2ubuntu2.10                        amd64        secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii  openssl                              1.0.1f-1ubuntu2.23                         amd64        Secure Sockets Layer toolkit - cryptographic utility
 ii  os-prober                            1.63ubuntu1.1                              amd64        utility to detect other OSes on a set of drives
 ii  parted                               2.3-19ubuntu1.14.04.1                      amd64        disk partition manipulator
@@ -905,7 +909,7 @@ ii  smarty3                              3.1.13-1                               
 ii  software-properties-common           0.92.37.8                                  all          manage the repositories that you install software from (common)
 ii  sphinx-common                        1.2.2+dfsg-1ubuntu1.1                      all          documentation generator for Python projects - common data
 ii  sqlite3                              3.8.2-1ubuntu2.1                           amd64        Command line interface for SQLite 3
-ii  ssh                                  1:6.6p1-2ubuntu2.8                         all          secure shell client and server (metapackage)
+ii  ssh                                  1:6.6p1-2ubuntu2.10                        all          secure shell client and server (metapackage)
 ii  ssh-import-id                        3.21-0ubuntu1                              all          securely retrieve an SSH public key and install it locally
 ii  ssl-cert                             1.0.33                                     all          simple debconf wrapper for OpenSSL
 ii  strace                               4.8-1ubuntu5                               amd64        A system call tracer
