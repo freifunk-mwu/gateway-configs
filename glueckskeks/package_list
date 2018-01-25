@@ -843,7 +843,7 @@ ii  rpm                                  4.11.1-3ubuntu0.1                      
 ii  rpm-common                           4.11.1-3ubuntu0.1                          amd64        common files for RPM
 ii  rpm2cpio                             4.11.1-3ubuntu0.1                          amd64        tool to convert RPM package to CPIO archive
 ii  rrdtool                              1.4.7-2ubuntu5                             amd64        time-series data storage and display system (programs)
-ii  rsync                                3.1.0-2ubuntu0.3                           amd64        fast, versatile, remote (and local) file-copying tool
+ii  rsync                                3.1.0-2ubuntu0.4                           amd64        fast, versatile, remote (and local) file-copying tool
 ii  rsyslog                              7.4.4-1ubuntu2.7                           amd64        reliable system and kernel logging daemon
 ii  run-one                              1.17-0ubuntu1                              all          run just one instance of a command and its args at a time
 ii  sa-compile                           3.4.0-1ubuntu2.1                           all          Tools for compiling SpamAssassin rules into C
