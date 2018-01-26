@@ -404,8 +404,8 @@ ii  libsysfs2:amd64                      2.1.0+repack-3ubuntu1                  
 ii  libsystemd-daemon0:amd64             204-5ubuntu20.25                           amd64        systemd utility library
 ii  libsystemd-login0:amd64              204-5ubuntu20.25                           amd64        systemd login utility library
 ii  libtamuanova-0.2                     0.2-3                                      amd64        Library to calculate an ANOVA
-ii  libtasn1-6:amd64                     3.4-3ubuntu0.5                             amd64        Manage ASN.1 structures (runtime)
-ii  libtasn1-6-dev                       3.4-3ubuntu0.5                             amd64        Manage ASN.1 structures (development)
+ii  libtasn1-6:amd64                     3.4-3ubuntu0.6                             amd64        Manage ASN.1 structures (runtime)
+ii  libtasn1-6-dev                       3.4-3ubuntu0.6                             amd64        Manage ASN.1 structures (development)
 ii  libtcl8.5:amd64                      8.5.15-2ubuntu1                            amd64        Tcl (the Tool Command Language) v8.5 - run-time library files
 ii  libtcltk-ruby1.9.1                   1.9.3.484-2ubuntu1.7                       amd64        Tcl/Tk interface for Ruby 1.9.1
 ii  libterm-ui-perl                      0.42-1                                     all          Term::ReadLine UI made easy
