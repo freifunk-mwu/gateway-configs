@@ -392,7 +392,7 @@ ii  libswitch-perl                       2.16-2                                 
 ii  libsysfs2:amd64                      2.1.0+repack-3ubuntu1                      amd64        interface library to sysfs
 ii  libsystemd-daemon0:amd64             204-5ubuntu20.25                           amd64        systemd utility library
 ii  libsystemd-login0:amd64              204-5ubuntu20.25                           amd64        systemd login utility library
-ii  libtasn1-6:amd64                     3.4-3ubuntu0.5                             amd64        Manage ASN.1 structures (runtime)
+ii  libtasn1-6:amd64                     3.4-3ubuntu0.6                             amd64        Manage ASN.1 structures (runtime)
 ii  libtemplate-perl                     2.24-1.1                                   amd64        the "Template Toolkit" template processing system in perl
 ii  libterm-ui-perl                      0.42-1                                     all          Term::ReadLine UI made easy
 ii  libtext-charwidth-perl               0.04-7build3                               amd64        get display widths of characters on the terminal
