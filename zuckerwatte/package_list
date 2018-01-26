@@ -482,7 +482,7 @@ ii  libsystemd-daemon0:amd64             204-5ubuntu20.25                       
 ii  libsystemd-journal0:amd64            204-5ubuntu20.25                           amd64        systemd journal utility library
 ii  libsystemd-login0:amd64              204-5ubuntu20.25                           amd64        systemd login utility library
 rc  libtamuanova-0.2                     0.2-3                                      amd64        Library to calculate an ANOVA
-ii  libtasn1-6:amd64                     3.4-3ubuntu0.5                             amd64        Manage ASN.1 structures (runtime)
+ii  libtasn1-6:amd64                     3.4-3ubuntu0.6                             amd64        Manage ASN.1 structures (runtime)
 ii  libterm-readkey-perl                 2.31-1                                     amd64        perl module for simple terminal control
 ii  libterm-ui-perl                      0.42-1                                     all          Term::ReadLine UI made easy
 ii  libtext-charwidth-perl               0.04-7build3                               amd64        get display widths of characters on the terminal
