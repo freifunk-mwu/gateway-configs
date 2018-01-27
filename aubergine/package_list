@@ -404,8 +404,8 @@ ii  libsysfs2:amd64                      2.1.0+repack-3ubuntu1                  
 ii  libsystemd-daemon0:amd64             204-5ubuntu20.25                           amd64        systemd utility library
 ii  libsystemd-login0:amd64              204-5ubuntu20.25                           amd64        systemd login utility library
 ii  libtamuanova-0.2                     0.2-3                                      amd64        Library to calculate an ANOVA
-ii  libtasn1-6:amd64                     3.4-3ubuntu0.5                             amd64        Manage ASN.1 structures (runtime)
-ii  libtasn1-6-dev                       3.4-3ubuntu0.5                             amd64        Manage ASN.1 structures (development)
+ii  libtasn1-6:amd64                     3.4-3ubuntu0.6                             amd64        Manage ASN.1 structures (runtime)
+ii  libtasn1-6-dev                       3.4-3ubuntu0.6                             amd64        Manage ASN.1 structures (development)
 ii  libtcl8.5:amd64                      8.5.15-2ubuntu1                            amd64        Tcl (the Tool Command Language) v8.5 - run-time library files
 ii  libtcltk-ruby1.9.1                   1.9.3.484-2ubuntu1.7                       amd64        Tcl/Tk interface for Ruby 1.9.1
 ii  libterm-ui-perl                      0.42-1                                     all          Term::ReadLine UI made easy
@@ -737,7 +737,7 @@ ii  readline-common                      6.3-4ubuntu2                           
 ii  resolvconf                           1.69ubuntu1.3                              all          name server information handler
 ii  ri1.9.1                              1.9.3.484-2ubuntu1.7                       all          Ruby Interactive reference (for Ruby 1.9.1)
 ii  rrdtool                              1.4.7-2ubuntu5                             amd64        time-series data storage and display system (programs)
-ii  rsync                                3.1.0-2ubuntu0.3                           amd64        fast, versatile, remote (and local) file-copying tool
+ii  rsync                                3.1.0-2ubuntu0.4                           amd64        fast, versatile, remote (and local) file-copying tool
 ii  rsyslog                              7.4.4-1ubuntu2.7                           amd64        reliable system and kernel logging daemon
 ii  ruby                                 1:1.9.3.4                                  all          Interpreter of object-oriented scripting language Ruby (default version)
 ii  ruby-albino                          1.3.3-2                                    all          Ruby wrapper for pygmentize
