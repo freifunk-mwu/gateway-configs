@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2017110502		; Serial
+		     2018012300		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -56,6 +56,9 @@ icvpn231	IN	CNAME	wasserfloh
 
 uffschnitt	IN	A	94.130.21.201
 uffschnitt	IN	AAAA	2a01:4f8:10b:1b29::2
+gate101		IN	CNAME	uffschnitt
+icvpn101	IN	CNAME	uffschnitt
+sparegate1	IN	CNAME	uffschnitt
 
 extrasahne	IN	A	82.149.226.105
 ;extrasahne	IN	AAAA	2a01:4f8:190:7008:2800::1
@@ -80,8 +83,8 @@ suesskartoffel	IN	A	188.68.53.133
 suesskartoffel	IN	AAAA	2a03:4000:6:e046::b4dc:4b1e
 churro		IN	A	85.14.253.122
 churro		IN	AAAA	2001:4ba0:fffc:3d::b4dc:4b1e:4
-okra		IN	A	136.243.198.170
-okra		IN	AAAA	2a01:4f8:192:570::b4dc:4b1e
+okra		IN	A	144.76.209.102
+okra		IN	AAAA	2a01:4f8:192:522::b4dc:4b1e
 viprivpn	IN	A	193.25.173.41
 viprivpn-wan	IN	A	193.25.173.42
 unifi		IN	A	85.14.253.122
