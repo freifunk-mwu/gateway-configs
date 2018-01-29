@@ -13,9 +13,9 @@ iface br0 inet static
         bridge-ports eth0
         bridge_stp off
         bridge_fd 0
-        address 193.111.140.90
+        address 85.114.134.45
         netmask 255.255.255.0
-        gateway 193.111.140.1
+        gateway 85.114.134.1
 
 iface br0 inet6 static
         address 2001:4ba0:fffc:3d::b4dc:4b1e
