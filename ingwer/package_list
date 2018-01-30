@@ -49,6 +49,7 @@ ii  bzip2                              1.0.6-7+b3                         amd64 
 ii  ca-certificates                    20141019+deb8u3                    all          Common CA certificates
 ii  check-mk-agent                     1.2.8p15-1                         all          Check_MK Agent for Linux
 ii  checkinstall                       1.6.2-4                            amd64        installation tracker
+ii  cloud-guest-utils                  0.29-1~bpo8+1                      all          cloud guest utilities
 ii  cmake                              3.0.2-1+deb8u1                     amd64        cross-platform, open-source make system
 ii  cmake-data                         3.0.2-1+deb8u1                     all          CMake data files (modules, templates and documentation)
 ii  console-setup                      1.123                              all          console font and keymap setup program
@@ -111,6 +112,7 @@ ii  gcc-4.8                            4.8.4-1                            amd64 
 ii  gcc-4.8-base:amd64                 4.8.4-1                            amd64        GCC, the GNU Compiler Collection (base package)
 ii  gcc-4.9                            4.9.2-10                           amd64        GNU C compiler
 ii  gcc-4.9-base:amd64                 4.9.2-10                           amd64        GCC, the GNU Compiler Collection (base package)
+ii  gdisk                              0.8.10-2                           amd64        GPT fdisk text-mode partitioning tool
 ii  geoip-database                     20150317-1                         all          IP lookup command line tools that use the GeoIP library (country database)
 ii  gettext-base                       0.19.3-2                           amd64        GNU Internationalization utilities for the base system
 ii  gir1.2-glib-2.0:amd64              1.42.0-2.2                         amd64        Introspection data for GLib, GObject, Gio and GModule
@@ -422,7 +424,7 @@ ii  libtext-unidecode-perl             1.22-1                             all   
 ii  libtext-wrapi18n-perl              0.06-7                             all          internationalized substitute of Text::Wrap
 ii  libthai-data                       0.1.21-1                           all          Data files for Thai language support library
 ii  libthai0:amd64                     0.1.21-1                           amd64        Thai language support library
-ii  libtiff5:amd64                     4.0.3-12.3+deb8u4                  amd64        Tag Image File Format (TIFF) library
+ii  libtiff5:amd64                     4.0.3-12.3+deb8u5                  amd64        Tag Image File Format (TIFF) library
 ii  libtimedate-perl                   2.3000-2                           all          collection of modules to manipulate date/time information
 ii  libtinfo5:amd64                    5.9+20140913-1+deb8u2              amd64        shared low-level terminfo library for terminal handling
 ii  libtokyocabinet9:amd64             1.4.48-3                           amd64        Tokyo Cabinet Database Libraries [runtime]
