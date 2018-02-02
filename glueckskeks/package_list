@@ -48,10 +48,10 @@ ii  bzip2                                1.0.6-5                                
 ii  ca-certificates                      20170717~14.04.1                           all          Common CA certificates
 ii  cabextract                           1.4-4                                      amd64        Microsoft Cabinet file unpacker
 ii  check-mk-agent                       1.2.6p12-1                                 all          Check_MK Agent for Linux
-ii  clamav                               0.99.2+addedllvm-0ubuntu0.14.04.2          amd64        anti-virus utility for Unix - command-line interface
-ii  clamav-base                          0.99.2+addedllvm-0ubuntu0.14.04.2          all          anti-virus utility for Unix - base package
-ii  clamav-daemon                        0.99.2+addedllvm-0ubuntu0.14.04.2          amd64        anti-virus utility for Unix - scanner daemon
-ii  clamav-freshclam                     0.99.2+addedllvm-0ubuntu0.14.04.2          amd64        anti-virus utility for Unix - virus database update utility
+ii  clamav                               0.99.3+addedllvm-0ubuntu0.14.04.1          amd64        anti-virus utility for Unix - command-line interface
+ii  clamav-base                          0.99.3+addedllvm-0ubuntu0.14.04.1          all          anti-virus utility for Unix - base package
+ii  clamav-daemon                        0.99.3+addedllvm-0ubuntu0.14.04.1          amd64        anti-virus utility for Unix - scanner daemon
+ii  clamav-freshclam                     0.99.3+addedllvm-0ubuntu0.14.04.1          amd64        anti-virus utility for Unix - virus database update utility
 ii  command-not-found                    0.3ubuntu12                                all          Suggest installation of packages in interactive bash sessions
 ii  command-not-found-data               0.3ubuntu12                                amd64        Set of data files for command-not-found.
 ii  console-setup                        1.70ubuntu8                                all          console font and keymap setup program
@@ -61,7 +61,7 @@ ii  cpp                                  4:4.8.2-1ubuntu6                       
 ii  cpp-4.8                              4.8.4-2ubuntu1~14.04.3                     amd64        GNU C preprocessor
 ii  crda                                 1.1.2-1ubuntu2                             amd64        wireless Central Regulatory Domain Agent
 ii  cron                                 3.0pl1-124ubuntu2                          amd64        process scheduling daemon
-ii  curl                                 7.35.0-1ubuntu2.13                         amd64        command line tool for transferring data with URL syntax
+ii  curl                                 7.35.0-1ubuntu2.14                         amd64        command line tool for transferring data with URL syntax
 ii  dash                                 0.5.7-4ubuntu1                             amd64        POSIX-compliant shell
 ii  dbus                                 1.6.18-0ubuntu4.5                          amd64        simple interprocess messaging system (daemon and utilities)
 ii  debconf                              1.5.51ubuntu2                              all          Debian configuration management system
@@ -138,8 +138,8 @@ ii  insserv                              1.14.0-5ubuntu2                        
 ii  install-info                         5.2.0.dfsg.1-2                             amd64        Manage installed documentation in info format
 ii  installation-report                  2.54ubuntu1                                all          system installation report
 ii  intltool-debian                      0.35.0+20060710.1                          all          Help i18n of RFC822 compliant config files
-ii  iproute                              1:3.12.0-2ubuntu1.1                        all          transitional dummy package for iproute2
-ii  iproute2                             3.12.0-2ubuntu1.1                          amd64        networking and traffic control tools
+ii  iproute                              1:3.12.0-2ubuntu1.2                        all          transitional dummy package for iproute2
+ii  iproute2                             3.12.0-2ubuntu1.2                          amd64        networking and traffic control tools
 ii  iptables                             1.4.21-1ubuntu1                            amd64        administration tools for packet filtering and NAT
 ii  iputils-ping                         3:20121221-4ubuntu1.1                      amd64        Tools to test the reachability of network hosts
 ii  iputils-tracepath                    3:20121221-4ubuntu1.1                      amd64        Tools to trace the network path to a remote host
@@ -207,7 +207,7 @@ ii  libcdb1:amd64                        0.78                                   
 ii  libcgmanager0:amd64                  0.24-0ubuntu7.5                            amd64        Central cgroup manager daemon (client library)
 ii  libck-connector0:amd64               0.4.5-3.1ubuntu2                           amd64        ConsoleKit libraries
 rc  libclamav6                           0.98.7+dfsg-0ubuntu0.14.04.1               amd64        anti-virus utility for Unix - library
-ii  libclamav7                           0.99.2+addedllvm-0ubuntu0.14.04.2          amd64        anti-virus utility for Unix - library
+ii  libclamav7                           0.99.3+addedllvm-0ubuntu0.14.04.1          amd64        anti-virus utility for Unix - library
 ii  libclass-accessor-perl               0.34-1                                     all          Perl module that automatically generates accessors
 ii  libcloog-isl4:amd64                  0.18.2-1                                   amd64        Chunky Loop Generator (runtime library)
 ii  libcomerr2:amd64                     1.42.9-3ubuntu1.3                          amd64        common error description library
@@ -217,8 +217,8 @@ ii  libconvert-uulib-perl                1:1.4~dfsg-1build3                     
 ii  libcroco3:amd64                      0.6.8-2ubuntu1                             amd64        Cascading Style Sheet (CSS) parsing and manipulation toolkit
 ii  libcrypt-openssl-bignum-perl         0.04-4build1                               amd64        Perl module to access OpenSSL multiprecision integer arithmetic libraries
 ii  libcrypt-openssl-rsa-perl            0.28-1build1                               amd64        module for RSA encryption using OpenSSL
-ii  libcurl3:amd64                       7.35.0-1ubuntu2.13                         amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
-ii  libcurl3-gnutls:amd64                7.35.0-1ubuntu2.13                         amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii  libcurl3:amd64                       7.35.0-1ubuntu2.14                         amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii  libcurl3-gnutls:amd64                7.35.0-1ubuntu2.14                         amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii  libcwidget3                          0.5.16-3.5ubuntu1                          amd64        high-level terminal interface library for C++ (runtime files)
 ii  libdatrie1:amd64                     0.2.8-1                                    amd64        Double-array trie library
 ii  libdb5.3:amd64                       5.3.28-3ubuntu3.1                          amd64        Berkeley v5.3 Database Libraries [runtime]
