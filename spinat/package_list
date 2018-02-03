@@ -702,7 +702,7 @@ ii  vim-runtime                          2:7.4.052-1ubuntu3.1                   
 ii  vim-tiny                             2:7.4.052-1ubuntu3.1                       amd64        Vi IMproved - enhanced vi editor - compact version
 ii  vnstat                               1.11-2                                     amd64        console-based network traffic monitor
 ii  vnstati                              1.11-2                                     amd64        image output support for vnStat
-ii  w3m                                  0.5.3-15ubuntu0.1                          amd64        WWW browsable pager with excellent tables/frames support
+ii  w3m                                  0.5.3-15ubuntu0.2                          amd64        WWW browsable pager with excellent tables/frames support
 ii  watchdog                             5.13-1                                     amd64        system health checker and software/hardware watchdog handler
 ii  watershed                            7                                          amd64        reduce superfluous executions of idempotent command
 ii  wget                                 1.15-1ubuntu1.14.04.3                      amd64        retrieves files from the web
