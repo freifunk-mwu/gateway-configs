@@ -723,8 +723,8 @@ ii  openssh-server                       1:6.6p1-2ubuntu2.10                    
 ii  openssh-sftp-server                  1:6.6p1-2ubuntu2.10                        amd64        secure shell (SSH) sftp server module, for SFTP access from remote machines
 ii  openssl                              1.0.1f-1ubuntu2.23                         amd64        Secure Sockets Layer toolkit - cryptographic utility
 ii  os-prober                            1.63ubuntu1.1                              amd64        utility to detect other OSes on a set of drives
-ii  p7zip                                9.20.1~dfsg.1-4+deb7u2build0.14.04.1       amd64        7z file archiver with high compression ratio
-ii  p7zip-full                           9.20.1~dfsg.1-4+deb7u2build0.14.04.1       amd64        7z and 7za file archivers with high compression ratio
+ii  p7zip                                9.20.1~dfsg.1-4+deb7u3build0.14.04.1       amd64        7z file archiver with high compression ratio
+ii  p7zip-full                           9.20.1~dfsg.1-4+deb7u3build0.14.04.1       amd64        7z and 7za file archivers with high compression ratio
 ii  parted                               2.3-19ubuntu1.14.04.1                      amd64        disk partition manipulator
 ii  passwd                               1:4.1.5.1-1ubuntu9.5                       amd64        change and administer password and group data
 ii  patch                                2.7.1-4ubuntu2.3                           amd64        Apply a diff file to an original
