@@ -631,7 +631,7 @@ ii  texinfo                            5.2.0.dfsg.1-6                     amd64 
 ii  time                               1.7-25                             amd64        GNU time program for measuring CPU resource usage
 ii  tinc                               1.0.24-2.1+b1                      amd64        Virtual Private Network daemon
 ii  traceroute                         1:2.0.20-2+b1                      amd64        Traces the route taken by packets over an IPv4/IPv6 network
-ii  tzdata                             2017c-0+deb8u1                     all          time zone and daylight-saving time data
+ii  tzdata                             2018c-0+deb8u1                     all          time zone and daylight-saving time data
 ii  ucf                                3.0030                             all          Update Configuration File(s): preserve user changes to config files
 ii  udev                               215-17+deb8u7                      amd64        /dev/ and hotplug management daemon
 ii  unattended-upgrades                0.83.3.2+deb8u1                    all          automatic installation of security upgrades
