@@ -114,6 +114,8 @@ roa fd4e:f2d7:88d2:fffe::/64 max  64 as      64769; # luxembourg
 roa fda9:026e:5805::/48      max  64 as      65039; # magdeburg
 roa 2a06:4b00:1000::/56      max  64 as      64877; # marburg
 roa fd42:100c:7121::/48      max  64 as      64877; # marburg
+roa 2a03:2260:1016::/48      max  64 as      65032; # mayen-koblenz
+roa fd62:44e1:da::/48        max  64 as      65032; # mayen-koblenz
 roa fdd9:a0b1:5bd0::/48      max  64 as      64863; # mettmann
 roa 2a03:2260:10::/48        max  64 as      65057; # moehne
 roa 2001:608:a01::/48        max  64 as      65080; # muenchen
