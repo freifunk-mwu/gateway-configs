@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2018020100		; Serial
+		     2018021302		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -60,8 +60,8 @@ gate101		IN	CNAME	uffschnitt
 icvpn101	IN	CNAME	uffschnitt
 sparegate1	IN	CNAME	uffschnitt
 
-hetznercloudgw 	IN	A	195.201.21.147
-hetznercloudgw	IN	AAAA	2a01:4f8:1c0c:4d9e::1
+trueffel 	IN	A	94.130.189.77
+trueffel	IN	AAAA	2a01:4f8:1c0c:4d9e::1
 gate104		IN	CNAME	hetznercloudgw
 icvpn104	IN	CNAME	hetznercloudgw
 ;sparegate2	IN	CNAME	hetznercloudgw
