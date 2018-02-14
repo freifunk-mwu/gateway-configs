@@ -164,7 +164,7 @@ ii  libaio1:amd64                        0.3.109-4                              
 ii  libalgorithm-diff-perl               1.19.02-3                                  all          module to find differences between files
 ii  libalgorithm-diff-xs-perl            0.04-2build4                               amd64        module to find differences between files (XS accelerated)
 ii  libalgorithm-merge-perl              0.08-2                                     all          Perl module for three-way merge of textual data
-ii  libapache2-mod-php5                  5.5.9+dfsg-1ubuntu4.22                     amd64        server-side, HTML-embedded scripting language (Apache 2 module)
+ii  libapache2-mod-php5                  5.5.9+dfsg-1ubuntu4.23                     amd64        server-side, HTML-embedded scripting language (Apache 2 module)
 ii  libapache2-mod-wsgi                  3.4-4ubuntu2.1.14.04.2                     amd64        Python WSGI adapter module for Apache
 ii  libapparmor-perl                     2.10.95-0ubuntu2.6~14.04.1                 amd64        AppArmor library Perl bindings
 ii  libapparmor1:amd64                   2.10.95-0ubuntu2.6~14.04.1                 amd64        changehat AppArmor library
@@ -734,15 +734,15 @@ ii  perl                                 5.18.2-2ubuntu1.3                      
 ii  perl-base                            5.18.2-2ubuntu1.3                          amd64        minimal Perl system
 ii  perl-modules                         5.18.2-2ubuntu1.3                          all          Core Perl modules
 ii  php-mail-mime                        1.8.8-1                                    all          PHP PEAR module for creating MIME messages
-ii  php-pear                             5.5.9+dfsg-1ubuntu4.22                     all          PEAR - PHP Extension and Application Repository
-ii  php5                                 5.5.9+dfsg-1ubuntu4.22                     all          server-side, HTML-embedded scripting language (metapackage)
-ii  php5-cli                             5.5.9+dfsg-1ubuntu4.22                     amd64        command-line interpreter for the php5 scripting language
-ii  php5-common                          5.5.9+dfsg-1ubuntu4.22                     amd64        Common files for packages built from the php5 source
-ii  php5-intl                            5.5.9+dfsg-1ubuntu4.22                     amd64        internationalisation module for php5
+ii  php-pear                             5.5.9+dfsg-1ubuntu4.23                     all          PEAR - PHP Extension and Application Repository
+ii  php5                                 5.5.9+dfsg-1ubuntu4.23                     all          server-side, HTML-embedded scripting language (metapackage)
+ii  php5-cli                             5.5.9+dfsg-1ubuntu4.23                     amd64        command-line interpreter for the php5 scripting language
+ii  php5-common                          5.5.9+dfsg-1ubuntu4.23                     amd64        Common files for packages built from the php5 source
+ii  php5-intl                            5.5.9+dfsg-1ubuntu4.23                     amd64        internationalisation module for php5
 ii  php5-json                            1.3.2-2build1                              amd64        JSON module for php5
 ii  php5-mcrypt                          5.4.6-0ubuntu5                             amd64        MCrypt module for php5
-ii  php5-mysqlnd                         5.5.9+dfsg-1ubuntu4.22                     amd64        MySQL module for php5 (Native Driver)
-ii  php5-readline                        5.5.9+dfsg-1ubuntu4.22                     amd64        Readline module for php5
+ii  php5-mysqlnd                         5.5.9+dfsg-1ubuntu4.23                     amd64        MySQL module for php5 (Native Driver)
+ii  php5-readline                        5.5.9+dfsg-1ubuntu4.23                     amd64        Readline module for php5
 ii  pkg-config                           0.26-1ubuntu4                              amd64        manage compile and link flags for libraries
 ii  plymouth                             0.8.8-0ubuntu17.1                          amd64        graphical boot animation and logger - main package
 ii  plymouth-theme-ubuntu-text           0.8.8-0ubuntu17.1                          amd64        graphical boot animation and logger - ubuntu-logo theme
