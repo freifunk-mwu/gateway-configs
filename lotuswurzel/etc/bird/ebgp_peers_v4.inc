@@ -122,7 +122,6 @@ protocol bgp icvpn_kiel0 from ebgp_ic {
 }
 protocol bgp icvpn_kreisgt_fks from ebgp_ic {
     neighbor 10.207.0.134 as 65533;
-    passive yes;
 }
 protocol bgp icvpn_kreisgt_gut from ebgp_ic {
     neighbor 10.207.0.137 as 65533;
