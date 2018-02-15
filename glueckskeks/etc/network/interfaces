@@ -9,9 +9,9 @@ iface lo inet loopback
 auto eth0
 iface eth0 inet static
 	address 5.199.136.244
-	gateway 193.111.140.1
+	gateway 85.114.134.1
 	netmask 255.255.255.255
-	pointopoint 193.111.140.1
+	pointopoint 85.114.134.1
  	dns-nameservers 127.0.0.1
 
 iface eth0 inet6 static
