@@ -3,7 +3,7 @@ $ORIGIN user.ffwi.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffwi.org. hostmaster.ffwi.org. (
-                     2017042400         ; Serial
+                     2018021800         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -14,6 +14,7 @@ $TTL    600
 @       	IN      NS      spinat.ffwi.org.
 @       	IN      NS      lotuswurzel.ffwi.org.
 @		IN	NS	ingwer.ffwi.org.
+@		IN	NS	uffschnitt.ffwi.org.
 
 antigua		IN	A	10.56.4.1
 radio		IN	A	10.56.4.2
@@ -25,11 +26,3 @@ magic		IN	A	10.56.4.88
 magic		IN	AAAA	fd56:b4dc:4b1e:0:ba27:ebff:fe62:72af
 piratebox	IN	A	10.56.4.99
 piratebox	IN	AAAA	fd56:b4dc:4b1e::53:9ff:fe02:c0b5
-blizzard	IN	A	10.56.4.100
-blizzard	IN	AAAA	fd56:b4dc:4b1e::5054:ff:fe79:fded
-vdr		IN	CNAME	blizzard
-ipam		IN	CNAME	blizzard
-zerobin		IN	CNAME	blizzard
-pad		IN	CNAME	blizzard
-brokkoli	IN	A	10.56.4.101
-brokkoli	IN	AAAA	fd56:b4dc:4b1e::5054:ff:fe57:5dea
