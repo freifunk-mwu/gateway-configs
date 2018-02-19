@@ -58,7 +58,7 @@ ii  coreutils                          8.23-4                             amd64 
 ii  cpio                               2.11+dfsg-4.1+deb8u1               amd64        GNU cpio -- a program to manage archives of files
 ii  cpp                                4:4.9.2-2                          amd64        GNU C preprocessor (cpp)
 ii  cpp-4.8                            4.8.4-1                            amd64        GNU C preprocessor
-ii  cpp-4.9                            4.9.2-10                           amd64        GNU C preprocessor
+ii  cpp-4.9                            4.9.2-10+deb8u1                    amd64        GNU C preprocessor
 ii  cron                               3.0pl1-127+deb8u1                  amd64        process scheduling daemon
 ii  curl                               7.38.0-4+deb8u9                    amd64        command line tool for transferring data with URL syntax
 ii  dash                               0.5.7-4+b1                         amd64        POSIX-compliant shell
@@ -106,12 +106,12 @@ ii  fontconfig-config                  2.11.0-6.3+deb8u1                  all   
 ii  fonts-dejavu-core                  2.34-1                             all          Vera font family derivate with additional characters
 ii  ftp                                0.17-31                            amd64        classical file transfer client
 ii  g++                                4:4.9.2-2                          amd64        GNU C++ compiler
-ii  g++-4.9                            4.9.2-10                           amd64        GNU C++ compiler
+ii  g++-4.9                            4.9.2-10+deb8u1                    amd64        GNU C++ compiler
 ii  gcc                                4:4.9.2-2                          amd64        GNU C compiler
 ii  gcc-4.8                            4.8.4-1                            amd64        GNU C compiler
 ii  gcc-4.8-base:amd64                 4.8.4-1                            amd64        GCC, the GNU Compiler Collection (base package)
-ii  gcc-4.9                            4.9.2-10                           amd64        GNU C compiler
-ii  gcc-4.9-base:amd64                 4.9.2-10                           amd64        GCC, the GNU Compiler Collection (base package)
+ii  gcc-4.9                            4.9.2-10+deb8u1                    amd64        GNU C compiler
+ii  gcc-4.9-base:amd64                 4.9.2-10+deb8u1                    amd64        GCC, the GNU Compiler Collection (base package)
 ii  gdisk                              0.8.10-2                           amd64        GPT fdisk text-mode partitioning tool
 ii  geoip-database                     20150317-1                         all          IP lookup command line tools that use the GeoIP library (country database)
 ii  gettext-base                       0.19.3-2                           amd64        GNU Internationalization utilities for the base system
@@ -186,12 +186,12 @@ ii  libapt-pkg-perl                    0.1.29+b2                          amd64 
 ii  libapt-pkg4.12:amd64               1.0.9.8.4                          amd64        package management runtime library
 ii  libarchive13:amd64                 3.1.2-11+deb8u3                    amd64        Multi-format archive and compression library (shared library)
 ii  libasan0:amd64                     4.8.4-1                            amd64        AddressSanitizer -- a fast memory error detector
-ii  libasan1:amd64                     4.9.2-10                           amd64        AddressSanitizer -- a fast memory error detector
+ii  libasan1:amd64                     4.9.2-10+deb8u1                    amd64        AddressSanitizer -- a fast memory error detector
 ii  libasprintf0c2:amd64               0.19.3-2                           amd64        GNU library to use fprintf and friends in C++
 ii  libassuan0:amd64                   2.1.2-2                            amd64        IPC library for the GnuPG components
 ii  libatk1.0-0:amd64                  2.14.0-1                           amd64        ATK accessibility toolkit
 ii  libatk1.0-data                     2.14.0-1                           all          Common files for the ATK accessibility toolkit
-ii  libatomic1:amd64                   4.9.2-10                           amd64        support library providing __atomic built-in functions
+ii  libatomic1:amd64                   4.9.2-10+deb8u1                    amd64        support library providing __atomic built-in functions
 ii  libattr1:amd64                     1:2.4.47-2                         amd64        Extended attribute shared library
 ii  libaudit-common                    1:2.4-1                            all          Dynamic library for security auditing - common files
 ii  libaudit1:amd64                    1:2.4-1+b1                         amd64        Dynamic library for security auditing
@@ -213,7 +213,7 @@ ii  libcap-dev:amd64                   1:2.24-8                           amd64 
 ii  libcap-ng0:amd64                   0.7.4-2                            amd64        An alternate POSIX capabilities library
 ii  libcap2:amd64                      1:2.24-8                           amd64        POSIX 1003.1e capabilities (library)
 ii  libcap2-bin                        1:2.24-8                           amd64        POSIX 1003.1e capabilities (utilities)
-ii  libcilkrts5:amd64                  4.9.2-10                           amd64        Intel Cilk Plus language extensions (runtime)
+ii  libcilkrts5:amd64                  4.9.2-10+deb8u1                    amd64        Intel Cilk Plus language extensions (runtime)
 ii  libclass-accessor-perl             0.34-1                             all          Perl module that automatically generates accessors
 ii  libclass-isa-perl                  0.36-5                             all          report the search path for a class's ISA tree
 ii  libcloog-isl4:amd64                0.18.2-1+b2                        amd64        Chunky Loop Generator (runtime library)
@@ -252,8 +252,8 @@ ii  libfreetype6:amd64                 2.5.2-3+deb8u2                     amd64 
 ii  libfuse2:amd64                     2.9.3-15+deb8u2                    amd64        Filesystem in Userspace (library)
 ii  libgc1c2:amd64                     1:7.2d-6.4                         amd64        conservative garbage collector for C and C++
 ii  libgcc-4.8-dev:amd64               4.8.4-1                            amd64        GCC support library (development files)
-ii  libgcc-4.9-dev:amd64               4.9.2-10                           amd64        GCC support library (development files)
-ii  libgcc1:amd64                      1:4.9.2-10                         amd64        GCC support library
+ii  libgcc-4.9-dev:amd64               4.9.2-10+deb8u1                    amd64        GCC support library (development files)
+ii  libgcc1:amd64                      1:4.9.2-10+deb8u1                  amd64        GCC support library
 ii  libgcrypt20:amd64                  1.6.3-2+deb8u4                     amd64        LGPL Crypto library - runtime library
 ii  libgd3:amd64                       2.1.0-5+deb8u11                    amd64        GD Graphics Library
 ii  libgdbm3:amd64                     1.8.3-13.1                         amd64        GNU dbm database routines (runtime version)
@@ -266,7 +266,7 @@ ii  libglib2.0-data                    2.42.1-1                           all   
 ii  libgmp10:amd64                     2:6.0.0+dfsg-6                     amd64        Multiprecision arithmetic library
 ii  libgnutls-deb0-28:amd64            3.3.8-6+deb8u7                     amd64        GNU TLS library - main runtime library
 ii  libgnutls-openssl27:amd64          3.3.8-6+deb8u7                     amd64        GNU TLS library - OpenSSL wrapper
-ii  libgomp1:amd64                     4.9.2-10                           amd64        GCC OpenMP (GOMP) support library
+ii  libgomp1:amd64                     4.9.2-10+deb8u1                    amd64        GCC OpenMP (GOMP) support library
 ii  libgpg-error0:amd64                1.17-3                             amd64        library for common error values and messages in GnuPG components
 ii  libgpgme11:amd64                   1.5.1-6                            amd64        GPGME - GnuPG Made Easy (library)
 ii  libgpm2:amd64                      1.20.4-6.1+b2                      amd64        General Purpose Mouse - shared library
@@ -303,7 +303,7 @@ ii  libisccc90                         1:9.9.5.dfsg-9+deb8u15             amd64 
 ii  libisccfg-export90                 1:9.9.5.dfsg-9+deb8u15             amd64        Exported ISC CFG Shared Library
 ii  libisccfg90                        1:9.9.5.dfsg-9+deb8u15             amd64        Config File Handling Library used by BIND
 ii  libisl10:amd64                     0.12.2-2                           amd64        manipulating sets and relations of integer points bounded by linear constraints
-ii  libitm1:amd64                      4.9.2-10                           amd64        GNU Transactional Memory Library
+ii  libitm1:amd64                      4.9.2-10+deb8u1                    amd64        GNU Transactional Memory Library
 ii  libjansson-dev:amd64               2.7-1+deb8u1                       amd64        C library for encoding, decoding and manipulating JSON data (dev)
 ii  libjansson4:amd64                  2.7-1+deb8u1                       amd64        C library for encoding, decoding and manipulating JSON data
 ii  libjasper1:amd64                   1.900.1-debian1-2.4+deb8u3         amd64        JasPer JPEG-2000 runtime library
@@ -324,7 +324,7 @@ ii  liblockfile-bin                    1.09-6                             amd64 
 ii  liblockfile1:amd64                 1.09-6                             amd64        NFS-safe locking library
 ii  liblogging-stdlog0:amd64           1.0.4-1                            amd64        easy to use and lightweight logging library
 ii  liblognorm1:amd64                  1.0.1-3                            amd64        Log normalizing library
-ii  liblsan0:amd64                     4.9.2-10                           amd64        LeakSanitizer -- a memory leak detector (runtime)
+ii  liblsan0:amd64                     4.9.2-10+deb8u1                    amd64        LeakSanitizer -- a memory leak detector (runtime)
 ii  liblua5.1-0:amd64                  5.1.5-7.1                          amd64        Shared library for the Lua interpreter version 5.1
 ii  liblwp-mediatypes-perl             6.02-1                             all          module to guess media type for a file or a URL
 ii  liblwp-protocol-https-perl         6.06-2                             all          HTTPS driver for LWP::UserAgent
@@ -390,7 +390,7 @@ ii  libpython3.4:amd64                 3.4.2-1                            amd64 
 ii  libpython3.4-dev:amd64             3.4.2-1                            amd64        Header files and a static library for Python (v3.4)
 ii  libpython3.4-minimal:amd64         3.4.2-1                            amd64        Minimal subset of the Python language (version 3.4)
 ii  libpython3.4-stdlib:amd64          3.4.2-1                            amd64        Interactive high-level object-oriented language (standard library, version 3.4)
-ii  libquadmath0:amd64                 4.9.2-10                           amd64        GCC Quad-Precision Math Library
+ii  libquadmath0:amd64                 4.9.2-10+deb8u1                    amd64        GCC Quad-Precision Math Library
 ii  libreadline6:amd64                 6.3-8+b3                           amd64        GNU readline and history libraries, run-time libraries
 ii  libregexp-assemble-perl            0.35-8                             all          Perl module that assemble multiple regexps into a single one
 ii  librrd4                            1.4.8-1.2                          amd64        time-series data storage and display system (runtime library)
@@ -411,8 +411,8 @@ ii  libsqlite3-0:amd64                 3.8.7.1-1+deb8u2                   amd64 
 ii  libss2:amd64                       1.42.12-2+b1                       amd64        command-line interface parsing library
 ii  libssh2-1:amd64                    1.4.3-4.1+deb8u1                   amd64        SSH2 client-side library
 ii  libssl1.0.0:amd64                  1.0.1t-1+deb8u7                    amd64        Secure Sockets Layer toolkit - shared libraries
-ii  libstdc++-4.9-dev:amd64            4.9.2-10                           amd64        GNU Standard C++ Library v3 (development files)
-ii  libstdc++6:amd64                   4.9.2-10                           amd64        GNU Standard C++ Library v3
+ii  libstdc++-4.9-dev:amd64            4.9.2-10+deb8u1                    amd64        GNU Standard C++ Library v3 (development files)
+ii  libstdc++6:amd64                   4.9.2-10+deb8u1                    amd64        GNU Standard C++ Library v3
 ii  libsub-name-perl                   0.12-1                             amd64        module for assigning a new name to referenced sub
 ii  libswitch-perl                     2.17-2                             all          switch statement for Perl
 ii  libsysfs2:amd64                    2.1.0+repack-4                     amd64        interface library to sysfs
@@ -428,8 +428,8 @@ ii  libtiff5:amd64                     4.0.3-12.3+deb8u5                  amd64 
 ii  libtimedate-perl                   2.3000-2                           all          collection of modules to manipulate date/time information
 ii  libtinfo5:amd64                    5.9+20140913-1+deb8u2              amd64        shared low-level terminfo library for terminal handling
 ii  libtokyocabinet9:amd64             1.4.48-3                           amd64        Tokyo Cabinet Database Libraries [runtime]
-ii  libtsan0:amd64                     4.9.2-10                           amd64        ThreadSanitizer -- a Valgrind-based detector of data races (runtime)
-ii  libubsan0:amd64                    4.9.2-10                           amd64        UBSan -- undefined behaviour sanitizer (runtime)
+ii  libtsan0:amd64                     4.9.2-10+deb8u1                    amd64        ThreadSanitizer -- a Valgrind-based detector of data races (runtime)
+ii  libubsan0:amd64                    4.9.2-10+deb8u1                    amd64        UBSan -- undefined behaviour sanitizer (runtime)
 ii  libudev1:amd64                     215-17+deb8u7                      amd64        libudev shared library
 ii  libuecc0                           7-1~bpo8+1                         amd64        very small Elliptic Curve Cryptography library
 ii  liburi-perl                        1.64-1                             all          module to manipulate and access URI strings
