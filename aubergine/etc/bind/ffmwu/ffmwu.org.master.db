@@ -3,7 +3,7 @@ $ORIGIN ffmwu.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffmwu.org. hostmaster.ffmwu.org. (
-                     2017031200         ; Serial
+                     2018021800         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -14,6 +14,7 @@ $TTL    600
 @			IN      NS      spinat.ffmwu.org.
 @			IN      NS      lotuswurzel.ffmwu.org.
 @			IN	NS	ingwer.ffmwu.org.
+@			IN	NS	uffschnitt.ffmwu.org.
 
 ; gluon gateways
 spinat			IN      A       10.56.0.7
@@ -39,9 +40,14 @@ extrasahne		IN      A       10.56.0.42
 extrasahne		IN      AAAA    fd56:b4dc:4b1e::a38:2a
 gate42			IN      CNAME   extrasahne
 
+uffschnitt		IN      A       10.56.0.101
+uffschnitt		IN      AAAA    fd56:b4dc:4b1e::65
+gate101			IN      CNAME   uffschnitt
+
 ; internal services and stuff
 7.ntp			IN      CNAME   spinat
 23.ntp			IN      CNAME   lotuswurzel
+101.ntp			IN      CNAME   uffschnitt
 161.ntp			IN      CNAME   ingwer
 231.ntp			IN      CNAME   wasserfloh
 
@@ -68,9 +74,11 @@ einzugsgebiet		IN	CNAME	zuckerwatte
 ; firmware mirrors
 firmware		IN	A	10.56.0.7
 firmware		IN	A	10.56.0.23
+firmware		IN	A	10.56.0.101
 firmware		IN	A	10.56.0.161
 firmware		IN	A	10.56.0.231
 firmware		IN	AAAA	fd56:b4dc:4b1e::a38:7
 firmware		IN	AAAA	fd56:b4dc:4b1e::a38:17
+firmware		IN	AAAA	fd56:b4dc:4b1e::65
 firmware		IN	AAAA	fd56:b4dc:4b1e::a38:a1
 firmware		IN	AAAA	fd56:b4dc:4b1e::a38:e7

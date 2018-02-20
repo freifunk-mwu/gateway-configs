@@ -3,7 +3,7 @@ $ORIGIN 56.10.in-addr.arpa.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffwi.org. hostmaster.ffwi.org. (
-                     2017032800         ; Serial
+                     2018021800         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -13,11 +13,13 @@ $TTL    600
 @       IN      NS      spinat.ffwi.org.
 @       IN      NS      lotuswurzel.ffwi.org.
 @	IN	NS	ingwer.ffwi.org.
+@	IN	NS	uffschnitt.ffwi.org.
 
 1.0	PTR	nextnode.ffwi.org.
 7.0     PTR     spinat.ffwi.org.
 23.0    PTR     lotuswurzel.ffwi.org.
 42.0    PTR     parmesan.ffwi.org.
+101.0   PTR     uffschnitt.ffwi.org.
 161.0	PTR	ingwer.ffwi.org.
 231.0   PTR     wasserfloh.ffwi.org.
 0.1	PTR	zwiebel.ffwi.org.
@@ -48,9 +50,7 @@ $TTL    600
 2.4	PTR	radio.user.ffwi.org.
 3.4	PTR	voip.user.ffwi.org.
 23.4	PTR 	flugzeug.user.ffwi.org.
-42.4	PTR	stonegate.user.ffwi.org.
 53.4	PTR	camp.user.ffwi.org.
-56.4	PTR	brunhilde.user.ffwi.org.
 88.4	PTR	magic.user.ffwi.org.
 99.4	PTR	piratebox.user.ffwi.org.
 100.4	PTR	blizzard.user.ffwi.org.

@@ -3,7 +3,7 @@ $ORIGIN 37.10.in-addr.arpa.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffmz.org. hostmaster.ffmz.org. (
-                     2017053000         ; Serial
+                     2018021800         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -13,10 +13,12 @@ $TTL    600
 @       IN      NS      spinat.ffmz.org.
 @       IN      NS      lotuswurzel.ffmz.org.
 @	IN	NS	ingwer.ffmz.org.
+@	IN	NS	uffschnitt.ffmz.org.
 
 1.0	PTR	nextnode.ffmz.org.
 7.0     PTR     spinat.ffmz.org.
 23.0    PTR     lotuswurzel.ffmz.org.
+101.0   PTR     uffschnitt.ffmz.org.
 42.0    PTR     parmesan.ffmz.org.
 161.0	PTR	ingwer.ffmz.org.
 231.0   PTR     wasserfloh.ffmz.org.
