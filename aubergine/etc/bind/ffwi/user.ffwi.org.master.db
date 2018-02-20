@@ -3,7 +3,7 @@ $ORIGIN user.ffwi.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffwi.org. hostmaster.ffwi.org. (
-                     2018021800         ; Serial
+                     2018022001         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -26,3 +26,5 @@ magic		IN	A	10.56.4.88
 magic		IN	AAAA	fd56:b4dc:4b1e:0:ba27:ebff:fe62:72af
 piratebox	IN	A	10.56.4.99
 piratebox	IN	AAAA	fd56:b4dc:4b1e::53:9ff:fe02:c0b5
+loragateway1wi	IN	AAAA	fd56:b4dc:4b1e::ba27:ebff:fe73:e5d
+loragateway1wi	IN	A	10.56.4.200
