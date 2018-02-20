@@ -3,7 +3,7 @@ $ORIGIN ffwi.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffwi.org. hostmaster.ffwi.org. (
-                     2017041100         ; Serial
+                     2018021800         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -14,6 +14,7 @@ $TTL    600
 @			IN      NS      spinat.ffwi.org.
 @			IN      NS      lotuswurzel.ffwi.org.
 @			IN	NS	ingwer.ffwi.org.
+@			IN	NS	uffschnitt.ffwi.org.
 
 ; ACHTUNG: IPs der aubergine hier fuers portal - nachfuehren
 @			IN	A	10.56.1.3
@@ -50,25 +51,33 @@ extrasahne		IN      A       10.56.0.42
 extrasahne		IN      AAAA    fd56:b4dc:4b1e::a38:2a
 gate42			IN      CNAME   extrasahne
 
+uffschnitt		IN      A       10.56.0.101
+uffschnitt		IN      AAAA    fd56:b4dc:4b1e::65
+gate101			IN      CNAME   uffschnitt
+
 ; internal services and stuff
 7.ntp			IN      CNAME   spinat
 23.ntp			IN      CNAME   lotuswurzel
+101.ntp			IN      CNAME   uffschnitt
 161.ntp			IN      CNAME   ingwer
 231.ntp			IN      CNAME   wasserfloh
 
 ; NTP pool
 ntp			IN	A	10.56.0.7
 ntp			IN	A	10.56.0.23
+ntp			IN	A	10.56.0.101
 ntp			IN	A	10.56.0.161
 ntp			IN	A	10.56.0.231
 ntp			IN	AAAA	fd56:b4dc:4b1e::a38:7
 ntp			IN	AAAA	fd56:b4dc:4b1e::a38:17
+ntp			IN	AAAA	fd56:b4dc:4b1e::65
 ntp			IN	AAAA	fd56:b4dc:4b1e::a38:a1
 ntp			IN	AAAA	fd56:b4dc:4b1e::a38:e7
 
 ; workaround for LEDE
 ntp6			IN	AAAA	fd56:b4dc:4b1e::a38:7
 ntp6			IN	AAAA	fd56:b4dc:4b1e::a38:17
+ntp6			IN	AAAA	fd56:b4dc:4b1e::65
 ntp6			IN	AAAA	fd56:b4dc:4b1e::a38:a1
 ntp6			IN	AAAA	fd56:b4dc:4b1e::a38:e7
 
@@ -98,10 +107,12 @@ media			IN	CNAME	zuckerwatte
 ; firmware mirrors
 firmware		IN	A	10.56.0.7
 firmware		IN	A	10.56.0.23
+firmware		IN	A	10.56.0.101
 firmware		IN	A	10.56.0.161
 firmware		IN	A	10.56.0.231
 firmware		IN	AAAA	fd56:b4dc:4b1e::a38:7
 firmware		IN	AAAA	fd56:b4dc:4b1e::a38:17
+firmware		IN	AAAA	fd56:b4dc:4b1e::65
 firmware		IN	AAAA	fd56:b4dc:4b1e::a38:a1
 firmware		IN	AAAA	fd56:b4dc:4b1e::a38:e7
 massfw			IN	CNAME	aubergine
