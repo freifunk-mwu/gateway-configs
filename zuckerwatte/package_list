@@ -221,9 +221,9 @@ ii  libclass-accessor-perl               0.34-1                                 
 ii  libcloog-isl4:amd64                  0.18.2-1                                   amd64        Chunky Loop Generator (runtime library)
 ii  libcomerr2:amd64                     1.42.9-3ubuntu1.3                          amd64        common error description library
 ii  libcroco3:amd64                      0.6.8-2ubuntu1                             amd64        Cascading Style Sheet (CSS) parsing and manipulation toolkit
-ii  libcups2:amd64                       1.7.2-0ubuntu1.8                           amd64        Common UNIX Printing System(tm) - Core library
+ii  libcups2:amd64                       1.7.2-0ubuntu1.9                           amd64        Common UNIX Printing System(tm) - Core library
 ii  libcupsfilters1:amd64                1.0.52-0ubuntu1.7                          amd64        OpenPrinting CUPS Filters - Shared library
-ii  libcupsimage2:amd64                  1.7.2-0ubuntu1.8                           amd64        Common UNIX Printing System(tm) - Raster image library
+ii  libcupsimage2:amd64                  1.7.2-0ubuntu1.9                           amd64        Common UNIX Printing System(tm) - Raster image library
 ii  libcurl3:amd64                       7.35.0-1ubuntu2.14                         amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii  libcurl3-gnutls:amd64                7.35.0-1ubuntu2.14                         amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii  libcwidget3                          0.5.16-3.5ubuntu1                          amd64        high-level terminal interface library for C++ (runtime files)
