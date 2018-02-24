@@ -12,8 +12,6 @@ roa 10.11.0.0/18    max  20 as      65050; # augsburg
 roa 10.144.0.0/16   max  20 as      64859; # badoldesloe
 roa 10.195.0.0/16   max  20 as      65025; # bayreuth
 roa 10.68.0.0/20    max  20 as      64892; # belgien
-roa 10.1.160.0/19   max  20 as      64646; # bergstrasse
-roa 10.58.0.0/17    max  20 as      64646; # bergstrasse
 roa 10.230.0.0/16   max  20 as      44194; # berlin
 roa 10.31.0.0/16    max  20 as      44194; # berlin
 roa 10.36.0.0/16    max  20 as      44194; # berlin
@@ -163,8 +161,6 @@ roa 10.41.0.0/16    max  20 as      65401; # ruhrgebiet (delegation)
 roa 10.231.0.0/16   max  20 as      65402; # ruhrgebiet (delegation)
 roa 10.236.0.0/16   max  20 as      65404; # ruhrgebiet (delegation)
 roa 10.229.0.0/16   max  20 as      65405; # ruhrgebiet (delegation)
-roa 10.24.192.0/18  max  20 as      64770; # saar
-roa 10.252.64.0/18  max  20 as      64770; # saar
 roa 10.55.64.0/18   max  20 as      65001; # saarlouis
 roa 10.152.0.0/18   max  20 as      65200; # siegburg
 roa 10.24.32.0/19   max  20 as      64901; # slfl
