@@ -905,7 +905,7 @@ rc  ruby1.9.1                            1.9.3.484-2ubuntu1.2                   
 ii  run-one                              1.17-0ubuntu1                              all          run just one instance of a command and its args at a time
 ii  screen                               4.1.0~20120320gitdb59704-9                 amd64        terminal multiplexer with VT100/ANSI terminal emulation
 ii  sed                                  4.2.2-4ubuntu1                             amd64        The GNU sed stream editor
-ii  sensible-utils                       0.0.9                                      all          Utilities for sensible alternative selection
+ii  sensible-utils                       0.0.9ubuntu0.14.04.1                       all          Utilities for sensible alternative selection
 ii  sgml-base                            1.26+nmu4ubuntu1                           all          SGML infrastructure and SGML catalog file support
 ii  shared-mime-info                     1.2-0ubuntu3                               amd64        FreeDesktop.org shared MIME database and spec
 ii  smarty-validate                      3.0.3-2                                    all          Server-side form validation plugin for Smarty
