@@ -661,6 +661,25 @@ zone "a.d.d.e.e.f.f.a.f.e.d.f.ip6.arpa" {
     server-addresses { 10.143.0.2; fdef:affe:edda::2; };
 };
 # 
+# halle
+# 
+zone "ffhal" {
+    type static-stub;
+    server-addresses { 10.62.1.1; 10.62.0.1; fd0f:8db3:d50a::2; fd0f:8db3:d50a::100; };
+};
+zone "ffde" {
+    type static-stub;
+    server-addresses { 10.62.1.1; 10.62.0.1; fd0f:8db3:d50a::2; fd0f:8db3:d50a::100; };
+};
+zone "ffwb" {
+    type static-stub;
+    server-addresses { 10.62.1.1; 10.62.0.1; fd0f:8db3:d50a::2; fd0f:8db3:d50a::100; };
+};
+zone "62.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.62.1.1; 10.62.0.1; fd0f:8db3:d50a::2; fd0f:8db3:d50a::100; };
+};
+# 
 # hamburg
 # 
 zone "ffhh" {
