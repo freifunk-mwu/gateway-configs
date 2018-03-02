@@ -74,6 +74,7 @@ roa 2001:bf7:100:2261::/64   max  64 as      65530; # gummersbach (delegation)
 roa fddf:ebfd:a801:2261::/64 max  64 as      65530; # gummersbach (delegation)
 roa 2001:bf7:100:2331::/64   max  64 as      65530; # hagen (delegation)
 roa fddf:ebfd:a801:2331::/64 max  64 as      65530; # hagen (delegation)
+roa fd0f:8db3:d50a::/64      max  64 as      65046; # halle
 roa 2a03:2267::/32           max  64 as      49009; # hamburg
 roa 2a03:2267:4e16::/48      max  64 as      65189; # hamburg (delegation)
 roa fdc7:4c8d:b889:a272::/64 max  64 as      64873; # hameln
@@ -172,6 +173,8 @@ roa 2a03:2260:50:7000::/56   max  64 as      65405; # ruhrgebiet (delegation)
 roa 2a03:2260:50:7e00::/56   max  64 as      65405; # ruhrgebiet (delegation)
 roa 2a03:2260:50:7f00::/56   max  64 as      65405; # ruhrgebiet (delegation)
 roa 2a03:2260:50:2400::/56   max  64 as      64862; # ruhrgebiet (delegation)
+roa fd4e:f2d7:88d2:fffd::/64 max  64 as      64899; # saar
+roa fd4e:f2d7:88d2:ffff::/64 max  64 as      64899; # saar
 roa fda4:1721:8450::/48      max  64 as      65200; # siegburg
 roa fd07:96ae:572e::/48      max  64 as      64901; # slfl
 roa 2001:bf7:100:212::/64    max  64 as      65530; # solingen (delegation)
