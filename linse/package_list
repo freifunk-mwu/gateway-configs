@@ -421,8 +421,8 @@ ii  python-setuptools                3.3-1ubuntu2                               
 ii  python-setuptools-whl            3.3-1ubuntu2                               all          Python Distutils Enhancements (wheel package)
 ii  python-six                       1.5.2-1ubuntu1                             all          Python 2 and 3 compatibility library (Python 2 interface)
 ii  python-six-whl                   1.5.2-1ubuntu1                             all          Python 2 and 3 compatibility library (universal wheel)
-ii  python-twisted-bin               13.2.0-1ubuntu1                            amd64        Event-based framework for internet applications
-ii  python-twisted-core              13.2.0-1ubuntu1                            all          Event-based framework for internet applications
+ii  python-twisted-bin               13.2.0-1ubuntu1.2                          amd64        Event-based framework for internet applications
+ii  python-twisted-core              13.2.0-1ubuntu1.2                          all          Event-based framework for internet applications
 ii  python-urllib3                   1.7.1-1ubuntu4                             all          HTTP library with thread-safe connection pooling for Python
 ii  python-urllib3-whl               1.7.1-1ubuntu4                             all          HTTP library with thread-safe connection pooling
 ii  python-wheel                     0.24.0-1~ubuntu1                           all          built-package format for Python
