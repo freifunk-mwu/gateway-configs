@@ -48,10 +48,10 @@ ii  bzip2                                1.0.6-5                                
 ii  ca-certificates                      20170717~14.04.1                           all          Common CA certificates
 ii  cabextract                           1.4-4                                      amd64        Microsoft Cabinet file unpacker
 ii  check-mk-agent                       1.2.6p12-1                                 all          Check_MK Agent for Linux
-ii  clamav                               0.99.3+addedllvm-0ubuntu0.14.04.1          amd64        anti-virus utility for Unix - command-line interface
-ii  clamav-base                          0.99.3+addedllvm-0ubuntu0.14.04.1          all          anti-virus utility for Unix - base package
-ii  clamav-daemon                        0.99.3+addedllvm-0ubuntu0.14.04.1          amd64        anti-virus utility for Unix - scanner daemon
-ii  clamav-freshclam                     0.99.3+addedllvm-0ubuntu0.14.04.1          amd64        anti-virus utility for Unix - virus database update utility
+ii  clamav                               0.99.4+addedllvm-0ubuntu0.14.04.1          amd64        anti-virus utility for Unix - command-line interface
+ii  clamav-base                          0.99.4+addedllvm-0ubuntu0.14.04.1          all          anti-virus utility for Unix - base package
+ii  clamav-daemon                        0.99.4+addedllvm-0ubuntu0.14.04.1          amd64        anti-virus utility for Unix - scanner daemon
+ii  clamav-freshclam                     0.99.4+addedllvm-0ubuntu0.14.04.1          amd64        anti-virus utility for Unix - virus database update utility
 ii  command-not-found                    0.3ubuntu12                                all          Suggest installation of packages in interactive bash sessions
 ii  command-not-found-data               0.3ubuntu12                                amd64        Set of data files for command-not-found.
 ii  console-setup                        1.70ubuntu8                                all          console font and keymap setup program
@@ -207,7 +207,7 @@ ii  libcdb1:amd64                        0.78                                   
 ii  libcgmanager0:amd64                  0.24-0ubuntu7.5                            amd64        Central cgroup manager daemon (client library)
 ii  libck-connector0:amd64               0.4.5-3.1ubuntu2                           amd64        ConsoleKit libraries
 rc  libclamav6                           0.98.7+dfsg-0ubuntu0.14.04.1               amd64        anti-virus utility for Unix - library
-ii  libclamav7                           0.99.3+addedllvm-0ubuntu0.14.04.1          amd64        anti-virus utility for Unix - library
+ii  libclamav7                           0.99.4+addedllvm-0ubuntu0.14.04.1          amd64        anti-virus utility for Unix - library
 ii  libclass-accessor-perl               0.34-1                                     all          Perl module that automatically generates accessors
 ii  libcloog-isl4:amd64                  0.18.2-1                                   amd64        Chunky Loop Generator (runtime library)
 ii  libcomerr2:amd64                     1.42.9-3ubuntu1.3                          amd64        common error description library
@@ -573,8 +573,10 @@ ii  linux-headers-3.13.0-141             3.13.0-141.190                         
 ii  linux-headers-3.13.0-141-generic     3.13.0-141.190                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-142             3.13.0-142.191                             all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-142-generic     3.13.0-142.191                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-generic                3.13.0.142.152                             amd64        Generic Linux kernel headers
-ii  linux-headers-generic-lts-trusty     3.13.0.142.152                             amd64        Generic Linux kernel headers
+ii  linux-headers-3.13.0-143             3.13.0-143.192                             all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-143-generic     3.13.0-143.192                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-generic                3.13.0.143.153                             amd64        Generic Linux kernel headers
+ii  linux-headers-generic-lts-trusty     3.13.0.143.153                             amd64        Generic Linux kernel headers
 rc  linux-image-3.13.0-100-generic       3.13.0-100.147                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-101-generic       3.13.0-101.148                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-105-generic       3.13.0-105.152                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -601,6 +603,7 @@ ii  linux-image-3.13.0-137-generic       3.13.0-137.186                         
 ii  linux-image-3.13.0-139-generic       3.13.0-139.188                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-141-generic       3.13.0-141.190                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-142-generic       3.13.0-142.191                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-3.13.0-143-generic       3.13.0-143.192                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-79-generic        3.13.0-79.123                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-83-generic        3.13.0-83.127                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-85-generic        3.13.0-85.129                              amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -649,6 +652,7 @@ ii  linux-image-extra-3.13.0-137-generic 3.13.0-137.186                         
 ii  linux-image-extra-3.13.0-139-generic 3.13.0-139.188                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-141-generic 3.13.0-141.190                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-142-generic 3.13.0-142.191                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-extra-3.13.0-143-generic 3.13.0-143.192                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-79-generic  3.13.0-79.123                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-83-generic  3.13.0-83.127                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-85-generic  3.13.0-85.129                              amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
@@ -671,10 +675,10 @@ rc  linux-image-extra-3.19.0-42-generic  3.19.0-42.48~14.04.1                   
 rc  linux-image-extra-3.19.0-43-generic  3.19.0-43.49~14.04.1                       amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-47-generic  3.19.0-47.53~14.04.1                       amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-49-generic  3.19.0-49.55~14.04.1                       amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
-ii  linux-image-generic                  3.13.0.142.152                             amd64        Generic Linux kernel image
-ii  linux-image-generic-lts-trusty       3.13.0.142.152                             amd64        Generic Linux kernel image
-ii  linux-image-virtual                  3.13.0.142.152                             amd64        This package will always depend on the latest minimal generic kernel image.
-ii  linux-libc-dev:amd64                 3.13.0-142.191                             amd64        Linux Kernel Headers for development
+ii  linux-image-generic                  3.13.0.143.153                             amd64        Generic Linux kernel image
+ii  linux-image-generic-lts-trusty       3.13.0.143.153                             amd64        Generic Linux kernel image
+ii  linux-image-virtual                  3.13.0.143.153                             amd64        This package will always depend on the latest minimal generic kernel image.
+ii  linux-libc-dev:amd64                 3.13.0-143.192                             amd64        Linux Kernel Headers for development
 ii  locales                              2.13+git20120306-12.1                      all          common files for locale support
 ii  lockfile-progs                       0.1.17                                     amd64        Programs for locking and unlocking files and mailboxes
 ii  login                                1:4.1.5.1-1ubuntu9.5                       amd64        system login tools
