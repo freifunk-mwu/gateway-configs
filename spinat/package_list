@@ -418,8 +418,8 @@ ii  libxtables10                         1.4.21-1ubuntu1                        
 ii  libyaml-0-2:amd64                    0.1.4-3ubuntu3.1                           amd64        Fast YAML 1.1 parser and emitter library
 ii  linux-base                           3.5ubuntu4                                 all          Linux image base package
 ii  linux-firmware                       1.127.24                                   all          Firmware for Linux kernel drivers
-ii  linux-generic                        3.13.0.142.152                             amd64        Complete Generic Linux kernel and headers
-ii  linux-generic-lts-trusty             3.13.0.142.152                             amd64        Generic Linux kernel image and headers
+ii  linux-generic                        3.13.0.143.153                             amd64        Complete Generic Linux kernel and headers
+ii  linux-generic-lts-trusty             3.13.0.143.153                             amd64        Generic Linux kernel image and headers
 ii  linux-headers-3.13.0-110             3.13.0-110.157                             all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-110-generic     3.13.0-110.157                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-112             3.13.0-112.159                             all          Header files related to Linux kernel version 3.13.0
@@ -458,8 +458,10 @@ ii  linux-headers-3.13.0-141             3.13.0-141.190                         
 ii  linux-headers-3.13.0-141-generic     3.13.0-141.190                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-142             3.13.0-142.191                             all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-142-generic     3.13.0-142.191                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-generic                3.13.0.142.152                             amd64        Generic Linux kernel headers
-ii  linux-headers-generic-lts-trusty     3.13.0.142.152                             amd64        Generic Linux kernel headers
+ii  linux-headers-3.13.0-143             3.13.0-143.192                             all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-143-generic     3.13.0-143.192                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-generic                3.13.0.143.153                             amd64        Generic Linux kernel headers
+ii  linux-headers-generic-lts-trusty     3.13.0.143.153                             amd64        Generic Linux kernel headers
 ii  linux-image-3.13.0-110-generic       3.13.0-110.157                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-112-generic       3.13.0-112.159                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-115-generic       3.13.0-115.162                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -479,6 +481,7 @@ ii  linux-image-3.13.0-137-generic       3.13.0-137.186                         
 ii  linux-image-3.13.0-139-generic       3.13.0-139.188                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-141-generic       3.13.0-141.190                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-142-generic       3.13.0-142.191                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-3.13.0-143-generic       3.13.0-143.192                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-119-generic 3.13.0-119.166                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-129-generic 3.13.0-129.178                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-132-generic 3.13.0-132.181                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
@@ -488,8 +491,9 @@ ii  linux-image-extra-3.13.0-137-generic 3.13.0-137.186                         
 ii  linux-image-extra-3.13.0-139-generic 3.13.0-139.188                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-141-generic 3.13.0-141.190                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-142-generic 3.13.0-142.191                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-generic                  3.13.0.142.152                             amd64        Generic Linux kernel image
-ii  linux-libc-dev:amd64                 3.13.0-142.191                             amd64        Linux Kernel Headers for development
+ii  linux-image-extra-3.13.0-143-generic 3.13.0-143.192                             amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-generic                  3.13.0.143.153                             amd64        Generic Linux kernel image
+ii  linux-libc-dev:amd64                 3.13.0-143.192                             amd64        Linux Kernel Headers for development
 ii  linux-tools-3.13.0-119               3.13.0-119.166                             amd64        Linux kernel version specific tools for version 3.13.0-119
 ii  linux-tools-3.13.0-119-generic       3.13.0-119.166                             amd64        Linux kernel version specific tools for version 3.13.0-119
 ii  linux-tools-3.13.0-129               3.13.0-129.178                             amd64        Linux kernel version specific tools for version 3.13.0-129
@@ -508,8 +512,10 @@ ii  linux-tools-3.13.0-141               3.13.0-141.190                         
 ii  linux-tools-3.13.0-141-generic       3.13.0-141.190                             amd64        Linux kernel version specific tools for version 3.13.0-141
 ii  linux-tools-3.13.0-142               3.13.0-142.191                             amd64        Linux kernel version specific tools for version 3.13.0-142
 ii  linux-tools-3.13.0-142-generic       3.13.0-142.191                             amd64        Linux kernel version specific tools for version 3.13.0-142
-ii  linux-tools-common                   3.13.0-142.191                             all          Linux kernel version specific tools for version 3.13.0
-ii  linux-tools-generic                  3.13.0.142.152                             amd64        Generic Linux kernel tools
+ii  linux-tools-3.13.0-143               3.13.0-143.192                             amd64        Linux kernel version specific tools for version 3.13.0-143
+ii  linux-tools-3.13.0-143-generic       3.13.0-143.192                             amd64        Linux kernel version specific tools for version 3.13.0-143
+ii  linux-tools-common                   3.13.0-143.192                             all          Linux kernel version specific tools for version 3.13.0
+ii  linux-tools-generic                  3.13.0.143.153                             amd64        Generic Linux kernel tools
 ii  locales                              2.13+git20120306-12.1                      all          common files for locale support
 ii  lockfile-progs                       0.1.17                                     amd64        Programs for locking and unlocking files and mailboxes
 ii  login                                1:4.1.5.1-1ubuntu9.5                       amd64        system login tools
