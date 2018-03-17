@@ -61,7 +61,7 @@ ii  cpp                                  4:4.8.2-1ubuntu6                       
 ii  cpp-4.8                              4.8.4-2ubuntu1~14.04.4                     amd64        GNU C preprocessor
 ii  crda                                 1.1.2-1ubuntu2                             amd64        wireless Central Regulatory Domain Agent
 ii  cron                                 3.0pl1-124ubuntu2                          amd64        process scheduling daemon
-ii  curl                                 7.35.0-1ubuntu2.14                         amd64        command line tool for transferring data with URL syntax
+ii  curl                                 7.35.0-1ubuntu2.15                         amd64        command line tool for transferring data with URL syntax
 ii  dash                                 0.5.7-4ubuntu1                             amd64        POSIX-compliant shell
 ii  dbus                                 1.6.18-0ubuntu4.5                          amd64        simple interprocess messaging system (daemon and utilities)
 ii  debconf                              1.5.51ubuntu2                              all          Debian configuration management system
@@ -217,8 +217,8 @@ ii  libconvert-uulib-perl                1:1.4~dfsg-1build3                     
 ii  libcroco3:amd64                      0.6.8-2ubuntu1                             amd64        Cascading Style Sheet (CSS) parsing and manipulation toolkit
 ii  libcrypt-openssl-bignum-perl         0.04-4build1                               amd64        Perl module to access OpenSSL multiprecision integer arithmetic libraries
 ii  libcrypt-openssl-rsa-perl            0.28-1build1                               amd64        module for RSA encryption using OpenSSL
-ii  libcurl3:amd64                       7.35.0-1ubuntu2.14                         amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
-ii  libcurl3-gnutls:amd64                7.35.0-1ubuntu2.14                         amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii  libcurl3:amd64                       7.35.0-1ubuntu2.15                         amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii  libcurl3-gnutls:amd64                7.35.0-1ubuntu2.15                         amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii  libcwidget3                          0.5.16-3.5ubuntu1                          amd64        high-level terminal interface library for C++ (runtime files)
 ii  libdatrie1:amd64                     0.2.8-1                                    amd64        Double-array trie library
 ii  libdb5.3:amd64                       5.3.28-3ubuntu3.1                          amd64        Berkeley v5.3 Database Libraries [runtime]
