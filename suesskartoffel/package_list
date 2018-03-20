@@ -479,7 +479,7 @@ ii  man-db                           2.6.7.1-1ubuntu1                           
 ii  manpages                         3.54-1ubuntu1                              all          Manual pages about using a GNU/Linux system
 ii  manpages-dev                     3.54-1ubuntu1                              all          Manual pages about using GNU/Linux for development
 ii  mawk                             1.3.3-17ubuntu2                            amd64        a pattern scanning and text processing language
-ii  memcached                        1.4.14-0ubuntu9.2                          amd64        A high-performance memory object caching system
+ii  memcached                        1.4.14-0ubuntu9.3                          amd64        A high-performance memory object caching system
 ii  memtest86+                       4.20-1.1ubuntu8                            amd64        thorough real-mode memory tester
 ii  mime-support                     3.54ubuntu1.1                              all          MIME files 'mime.types' & 'mailcap', and support programs
 ii  module-init-tools                15-0ubuntu6                                all          transitional dummy package (module-init-tools to kmod)
