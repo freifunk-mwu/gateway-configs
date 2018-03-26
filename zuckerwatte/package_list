@@ -176,7 +176,7 @@ ii  libaio1:amd64                        0.3.109-4                              
 ii  libalgorithm-diff-perl               1.19.02-3                                  all          module to find differences between files
 ii  libalgorithm-diff-xs-perl            0.04-2build4                               amd64        module to find differences between files (XS accelerated)
 ii  libalgorithm-merge-perl              0.08-2                                     all          Perl module for three-way merge of textual data
-ii  libapache2-mod-php5                  5.5.9+dfsg-1ubuntu4.23                     amd64        server-side, HTML-embedded scripting language (Apache 2 module)
+ii  libapache2-mod-php5                  5.5.9+dfsg-1ubuntu4.24                     amd64        server-side, HTML-embedded scripting language (Apache 2 module)
 ii  libapache2-mod-removeip              1.0b-5.1                                   amd64        Module to remove IP from apache2's logs
 ii  libapparmor-perl                     2.10.95-0ubuntu2.6~14.04.1                 amd64        AppArmor library Perl bindings
 ii  libapparmor1:amd64                   2.10.95-0ubuntu2.6~14.04.1                 amd64        changehat AppArmor library
@@ -492,7 +492,7 @@ ii  libtext-wrapi18n-perl                0.06-7                                 
 ii  libthai-data                         0.1.20-3                                   all          Data files for Thai language support library
 ii  libthai0:amd64                       0.1.20-3                                   amd64        Thai language support library
 ii  libtidy-0.99-0                       20091223cvs-1.2ubuntu1.1                   amd64        HTML syntax checker and reformatter - library
-ii  libtiff5:amd64                       4.0.3-7ubuntu0.7                           amd64        Tag Image File Format (TIFF) library
+ii  libtiff5:amd64                       4.0.3-7ubuntu0.8                           amd64        Tag Image File Format (TIFF) library
 ii  libtimedate-perl                     2.3000-1                                   all          collection of modules to manipulate date/time information
 ii  libtinfo-dev:amd64                   5.9+20140118-1ubuntu1                      amd64        developer's library for the low-level terminfo library
 ii  libtinfo5:amd64                      5.9+20140118-1ubuntu1                      amd64        shared low-level terminfo library for terminal handling
@@ -698,7 +698,7 @@ ii  mawk                                 1.3.3-17ubuntu2                        
 iF  mediawiki                            1:1.27.4-1ppa1~trusty1                     all          website engine for collaborative work
 ii  mediawiki-classes                    1:1.27.4-1ppa1~trusty1                     all          website engine for collaborative work - standalone classes
 rc  mediawiki-extensions-base            3.6                                        all          Extensions for MediaWiki -- Base package
-ii  memcached                            1.4.14-0ubuntu9.2                          amd64        A high-performance memory object caching system
+ii  memcached                            1.4.14-0ubuntu9.3                          amd64        A high-performance memory object caching system
 ii  memtest86+                           4.20-1.1ubuntu8                            amd64        thorough real-mode memory tester
 ii  mime-support                         3.54ubuntu1.1                              all          MIME files 'mime.types' & 'mailcap', and support programs
 ii  mlocate                              0.26-1ubuntu1                              amd64        quickly find files on the filesystem based on their name
@@ -792,20 +792,20 @@ ii  php-mail                             1.2.0-6                                
 ii  php-mail-mime                        1.8.8-1                                    all          PHP PEAR module for creating MIME messages
 ii  php-net-smtp                         1.6.1-1                                    all          PHP PEAR module implementing SMTP protocol
 ii  php-net-socket                       1.0.14-1                                   all          PHP PEAR Network Socket Interface module
-ii  php-pear                             5.5.9+dfsg-1ubuntu4.23                     all          PEAR - PHP Extension and Application Repository
+ii  php-pear                             5.5.9+dfsg-1ubuntu4.24                     all          PEAR - PHP Extension and Application Repository
 ii  php-wikidiff2                        1.4.1-1ppa1~trusty1                        amd64        external diff engine for mediawiki
-ii  php5                                 5.5.9+dfsg-1ubuntu4.23                     all          server-side, HTML-embedded scripting language (metapackage)
+ii  php5                                 5.5.9+dfsg-1ubuntu4.24                     all          server-side, HTML-embedded scripting language (metapackage)
 ii  php5-apcu                            4.0.2-2build1                              amd64        APC User Cache for PHP 5
-ii  php5-cli                             5.5.9+dfsg-1ubuntu4.23                     amd64        command-line interpreter for the php5 scripting language
-ii  php5-common                          5.5.9+dfsg-1ubuntu4.23                     amd64        Common files for packages built from the php5 source
-ii  php5-curl                            5.5.9+dfsg-1ubuntu4.23                     amd64        CURL module for php5
-ii  php5-gd                              5.5.9+dfsg-1ubuntu4.23                     amd64        GD module for php5
+ii  php5-cli                             5.5.9+dfsg-1ubuntu4.24                     amd64        command-line interpreter for the php5 scripting language
+ii  php5-common                          5.5.9+dfsg-1ubuntu4.24                     amd64        Common files for packages built from the php5 source
+ii  php5-curl                            5.5.9+dfsg-1ubuntu4.24                     amd64        CURL module for php5
+ii  php5-gd                              5.5.9+dfsg-1ubuntu4.24                     amd64        GD module for php5
 ii  php5-imagick                         3.1.2-1build1                              amd64        ImageMagick module for php5
-ii  php5-intl                            5.5.9+dfsg-1ubuntu4.23                     amd64        internationalisation module for php5
+ii  php5-intl                            5.5.9+dfsg-1ubuntu4.24                     amd64        internationalisation module for php5
 ii  php5-json                            1.3.2-2build1                              amd64        JSON module for php5
 ii  php5-mcrypt                          5.4.6-0ubuntu5                             amd64        MCrypt module for php5
-ii  php5-mysql                           5.5.9+dfsg-1ubuntu4.23                     amd64        MySQL module for php5
-ii  php5-readline                        5.5.9+dfsg-1ubuntu4.23                     amd64        Readline module for php5
+ii  php5-mysql                           5.5.9+dfsg-1ubuntu4.24                     amd64        MySQL module for php5
+ii  php5-readline                        5.5.9+dfsg-1ubuntu4.24                     amd64        Readline module for php5
 ii  phpmyadmin                           4:4.0.10-1                                 all          MySQL web administration tool
 ii  pkg-config                           0.26-1ubuntu4                              amd64        manage compile and link flags for libraries
 ii  pkg-php-tools                        1.11                                       all          various packaging tools and scripts for PHP packages
