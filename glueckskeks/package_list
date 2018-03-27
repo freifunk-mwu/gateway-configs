@@ -483,7 +483,7 @@ ii  libtext-soundex-perl                 3.4-1build1                            
 ii  libtext-wrapi18n-perl                0.06-7                                     all          internationalized substitute of Text::Wrap
 ii  libthai-data                         0.1.20-3                                   all          Data files for Thai language support library
 ii  libthai0:amd64                       0.1.20-3                                   amd64        Thai language support library
-ii  libtiff5:amd64                       4.0.3-7ubuntu0.8                           amd64        Tag Image File Format (TIFF) library
+ii  libtiff5:amd64                       4.0.3-7ubuntu0.9                           amd64        Tag Image File Format (TIFF) library
 ii  libtimedate-perl                     2.3000-1                                   all          collection of modules to manipulate date/time information
 ii  libtinfo5:amd64                      5.9+20140118-1ubuntu1                      amd64        shared low-level terminfo library for terminal handling
 ii  libtsan0:amd64                       4.8.4-2ubuntu1~14.04.4                     amd64        ThreadSanitizer -- a Valgrind-based detector of data races (runtime)
