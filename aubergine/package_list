@@ -261,7 +261,7 @@ ii  libhttp-message-perl                 6.06-1                                 
 ii  libhttp-negotiate-perl               6.00-2                                     all          implementation of content negotiation
 ii  libhx509-5-heimdal:amd64             1.6~git20131207+dfsg-1ubuntu1.2            amd64        Heimdal Kerberos - X509 support library
 ii  libice6:amd64                        2:1.0.8-2                                  amd64        X11 Inter-Client Exchange library
-ii  libicu52:amd64                       52.1-3ubuntu0.7                            amd64        International Components for Unicode
+ii  libicu52:amd64                       52.1-3ubuntu0.8                            amd64        International Components for Unicode
 ii  libidn11:amd64                       1.28-1ubuntu2.2                            amd64        GNU Libidn library, implementation of IETF IDN specifications
 ii  libio-html-perl                      1.00-1                                     all          open an HTML file with automatic charset detection
 ii  libio-socket-inet6-perl              2.71-1                                     all          object interface for AF_INET6 domain sockets
@@ -394,9 +394,9 @@ ii  libsocket6-perl                      0.25-1                                 
 ii  libsodium13:amd64                    1.0.3-1~wheezy0                            amd64        Network communication, cryptography and signaturing library
 ii  libsqlite3-0:amd64                   3.8.2-1ubuntu2.1                           amd64        SQLite 3 shared library
 ii  libss2:amd64                         1.42.9-3ubuntu1.3                          amd64        command-line interface parsing library
-ii  libssl-dev:amd64                     1.0.1f-1ubuntu2.23                         amd64        Secure Sockets Layer toolkit - development files
-ii  libssl-doc                           1.0.1f-1ubuntu2.23                         all          Secure Sockets Layer toolkit - development documentation
-ii  libssl1.0.0:amd64                    1.0.1f-1ubuntu2.23                         amd64        Secure Sockets Layer toolkit - shared libraries
+ii  libssl-dev:amd64                     1.0.1f-1ubuntu2.24                         amd64        Secure Sockets Layer toolkit - development files
+ii  libssl-doc                           1.0.1f-1ubuntu2.24                         all          Secure Sockets Layer toolkit - development documentation
+ii  libssl1.0.0:amd64                    1.0.1f-1ubuntu2.24                         amd64        Secure Sockets Layer toolkit - shared libraries
 ii  libstdc++-4.8-dev:amd64              4.8.4-2ubuntu1~14.04.4                     amd64        GNU Standard C++ Library v3 (development files)
 ii  libstdc++6:amd64                     4.8.4-2ubuntu1~14.04.4                     amd64        GNU Standard C++ Library v3
 ii  libsub-name-perl                     0.05-1build4                               amd64        module for assigning a new name to referenced sub
@@ -611,7 +611,7 @@ ii  ntpdate                              1:4.2.6.p5+dfsg-3ubuntu2.14.04.12      
 ii  openssh-client                       1:6.6p1-2ubuntu2.10                        amd64        secure shell (SSH) client, for secure access to remote machines
 ii  openssh-server                       1:6.6p1-2ubuntu2.10                        amd64        secure shell (SSH) server, for secure access from remote machines
 ii  openssh-sftp-server                  1:6.6p1-2ubuntu2.10                        amd64        secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii  openssl                              1.0.1f-1ubuntu2.23                         amd64        Secure Sockets Layer toolkit - cryptographic utility
+ii  openssl                              1.0.1f-1ubuntu2.24                         amd64        Secure Sockets Layer toolkit - cryptographic utility
 ii  os-prober                            1.63ubuntu1.1                              amd64        utility to detect other OSes on a set of drives
 ii  passwd                               1:4.1.5.1-1ubuntu9.5                       amd64        change and administer password and group data
 ii  patch                                2.7.1-4ubuntu2.3                           amd64        Apply a diff file to an original
