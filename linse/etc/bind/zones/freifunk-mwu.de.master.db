@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2018021701		; Serial
+		     2018032901		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -62,9 +62,9 @@ sparegate1	IN	CNAME	uffschnitt
 
 trueffel 	IN	A	94.130.189.77
 trueffel	IN	AAAA	2a01:4f8:1c0c:4d9e::1
-gate104		IN	CNAME	hetznercloudgw
-icvpn104	IN	CNAME	hetznercloudgw
-;sparegate2	IN	CNAME	hetznercloudgw
+gate104		IN	CNAME	trueffel
+icvpn104	IN	CNAME	trueffel
+;sparegate2	IN	CNAME	trueffel
 
 lauch		IN	A	178.33.36.188
 lauch		IN	AAAA	2001:41d0:2:32cb::1001
