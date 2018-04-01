@@ -915,10 +915,6 @@ zone "128/18.24.10.in-addr.arpa" {
 # 
 # merzig
 # 
-zone "ffsl_mzg" {
-    type static-stub;
-    server-addresses { 10.55.155.55; 10.55.128.3; };
-};
 zone "128-191.55.10.in-addr.arpa" {
     type static-stub;
     server-addresses { 10.55.155.55; 10.55.128.3; };
@@ -963,10 +959,6 @@ zone "1.e.e.e.3.e.4.e.9.3.d.f.ip6.arpa" {
 # 
 # neunkirchen
 # 
-zone "ffsl_nk" {
-    type static-stub;
-    server-addresses { 10.55.255.55; 10.55.192.3; };
-};
 zone "192-255.55.10.in-addr.arpa" {
     type static-stub;
     server-addresses { 10.55.255.55; 10.55.192.3; };
@@ -1154,10 +1146,6 @@ zone "64/18.252.10.in-addr.arpa" {
 # 
 # saarlouis
 # 
-zone "ffsl_sls" {
-    type static-stub;
-    server-addresses { 10.55.66.55; 10.55.64.3; };
-};
 zone "64-127.55.10.in-addr.arpa" {
     type static-stub;
     server-addresses { 10.55.66.55; 10.55.64.3; };
