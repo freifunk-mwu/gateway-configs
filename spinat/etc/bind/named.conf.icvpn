@@ -1151,6 +1151,17 @@ zone "64-127.55.10.in-addr.arpa" {
     server-addresses { 10.55.66.55; 10.55.64.3; };
 };
 # 
+# schweiz
+# 
+zone "ffch" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+zone "118.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.119.0.5; 10.119.0.8; 10.119.0.10; fdc7:3c9d:b889:a272::5; fdc7:3c9d:b889:a272::8; fdc7:3c9d:b889:a272::a; };
+};
+# 
 # siegburg
 # 
 zone "ffsu" {
