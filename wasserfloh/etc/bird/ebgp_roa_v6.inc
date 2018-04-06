@@ -175,6 +175,8 @@ roa 2a03:2260:50:7f00::/56   max  64 as      65405; # ruhrgebiet (delegation)
 roa 2a03:2260:50:2400::/56   max  64 as      64862; # ruhrgebiet (delegation)
 roa fd4e:f2d7:88d2:fffd::/64 max  64 as      64899; # saar
 roa fd4e:f2d7:88d2:ffff::/64 max  64 as      64899; # saar
+roa fd53:707:41::/48         max  64 as      65044; # schweiz
+roa fd53:707:41::/48         max  64 as      65043; # schweiz (delegation)
 roa fda4:1721:8450::/48      max  64 as      65200; # siegburg
 roa fd07:96ae:572e::/48      max  64 as      64901; # slfl
 roa 2001:bf7:100:212::/64    max  64 as      65530; # solingen (delegation)
