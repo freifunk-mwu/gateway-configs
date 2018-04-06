@@ -164,6 +164,8 @@ roa 10.229.0.0/16   max  20 as      65405; # ruhrgebiet (delegation)
 roa 10.24.192.0/18  max  20 as      64899; # saar
 roa 10.252.64.0/18  max  20 as      64899; # saar
 roa 10.55.64.0/18   max  20 as      65001; # saarlouis
+roa 10.118.0.0/16   max  20 as      65044; # schweiz
+roa 10.118.128.0/18 max  20 as      65043; # schweiz (delegation)
 roa 10.152.0.0/18   max  20 as      65200; # siegburg
 roa 10.24.32.0/19   max  20 as      64901; # slfl
 roa 10.6.0.0/16     max  20 as      65530; # solingen (delegation)
