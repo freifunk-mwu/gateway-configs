@@ -638,7 +638,7 @@ ii  python3-commandnotfound              0.3ubuntu12                            
 ii  python3-dbus                         1.2.0-2build2                              amd64        simple interprocess messaging system (Python 3 interface)
 ii  python3-dev                          3.4.0-0ubuntu2                             amd64        header files and a static library for Python (default)
 ii  python3-distlib                      0.1.8-1ubuntu1                             all          low-level components of python distutils2/packaging
-ii  python3-distupgrade                  1:0.220.9                                  all          manage release upgrades
+ii  python3-distupgrade                  1:0.220.10                                 all          manage release upgrades
 ii  python3-gdbm:amd64                   3.4.3-1~14.04.2                            amd64        GNU dbm database support for Python 3.x
 ii  python3-gi                           3.12.0-1ubuntu1                            amd64        Python 3 bindings for gobject-introspection libraries
 ii  python3-html5lib                     0.999-3~ubuntu1                            all          HTML parser/tokenizer based on the WHATWG HTML5 specification (Python 3)
@@ -699,7 +699,7 @@ ii  ttf-dejavu-extra                     2.34-1ubuntu1                          
 ii  tzdata                               2017c-0ubuntu0.14.04                       all          time zone and daylight-saving time data
 ii  ubuntu-keyring                       2012.05.19                                 all          GnuPG keys of the Ubuntu archive
 ii  ubuntu-minimal                       1.325                                      amd64        Minimal core of Ubuntu
-ii  ubuntu-release-upgrader-core         1:0.220.9                                  all          manage release upgrades
+ii  ubuntu-release-upgrader-core         1:0.220.10                                 all          manage release upgrades
 ii  ubuntu-standard                      1.325                                      amd64        The Ubuntu standard system
 ii  ucf                                  3.0027+nmu1                                all          Update Configuration File(s): preserve user changes to config files
 ii  udev                                 204-5ubuntu20.26                           amd64        /dev/ and hotplug management daemon
