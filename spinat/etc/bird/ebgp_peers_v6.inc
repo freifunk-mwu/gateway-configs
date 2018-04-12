@@ -71,6 +71,7 @@ protocol bgp icvpn_gera_greiz3 from ebgp_ic {
 }
 protocol bgp icvpn_hamburg01 from ebgp_ic {
     neighbor fec0::a:cf:0:3d as 49009;
+    passive yes;
 }
 protocol bgp icvpn_hamburg02 from ebgp_ic {
     neighbor fec0::a:cf:0:40 as 49009;
