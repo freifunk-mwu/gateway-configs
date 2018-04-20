@@ -9,9 +9,9 @@ ii  adduser                              3.113+nmu3ubuntu3                      
 ii  alfred                               2017.1-0ffmwu0~trusty                      amd64        A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon
 ii  alfred-json                          0.3.1-0ffmwu1~trusty                       amd64        A.L.F.R.E.D client supporting GZIP decompression and JSON, string and binary output
 ii  amavisd-new                          1:2.10.1-0ffmwu2~trusty                    all          Interface between MTA and virus scanner/content filters
-ii  apache2                              2.4.7-1ubuntu4.18                          amd64        Apache HTTP Server
-ii  apache2-bin                          2.4.7-1ubuntu4.18                          amd64        Apache HTTP Server (binary files and modules)
-ii  apache2-data                         2.4.7-1ubuntu4.18                          all          Apache HTTP Server (common files)
+ii  apache2                              2.4.7-1ubuntu4.20                          amd64        Apache HTTP Server
+ii  apache2-bin                          2.4.7-1ubuntu4.20                          amd64        Apache HTTP Server (binary files and modules)
+ii  apache2-data                         2.4.7-1ubuntu4.20                          all          Apache HTTP Server (common files)
 ii  apparmor                             2.10.95-0ubuntu2.6~14.04.1                 amd64        user-space parser utility for AppArmor
 ii  apport                               2.14.1-0ubuntu3.27                         all          automatically generate crash reports for debugging
 ii  apport-symptoms                      0.20                                       all          symptom scripts for apport
@@ -465,9 +465,9 @@ ii  libsocket6-perl                      0.25-1                                 
 ii  libsodium13:amd64                    1.0.3-1~wheezy0                            amd64        Network communication, cryptography and signaturing library
 ii  libsqlite3-0:amd64                   3.8.2-1ubuntu2.1                           amd64        SQLite 3 shared library
 ii  libss2:amd64                         1.42.9-3ubuntu1.3                          amd64        command-line interface parsing library
-ii  libssl-dev:amd64                     1.0.1f-1ubuntu2.24                         amd64        Secure Sockets Layer toolkit - development files
-ii  libssl-doc                           1.0.1f-1ubuntu2.24                         all          Secure Sockets Layer toolkit - development documentation
-ii  libssl1.0.0:amd64                    1.0.1f-1ubuntu2.24                         amd64        Secure Sockets Layer toolkit - shared libraries
+ii  libssl-dev:amd64                     1.0.1f-1ubuntu2.25                         amd64        Secure Sockets Layer toolkit - development files
+ii  libssl-doc                           1.0.1f-1ubuntu2.25                         all          Secure Sockets Layer toolkit - development documentation
+ii  libssl1.0.0:amd64                    1.0.1f-1ubuntu2.25                         amd64        Secure Sockets Layer toolkit - shared libraries
 ii  libstdc++-4.8-dev:amd64              4.8.4-2ubuntu1~14.04.4                     amd64        GNU Standard C++ Library v3 (development files)
 ii  libstdc++6:amd64                     4.8.4-2ubuntu1~14.04.4                     amd64        GNU Standard C++ Library v3
 ii  libsub-name-perl                     0.05-1build4                               amd64        module for assigning a new name to referenced sub
@@ -733,7 +733,7 @@ ii  ntpdate                              1:4.2.6.p5+dfsg-3ubuntu2.14.04.12      
 ii  openssh-client                       1:6.6p1-2ubuntu2.10                        amd64        secure shell (SSH) client, for secure access to remote machines
 ii  openssh-server                       1:6.6p1-2ubuntu2.10                        amd64        secure shell (SSH) server, for secure access from remote machines
 ii  openssh-sftp-server                  1:6.6p1-2ubuntu2.10                        amd64        secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii  openssl                              1.0.1f-1ubuntu2.24                         amd64        Secure Sockets Layer toolkit - cryptographic utility
+ii  openssl                              1.0.1f-1ubuntu2.25                         amd64        Secure Sockets Layer toolkit - cryptographic utility
 ii  os-prober                            1.63ubuntu1.1                              amd64        utility to detect other OSes on a set of drives
 ii  p7zip                                9.20.1~dfsg.1-4+deb7u3build0.14.04.1       amd64        7z file archiver with high compression ratio
 ii  p7zip-full                           9.20.1~dfsg.1-4+deb7u3build0.14.04.1       amd64        7z and 7za file archivers with high compression ratio
