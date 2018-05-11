@@ -644,7 +644,7 @@ ii  vnstat                           1.11-2                                     
 ii  vnstati                          1.11-2                                     amd64        image output support for vnStat
 ii  w3m                              0.5.3-15ubuntu0.2                          amd64        WWW browsable pager with excellent tables/frames support
 ii  watershed                        7                                          amd64        reduce superfluous executions of idempotent command
-ii  wget                             1.15-1ubuntu1.14.04.3                      amd64        retrieves files from the web
+ii  wget                             1.15-1ubuntu1.14.04.4                      amd64        retrieves files from the web
 ii  whiptail                         0.52.15-2ubuntu5                           amd64        Displays user-friendly dialog boxes from shell scripts
 ii  wireless-tools                   30~pre9-8ubuntu1                           amd64        Tools for manipulating Linux Wireless Extensions
 ii  wpasupplicant                    2.1-0ubuntu1.5                             amd64        client support for WPA and WPA2 (IEEE 802.11i)

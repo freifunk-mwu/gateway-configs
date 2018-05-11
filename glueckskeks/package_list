@@ -921,7 +921,7 @@ ii  vim-tiny                             2:7.4.052-1ubuntu3.1                   
 ii  vnstat                               1.11-2                                     amd64        console-based network traffic monitor
 ii  vnstati                              1.11-2                                     amd64        image output support for vnStat
 ii  w3m                                  0.5.3-15ubuntu0.2                          amd64        WWW browsable pager with excellent tables/frames support
-ii  wget                                 1.15-1ubuntu1.14.04.3                      amd64        retrieves files from the web
+ii  wget                                 1.15-1ubuntu1.14.04.4                      amd64        retrieves files from the web
 ii  whiptail                             0.52.15-2ubuntu5                           amd64        Displays user-friendly dialog boxes from shell scripts
 ii  whois                                5.1.1                                      amd64        intelligent WHOIS client
 ii  wireless-regdb                       2013.02.13-1ubuntu1                        all          wireless regulatory database
