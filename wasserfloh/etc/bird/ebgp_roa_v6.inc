@@ -207,6 +207,7 @@ roa fddf:ebfd:a801:2196::/64 max  64 as      65530; # wermelskirchen (delegation
 roa fd23:dead:beef::/48      max  64 as      65432; # westkueste
 roa 2a03:2260:100d::/48      max  64 as      65242; # westpfalz
 roa fdc6:c4fe:1de4::/48      max  64 as      65242; # westpfalz
+roa fdf1:621a:aca3::/48      max  64 as      64895; # wetzlar
 roa 2a03:2260:300d::/48      max  64 as      64881; # winterberg
 roa 2001:bf7:100:2267::/64   max  64 as      65530; # wipperfuerth (delegation)
 roa fddf:ebfd:a801:2267::/64 max  64 as      65530; # wipperfuerth (delegation)
