@@ -192,6 +192,7 @@ roa 10.52.0.0/16    max  20 as      65530; # wermelskirchen (delegation)
 roa 10.13.0.0/18    max  20 as      65432; # westkueste
 roa 10.198.0.0/16   max  20 as      65242; # westpfalz
 roa 10.51.0.0/16    max  20 as      65054; # weststeiermark
+roa 10.13.96.0/20   max  20 as      64895; # wetzlar
 roa 10.16.128.0/18  max  20 as      64881; # winterberg
 roa 10.224.0.0/16   max  20 as      65530; # wipperfuerth (delegation)
 roa 10.3.0.0/16     max  20 as      65523; # wuppertal
