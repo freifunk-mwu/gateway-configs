@@ -110,8 +110,8 @@ ii  gettext                              0.18.3.1-1ubuntu3                      
 ii  gettext-base                         0.18.3.1-1ubuntu3                          amd64        GNU Internationalization utilities for the base system
 ii  ghostscript                          9.10~dfsg-0ubuntu10.12                     amd64        interpreter for the PostScript language and for PDF
 ii  gir1.2-glib-2.0                      1.40.0-1ubuntu0.2                          amd64        Introspection data for GLib, GObject, Gio and GModule
-ii  git                                  1:1.9.1-1ubuntu0.7                         amd64        fast, scalable, distributed revision control system
-ii  git-man                              1:1.9.1-1ubuntu0.7                         all          fast, scalable, distributed revision control system (manual pages)
+ii  git                                  1:1.9.1-1ubuntu0.8                         amd64        fast, scalable, distributed revision control system
+ii  git-man                              1:1.9.1-1ubuntu0.8                         all          fast, scalable, distributed revision control system (manual pages)
 ii  glances                              1.7.3-2ubuntu1                             all          CLI curses based monitoring tool
 ii  gnupg                                1.4.16-1ubuntu2.4                          amd64        GNU privacy guard - a free PGP replacement
 ii  golang                               2:1.4.2                                    all          Go programming language compiler - metapackage
@@ -241,7 +241,7 @@ ii  libdns100                            1:9.9.5.dfsg-3ubuntu0.17               
 ii  libdpkg-perl                         1.17.5ubuntu5.7                            all          Dpkg perl modules
 ii  libdrm2:amd64                        2.4.67-1ubuntu0.14.04.2                    amd64        Userspace interface to kernel DRM services -- runtime
 ii  libedit2:amd64                       3.1-20130712-2                             amd64        BSD editline and history libraries
-ii  libelf1:amd64                        0.158-0ubuntu5.2                           amd64        library to read and write ELF files
+ii  libelf1:amd64                        0.158-0ubuntu5.3                           amd64        library to read and write ELF files
 ii  libencode-locale-perl                1.03-1                                     all          utility to determine the locale encoding
 ii  libept1.4.12:amd64                   1.0.12                                     amd64        High-level library for managing Debian package information
 ii  liberror-perl                        0.17-1.1                                   all          Perl module for error/exception handling in an OO-ish way
