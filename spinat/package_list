@@ -13,7 +13,7 @@ ii  apache2                              2.4.7-1ubuntu4.20                      
 ii  apache2-bin                          2.4.7-1ubuntu4.20                          amd64        Apache HTTP Server (binary files and modules)
 ii  apache2-data                         2.4.7-1ubuntu4.20                          all          Apache HTTP Server (common files)
 ii  apparmor                             2.10.95-0ubuntu2.6~14.04.1                 amd64        user-space parser utility for AppArmor
-ii  apport                               2.14.1-0ubuntu3.28                         all          automatically generate crash reports for debugging
+ii  apport                               2.14.1-0ubuntu3.29                         all          automatically generate crash reports for debugging
 ii  apport-symptoms                      0.20                                       all          symptom scripts for apport
 ii  apt                                  1.0.1ubuntu2.17                            amd64        commandline package manager
 ii  apt-transport-https                  1.0.1ubuntu2.17                            amd64        https download transport for APT
@@ -638,7 +638,7 @@ ii  python-zope.interface                4.0.5-1ubuntu4                         
 ii  python2.7                            2.7.6-8ubuntu0.4                           amd64        Interactive high-level object-oriented language (version 2.7)
 ii  python2.7-minimal                    2.7.6-8ubuntu0.4                           amd64        Minimal subset of the Python language (version 2.7)
 ii  python3                              3.4.0-0ubuntu2                             amd64        interactive high-level object-oriented language (default python3 version)
-ii  python3-apport                       2.14.1-0ubuntu3.28                         all          Python 3 library for Apport crash report handling
+ii  python3-apport                       2.14.1-0ubuntu3.29                         all          Python 3 library for Apport crash report handling
 ii  python3-apt                          0.9.3.5ubuntu2                             amd64        Python 3 interface to libapt-pkg
 ii  python3-chardet                      2.2.1-2~ubuntu1                            all          universal character encoding detector for Python3
 ii  python3-colorama                     0.2.5-0.1ubuntu2                           all          Cross-platform colored terminal text in Python - Python 3.x
@@ -655,7 +655,7 @@ ii  python3-netifaces                    0.8-3build1                            
 ii  python3-newt                         0.52.15-2ubuntu5                           amd64        NEWT module for Python3
 ii  python3-pip                          1.5.4-1ubuntu4                             all          alternative Python package installer - Python 3 version of the package
 ii  python3-pkg-resources                3.3-1ubuntu2                               all          Package Discovery and Resource Access using pkg_resources
-ii  python3-problem-report               2.14.1-0ubuntu3.28                         all          Python 3 library to handle problem reports
+ii  python3-problem-report               2.14.1-0ubuntu3.29                         all          Python 3 library to handle problem reports
 ii  python3-pycurl                       7.19.3-0ubuntu3                            amd64        Python 3 bindings to libcurl
 ii  python3-requests                     2.2.1-1ubuntu0.3                           all          elegant and simple HTTP library for Python3, built for human beings
 ii  python3-setuptools                   3.3-1ubuntu2                               all          Python3 Distutils Enhancements
