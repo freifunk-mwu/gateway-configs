@@ -492,7 +492,7 @@ ii  libtinfo5:amd64                      5.9+20140118-1ubuntu1                  
 ii  libtsan0:amd64                       4.8.4-2ubuntu1~14.04.4                     amd64        ThreadSanitizer -- a Valgrind-based detector of data races (runtime)
 ii  libudev1:amd64                       204-5ubuntu20.28                           amd64        libudev shared library
 ii  libuecc0                             6-0uf1                                     amd64        very small Elliptic Curve Cryptography library
-ii  libunbound2:amd64                    1.4.22-1ubuntu4.14.04.2                    amd64        library implementing DNS resolution and validation
+ii  libunbound2:amd64                    1.4.22-1ubuntu4.14.04.3                    amd64        library implementing DNS resolution and validation
 ii  libunistring0:amd64                  0.9.3-5ubuntu3                             amd64        Unicode string library for C
 ii  libunix-syslog-perl                  1.1-2build5                                amd64        Perl interface to the UNIX syslog(3) calls
 ii  liburi-perl                          1.60-1                                     all          module to manipulate and access URI strings
@@ -868,8 +868,8 @@ ii  ucf                                  3.0027+nmu1                            
 ii  udev                                 204-5ubuntu20.28                           amd64        /dev/ and hotplug management daemon
 ii  ufw                                  0.34~rc-0ubuntu2                           all          program for managing a Netfilter firewall
 ii  unattended-upgrades                  0.82.1ubuntu2.5                            all          automatic installation of security upgrades
-ii  unbound                              1.4.22-1ubuntu4.14.04.2                    amd64        validating, recursive, caching DNS resolver
-ii  unbound-anchor                       1.4.22-1ubuntu4.14.04.2                    amd64        utility to securely fetch the root DNS trust anchor
+ii  unbound                              1.4.22-1ubuntu4.14.04.3                    amd64        validating, recursive, caching DNS resolver
+ii  unbound-anchor                       1.4.22-1ubuntu4.14.04.3                    amd64        utility to securely fetch the root DNS trust anchor
 ii  unrar                                1:5.0.10-1ubuntu0.14.04.1                  amd64        Unarchiver for .rar files (non-free version)
 ii  unrar-free                           1:0.0.1+cvs20071127-2+deb7u1build0.14.04.1 amd64        Unarchiver for .rar files
 ii  unzip                                6.0-9ubuntu1.5                             amd64        De-archiver for .zip files
