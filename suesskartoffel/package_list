@@ -198,7 +198,7 @@ ii  libfuse2:amd64                   2.9.2-4ubuntu4.14.04.1                     
 ii  libgc1c2:amd64                   1:7.2d-5ubuntu2.1                          amd64        conservative garbage collector for C and C++
 ii  libgcc-4.8-dev:amd64             4.8.4-2ubuntu1~14.04.4                     amd64        GCC support library (development files)
 ii  libgcc1:amd64                    1:4.9.3-0ubuntu4                           amd64        GCC support library
-ii  libgcrypt11:amd64                1.5.3-2ubuntu4.5                           amd64        LGPL Crypto library - runtime library
+ii  libgcrypt11:amd64                1.5.3-2ubuntu4.6                           amd64        LGPL Crypto library - runtime library
 ii  libgd3:amd64                     2.1.0-3ubuntu0.8                           amd64        GD Graphics Library
 ii  libgdbm3:amd64                   1.8.3-12build1                             amd64        GNU dbm database routines (runtime version)
 ii  libgeoip1:amd64                  1.6.0-1                                    amd64        non-DNS IP-to-country resolver library

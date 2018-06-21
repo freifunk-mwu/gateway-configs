@@ -232,7 +232,7 @@ ii  libgcc1:amd64                        1:4.9.3-0ubuntu4                       
 ii  libgck-1-0:amd64                     3.10.1-1                                   amd64        Glib wrapper library for PKCS#11 - runtime
 ii  libgcr-3-common                      3.10.1-1                                   all          Library for Crypto UI related tasks - common files
 ii  libgcr-base-3-1:amd64                3.10.1-1                                   amd64        Library for Crypto related tasks
-ii  libgcrypt11:amd64                    1.5.3-2ubuntu4.5                           amd64        LGPL Crypto library - runtime library
+ii  libgcrypt11:amd64                    1.5.3-2ubuntu4.6                           amd64        LGPL Crypto library - runtime library
 ii  libgd3:amd64                         2.1.0-3ubuntu0.8                           amd64        GD Graphics Library
 ii  libgdbm3:amd64                       1.8.3-12build1                             amd64        GNU dbm database routines (runtime version)
 ii  libgeoip1:amd64                      1.6.0-1                                    amd64        non-DNS IP-to-country resolver library
