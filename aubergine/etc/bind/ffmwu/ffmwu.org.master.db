@@ -3,7 +3,7 @@ $ORIGIN ffmwu.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffmwu.org. hostmaster.ffmwu.org. (
-                     2018021800         ; Serial
+                     2018062500         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -22,14 +22,14 @@ spinat			IN      AAAA    fd56:b4dc:4b1e::a38:7
 gate07			IN      CNAME   spinat
 
 lotuswurzel		IN      A       10.56.0.23
-lotuswurzel		IN      AAAA    fd56:b4dc:4b1e::a38:17
+lotuswurzel		IN      AAAA    fd56:b4dc:4b1e::17
 gate23			IN      CNAME   lotuswurzel
 lotuswurzel.icvpn	IN	A	10.207.0.56
 lotuswurzel.icvpn	IN	AAAA	fec0::a:cf:0:38
 gate23.icvpn		IN	CNAME	lotuswurzel.icvpn
 
 ingwer			IN	A	10.56.0.161
-ingwer			IN	AAAA	fd56:b4dc:4b1e::a38:a1
+ingwer			IN	AAAA	fd56:b4dc:4b1e::a1
 gate161			IN	CNAME	ingwer
 
 wasserfloh  	   	IN      A       10.56.0.231
@@ -78,7 +78,7 @@ firmware		IN	A	10.56.0.101
 firmware		IN	A	10.56.0.161
 firmware		IN	A	10.56.0.231
 firmware		IN	AAAA	fd56:b4dc:4b1e::a38:7
-firmware		IN	AAAA	fd56:b4dc:4b1e::a38:17
+firmware		IN	AAAA	fd56:b4dc:4b1e::17
 firmware		IN	AAAA	fd56:b4dc:4b1e::65
-firmware		IN	AAAA	fd56:b4dc:4b1e::a38:a1
+firmware		IN	AAAA	fd56:b4dc:4b1e::a1
 firmware		IN	AAAA	fd56:b4dc:4b1e::a38:e7
