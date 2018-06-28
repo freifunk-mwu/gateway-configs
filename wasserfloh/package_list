@@ -375,7 +375,7 @@ ii  libsm6:amd64                         2:1.2.1-2                              
 ii  libsodium13:amd64                    1.0.3-1~wheezy0                            amd64        Network communication, cryptography and signaturing library
 ii  libsqlite3-0:amd64                   3.8.2-1ubuntu2.1                           amd64        SQLite 3 shared library
 ii  libss2:amd64                         1.42.9-3ubuntu1.3                          amd64        command-line interface parsing library
-ii  libssl1.0.0:amd64                    1.0.1f-1ubuntu2.25                         amd64        Secure Sockets Layer toolkit - shared libraries
+ii  libssl1.0.0:amd64                    1.0.1f-1ubuntu2.26                         amd64        Secure Sockets Layer toolkit - shared libraries
 ii  libstdc++-4.8-dev:amd64              4.8.4-2ubuntu1~14.04.4                     amd64        GNU Standard C++ Library v3 (development files)
 ii  libstdc++6:amd64                     4.8.4-2ubuntu1~14.04.4                     amd64        GNU Standard C++ Library v3
 ii  libsub-name-perl                     0.05-1build4                               amd64        module for assigning a new name to referenced sub
@@ -557,7 +557,7 @@ ii  ntpdate                              1:4.2.6.p5+dfsg-3ubuntu2.14.04.12      
 ii  openssh-client                       1:6.6p1-2ubuntu2.10                        amd64        secure shell (SSH) client, for secure access to remote machines
 ii  openssh-server                       1:6.6p1-2ubuntu2.10                        amd64        secure shell (SSH) server, for secure access from remote machines
 ii  openssh-sftp-server                  1:6.6p1-2ubuntu2.10                        amd64        secure shell (SSH) sftp server module, for SFTP access from remote machines
-ii  openssl                              1.0.1f-1ubuntu2.25                         amd64        Secure Sockets Layer toolkit - cryptographic utility
+ii  openssl                              1.0.1f-1ubuntu2.26                         amd64        Secure Sockets Layer toolkit - cryptographic utility
 ii  openvpn                              2.3.2-7ubuntu3.2                           amd64        virtual private network daemon
 ii  os-prober                            1.63ubuntu1.1                              amd64        utility to detect other OSes on a set of drives
 ii  parted                               2.3-19ubuntu1.14.04.1                      amd64        disk partition manipulator
