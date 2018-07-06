@@ -178,7 +178,7 @@ ii  libaprutil1-ldap:amd64               1.5.3-1                                
 ii  libapt-inst1.5:amd64                 1.0.1ubuntu2.18                            amd64        deb package format runtime library
 ii  libapt-pkg4.12:amd64                 1.0.1ubuntu2.18                            amd64        package management runtime library
 ii  libarchive-extract-perl              0.70-1                                     all          generic archive extracting module
-ii  libarchive-zip-perl                  1.30-7                                     all          Perl module for manipulation of ZIP archives
+ii  libarchive-zip-perl                  1.30-7ubuntu0.1                            all          Perl module for manipulation of ZIP archives
 ii  libasan0:amd64                       4.8.4-2ubuntu1~14.04.4                     amd64        AddressSanitizer -- a fast memory error detector
 ii  libasn1-8-heimdal:amd64              1.6~git20131207+dfsg-1ubuntu1.2            amd64        Heimdal Kerberos - ASN.1 library
 ii  libasprintf-dev:amd64                0.18.3.1-1ubuntu3                          amd64        GNU Internationalization library development files
