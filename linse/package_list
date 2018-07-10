@@ -383,8 +383,8 @@ ii  ncurses-term                     5.9+20140118-1ubuntu1                      
 ii  net-tools                        1.60-25ubuntu2.1                           amd64        The NET-3 networking toolkit
 ii  netbase                          5.2                                        all          Basic TCP/IP networking system
 ii  netcat-openbsd                   1.105-7ubuntu1                             amd64        TCP/IP swiss army knife
-ii  ntp                              1:4.2.6.p5+dfsg-3ubuntu2.14.04.12          amd64        Network Time Protocol daemon and utility programs
-ii  ntpdate                          1:4.2.6.p5+dfsg-3ubuntu2.14.04.12          amd64        client for setting system time from NTP servers
+ii  ntp                              1:4.2.6.p5+dfsg-3ubuntu2.14.04.13          amd64        Network Time Protocol daemon and utility programs
+ii  ntpdate                          1:4.2.6.p5+dfsg-3ubuntu2.14.04.13          amd64        client for setting system time from NTP servers
 ii  openssh-client                   1:6.6p1-2ubuntu2.10                        amd64        secure shell (SSH) client, for secure access to remote machines
 ii  openssh-server                   1:6.6p1-2ubuntu2.10                        amd64        secure shell (SSH) server, for secure access from remote machines
 ii  openssh-sftp-server              1:6.6p1-2ubuntu2.10                        amd64        secure shell (SSH) sftp server module, for SFTP access from remote machines
