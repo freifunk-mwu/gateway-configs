@@ -231,7 +231,7 @@ ii  libitm1:amd64                    4.8.4-2ubuntu1~14.04.4                     
 ii  libiw30:amd64                    30~pre9-8ubuntu1                           amd64        Wireless tools - library
 ii  libjansson4:amd64                2.5-2                                      amd64        C library for encoding, decoding and manipulating JSON data
 ii  libjbig0:amd64                   2.0-2ubuntu4.1                             amd64        JBIGkit libraries
-ii  libjpeg-turbo8:amd64             1.3.0-0ubuntu2                             amd64        IJG JPEG compliant runtime library.
+ii  libjpeg-turbo8:amd64             1.3.0-0ubuntu2.1                           amd64        IJG JPEG compliant runtime library.
 ii  libjpeg8:amd64                   8c-2ubuntu8                                amd64        Independent JPEG Group's JPEG runtime library (dependency package)
 ii  libjson-c2:amd64                 0.11-3ubuntu1.2                            amd64        JSON manipulation library - shared library
 ii  libjson0:amd64                   0.11-3ubuntu1.2                            amd64        JSON manipulation library (transitional package)
@@ -512,8 +512,8 @@ ii  netcat-openbsd                   1.105-7ubuntu1                             
 ii  netcat6                          1.0-8                                      amd64        TCP/IP swiss army knife with IPv6 support
 ii  nmap                             6.40-0.2ubuntu1                            amd64        The Network Mapper
 ii  nodejs                           6.13.0-1nodesource1                        amd64        Node.js event-based server-side javascript engine
-ii  ntp                              1:4.2.6.p5+dfsg-3ubuntu2.14.04.12          amd64        Network Time Protocol daemon and utility programs
-ii  ntpdate                          1:4.2.6.p5+dfsg-3ubuntu2.14.04.12          amd64        client for setting system time from NTP servers
+ii  ntp                              1:4.2.6.p5+dfsg-3ubuntu2.14.04.13          amd64        Network Time Protocol daemon and utility programs
+ii  ntpdate                          1:4.2.6.p5+dfsg-3ubuntu2.14.04.13          amd64        client for setting system time from NTP servers
 ii  openssh-client                   1:6.6p1-2ubuntu2.10                        amd64        secure shell (SSH) client, for secure access to remote machines
 ii  openssh-server                   1:6.6p1-2ubuntu2.10                        amd64        secure shell (SSH) server, for secure access from remote machines
 ii  openssh-sftp-server              1:6.6p1-2ubuntu2.10                        amd64        secure shell (SSH) sftp server module, for SFTP access from remote machines
