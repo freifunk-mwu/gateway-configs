@@ -522,7 +522,7 @@ rc  linux-image-extra-3.13.0-142-generic 3.13.0-142.191                         
 rc  linux-image-extra-3.13.0-143-generic 3.13.0-143.192                                amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-144-generic 3.13.0-144.193                                amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-149-generic 3.13.0-149.199                                amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-extra-3.13.0-151-generic 3.13.0-151.201                                amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-extra-3.13.0-151-generic 3.13.0-151.201                                amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-153-generic 3.13.0-153.203                                amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-generic                  3.13.0.153.163                                amd64        Generic Linux kernel image
 ii  linux-image-generic-lts-trusty       3.13.0.153.163                                amd64        Generic Linux kernel image
