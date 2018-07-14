@@ -138,8 +138,8 @@ ii  hicolor-icon-theme                   0.13-1                                 
 ii  hostname                             3.15ubuntu1                                amd64        utility to set/show the host name or domain name
 ii  htop                                 1.0.2-3                                    amd64        interactive processes viewer
 ii  ifupdown                             0.7.47.2ubuntu4.4                          amd64        high level tools to configure network interfaces
-ii  imagemagick                          8:6.7.7.10-6ubuntu3.11                     amd64        image manipulation programs
-ii  imagemagick-common                   8:6.7.7.10-6ubuntu3.11                     all          image manipulation programs -- infrastructure
+ii  imagemagick                          8:6.7.7.10-6ubuntu3.12                     amd64        image manipulation programs
+ii  imagemagick-common                   8:6.7.7.10-6ubuntu3.12                     all          image manipulation programs -- infrastructure
 ii  info                                 5.2.0.dfsg.1-2                             amd64        Standalone GNU Info documentation browser
 ii  init-system-helpers                  1.14ubuntu1                                all          helper tools for all init systems
 ii  initramfs-tools                      0.103ubuntu4.10                            all          tools for generating an initramfs
@@ -221,9 +221,9 @@ ii  libclass-accessor-perl               0.34-1                                 
 ii  libcloog-isl4:amd64                  0.18.2-1                                   amd64        Chunky Loop Generator (runtime library)
 ii  libcomerr2:amd64                     1.42.9-3ubuntu1.3                          amd64        common error description library
 ii  libcroco3:amd64                      0.6.8-2ubuntu1                             amd64        Cascading Style Sheet (CSS) parsing and manipulation toolkit
-ii  libcups2:amd64                       1.7.2-0ubuntu1.9                           amd64        Common UNIX Printing System(tm) - Core library
+ii  libcups2:amd64                       1.7.2-0ubuntu1.10                          amd64        Common UNIX Printing System(tm) - Core library
 ii  libcupsfilters1:amd64                1.0.52-0ubuntu1.8                          amd64        OpenPrinting CUPS Filters - Shared library
-ii  libcupsimage2:amd64                  1.7.2-0ubuntu1.9                           amd64        Common UNIX Printing System(tm) - Raster image library
+ii  libcupsimage2:amd64                  1.7.2-0ubuntu1.10                          amd64        Common UNIX Printing System(tm) - Raster image library
 ii  libcurl3:amd64                       7.35.0-1ubuntu2.16                         amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii  libcurl3-gnutls:amd64                7.35.0-1ubuntu2.16                         amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii  libcwidget3                          0.5.16-3.5ubuntu1                          amd64        high-level terminal interface library for C++ (runtime files)
@@ -368,9 +368,9 @@ ii  liblwres90                           1:9.9.5.dfsg-3ubuntu0.17               
 ii  liblzma5:amd64                       5.1.1alpha+20120614-2ubuntu2               amd64        XZ-format compression library
 ii  liblzo2-2:amd64                      2.06-1.2ubuntu1.1                          amd64        data compression library
 ii  libmagic1:amd64                      1:5.14-2ubuntu3.4                          amd64        File type determination library using "magic" numbers
-ii  libmagickcore5:amd64                 8:6.7.7.10-6ubuntu3.11                     amd64        low-level image manipulation library
-ii  libmagickcore5-extra:amd64           8:6.7.7.10-6ubuntu3.11                     amd64        low-level image manipulation library - extra codecs
-ii  libmagickwand5:amd64                 8:6.7.7.10-6ubuntu3.11                     amd64        image manipulation library
+ii  libmagickcore5:amd64                 8:6.7.7.10-6ubuntu3.12                     amd64        low-level image manipulation library
+ii  libmagickcore5-extra:amd64           8:6.7.7.10-6ubuntu3.12                     amd64        low-level image manipulation library - extra codecs
+ii  libmagickwand5:amd64                 8:6.7.7.10-6ubuntu3.12                     amd64        image manipulation library
 ii  libmail-sendmail-perl                0.79.16-1                                  all          Send email from a perl script
 ii  libmailtools-perl                    2.12-1                                     all          Manipulate email in perl programs
 ii  libmailutils4                        1:2.99.98-1.1                              amd64        GNU Mail abstraction library
@@ -423,7 +423,7 @@ ii  libpipeline1:amd64                   1.3.0-1                                
 ii  libpixman-1-0:amd64                  0.30.2-2ubuntu1.1                          amd64        pixel-manipulation library for X and cairo
 rc  libplot2c2                           2.6-3ubuntu1                               amd64        GNU plotutils libraries
 ii  libplymouth2:amd64                   0.8.8-0ubuntu17.1                          amd64        graphical boot animation and logger - shared libraries
-ii  libpng12-0:amd64                     1.2.50-1ubuntu2.14.04.2                    amd64        PNG library - runtime
+ii  libpng12-0:amd64                     1.2.50-1ubuntu2.14.04.3                    amd64        PNG library - runtime
 ii  libpod-latex-perl                    0.61-1                                     all          module to convert Pod data to formatted LaTeX
 ii  libpolkit-agent-1-0:amd64            0.105-4ubuntu3.14.04.1                     amd64        PolicyKit Authentication Agent API
 ii  libpolkit-backend-1-0:amd64          0.105-4ubuntu3.14.04.1                     amd64        PolicyKit backend API
