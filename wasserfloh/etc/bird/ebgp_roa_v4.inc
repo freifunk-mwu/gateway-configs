@@ -121,6 +121,7 @@ roa 10.13.64.0/20   max  20 as      64856; # muenden
 roa 10.43.0.0/16    max  20 as      65251; # muensterland
 roa 10.48.0.0/16    max  20 as      65251; # muensterland
 roa 10.169.0.0/16   max  20 as      65534; # mueritz
+roa 10.169.0.0/16   max  20 as      65533; # mueritz (delegation)
 roa 10.55.192.0/18  max  20 as      65003; # neunkirchen
 roa 10.46.0.0/18    max  20 as      64883; # neuwied
 roa 10.187.0.0/16   max  20 as      65187; # nord
