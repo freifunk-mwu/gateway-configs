@@ -49,10 +49,10 @@ ii  bzip2                                1.0.6-5                                
 ii  ca-certificates                      20170717~14.04.1                              all          Common CA certificates
 ii  cabextract                           1.4-4                                         amd64        Microsoft Cabinet file unpacker
 ii  check-mk-agent                       1.2.6p12-1                                    all          Check_MK Agent for Linux
-ii  clamav                               0.99.4+addedllvm-0ubuntu0.14.04.1             amd64        anti-virus utility for Unix - command-line interface
-ii  clamav-base                          0.99.4+addedllvm-0ubuntu0.14.04.1             all          anti-virus utility for Unix - base package
-ii  clamav-daemon                        0.99.4+addedllvm-0ubuntu0.14.04.1             amd64        anti-virus utility for Unix - scanner daemon
-ii  clamav-freshclam                     0.99.4+addedllvm-0ubuntu0.14.04.1             amd64        anti-virus utility for Unix - virus database update utility
+ii  clamav                               0.100.1+dfsg-1ubuntu0.14.04.1                 amd64        anti-virus utility for Unix - command-line interface
+ii  clamav-base                          0.100.1+dfsg-1ubuntu0.14.04.1                 all          anti-virus utility for Unix - base package
+ii  clamav-daemon                        0.100.1+dfsg-1ubuntu0.14.04.1                 amd64        anti-virus utility for Unix - scanner daemon
+ii  clamav-freshclam                     0.100.1+dfsg-1ubuntu0.14.04.1                 amd64        anti-virus utility for Unix - virus database update utility
 ii  command-not-found                    0.3ubuntu12                                   all          Suggest installation of packages in interactive bash sessions
 ii  command-not-found-data               0.3ubuntu12                                   amd64        Set of data files for command-not-found.
 ii  console-setup                        1.70ubuntu8                                   all          console font and keymap setup program
@@ -210,7 +210,7 @@ ii  libcdb1:amd64                        0.78                                   
 ii  libcgmanager0:amd64                  0.24-0ubuntu7.5                               amd64        Central cgroup manager daemon (client library)
 ii  libck-connector0:amd64               0.4.5-3.1ubuntu2                              amd64        ConsoleKit libraries
 rc  libclamav6                           0.98.7+dfsg-0ubuntu0.14.04.1                  amd64        anti-virus utility for Unix - library
-ii  libclamav7                           0.99.4+addedllvm-0ubuntu0.14.04.1             amd64        anti-virus utility for Unix - library
+ii  libclamav7                           0.100.1+dfsg-1ubuntu0.14.04.1                 amd64        anti-virus utility for Unix - library
 ii  libclass-accessor-perl               0.34-1                                        all          Perl module that automatically generates accessors
 ii  libcloog-isl4:amd64                  0.18.2-1                                      amd64        Chunky Loop Generator (runtime library)
 ii  libcomerr2:amd64                     1.42.9-3ubuntu1.3                             amd64        common error description library
@@ -342,6 +342,7 @@ ii  libldap-2.4-2:amd64                  2.4.31-1+nmu2ubuntu8.4                 
 ii  liblhasa0                            0.0.7-2+deb7u1ubuntu0.14.04.1                 amd64        lzh archive decompression library
 ii  liblinear-tools                      1.8+dfsg-1ubuntu1                             amd64        Standalone applications for LIBLINEAR
 ii  liblinear1                           1.8+dfsg-1ubuntu1                             amd64        Library for Large Linear Classification
+ii  libllvm3.6:amd64                     1:3.6-2ubuntu1~trusty2                        amd64        Modular compiler and toolchain technologies, runtime library
 ii  liblocale-gettext-perl               1.05-7build3                                  amd64        module using libc functions for internationalization in Perl
 ii  liblockfile-bin                      1.09-6ubuntu1                                 amd64        support binaries for and cli utilities based on liblockfile
 ii  liblockfile1:amd64                   1.09-6ubuntu1                                 amd64        NFS-safe locking library
