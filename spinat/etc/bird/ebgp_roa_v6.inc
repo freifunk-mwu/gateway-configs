@@ -92,6 +92,7 @@ roa fd13:b4dc:4b1e::/64      max  64 as      65052; # innsbruck
 roa fd14:b4dc:4b1e::/64      max  64 as      65052; # innsbruck
 roa 2001:678:358::/48        max  64 as     206514; # ireland
 roa fd59:b1b7:1d1f::/48      max  64 as      65055; # jena
+roa 2001:678:6e0::/45        max  64 as      65081; # karlsruhe
 roa 2a03:2260:a::/48         max  64 as      65081; # karlsruhe
 roa fdca:55e1:baca:baca::/64 max  64 as      65514; # kassel
 roa fdd3:5d16:b5dd::/48      max  64 as      65528; # kbu
@@ -124,7 +125,8 @@ roa 2001:608:a01::/48        max  64 as      65080; # muenchen
 roa fdef:ffc0:4fff::/48      max  64 as      65080; # muenchen
 roa fdca:abcd:58ca:affe::/64 max  64 as      64856; # muenden
 roa 2a03:2260:115::/48       max  64 as      65251; # muensterland
-roa fd39:e4e3:eee1::/48      max  64 as      65534; # mueritz
+roa 2001:bf7:170::/44        max  64 as      65534; # mueritz
+roa 2001:bf7:170::/44        max  64 as      65533; # mueritz (delegation)
 roa fd8f:14c7:d318::/48      max  64 as      64889; # nordheide
 roa fd73:111:e824::/48       max  64 as      65152; # ostholstein
 roa 2a03:2260:200c::/48      max  64 as      64862; # ostvest
