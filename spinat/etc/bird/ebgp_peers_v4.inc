@@ -117,13 +117,13 @@ protocol bgp icvpn_vogtland4 from ebgp_ic {
 }
 protocol bgp icvpn_vogtland5 from ebgp_ic {
     neighbor 10.207.0.4 as 64857;
+    passive yes;
 }
 protocol bgp icvpn_vogtland6 from ebgp_ic {
     neighbor 10.207.0.7 as 64857;
 }
 protocol bgp icvpn_waldheim1 from ebgp_ic {
     neighbor 10.207.0.45 as 65210;
-    passive yes;
 }
 protocol bgp icvpn_waldheim2 from ebgp_ic {
     neighbor 10.207.0.46 as 65210;
