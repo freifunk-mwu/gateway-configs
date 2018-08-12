@@ -610,8 +610,8 @@ ii  node-slide                           1.1.4-1                                
 ii  node-tar                             0.1.18-1                                      all          read and write portable tar archives module for Node.js
 ii  node-tunnel-agent                    0.3.1-1                                       all          HTTP proxy tunneling agent module for Node.js
 ii  node-which                           1.0.5-2                                       all          Cross-platform 'which' module for Node.js
-ii  nodejs                               0.10.25~dfsg2-2ubuntu1                        amd64        evented I/O for V8 javascript
-ii  nodejs-dev                           0.10.25~dfsg2-2ubuntu1                        amd64        evented I/O for V8 javascript (development files)
+ii  nodejs                               0.10.25~dfsg2-2ubuntu1.2                      amd64        evented I/O for V8 javascript
+ii  nodejs-dev                           0.10.25~dfsg2-2ubuntu1.2                      amd64        evented I/O for V8 javascript (development files)
 ii  npm                                  1.3.10~dfsg-1                                 all          package manager for Node.js
 ii  ntp                                  1:4.2.6.p5+dfsg-3ubuntu2.14.04.13             amd64        Network Time Protocol daemon and utility programs
 ii  ntpdate                              1:4.2.6.p5+dfsg-3ubuntu2.14.04.13             amd64        client for setting system time from NTP servers
