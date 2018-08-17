@@ -306,7 +306,7 @@ ii  libxau6:amd64                    1:1.0.8-1                                  
 ii  libxcb1:amd64                    1.10-2ubuntu1                              amd64        X C Binding
 ii  libxdmcp6:amd64                  1:1.1.1-1                                  amd64        X11 Display Manager Control Protocol library
 ii  libxext6:amd64                   2:1.3.2-1ubuntu0.0.14.04.1                 amd64        X11 miscellaneous extension library
-ii  libxml2:amd64                    2.9.1+dfsg1-3ubuntu4.12                    amd64        GNOME XML library
+ii  libxml2:amd64                    2.9.1+dfsg1-3ubuntu4.13                    amd64        GNOME XML library
 ii  libxmuu1:amd64                   2:1.1.1-1                                  amd64        X11 miscellaneous micro-utility library
 ii  libxtables10                     1.4.21-1ubuntu1                            amd64        netfilter xtables library
 ii  linux-headers-3.13.0-149         3.13.0-149.199                             all          Header files related to Linux kernel version 3.13.0
@@ -315,6 +315,8 @@ ii  linux-headers-3.13.0-151         3.13.0-151.201                             
 ii  linux-headers-3.13.0-151-generic 3.13.0-151.201                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-153         3.13.0-153.203                             all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-153-generic 3.13.0-153.203                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-3.13.0-155         3.13.0-155.205                             all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-155-generic 3.13.0-155.205                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-37          3.13.0-37.64                               all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-37-generic  3.13.0-37.64                               amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-39          3.13.0-39.66                               all          Header files related to Linux kernel version 3.13.0
@@ -329,8 +331,8 @@ ii  linux-headers-3.13.0-59          3.13.0-59.98                               
 ii  linux-headers-3.13.0-59-generic  3.13.0-59.98                               amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-61          3.13.0-61.100                              all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-61-generic  3.13.0-61.100                              amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-generic            3.13.0.153.163                             amd64        Generic Linux kernel headers
-ii  linux-headers-virtual            3.13.0.153.163                             amd64        Transitional package.
+ii  linux-headers-generic            3.13.0.155.165                             amd64        Generic Linux kernel headers
+ii  linux-headers-virtual            3.13.0.155.165                             amd64        Transitional package.
 rc  linux-image-3.13.0-119-generic   3.13.0-119.166                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-128-generic   3.13.0-128.177                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-129-generic   3.13.0-129.178                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -347,9 +349,10 @@ rc  linux-image-3.13.0-147-generic   3.13.0-147.196                             
 ii  linux-image-3.13.0-149-generic   3.13.0-149.199                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-151-generic   3.13.0-151.201                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-153-generic   3.13.0-153.203                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-virtual              3.13.0.153.163                             amd64        This package will always depend on the latest minimal generic kernel image.
-ii  linux-libc-dev:amd64             3.13.0-153.203                             amd64        Linux Kernel Headers for development
-ii  linux-virtual                    3.13.0.153.163                             amd64        Minimal Generic Linux kernel and headers
+ii  linux-image-3.13.0-155-generic   3.13.0-155.205                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-virtual              3.13.0.155.165                             amd64        This package will always depend on the latest minimal generic kernel image.
+ii  linux-libc-dev:amd64             3.13.0-155.205                             amd64        Linux Kernel Headers for development
+ii  linux-virtual                    3.13.0.155.165                             amd64        Minimal Generic Linux kernel and headers
 ii  locales                          2.13+git20120306-12.1                      all          common files for locale support
 ii  lockfile-progs                   0.1.17                                     amd64        Programs for locking and unlocking files and mailboxes
 ii  login                            1:4.1.5.1-1ubuntu9.5                       amd64        system login tools
@@ -397,8 +400,8 @@ ii  policykit-1                      0.105-4ubuntu3.14.04.2                     
 ii  postfix                          2.11.0-1ubuntu1.2                          amd64        High-performance mail transport agent
 ii  procps                           1:3.3.9-1ubuntu2.3                         amd64        /proc file system utilities
 ii  python                           2.7.5-5ubuntu3                             amd64        interactive high-level object-oriented language (default version)
-ii  python-apt                       0.9.3.5ubuntu2                             amd64        Python interface to libapt-pkg
-ii  python-apt-common                0.9.3.5ubuntu2                             all          Python interface to libapt-pkg (locales)
+ii  python-apt                       0.9.3.5ubuntu3                             amd64        Python interface to libapt-pkg
+ii  python-apt-common                0.9.3.5ubuntu3                             all          Python interface to libapt-pkg (locales)
 ii  python-chardet                   2.0.1-2build2                              all          universal character encoding detector
 ii  python-chardet-whl               2.2.1-2~ubuntu1                            all          universal character encoding detector
 ii  python-colorama                  0.2.5-0.1ubuntu2                           all          Cross-platform colored terminal text in Python - Python 2.x
@@ -434,7 +437,7 @@ ii  python2.7                        2.7.6-8ubuntu0.4                           
 ii  python2.7-minimal                2.7.6-8ubuntu0.4                           amd64        Minimal subset of the Python language (version 2.7)
 ii  python3                          3.4.0-0ubuntu2                             amd64        interactive high-level object-oriented language (default python3 version)
 ii  python3-apport                   2.14.1-0ubuntu3.29                         all          Python 3 library for Apport crash report handling
-ii  python3-apt                      0.9.3.5ubuntu2                             amd64        Python 3 interface to libapt-pkg
+ii  python3-apt                      0.9.3.5ubuntu3                             amd64        Python 3 interface to libapt-pkg
 ii  python3-chardet                  2.2.1-2~ubuntu1                            all          universal character encoding detector for Python3
 ii  python3-colorama                 0.2.5-0.1ubuntu2                           all          Cross-platform colored terminal text in Python - Python 3.x
 ii  python3-dbus                     1.2.0-2build2                              amd64        simple interprocess messaging system (Python 3 interface)
@@ -509,4 +512,4 @@ ii  xauth                            1:1.0.7-1ubuntu1                           
 ii  xkb-data                         2.10.1-1ubuntu1                            all          X Keyboard Extension (XKB) configuration data
 ii  xml-core                         0.13+nmu2                                  all          XML infrastructure and XML catalog file support
 ii  xz-utils                         5.1.1alpha+20120614-2ubuntu2               amd64        XZ-format compression utilities
-ii  zlib1g:amd64                     1:1.2.8.dfsg-1ubuntu1                      amd64        compression library - runtime
+ii  zlib1g:amd64                     1:1.2.8.dfsg-1ubuntu1.1                    amd64        compression library - runtime
