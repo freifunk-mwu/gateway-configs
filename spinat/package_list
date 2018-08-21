@@ -743,7 +743,7 @@ ii  wget                                 1.15-1ubuntu1.14.04.4                  
 ii  whiptail                             0.52.15-2ubuntu5                           amd64        Displays user-friendly dialog boxes from shell scripts
 ii  wireless-regdb                       2013.02.13-1ubuntu1                        all          wireless regulatory database
 ii  wireless-tools                       30~pre9-8ubuntu1                           amd64        Tools for manipulating Linux Wireless Extensions
-ii  wpasupplicant                        2.1-0ubuntu1.5                             amd64        client support for WPA and WPA2 (IEEE 802.11i)
+ii  wpasupplicant                        2.1-0ubuntu1.6                             amd64        client support for WPA and WPA2 (IEEE 802.11i)
 ii  x11-common                           1:7.7+1ubuntu8.1                           all          X Window System (X.Org) infrastructure
 ii  xauth                                1:1.0.7-1ubuntu1                           amd64        X authentication utility
 ii  xkb-data                             2.10.1-1ubuntu1                            all          X Keyboard Extension (XKB) configuration data
