@@ -510,7 +510,7 @@ ii  wget                             1.15-1ubuntu1.14.04.4                      
 ii  whiptail                         0.52.15-2ubuntu5                           amd64        Displays user-friendly dialog boxes from shell scripts
 ii  whois                            5.1.1                                      amd64        intelligent WHOIS client
 ii  wireless-tools                   30~pre9-8ubuntu1                           amd64        Tools for manipulating Linux Wireless Extensions
-ii  wpasupplicant                    2.1-0ubuntu1.5                             amd64        client support for WPA and WPA2 (IEEE 802.11i)
+ii  wpasupplicant                    2.1-0ubuntu1.6                             amd64        client support for WPA and WPA2 (IEEE 802.11i)
 ii  xauth                            1:1.0.7-1ubuntu1                           amd64        X authentication utility
 ii  xkb-data                         2.10.1-1ubuntu1                            all          X Keyboard Extension (XKB) configuration data
 ii  xml-core                         0.13+nmu2                                  all          XML infrastructure and XML catalog file support
