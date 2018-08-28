@@ -233,7 +233,7 @@ ii  libgck-1-0:amd64                     3.10.1-1                               
 ii  libgcr-3-common                      3.10.1-1                                   all          Library for Crypto UI related tasks - common files
 ii  libgcr-base-3-1:amd64                3.10.1-1                                   amd64        Library for Crypto related tasks
 ii  libgcrypt11:amd64                    1.5.3-2ubuntu4.6                           amd64        LGPL Crypto library - runtime library
-ii  libgd3:amd64                         2.1.0-3ubuntu0.8                           amd64        GD Graphics Library
+ii  libgd3:amd64                         2.1.0-3ubuntu0.10                          amd64        GD Graphics Library
 ii  libgdbm3:amd64                       1.8.3-12build1                             amd64        GNU dbm database routines (runtime version)
 ii  libgeoip1:amd64                      1.6.0-1                                    amd64        non-DNS IP-to-country resolver library
 ii  libgirepository-1.0-1                1.40.0-1ubuntu0.2                          amd64        Library for handling GObject introspection data (runtime library)
@@ -416,7 +416,7 @@ ii  libxrender1:amd64                    1:0.9.8-1build0.14.04.1                
 ii  libxt6:amd64                         1:1.1.4-1                                  amd64        X11 toolkit intrinsics library
 ii  libxtables10                         1.4.21-1ubuntu1                            amd64        netfilter xtables library
 ii  libyaml-0-2:amd64                    0.1.4-3ubuntu3.1                           amd64        Fast YAML 1.1 parser and emitter library
-ii  linux-base                           3.5ubuntu4                                 all          Linux image base package
+ii  linux-base                           4.5ubuntu1~14.04.1                         all          Linux image base package
 ii  linux-firmware                       1.127.24                                   all          Firmware for Linux kernel drivers
 ii  linux-generic                        3.13.0.147.157                             amd64        Complete Generic Linux kernel and headers
 ii  linux-generic-lts-trusty             3.13.0.157.167                             amd64        Generic Linux kernel image and headers
