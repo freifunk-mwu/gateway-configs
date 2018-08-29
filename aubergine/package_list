@@ -120,7 +120,7 @@ ii  initramfs-tools-bin                  0.103ubuntu4.11                        
 ii  initscripts                          2.88dsf-41ubuntu6.3                           amd64        scripts for initializing and shutting down the system
 ii  insserv                              1.14.0-5ubuntu2                               amd64        boot sequence organizer using LSB init.d script dependency information
 ii  installation-report                  2.54ubuntu1                                   all          system installation report
-ii  intel-microcode                      3.20180425.1~ubuntu0.14.04.2                  amd64        Processor microcode firmware for Intel CPUs
+ii  intel-microcode                      3.20180807a.0ubuntu0.14.04.1                  amd64        Processor microcode firmware for Intel CPUs
 ii  iproute2                             3.12.0-2ubuntu1.2                             amd64        networking and traffic control tools
 ii  iputils-ping                         3:20121221-4ubuntu1.1                         amd64        Tools to test the reachability of network hosts
 ii  isc-dhcp-client                      4.2.4-8ffmwu0                                 amd64        ISC DHCP client
@@ -223,7 +223,7 @@ ii  libgcc-4.8-dev:amd64                 4.8.4-2ubuntu1~14.04.4                 
 ii  libgcc1:amd64                        1:4.9.3-0ubuntu4                              amd64        GCC support library
 ii  libgcrypt11:amd64                    1.5.3-2ubuntu4.6                              amd64        LGPL Crypto library - runtime library
 ii  libgcrypt11-dev                      1.5.3-2ubuntu4.6                              amd64        LGPL Crypto library - development files
-ii  libgd3:amd64                         2.1.0-3ubuntu0.8                              amd64        GD Graphics Library
+ii  libgd3:amd64                         2.1.0-3ubuntu0.10                             amd64        GD Graphics Library
 ii  libgdbm3:amd64                       1.8.3-12build1                                amd64        GNU dbm database routines (runtime version)
 ii  libgeoip1:amd64                      1.6.0-1                                       amd64        non-DNS IP-to-country resolver library
 ii  libgirepository-1.0-1                1.40.0-1ubuntu0.2                             amd64        Library for handling GObject introspection data (runtime library)
