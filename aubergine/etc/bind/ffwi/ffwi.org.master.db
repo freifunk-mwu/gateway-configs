@@ -3,7 +3,7 @@ $ORIGIN ffwi.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffwi.org. hostmaster.ffwi.org. (
-                     2018062500         ; Serial
+                     2018083000         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -99,6 +99,7 @@ unifi			IN	AAAA	fd56:b4dc:4b1e::a38:105
 map			IN	CNAME	suesskartoffel
 openwrt			IN	CNAME	aubergine
 lede			IN	CNAME	aubergine
+opkg			IN	CNAME	aubergine
 www			IN	CNAME	aubergine
 portal			IN	CNAME	aubergine
 einzugsgebiet		IN	CNAME	zuckerwatte
