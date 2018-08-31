@@ -517,8 +517,8 @@ ii  libwmf0.2-7:amd64                    0.2.8.4-10.3ubuntu1.14.04.1            
 ii  libwrap0:amd64                       7.6.q-25                                   amd64        Wietse Venema's TCP wrappers library
 ii  libwww-perl                          6.05-2                                     all          simple and consistent interface to the world-wide web
 ii  libwww-robotrules-perl               6.01-1                                     all          database of robots.txt-derived permissions
-ii  libx11-6:amd64                       2:1.6.2-1ubuntu2                           amd64        X11 client-side library
-ii  libx11-data                          2:1.6.2-1ubuntu2                           all          X11 client-side library
+ii  libx11-6:amd64                       2:1.6.2-1ubuntu2.1                         amd64        X11 client-side library
+ii  libx11-data                          2:1.6.2-1ubuntu2.1                         all          X11 client-side library
 ii  libxapian22                          1.2.16-2ubuntu1                            amd64        Search engine library
 ii  libxau6:amd64                        1:1.0.8-1                                  amd64        X11 authorisation library
 rc  libxaw7:amd64                        2:1.0.12-1                                 amd64        X11 Athena Widget library
@@ -832,7 +832,7 @@ ii  php5-json                            1.3.2-2build1                          
 ii  php5-mcrypt                          5.4.6-0ubuntu5                             amd64        MCrypt module for php5
 ii  php5-mysql                           5.5.9+dfsg-1ubuntu4.25                     amd64        MySQL module for php5
 ii  php5-readline                        5.5.9+dfsg-1ubuntu4.25                     amd64        Readline module for php5
-ii  phpmyadmin                           4:4.0.10-1                                 all          MySQL web administration tool
+ii  phpmyadmin                           4:4.0.10-1ubuntu0.1                        all          MySQL web administration tool
 ii  pkg-config                           0.26-1ubuntu4                              amd64        manage compile and link flags for libraries
 ii  pkg-php-tools                        1.11                                       all          various packaging tools and scripts for PHP packages
 ii  plymouth                             0.8.8-0ubuntu17.1                          amd64        graphical boot animation and logger - main package
