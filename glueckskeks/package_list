@@ -507,10 +507,10 @@ ii  libwind0-heimdal:amd64               1.6~git20131207+dfsg-1ubuntu1.2        
 ii  libwrap0:amd64                       7.6.q-25                                      amd64        Wietse Venema's TCP wrappers library
 ii  libwww-perl                          6.05-2                                        all          simple and consistent interface to the world-wide web
 ii  libwww-robotrules-perl               6.01-1                                        all          database of robots.txt-derived permissions
-ii  libx11-6:amd64                       2:1.6.2-1ubuntu2                              amd64        X11 client-side library
-ii  libx11-data                          2:1.6.2-1ubuntu2                              all          X11 client-side library
-ii  libx11-dev:amd64                     2:1.6.2-1ubuntu2                              amd64        X11 client-side library (development headers)
-ii  libx11-doc                           2:1.6.2-1ubuntu2                              all          X11 client-side library (development documentation)
+ii  libx11-6:amd64                       2:1.6.2-1ubuntu2.1                            amd64        X11 client-side library
+ii  libx11-data                          2:1.6.2-1ubuntu2.1                            all          X11 client-side library
+ii  libx11-dev:amd64                     2:1.6.2-1ubuntu2.1                            amd64        X11 client-side library (development headers)
+ii  libx11-doc                           2:1.6.2-1ubuntu2.1                            all          X11 client-side library (development documentation)
 ii  libxapian22                          1.2.16-2ubuntu1                               amd64        Search engine library
 ii  libxau-dev:amd64                     1:1.0.8-1                                     amd64        X11 authorisation library (development headers)
 ii  libxau6:amd64                        1:1.0.8-1                                     amd64        X11 authorisation library
