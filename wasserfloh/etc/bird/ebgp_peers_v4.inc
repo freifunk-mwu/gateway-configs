@@ -85,7 +85,6 @@ protocol bgp icvpn_mueritz_bgp1 from ebgp_ic {
 }
 protocol bgp icvpn_pinneberg from ebgp_ic {
     neighbor 10.207.0.30 as 65433;
-    passive yes;
 }
 protocol bgp icvpn_ruhrgebiet1 from ebgp_ic {
     neighbor 10.207.0.79 as 65079;
