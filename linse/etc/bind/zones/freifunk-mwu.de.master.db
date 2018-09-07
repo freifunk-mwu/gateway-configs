@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2018090200		; Serial
+		     2018090700		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -67,12 +67,6 @@ gate104		IN	CNAME	trueffel
 icvpn104	IN	CNAME	trueffel
 ;sparegate2	IN	CNAME	trueffel
 
-lauch		IN	A	178.33.36.188
-lauch		IN	AAAA	2001:41d0:2:32cb::1001
-gate123		IN	CNAME	lauch
-icvpn123	IN	CNAME	lauch
-;sparegate3	IN	CNAME	lauch
-
 extrasahne	IN	A	82.149.226.105
 ;extrasahne	IN	AAAA	2a01:4f8:190:7008:2800::1
 gate42		IN	CNAME	extrasahne
@@ -102,6 +96,8 @@ viprivpn	IN	A	193.25.173.41
 viprivpn-wan	IN	A	193.25.173.42
 unifi		IN	A	85.14.253.122
 unifi		IN	AAAA	2001:4ba0:fffc:3d::b4dc:4b1e:5
+kabbes		IN	A	178.33.36.188
+kabbes		IN	AAAA	2001:41d0:2:32cb::1001
 
 ; service cnames
 map		IN	CNAME	suesskartoffel
