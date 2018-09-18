@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2018090800		; Serial
+		     2018091800		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -148,6 +148,9 @@ firmware	IN	AAAA	2a01:4f8:192:520::b4dc:4b1e
 ; ingwer
 firmware        IN      A       164.132.135.215
 firmware        IN      AAAA    2001:41d0:2:32cb::b4dc:4b1e
+; uffschnitt
+firmware	IN	A	94.130.21.201
+firmware	IN	AAAA	2a01:4f8:10b:1b29::2
 
 ; key#1 2048 bits, i=mail201507, d=freifunk-mwu.de, /var/lib/amavis/db/freifunk-mwu.de
 mail201507._domainkey  3600 TXT (
