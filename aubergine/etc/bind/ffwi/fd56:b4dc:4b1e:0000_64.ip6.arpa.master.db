@@ -3,7 +3,7 @@ $ORIGIN 0.0.0.0.e.1.b.4.c.d.4.b.6.5.d.f.ip6.arpa.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffwi.org. hostmaster.ffwi.org. (
-                     2018021800         ; Serial
+                     2018091900         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -18,6 +18,7 @@ $TTL    600
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR     nextnode.ffwi.org.
 7.0.0.0.8.3.a.0.0.0.0.0.0.0.0.0 PTR     spinat.ffwi.org.
 7.1.0.0.8.3.a.0.0.0.0.0.0.0.0.0 PTR     lotuswurzel.ffwi.org.
+0.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0	PTR	suesskartoffel.ffwi.org
 5.6.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR     uffschnitt.ffwi.org.
 a.2.0.0.8.3.a.0.0.0.0.0.0.0.0.0 PTR     parmesan.ffwi.org.
 1.a.0.0.8.3.a.0.0.0.0.0.0.0.0.0	PTR	ingwer.ffwi.org.
