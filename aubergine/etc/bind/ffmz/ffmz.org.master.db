@@ -3,7 +3,7 @@ $ORIGIN ffmz.org.
 
 $TTL    600
 @       IN      SOA     aubergine.ffmz.org. hostmaster.ffmz.org. (
-                     2018083000         ; Serial
+                     2018091900         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -87,8 +87,8 @@ zwiebel			IN	AAAA	fd37:b4dc:4b1e::a25:100
 zuckerwatte		IN	A	10.37.1.2
 zuckerwatte		IN	AAAA	fd37:b4dc:4b1e::a25:102
 
-suesskartoffel		IN	A	10.37.1.4
-suesskartoffel		IN	AAAA	fd37:b4dc:4b1e::a25:104
+suesskartoffel		IN	A	10.37.0.32
+suesskartoffel		IN	AAAA	fd37:b4dc:4b1e::20
 
 unifi			IN	A	10.37.1.5
 unifi			IN	AAAA	fd37:b4dc:4b1e::a25:105
