@@ -26,7 +26,7 @@ nextnode		IN	AAAA	fd56:b4dc:4b1e::1
 
 ; gluon gateways
 spinat			IN      A       10.56.0.7
-spinat			IN      AAAA    fd56:b4dc:4b1e::a38:7
+spinat			IN      AAAA    fd56:b4dc:4b1e::7
 gate07			IN      CNAME   spinat
 
 lotuswurzel		IN      A       10.56.0.23
@@ -68,14 +68,14 @@ ntp			IN	A	10.56.0.23
 ntp			IN	A	10.56.0.101
 ntp			IN	A	10.56.0.161
 ntp			IN	A	10.56.0.231
-ntp			IN	AAAA	fd56:b4dc:4b1e::a38:7
+ntp			IN	AAAA	fd56:b4dc:4b1e::7
 ntp			IN	AAAA	fd56:b4dc:4b1e::17
 ntp			IN	AAAA	fd56:b4dc:4b1e::65
 ntp			IN	AAAA	fd56:b4dc:4b1e::a1
 ntp			IN	AAAA	fd56:b4dc:4b1e::a38:e7
 
-; workaround for LEDE
-ntp6			IN	AAAA	fd56:b4dc:4b1e::a38:7
+; workaround for Gluon
+ntp6			IN	AAAA	fd56:b4dc:4b1e::7
 ntp6			IN	AAAA	fd56:b4dc:4b1e::17
 ntp6			IN	AAAA	fd56:b4dc:4b1e::65
 ntp6			IN	AAAA	fd56:b4dc:4b1e::a1
@@ -111,7 +111,7 @@ firmware		IN	A	10.56.0.23
 firmware		IN	A	10.56.0.101
 firmware		IN	A	10.56.0.161
 firmware		IN	A	10.56.0.231
-firmware		IN	AAAA	fd56:b4dc:4b1e::a38:7
+firmware		IN	AAAA	fd56:b4dc:4b1e::7
 firmware		IN	AAAA	fd56:b4dc:4b1e::17
 firmware		IN	AAAA	fd56:b4dc:4b1e::65
 firmware		IN	AAAA	fd56:b4dc:4b1e::a1

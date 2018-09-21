@@ -3,7 +3,7 @@ $ORIGIN ffmwu.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffmwu.org. hostmaster.ffmwu.org. (
-                     2018091900         ; Serial
+                     2018092100         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -18,7 +18,7 @@ $TTL    600
 
 ; gluon gateways
 spinat			IN      A       10.56.0.7
-spinat			IN      AAAA    fd56:b4dc:4b1e::a38:7
+spinat			IN      AAAA    fd56:b4dc:4b1e::7
 gate07			IN      CNAME   spinat
 
 lotuswurzel		IN      A       10.56.0.23
@@ -77,7 +77,7 @@ firmware		IN	A	10.56.0.23
 firmware		IN	A	10.56.0.101
 firmware		IN	A	10.56.0.161
 firmware		IN	A	10.56.0.231
-firmware		IN	AAAA	fd56:b4dc:4b1e::a38:7
+firmware		IN	AAAA	fd56:b4dc:4b1e::7
 firmware		IN	AAAA	fd56:b4dc:4b1e::17
 firmware		IN	AAAA	fd56:b4dc:4b1e::65
 firmware		IN	AAAA	fd56:b4dc:4b1e::a1

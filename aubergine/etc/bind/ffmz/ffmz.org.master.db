@@ -3,7 +3,7 @@ $ORIGIN ffmz.org.
 
 $TTL    600
 @       IN      SOA     aubergine.ffmz.org. hostmaster.ffmz.org. (
-                     2018091900         ; Serial
+                     2018092100         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -26,7 +26,7 @@ nextnode		IN	AAAA	fd37:b4dc:4b1e::1
 
 ; gluon gateways
 spinat          	IN      A       10.37.0.7
-spinat          	IN      AAAA    fd37:b4dc:4b1e::a25:7
+spinat          	IN      AAAA    fd37:b4dc:4b1e::7
 gate07          	IN      CNAME   spinat
 spinat.icvpn		IN	A	10.207.1.37
 spinat.icvpn		IN	AAAA	fec0::a:cf:1:25
@@ -65,14 +65,14 @@ ntp			IN	A	10.37.0.23
 ntp			IN	A	10.37.0.101
 ntp			IN	A	10.37.0.161
 ntp			IN	A	10.37.0.231
-ntp			IN	AAAA	fd37:b4dc:4b1e::a25:7
+ntp			IN	AAAA	fd37:b4dc:4b1e::7
 ntp			IN	AAAA	fd37:b4dc:4b1e::17
 ntp			IN	AAAA	fd37:b4dc:4b1e::65
 ntp			IN	AAAA	fd37:b4dc:4b1e::a1
 ntp			IN	AAAA	fd37:b4dc:4b1e::a25:e7
 
-; workaround for LEDE
-ntp6			IN	AAAA	fd37:b4dc:4b1e::a25:7
+; workaround for Gluon
+ntp6			IN	AAAA	fd37:b4dc:4b1e::7
 ntp6			IN	AAAA	fd37:b4dc:4b1e::17
 ntp6			IN	AAAA	fd37:b4dc:4b1e::65
 ntp6			IN	AAAA	fd37:b4dc:4b1e::a1
@@ -107,7 +107,7 @@ firmware		IN	A	10.37.0.23
 firmware		IN	A	10.37.0.101
 firmware		IN	A	10.37.0.161
 firmware		IN	A	10.37.0.231
-firmware		IN	AAAA	fd37:b4dc:4b1e::a25:7
+firmware		IN	AAAA	fd37:b4dc:4b1e::7
 firmware		IN	AAAA	fd37:b4dc:4b1e::17
 firmware		IN	AAAA	fd37:b4dc:4b1e::65
 firmware		IN	AAAA	fd37:b4dc:4b1e::a1
@@ -124,6 +124,5 @@ mettbroetchen		IN	AAAA	fd37:b4dc:4b1e::a25:10c
 
 ; freifunk rheingau-taunus
 spundekaes		IN	A	10.37.1.13
-;spundekaes		IN	AAAA	fd37:b4dc:4b1e:0:b8aa:a5ff:fef2:f789
 spundekaes              IN      AAAA    fd37:b4dc:4b1e:0:42:aff:fe25:10d
 fwrheingau		IN	CNAME	spundekaes
