@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2018091800		; Serial
+		     2018092101		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -61,11 +61,6 @@ gate101		IN	CNAME	uffschnitt
 icvpn101	IN	CNAME	uffschnitt
 sparegate1	IN	CNAME	uffschnitt
 
-lauch		IN	A	178.33.35.65
-lauch		IN	AAAA	2001:41d0:2:32cb::1002
-gate128		IN	CNAME	lauch
-icvpn128	IN	CNAME	lauch
-
 trueffel 	IN	A	94.130.189.77
 trueffel	IN	AAAA	2a01:4f8:1c0c:4d9e::1
 gate104		IN	CNAME	trueffel
@@ -106,14 +101,12 @@ kabbes		IN	AAAA	2001:41d0:2:32cb::1001
 
 ; service cnames
 map		IN	CNAME	suesskartoffel
-mapng		IN	CNAME	suesskartoffel
 stats		IN	CNAME	suesskartoffel
-tiles		IN	CNAME	suesskartoffel
+lg		IN	CNAME	suesskartoffel
 einzugsgebiet	IN	CNAME	zuckerwatte
 rtfm		IN	CNAME	zuckerwatte
 mailadmin	IN	CNAME	glueckskeks
 webmail		IN	CNAME	glueckskeks
-lg		IN	CNAME	aubergine
 wiki		IN	CNAME	zuckerwatte
 pad		IN	CNAME	zuckerwatte
 dudel		IN	CNAME	zuckerwatte
