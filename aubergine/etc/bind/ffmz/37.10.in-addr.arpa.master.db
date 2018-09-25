@@ -3,7 +3,7 @@ $ORIGIN 37.10.in-addr.arpa.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffmz.org. hostmaster.ffmz.org. (
-                     2018091900         ; Serial
+                     2018092400         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -24,6 +24,7 @@ $TTL    600
 161.0	PTR	ingwer.ffmz.org.
 231.0   PTR     wasserfloh.ffmz.org.
 0.1	PTR	zwiebel.ffmz.org.
+1.1	PTR	glueckskeks.ffmz.org.
 2.1	PTR	zuckerwatte.ffmz.org.
 3.1	PTR	aubergine.ffmz.org.
 5.1	PTR	unifi.ffmz.org.

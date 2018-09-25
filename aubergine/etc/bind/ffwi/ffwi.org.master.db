@@ -3,7 +3,7 @@ $ORIGIN ffwi.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffwi.org. hostmaster.ffwi.org. (
-                     2018083000         ; Serial
+                     2018092401         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -89,6 +89,9 @@ zwiebel			IN	AAAA	fd56:b4dc:4b1e::a38:100
 
 zuckerwatte		IN	A	10.56.1.2
 zuckerwatte		IN	AAAA	fd56:b4dc:4b1e::a38:102
+
+glueckskeks		IN	A	10.56.1.1
+glueckskeks		IN	AAAA	fd56:b4dc:4b1e::a38:101
 
 suesskartoffel		IN	A	10.56.0.32
 suesskartoffel		IN	AAAA	fd56:b4dc:4b1e::20
