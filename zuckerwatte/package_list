@@ -973,7 +973,7 @@ ii  time                                 1.7-24                                 
 ii  tinymce                              3.4.8+dfsg0-1                                        all          platform independent web based Javascript/HTML WYSIWYG editor
 ii  tmux                                 1.8-5                                                amd64        terminal multiplexer
 ii  ttf-dejavu-core                      2.34-1ubuntu1                                        all          transitional dummy package
-ii  tzdata                               2017c-0ubuntu0.14.04                                 all          time zone and daylight-saving time data
+ii  tzdata                               2018e-0ubuntu0.14.04                                 all          time zone and daylight-saving time data
 ii  ubuntu-keyring                       2012.05.19                                           all          GnuPG keys of the Ubuntu archive
 ii  ubuntu-minimal                       1.325                                                amd64        Minimal core of Ubuntu
 ii  ubuntu-release-upgrader-core         1:0.220.10                                           all          manage release upgrades
