@@ -109,7 +109,7 @@ ii  gccgo-go                             1.2.1-0ubuntu1.2                       
 ii  geoip-database                       20140313-1                                           all          IP lookup command line tools that use the GeoIP library (country database)
 ii  gettext                              0.18.3.1-1ubuntu3                                    amd64        GNU Internationalization utilities
 ii  gettext-base                         0.18.3.1-1ubuntu3                                    amd64        GNU Internationalization utilities for the base system
-ii  ghostscript                          9.10~dfsg-0ubuntu10.13                               amd64        interpreter for the PostScript language and for PDF
+ii  ghostscript                          9.25~dfsg+1-0ubuntu0.14.04.1                         amd64        interpreter for the PostScript language and for PDF
 ii  gir1.2-glib-2.0                      1.40.0-1ubuntu0.2                                    amd64        Introspection data for GLib, GObject, Gio and GModule
 ii  git                                  1:1.9.1-1ubuntu0.8                                   amd64        fast, scalable, distributed revision control system
 ii  git-man                              1:1.9.1-1ubuntu0.8                                   all          fast, scalable, distributed revision control system (manual pages)
@@ -289,8 +289,8 @@ ii  libgomp1:amd64                       4.8.4-2ubuntu1~14.04.4                 
 ii  libgpg-error0:amd64                  1.12-0.2ubuntu1                                      amd64        library for common error values and messages in GnuPG components
 ii  libgpm2:amd64                        1.20.4-6.1                                           amd64        General Purpose Mouse - shared library
 ii  libgraphite2-3:amd64                 1.3.10-0ubuntu0.14.04.1                              amd64        Font rendering engine for Complex Scripts -- library
-ii  libgs9                               9.10~dfsg-0ubuntu10.13                               amd64        interpreter for the PostScript language and for PDF - Library
-ii  libgs9-common                        9.10~dfsg-0ubuntu10.13                               all          interpreter for the PostScript language and for PDF - common files
+ii  libgs9                               9.25~dfsg+1-0ubuntu0.14.04.1                         amd64        interpreter for the PostScript language and for PDF - Library
+ii  libgs9-common                        9.25~dfsg+1-0ubuntu0.14.04.1                         all          interpreter for the PostScript language and for PDF - common files
 ii  libgsasl7                            1.8.0-2ubuntu2                                       amd64        GNU SASL library
 rc  libgsl0ldbl                          1.16+dfsg-1ubuntu1                                   amd64        GNU Scientific Library (GSL) -- library package
 ii  libgssapi-krb5-2:amd64               1.12+dfsg-2ubuntu5.3                                 amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
@@ -599,10 +599,12 @@ ii  linux-headers-3.13.0-157             3.13.0-157.207                         
 ii  linux-headers-3.13.0-157-generic     3.13.0-157.207                                       amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-158             3.13.0-158.208                                       all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-158-generic     3.13.0-158.208                                       amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-3.13.0-160             3.13.0-160.210                                       all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-160-generic     3.13.0-160.210                                       amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-86              3.13.0-86.131                                        all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-86-generic      3.13.0-86.131                                        amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-generic                3.13.0.158.168                                       amd64        Generic Linux kernel headers
-ii  linux-headers-generic-lts-trusty     3.13.0.158.168                                       amd64        Generic Linux kernel headers
+ii  linux-headers-generic                3.13.0.160.170                                       amd64        Generic Linux kernel headers
+ii  linux-headers-generic-lts-trusty     3.13.0.160.170                                       amd64        Generic Linux kernel headers
 rc  linux-image-3.13.0-100-generic       3.13.0-100.147                                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-106-generic       3.13.0-106.153                                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-107-generic       3.13.0-107.154                                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -637,6 +639,7 @@ ii  linux-image-3.13.0-155-generic       3.13.0-155.205                         
 ii  linux-image-3.13.0-156-generic       3.13.0-156.206                                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-157-generic       3.13.0-157.207                                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-158-generic       3.13.0-158.208                                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-3.13.0-160-generic       3.13.0-160.210                                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-79-generic        3.13.0-79.123                                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-83-generic        3.13.0-83.127                                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-85-generic        3.13.0-85.129                                        amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -685,6 +688,7 @@ ii  linux-image-extra-3.13.0-143-generic 3.13.0-143.192                         
 ii  linux-image-extra-3.13.0-144-generic 3.13.0-144.193                                       amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-147-generic 3.13.0-147.196                                       amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-158-generic 3.13.0-158.208                                       amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-extra-3.13.0-160-generic 3.13.0-160.210                                       amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-79-generic  3.13.0-79.123                                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-83-generic  3.13.0-83.127                                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-85-generic  3.13.0-85.129                                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
@@ -705,10 +709,10 @@ rc  linux-image-extra-3.19.0-41-generic  3.19.0-41.46~14.04.2                   
 rc  linux-image-extra-3.19.0-42-generic  3.19.0-42.48~14.04.1                                 amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-47-generic  3.19.0-47.53~14.04.1                                 amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-49-generic  3.19.0-49.55~14.04.1                                 amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
-ii  linux-image-generic                  3.13.0.158.168                                       amd64        Generic Linux kernel image
-ii  linux-image-generic-lts-trusty       3.13.0.158.168                                       amd64        Generic Linux kernel image
-ii  linux-image-virtual                  3.13.0.158.168                                       amd64        This package will always depend on the latest minimal generic kernel image.
-ii  linux-libc-dev:amd64                 3.13.0-158.208                                       amd64        Linux Kernel Headers for development
+ii  linux-image-generic                  3.13.0.160.170                                       amd64        Generic Linux kernel image
+ii  linux-image-generic-lts-trusty       3.13.0.160.170                                       amd64        Generic Linux kernel image
+ii  linux-image-virtual                  3.13.0.160.170                                       amd64        This package will always depend on the latest minimal generic kernel image.
+ii  linux-libc-dev:amd64                 3.13.0-160.210                                       amd64        Linux Kernel Headers for development
 ii  locales                              2.13+git20120306-12.1                                all          common files for locale support
 ii  lockfile-progs                       0.1.17                                               amd64        Programs for locking and unlocking files and mailboxes
 ii  login                                1:4.1.5.1-1ubuntu9.5                                 amd64        system login tools
