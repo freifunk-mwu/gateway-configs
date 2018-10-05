@@ -13,7 +13,7 @@ ii  apache2                              2.4.7-1ubuntu4.20                      
 ii  apache2-bin                          2.4.7-1ubuntu4.20                                    amd64        Apache HTTP Server (binary files and modules)
 ii  apache2-data                         2.4.7-1ubuntu4.20                                    all          Apache HTTP Server (common files)
 ii  apg                                  2.2.3.dfsg.1-2ubuntu1                                amd64        Automated Password Generator - Standalone version
-ii  apparmor                             2.10.95-0ubuntu2.6~14.04.3                           amd64        user-space parser utility for AppArmor
+ii  apparmor                             2.10.95-0ubuntu2.6~14.04.4                           amd64        user-space parser utility for AppArmor
 ii  apport                               2.14.1-0ubuntu3.29                                   all          automatically generate crash reports for debugging
 ii  apport-symptoms                      0.20                                                 all          symptom scripts for apport
 ii  apt                                  1.0.1ubuntu2.18                                      amd64        commandline package manager
@@ -68,7 +68,7 @@ ii  debconf                              1.5.51ubuntu2                          
 ii  debconf-i18n                         1.5.51ubuntu2                                        all          full internationalization support for debconf
 ii  debhelper                            9.20131227ubuntu1                                    all          helper programs for debian/rules
 ii  debianutils                          4.4                                                  amd64        Miscellaneous utilities specific to Debian
-ii  dh-apparmor                          2.10.95-0ubuntu2.6~14.04.3                           all          AppArmor debhelper routines
+ii  dh-apparmor                          2.10.95-0ubuntu2.6~14.04.4                           all          AppArmor debhelper routines
 ii  dh-python                            1.20140128-1ubuntu8.2                                all          Debian helper tools for packaging Python libraries and applications
 ii  diffutils                            1:3.3-1                                              amd64        File comparison utilities
 ii  dkms                                 2.2.0.3-1.1ubuntu5.14.04.9                           all          Dynamic Kernel Module Support Framework
@@ -139,8 +139,8 @@ ii  hicolor-icon-theme                   0.13-1                                 
 ii  hostname                             3.15ubuntu1                                          amd64        utility to set/show the host name or domain name
 ii  htop                                 1.0.2-3                                              amd64        interactive processes viewer
 ii  ifupdown                             0.7.47.2ubuntu4.5                                    amd64        high level tools to configure network interfaces
-ii  imagemagick                          8:6.7.7.10-6ubuntu3.12                               amd64        image manipulation programs
-ii  imagemagick-common                   8:6.7.7.10-6ubuntu3.12                               all          image manipulation programs -- infrastructure
+ii  imagemagick                          8:6.7.7.10-6ubuntu3.13                               amd64        image manipulation programs
+ii  imagemagick-common                   8:6.7.7.10-6ubuntu3.13                               all          image manipulation programs -- infrastructure
 ii  info                                 5.2.0.dfsg.1-2                                       amd64        Standalone GNU Info documentation browser
 ii  init-system-helpers                  1.14ubuntu1                                          all          helper tools for all init systems
 ii  initramfs-tools                      0.103ubuntu4.11                                      all          tools for generating an initramfs
@@ -181,8 +181,8 @@ ii  libalgorithm-diff-xs-perl            0.04-2build4                           
 ii  libalgorithm-merge-perl              0.08-2                                               all          Perl module for three-way merge of textual data
 ii  libapache2-mod-php5                  5.5.9+dfsg-1ubuntu4.26                               amd64        server-side, HTML-embedded scripting language (Apache 2 module)
 ii  libapache2-mod-removeip              1.0b-5.1                                             amd64        Module to remove IP from apache2's logs
-ii  libapparmor-perl                     2.10.95-0ubuntu2.6~14.04.3                           amd64        AppArmor library Perl bindings
-ii  libapparmor1:amd64                   2.10.95-0ubuntu2.6~14.04.3                           amd64        changehat AppArmor library
+ii  libapparmor-perl                     2.10.95-0ubuntu2.6~14.04.4                           amd64        AppArmor library Perl bindings
+ii  libapparmor1:amd64                   2.10.95-0ubuntu2.6~14.04.4                           amd64        changehat AppArmor library
 ii  libapr1:amd64                        1.5.0-1                                              amd64        Apache Portable Runtime Library
 ii  libaprutil1:amd64                    1.5.3-1                                              amd64        Apache Portable Runtime Utility Library
 ii  libaprutil1-dbd-sqlite3:amd64        1.5.3-1                                              amd64        Apache Portable Runtime Utility Library - SQLite3 Driver
@@ -371,9 +371,9 @@ ii  liblwres90                           1:9.9.5.dfsg-3ubuntu0.18               
 ii  liblzma5:amd64                       5.1.1alpha+20120614-2ubuntu2                         amd64        XZ-format compression library
 ii  liblzo2-2:amd64                      2.06-1.2ubuntu1.1                                    amd64        data compression library
 ii  libmagic1:amd64                      1:5.14-2ubuntu3.4                                    amd64        File type determination library using "magic" numbers
-ii  libmagickcore5:amd64                 8:6.7.7.10-6ubuntu3.12                               amd64        low-level image manipulation library
-ii  libmagickcore5-extra:amd64           8:6.7.7.10-6ubuntu3.12                               amd64        low-level image manipulation library - extra codecs
-ii  libmagickwand5:amd64                 8:6.7.7.10-6ubuntu3.12                               amd64        image manipulation library
+ii  libmagickcore5:amd64                 8:6.7.7.10-6ubuntu3.13                               amd64        low-level image manipulation library
+ii  libmagickcore5-extra:amd64           8:6.7.7.10-6ubuntu3.13                               amd64        low-level image manipulation library - extra codecs
+ii  libmagickwand5:amd64                 8:6.7.7.10-6ubuntu3.13                               amd64        image manipulation library
 ii  libmail-sendmail-perl                0.79.16-1                                            all          Send email from a perl script
 ii  libmailtools-perl                    2.12-1                                               all          Manipulate email in perl programs
 ii  libmailutils4                        1:2.99.98-1.1                                        amd64        GNU Mail abstraction library
