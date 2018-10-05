@@ -13,7 +13,7 @@ ii  amd64-microcode                      3.20180524.1~ubuntu0.14.04.2+really2013
 ii  apache2                              2.4.7-1ubuntu4.20                                    amd64        Apache HTTP Server
 ii  apache2-bin                          2.4.7-1ubuntu4.20                                    amd64        Apache HTTP Server (binary files and modules)
 ii  apache2-data                         2.4.7-1ubuntu4.20                                    all          Apache HTTP Server (common files)
-ii  apparmor                             2.10.95-0ubuntu2.6~14.04.3                           amd64        user-space parser utility for AppArmor
+ii  apparmor                             2.10.95-0ubuntu2.6~14.04.4                           amd64        user-space parser utility for AppArmor
 ii  apport                               2.14.1-0ubuntu3.29                                   all          automatically generate crash reports for debugging
 ii  apport-symptoms                      0.20                                                 all          symptom scripts for apport
 ii  apt                                  1.0.1ubuntu2.18                                      amd64        commandline package manager
@@ -171,8 +171,8 @@ ii  libalgorithm-diff-perl               1.19.02-3                              
 ii  libalgorithm-diff-xs-perl            0.04-2build4                                         amd64        module to find differences between files (XS accelerated)
 ii  libalgorithm-merge-perl              0.08-2                                               all          Perl module for three-way merge of textual data
 ii  libapache2-mod-wsgi                  3.4-4ubuntu2.1.14.04.2                               amd64        Python WSGI adapter module for Apache
-ii  libapparmor-perl                     2.10.95-0ubuntu2.6~14.04.3                           amd64        AppArmor library Perl bindings
-ii  libapparmor1:amd64                   2.10.95-0ubuntu2.6~14.04.3                           amd64        changehat AppArmor library
+ii  libapparmor-perl                     2.10.95-0ubuntu2.6~14.04.4                           amd64        AppArmor library Perl bindings
+ii  libapparmor1:amd64                   2.10.95-0ubuntu2.6~14.04.4                           amd64        changehat AppArmor library
 ii  libapr1:amd64                        1.5.0-1                                              amd64        Apache Portable Runtime Library
 ii  libaprutil1:amd64                    1.5.3-1                                              amd64        Apache Portable Runtime Utility Library
 ii  libaprutil1-dbd-sqlite3:amd64        1.5.3-1                                              amd64        Apache Portable Runtime Utility Library - SQLite3 Driver
