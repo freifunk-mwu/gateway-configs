@@ -13,7 +13,7 @@ ii  amd64-microcode                      3.20180524.1~ubuntu0.14.04.2+really2013
 ii  apache2                              2.4.7-1ubuntu4.20                                    amd64        Apache HTTP Server
 ii  apache2-bin                          2.4.7-1ubuntu4.20                                    amd64        Apache HTTP Server (binary files and modules)
 ii  apache2-data                         2.4.7-1ubuntu4.20                                    all          Apache HTTP Server (common files)
-ii  apparmor                             2.10.95-0ubuntu2.6~14.04.3                           amd64        user-space parser utility for AppArmor
+ii  apparmor                             2.10.95-0ubuntu2.6~14.04.4                           amd64        user-space parser utility for AppArmor
 ii  apport                               2.14.1-0ubuntu3.29                                   all          automatically generate crash reports for debugging
 ii  apport-symptoms                      0.20                                                 all          symptom scripts for apport
 ii  apt                                  1.0.1ubuntu2.18                                      amd64        commandline package manager
@@ -70,7 +70,7 @@ ii  debconf-i18n                         1.5.51ubuntu2                          
 ii  debhelper                            9.20131227ubuntu1                                    all          helper programs for debian/rules
 ii  debianutils                          4.4                                                  amd64        Miscellaneous utilities specific to Debian
 ii  debugedit                            4.11.1-3ubuntu0.1                                    amd64        tool to mangle source locations in .debug files
-ii  dh-apparmor                          2.10.95-0ubuntu2.6~14.04.3                           all          AppArmor debhelper routines
+ii  dh-apparmor                          2.10.95-0ubuntu2.6~14.04.4                           all          AppArmor debhelper routines
 ii  dh-python                            1.20140128-1ubuntu8.2                                all          Debian helper tools for packaging Python libraries and applications
 ii  diffutils                            1:3.3-1                                              amd64        File comparison utilities
 ii  dkms                                 2.2.0.3-1.1ubuntu5.14.04.9                           all          Dynamic Kernel Module Support Framework
@@ -169,8 +169,8 @@ ii  libalgorithm-diff-xs-perl            0.04-2build4                           
 ii  libalgorithm-merge-perl              0.08-2                                               all          Perl module for three-way merge of textual data
 ii  libapache2-mod-php5                  5.5.9+dfsg-1ubuntu4.26                               amd64        server-side, HTML-embedded scripting language (Apache 2 module)
 ii  libapache2-mod-wsgi                  3.4-4ubuntu2.1.14.04.2                               amd64        Python WSGI adapter module for Apache
-ii  libapparmor-perl                     2.10.95-0ubuntu2.6~14.04.3                           amd64        AppArmor library Perl bindings
-ii  libapparmor1:amd64                   2.10.95-0ubuntu2.6~14.04.3                           amd64        changehat AppArmor library
+ii  libapparmor-perl                     2.10.95-0ubuntu2.6~14.04.4                           amd64        AppArmor library Perl bindings
+ii  libapparmor1:amd64                   2.10.95-0ubuntu2.6~14.04.4                           amd64        changehat AppArmor library
 ii  libapr1:amd64                        1.5.0-1                                              amd64        Apache Portable Runtime Library
 ii  libaprutil1:amd64                    1.5.3-1                                              amd64        Apache Portable Runtime Utility Library
 ii  libaprutil1-dbd-sqlite3:amd64        1.5.3-1                                              amd64        Apache Portable Runtime Utility Library - SQLite3 Driver
