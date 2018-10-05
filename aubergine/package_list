@@ -146,7 +146,7 @@ ii  libalgorithm-diff-xs-perl            0.04-2build4                           
 ii  libalgorithm-merge-perl              0.08-2                                               all          Perl module for three-way merge of textual data
 ii  libapache2-mod-python                3.3.1-11ubuntu2                                      amd64        Python-embedding module for Apache 2
 ii  libapache2-mod-wsgi                  3.4-4ubuntu2.1.14.04.2                               amd64        Python WSGI adapter module for Apache
-ii  libapparmor1:amd64                   2.10.95-0ubuntu2.6~14.04.3                           amd64        changehat AppArmor library
+ii  libapparmor1:amd64                   2.10.95-0ubuntu2.6~14.04.4                           amd64        changehat AppArmor library
 ii  libapr1:amd64                        1.5.0-1                                              amd64        Apache Portable Runtime Library
 ii  libaprutil1:amd64                    1.5.3-1                                              amd64        Apache Portable Runtime Utility Library
 ii  libaprutil1-dbd-sqlite3:amd64        1.5.3-1                                              amd64        Apache Portable Runtime Utility Library - SQLite3 Driver
