@@ -111,8 +111,8 @@ ii  gettext                              0.18.3.1-1ubuntu3                      
 ii  gettext-base                         0.18.3.1-1ubuntu3                                    amd64        GNU Internationalization utilities for the base system
 ii  ghostscript                          9.25~dfsg+1-0ubuntu0.14.04.1                         amd64        interpreter for the PostScript language and for PDF
 ii  gir1.2-glib-2.0                      1.40.0-1ubuntu0.2                                    amd64        Introspection data for GLib, GObject, Gio and GModule
-ii  git                                  1:1.9.1-1ubuntu0.8                                   amd64        fast, scalable, distributed revision control system
-ii  git-man                              1:1.9.1-1ubuntu0.8                                   all          fast, scalable, distributed revision control system (manual pages)
+ii  git                                  1:1.9.1-1ubuntu0.9                                   amd64        fast, scalable, distributed revision control system
+ii  git-man                              1:1.9.1-1ubuntu0.9                                   all          fast, scalable, distributed revision control system (manual pages)
 ii  glances                              1.7.3-2ubuntu1                                       all          CLI curses based monitoring tool
 ii  gnupg                                1.4.16-1ubuntu2.6                                    amd64        GNU privacy guard - a free PGP replacement
 ii  golang                               2:1.4.2                                              all          Go programming language compiler - metapackage
@@ -889,13 +889,13 @@ ii  python-requests-whl                  2.2.1-1ubuntu0.3                       
 ii  python-serial                        2.6-1build1                                          all          pyserial - module encapsulating access for the serial port
 ii  python-setuptools                    3.3-1ubuntu2                                         all          Python Distutils Enhancements
 ii  python-setuptools-whl                3.3-1ubuntu2                                         all          Python Distutils Enhancements (wheel package)
-ii  python-six                           1.5.2-1ubuntu1                                       all          Python 2 and 3 compatibility library (Python 2 interface)
-ii  python-six-whl                       1.5.2-1ubuntu1                                       all          Python 2 and 3 compatibility library (universal wheel)
+ii  python-six                           1.5.2-1ubuntu1.1                                     all          Python 2 and 3 compatibility library (Python 2 interface)
+ii  python-six-whl                       1.5.2-1ubuntu1.1                                     all          Python 2 and 3 compatibility library (universal wheel)
 ii  python-twisted-bin                   13.2.0-1ubuntu1.2                                    amd64        Event-based framework for internet applications
 ii  python-twisted-core                  13.2.0-1ubuntu1.2                                    all          Event-based framework for internet applications
-ii  python-urllib3                       1.7.1-1ubuntu4                                       all          HTTP library with thread-safe connection pooling for Python
-ii  python-urllib3-whl                   1.7.1-1ubuntu4                                       all          HTTP library with thread-safe connection pooling
-ii  python-wheel                         0.24.0-1~ubuntu1                                     all          built-package format for Python
+ii  python-urllib3                       1.7.1-1ubuntu4.1                                     all          HTTP library with thread-safe connection pooling for Python
+ii  python-urllib3-whl                   1.7.1-1ubuntu4.1                                     all          HTTP library with thread-safe connection pooling
+ii  python-wheel                         0.24.0-1~ubuntu1.1                                   all          built-package format for Python
 ii  python-xapian                        1.2.16-2ubuntu1                                      amd64        Xapian search engine interface for Python
 ii  python-zope.interface                4.0.5-1ubuntu4                                       amd64        Interfaces for Python
 ii  python2.7                            2.7.6-8ubuntu0.4                                     amd64        Interactive high-level object-oriented language (version 2.7)
@@ -929,12 +929,12 @@ ii  python3-pygments                     1.6+dfsg-1ubuntu1.1                    
 ii  python3-requests                     2.2.1-1ubuntu0.3                                     all          elegant and simple HTTP library for Python3, built for human beings
 ii  python3-roman                        2.0.0-1                                              all          module for generating/analyzing Roman numerals for Python 3
 ii  python3-setuptools                   3.3-1ubuntu2                                         all          Python3 Distutils Enhancements
-ii  python3-six                          1.5.2-1ubuntu1                                       all          Python 2 and 3 compatibility library (Python 3 interface)
+ii  python3-six                          1.5.2-1ubuntu1.1                                     all          Python 2 and 3 compatibility library (Python 3 interface)
 ii  python3-software-properties          0.92.37.8                                            all          manage the repositories that you install software from
 ii  python3-sphinx                       1.2.2+dfsg-1ubuntu1.1                                all          documentation generator for Python projects (implemented in Python 3)
 ii  python3-update-manager               1:0.196.25                                           all          python 3.x module for update-manager
-ii  python3-urllib3                      1.7.1-1ubuntu4                                       all          HTTP library with thread-safe connection pooling for Python3
-ii  python3-wheel                        0.24.0-1~ubuntu1                                     all          built-package format for Python
+ii  python3-urllib3                      1.7.1-1ubuntu4.1                                     all          HTTP library with thread-safe connection pooling for Python3
+ii  python3-wheel                        0.24.0-1~ubuntu1.1                                   all          built-package format for Python
 ii  python3.4                            3.4.3-1ubuntu1~14.04.6                               amd64        Interactive high-level object-oriented language (version 3.4)
 ii  python3.4-dev                        3.4.3-1ubuntu1~14.04.6                               amd64        Header files and a static library for Python (v3.4)
 ii  python3.4-minimal                    3.4.3-1ubuntu1~14.04.6                               amd64        Minimal subset of the Python language (version 3.4)
