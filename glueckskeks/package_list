@@ -49,10 +49,10 @@ ii  bzip2                                1.0.6-5                                
 ii  ca-certificates                      20170717~14.04.1                                     all          Common CA certificates
 ii  cabextract                           1.4-4                                                amd64        Microsoft Cabinet file unpacker
 ii  check-mk-agent                       1.2.6p12-1                                           all          Check_MK Agent for Linux
-ii  clamav                               0.100.1+dfsg-1ubuntu0.14.04.4                        amd64        anti-virus utility for Unix - command-line interface
-ii  clamav-base                          0.100.1+dfsg-1ubuntu0.14.04.4                        all          anti-virus utility for Unix - base package
-ii  clamav-daemon                        0.100.1+dfsg-1ubuntu0.14.04.4                        amd64        anti-virus utility for Unix - scanner daemon
-ii  clamav-freshclam                     0.100.1+dfsg-1ubuntu0.14.04.4                        amd64        anti-virus utility for Unix - virus database update utility
+ii  clamav                               0.100.2+dfsg-1ubuntu0.14.04.1                        amd64        anti-virus utility for Unix - command-line interface
+ii  clamav-base                          0.100.2+dfsg-1ubuntu0.14.04.1                        all          anti-virus utility for Unix - base package
+ii  clamav-daemon                        0.100.2+dfsg-1ubuntu0.14.04.1                        amd64        anti-virus utility for Unix - scanner daemon
+ii  clamav-freshclam                     0.100.2+dfsg-1ubuntu0.14.04.1                        amd64        anti-virus utility for Unix - virus database update utility
 ii  command-not-found                    0.3ubuntu12                                          all          Suggest installation of packages in interactive bash sessions
 ii  command-not-found-data               0.3ubuntu12                                          amd64        Set of data files for command-not-found.
 ii  console-setup                        1.70ubuntu8                                          all          console font and keymap setup program
@@ -113,8 +113,8 @@ ii  gettext-base                         0.18.3.1-1ubuntu3                      
 ii  gir1.2-freedesktop                   1.40.0-1ubuntu0.2                                    amd64        Introspection data for some FreeDesktop components
 ii  gir1.2-glib-2.0                      1.40.0-1ubuntu0.2                                    amd64        Introspection data for GLib, GObject, Gio and GModule
 ii  gir1.2-pango-1.0                     1.36.3-1ubuntu1.1                                    amd64        Layout and rendering of internationalized text - gir bindings
-ii  git                                  1:1.9.1-1ubuntu0.8                                   amd64        fast, scalable, distributed revision control system
-ii  git-man                              1:1.9.1-1ubuntu0.8                                   all          fast, scalable, distributed revision control system (manual pages)
+ii  git                                  1:1.9.1-1ubuntu0.9                                   amd64        fast, scalable, distributed revision control system
+ii  git-man                              1:1.9.1-1ubuntu0.9                                   all          fast, scalable, distributed revision control system (manual pages)
 ii  gnupg                                1.4.16-1ubuntu2.6                                    amd64        GNU privacy guard - a free PGP replacement
 ii  gpgv                                 1.4.16-1ubuntu2.6                                    amd64        GNU privacy guard - signature verification tool
 ii  grep                                 2.16-1                                               amd64        GNU grep, egrep and fgrep
@@ -210,7 +210,7 @@ ii  libcdb1:amd64                        0.78                                   
 ii  libcgmanager0:amd64                  0.24-0ubuntu7.5                                      amd64        Central cgroup manager daemon (client library)
 ii  libck-connector0:amd64               0.4.5-3.1ubuntu2                                     amd64        ConsoleKit libraries
 rc  libclamav6                           0.98.7+dfsg-0ubuntu0.14.04.1                         amd64        anti-virus utility for Unix - library
-ii  libclamav7                           0.100.1+dfsg-1ubuntu0.14.04.4                        amd64        anti-virus utility for Unix - library
+ii  libclamav7                           0.100.2+dfsg-1ubuntu0.14.04.1                        amd64        anti-virus utility for Unix - library
 ii  libclass-accessor-perl               0.34-1                                               all          Perl module that automatically generates accessors
 ii  libcloog-isl4:amd64                  0.18.2-1                                             amd64        Chunky Loop Generator (runtime library)
 ii  libcomerr2:amd64                     1.42.9-3ubuntu1.3                                    amd64        common error description library
@@ -801,14 +801,14 @@ ii  python-rrdtool                       1.4.7-2ubuntu5                         
 ii  python-serial                        2.6-1build1                                          all          pyserial - module encapsulating access for the serial port
 ii  python-setuptools                    3.3-1ubuntu2                                         all          Python Distutils Enhancements
 ii  python-setuptools-whl                3.3-1ubuntu2                                         all          Python Distutils Enhancements (wheel package)
-ii  python-six                           1.5.2-1ubuntu1                                       all          Python 2 and 3 compatibility library (Python 2 interface)
-ii  python-six-whl                       1.5.2-1ubuntu1                                       all          Python 2 and 3 compatibility library (universal wheel)
+ii  python-six                           1.5.2-1ubuntu1.1                                     all          Python 2 and 3 compatibility library (Python 2 interface)
+ii  python-six-whl                       1.5.2-1ubuntu1.1                                     all          Python 2 and 3 compatibility library (universal wheel)
 ii  python-twisted-bin                   13.2.0-1ubuntu1.2                                    amd64        Event-based framework for internet applications
 ii  python-twisted-core                  13.2.0-1ubuntu1.2                                    all          Event-based framework for internet applications
-ii  python-urllib3                       1.7.1-1ubuntu4                                       all          HTTP library with thread-safe connection pooling for Python
-ii  python-urllib3-whl                   1.7.1-1ubuntu4                                       all          HTTP library with thread-safe connection pooling
+ii  python-urllib3                       1.7.1-1ubuntu4.1                                     all          HTTP library with thread-safe connection pooling for Python
+ii  python-urllib3-whl                   1.7.1-1ubuntu4.1                                     all          HTTP library with thread-safe connection pooling
 ii  python-virtualenv                    1.11.4-1ubuntu1                                      all          Python virtual environment creator
-ii  python-wheel                         0.24.0-1~ubuntu1                                     all          built-package format for Python
+ii  python-wheel                         0.24.0-1~ubuntu1.1                                   all          built-package format for Python
 ii  python-xapian                        1.2.16-2ubuntu1                                      amd64        Xapian search engine interface for Python
 ii  python-yaml                          3.10-4ubuntu0.1                                      amd64        YAML parser and emitter for Python
 ii  python-zope.interface                4.0.5-1ubuntu4                                       amd64        Interfaces for Python
@@ -837,11 +837,11 @@ ii  python3-problem-report               2.14.1-0ubuntu3.29                     
 ii  python3-pycurl                       7.19.3-0ubuntu3                                      amd64        Python 3 bindings to libcurl
 ii  python3-requests                     2.2.1-1ubuntu0.3                                     all          elegant and simple HTTP library for Python3, built for human beings
 ii  python3-setuptools                   3.3-1ubuntu2                                         all          Python3 Distutils Enhancements
-ii  python3-six                          1.5.2-1ubuntu1                                       all          Python 2 and 3 compatibility library (Python 3 interface)
+ii  python3-six                          1.5.2-1ubuntu1.1                                     all          Python 2 and 3 compatibility library (Python 3 interface)
 ii  python3-software-properties          0.92.37.8                                            all          manage the repositories that you install software from
 ii  python3-update-manager               1:0.196.25                                           all          python 3.x module for update-manager
-ii  python3-urllib3                      1.7.1-1ubuntu4                                       all          HTTP library with thread-safe connection pooling for Python3
-ii  python3-wheel                        0.24.0-1~ubuntu1                                     all          built-package format for Python
+ii  python3-urllib3                      1.7.1-1ubuntu4.1                                     all          HTTP library with thread-safe connection pooling for Python3
+ii  python3-wheel                        0.24.0-1~ubuntu1.1                                   all          built-package format for Python
 ii  python3-yaml                         3.10-4ubuntu0.1                                      amd64        YAML parser and emitter for Python3
 ii  python3.4                            3.4.3-1ubuntu1~14.04.6                               amd64        Interactive high-level object-oriented language (version 3.4)
 ii  python3.4-dev                        3.4.3-1ubuntu1~14.04.6                               amd64        Header files and a static library for Python (v3.4)
