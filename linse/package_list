@@ -68,8 +68,8 @@ ii  gcc-4.9-base:amd64               4.9.3-0ubuntu4                             
 ii  geoip-database                   20140313-1                                 all          IP lookup command line tools that use the GeoIP library (country database)
 ii  gettext-base                     0.18.3.1-1ubuntu3                          amd64        GNU Internationalization utilities for the base system
 ii  gir1.2-glib-2.0                  1.40.0-1ubuntu0.2                          amd64        Introspection data for GLib, GObject, Gio and GModule
-ii  git                              1:1.9.1-1ubuntu0.8                         amd64        fast, scalable, distributed revision control system
-ii  git-man                          1:1.9.1-1ubuntu0.8                         all          fast, scalable, distributed revision control system (manual pages)
+ii  git                              1:1.9.1-1ubuntu0.9                         amd64        fast, scalable, distributed revision control system
+ii  git-man                          1:1.9.1-1ubuntu0.9                         all          fast, scalable, distributed revision control system (manual pages)
 ii  gnupg                            1.4.16-1ubuntu2.6                          amd64        GNU privacy guard - a free PGP replacement
 ii  gpgv                             1.4.16-1ubuntu2.6                          amd64        GNU privacy guard - signature verification tool
 ii  grep                             2.16-1                                     amd64        GNU grep, egrep and fgrep
