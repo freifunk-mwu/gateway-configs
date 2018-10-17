@@ -690,7 +690,7 @@ ii  python-lxml                          3.3.3-1ubuntu0.1                       
 ii  python-markupsafe                    0.18-1build2                                         amd64        HTML/XHTML/XML string library for Python
 ii  python-memcache                      1.53-1build1                                         all          pure python memcached client
 ii  python-minimal                       2.7.5-5ubuntu3                                       amd64        minimal subset of the Python language (default version)
-ii  python-moinmoin                      1.9.7-1ubuntu2.1                                     all          Python clone of WikiWiki - library
+ii  python-moinmoin                      1.9.7-1ubuntu2.2                                     all          Python clone of WikiWiki - library
 ii  python-openssl                       0.13-2ubuntu6                                        amd64        Python 2 wrapper around the OpenSSL library
 ii  python-pam                           0.4.2-13.1ubuntu3                                    amd64        Python interface to the PAM library
 ii  python-parsedatetime                 1.1.2-0ubuntu1                                       all          Python module to parse human-readable date/time expressions
