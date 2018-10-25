@@ -3,7 +3,7 @@ $ORIGIN ffwi.org.
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffwi.org. hostmaster.ffwi.org. (
-                     2018092401         ; Serial
+                     2018102500         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -123,6 +123,6 @@ massfw			IN	CNAME	aubergine
 massfw02		IN	CNAME	aubergine
 
 ; freifunk rheingau-taunus
-spundekaes		IN	A	10.56.1.13
+;spundekaes		IN	A	10.56.1.13
 spundekaes		IN	AAAA	fd56:b4dc:4b1e:0:42:aff:fe38:10d
 fwtaunus		IN	CNAME	spundekaes

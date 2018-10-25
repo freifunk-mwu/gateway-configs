@@ -3,7 +3,7 @@ $ORIGIN ffmz.org.
 
 $TTL    600
 @       IN      SOA     aubergine.ffmz.org. hostmaster.ffmz.org. (
-                     2018092400         ; Serial
+                     2018102500         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -126,6 +126,6 @@ mettbroetchen		IN	A	10.37.1.12
 mettbroetchen		IN	AAAA	fd37:b4dc:4b1e::a25:10c
 
 ; freifunk rheingau-taunus
-spundekaes		IN	A	10.37.1.13
+;spundekaes		IN	A	10.37.1.13
 spundekaes              IN      AAAA    fd37:b4dc:4b1e:0:42:aff:fe25:10d
 fwrheingau		IN	CNAME	spundekaes

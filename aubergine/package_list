@@ -832,7 +832,7 @@ ii  traceroute                           1:2.0.20-0ubuntu0.1                    
 ii  ttf-dejavu                           2.34-1ubuntu1                                        all          transitional dummy package
 ii  ttf-dejavu-core                      2.34-1ubuntu1                                        all          transitional dummy package
 ii  ttf-dejavu-extra                     2.34-1ubuntu1                                        all          transitional dummy package
-ii  tzdata                               2018e-0ubuntu0.14.04                                 all          time zone and daylight-saving time data
+ii  tzdata                               2018f-0ubuntu0.14.04                                 all          time zone and daylight-saving time data
 ii  ubuntu-keyring                       2012.05.19                                           all          GnuPG keys of the Ubuntu archive
 ii  ubuntu-minimal                       1.325                                                amd64        Minimal core of Ubuntu
 ii  ubuntu-release-upgrader-core         1:0.220.10                                           all          manage release upgrades
