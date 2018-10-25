@@ -369,8 +369,8 @@ ii  libmount1:amd64                      2.20.1-5.1ubuntu20.9                   
 ii  libmpc3:amd64                        1.0.1-1ubuntu1                                       amd64        multiple precision complex floating-point library
 ii  libmpdec2:amd64                      2.4.0-6                                              amd64        library for decimal floating point arithmetic (runtime library)
 ii  libmpfr4:amd64                       3.1.2-1                                              amd64        multiple precision floating-point computation
-ii  libmysqlclient-dev                   5.5.61-0ubuntu0.14.04.1                              amd64        MySQL database development files
-ii  libmysqlclient18:amd64               5.5.61-0ubuntu0.14.04.1                              amd64        MySQL database client library
+ii  libmysqlclient-dev                   5.5.62-0ubuntu0.14.04.1                              amd64        MySQL database development files
+ii  libmysqlclient18:amd64               5.5.62-0ubuntu0.14.04.1                              amd64        MySQL database client library
 ii  libncurses5:amd64                    5.9+20140118-1ubuntu1                                amd64        shared libraries for terminal handling
 ii  libncursesw5:amd64                   5.9+20140118-1ubuntu1                                amd64        shared libraries for terminal handling (wide character support)
 ii  libnet-cidr-perl                     0.17-1                                               all          Manipulate IPv4/IPv6 netblocks in CIDR notation
@@ -599,8 +599,10 @@ ii  linux-headers-3.13.0-158             3.13.0-158.208                         
 ii  linux-headers-3.13.0-158-generic     3.13.0-158.208                                       amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-160             3.13.0-160.210                                       all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-160-generic     3.13.0-160.210                                       amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-generic                3.13.0.160.170                                       amd64        Generic Linux kernel headers
-ii  linux-headers-generic-lts-trusty     3.13.0.160.170                                       amd64        Generic Linux kernel headers
+ii  linux-headers-3.13.0-161             3.13.0-161.211                                       all          Header files related to Linux kernel version 3.13.0
+ii  linux-headers-3.13.0-161-generic     3.13.0-161.211                                       amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
+ii  linux-headers-generic                3.13.0.161.171                                       amd64        Generic Linux kernel headers
+ii  linux-headers-generic-lts-trusty     3.13.0.161.171                                       amd64        Generic Linux kernel headers
 ii  linux-image-3.13.0-149-generic       3.13.0-149.199                                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-151-generic       3.13.0-151.201                                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-153-generic       3.13.0-153.203                                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -609,6 +611,7 @@ ii  linux-image-3.13.0-156-generic       3.13.0-156.206                         
 ii  linux-image-3.13.0-157-generic       3.13.0-157.207                                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-158-generic       3.13.0-158.208                                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-160-generic       3.13.0-160.210                                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-3.13.0-161-generic       3.13.0-161.211                                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.19.0-25-generic        3.19.0-25.26~14.04.1                                 amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-3.19.0-31-generic        3.19.0-31.36~14.04.1                                 amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-3.19.0-32-generic        3.19.0-32.37~14.04.1                                 amd64        Linux kernel image for version 3.19.0 on 64 bit x86 SMP
@@ -656,6 +659,7 @@ ii  linux-image-extra-3.13.0-156-generic 3.13.0-156.206                         
 ii  linux-image-extra-3.13.0-157-generic 3.13.0-157.207                                       amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-158-generic 3.13.0-158.208                                       amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-extra-3.13.0-160-generic 3.13.0-160.210                                       amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
+ii  linux-image-extra-3.13.0-161-generic 3.13.0-161.211                                       amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-79-generic  3.13.0-79.123                                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-83-generic  3.13.0-83.127                                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.13.0-85-generic  3.13.0-85.129                                        amd64        Linux kernel extra modules for version 3.13.0 on 64 bit x86 SMP
@@ -678,10 +682,10 @@ rc  linux-image-extra-3.19.0-42-generic  3.19.0-42.48~14.04.1                   
 rc  linux-image-extra-3.19.0-43-generic  3.19.0-43.49~14.04.1                                 amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-47-generic  3.19.0-47.53~14.04.1                                 amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
 rc  linux-image-extra-3.19.0-49-generic  3.19.0-49.55~14.04.1                                 amd64        Linux kernel extra modules for version 3.19.0 on 64 bit x86 SMP
-ii  linux-image-generic                  3.13.0.160.170                                       amd64        Generic Linux kernel image
-ii  linux-image-generic-lts-trusty       3.13.0.160.170                                       amd64        Generic Linux kernel image
-ii  linux-image-virtual                  3.13.0.160.170                                       amd64        This package will always depend on the latest minimal generic kernel image.
-ii  linux-libc-dev:amd64                 3.13.0-160.210                                       amd64        Linux Kernel Headers for development
+ii  linux-image-generic                  3.13.0.161.171                                       amd64        Generic Linux kernel image
+ii  linux-image-generic-lts-trusty       3.13.0.161.171                                       amd64        Generic Linux kernel image
+ii  linux-image-virtual                  3.13.0.161.171                                       amd64        This package will always depend on the latest minimal generic kernel image.
+ii  linux-libc-dev:amd64                 3.13.0-161.211                                       amd64        Linux Kernel Headers for development
 ii  locales                              2.13+git20120306-12.1                                all          common files for locale support
 ii  lockfile-progs                       0.1.17                                               amd64        Programs for locking and unlocking files and mailboxes
 ii  login                                1:4.1.5.1-1ubuntu9.5                                 amd64        system login tools
@@ -711,12 +715,12 @@ ii  mount                                2.20.1-5.1ubuntu20.9                   
 ii  mountall                             2.53                                                 amd64        filesystem mounting tool
 ii  mtr-tiny                             0.85-2                                               amd64        Full screen ncurses traceroute tool
 ii  multiarch-support                    2.19-0ubuntu6.14                                     amd64        Transitional package to ensure multiarch compatibility
-ii  mysql-client-5.5                     5.5.61-0ubuntu0.14.04.1                              amd64        MySQL database client binaries
-ii  mysql-client-core-5.5                5.5.61-0ubuntu0.14.04.1                              amd64        MySQL database core client binaries
-ii  mysql-common                         5.5.61-0ubuntu0.14.04.1                              all          MySQL database common files, e.g. /etc/mysql/my.cnf
-ii  mysql-server                         5.5.61-0ubuntu0.14.04.1                              all          MySQL database server (metapackage depending on the latest version)
-ii  mysql-server-5.5                     5.5.61-0ubuntu0.14.04.1                              amd64        MySQL database server binaries and system database setup
-ii  mysql-server-core-5.5                5.5.61-0ubuntu0.14.04.1                              amd64        MySQL database server binaries
+ii  mysql-client-5.5                     5.5.62-0ubuntu0.14.04.1                              amd64        MySQL database client binaries
+ii  mysql-client-core-5.5                5.5.62-0ubuntu0.14.04.1                              amd64        MySQL database core client binaries
+ii  mysql-common                         5.5.62-0ubuntu0.14.04.1                              all          MySQL database common files, e.g. /etc/mysql/my.cnf
+ii  mysql-server                         5.5.62-0ubuntu0.14.04.1                              all          MySQL database server (metapackage depending on the latest version)
+ii  mysql-server-5.5                     5.5.62-0ubuntu0.14.04.1                              amd64        MySQL database server binaries and system database setup
+ii  mysql-server-core-5.5                5.5.62-0ubuntu0.14.04.1                              amd64        MySQL database server binaries
 ii  nano                                 2.2.6-1ubuntu1                                       amd64        small, friendly text editor inspired by Pico
 ii  ncurses-base                         5.9+20140118-1ubuntu1                                all          basic terminal type definitions
 ii  ncurses-bin                          5.9+20140118-1ubuntu1                                amd64        terminal-related programs and man pages
