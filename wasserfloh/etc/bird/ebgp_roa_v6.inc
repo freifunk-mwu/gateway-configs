@@ -86,6 +86,7 @@ roa fd0c:9a97:47dc::/48      max  64 as      64864; # heiligkreuztal
 roa fda0:747e:ab29:7406::/64 max  64 as      65100; # hennef
 roa fdf3:2049:5152::/48      max  64 as      64866; # herford
 roa fd06:b047:f7de::/48      max  64 as      64872; # hilden
+roa 2a03:2260:2342::/48      max  64 as      65132; # hochstift
 roa fddf:ebfd:a801:2192::/64 max  64 as      64887; # hueckeswagen
 roa 2a03:2260:116::/64       max  64 as      65252; # ingolstadt
 roa fd13:b4dc:4b1e::/64      max  64 as      65052; # innsbruck
@@ -130,8 +131,6 @@ roa 2001:bf7:170::/44        max  64 as      65533; # mueritz (delegation)
 roa fd8f:14c7:d318::/48      max  64 as      64889; # nordheide
 roa fd73:111:e824::/48       max  64 as      65152; # ostholstein
 roa 2a03:2260:200c::/48      max  64 as      64862; # ostvest
-roa 2001:470:6d:860::/64     max  64 as      65132; # paderborn
-roa fdca:ffee:ff12::/48      max  64 as      65132; # paderborn
 roa fde8:21c6:9d82::/48      max  64 as      65433; # pinneberg
 roa fde8:21c6:370b::/48      max  64 as      64891; # prignitz
 roa fda0:747e:ab29:2195::/64 max  64 as      65067; # radevormwald

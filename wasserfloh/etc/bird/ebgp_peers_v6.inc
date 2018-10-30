@@ -58,6 +58,14 @@ protocol bgp icvpn_hamburg03 from ebgp_ic {
     neighbor fec0::a:cf:0:3f as 49009;
     passive yes;
 }
+protocol bgp icvpn_ffho01 from ebgp_ic {
+    neighbor fec0::a:cf:0:e7 as 65132;
+    passive yes;
+}
+protocol bgp icvpn_ffho02 from ebgp_ic {
+    neighbor fec0::a:cf:0:e8 as 65132;
+    passive yes;
+}
 protocol bgp icvpn_kreisgt_fks from ebgp_ic {
     neighbor fec0::a:cf:0:86 as 65533;
 }
