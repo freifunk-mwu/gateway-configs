@@ -497,7 +497,7 @@ ii  tasksel                          2.88ubuntu15                               
 ii  tasksel-data                     2.88ubuntu15                               all          Official tasks used for installation of Debian systems
 ii  tcpd                             7.6.q-25                                   amd64        Wietse Venema's TCP wrapper utilities
 ii  tmux                             1.8-5                                      amd64        terminal multiplexer
-ii  tzdata                           2018f-0ubuntu0.14.04                       all          time zone and daylight-saving time data
+ii  tzdata                           2018g-0ubuntu0.14.04                       all          time zone and daylight-saving time data
 ii  ubuntu-keyring                   2012.05.19                                 all          GnuPG keys of the Ubuntu archive
 ii  ubuntu-minimal                   1.325                                      amd64        Minimal core of Ubuntu
 ii  ubuntu-release-upgrader-core     1:0.220.10                                 all          manage release upgrades
