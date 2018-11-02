@@ -795,6 +795,21 @@ zone "189.10.in-addr.arpa" {
     server-addresses { 10.112.1.2; 2a03:2267::102; };
 };
 # 
+# hochstift
+# 
+zone "ffho.net" {
+    type static-stub;
+    server-addresses { 10.132.251.53; 2a03:2260:2342:f251::53; };
+};
+zone "132.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.132.251.53; 2a03:2260:2342:f251::53; };
+};
+zone "2.4.3.2.0.6.2.2.3.0.a.2.ip6.arpa" {
+    type static-stub;
+    server-addresses { 10.132.251.53; 2a03:2260:2342:f251::53; };
+};
+# 
 # hueckeswagen
 # 
 zone "2.9.1.2.1.0.8.a.d.f.b.e.f.d.d.f.ip6.arpa" {
@@ -995,21 +1010,6 @@ zone "ffnw" {
 zone "18.10.in-addr.arpa" {
     type static-stub;
     server-addresses { 10.18.0.1; 10.18.32.1; };
-};
-# 
-# paderborn
-# 
-zone "ffpb" {
-    type static-stub;
-    server-addresses { 10.132.251.53; fdca:ffee:ff12:a251::53; 80.70.181.58; 2a02:450:1:1::10; };
-};
-zone "132.10.in-addr.arpa" {
-    type static-stub;
-    server-addresses { 10.132.251.53; fdca:ffee:ff12:a251::53; 80.70.181.58; 2a02:450:1:1::10; };
-};
-zone "2.1.f.f.e.e.f.f.a.c.d.f.ip6.arpa" {
-    type static-stub;
-    server-addresses { 10.132.251.53; fdca:ffee:ff12:a251::53; 80.70.181.58; 2a02:450:1:1::10; };
 };
 # 
 # pinneberg
