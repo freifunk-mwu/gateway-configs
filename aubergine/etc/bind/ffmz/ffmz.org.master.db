@@ -3,7 +3,7 @@ $ORIGIN ffmz.org.
 
 $TTL    600
 @       IN      SOA     aubergine.ffmz.org. hostmaster.ffmz.org. (
-                     2018102500         ; Serial
+                     2018110400         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
@@ -41,7 +41,7 @@ ingwer                  IN      AAAA    fd37:b4dc:4b1e::a1
 gate161                 IN      CNAME   ingwer
 
 wasserfloh  	   	IN      A       10.37.0.231
-wasserfloh     		IN      AAAA    fd37:b4dc:4b1e::a25:e7
+wasserfloh     		IN      AAAA    fd37:b4dc:4b1e::e7
 gate231          	IN      CNAME   wasserfloh
 
 extrasahne        	IN      A       10.37.0.42
@@ -69,14 +69,14 @@ ntp			IN	AAAA	fd37:b4dc:4b1e::7
 ntp			IN	AAAA	fd37:b4dc:4b1e::17
 ntp			IN	AAAA	fd37:b4dc:4b1e::65
 ntp			IN	AAAA	fd37:b4dc:4b1e::a1
-ntp			IN	AAAA	fd37:b4dc:4b1e::a25:e7
+ntp			IN	AAAA	fd37:b4dc:4b1e::e7
 
 ; workaround for Gluon
 ntp6			IN	AAAA	fd37:b4dc:4b1e::7
 ntp6			IN	AAAA	fd37:b4dc:4b1e::17
 ntp6			IN	AAAA	fd37:b4dc:4b1e::65
 ntp6			IN	AAAA	fd37:b4dc:4b1e::a1
-ntp6			IN	AAAA	fd37:b4dc:4b1e::a25:e7
+ntp6			IN	AAAA	fd37:b4dc:4b1e::e7
 
 aubergine		IN	A	10.37.1.3
 aubergine		IN	AAAA	fd37:b4dc:4b1e::a25:103
@@ -114,7 +114,7 @@ firmware		IN	AAAA	fd37:b4dc:4b1e::7
 firmware		IN	AAAA	fd37:b4dc:4b1e::17
 firmware		IN	AAAA	fd37:b4dc:4b1e::65
 firmware		IN	AAAA	fd37:b4dc:4b1e::a1
-firmware		IN	AAAA	fd37:b4dc:4b1e::a25:e7
+firmware		IN	AAAA	fd37:b4dc:4b1e::e7
 
 ; freifunk services
 stats                   IN      A       10.37.1.5

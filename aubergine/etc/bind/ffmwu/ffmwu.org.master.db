@@ -19,7 +19,7 @@ ingwer			IN	AAAA	fd56:b4dc:4b1e::a1
 gate161			IN	CNAME	ingwer
 
 wasserfloh  	   	IN      A       10.56.0.231
-wasserfloh     		IN      AAAA    fd56:b4dc:4b1e::a38:e7
+wasserfloh     		IN      AAAA    fd56:b4dc:4b1e::e7
 gate231          	IN      CNAME   wasserfloh
 
 extrasahne		IN      A       10.56.0.42
@@ -67,4 +67,4 @@ firmware		IN	AAAA	fd56:b4dc:4b1e::7
 firmware		IN	AAAA	fd56:b4dc:4b1e::17
 firmware		IN	AAAA	fd56:b4dc:4b1e::65
 firmware		IN	AAAA	fd56:b4dc:4b1e::a1
-firmware		IN	AAAA	fd56:b4dc:4b1e::a38:e7
+firmware		IN	AAAA	fd56:b4dc:4b1e::e7
