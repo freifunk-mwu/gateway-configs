@@ -378,9 +378,9 @@ ii  libreadline6-dev:amd64               6.3-4ubuntu2                           
 ii  libroken18-heimdal:amd64             1.6~git20131207+dfsg-1ubuntu1.2                      amd64        Heimdal Kerberos - roken support library
 ii  librrd4                              1.4.7-2ubuntu5                                       amd64        time-series data storage and display system (runtime library)
 ii  librtmp0:amd64                       2.4+20121230.gitdf6c518-1ubuntu0.1                   amd64        toolkit for RTMP streams (shared library)
-ii  libruby1.9.1                         1.9.3.484-2ubuntu1.12                                amd64        Libraries necessary to run Ruby 1.9.1
-ii  libruby1.9.1-dbg                     1.9.3.484-2ubuntu1.12                                amd64        Debugging symbols for Ruby 1.9.1
-ii  libruby2.0:amd64                     2.0.0.484-1ubuntu2.10                                amd64        Libraries necessary to run Ruby 2.0
+ii  libruby1.9.1                         1.9.3.484-2ubuntu1.13                                amd64        Libraries necessary to run Ruby 1.9.1
+ii  libruby1.9.1-dbg                     1.9.3.484-2ubuntu1.13                                amd64        Debugging symbols for Ruby 1.9.1
+ii  libruby2.0:amd64                     2.0.0.484-1ubuntu2.11                                amd64        Libraries necessary to run Ruby 2.0
 ii  libsasl2-2:amd64                     2.1.25.dfsg1-17build1                                amd64        Cyrus SASL - authentication abstraction library
 ii  libsasl2-modules:amd64               2.1.25.dfsg1-17build1                                amd64        Cyrus SASL - pluggable authentication modules
 ii  libsasl2-modules-db:amd64            2.1.25.dfsg1-17build1                                amd64        Cyrus SASL - pluggable authentication modules (DB)
@@ -410,7 +410,7 @@ ii  libtamuanova-0.2                     0.2-3                                  
 ii  libtasn1-6:amd64                     3.4-3ubuntu0.6                                       amd64        Manage ASN.1 structures (runtime)
 ii  libtasn1-6-dev                       3.4-3ubuntu0.6                                       amd64        Manage ASN.1 structures (development)
 ii  libtcl8.5:amd64                      8.5.15-2ubuntu1                                      amd64        Tcl (the Tool Command Language) v8.5 - run-time library files
-ii  libtcltk-ruby1.9.1                   1.9.3.484-2ubuntu1.12                                amd64        Tcl/Tk interface for Ruby 1.9.1
+ii  libtcltk-ruby1.9.1                   1.9.3.484-2ubuntu1.13                                amd64        Tcl/Tk interface for Ruby 1.9.1
 ii  libterm-ui-perl                      0.42-1                                               all          Term::ReadLine UI made easy
 ii  libtext-charwidth-perl               0.04-7build3                                         amd64        get display widths of characters on the terminal
 ii  libtext-iconv-perl                   1.7-5build2                                          amd64        converts between character sets in Perl
@@ -774,7 +774,7 @@ ii  python3.4-dev                        3.4.3-1ubuntu1~14.04.6                 
 ii  python3.4-minimal                    3.4.3-1ubuntu1~14.04.6                               amd64        Minimal subset of the Python language (version 3.4)
 ii  readline-common                      6.3-4ubuntu2                                         all          GNU readline and history libraries, common files
 ii  resolvconf                           1.69ubuntu1.4                                        all          name server information handler
-ii  ri1.9.1                              1.9.3.484-2ubuntu1.12                                all          Ruby Interactive reference (for Ruby 1.9.1)
+ii  ri1.9.1                              1.9.3.484-2ubuntu1.13                                all          Ruby Interactive reference (for Ruby 1.9.1)
 ii  rrdtool                              1.4.7-2ubuntu5                                       amd64        time-series data storage and display system (programs)
 ii  rsync                                3.1.0-2ubuntu0.4                                     amd64        fast, versatile, remote (and local) file-copying tool
 ii  rsyslog                              7.4.4-1ubuntu2.7                                     amd64        reliable system and kernel logging daemon
@@ -797,12 +797,12 @@ ii  ruby-posix-spawn                     0.3.8-1                                
 ii  ruby-sequel                          4.1.1-1                                              all          Simple, flexible, and powerful SQL database access toolkit for Ruby
 ii  ruby-sequel-pg                       1.6.8-1                                              amd64        Faster SELECTs when using Sequel with pg
 ii  ruby-stringex                        2.0.3-1                                              all          Some useful extensions to Ruby's String class
-ii  ruby1.9.1                            1.9.3.484-2ubuntu1.12                                amd64        Interpreter of object-oriented scripting language Ruby
-ii  ruby1.9.1-dev                        1.9.3.484-2ubuntu1.12                                amd64        Header files for compiling extension modules for the Ruby 1.9.1
-ii  ruby1.9.1-examples                   1.9.3.484-2ubuntu1.12                                all          Examples for Ruby 1.9
-ii  ruby1.9.1-full                       1.9.3.484-2ubuntu1.12                                all          Ruby 1.9.1 full installation
-ii  ruby1.9.3                            1.9.3.484-2ubuntu1.12                                all          Interpreter of object-oriented scripting language Ruby, version 1.9.3
-ii  ruby2.0                              2.0.0.484-1ubuntu2.10                                amd64        Interpreter of object-oriented scripting language Ruby
+ii  ruby1.9.1                            1.9.3.484-2ubuntu1.13                                amd64        Interpreter of object-oriented scripting language Ruby
+ii  ruby1.9.1-dev                        1.9.3.484-2ubuntu1.13                                amd64        Header files for compiling extension modules for the Ruby 1.9.1
+ii  ruby1.9.1-examples                   1.9.3.484-2ubuntu1.13                                all          Examples for Ruby 1.9
+ii  ruby1.9.1-full                       1.9.3.484-2ubuntu1.13                                all          Ruby 1.9.1 full installation
+ii  ruby1.9.3                            1.9.3.484-2ubuntu1.13                                all          Interpreter of object-oriented scripting language Ruby, version 1.9.3
+ii  ruby2.0                              2.0.0.484-1ubuntu2.11                                amd64        Interpreter of object-oriented scripting language Ruby
 ii  rubygems-integration                 1.5                                                  all          integration of Debian Ruby packages with Rubygems
 ii  run-one                              1.17-0ubuntu1                                        all          run just one instance of a command and its args at a time
 ii  screen                               4.1.0~20120320gitdb59704-9                           amd64        terminal multiplexer with VT100/ANSI terminal emulation
