@@ -7,6 +7,7 @@ acl "ns-slaves-mathias" {
 	46.4.168.77/32;		// ns1.treck.de
 	37.120.167.177/32;	// ns2.treck.de
 	78.46.87.3/32;		// ns3.treck.de
+        46.4.144.218/32;
 };
 
 // Public Zones for Freifunk
