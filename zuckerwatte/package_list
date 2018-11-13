@@ -107,8 +107,8 @@ ii  gccgo                                4:4.9-1ubuntu6                         
 ii  gccgo-4.9                            4.9.3-0ubuntu4                                       amd64        GNU Go compiler
 ii  gccgo-go                             1.2.1-0ubuntu1.2                                     amd64        Go tool for use with gccgo
 ii  geoip-database                       20140313-1                                           all          IP lookup command line tools that use the GeoIP library (country database)
-ii  gettext                              0.18.3.1-1ubuntu3                                    amd64        GNU Internationalization utilities
-ii  gettext-base                         0.18.3.1-1ubuntu3                                    amd64        GNU Internationalization utilities for the base system
+ii  gettext                              0.18.3.1-1ubuntu3.1                                  amd64        GNU Internationalization utilities
+ii  gettext-base                         0.18.3.1-1ubuntu3.1                                  amd64        GNU Internationalization utilities for the base system
 ii  ghostscript                          9.25~dfsg+1-0ubuntu0.14.04.2                         amd64        interpreter for the PostScript language and for PDF
 ii  gir1.2-glib-2.0                      1.40.0-1ubuntu0.2                                    amd64        Introspection data for GLib, GObject, Gio and GModule
 ii  git                                  1:1.9.1-1ubuntu0.9                                   amd64        fast, scalable, distributed revision control system
@@ -192,8 +192,8 @@ ii  libapt-pkg4.12:amd64                 1.0.1ubuntu2.18                        
 ii  libarchive-extract-perl              0.70-1                                               all          generic archive extracting module
 ii  libasan0:amd64                       4.8.4-2ubuntu1~14.04.4                               amd64        AddressSanitizer -- a fast memory error detector
 ii  libasn1-8-heimdal:amd64              1.6~git20131207+dfsg-1ubuntu1.2                      amd64        Heimdal Kerberos - ASN.1 library
-ii  libasprintf-dev:amd64                0.18.3.1-1ubuntu3                                    amd64        GNU Internationalization library development files
-ii  libasprintf0c2:amd64                 0.18.3.1-1ubuntu3                                    amd64        GNU library to use fprintf and friends in C++
+ii  libasprintf-dev:amd64                0.18.3.1-1ubuntu3.1                                  amd64        GNU Internationalization library development files
+ii  libasprintf0c2:amd64                 0.18.3.1-1ubuntu3.1                                  amd64        GNU library to use fprintf and friends in C++
 ii  libatomic1:amd64                     4.8.4-2ubuntu1~14.04.4                               amd64        support library providing __atomic built-in functions
 ii  libattr1:amd64                       1:2.4.47-1ubuntu1                                    amd64        Extended attribute shared library
 ii  libaudit-common                      1:2.3.2-2ubuntu1                                     all          Dynamic library for security auditing - common files
@@ -276,8 +276,8 @@ ii  libgdbm3:amd64                       1.8.3-12build1                         
 ii  libgdk-pixbuf2.0-0:amd64             2.30.7-0ubuntu1.8                                    amd64        GDK Pixbuf library
 ii  libgdk-pixbuf2.0-common              2.30.7-0ubuntu1.8                                    all          GDK Pixbuf library - data files
 ii  libgeoip1:amd64                      1.6.0-1                                              amd64        non-DNS IP-to-country resolver library
-ii  libgettextpo-dev:amd64               0.18.3.1-1ubuntu3                                    amd64        GNU Internationalization library development files
-ii  libgettextpo0:amd64                  0.18.3.1-1ubuntu3                                    amd64        GNU Internationalization library
+ii  libgettextpo-dev:amd64               0.18.3.1-1ubuntu3.1                                  amd64        GNU Internationalization library development files
+ii  libgettextpo0:amd64                  0.18.3.1-1ubuntu3.1                                  amd64        GNU Internationalization library
 ii  libgirepository-1.0-1                1.40.0-1ubuntu0.2                                    amd64        Library for handling GObject introspection data (runtime library)
 ii  libglib2.0-0:amd64                   2.40.2-0ubuntu1.1                                    amd64        GLib library of C routines
 ii  libglib2.0-data                      2.40.2-0ubuntu1.1                                    all          Common files for GLib library
