@@ -73,11 +73,11 @@ ii  git-man                          1:1.9.1-1ubuntu0.9                         
 ii  gnupg                            1.4.16-1ubuntu2.6                          amd64        GNU privacy guard - a free PGP replacement
 ii  gpgv                             1.4.16-1ubuntu2.6                          amd64        GNU privacy guard - signature verification tool
 ii  grep                             2.16-1                                     amd64        GNU grep, egrep and fgrep
-ii  grub-common                      2.02~beta2-9ubuntu1.14                     amd64        GRand Unified Bootloader (common files)
+ii  grub-common                      2.02~beta2-9ubuntu1.15                     amd64        GRand Unified Bootloader (common files)
 ii  grub-gfxpayload-lists            0.6                                        amd64        GRUB gfxpayload blacklist
-ii  grub-pc                          2.02~beta2-9ubuntu1.14                     amd64        GRand Unified Bootloader, version 2 (PC/BIOS version)
-ii  grub-pc-bin                      2.02~beta2-9ubuntu1.14                     amd64        GRand Unified Bootloader, version 2 (PC/BIOS binaries)
-ii  grub2-common                     2.02~beta2-9ubuntu1.14                     amd64        GRand Unified Bootloader (common files for version 2)
+ii  grub-pc                          2.02~beta2-9ubuntu1.15                     amd64        GRand Unified Bootloader, version 2 (PC/BIOS version)
+ii  grub-pc-bin                      2.02~beta2-9ubuntu1.15                     amd64        GRand Unified Bootloader, version 2 (PC/BIOS binaries)
+ii  grub2-common                     2.02~beta2-9ubuntu1.15                     amd64        GRand Unified Bootloader (common files for version 2)
 ii  guile-2.0-libs                   2.0.9+1-1ubuntu1                           amd64        Core Guile libraries
 ii  gzip                             1.6-3ubuntu1                               amd64        GNU compression utilities
 ii  hostname                         3.15ubuntu1                                amd64        utility to set/show the host name or domain name
@@ -309,20 +309,8 @@ ii  libxext6:amd64                   2:1.3.2-1ubuntu0.0.14.04.1                 
 ii  libxml2:amd64                    2.9.1+dfsg1-3ubuntu4.13                    amd64        GNOME XML library
 ii  libxmuu1:amd64                   2:1.1.1-1                                  amd64        X11 miscellaneous micro-utility library
 ii  libxtables10                     1.4.21-1ubuntu1                            amd64        netfilter xtables library
-ii  linux-headers-3.13.0-149         3.13.0-149.199                             all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-149-generic 3.13.0-149.199                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-151         3.13.0-151.201                             all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-151-generic 3.13.0-151.201                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-153         3.13.0-153.203                             all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-153-generic 3.13.0-153.203                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-155         3.13.0-155.205                             all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-155-generic 3.13.0-155.205                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-156         3.13.0-156.206                             all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-156-generic 3.13.0-156.206                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-157         3.13.0-157.207                             all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-157-generic 3.13.0-157.207                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
-ii  linux-headers-3.13.0-160         3.13.0-160.210                             all          Header files related to Linux kernel version 3.13.0
-ii  linux-headers-3.13.0-160-generic 3.13.0-160.210                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-161         3.13.0-161.211                             all          Header files related to Linux kernel version 3.13.0
 ii  linux-headers-3.13.0-161-generic 3.13.0-161.211                             amd64        Linux kernel headers for version 3.13.0 on 64 bit x86 SMP
 ii  linux-headers-3.13.0-162         3.13.0-162.212                             all          Header files related to Linux kernel version 3.13.0
@@ -356,13 +344,13 @@ rc  linux-image-3.13.0-142-generic   3.13.0-142.191                             
 rc  linux-image-3.13.0-143-generic   3.13.0-143.192                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-144-generic   3.13.0-144.193                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 rc  linux-image-3.13.0-147-generic   3.13.0-147.196                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-149-generic   3.13.0-149.199                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-151-generic   3.13.0-151.201                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-149-generic   3.13.0-149.199                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-151-generic   3.13.0-151.201                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-153-generic   3.13.0-153.203                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-155-generic   3.13.0-155.205                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-156-generic   3.13.0-156.206                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-157-generic   3.13.0-157.207                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
-ii  linux-image-3.13.0-160-generic   3.13.0-160.210                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-155-generic   3.13.0-155.205                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-156-generic   3.13.0-156.206                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-157-generic   3.13.0-157.207                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
+rc  linux-image-3.13.0-160-generic   3.13.0-160.210                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-161-generic   3.13.0-161.211                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-3.13.0-162-generic   3.13.0-162.212                             amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
 ii  linux-image-virtual              3.13.0.162.172                             amd64        This package will always depend on the latest minimal generic kernel image.
@@ -501,8 +489,9 @@ ii  tasksel-data                     2.88ubuntu15                               
 ii  tcpd                             7.6.q-25                                   amd64        Wietse Venema's TCP wrapper utilities
 ii  tmux                             1.8-5                                      amd64        terminal multiplexer
 ii  tzdata                           2018g-0ubuntu0.14.04                       all          time zone and daylight-saving time data
+ii  ubuntu-advantage-tools           10ubuntu0.14.04.2                          all          management tools for Ubuntu Advantage
 ii  ubuntu-keyring                   2012.05.19                                 all          GnuPG keys of the Ubuntu archive
-ii  ubuntu-minimal                   1.325                                      amd64        Minimal core of Ubuntu
+ii  ubuntu-minimal                   1.325.1                                    amd64        Minimal core of Ubuntu
 ii  ubuntu-release-upgrader-core     1:0.220.10                                 all          manage release upgrades
 ii  ucf                              3.0027+nmu1                                all          Update Configuration File(s): preserve user changes to config files
 ii  udev                             204-5ubuntu20.28                           amd64        /dev/ and hotplug management daemon

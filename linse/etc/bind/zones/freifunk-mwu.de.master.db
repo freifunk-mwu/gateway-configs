@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2018092400		; Serial
+		     2018111900		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -126,8 +126,8 @@ autoconfig	IN	CNAME	glueckskeks
 autodiscover	IN	CNAME	glueckskeks
 
 ; build host
-milchreis	IN	A	188.40.89.185
-milchreis	IN	AAAA	2a01:4f8:100:63ca:2000::3
+milchreis	IN	A	188.40.89.180
+milchreis	IN	AAAA	2a01:4f8:221:15c1:5054:ff:fe9a:38c2
 
 ; firmware
 ; wasserfloh
