@@ -113,8 +113,8 @@ ii  gettext-base                         0.18.3.1-1ubuntu3.1                    
 ii  gir1.2-freedesktop                   1.40.0-1ubuntu0.2                                    amd64        Introspection data for some FreeDesktop components
 ii  gir1.2-glib-2.0                      1.40.0-1ubuntu0.2                                    amd64        Introspection data for GLib, GObject, Gio and GModule
 ii  gir1.2-pango-1.0                     1.36.3-1ubuntu1.1                                    amd64        Layout and rendering of internationalized text - gir bindings
-ii  git                                  1:1.9.1-1ubuntu0.9                                   amd64        fast, scalable, distributed revision control system
-ii  git-man                              1:1.9.1-1ubuntu0.9                                   all          fast, scalable, distributed revision control system (manual pages)
+ii  git                                  1:1.9.1-1ubuntu0.10                                  amd64        fast, scalable, distributed revision control system
+ii  git-man                              1:1.9.1-1ubuntu0.10                                  all          fast, scalable, distributed revision control system (manual pages)
 ii  gnupg                                1.4.16-1ubuntu2.6                                    amd64        GNU privacy guard - a free PGP replacement
 ii  gpgv                                 1.4.16-1ubuntu2.6                                    amd64        GNU privacy guard - signature verification tool
 ii  grep                                 2.16-1                                               amd64        GNU grep, egrep and fgrep
