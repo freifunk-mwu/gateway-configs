@@ -54,8 +54,10 @@ glueckskeks		IN	AAAA	fd56:b4dc:4b1e::a38:101
 
 map			IN	CNAME	suesskartoffel
 openwrt			IN	CNAME	aubergine
+opkg			IN	CNAME	aubergine
 rtfm			IN	CNAME	zuckerwatte 
 einzugsgebiet		IN	CNAME	zuckerwatte
+wizard			IN	CNAME	zuckerwatte
 
 ; firmware mirrors
 firmware		IN	A	10.56.0.7
