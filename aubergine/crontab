@@ -21,7 +21,7 @@ PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bi
 23 * * * * $HOME/clones/backend-scripts/gen_website_all.py > $HOME/.cronlog/gen_website.log
 #23 19 * * * $HOME/clones/backend-scripts/nagg_exitvpn_accouts_all.py > $HOME/.cronlog/nagg_exitvpn_accouts.log
 42 5,23 * * * $HOME/clones/backend-scripts/snapshot_configs_all.py > $HOME/.cronlog/snapshot_configs.log
-0 5 * * 0,1,5 $HOME/clones/backend-scripts/gen_icvpn_dns_gw.sh > $HOME/.cronlog/gen_icvpn_dns_gw.log
+0 5 * * 0,1,5 $HOME/clones/backend-scripts/gen_icvpn_dns_gw.sh 2>&1 > $HOME/.cronlog/gen_icvpn_dns_gw.log
 42 17 * * 2 /usr/local/bin/photon-dangerous-selfupgrade.py --sudo --repos $HOME/clones/backend-scripts
 # openwrt mirror (old releases ; no need to sync them)
 #19 1 1 * * /usr/local/bin/lftp -f $HOME/clones/backend-scripts/common/lftp_commands > $HOME/.cronlog/mirror_openwrt_repo.log 2>&1
