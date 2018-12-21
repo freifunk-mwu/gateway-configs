@@ -40,5 +40,7 @@ PATH=/home/admin/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bi
 28 2 * * * find /var/www/freifunk-mainz.de/mitglieder/pending_members -mindepth 1 -mtime +2 -exec rm {} \;
 # pull mz homepage
 33 * * * * $HOME/bin/pull_homepage.sh >> $HOME/tmp/log/homepage_pull.log.cron 2>&1
+# full mwu homepage
+35 * * * * $HOME/bin/pull_homepage_mwu.sh >> $HOME/tmp/log/homepage_pull_mwu.log.cron 2>&1
 # rebuild ffwi-website
 15 1 * * * sudo service ffwi-website restart >> ~/.cronlog/rebuild_website.cron.og 2>&1
