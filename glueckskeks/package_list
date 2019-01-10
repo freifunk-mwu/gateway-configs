@@ -389,8 +389,8 @@ ii  libnih1:amd64                        1.0.3-4ubuntu25                        
 ii  libnl-3-200:amd64                    3.2.21-1ubuntu4.1                                    amd64        library for dealing with netlink sockets
 ii  libnl-genl-3-200:amd64               3.2.21-1ubuntu4.1                                    amd64        library for dealing with netlink sockets - generic netlink
 ii  libnspr4:amd64                       2:4.13.1-0ubuntu0.14.04.1                            amd64        NetScape Portable Runtime Library
-ii  libnss3:amd64                        2:3.28.4-0ubuntu0.14.04.3                            amd64        Network Security Service libraries
-ii  libnss3-nssdb                        2:3.28.4-0ubuntu0.14.04.3                            all          Network Security Security libraries - shared databases
+ii  libnss3:amd64                        2:3.28.4-0ubuntu0.14.04.4                            amd64        Network Security Service libraries
+ii  libnss3-nssdb                        2:3.28.4-0ubuntu0.14.04.4                            all          Network Security Security libraries - shared databases
 ii  libntlm0:amd64                       1.4-1                                                amd64        NTLM authentication library
 ii  libnuma1:amd64                       2.0.9~rc5-1ubuntu3.14.04.2                           amd64        Libraries for controlling NUMA policy
 ii  libopts25:amd64                      1:5.18-2ubuntu2                                      amd64        automated option processing library based on autogen
