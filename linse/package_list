@@ -100,7 +100,7 @@ ii  kbd                              1.15.5-1ubuntu1                            
 ii  keyboard-configuration           1.70ubuntu8                                all          system-wide keyboard preferences
 ii  klibc-utils                      2.0.3-0ubuntu1.14.04.3                     amd64        small utilities built with klibc for early boot
 ii  kmod                             15-0ubuntu7                                amd64        tools for managing Linux kernel modules
-ii  krb5-locales                     1.12+dfsg-2ubuntu5.3                       all          Internationalization support for MIT Kerberos
+ii  krb5-locales                     1.12+dfsg-2ubuntu5.4                       all          Internationalization support for MIT Kerberos
 ii  landscape-common                 14.12-0ubuntu6.14.04.3                     amd64        The Landscape administration system client - Common files
 ii  language-pack-en                 1:14.04+20160720                           all          translation updates for language English
 ii  language-pack-en-base            1:14.04+20160720                           all          translations for language English
@@ -177,7 +177,7 @@ ii  libgomp1:amd64                   4.8.4-2ubuntu1~14.04.4                     
 ii  libgpg-error0:amd64              1.12-0.2ubuntu1                            amd64        library for common error values and messages in GnuPG components
 ii  libgpm2:amd64                    1.20.4-6.1                                 amd64        General Purpose Mouse - shared library
 ii  libgsasl7                        1.8.0-2ubuntu2                             amd64        GNU SASL library
-ii  libgssapi-krb5-2:amd64           1.12+dfsg-2ubuntu5.3                       amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii  libgssapi-krb5-2:amd64           1.12+dfsg-2ubuntu5.4                       amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii  libgssapi3-heimdal:amd64         1.6~git20131207+dfsg-1ubuntu1.2            amd64        Heimdal Kerberos - GSSAPI support library
 ii  libhcrypto4-heimdal:amd64        1.6~git20131207+dfsg-1ubuntu1.2            amd64        Heimdal Kerberos - crypto library
 ii  libheimbase1-heimdal:amd64       1.6~git20131207+dfsg-1ubuntu1.2            amd64        Heimdal Kerberos - Base library
@@ -193,13 +193,13 @@ ii  libitm1:amd64                    4.8.4-2ubuntu1~14.04.4                     
 ii  libiw30:amd64                    30~pre9-8ubuntu1                           amd64        Wireless tools - library
 ii  libjson-c2:amd64                 0.11-3ubuntu1.2                            amd64        JSON manipulation library - shared library
 ii  libjson0:amd64                   0.11-3ubuntu1.2                            amd64        JSON manipulation library (transitional package)
-ii  libk5crypto3:amd64               1.12+dfsg-2ubuntu5.3                       amd64        MIT Kerberos runtime libraries - Crypto Library
+ii  libk5crypto3:amd64               1.12+dfsg-2ubuntu5.4                       amd64        MIT Kerberos runtime libraries - Crypto Library
 ii  libkeyutils1:amd64               1.5.6-1                                    amd64        Linux Key Management Utilities (library)
 ii  libklibc                         2.0.3-0ubuntu1.14.04.3                     amd64        minimal libc subset for use with initramfs
 ii  libkmod2:amd64                   15-0ubuntu7                                amd64        libkmod shared library
 ii  libkrb5-26-heimdal:amd64         1.6~git20131207+dfsg-1ubuntu1.2            amd64        Heimdal Kerberos - libraries
-ii  libkrb5-3:amd64                  1.12+dfsg-2ubuntu5.3                       amd64        MIT Kerberos runtime libraries
-ii  libkrb5support0:amd64            1.12+dfsg-2ubuntu5.3                       amd64        MIT Kerberos runtime libraries - Support library
+ii  libkrb5-3:amd64                  1.12+dfsg-2ubuntu5.4                       amd64        MIT Kerberos runtime libraries
+ii  libkrb5support0:amd64            1.12+dfsg-2ubuntu5.4                       amd64        MIT Kerberos runtime libraries - Support library
 ii  libkyotocabinet16:amd64          1.2.76-4                                   amd64        Straightforward implementation of DBM - shared library
 ii  libldap-2.4-2:amd64              2.4.31-1+nmu2ubuntu8.5                     amd64        OpenLDAP libraries
 ii  liblocale-gettext-perl           1.05-7build3                               amd64        module using libc functions for internationalization in Perl
