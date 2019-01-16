@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2018121700		; Serial
+		     2019011600		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -96,8 +96,8 @@ viprivpn	IN	A	193.25.173.41
 viprivpn-wan	IN	A	193.25.173.42
 unifi		IN	A	85.14.253.122
 unifi		IN	AAAA	2001:4ba0:fffc:3d::b4dc:4b1e:5
-kabbes		IN	A	178.33.36.188
-kabbes		IN	AAAA	2001:41d0:2:32cb::1001
+kappes		IN	A	178.33.36.188
+kappes		IN	AAAA	2001:41d0:2:32cb::1001
 
 ; service cnames
 map		IN	CNAME	suesskartoffel
