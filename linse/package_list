@@ -7,8 +7,8 @@ ii  acpid                            1:2.0.21-1ubuntu2                          
 ii  adduser                          3.113+nmu3ubuntu3                          all          add and remove users and groups
 ii  apport                           2.14.1-0ubuntu3.29                         all          automatically generate crash reports for debugging
 ii  apport-symptoms                  0.20                                       all          symptom scripts for apport
-ii  apt                              1.0.1ubuntu2.18                            amd64        commandline package manager
-ii  apt-utils                        1.0.1ubuntu2.18                            amd64        package management related utility programs
+ii  apt                              1.0.1ubuntu2.19                            amd64        commandline package manager
+ii  apt-utils                        1.0.1ubuntu2.19                            amd64        package management related utility programs
 ii  apt-xapian-index                 0.45ubuntu4                                all          maintenance and search tools for a Xapian index of Debian packages
 ii  aptitude                         0.6.8.2-1ubuntu4                           amd64        terminal-based package manager
 ii  aptitude-common                  0.6.8.2-1ubuntu4                           all          architecture indepedent files for the aptitude package manager
@@ -111,8 +111,8 @@ ii  libalgorithm-diff-perl           1.19.02-3                                  
 ii  libalgorithm-diff-xs-perl        0.04-2build4                               amd64        module to find differences between files (XS accelerated)
 ii  libalgorithm-merge-perl          0.08-2                                     all          Perl module for three-way merge of textual data
 ii  libapparmor1:amd64               2.10.95-0ubuntu2.6~14.04.4                 amd64        changehat AppArmor library
-ii  libapt-inst1.5:amd64             1.0.1ubuntu2.18                            amd64        deb package format runtime library
-ii  libapt-pkg4.12:amd64             1.0.1ubuntu2.18                            amd64        package management runtime library
+ii  libapt-inst1.5:amd64             1.0.1ubuntu2.19                            amd64        deb package format runtime library
+ii  libapt-pkg4.12:amd64             1.0.1ubuntu2.19                            amd64        package management runtime library
 ii  libarchive-extract-perl          0.70-1                                     all          generic archive extracting module
 ii  libasan0:amd64                   4.8.4-2ubuntu1~14.04.4                     amd64        AddressSanitizer -- a fast memory error detector
 ii  libasn1-8-heimdal:amd64          1.6~git20131207+dfsg-1ubuntu1.2            amd64        Heimdal Kerberos - ASN.1 library
