@@ -90,8 +90,14 @@ zone "0.0.0.0.e.1.b.4.c.d.4.b.6.5.d.f.ip6.arpa" {
 };
 
 // freifunk bingen
+//zone "ffbin." {
+//	type slave;
+//	file "ffbin.db";
+//	masters { ns-master-bin; };
+//};
+
 zone "ffbin." {
-	type slave;
-	file "ffbin.db";
-	masters { ns-master-bin; };
+        type master;
+        file "/etc/bind/ffbin/ffbin.master.db";
 };
+
