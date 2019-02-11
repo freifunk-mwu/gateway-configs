@@ -53,6 +53,9 @@ glueckskeks		IN	A	10.56.1.1
 glueckskeks		IN	AAAA	fd56:b4dc:4b1e::a38:101
 
 map			IN	CNAME	suesskartoffel
+ol			IN	CNAME	suesskartoffel
+prom			IN	CNAME	suesskartoffel
+stats			IN	CNAME	suesskartoffel
 openwrt			IN	CNAME	aubergine
 opkg			IN	CNAME	aubergine
 rtfm			IN	CNAME	zuckerwatte 
