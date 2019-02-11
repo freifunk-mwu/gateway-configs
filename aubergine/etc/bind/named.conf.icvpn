@@ -77,7 +77,7 @@ zone "ffbit" {
 # 
 # bodensee
 # 
-zone "ffbsee" {
+zone "ffbsee.net" {
     type static-stub;
     server-addresses { 10.11.160.42; fdef:1701:b5ee:42::1; };
 };
@@ -1081,6 +1081,24 @@ zone "234.10.in-addr.arpa" {
 };
 
 # 
+# langweid
+# 
+zone "fflw" {
+    type static-stub;
+    server-addresses { 10.66.0.10; fddf::1066; };
+};
+
+zone "0.0.0.0.0.0.0.0.f.d.d.f.ip6.arpa" {
+    type static-stub;
+    server-addresses { 10.66.0.10; fddf::1066; };
+};
+
+zone "66.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.66.0.10; fddf::1066; };
+};
+
+# 
 # leichlingen
 # 
 zone "fflln" {
@@ -1122,6 +1140,24 @@ zone "e.f.f.f.2.d.8.8.7.d.2.f.e.4.d.f.ip6.arpa" {
 zone "128/18.24.10.in-addr.arpa" {
     type static-stub;
     server-addresses { 10.24.128.10; fd4e:f2d7:88d2:fffe::10; };
+};
+
+# 
+# meckenheim
+# 
+zone "ffmck" {
+    type static-stub;
+    server-addresses { 10.152.64.10; 10.152.80.10; fda4:1721:8451:100::1; fda4:1721:8451:200::1; };
+};
+
+zone "64.152.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.152.64.10; 10.152.80.10; fda4:1721:8451:100::1; fda4:1721:8451:200::1; };
+};
+
+zone "1.5.4.8.1.2.7.1.4.a.d.f.ip6.arpa" {
+    type static-stub;
+    server-addresses { 10.152.64.10; 10.152.80.10; fda4:1721:8451:100::1; fda4:1721:8451:200::1; };
 };
 
 # 
