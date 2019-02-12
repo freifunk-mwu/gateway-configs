@@ -2,7 +2,7 @@
 ;
 $TTL    600
 @       IN      SOA     aubergine.ffmwu.org. hostmaster.ffmwu.org. (
-                     2018113000         ; Serial
+                     2019021101         ; Serial
                              2h         ; Refresh
                              1h         ; Retry
                             41d         ; Expire
