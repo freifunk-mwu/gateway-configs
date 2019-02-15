@@ -831,12 +831,12 @@ zone "62.10.in-addr.arpa" {
 # 
 zone "ffhh" {
     type static-stub;
-    server-addresses { 10.112.1.2; 2a03:2267::102; };
+    server-addresses { 2a03:2267:ffff:b00::3; };
 };
 
 zone "112.10.in-addr.arpa" {
     type static-stub;
-    server-addresses { 10.112.1.2; 2a03:2267::102; };
+    server-addresses { 2a03:2267:ffff:b00::3; };
 };
 
 # 
