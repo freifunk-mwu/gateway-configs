@@ -467,7 +467,7 @@ ii  libsm-dev:amd64                      2:1.2.1-2                              
 ii  libsm6:amd64                         2:1.2.1-2                                            amd64        X11 Session Management library
 ii  libsocket6-perl                      0.25-1                                               amd64        Perl extensions for IPv6
 ii  libsodium13:amd64                    1.0.3-1~wheezy0                                      amd64        Network communication, cryptography and signaturing library
-ii  libsqlite3-0:amd64                   3.8.2-1ubuntu2.1                                     amd64        SQLite 3 shared library
+ii  libsqlite3-0:amd64                   3.8.2-1ubuntu2.2                                     amd64        SQLite 3 shared library
 ii  libss2:amd64                         1.42.9-3ubuntu1.3                                    amd64        command-line interface parsing library
 ii  libssl-dev:amd64                     1.0.1f-1ubuntu2.27                                   amd64        Secure Sockets Layer toolkit - development files
 ii  libssl-doc                           1.0.1f-1ubuntu2.27                                   all          Secure Sockets Layer toolkit - development documentation
