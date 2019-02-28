@@ -16,9 +16,9 @@ ii  apg                                  2.2.3.dfsg.1-2ubuntu1                  
 ii  apparmor                             2.10.95-0ubuntu2.6~14.04.4                           amd64        user-space parser utility for AppArmor
 ii  apport                               2.14.1-0ubuntu3.29                                   all          automatically generate crash reports for debugging
 ii  apport-symptoms                      0.20                                                 all          symptom scripts for apport
-ii  apt                                  1.0.1ubuntu2.19                                      amd64        commandline package manager
-ii  apt-transport-https                  1.0.1ubuntu2.19                                      amd64        https download transport for APT
-ii  apt-utils                            1.0.1ubuntu2.19                                      amd64        package management related utility programs
+ii  apt                                  1.0.1ubuntu2.20                                      amd64        commandline package manager
+ii  apt-transport-https                  1.0.1ubuntu2.20                                      amd64        https download transport for APT
+ii  apt-utils                            1.0.1ubuntu2.20                                      amd64        package management related utility programs
 ii  apt-xapian-index                     0.45ubuntu4                                          all          maintenance and search tools for a Xapian index of Debian packages
 ii  aptitude                             0.6.8.2-1ubuntu4                                     amd64        terminal-based package manager
 ii  aptitude-common                      0.6.8.2-1ubuntu4                                     all          architecture indepedent files for the aptitude package manager
@@ -71,7 +71,7 @@ ii  debianutils                          4.4                                    
 ii  dh-apparmor                          2.10.95-0ubuntu2.6~14.04.4                           all          AppArmor debhelper routines
 ii  dh-python                            1.20140128-1ubuntu8.2                                all          Debian helper tools for packaging Python libraries and applications
 ii  diffutils                            1:3.3-1                                              amd64        File comparison utilities
-ii  dkms                                 2.2.0.3-1.1ubuntu5.14.04.9                           all          Dynamic Kernel Module Support Framework
+ii  dkms                                 2.2.0.3-1.1ubuntu5.14.04.10                          all          Dynamic Kernel Module Support Framework
 ii  dmidecode                            2.12-2                                               amd64        SMBIOS/DMI table decoder
 ii  dmsetup                              2:1.02.77-6ubuntu2                                   amd64        Linux Kernel Device Mapper userspace library
 ii  dnsutils                             1:9.9.5.dfsg-3ubuntu0.19                             amd64        Clients provided with BIND
@@ -169,7 +169,7 @@ ii  keyboard-configuration               1.70ubuntu8                            
 ii  klibc-utils                          2.0.3-0ubuntu1.14.04.3                               amd64        small utilities built with klibc for early boot
 ii  kmod                                 15-0ubuntu7                                          amd64        tools for managing Linux kernel modules
 ii  krb5-locales                         1.12+dfsg-2ubuntu5.4                                 all          Internationalization support for MIT Kerberos
-ii  landscape-common                     14.12-0ubuntu6.14.04.3                               amd64        The Landscape administration system client - Common files
+ii  landscape-common                     14.12-0ubuntu6.14.04.4                               amd64        The Landscape administration system client - Common files
 ii  language-selector-common             0.129.3                                              all          Language selector for Ubuntu
 ii  laptop-detect                        0.13.7ubuntu2                                        amd64        attempt to detect a laptop
 ii  less                                 458-2                                                amd64        pager program similar to more
@@ -187,8 +187,8 @@ ii  libapr1:amd64                        1.5.0-1                                
 ii  libaprutil1:amd64                    1.5.3-1                                              amd64        Apache Portable Runtime Utility Library
 ii  libaprutil1-dbd-sqlite3:amd64        1.5.3-1                                              amd64        Apache Portable Runtime Utility Library - SQLite3 Driver
 ii  libaprutil1-ldap:amd64               1.5.3-1                                              amd64        Apache Portable Runtime Utility Library - LDAP Driver
-ii  libapt-inst1.5:amd64                 1.0.1ubuntu2.19                                      amd64        deb package format runtime library
-ii  libapt-pkg4.12:amd64                 1.0.1ubuntu2.19                                      amd64        package management runtime library
+ii  libapt-inst1.5:amd64                 1.0.1ubuntu2.20                                      amd64        deb package format runtime library
+ii  libapt-pkg4.12:amd64                 1.0.1ubuntu2.20                                      amd64        package management runtime library
 ii  libarchive-extract-perl              0.70-1                                               all          generic archive extracting module
 ii  libasan0:amd64                       4.8.4-2ubuntu1~14.04.4                               amd64        AddressSanitizer -- a fast memory error detector
 ii  libasn1-8-heimdal:amd64              1.6~git20131207+dfsg-1ubuntu1.2                      amd64        Heimdal Kerberos - ASN.1 library

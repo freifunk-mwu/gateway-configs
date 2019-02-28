@@ -273,7 +273,7 @@ ii  libsepol1:amd64                  2.2-1ubuntu0.1                             
 ii  libsigc++-2.0-0c2a:amd64         2.2.10-0.2ubuntu2                          amd64        type-safe Signal Framework for C++ - runtime
 ii  libsigsegv2:amd64                2.10-2                                     amd64        Library for handling page faults in a portable way
 ii  libslang2:amd64                  2.2.4-15ubuntu1                            amd64        S-Lang programming library - runtime version
-ii  libsqlite3-0:amd64               3.8.2-1ubuntu2.1                           amd64        SQLite 3 shared library
+ii  libsqlite3-0:amd64               3.8.2-1ubuntu2.2                           amd64        SQLite 3 shared library
 ii  libss2:amd64                     1.42.9-3ubuntu1.3                          amd64        command-line interface parsing library
 ii  libssl1.0.0:amd64                1.0.1f-1ubuntu2.27                         amd64        Secure Sockets Layer toolkit - shared libraries
 ii  libstdc++-4.8-dev:amd64          4.8.4-2ubuntu1~14.04.4                     amd64        GNU Standard C++ Library v3 (development files)
