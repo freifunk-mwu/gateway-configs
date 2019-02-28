@@ -395,7 +395,7 @@ ii  libslang2:amd64                      2.2.4-15ubuntu1                        
 ii  libsm6:amd64                         2:1.2.1-2                                            amd64        X11 Session Management library
 ii  libsocket6-perl                      0.25-1                                               amd64        Perl extensions for IPv6
 ii  libsodium13:amd64                    1.0.3-1~wheezy0                                      amd64        Network communication, cryptography and signaturing library
-ii  libsqlite3-0:amd64                   3.8.2-1ubuntu2.1                                     amd64        SQLite 3 shared library
+ii  libsqlite3-0:amd64                   3.8.2-1ubuntu2.2                                     amd64        SQLite 3 shared library
 ii  libss2:amd64                         1.42.9-3ubuntu1.3                                    amd64        command-line interface parsing library
 ii  libssl-dev:amd64                     1.0.1f-1ubuntu2.27                                   amd64        Secure Sockets Layer toolkit - development files
 ii  libssl-doc                           1.0.1f-1ubuntu2.27                                   all          Secure Sockets Layer toolkit - development documentation
@@ -734,7 +734,7 @@ ii  sensible-utils                       0.0.9ubuntu0.14.04.1                   
 ii  sgml-base                            1.26+nmu4ubuntu1                                     all          SGML infrastructure and SGML catalog file support
 ii  shared-mime-info                     1.2-0ubuntu3                                         amd64        FreeDesktop.org shared MIME database and spec
 ii  software-properties-common           0.92.37.8                                            all          manage the repositories that you install software from (common)
-ii  sqlite3                              3.8.2-1ubuntu2.1                                     amd64        Command line interface for SQLite 3
+ii  sqlite3                              3.8.2-1ubuntu2.2                                     amd64        Command line interface for SQLite 3
 ii  ssh                                  1:6.6p1-2ubuntu2.12                                  all          secure shell client and server (metapackage)
 ii  ssh-import-id                        3.21-0ubuntu1                                        all          securely retrieve an SSH public key and install it locally
 ii  ssl-cert                             1.0.33                                               all          simple debconf wrapper for OpenSSL
