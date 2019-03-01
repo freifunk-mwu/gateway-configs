@@ -270,7 +270,7 @@ ii  libgck-1-0:amd64                     3.10.1-1                               
 ii  libgcr-3-common                      3.10.1-1                                             all          Library for Crypto UI related tasks - common files
 ii  libgcr-base-3-1:amd64                3.10.1-1                                             amd64        Library for Crypto related tasks
 ii  libgcrypt11:amd64                    1.5.3-2ubuntu4.6                                     amd64        LGPL Crypto library - runtime library
-ii  libgd3:amd64                         2.1.0-3ubuntu0.10                                    amd64        GD Graphics Library
+ii  libgd3:amd64                         2.1.0-3ubuntu0.11                                    amd64        GD Graphics Library
 ii  libgdbm-dev                          1.8.3-12build1                                       amd64        GNU dbm database routines (development files)
 ii  libgdbm3:amd64                       1.8.3-12build1                                       amd64        GNU dbm database routines (runtime version)
 ii  libgdk-pixbuf2.0-0:amd64             2.30.7-0ubuntu1.8                                    amd64        GDK Pixbuf library
