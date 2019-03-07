@@ -179,7 +179,7 @@ ii  libaio1:amd64                        0.3.109-4                              
 ii  libalgorithm-diff-perl               1.19.02-3                                            all          module to find differences between files
 ii  libalgorithm-diff-xs-perl            0.04-2build4                                         amd64        module to find differences between files (XS accelerated)
 ii  libalgorithm-merge-perl              0.08-2                                               all          Perl module for three-way merge of textual data
-ii  libapache2-mod-php5                  5.5.9+dfsg-1ubuntu4.26                               amd64        server-side, HTML-embedded scripting language (Apache 2 module)
+ii  libapache2-mod-php5                  5.5.9+dfsg-1ubuntu4.27                               amd64        server-side, HTML-embedded scripting language (Apache 2 module)
 ii  libapache2-mod-removeip              1.0b-5.1                                             amd64        Module to remove IP from apache2's logs
 ii  libapparmor-perl                     2.10.95-0ubuntu2.6~14.04.4                           amd64        AppArmor library Perl bindings
 ii  libapparmor1:amd64                   2.10.95-0ubuntu2.6~14.04.4                           amd64        changehat AppArmor library
@@ -671,20 +671,20 @@ ii  php-mail                             1.2.0-6                                
 ii  php-mail-mime                        1.8.8-1                                              all          PHP PEAR module for creating MIME messages
 ii  php-net-smtp                         1.6.1-1                                              all          PHP PEAR module implementing SMTP protocol
 ii  php-net-socket                       1.0.14-1                                             all          PHP PEAR Network Socket Interface module
-ii  php-pear                             5.5.9+dfsg-1ubuntu4.26                               all          PEAR - PHP Extension and Application Repository
+ii  php-pear                             5.5.9+dfsg-1ubuntu4.27                               all          PEAR - PHP Extension and Application Repository
 ii  php-wikidiff2                        1.4.1-1ppa1~trusty1                                  amd64        external diff engine for mediawiki
-ii  php5                                 5.5.9+dfsg-1ubuntu4.26                               all          server-side, HTML-embedded scripting language (metapackage)
+ii  php5                                 5.5.9+dfsg-1ubuntu4.27                               all          server-side, HTML-embedded scripting language (metapackage)
 ii  php5-apcu                            4.0.2-2build1                                        amd64        APC User Cache for PHP 5
-ii  php5-cli                             5.5.9+dfsg-1ubuntu4.26                               amd64        command-line interpreter for the php5 scripting language
-ii  php5-common                          5.5.9+dfsg-1ubuntu4.26                               amd64        Common files for packages built from the php5 source
-ii  php5-curl                            5.5.9+dfsg-1ubuntu4.26                               amd64        CURL module for php5
-ii  php5-gd                              5.5.9+dfsg-1ubuntu4.26                               amd64        GD module for php5
+ii  php5-cli                             5.5.9+dfsg-1ubuntu4.27                               amd64        command-line interpreter for the php5 scripting language
+ii  php5-common                          5.5.9+dfsg-1ubuntu4.27                               amd64        Common files for packages built from the php5 source
+ii  php5-curl                            5.5.9+dfsg-1ubuntu4.27                               amd64        CURL module for php5
+ii  php5-gd                              5.5.9+dfsg-1ubuntu4.27                               amd64        GD module for php5
 ii  php5-imagick                         3.1.2-1build1                                        amd64        ImageMagick module for php5
-ii  php5-intl                            5.5.9+dfsg-1ubuntu4.26                               amd64        internationalisation module for php5
+ii  php5-intl                            5.5.9+dfsg-1ubuntu4.27                               amd64        internationalisation module for php5
 ii  php5-json                            1.3.2-2build1                                        amd64        JSON module for php5
 ii  php5-mcrypt                          5.4.6-0ubuntu5                                       amd64        MCrypt module for php5
-ii  php5-mysql                           5.5.9+dfsg-1ubuntu4.26                               amd64        MySQL module for php5
-ii  php5-readline                        5.5.9+dfsg-1ubuntu4.26                               amd64        Readline module for php5
+ii  php5-mysql                           5.5.9+dfsg-1ubuntu4.27                               amd64        MySQL module for php5
+ii  php5-readline                        5.5.9+dfsg-1ubuntu4.27                               amd64        Readline module for php5
 ii  phpmyadmin                           4:4.0.10-1ubuntu0.1                                  all          MySQL web administration tool
 ii  pkg-config                           0.26-1ubuntu4                                        amd64        manage compile and link flags for libraries
 ii  pkg-php-tools                        1.11                                                 all          various packaging tools and scripts for PHP packages
