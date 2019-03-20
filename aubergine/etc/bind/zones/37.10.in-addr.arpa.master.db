@@ -1,0 +1,61 @@
+$ORIGIN 37.10.in-addr.arpa.
+; BIND data file for zone .ffmz.org 
+;
+$TTL    600
+@       IN      SOA     aubergine.ffmz.org. hostmaster.ffmz.org. (
+                     2018092400         ; Serial
+                             2h         ; Refresh
+                             1h         ; Retry
+                            41d         ; Expire
+                            300 )       ; Negative Cache TTL
+;
+@       IN      NS      wasserfloh.ffmz.org.
+@       IN      NS      spinat.ffmz.org.
+@       IN      NS      lotuswurzel.ffmz.org.
+@	IN	NS	ingwer.ffmz.org.
+@	IN	NS	uffschnitt.ffmz.org.
+
+1.0	PTR	nextnode.ffmz.org.
+7.0     PTR     spinat.ffmz.org.
+23.0    PTR     lotuswurzel.ffmz.org.
+32.0	PTR	suesskartoffel.ffmz.org.
+101.0   PTR     uffschnitt.ffmz.org.
+42.0    PTR     parmesan.ffmz.org.
+161.0	PTR	ingwer.ffmz.org.
+231.0   PTR     wasserfloh.ffmz.org.
+0.1	PTR	zwiebel.ffmz.org.
+1.1	PTR	glueckskeks.ffmz.org.
+2.1	PTR	zuckerwatte.ffmz.org.
+3.1	PTR	aubergine.ffmz.org.
+5.1	PTR	unifi.ffmz.org.
+; freifunk bingen
+12.1	PTR	mettbroetchen.ffmz.org.
+; freifunk rheingau-taunus
+13.1	PTR	spundekaes.ffmz.org.
+
+; bb
+1.2	PTR	uk-master.bb.ffmz.org.
+2.2	PTR	uk-sw-1.bb.ffmz.org.
+3.2	PTR	uk-sw-2.bb.ffmz.org.
+10.2	PTR	uk-nsm5-o-100.bb.ffmz.org.
+11.2	PTR	uk-nsm5-n-112.bb.ffmz.org.
+12.2	PTR	uk-nsm5-n-108.bb.ffmz.org.
+13.2	PTR	uk-nsm5-4.bb.ffmz.org.
+30.2	PTR	ht-master.bb.ffmz.org.
+31.2	PTR	ht-nordwest.bb.ffmz.org.
+32.2	PTR	ht-nslm5-1.bb.ffmz.org.
+33.2	PTR	ht-nslm5-2.bb.ffmz.org.
+42.2    PTR     vo-pb-1.bb.ffmz.org.
+190.2	PTR	oimel-uplink.bb.ffmz.org.
+200.2	PTR	pl-master.bb.ffmz.org.
+201.2	PTR	pl-nslm5-1.bb.ffmz.org.
+202.2	PTR	pl-nbm5-1.bb.ffmz.org.
+
+; user
+1.4	PTR	tracker.faultier.user.ffmz.org.
+2.4	PTR	mobilcam.user.ffmz.org.
+10.4	PTR	pengspace.user.ffmz.org.
+40.4	PTR	flugzeug.user.ffmz.org.
+42.4	PTR	fon.user.ffmz.org.
+44.4	PTR	post.user.ffmz.org.
+50.4	PTR	hastebin.user.ffmz.org.

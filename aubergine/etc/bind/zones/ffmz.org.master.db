@@ -1,0 +1,131 @@
+$ORIGIN ffmz.org.
+; BIND data file for zone ffmz.org.
+
+$TTL    600
+@       IN      SOA     aubergine.ffmz.org. hostmaster.ffmz.org. (
+                     2018110400         ; Serial
+                             2h         ; Refresh
+                             1h         ; Retry
+                            41d         ; Expire
+                            300 )       ; Negative Cache TTL
+
+; internal ns server
+@       		IN      NS      wasserfloh.ffmz.org.
+@       		IN      NS      spinat.ffmz.org.
+@       		IN      NS      lotuswurzel.ffmz.org.
+@			IN	NS	ingwer.ffmz.org.
+@			IN	NS	uffschnitt.ffmz.org.
+
+; ACHTUNG: IPs der aubergine hier fuers portal - nachfuehren
+@			IN	A	10.37.1.3
+@			IN	AAAA	fd37:b4dc:4b1e::a25:103
+
+; next-node
+nextnode		IN	A	10.37.0.1
+nextnode		IN	AAAA	fd37:b4dc:4b1e::1
+
+; gluon gateways
+spinat          	IN      A       10.37.0.7
+spinat          	IN      AAAA    fd37:b4dc:4b1e::7
+gate07          	IN      CNAME   spinat
+spinat.icvpn		IN	A	10.207.1.37
+spinat.icvpn		IN	AAAA	fec0::a:cf:1:25
+gate07.icvpn		IN	CNAME	spinat.icvpn
+
+lotuswurzel     	IN      A       10.37.0.23
+lotuswurzel     	IN      AAAA    fd37:b4dc:4b1e::17
+gate23          	IN      CNAME   lotuswurzel
+
+ingwer                  IN      A       10.37.0.161
+ingwer                  IN      AAAA    fd37:b4dc:4b1e::a1
+gate161                 IN      CNAME   ingwer
+
+wasserfloh  	   	IN      A       10.37.0.231
+wasserfloh     		IN      AAAA    fd37:b4dc:4b1e::e7
+gate231          	IN      CNAME   wasserfloh
+
+extrasahne        	IN      A       10.37.0.42
+extrasahne        	IN      AAAA    fd37:b4dc:4b1e::a25:2a
+gate42          	IN      CNAME   extrasahne
+
+uffschnitt        	IN      A       10.37.0.101
+uffschnitt        	IN      AAAA    fd37:b4dc:4b1e::65
+gate101          	IN      CNAME   uffschnitt
+
+; internal services and stuff
+7.ntp           	IN      CNAME   spinat
+23.ntp          	IN      CNAME   lotuswurzel
+101.ntp          	IN      CNAME   uffschnitt
+161.ntp                 IN      CNAME   ingwer
+231.ntp           	IN      CNAME   wasserfloh
+
+; NTP pool
+ntp			IN	A	10.37.0.7
+ntp			IN	A	10.37.0.23
+ntp			IN	A	10.37.0.101
+ntp			IN	A	10.37.0.161
+ntp			IN	A	10.37.0.231
+ntp			IN	AAAA	fd37:b4dc:4b1e::7
+ntp			IN	AAAA	fd37:b4dc:4b1e::17
+ntp			IN	AAAA	fd37:b4dc:4b1e::65
+ntp			IN	AAAA	fd37:b4dc:4b1e::a1
+ntp			IN	AAAA	fd37:b4dc:4b1e::e7
+
+; workaround for Gluon
+ntp6			IN	AAAA	fd37:b4dc:4b1e::7
+ntp6			IN	AAAA	fd37:b4dc:4b1e::17
+ntp6			IN	AAAA	fd37:b4dc:4b1e::65
+ntp6			IN	AAAA	fd37:b4dc:4b1e::a1
+ntp6			IN	AAAA	fd37:b4dc:4b1e::e7
+
+aubergine		IN	A	10.37.1.3
+aubergine		IN	AAAA	fd37:b4dc:4b1e::a25:103
+
+zwiebel			IN	A	10.37.1.0
+zwiebel			IN	AAAA	fd37:b4dc:4b1e::a25:100
+
+glueckskeks		IN	A	10.37.1.1
+glueckskeks		IN	AAAA	fd37:b4dc:4b1e::a25:101
+
+zuckerwatte		IN	A	10.37.1.2
+zuckerwatte		IN	AAAA	fd37:b4dc:4b1e::a25:102
+
+suesskartoffel		IN	A	10.37.0.32
+suesskartoffel		IN	AAAA	fd37:b4dc:4b1e::20
+
+unifi			IN	A	10.37.1.5
+unifi			IN	AAAA	fd37:b4dc:4b1e::a25:105
+
+map			IN	CNAME	suesskartoffel
+openwrt			IN	CNAME	aubergine
+lede			IN	CNAME	aubergine
+opkg			IN	CNAME	aubergine
+www			IN	CNAME	aubergine
+portal			IN	CNAME	aubergine
+einzugsgebiet		IN	CNAME	zuckerwatte
+
+; firmware mirrors
+firmware		IN	A	10.37.0.7
+firmware		IN	A	10.37.0.23
+firmware		IN	A	10.37.0.101
+firmware		IN	A	10.37.0.161
+firmware		IN	A	10.37.0.231
+firmware		IN	AAAA	fd37:b4dc:4b1e::7
+firmware		IN	AAAA	fd37:b4dc:4b1e::17
+firmware		IN	AAAA	fd37:b4dc:4b1e::65
+firmware		IN	AAAA	fd37:b4dc:4b1e::a1
+firmware		IN	AAAA	fd37:b4dc:4b1e::e7
+
+; freifunk services
+stats                   IN      A       10.37.1.5
+ostats                  IN      A       10.37.1.5
+jverein			IN	A	10.37.1.200
+
+; freifunk bingen
+mettbroetchen		IN	A	10.37.1.12
+mettbroetchen		IN	AAAA	fd37:b4dc:4b1e::a25:10c
+
+; freifunk rheingau-taunus
+;spundekaes		IN	A	10.37.1.13
+spundekaes              IN      AAAA    fd37:b4dc:4b1e:0:42:aff:fe25:10d
+fwrheingau		IN	CNAME	spundekaes

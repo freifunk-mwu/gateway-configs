@@ -1,0 +1,40 @@
+$ORIGIN 0.0.0.0.e.1.b.4.c.d.4.b.7.3.d.f.ip6.arpa.
+; BIND data file for zone .ffmz.org 
+;
+$TTL    600
+@       IN      SOA     aubergine.ffmz.org. hostmaster.ffmz.org. (
+                     2019022800         ; Serial
+                             2h         ; Refresh
+                             1h         ; Retry
+                            41d         ; Expire
+                            300 )       ; Negative Cache TTL
+;
+@       IN      NS      wasserfloh.ffmz.org.
+@       IN      NS      spinat.ffmz.org.
+@       IN      NS      lotuswurzel.ffmz.org.
+@	IN	NS	ingwer.ffmz.org.
+@	IN	NS	uffschnitt.ffmz.org.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR     nextnode.ffmz.org.
+7.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR     spinat.ffmz.org.
+7.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR     lotuswurzel.ffmz.org.
+0.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0	PTR	suesskartoffel.ffmz.org.
+5.6.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR     uffschnitt.ffmz.org.
+a.2.0.0.5.2.a.0.0.0.0.0.0.0.0.0 PTR     parmesan.ffmz.org.
+1.a.0.0.0.0.0.0.0.0.0.0.0.0.0.0	PTR	ingwer.ffmz.org.
+7.e.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR     wasserfloh.ffmz.org.
+0.0.1.0.5.2.a.0.0.0.0.0.0.0.0.0 PTR     zwiebel.ffmz.org.
+1.0.1.0.5.2.a.0.0.0.0.0.0.0.0.0 PTR     glueckskeks.ffmz.org.
+2.0.1.0.5.2.a.0.0.0.0.0.0.0.0.0 PTR     zuckerwatte.ffmz.org.
+3.0.1.0.5.2.a.0.0.0.0.0.0.0.0.0 PTR     aubergine.ffmz.org.
+
+; freifunk bingen
+c.0.1.0.5.2.a.0.0.0.0.0.0.0.0.0 PTR     mettbroetchen.ffmz.org.
+
+; freifunk rheingau-taunus
+d.0.1.0.5.2.e.f.f.f.a.0.2.4.0.0 PTR     spundekaes.ffmz.org.
+
+; user
+9.3.a.d.7.c.e.f.f.f.0.0.4.5.0.5	PTR	tracker.faultier.user.ffmz.org.
+7.6.7.c.d.a.e.f.f.f.0.3.0.a.a.c	PTR	fon.user.ffmz.org.
+a.0.a.7.5.1.e.f.f.f.0.9.5.2.2.0	PTR	post.user.ffmz.org.

@@ -1,0 +1,38 @@
+$ORIGIN bb.ffmz.org.
+; BIND data file for zone ffmz.org.
+;
+$TTL    600
+@       IN      SOA     aubergine.ffmz.org. hostmaster.ffmz.org. (
+                     2018021800         ; Serial
+                             2h         ; Refresh
+                             1h         ; Retry
+                            41d         ; Expire
+                            300 )       ; Negative Cache TTL
+
+; internal ns server
+@       		IN      NS      wasserfloh.ffmz.org.
+@       		IN      NS      spinat.ffmz.org.
+@       		IN      NS      lotuswurzel.ffmz.org.
+@			IN	NS	ingwer.ffmz.org.
+@			IN	NS	uffschnitt.ffmz.org.
+
+; freifunk backbone
+uk-master.bb            IN      A       10.37.2.1
+uk-sw-1.bb              IN      A       10.37.2.2
+uk-sw-2.bb              IN      A       10.37.2.3
+uk-nsm5-1.bb            CNAME           uk-nsm5-o-100.bb
+uk-nsm5-o-100.bb        IN      A       10.37.2.10
+uk-nsm5-2.bb            CNAME           uk-nsm5-n-112.bb
+uk-nsm5-n-112.bb        IN      A       10.37.2.11
+uk-nsm5-3.bb            CNAME           uk-nsm5-n-108.bb
+uk-nsm5-n-108.bb        IN      A       10.37.2.12
+uk-nsm5-4.bb            IN      A       10.37.2.13
+ht-master.bb            IN      A       10.37.2.30
+ht-nordwest.bb          IN      A       10.37.2.31
+ht-nslm5-1.bb           IN      A       10.37.2.32
+ht-nslm5-2.bb           IN      A       10.37.2.33
+vo-pb-1.bb              IN      A       10.37.2.42
+oimel-uplink.bb         IN      A       10.37.2.190
+pl-master.bb            IN      A       10.37.2.200
+pl-nslm5-1.bb           IN      A       10.37.2.201
+pl-nbm5-1.bb            IN      A       10.37.2.202

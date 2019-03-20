@@ -1,0 +1,40 @@
+$ORIGIN user.ffmz.org.
+; BIND data file for zone ffmz.org.
+;
+$TTL    600
+@       IN      SOA     aubergine.ffmz.org. hostmaster.ffmz.org. (
+                     2018022800         ; Serial
+                             2h         ; Refresh
+                             1h         ; Retry
+                            41d         ; Expire
+                            300 )       ; Negative Cache TTL
+
+; ns server
+@                               IN      NS      wasserfloh.ffmz.org.
+@                               IN      NS      spinat.ffmz.org.
+@                               IN      NS      lotuswurzel.ffmz.org.
+@				IN	NS	ingwer.ffmz.org.
+@                               IN      NS      uffschnitt.ffmz.org.
+
+; Server von Marc
+tracker.faultier		IN	A	10.37.4.1
+tracker.faultier		IN	AAAA	fd37:b4dc:4b1e:0:5054:ff:fec7:da39
+
+mobilcam			IN	A	10.37.4.2
+erik				IN	A	10.37.4.3
+pengspace                       IN	A	10.37.4.10
+wetter                          IN	A	10.37.4.18
+wackelpeter			IN	A	10.37.4.23
+flugzeug                        IN      A       10.37.4.40
+solar				IN	A	10.37.4.41
+fon				IN	A	10.37.4.42
+fon				IN	AAAA	fd37:b4dc:4b1e:0:caa0:30ff:fead:c767
+post				IN	A	10.37.4.44
+post				IN	AAAA	fd37:b4dc:4b1e:0:225:90ff:fe15:7a0a
+hastebin			IN	A	10.37.4.50
+speed				IN	A	10.37.4.65
+speed				IN	AAAA	fd37:b4dc:4b1e:0:5054:ff:feb9:c765
+games				IN	A	10.37.4.65
+games				IN      AAAA    fd37:b4dc:4b1e:0:5054:ff:feb9:c765
+wackelpudding			IN 	A 	10.37.4.66
+

@@ -1,0 +1,30 @@
+$ORIGIN user.ffwi.org.
+; BIND data file for zone ffwi.org.
+;
+$TTL    600
+@       IN      SOA     aubergine.ffwi.org. hostmaster.ffwi.org. (
+                     2018022001         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+
+; ns servers
+@       	IN      NS      wasserfloh.ffwi.org. 
+@       	IN      NS      spinat.ffwi.org.
+@       	IN      NS      lotuswurzel.ffwi.org.
+@		IN	NS	ingwer.ffwi.org.
+@		IN	NS	uffschnitt.ffwi.org.
+
+antigua		IN	A	10.56.4.1
+radio		IN	A	10.56.4.2
+voip		IN	A	10.56.4.3
+hans-pharos	IN	A	10.56.4.4
+hans-pharos	IN	AAAA	fd56:b4dc:4b1e::5054:ff:fe45:f386
+camp		IN	A	10.56.4.53
+magic		IN	A	10.56.4.88
+magic		IN	AAAA	fd56:b4dc:4b1e:0:ba27:ebff:fe62:72af
+piratebox	IN	A	10.56.4.99
+piratebox	IN	AAAA	fd56:b4dc:4b1e::53:9ff:fe02:c0b5
+loragateway1wi	IN	AAAA	fd56:b4dc:4b1e::ba27:ebff:fe73:e5d
+loragateway1wi	IN	A	10.56.4.200

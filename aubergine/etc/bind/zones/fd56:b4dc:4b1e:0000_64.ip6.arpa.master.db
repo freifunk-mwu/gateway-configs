@@ -1,0 +1,39 @@
+$ORIGIN 0.0.0.0.e.1.b.4.c.d.4.b.6.5.d.f.ip6.arpa.
+; BIND data file for zone .ffwi.org 
+;
+$TTL    600
+@       IN      SOA     aubergine.ffwi.org. hostmaster.ffwi.org. (
+                     2019022800         ; Serial
+                             2h         ; Refresh
+                             1h         ; Retry
+                            41d         ; Expire
+                            300 )       ; Negative Cache TTL
+;
+@       IN      NS      wasserfloh.ffwi.org.
+@       IN      NS      spinat.ffwi.org.
+@       IN      NS      lotuswurzel.ffwi.org.
+@	IN	NS	ingwer.ffwi.org.
+@	IN	NS	uffschnitt.ffwi.org.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR     nextnode.ffwi.org.
+7.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR     spinat.ffwi.org.
+7.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR     lotuswurzel.ffwi.org.
+0.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0	PTR	suesskartoffel.ffwi.org
+5.6.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR     uffschnitt.ffwi.org.
+a.2.0.0.8.3.a.0.0.0.0.0.0.0.0.0 PTR     parmesan.ffwi.org.
+1.a.0.0.0.0.0.0.0.0.0.0.0.0.0.0	PTR	ingwer.ffwi.org.
+7.e.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR     wasserfloh.ffwi.org.
+0.0.1.0.8.3.a.0.0.0.0.0.0.0.0.0 PTR     zwiebel.ffwi.org.
+1.0.1.0.8.3.a.0.0.0.0.0.0.0.0.0 PTR     glueckskeks.ffwi.org.
+2.0.1.0.8.3.a.0.0.0.0.0.0.0.0.0 PTR     zuckerwatte.ffwi.org.
+3.0.1.0.8.3.a.0.0.0.0.0.0.0.0.0 PTR     aubergine.ffwi.org.
+
+; freifunk rheingau-taunus
+d.0.1.0.8.3.e.f.f.f.a.0.2.4.0.0	PTR	spundekaes.ffwi.org.
+
+; bb nodes
+
+; user services
+5.b.0.c.2.0.e.f.f.f.9.0.3.5.0.0	PTR	piratebox.user.ffwi.org.
+d.e.d.f.9.7.e.f.f.f.0.0.4.5.0.5 PTR	blizzard.user.ffwi.org.
+f.a.2.7.2.6.e.f.f.f.b.e.7.2.a.b PTR	magic.user.ffwi.org.

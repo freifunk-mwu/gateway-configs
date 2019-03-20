@@ -1,0 +1,40 @@
+; BIND data file for zone ffbin
+;
+$TTL    600
+@       IN      SOA     aubergine.ffbin. hostmaster.ffbin. (
+                     2019020402         ; Serial
+                             2h         ; Refresh
+                             1h         ; Retry
+                            41d         ; Expire
+                            300 )       ; Negative Cache TTL
+
+; internal ns server
+@                       IN      NS      wasserfloh.ffbin.
+@                       IN      NS      spinat.ffbin.
+@                       IN      NS      lotuswurzel.ffbin.
+@                       IN      NS      ingwer.ffbin.
+@                       IN      NS      uffschnitt.ffbin.
+
+; gluon gateways
+spinat			IN      A       10.37.0.7
+spinat			IN      AAAA    fd37:b4dc:4b1e::7
+
+lotuswurzel		IN      A       10.37.0.23
+lotuswurzel		IN      AAAA    fd37:b4dc:4b1e::17
+
+ingwer			IN	A	10.37.0.161
+ingwer			IN	AAAA	fd37:b4dc:4b1e::a1
+
+wasserfloh  	   	IN      A       10.37.0.231
+wasserfloh     		IN      AAAA    fd37:b4dc:4b1e::e7
+
+uffschnitt		IN      A       10.37.0.101
+uffschnitt		IN      AAAA    fd37:b4dc:4b1e::65
+
+aubergine               IN      A       10.37.1.3
+aubergine               IN      AAAA    fd37:b4dc:4b1e::a25:103
+
+zuckerwatte             IN      A       10.37.1.2
+zuckerwatte             IN      AAAA    fd37:b4dc:4b1e::a25:102
+
+firmware		IN	CNAME	zuckerwatte
