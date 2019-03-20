@@ -15,9 +15,9 @@ ii  apache2-doc                             2.4.7-1ubuntu4.21                   
 ii  apache2-utils                           2.4.7-1ubuntu4.21                                    amd64        Apache HTTP Server (utility programs for web servers)
 ii  apport                                  2.14.1-0ubuntu3.29                                   all          automatically generate crash reports for debugging
 ii  apport-symptoms                         0.20                                                 all          symptom scripts for apport
-ii  apt                                     1.0.1ubuntu2.19                                      amd64        commandline package manager
-ii  apt-transport-https                     1.0.1ubuntu2.19                                      amd64        https download transport for APT
-ii  apt-utils                               1.0.1ubuntu2.19                                      amd64        package management related utility programs
+ii  apt                                     1.0.1ubuntu2.20                                      amd64        commandline package manager
+ii  apt-transport-https                     1.0.1ubuntu2.20                                      amd64        https download transport for APT
+ii  apt-utils                               1.0.1ubuntu2.20                                      amd64        package management related utility programs
 ii  apt-xapian-index                        0.45ubuntu4                                          all          maintenance and search tools for a Xapian index of Debian packages
 ii  aptitude                                0.6.8.2-1ubuntu4                                     amd64        terminal-based package manager
 ii  aptitude-common                         0.6.8.2-1ubuntu4                                     all          architecture indepedent files for the aptitude package manager
@@ -25,7 +25,7 @@ ii  at                                      3.1.14-1ubuntu1                     
 ii  autoconf                                2.69-6                                               all          automatic configure script builder
 ii  automake1.9                             1.9.6+nogfdl-4ubuntu1                                all          A tool for generating GNU Standards-compliant Makefiles
 ii  autotools-dev                           20130810.1                                           all          Update infrastructure for config.{guess,sub} files
-ii  base-files                              7.2ubuntu5.5                                         amd64        Debian base system miscellaneous files
+ii  base-files                              7.2ubuntu5.6                                         amd64        Debian base system miscellaneous files
 ii  base-passwd                             3.5.33                                               amd64        Debian base system master password and group files
 ii  bash                                    4.3-7ubuntu1.7                                       amd64        GNU Bourne Again SHell
 ii  batadv-vis                              2017.1-0ffmwu0~trusty                                amd64        batadv-vis - visualize your batman-adv mesh network
@@ -37,7 +37,7 @@ ii  bind9-host                              1:9.9.5.dfsg-3ubuntu0.19            
 ii  bind9utils                              1:9.9.5.dfsg-3ubuntu0.19                             amd64        Utilities for BIND
 ii  binutils                                2.24-5ubuntu14.2                                     amd64        GNU assembler, linker and binary utilities
 ii  biosdevname                             0.4.1-0ubuntu6.3                                     amd64        apply BIOS-given names to network devices
-ii  bird                                    1.6.3-1+trusty+1                                     amd64        Internet Routing Daemon
+ii  bird                                    1.6.6-1+ubuntu14.04.1+deb.sury.org+1                 amd64        Internet Routing Daemon
 ii  bird6                                   1.5.0-1+trusty+1                                     all          Internet Routing Daemon [transitional packages]
 ii  bridge-utils                            1.5-6ubuntu2                                         amd64        Utilities for configuring the Linux Ethernet bridge
 ii  bsdmainutils                            9.0.5ubuntu1                                         amd64        collection of more utilities from FreeBSD
@@ -64,7 +64,7 @@ ii  debconf-i18n                            1.5.51ubuntu2                       
 ii  debianutils                             4.4                                                  amd64        Miscellaneous utilities specific to Debian
 ii  dh-python                               1.20140128-1ubuntu8.2                                all          Debian helper tools for packaging Python libraries and applications
 ii  diffutils                               1:3.3-1                                              amd64        File comparison utilities
-ii  dkms                                    2.2.0.3-1.1ubuntu5.14.04.9                           all          Dynamic Kernel Module Support Framework
+ii  dkms                                    2.2.0.3-1.1ubuntu5.14.04.10                          all          Dynamic Kernel Module Support Framework
 ii  dmidecode                               2.12-2                                               amd64        SMBIOS/DMI table decoder
 ii  dmsetup                                 2:1.02.77-6ubuntu2                                   amd64        Linux Kernel Device Mapper userspace library
 ii  dnsutils                                1:9.9.5.dfsg-3ubuntu0.19                             amd64        Clients provided with BIND
@@ -137,7 +137,7 @@ ii  keyboard-configuration                  1.70ubuntu8                         
 ii  klibc-utils                             2.0.3-0ubuntu1.14.04.3                               amd64        small utilities built with klibc for early boot
 ii  kmod                                    15-0ubuntu7                                          amd64        tools for managing Linux kernel modules
 ii  krb5-locales                            1.12+dfsg-2ubuntu5.4                                 all          Internationalization support for MIT Kerberos
-ii  landscape-common                        14.12-0ubuntu6.14.04.3                               amd64        The Landscape administration system client - Common files
+ii  landscape-common                        14.12-0ubuntu6.14.04.4                               amd64        The Landscape administration system client - Common files
 ii  laptop-detect                           0.13.7ubuntu2                                        amd64        attempt to detect a laptop
 ii  less                                    458-2                                                amd64        pager program similar to more
 ii  libacl1:amd64                           2.2.52-1                                             amd64        Access control list shared library
@@ -151,8 +151,8 @@ ii  libapr1:amd64                           1.5.0-1                             
 ii  libaprutil1:amd64                       1.5.3-1                                              amd64        Apache Portable Runtime Utility Library
 ii  libaprutil1-dbd-sqlite3:amd64           1.5.3-1                                              amd64        Apache Portable Runtime Utility Library - SQLite3 Driver
 ii  libaprutil1-ldap:amd64                  1.5.3-1                                              amd64        Apache Portable Runtime Utility Library - LDAP Driver
-ii  libapt-inst1.5:amd64                    1.0.1ubuntu2.19                                      amd64        deb package format runtime library
-ii  libapt-pkg4.12:amd64                    1.0.1ubuntu2.19                                      amd64        package management runtime library
+ii  libapt-inst1.5:amd64                    1.0.1ubuntu2.20                                      amd64        deb package format runtime library
+ii  libapt-pkg4.12:amd64                    1.0.1ubuntu2.20                                      amd64        package management runtime library
 ii  libarchive-extract-perl                 0.70-1                                               all          generic archive extracting module
 ii  libasan0:amd64                          4.8.4-2ubuntu1~14.04.4                               amd64        AddressSanitizer -- a fast memory error detector
 ii  libasn1-8-heimdal:amd64                 1.6~git20131207+dfsg-1ubuntu1.2                      amd64        Heimdal Kerberos - ASN.1 library
@@ -767,8 +767,9 @@ ii  ttf-dejavu                              2.34-1ubuntu1                       
 ii  ttf-dejavu-core                         2.34-1ubuntu1                                        all          transitional dummy package
 ii  ttf-dejavu-extra                        2.34-1ubuntu1                                        all          transitional dummy package
 ii  tzdata                                  2018i-0ubuntu0.14.04                                 all          time zone and daylight-saving time data
+ii  ubuntu-advantage-tools                  10ubuntu0.14.04.2                                    all          management tools for Ubuntu Advantage
 ii  ubuntu-keyring                          2012.05.19                                           all          GnuPG keys of the Ubuntu archive
-ii  ubuntu-minimal                          1.325                                                amd64        Minimal core of Ubuntu
+ii  ubuntu-minimal                          1.325.1                                              amd64        Minimal core of Ubuntu
 ii  ubuntu-release-upgrader-core            1:0.220.10                                           all          manage release upgrades
 ii  ucf                                     3.0027+nmu1                                          all          Update Configuration File(s): preserve user changes to config files
 ii  udev                                    204-5ubuntu20.29                                     amd64        /dev/ and hotplug management daemon
