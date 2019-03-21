@@ -2,7 +2,7 @@
 ;
 $TTL	3600
 @	IN	SOA	linse.freifunk-mwu.de. hostmaster.freifunk-mwu.de. (
-		     2019031900		; Serial
+		     2019031901		; Serial
 			     2h		; Refresh
 			     1h		; Retry
 			    41d		; Expire
@@ -123,6 +123,7 @@ phpmyadmin	IN	CNAME	zuckerwatte
 files		IN	CNAME	sushi
 md		IN	CNAME	md.n0trax.io.
 dns-int		IN	CNAME	kichererbse
+dns-ext		IN	CNAME	linse
 
 ; mail
 lists		IN	A	5.199.136.244
