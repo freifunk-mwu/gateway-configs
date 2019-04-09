@@ -49,10 +49,10 @@ ii  bzip2                                   1.0.6-5                             
 ii  ca-certificates                         20170717~14.04.2                                     all          Common CA certificates
 ii  cabextract                              1.4-4                                                amd64        Microsoft Cabinet file unpacker
 ii  check-mk-agent                          1.2.6p12-1                                           all          Check_MK Agent for Linux
-ii  clamav                                  0.100.2+dfsg-1ubuntu0.14.04.2                        amd64        anti-virus utility for Unix - command-line interface
-ii  clamav-base                             0.100.2+dfsg-1ubuntu0.14.04.2                        all          anti-virus utility for Unix - base package
-ii  clamav-daemon                           0.100.2+dfsg-1ubuntu0.14.04.2                        amd64        anti-virus utility for Unix - scanner daemon
-ii  clamav-freshclam                        0.100.2+dfsg-1ubuntu0.14.04.2                        amd64        anti-virus utility for Unix - virus database update utility
+ii  clamav                                  0.100.3+dfsg-0ubuntu0.14.04.1                        amd64        anti-virus utility for Unix - command-line interface
+ii  clamav-base                             0.100.3+dfsg-0ubuntu0.14.04.1                        all          anti-virus utility for Unix - base package
+ii  clamav-daemon                           0.100.3+dfsg-0ubuntu0.14.04.1                        amd64        anti-virus utility for Unix - scanner daemon
+ii  clamav-freshclam                        0.100.3+dfsg-0ubuntu0.14.04.1                        amd64        anti-virus utility for Unix - virus database update utility
 ii  command-not-found                       0.3ubuntu12                                          all          Suggest installation of packages in interactive bash sessions
 ii  command-not-found-data                  0.3ubuntu12                                          amd64        Set of data files for command-not-found.
 ii  console-setup                           1.70ubuntu8                                          all          console font and keymap setup program
@@ -210,7 +210,7 @@ ii  libcdb1:amd64                           0.78                                
 ii  libcgmanager0:amd64                     0.24-0ubuntu7.5                                      amd64        Central cgroup manager daemon (client library)
 ii  libck-connector0:amd64                  0.4.5-3.1ubuntu2                                     amd64        ConsoleKit libraries
 rc  libclamav6                              0.98.7+dfsg-0ubuntu0.14.04.1                         amd64        anti-virus utility for Unix - library
-ii  libclamav7                              0.100.2+dfsg-1ubuntu0.14.04.2                        amd64        anti-virus utility for Unix - library
+ii  libclamav7                              0.100.3+dfsg-0ubuntu0.14.04.1                        amd64        anti-virus utility for Unix - library
 ii  libclass-accessor-perl                  0.34-1                                               all          Perl module that automatically generates accessors
 ii  libcloog-isl4:amd64                     0.18.2-1                                             amd64        Chunky Loop Generator (runtime library)
 ii  libcomerr2:amd64                        1.42.9-3ubuntu1.3                                    amd64        common error description library
@@ -399,7 +399,7 @@ ii  libpam-cap:amd64                        1:2.24-0ubuntu2                     
 ii  libpam-modules:amd64                    1.1.8-1ubuntu2.2                                     amd64        Pluggable Authentication Modules for PAM
 ii  libpam-modules-bin                      1.1.8-1ubuntu2.2                                     amd64        Pluggable Authentication Modules for PAM - helper binaries
 ii  libpam-runtime                          1.1.8-1ubuntu2.2                                     all          Runtime support for the PAM library
-ii  libpam-systemd:amd64                    204-5ubuntu20.29                                     amd64        system and service manager - PAM module
+ii  libpam-systemd:amd64                    204-5ubuntu20.31                                     amd64        system and service manager - PAM module
 ii  libpam0g:amd64                          1.1.8-1ubuntu2.2                                     amd64        Pluggable Authentication Modules library
 ii  libpango-1.0-0:amd64                    1.36.3-1ubuntu1.1                                    amd64        Layout and rendering of internationalized text
 ii  libpango1.0-dev                         1.36.3-1ubuntu1.1                                    amd64        Development files for the Pango
@@ -476,8 +476,8 @@ ii  libstdc++-4.8-dev:amd64                 4.8.4-2ubuntu1~14.04.4              
 ii  libstdc++6:amd64                        4.8.4-2ubuntu1~14.04.4                               amd64        GNU Standard C++ Library v3
 ii  libsub-name-perl                        0.05-1build4                                         amd64        module for assigning a new name to referenced sub
 ii  libsys-hostname-long-perl               1.4-3                                                all          Figure out the long (fully-qualified) hostname
-ii  libsystemd-daemon0:amd64                204-5ubuntu20.29                                     amd64        systemd utility library
-ii  libsystemd-login0:amd64                 204-5ubuntu20.29                                     amd64        systemd login utility library
+ii  libsystemd-daemon0:amd64                204-5ubuntu20.31                                     amd64        systemd utility library
+ii  libsystemd-login0:amd64                 204-5ubuntu20.31                                     amd64        systemd login utility library
 ii  libtasn1-6:amd64                        3.4-3ubuntu0.6                                       amd64        Manage ASN.1 structures (runtime)
 ii  libterm-readkey-perl                    2.31-1                                               amd64        perl module for simple terminal control
 ii  libterm-ui-perl                         0.42-1                                               all          Term::ReadLine UI made easy
@@ -491,7 +491,7 @@ ii  libtiff5:amd64                          4.0.3-7ubuntu0.11                   
 ii  libtimedate-perl                        2.3000-1                                             all          collection of modules to manipulate date/time information
 ii  libtinfo5:amd64                         5.9+20140118-1ubuntu1                                amd64        shared low-level terminfo library for terminal handling
 ii  libtsan0:amd64                          4.8.4-2ubuntu1~14.04.4                               amd64        ThreadSanitizer -- a Valgrind-based detector of data races (runtime)
-ii  libudev1:amd64                          204-5ubuntu20.29                                     amd64        libudev shared library
+ii  libudev1:amd64                          204-5ubuntu20.31                                     amd64        libudev shared library
 ii  libuecc0                                6-0uf1                                               amd64        very small Elliptic Curve Cryptography library
 ii  libunbound2:amd64                       1.4.22-1ubuntu4.14.04.3                              amd64        library implementing DNS resolution and validation
 ii  libunistring0:amd64                     0.9.3-5ubuntu3                                       amd64        Unicode string library for C
@@ -891,7 +891,7 @@ ii  ssl-cert                                1.0.33                              
 ii  strace                                  4.8-1ubuntu5                                         amd64        A system call tracer
 ii  sudo                                    1.8.9p5-1ubuntu1.4                                   amd64        Provide limited super user privileges to specific users
 ii  sysstat                                 10.2.0-1                                             amd64        system performance tools for Linux
-ii  systemd-services                        204-5ubuntu20.29                                     amd64        systemd runtime services
+ii  systemd-services                        204-5ubuntu20.31                                     amd64        systemd runtime services
 ii  systemd-shim                            6-2bzr1                                              amd64        shim for systemd
 ii  sysv-rc                                 2.88dsf-41ubuntu6.3                                  all          System-V-like runlevel change mechanism
 ii  sysvinit-utils                          2.88dsf-41ubuntu6.3                                  amd64        System-V-like utilities
@@ -914,7 +914,7 @@ ii  ubuntu-minimal                          1.325.1                             
 ii  ubuntu-release-upgrader-core            1:0.220.10                                           all          manage release upgrades
 ii  ubuntu-standard                         1.325.1                                              amd64        The Ubuntu standard system
 ii  ucf                                     3.0027+nmu1                                          all          Update Configuration File(s): preserve user changes to config files
-ii  udev                                    204-5ubuntu20.29                                     amd64        /dev/ and hotplug management daemon
+ii  udev                                    204-5ubuntu20.31                                     amd64        /dev/ and hotplug management daemon
 ii  ufw                                     0.34~rc-0ubuntu2                                     all          program for managing a Netfilter firewall
 ii  unattended-upgrades                     0.82.1ubuntu2.5                                      all          automatic installation of security upgrades
 ii  unbound                                 1.4.22-1ubuntu4.14.04.3                              amd64        validating, recursive, caching DNS resolver
