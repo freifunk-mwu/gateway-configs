@@ -941,7 +941,7 @@ ii  whiptail                                0.52.15-2ubuntu5                    
 ii  whois                                   5.1.1                                                amd64        intelligent WHOIS client
 ii  wireless-regdb                          2013.02.13-1ubuntu1                                  all          wireless regulatory database
 ii  wireless-tools                          30~pre9-8ubuntu1                                     amd64        Tools for manipulating Linux Wireless Extensions
-ii  wpasupplicant                           2.1-0ubuntu1.6                                       amd64        client support for WPA and WPA2 (IEEE 802.11i)
+ii  wpasupplicant                           2.1-0ubuntu1.7                                       amd64        client support for WPA and WPA2 (IEEE 802.11i)
 ii  x11-common                              1:7.7+1ubuntu8.1                                     all          X Window System (X.Org) infrastructure
 ii  x11proto-core-dev                       7.0.26-1~ubuntu2                                     all          X11 core wire protocol and auxiliary headers
 ii  x11proto-input-dev                      2.3-1                                                all          X11 Input extension wire protocol
