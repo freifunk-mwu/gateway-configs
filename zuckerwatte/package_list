@@ -870,7 +870,7 @@ ii  wordpress                               3.8.2+dfsg-1ubuntu0.1               
 ii  wordpress-l10n                          3.8.2+dfsg-1ubuntu0.1                                all          weblog manager - language files
 ii  wordpress-theme-twentyfourteen          3.8.2+dfsg-1ubuntu0.1                                all          weblog manager - twentyfourteen theme files
 ii  wordpress-theme-twentytwelve            3.8.2+dfsg-1ubuntu0.1                                all          weblog manager - twentyttwelve theme files
-ii  wpasupplicant                           2.1-0ubuntu1.6                                       amd64        client support for WPA and WPA2 (IEEE 802.11i)
+ii  wpasupplicant                           2.1-0ubuntu1.7                                       amd64        client support for WPA and WPA2 (IEEE 802.11i)
 rc  x11-common                              1:7.7+1ubuntu8.1                                     all          X Window System (X.Org) infrastructure
 ii  xauth                                   1:1.0.7-1ubuntu1                                     amd64        X authentication utility
 ii  xkb-data                                2.10.1-1ubuntu1                                      all          X Keyboard Extension (XKB) configuration data
