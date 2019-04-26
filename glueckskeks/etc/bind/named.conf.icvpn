@@ -87,6 +87,11 @@ zone "160.11.10.in-addr.arpa" {
     server-addresses { 10.11.160.42; 10.15.224.42; fdef:1701:b5ee:42::1; };
 };
 
+zone "224.15.10.in-addr.arpa" {
+    type static-stub;
+    server-addresses { 10.11.160.42; 10.15.224.42; fdef:1701:b5ee:42::1; };
+};
+
 zone "e.e.5.b.1.0.7.1.f.e.d.f.ip6.arpa" {
     type static-stub;
     server-addresses { 10.11.160.42; 10.15.224.42; fdef:1701:b5ee:42::1; };
