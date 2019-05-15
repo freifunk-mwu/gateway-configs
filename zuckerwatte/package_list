@@ -149,7 +149,7 @@ ii  initscripts                             2.88dsf-41ubuntu6.3                 
 ii  insserv                                 1.14.0-5ubuntu2                                      amd64        boot sequence organizer using LSB init.d script dependency information
 ii  install-info                            5.2.0.dfsg.1-2                                       amd64        Manage installed documentation in info format
 ii  installation-report                     2.54ubuntu1                                          all          system installation report
-ii  intel-microcode                         3.20180807a.0ubuntu0.14.04.1                         amd64        Processor microcode firmware for Intel CPUs
+ii  intel-microcode                         3.20190514.0ubuntu0.14.04.1                          amd64        Processor microcode firmware for Intel CPUs
 ii  intltool-debian                         0.35.0+20060710.1                                    all          Help i18n of RFC822 compliant config files
 ii  iproute                                 1:3.12.0-2ubuntu1.2                                  all          transitional dummy package for iproute2
 ii  iproute2                                3.12.0-2ubuntu1.2                                    amd64        networking and traffic control tools
