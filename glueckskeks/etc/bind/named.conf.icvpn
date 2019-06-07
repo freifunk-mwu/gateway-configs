@@ -77,11 +77,6 @@ zone "ffbit" {
 # 
 # bodensee
 # 
-zone "ffbsee.net" {
-    type static-stub;
-    server-addresses { 10.11.160.42; 10.15.224.42; fdef:1701:b5ee:42::1; };
-};
-
 zone "160.11.10.in-addr.arpa" {
     type static-stub;
     server-addresses { 10.11.160.42; 10.15.224.42; fdef:1701:b5ee:42::1; };
