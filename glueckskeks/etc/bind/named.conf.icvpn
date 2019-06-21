@@ -985,19 +985,6 @@ zone "2.4.3.2.0.6.2.2.3.0.a.2.ip6.arpa" {
 };
 
 # 
-# hueckeswagen
-# 
-zone "2.9.1.2.1.0.8.a.d.f.b.e.f.d.d.f.ip6.arpa" {
-    type static-stub;
-    server-addresses { 10.146.1.0; };
-};
-
-zone "146.10.in-addr.arpa" {
-    type static-stub;
-    server-addresses { 10.146.1.0; };
-};
-
-# 
 # ingolstadt
 # 
 zone "ffin" {
