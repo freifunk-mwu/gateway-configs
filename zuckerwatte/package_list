@@ -12,6 +12,7 @@ ii  amd64-microcode                         3.20180524.1~ubuntu0.14.04.2+really2
 ii  apache2                                 2.4.7-1ubuntu4.22                                    amd64        Apache HTTP Server
 ii  apache2-bin                             2.4.7-1ubuntu4.22                                    amd64        Apache HTTP Server (binary files and modules)
 ii  apache2-data                            2.4.7-1ubuntu4.22                                    all          Apache HTTP Server (common files)
+ii  apache2-utils                           2.4.7-1ubuntu4.22                                    amd64        Apache HTTP Server (utility programs for web servers)
 ii  apg                                     2.2.3.dfsg.1-2ubuntu1                                amd64        Automated Password Generator - Standalone version
 ii  apparmor                                2.10.95-0ubuntu2.6~14.04.4                           amd64        user-space parser utility for AppArmor
 ii  apport                                  2.14.1-0ubuntu3.29                                   all          automatically generate crash reports for debugging
