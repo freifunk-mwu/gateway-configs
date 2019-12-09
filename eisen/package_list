@@ -59,6 +59,8 @@ ii  findutils                               4.4.2-7                             
 ii  fontconfig                              2.11.0-0ubuntu4.2                                    amd64        generic font configuration library - support binaries
 ii  fontconfig-config                       2.11.0-0ubuntu4.2                                    all          generic font configuration library - configuration
 ii  fonts-dejavu-core                       2.34-1ubuntu1                                        all          Vera font family derivate with additional characters
+ii  fsarchiver                              0.6.19-1                                             amd64        file system archiver
+ii  fuse                                    2.9.2-4ubuntu4.14.04.1                               amd64        Filesystem in Userspace
 ii  g++                                     4:4.8.2-1ubuntu6                                     amd64        GNU C++ compiler
 ii  g++-4.8                                 4.8.4-2ubuntu1~14.04.4                               amd64        GNU C++ compiler
 ii  gawk                                    1:4.0.1+dfsg-2.1ubuntu2                              amd64        GNU awk, a pattern scanning and processing language
@@ -114,6 +116,7 @@ ii  kbd                                     1.15.5-1ubuntu1                     
 ii  keyboard-configuration                  1.70ubuntu8                                          all          system-wide keyboard preferences
 ii  klibc-utils                             2.0.3-0ubuntu1.14.04.3                               amd64        small utilities built with klibc for early boot
 ii  kmod                                    15-0ubuntu7                                          amd64        tools for managing Linux kernel modules
+ii  kpartx                                  0.4.9-3ubuntu7.16                                    amd64        create device mappings for partitions
 ii  krb5-locales                            1.12+dfsg-2ubuntu5.4                                 all          Internationalization support for MIT Kerberos
 ii  less                                    458-2                                                amd64        pager program similar to more
 ii  libacl1:amd64                           2.2.52-1                                             amd64        Access control list shared library
@@ -253,7 +256,10 @@ ii  liblockfile1:amd64                      1.09-6ubuntu1                       
 ii  liblog-message-simple-perl              0.10-1                                               all          simplified interface to Log::Message
 ii  liblua5.2-0:amd64                       5.2.3-1                                              amd64        Shared library for the Lua interpreter version 5.2
 ii  liblwres90                              1:9.9.5.dfsg-3ubuntu0.19                             amd64        Lightweight Resolver Library used by BIND
+ii  liblz4-1:amd64                          0.0~r114-2ubuntu1                                    amd64        Fast LZ compression algorithm library - runtime
+ii  liblz4-tool                             0.0~r114-2ubuntu1                                    amd64        Fast LZ compression algorithm library - tool
 ii  liblzma5:amd64                          5.1.1alpha+20120614-2ubuntu2                         amd64        XZ-format compression library
+ii  liblzo2-2:amd64                         2.06-1.2ubuntu1.1                                    amd64        data compression library
 ii  libmagic1:amd64                         1:5.14-2ubuntu3.4                                    amd64        File type determination library using "magic" numbers
 ii  libmnl0:amd64                           1.0.3-3ubuntu1                                       amd64        minimalistic Netlink communication library
 ii  libmodule-pluggable-perl                5.1-1                                                all          module for giving  modules the ability to have plugins
@@ -502,6 +508,7 @@ ii  pm-utils                                1.4.1-13ubuntu0.2                   
 ii  postfix                                 2.11.0-1ubuntu1.2                                    amd64        High-performance mail transport agent
 ii  powermgmt-base                          1.31build1                                           amd64        Common utils and configs for power management
 ii  procps                                  1:3.3.9-1ubuntu2.3                                   amd64        /proc file system utilities
+ii  pv                                      1.2.0-1                                              amd64        Shell pipeline element to meter data passing through
 ii  python                                  2.7.5-5ubuntu3                                       amd64        interactive high-level object-oriented language (default version)
 ii  python-chardet                          2.0.1-2build2                                        all          universal character encoding detector
 ii  python-chardet-whl                      2.2.1-2~ubuntu1                                      all          universal character encoding detector
@@ -566,6 +573,7 @@ ii  socat                                   1.7.2.3-1                           
 ii  spice-client                            0.12.4-0nocelt2ubuntu1.8                             amd64        Implements the client side of the SPICE protocol
 ii  ssh                                     1:6.6p1-2ubuntu2.13                                  all          secure shell client and server (metapackage)
 ii  ssh-import-id                           3.21-0ubuntu1                                        all          securely retrieve an SSH public key and install it locally
+ii  sshfs                                   2.5-1ubuntu1                                         amd64        filesystem client based on SSH File Transfer Protocol
 ii  ssl-cert                                1.0.33                                               all          simple debconf wrapper for OpenSSL
 ii  sudo                                    1.8.9p5-1ubuntu1.4                                   amd64        Provide limited super user privileges to specific users
 ii  sysstat                                 10.2.0-1                                             amd64        system performance tools for Linux
