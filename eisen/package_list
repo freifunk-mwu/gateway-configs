@@ -9,8 +9,9 @@ ii  amd64-microcode                         3.20180524.1~ubuntu0.14.04.2+really2
 ii  apache2                                 2.4.7-1ubuntu4.22                                    amd64        Apache HTTP Server
 ii  apache2-bin                             2.4.7-1ubuntu4.22                                    amd64        Apache HTTP Server (binary files and modules)
 ii  apache2-data                            2.4.7-1ubuntu4.22                                    all          Apache HTTP Server (common files)
-ii  apt                                     1.0.1ubuntu2.23                                      amd64        commandline package manager
-ii  apt-utils                               1.0.1ubuntu2.23                                      amd64        package management related utility programs
+ii  apt                                     1.0.1ubuntu2.24                                      amd64        commandline package manager
+ii  apt-transport-https                     1.0.1ubuntu2.24                                      amd64        https download transport for APT
+ii  apt-utils                               1.0.1ubuntu2.24                                      amd64        package management related utility programs
 ii  augeas-lenses                           1.2.0-0ubuntu1.3                                     all          Set of lenses needed by libaugeas0 to parse config files
 ii  base-files                              7.2ubuntu5.6                                         amd64        Debian base system miscellaneous files
 ii  base-passwd                             3.5.33                                               amd64        Debian base system master password and group files
@@ -129,8 +130,8 @@ ii  libapr1:amd64                           1.5.0-1                             
 ii  libaprutil1:amd64                       1.5.3-1                                              amd64        Apache Portable Runtime Utility Library
 ii  libaprutil1-dbd-sqlite3:amd64           1.5.3-1                                              amd64        Apache Portable Runtime Utility Library - SQLite3 Driver
 ii  libaprutil1-ldap:amd64                  1.5.3-1                                              amd64        Apache Portable Runtime Utility Library - LDAP Driver
-ii  libapt-inst1.5:amd64                    1.0.1ubuntu2.23                                      amd64        deb package format runtime library
-ii  libapt-pkg4.12:amd64                    1.0.1ubuntu2.23                                      amd64        package management runtime library
+ii  libapt-inst1.5:amd64                    1.0.1ubuntu2.24                                      amd64        deb package format runtime library
+ii  libapt-pkg4.12:amd64                    1.0.1ubuntu2.24                                      amd64        package management runtime library
 ii  libarchive-extract-perl                 0.70-1                                               all          generic archive extracting module
 ii  libasan0:amd64                          4.8.4-2ubuntu1~14.04.4                               amd64        AddressSanitizer -- a fast memory error detector
 ii  libasn1-8-heimdal:amd64                 1.6~git20131207+dfsg-1ubuntu1.2                      amd64        Heimdal Kerberos - ASN.1 library
@@ -401,6 +402,7 @@ ii  libxrender1:amd64                       1:0.9.8-1build0.14.04.1             
 ii  libxslt1.1:amd64                        1.1.28-2ubuntu0.2                                    amd64        XSLT 1.0 processing library - runtime library
 ii  libxtables10                            1.4.21-1ubuntu1                                      amd64        netfilter xtables library
 ii  libyajl2:amd64                          2.0.4-4                                              amd64        Yet Another JSON Library
+ii  libyaml-0-2:amd64                       0.1.4-3ubuntu3.1                                     amd64        Fast YAML 1.1 parser and emitter library
 ii  linux-base                              4.5ubuntu1~14.04.1                                   all          Linux image base package
 ii  linux-firmware                          1.127.24                                             all          Firmware for Linux kernel drivers
 rc  linux-image-3.13.0-100-generic          3.13.0-100.147                                       amd64        Linux kernel image for version 3.13.0 on 64 bit x86 SMP
@@ -549,6 +551,7 @@ ii  python3-setuptools                      3.3-1ubuntu2                        
 ii  python3-six                             1.5.2-1ubuntu1.1                                     all          Python 2 and 3 compatibility library (Python 3 interface)
 ii  python3-urllib3                         1.7.1-1ubuntu4.1                                     all          HTTP library with thread-safe connection pooling for Python3
 ii  python3-wheel                           0.24.0-1~ubuntu1.1                                   all          built-package format for Python
+ii  python3-yaml                            3.10-4ubuntu0.1                                      amd64        YAML parser and emitter for Python3
 ii  python3.4                               3.4.3-1ubuntu1~14.04.7                               amd64        Interactive high-level object-oriented language (version 3.4)
 ii  python3.4-dev                           3.4.3-1ubuntu1~14.04.7                               amd64        Header files and a static library for Python (v3.4)
 ii  python3.4-minimal                       3.4.3-1ubuntu1~14.04.7                               amd64        Minimal subset of the Python language (version 3.4)
@@ -587,7 +590,7 @@ ii  tcpdump                                 4.9.2-0ubuntu0.14.04.1              
 ii  telnet                                  0.17-36build2                                        amd64        The telnet client
 ii  traceroute                              1:2.0.20-0ubuntu0.1                                  amd64        Traces the route taken by packets over an IPv4/IPv6 network
 ii  tzdata                                  2019a-0ubuntu0.14.04                                 all          time zone and daylight-saving time data
-ii  ubuntu-advantage-tools                  10ubuntu0.14.04.3                                    all          management tools for Ubuntu Advantage
+ii  ubuntu-advantage-tools                  19.6~ubuntu14.04.3                                   amd64        management tools for Ubuntu Advantage
 ii  ubuntu-keyring                          2012.05.19                                           all          GnuPG keys of the Ubuntu archive
 ii  ubuntu-minimal                          1.325.1                                              amd64        Minimal core of Ubuntu
 ii  ucf                                     3.0027+nmu1                                          all          Update Configuration File(s): preserve user changes to config files
