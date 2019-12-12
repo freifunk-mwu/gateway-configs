@@ -4,6 +4,7 @@ Desired=Unknown/Install/Remove/Purge/Hold
 ||/ Name                                    Version                                              Architecture Description
 +++-=======================================-====================================================-============-===============================================================================
 ii  acl                                     2.2.52-1                                             amd64        Access control list utilities
+ii  acpid                                   1:2.0.21-1ubuntu2                                    amd64        Advanced Configuration and Power Interface event daemon
 ii  adduser                                 3.113+nmu3ubuntu3                                    all          add and remove users and groups
 ii  amd64-microcode                         3.20180524.1~ubuntu0.14.04.2+really20130710.1ubuntu1 amd64        Processor microcode firmware for AMD CPUs
 ii  apache2                                 2.4.7-1ubuntu4.22                                    amd64        Apache HTTP Server
