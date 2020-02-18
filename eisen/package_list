@@ -20,6 +20,7 @@ ii  bash                                    4.3-7ubuntu1.7                      
 ii  bind9-host                              1:9.9.5.dfsg-3ubuntu0.19                             amd64        Version of 'host' bundled with BIND 9.X
 ii  binutils                                2.24-5ubuntu14.2                                     amd64        GNU assembler, linker and binary utilities
 ii  bridge-utils                            1.5-6ubuntu2                                         amd64        Utilities for configuring the Linux Ethernet bridge
+ii  bsdmainutils                            9.0.5ubuntu1                                         amd64        collection of more utilities from FreeBSD
 ii  bsdutils                                1:2.20.1-5.1ubuntu20.9                               amd64        Basic utilities from 4.4BSD-Lite
 ii  build-essential                         11.6ubuntu6                                          amd64        Informational list of build-essential packages
 ii  busybox-initramfs                       1:1.21.0-1ubuntu1.4                                  amd64        Standalone shell setup for initramfs
@@ -81,6 +82,7 @@ ii  golang-1.6-go                           1.6-0ubuntu1~14.04                  
 ii  golang-1.6-src                          1.6-0ubuntu1~14.04                                   amd64        Go programming language - source files
 ii  gpgv                                    1.4.16-1ubuntu2.6                                    amd64        GNU privacy guard - signature verification tool
 ii  grep                                    2.16-1                                               amd64        GNU grep, egrep and fgrep
+ii  groff-base                              1.22.2-5                                             amd64        GNU troff text-formatting system (base system components)
 ii  grub-common                             2.02~beta2-9ubuntu1.17                               amd64        GRand Unified Bootloader (common files)
 ii  grub-gfxpayload-lists                   0.6                                                  amd64        GRUB gfxpayload blacklist
 ii  grub-pc                                 2.02~beta2-9ubuntu1.17                               amd64        GRand Unified Bootloader, version 2 (PC/BIOS version)
@@ -304,6 +306,7 @@ ii  libpcap0.8:amd64                        1.5.3-2                             
 ii  libpci3:amd64                           1:3.2.1-1ubuntu5.1                                   amd64        Linux PCI Utilities (shared library)
 ii  libpciaccess0:amd64                     0.13.2-1                                             amd64        Generic PCI access library for X
 ii  libpcre3:amd64                          1:8.31-2ubuntu2.3                                    amd64        Perl 5 Compatible Regular Expression Library - runtime files
+ii  libpipeline1:amd64                      1.3.0-1                                              amd64        pipeline manipulation library
 ii  libpixman-1-0:amd64                     0.30.2-2ubuntu1.2                                    amd64        pixel-manipulation library for X and cairo
 ii  libplymouth2:amd64                      0.8.8-0ubuntu17.2                                    amd64        graphical boot animation and logger - shared libraries
 ii  libpng12-0:amd64                        1.2.50-1ubuntu2.14.04.3                              amd64        PNG library - runtime
@@ -464,6 +467,7 @@ ii  lsof                                    4.86+dfsg-1ubuntu2                  
 ii  lvm2                                    2.02.98-6ubuntu2                                     amd64        Linux Logical Volume Manager
 ii  make                                    3.81-8.2ubuntu3                                      amd64        An utility for Directing compilation.
 ii  makedev                                 2.3.1-93ubuntu2~ubuntu14.04.1                        all          creates device files in /dev
+ii  man-db                                  2.6.7.1-1ubuntu1                                     amd64        on-line manual pager
 ii  manpages                                3.54-1ubuntu1                                        all          Manual pages about using a GNU/Linux system
 ii  manpages-dev                            3.54-1ubuntu1                                        all          Manual pages about using GNU/Linux for development
 ii  mawk                                    1.3.3-17ubuntu2                                      amd64        a pattern scanning and text processing language
